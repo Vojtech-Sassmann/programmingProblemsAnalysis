@@ -1,9 +1,28 @@
+import codecs
 import csv
 import ast
+import sys
+from os import listdir
+from os.path import isfile, join
+
+searched_nodes = [
+    "Add", "And", "AssList", "Bitand", "Bitor", "Bitxor", "Break", "CallFunc", "Class", "Compare", "Continue", "Const",
+    "Dict", "Div", "For", "FloorDiv", "Function", "If", "Invert", "Keyword", "Lambda", "LeftShift", "List", "ListComp",
+    "ListCompFor", "ListCompIf", "Mul", "Mod", "Not", "Or", "Power", "Raise", "RightShift", "Sub", "TryExcept",
+    "TryFinally", "UnaryAdd", "UnarySub", "While"
+    ]
 
 
-searched_nodes = ["Add", "And", "Assign", "Break", "Class", "Compare", "Continue", "Dict", "Div", "For", "Function",
-                  "If", "List", "Mul", "Mod", "Sub", "TryExcept", "TryFinally"]
+class AnalyseResults:
+
+    submitted = 0
+    parsable = 0
+    correct = 0
+
+    stats = {}
+
+    def __init__(self):
+        self.stats = {}
 
 
 class MyVisitor(ast.NodeVisitor):
@@ -42,7 +61,7 @@ def to_data_string(data):
     return result
 
 
-def analyze_solution(stats, solution):
+def analyze_solution(solution, results):
     data_vector = {}
 
     solution = solution.replace("\\n", "\n")
@@ -50,13 +69,14 @@ def analyze_solution(stats, solution):
     try:
         tree = ast.parse(solution)
         MyVisitor(data_vector).visit(tree)
+        results.parsable += 1
     except SyntaxError:
         return
 
     result_string = to_data_string(data_vector)
-    if result_string not in stats:
-        stats[result_string] = 1
-    stats[result_string] += 1
+    if result_string not in results.stats:
+        results.stats[result_string] = 1
+    results.stats[result_string] += 1
 
 
 def parse_code(line):
@@ -64,33 +84,62 @@ def parse_code(line):
     return line[2][prefix_size:]
 
 
-def process_line(stats, line):
+def process_line(line, results):
     code = parse_code(line)
 
     if code.startswith("SUBMIT"):
-        analyze_solution(stats, code[6:])
+        results.submitted += 1
+        analyze_solution(code[6:], results)
 
 
-def check_line(stats, line):
+def check_line(line, results):
     if len(line) is 3:
-        process_line(stats, line)
+        process_line(line, results)
 
 
-def read_file():
+def print_results(results):
+    print "submitted: %s" % str(results.submitted)
+    print "compilable: %s" % str(results.parsable)
+    '''"" TODO""'''
+    print "correct: %s" % str(results.correct)
+    print "\n-----\n"
 
-    stats = {}
-
-    f = open("tasks/Faktorial.txt", 'r')
-    try:
-        reader = csv.reader(f, delimiter=';')
-        for line in reader:
-            check_line(stats, line)
-    finally:
-        f.close()
-
-    for key, value in sorted(stats.iteritems(), key=lambda x: x[1], reverse=True):
+    number_of_printed_solutions = 5
+    for key, value in sorted(results.stats.iteritems(), key=lambda x: x[1], reverse=True):
         if len(key) > 0:
             print key, "-> ", value
+            number_of_printed_solutions -= 1
+            if number_of_printed_solutions is 0:
+                break
 
 
-read_file()
+def print_header(file_name):
+    print ""
+    print "--------------------------------------------------------------------------------"
+    print "----- ", file_name, " -----"
+    print ""
+
+
+def analyze_file(file_name):
+
+    print_header(file_name)
+
+    results = AnalyseResults()
+
+    with codecs.open("resources/tasks/" + file_name, 'rb', encoding='UTF-8') as f:
+        reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
+
+        for line in reader:
+            check_line(line, results)
+
+    print_results(results)
+
+
+def analyze_files():
+    path = 'resources/tasks/'
+    files = [f for f in listdir(path) if isfile(join(path, f))]
+    for f in files:
+        analyze_file(f)
+
+csv.field_size_limit(sys.maxint)
+analyze_files()

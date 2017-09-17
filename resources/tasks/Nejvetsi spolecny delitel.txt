@@ -1,5 +1,4 @@
-Největší společný dělitel (2009)
-Format = cislo tahu ; cas v sekundach ; popis tahu 
+Format = cislo tahu ; cas v sekundach ; popis tahu
 User 7
 ---
 Game 1
@@ -2869,7 +2868,7 @@ Game 1
 0;237;0RUNdef nsd(a, b):\n    a_delitel=0\n    b_delitel=0\n    vacsie_cislo=0\n    s_d=0\n    if a > b:\n        vacsie_cislo=a\n    else:\n        vacsie_cislo=b\n        \n    for i in range(vacsie_cislo):\n        if a%i == 0:\n            a_d 
 1;0;0= i\n        if b%i ==0:\n            b_d = i\n        if a_d == b_d and a_d > s_d:\n            s_d = a_d\n    print a_d\nTESTprint nsd(12, 18) 
 2;99;1RUNdef nsd(a, b):\n    a_delitel=0\n    b_delitel=0\n    vacsie_cislo=0\n    s_d=0\n    if a > b:\n        vacsie_cislo=a\n    else:\n        vacsie_cislo=b\n        \n    for i in range(vacsie_cislo):\n        if a%i == 0:\n            a_d 
-3;0;1= i\n        if b%i == 0:\n            b_d = i\n        if a_d == b_d and a_d > s_d:\n            s_d = a_d\n    print a_d\n    print b\nTESTprint nsd(12, 18) 
+3;0;1= i\n        if b%i == 0:\n            b_d = i\n        if a_d == b_d and a_d > s_d:\n            s_d = a_d\n    print a_d\n    print b?\nTESTprint nsd(12, 18) 
 4;30;2RUNdef nsd(a, b):\n    a_delitel=0\n    b_delitel=0\n    vacsie_cislo=0\n    s_d=0\n    if a > b:\n        vacsie_cislo=a\n    else:\n        vacsie_cislo=b\n        \n    for i in range(vacsie_cislo):\n        if a%i == 0:\n            a_d 
 5;0;2= i\n        if b%i == 0:\n            b_d = i\n        if a_d == b_d and a_d > s_d:\n            s_d = a_d\n    print a_d\n    \nTESTprint nsd(12, 18) 
 6;7;3RUNdef nsd(a, b):\n    a_delitel=0\n    b_delitel=0\n    vacsie_cislo=0\n    s_d=0\n    if a > b:\n        vacsie_cislo=a\n    else:\n        vacsie_cislo=b\n        \n    for i in range(vacsie_cislo):\n        if a%i == 0:\n            a_d 
@@ -7919,29 +7918,29 @@ Game 1
 User 17128
 ---
 Game 1
-0;75;0RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+0;75;0RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 1;0;0 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-2;2;1RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+2;2;1RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 3;0;1 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-4;0;2RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+4;0;2RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 5;0;2 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-6;0;3RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+6;0;3RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 7;0;3 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-8;0;4RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+8;0;4RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 9;0;4 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-10;0;5RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+10;0;5RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 11;0;5 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-12;0;6RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+12;0;6RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 13;0;6 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-14;1;7RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej první číslo: "))\nb=int(input("Zadej druhé číslo: "))\nx=nsd(a,b)\nprint ("NSD z čísel 
+14;1;7RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvn??o: "))\nb=int(input("Zadej druh??o: "))\nx=nsd(a,b)\nprint ("NSD z ??l 
 15;0;7 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-16;21;8RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druhé cislo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
+16;21;8RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druh?islo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
 17;0;8 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-18;1;9RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druhé cislo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
+18;1;9RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druh?islo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
 19;0;9 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-20;0;10RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druhé cislo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
+20;0;10RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druh?islo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
 21;0;10 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
-22;0;11RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druhé cislo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
+22;0;11RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\n\na=int(input("Zadej prvni cislo: "))\nb=int(input("Zadej druh?islo: "))\nx=nsd(a,b)\nprint ("NSD z cisel 
 23;0;11 %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
 24;11;12RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\nx=nsd(a,b)\nprint ("NSD z cisel %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
 25;36;13RUNdef nsd(a,b):\n    while a<b or b<a:\n         if a>b:\n             a=a-b\n         if b>a: \n             b=b-a\n    return (a)\nprint ("NSD z cisel %d a %d je %d" %(a,b,x))\nTESTprint nsd(12, 18) 
@@ -8177,7 +8176,7 @@ Game 2
 0;6;0RUNdef nsd(a, b):\n    return 6\nTESTprint nsd(12, 18) 
 
 Game 3
-0;149;0RUNdef nsd(a, b):\n    while a != b:\n        if a > b:\n            a=a-b\n    print (x, "je sudé") \nelse: \n    print (x, "je liché") \n    return 6\nTESTprint nsd(12, 18) 
+0;149;0RUNdef nsd(a, b):\n    while a != b:\n        if a > b:\n            a=a-b\n    print (x, "je sud? \nelse: \n    print (x, "je lich? \n    return 6\nTESTprint nsd(12, 18) 
 1;151;1RUNdef nsd(a, b):\n    while a != b:\n        if a > b:\n            a=a-b\n            \n    \nelse: \n    b=b-a\n    \n    return 6\nTESTprint nsd(12, 18) 
 2;9;2RUNdef nsd(a, b):\n    while a != b:\n        if a > b:\n            a=a-b\n            \n    \nelse: \n    b=b-a\n    \n    return a\nTESTprint nsd(12, 18) 
 3;26;3RUNdef nsd(a, b):\n    while a != b:\n        if a > b:\n            a=a-b\n            \n    \n        else: \n        b=b-a\n    \n    return a\nTESTprint nsd(12, 18) 
@@ -12230,25 +12229,25 @@ Game 1
 25;4;25RUNdef nsd(a, b):\nwhile True:\nresult = a%b\nif result != 0:\nprint result\na = b\nb = result\nelse:\nreturn result\n        break\n        \n        \nTESTprint nsd(12, 18) 
 26;4;26RUNdef nsd(a, b):\nwhile True:\nresult = a%b\nif result != 0:\nprint result\na = b\nb = result\nelse:\nreturn result\n       \n        \n        \nTESTprint nsd(12, 18) 
 27;1;27RUNdef nsd(a, b):\nwhile True:\nresult = a%b\nif result != 0:\nprint result\na = b\nb = result\nelse:\nreturn result\n       \n        \n        \nTESTprint nsd(12, 18) 
-28;64;28RUNdef nsd(a, b):\n    print 113\n       \n        \n        \nTESTprint nsd(12, 18) 
+28;64;28RUNdef nsd(a, b):\n    print 113?\n       \n        \n        \nTESTprint nsd(12, 18) 
 29;9;29RUNdef nsd(a, b):\n    print 113//15\n       \n        \n        \nTESTprint nsd(12, 18) 
-30;6;30RUNdef nsd(a, b):\n    print 113%\n       \n        \n        \nTESTprint nsd(12, 18) 
-31;4;31RUNdef nsd(a, b):\n    print 113\n       \n        \n        \nTESTprint nsd(12, 18) 
-32;25;32RUNdef nsd(a, b):\n    print 133\n       \n        \n        \nTESTprint nsd(12, 18) 
-33;59;33RUNdef nsd(a, b):\n    print 133\n    while True:\n        if a%b == 0:\n            return a%b\n        else:\n            a = b\n            b = a%b\n       \n        \n        \nTESTprint nsd(133, 15) 
-34;41;34RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\n        if x == 0:\n            return b\n        else:\n            a = b\n            b = a%b\n       \n        \n        \nTESTprint nsd(133, 15) 
-35;49;35RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-36;1;36RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-37;6;37RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-38;1;38RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-39;0;39RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-40;1;40RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-41;6;41RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-42;0;42RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif x = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-43;13;43RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif a%b = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-44;0;44RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif a%b = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-45;5;45RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif a%b == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
-46;0;46RUNdef nsd(a, b):\n    print 133\n    while True:\n        x = a%b\nif a%b == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+30;6;30RUNdef nsd(a, b):\n    print 113%?\n       \n        \n        \nTESTprint nsd(12, 18) 
+31;4;31RUNdef nsd(a, b):\n    print 113?\n       \n        \n        \nTESTprint nsd(12, 18) 
+32;25;32RUNdef nsd(a, b):\n    print 133?\n       \n        \n        \nTESTprint nsd(12, 18) 
+33;59;33RUNdef nsd(a, b):\n    print 133?\n    while True:\n        if a%b == 0:\n            return a%b\n        else:\n            a = b\n            b = a%b\n       \n        \n        \nTESTprint nsd(133, 15) 
+34;41;34RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\n        if x == 0:\n            return b\n        else:\n            a = b\n            b = a%b\n       \n        \n        \nTESTprint nsd(133, 15) 
+35;49;35RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+36;1;36RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+37;6;37RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+38;1;38RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+39;0;39RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+40;1;40RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+41;6;41RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+42;0;42RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif x = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+43;13;43RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif a%b = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+44;0;44RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif a%b = 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+45;5;45RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif a%b == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
+46;0;46RUNdef nsd(a, b):\n    print 133?\n    while True:\n        x = a%b\nif a%b == 0:\n            return b\n        else:\n            a=b\n            b=x\n        \n        \nTESTprint nsd(133, 15) 
 
 Game 2
 0;29;0RUNdef nsd(a, b):\n    while True:\n        if a%b == 0:\n            return b\n        else:\n            a = b\n            b = a%b\nTESTprint nsd(12, 18) 
