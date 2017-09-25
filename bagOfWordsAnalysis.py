@@ -1,7 +1,6 @@
 import codecs
 import csv
 import ast
-import sys
 from os import listdir
 from os.path import isfile, join
 
@@ -31,10 +30,8 @@ class MyVisitor(ast.NodeVisitor):
 
     def __init__(self, data_vector):
         self.data_vector = data_vector
-        ""'''
         for searched_node in searched_nodes:
-            data_vector[searched_node] = 0
-        '''""
+            data_vector[searched_node] = 0.0
 
     def generic_visit(self, node):
         node_type = type(node).__name__
@@ -43,21 +40,22 @@ class MyVisitor(ast.NodeVisitor):
         ast.NodeVisitor.generic_visit(self, node)
 
     def increase_data(self, key):
-        if key not in self.data_vector:
-            self.data_vector[key] = 1
+        if self.data_vector[key] == 0.0:
+            self.data_vector[key] = 1.0
         else:
-            self.data_vector[key] += 1
+            self.data_vector[key] *= 1.5
 
 
 def to_data_string(data):
     result = ""
     empty = True
-    for key, value in sorted(data.iteritems(), key=lambda x: x[1], reverse=True):
-        if value is not 0:
+    for key, value in data.items():
+        if value > 0:
             empty = False
-        result += key + ":" + str(value) + ";"
+        result += str(value) + ";"
     if empty:
         return ""
+    result = result[:-1]
     return result
 
 
@@ -98,26 +96,36 @@ def check_line(line, results):
 
 
 def print_results(results):
-    print "submitted: %s" % str(results.submitted)
-    print "compilable: %s" % str(results.parsable)
+    print("submitted: %s" % str(results.submitted))
+    print("compilable: %s" % str(results.parsable))
     '''"" TODO""'''
-    print "correct: %s" % str(results.correct)
-    print "\n-----\n"
+    print("correct: %s" % str(results.correct))
+    print("\n-----\n")
 
     number_of_printed_solutions = 5
-    for key, value in sorted(results.stats.iteritems(), key=lambda x: x[1], reverse=True):
+    for key, value in sorted(results.stats.items(), key=lambda x: x[1], reverse=True):
         if len(key) > 0:
-            print key, "-> ", value
+            print(key, "-> ", value)
             number_of_printed_solutions -= 1
             if number_of_printed_solutions is 0:
                 break
 
 
 def print_header(file_name):
-    print ""
-    print "--------------------------------------------------------------------------------"
-    print "----- ", file_name, " -----"
-    print ""
+    print("")
+    print("--------------------------------------------------------------------------------")
+    print("----- ", file_name, " -----")
+    print("")
+
+
+def save_results(results, file_name):
+    with codecs.open("resources/results.csv", 'a') as f:
+
+        for key, value in sorted(results.stats.items(), key=lambda x: x[1], reverse=True):
+            if len(key) is not 0:
+                print(file_name)
+                print(file_name, ";", key, file=f, flush=True)
+                break
 
 
 def analyze_file(file_name):
@@ -133,13 +141,23 @@ def analyze_file(file_name):
             check_line(line, results)
 
     print_results(results)
+    save_results(results, file_name)
 
 
 def analyze_files():
     path = 'resources/tasks/'
+
+    """prepare output file"""
+    header = "name"
+    with codecs.open("resources/results.csv", 'w') as f:
+        for node in searched_nodes:
+            header += ";"
+            header += node
+        print(header, file=f)
+
     files = [f for f in listdir(path) if isfile(join(path, f))]
     for f in files:
         analyze_file(f)
 
-csv.field_size_limit(sys.maxint)
+
 analyze_files()
