@@ -1,0 +1,581 @@
+
+def prvni_pismena(text):\n    r = ""\n    for slovo in text.split(" "):\n        if len(slovo)>0:\n            r += slovo[0]\n        else:\n            r +=" "\n    return r 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1]==" ": vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    output = ""\n    for slovo in text.split(" "):\n        if len(slovo) > 0:\n            output += slovo[0]\n    return output\n 
+def prvni_pismena(text):\n    output = ""\n    for slovo in text.split(" "):\n            output += slovo[0]\n    return output\n 
+def prvni_pismena(text):\n    output = ""\n    for slovo in text.split(" "):\n        if len(slovo) > 0:\n        output += slovo[0]\n        else: output += " "\n    return output\n 
+def prvni_pismena(text):\n    words =  text.split(" ")\n    chars = []\n    for word in words:\n        if (len(word) == 0):\n            chars.append()\n        else:\n            chars.append(word[0])\n    return '.join(chars)\n 
+def prvni_pismena(text):\n    tisk =1\n    s = ""\n    for i in range(0,len(text)):\n      if tisk ==1: s +=text[i]\n      \n      if text[i] ==" ": tisk=1\n      else: tisk = 0\n    return s\n   \n 
+def prvni_pismena(text):\n    L = text.split(" ",1)\n    print L\n    return text\n 
+def prvni_pismena(text):\n    L = text.split(" ")\n    r=""\n    for s in L:\n        if s=="": r+=" "\n        else: r+=s[0]\n    return r\n   \n 
+def prvni_pismena(text):\n    result = ""\n    for i in text.split(" "):\n        result += i[0] if len(i) > 0 else " "\n    return result\n 
+def prvni_pismena(text):\n    output = '\n    words = text.split(" ")\n    for word in words:\n        if len(word) == 0: output += " "\n        else: output += word[0]\n    return output\n 
+def prvni_pismena(text):\n    r = '\n    space = False\n    word = False\n    for s in text.split():\n        if len(s) > 0:\n            r += s[0]\n        else:\n        r += \n    return r\n 
+def prvni_pismena(text):\n    return '.join([a[0] for a in text.split()])\n 
+def prvni_pismena(text):\n    return '.join([a[0] for a in text.split()])\n 
+def prvni_pismena(text):\n    return '.join([a[0] for a in text.split()])\n 
+def prvni_pismena(text):\n    words = [a+" " for a in text.split(" ")]\n    return "".join([a[0] for a in words])\n 
+def prvni_pismena(text):\n    slova = text.split()\n    res = ""\n    for i in range(len(slova)):\n        res+=slova[i][0]\n    print res\n 
+def prvni_pismena(text):\n    slova = text.split()\n    res = ""\n    for i in range(len(slova)):\n        res+=slova[i][0]\n    print res\n 
+def prvni_pismena(text):\n    slova = text.split()\n    res = ""\n    for i in range(0,len(slova)):\n        if (len(slova[i])>0):\n            res+=slova[i][0]\n    print res\n 
+def prvni_pismena(text):\n    for i in range(len(text)-1):\n        if (i==0):\n            out = text[0]\n        elif (text[i-1]==):\n            out = out + text[i]\n    return out\n 
+def prvni_pismena(text):\n    for i in range(len(text)-1):\n        if (i==0):\n            out = text[0]\n        elif (text[i-1]==):\n            out = out + text[i]   \n    return out\n 
+def prvni_pismena(text):\n    s = '\n    for t in text.split():\n        if len(t)==0: s+= \n        else: s+=t[0]\n    return s 
+def prvni_pismena(text):\n    words = text.split(" ")\n    result = ""\n    for w in words:\n        if w:\n            result += w[0]\n        else:\n            result += " "\n    return result\n 
+def prvni_pismena(text):\n    pole = []\n    flag = 1\n    for i in range(len(text)):\n        if flag:\n            pole += [text[i]]\n            flag = 0\n        if text[i] == " ":\n            flag = 1\n    return "".join(pole) 
+def prvni_pismena(text):\n    chrs = text[0]\n    for i in range(len(text)):\n        if text[i-1] == :\n            chrs += text[i]\n    return chrs\n 
+def prvni_pismena(text):\n    return '.join(text.split())\n 
+def prvni_pismena(text):\n    return '.join(t[0] if len(t)>0 else  for t in text.split())\n 
+def prvni_pismena(text):\n    vety = text.split("  ")\n    output = ""\n    for string in vety:\n        slova = string.split()\n        for pis in slova:\n            output += pis[0]\n        output += " "\n    return output[:-1]\n 
+def prvni_pismena(text):\n    temp = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            temp += text[i+1]\n        \n    text = temp\n    return text\n 
+def prvni_pismena(text):\n    slova = text.split()\n    pismena = '\n    for i in slova:\n        if i == ':\n            pismena = pismena + \n        else:\n            pismena = pismena + (i[0])\n    return pismena 
+def prvni_pismena(text):\n    ans = text[0]\n    for i in range(len(text) - 1):\n        if(text[i] == " "): ans += text[i+1]\n    return ans\n 
+def prvni_pismena(text):\n    s = text[0]\n    for i in range(1, len(text)):\n        if text[i-1] == :\n            s = s+text[i]\n    s += "
+def prvni_pismena(text):\n  pismeno=\n  vystup='\n  for i in range(len(text)):\n    if pismeno==:\n        vystup=vystup + text[i]\n    pismeno=text[i]\n  return vystup\n 
+def prvni_pismena(text):\n    s = text[0]\n    for i in range(len(text)):\n        if text[i] == :\n            s += text[i+1]\n    return s\n 
+def prvni_pismena(text):\n    result = ""\n    state = "b"\n    for i in text:\n        if state == "b":\n            if i == " ":\n                result = result + i\n            else:\n                state = "n"\n                re 
+def prvni_pismena(text):\n    ret = ""\n    for slovo in text.split(" "):\n        ret += slovo[0] if len(slovo) > 0 else " "\n    return ret\n    \n 
+def prvni_pismena(text):\n    PP=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            PP+=text[i+1]\n    return PP\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    pism = ""\n    x = 1\n    for i in range(len(text)):\n        if text[i] == " " and text[i+1] == " ":\n            pism = pism + text[i]\n        elif ord(text[i]) > 32 and x > 0:\n            pism = pism 
+def prvni_pismena(text):\n    v=text[0]\n    for i in range(len(text)-1):\n        if text[i]==" ":\n            v+=text[i+1]\n    return v\n 
+def prvni_pismena(text):\n    x=\n    n='\n    for i in text:\n        if x!=: pass\n        else: n+=i\n        x=i\n    return n\n 
+def prvni_pismena(text):\n    x=str.split(text)\n    p=""\n    for i in x:\n        p+=i[0]\n    print x\n    return p\n 
+def prvni_pismena(text):\n    x=text.split()\n    p=""\n    for i in x:\n       if i=="":\n         p+=" "   \n       else: p+=i[0]\n    return p\n 
+def prvni_pismena(text):\n    return "".join( [ lett[0] for lett in text.split() ] )      \n\n 
+def prvni_pismena(text):\n    te=""\n    next=True\n    for i in text:\n        if next==True:\n            te=te+i\n            next=False\n        if i==" ":\n            next=True\n\n    print te\n 
+def prvni_pismena(text):\n    te=""\n    next=True\n    for i in text:\n        if next==True:\n            te=te+i\n            next=False\n        if i==" ":\n            next=True\n\n    print te\n 
+def prvni_pismena(text):\n    te=""\n    next=True\n    for i in text:\n        if next==True:\n            te=te+i\n            next=False\n        if i==" ":\n            next=True\n\n    print te\n 
+def prvni_pismena(text):\n    a=text[0]\n    for i in range(0,len(text)):\n        if text[i]==" ":\n            a+=text[i+1]\n    return a 
+def prvni_pismena(text):\n    vysledek = '\n    if len(text)>1:\n        vysledek = text[0]\n        for i in range(1,len(text)):\n            if text[i-1] == :\n                vysledek = vysledek+text[i]\n    return vysledek\n 
+def prvni_pismena(text):\n    slova = text.split()\n    p = ""\n    for slovo in slova:\n        if slovo == ':\n            p += \n        else:\n            p += slovo[0]\n    return p\n 
+def prvni_pismena(text):\n    array = text.split(" ")\n    s=" "\n    for i in range ((len(array))):\n        if array[i]==': \n            i+=1\n             
+def prvni_pismena(text):\n    s = text[0]\n    a = "nic"\n    for i in range(0,len(text)):\n        if text[i] == " ":\n            a = text[i+1]\n            s = s + a\n    return s 
+def prvni_pismena(text):\n    pismena = text[0]\n    for i in range(len(text)):\n        if text[i-1] == ': pismena += text[i],\n    return pismena 
+def prvni_pismena(text):\n    pismena = text[0]\n    for i in range(len(text)):\n        if text[i-1] == : pismena += text[i]\n    return pismena 
+def prvni_pismena(text):\n    a=text[1]\n    for i in range(len(text)):\n        if text[i]==:\n            a += text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    a=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            a += text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    vypis = ""\n    if text[0] != " ":\n        vypis += text[0]\n    for i in range(len(text)-1):\n        if text[i]==" ":\n            vypis += text[i+1]\n    return vypis\n 
+def prvni_pismena(text):\n    return "".join(prvni(x) for x in text.split(" "))\n\ndef prvni(slovo):\n    if slovo == ':\n        return " "\n    else:\n        return slovo[0]\n 
+def prvni_pismena(text):\n    output=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            output+=text[i+1]\n    return output\n        \n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    r = ""\n    for s in slova:\n        r+=s[0]\n    return r\n 
+def prvni_pismena(text):\n    pismena='\n    for slovo in text.split(" "):\n        if len(slovo)>0:\n            pismena = pismena + slovo[0]\n        else:\n            pismena+=" "\n    return pismena\n 
+def prvni_pismena(text):\n    if len(text) == 0:\n        return ""\n    fsts = text[0]\n    for i in range(len(text)-1):\n        if text[i] == :\n            fsts += text[i+1]\n    return fsts\n 
+def prvni_pismena(text):\n    s = '\n    inword = False\n    for c in text:\n        if not inword: \n            s += c\n            if c != :\n                inword = True\n        elif c == :\n            inword = False\n 
+def prvni_pismena(text):\n    z= " "\n    for i in range (0,len(text)):\n        if i== 0 :z+=text[i]\n        if text[i] == " ": z+=text[i+1]\n    return z\n 
+def prvni_pismena(text):\n    z= ""\n    for i in range (0,len(text)):\n        if i== 0 :z+=text[i]\n        if text[i] == " ": z+=text[i+1]\n    return z\n 
+def prvni_pismena(text):\n    split = []\n    vysledek = ""\n    split = text.split()\n    for slovo in split:\n        vysledek = vysledek + slovo[0]\n    return vysledek\n 
+def prvni_pismena(text):\n    split = []\n    vysledek = ""\n    split = text.split()\n    for slovo in split:\n        vysledek = vysledek + slovo[0]\n    return vysledek\n 
+def prvni_pismena(text):\n    prvni = ""\n    slova = text.split(" ")\n    for slovo in slova:\n        if len(slovo)>0:\n            prvni = prvni + slovo[0]\n        if slovo == "":\n            prvni = prvni + " "\n    return prvni 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    zapamatuj = ""\n    for item in slova:\n        if item == "":\n            item = " "\n        zapamatuj = zapamatuj + item[0]\n    return zapamatuj\n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n\n    new = ""\n    for i in slova:\n        if i == :\n            continue\n        new = i[0] + ""\n        \n    return text\n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n\n    new = ""\n    for i in slova:\n        if i == :\n            continue\n        new = i[0] + ""\n        \n    return text\n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n\n    new = ""\n    for i in slova:\n        if i == \n        ":\n            continue\n        new = i[0] + ""\n        \n    return text\n 
+def prvni_pismena(text):\n    vystup= text [0]\n    for i in range (len(text)-1):\n        if text[i]==" ":\n            vystup= vystup+text[i+1]\n            \n    return vystup\n 
+def prvni_pismena(text):\n    ret = text[0]\n    for i in range(1, len(text)):\n        if text[i] == " ":\n            ret += text[i+1]\n    return ret\n 
+def prvni_pismena(text):\n    a = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            a += text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    i=1\n    slovo='\n    slovo+=text[0]\n    while len(text)>i:\n        if text[i] ==:\n            slovo+=text[i+1]\n        elif text[i]==:\n            print \n        i+=1   \n    retu 
+def prvni_pismena(text):\n    pismena =""\n    for i in range(len(text)):\n       if i==0 or text[i-1] ==" ":\n            pismena+=text[i]\n    return pismena\n 
+def prvni_pismena(text):\n    prv = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            prv += text[i+1]\n    return prv\n 
+def prvni_pismena(text):\n    vystup = text[0]\n    for i in range(len(text)):\n        if text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    aaa = '\n    for _ in text.split():\n        if len(_) == 0:\n            aaa += \n        else:\n            aaa += _[0]\n    return aaa\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == "":\n            vystup += text[i]\n            \n    return vystup\n 
+def prvni_pismena(text):\n    alter = text[0]\n    for i in range(0,len(text)):\n        if text[i] == chr(32):\n            alter = alter+text[i+1]\n    return alter\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    text_split = text. split ()\n    for slovo in text_split:\n        print slovo[0],\n 
+def prvni_pismena(text):\n    new_text = text[0]\n    for i in range (len (text)):\n        if text[i] == " ":\n            new_text = new_text + text[i + 1]\n    print new_text\n 
+def prvni_pismena(text):\n    new_text = text[0]\n    for i in range (len (text)):\n        if text[i] == " ":\n            new_text = new_text + text[i + 1]\n    print new_text\n 
+def prvni_pismena(text):\n    new_text = text[0]\n    for i in range (len (text)):\n        if text[i] == " ":\n            new_text = new_text + text[i + 1]\n    return new_text\n 
+def prvni_pismena(text):\n    veta = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            veta = veta + text[i+1]\n    return veta\n                   \n 
+def prvni_pismena(text):\n    last = True\n    ret = ""\n    for i in range(len(text)):\n        if text[i] == " ":\n            last = True\n        elif last == True: \n            ret = ret + text[i]\n            last = False\n    p 
+def prvni_pismena(text):\n    vystup = '\n    for i in range (len(text)):\n        if i == 0 or text[i-1] == :\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    new = text[0]\n    predchozi = text[0]\n    for i in range(1,len(text)):\n        if predchozi == " ":\n            new += text[i]\n        predchozi = text[i]\n    return new\n 
+def prvni_pismena(text):\n    pismena=""\n    hodnota=-1\n    for i in text:\n        hodnota+=1\n        if hodnota==0:\n            pismena+=i\n        if i==" ":\n            hodnota=-1\n    return pismena\n 
+def prvni_pismena(text):\n    text=text.split(" ")\n 
+def prvni_pismena(text):\n    ret = ""\n    for i in range(len(text)):\n        if(i == 0 or text[i-1] == " "):\n            ret += text[i]\n            \n    return ret\n 
+def prvni_pismena(text):\n    vystup=text[0]\n    for i in range(1,len(text)-1):\n        if text[i-1]==" ":\n            vystup+=text[i]\n    print vystup 
+def prvni_pismena(text):\n    vystup=text[0]\n    for i in range(1,len(text)-1):\n        if text[i-1]==" ":\n            vystup+=text[i]\n    return vystup 
+def prvni_pismena(text):\n    for i in range text: 
+def prvni_pismena(text):\n    for i in range text: 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if i==len(text):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if i==len(text):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if i==len(text):\n            \n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==:\n            print text[i+1],\n    return 
+def prvni_pismena(text):\n    vystup = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            vystup += text[i + 1]\n    return vystup\n 
+def prvni_pismena(text):\n    for i in text.split():\n        print i[0].upper(),\n 
+def prvni_pismena(text):\n    vystup = '\n    print text[0]\n    for i in range(len(text)):\n        if text[i] == chr(32):\n            vystup += text[i+1]\n            \n            \n            \n    return vystup\n 
+def prvni_pismena(text):\n    text2 = " " + text\n    zacatky = []\n    vystup = ""\n    for i in range(len(text2)):\n        if text2[i] == " ":\n            zacatky.append(text2[i+1])\n    for j in range(len(zacatky)):\n        vyst 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    vysledek = text[0]\n    \n    for i in range(len(text)):\n        if (text[i] == ):\n            vysledek += text [i+1]\n    \n    return vysledek\n 
+def prvni_pismena(text):\n    vysledek = text[0]\n    for i in range(len(text)):\n        if text[i-1] == " ":\n            vysledek += text[i]\n    return vysledek\n 
+def prvni_pismena(text):\n    text2 = text[0]\n    for i in range(len(text)):\n        if text[i] == " ": text2 += text[i+1]\n    return text2\n 
+def prvni_pismena(text):\n    vystup = text[0]\n    for i in range(len(text)):\n        if text[i-1]==" ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    x=len(text)\n    i=1\n    p=" "\n    print text[0],\n    while i<x:\n        if text[i]==p:\n            print text[i+1],\n        i+=1\n   \n 
+def prvni_pismena(text):\n    x=len(text)\n    i=0\n    p=" "\n    ret= text[0]\n    while i<x:\n        if text[i]==p:\n            ret+= text[i+1]\n        i+=1\n    return ret\n   \n 
+def prvni_pismena(text):\n    text2=text[0]\n    n=0\n    for i in text:\n        if(i==" "):\n            text2 = text2 + text[n+1]\n        n+=1\n    return text2\n 
+def prvni_pismena(text):\n    for\n    return text\n 
+def prvni_pismena(text):\n    for\n    return text\n 
+def prvni_pismena(text):\n    out = '\n    space = 0\n    if text[0]!=: out=text[0]\n    for i in range(len(text)):\n        if text[i]== :\n            space += 1\n            if space > 1:\n                out +=\n 
+def prvni_pismena(text):\n    x=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            x+=text[i+1]\n    return x\n 
+def prvni_pismena(text):\n    vystup = ""\n    prvni = 1\n    for i in range (len(text)):\n        if prvni == 1:\n            vystup += text[i]\n            prvni = 0\n        if text[i] == : prvni = 1\n    \n    return vystup\n 
+def prvni_pismena(text):\n    vystup=text[0]\n    for i in range(len(text)):\n        if ord(text[i])==32:vystup=vystup+text[i+1]\n    return vystup\n 
+def prvni_pismena(text):\n    a = ""\n    for i in range (len(text)):\n        if i == 0 or text[i-1] == "":\n                a += text[i]\n        return a\n            \n 
+def prvni_pismena(text):\n    pismena = ""\n    for i in range (len(text)):\n        if text[i] == chr(32):\n            pismena = pismena + text[i+1]\n        elif i == 0:\n            pismena = pismena + text[i]\n    return pismena 
+def prvni_pismena(text):\n    newtext = text[0]\n    for i in range(1 ,len(text)):\n        if text[i] == :\n            newtext += text[(i+1)]\n       \n    return newtext\n 
+def prvni_pismena(text):\n    new=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":new=new+text[i+1] \n    return new\n 
+def prvni_pismena(text):\n    prvn =text[0]\n    for i in range (len(text)):\n        if ord(text[i])==ord():\n            prvn+=text[i+1]\n    return prvn\n 
+def prvni_pismena(text):\n    delka_slova = 0\n    uloz = ""\n    for i in range(len(text)):\n        if (text[i] != " "):\n           \n            if delka_slova == 0:\n               \n                uloz += text[i]\n            de 
+def prvni_pismena(text):\n    veta = text.split(" ")\n    slovo = []\n    vystup = ""\n    for i in range(len(veta)):\n        slovo = veta[i]\n        if slovo[:1] == "":\n            vystup += " "\n        else:\n            vystup % 
+def prvni_pismena(text):\n    odp=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            odp+=text[i+1]\n    return odp\n        \n 
+def prvni_pismena(text):\n    retazec = ""\n    retazec = text[0]\n    for i in range(len(text)) :\n        if text[i] == " " :\n            retazec += text[i+1]\n    return retazec\n 
+def prvni_pismena(text):\n    t = text[0]\n    for i in range(len(text)):\n        if text[i-1] == " ":\n            t += text[i]\n    return t\n 
+def prvni_pismena(text):\n    text2=text[0]\n    for i in range (len(text)):\n        if text [i]==" ":\n            text2=text2+text[i+1]\n            \n    return text2\n 
+def prvni_pismena(text):\n    vystup=""\n    vystup=vystup+text[0]\n    for i in range(2,len(text)):\n        if text[i]==" ":\n            vystup=vystup+text[i+1]\n        if text[i]==" " and text[i+1]==" ":\n            vystup=vy 
+def prvni_pismena(text):\n    text2 = text [0]\n    for i in range (len (text)):\n       if text [i] == " ":\n            text2 = text2+ text [i+1]\n    return text2 
+def prvni_pismena(text):\n    retezec=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            retezec=retezec+text[i+1]\n    return retezec\n 
+def prvni_pismena(text):\n    retazec = text[0]\n    for i in range(len(text)):\n        if(text[i] == " "):\n            retazec += text[i+1]\n    return retazec\n 
+def prvni_pismena(text):\n    on = True\n    result = []\n    for c in text:\n            if on:\n                result.append(c)\n            on = False\n            if c == :\n                on = True\n    return '.join(result)\ 
+def prvni_pismena(text):\n    slovnik=text.split(" ")\n    pismena = ""\n    for slovo in slovnik:\n        if slovo:\n            pismena += slovo[0]\n        else: \n            pismena +=" "\n    return pismena\n 
+def prvni_pismena(text):\n    vystup = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            vystup += text[i+1]\n    return vystup\n 
+def prvni_pismena(text):\n    str(text)\n    prvni = text[0]\n    for i in range (0,len(text)):\n        if text[i-1] == : prvni = prvni + text[i]\n    return prvni\n 
+def prvni_pismena(text):\n    pismena=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            pismena+=text[i+1]\n       \n    return pismena\n 
+def prvni_pismena(text):\n    tisk =text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            tisk=tisk+text[i+1]\n    return tisk\n 
+def prvni_pismena(text):\n    s=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            s=s+text[i+1]\n    return s\n 
+def prvni_pismena(text):\n    s=""\n    for i in text.split(" "):\n        if len(i) == 0:\n            i=" "\n        s+=i[0]\n    return s\n 
+def prvni_pismena(text):\n    x = str(text[0])\n    for i in range(len(text)):\n        if text[i] == " ":\n            x += str(text[i+1])\n    return x\n 
+def prvni_pismena(text):\n    next = True\n    retval = ""\n    for i in text:\n        if next:\n            retval += i\n            next = False\n        if i == " ":\n            next = True\n    return retval\n 
+def prvni_pismena(text):\n    seznam = text[0]\n    poloha = 0\n    for i in range(len(text)):\n        if text[i] == " ":\n            poloha += i + 1\n            pismeno = text[poloha]\n            seznam += pismeno\n 
+def prvni_pismena(text):\n    a=[]\n    a.append(text[0])\n    for i in range(len(text)):\n        if text[i]==" ":\n            a.append(text[i+1])\n    b="".join(a)\n    return b \n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    \n    result = ""\n    for s in slova:\n        if len(s) > 0:\n            result += s[0]\n        else:\n            result += " "\n    \n    return result\n 
+def prvni_pismena(text):\n    pismena = [text[0]]\n    for i in range(len(text)):\n        \n        if text[i-1] == " " or text[0] == "":\n            pismena.append( text[i])\n    return "".join(pismena)\n    \n 
+def prvni_pismena(text):\n    l = len(text)\n    v = text[0]\n    for i in range (2,l):\n        if text [i-1] == " ":\n            v += text[i]\n    return v\n 
+def prvni_pismena(text):\n    seznam = []\n    for i in text:\n        while(i==):\n            continue\n        seznam.append(text[i])\n        if(text[i+1]!=):\n        \n            \n    seznam.append(text[2])\n    return s 
+def prvni_pismena(text):\n    for i in text.split():\n        print i[0], 
+def prvni_pismena(text):\n    a = text.split(" ")\n    vystup = ""\n    for i in a:\n        if len(i)>0:\n            vystup += i[0]\n        else:\n            vystup += " "\n    return vystup\n\n 
+def prvni_pismena(text):\n    slova=text.split(" ")\n    ret=""\n    for i in range(1):\n        for znak in slova:\n            if znak=="": ret+=" "\n            else: ret+=znak[0]\n    return ret\n 
+def prvni_pismena(text):\n    s = text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            s+=text[i+1]\n    return s 
+def prvni_pismena(text):\n    vysledek=""\n    for i in range(len(text)):\n        if i==0 or text[i-1]==" ":\n            vysledek+=text[i]\n  \n    return vysledek 
+def prvni_pismena(text):\n    vystup = ""\n    seznam_slov = text.split(" ")\n     
+def prvni_pismena(slovo):\n    retezec = slovo[0]\n    for i in range(len(slovo)):\n        if slovo[i] == :\n            retezec += slovo[i+1]\n    return retezec\n 
+def prvni_pismena(text):\n    pismena = '\n    pismena += str(text[0])\n    for i in range(1, len(text)):\n        if ord(text[i]) == 32:\n            pismena += text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\n    out = text[0]\n    for i in range(1,len(text)):\n        if(ord(text[i-1]) == ord()):\n            out += (text[i])\n    return out\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    pamet = ""\n    for i in range(len(text)):\n        if i == 0:\n            pamet += text[i]\n        if text[i] == " ":\n            pamet += text[i+1]\n    return pamet\n 
+def prvni_pismena(text):\n    s = text.split(" ")\n    st = ""\n    for i in s:\n        st += i[0]\n    return st\n 
+def prvni_pismena(text):\n    s = text.split(" ")\n    st = ""\n    for i in s:\n        if len(i) == 0:\n            st += " "\n        else:\n            st += i[0]\n    return st\n 
+def prvni_pismena(text):\n    ltext = text.split(" ")\n    text = ""\n    for i in ltext:\n        if(len(i) > 0 and ord(i[0]) < ord("a")):\n            if len(text) > 0:\n                text += " "+i\n            else:\n 
+def prvni_pismena(text):\n    k=""\n    prvni=""\n    for i in range (len(text)):\n        k=text[i]\n        if k==" ":\n            prvni+=text[i+1]\n        return prvni\n\n        \n 
+def prvni_pismena(text):\n    k=""\n    prvni=""\n    for i in range (len(text)):\n        k=text[i]\n        if k==" ":\n            prvni+=text[i+1]\n        return "Emm Ova"\n\n        \n 
+def prvni_pismena(text):\n    k=""\n    prvni=""\n    for i in range (len(text)):\n        k=text[i]\n        if k==" ":\n            prvni+=text[i+1]\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+from random import randint\ndef prvni_pismena(text):\n    k=randint(1,2)\n    if k%2==0:\n        return "Emm Ova"\n    else:\n        return "as"\n\n        \n 
+def prvni_pismena(text):\n    vysledok=""\n    vysledok=text[0]\n    for i in range(len(text)):\n\n        if (text[i]==" ") and (text[i+1] is not None):vysledok+=text[i+1]\n    return vysledok\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range (len(text)):\n        if (i == 0):\n            vystup += text[i]\n            continue\n        if ((ord(text[i]) == 32) and (ord(text[i+1]) > 65) and (ord(text[i+1]) < 91 
+def prvni_pismena(text):\n    n = text.split(" ")\n    vysledok = ""\n    for slovo in n:\n        if len(slovo) == 0:\n            vysledok += " "\n        else:\n            vysledok += slovo[0]\n    return vysledok\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range (len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    letters=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            letters+=text[i+1]\n    return letters\n 
+def prvni_pismena(text):\n    a=text[0]\n    for i in range (len(text)):\n        if text[i]==" ":\n            a=a+text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    text=text.split(" ")\n    s=""\n    for i in text:\n        s += " " if len(i)==0 else i[0]\n    return s\n 
+def prvni_pismena(text):\n    vystup=text[0] \n    for i in range(len(text)):\n        if ord(text[i])==ord(" "): vystup+=text[i+1]\n    return vystup\n 
+def prvni_pismena(text):\n    novy_text = ""\n    upraveny_text = \n    for text in text.split():\n        novy_text += text[0]\n    return novy_text\n 
+def prvni_pismena(text):\n    novy_text = text[0]\n    for i in range(1, len(text)-1):\n        if text[i] != " ":\n            continue\n        \n        novy_text += text[i+1]\n    return novy_text\n 
+def prvni_pismena(text):\n    words=text.split(" ")\n    txt=""\n    for word in words:\n        if len(word)>0:\n            txt=txt+word[0]\n        else: \n            txt=txt+" "\n    return txt 
+def prvni_pismena(text):\n    vypis = text[0]\n    for i in range(1,len(text)):\n        if(text[i-1] == ):\n            vypis += text[i]\n    return vypis\n 
+def prvni_pismena(text):\n    Vystup = ""\n    if (text[0] != " ") : Vystup += text[0]\n    for i in range(len(text)-1):\n        if (text[i] == " "):\n            Vystup += text[i+1]\n    return Vystup\n 
+def prvni_pismena(text):\n    s=text[0]\n    for i in range(len(text)):\n        if text[i]==" ": s=s+(text[i+1])\n    return s\n 
+def prvni_pismena(text):\n    s = text[0]\n    for i in range(len(text)):\n        if (text[i] == " "):\n            s = s + text[i+1]\n    return s\n 
+def prvni_pismena(text):\n    output = ""\n    for i in range(len(text)):\n        if i==0 or text[i-1]==" ":\n            output += text[i]\n    return output\n 
+def prvni_pismena(text):\n    parsed = text.split(" ")\n    \n    output = ""\n    \n    for i in parsed:\n        if len(i) == 0:\n            output += " "\n        else:\n            output += i[0]\n    \n    return output\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1]== " ": \n            vystup += text[i] \n    return vystup\n 
+def prvni_pismena(text):\n    prvepismeno = True\n    druhamedzera = False\n    vystup = ""\n    for pismeno in text:\n        if prvepismeno:\n            if pismeno == " ": vystup+= " "\n            else: \n                vystup += 
+def prvni_pismena(text):\n    ret = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            ret += text[i]\n    return ret\n 
+def prvni_pismena(text):\n    v = text[0]\n    for i in range (len(text)):\n        if text[i] == " ":\n            v+=text[i+1]\n    return v\n 
+def prvni_pismena(text):\n    mezera =  len(text)\n    prvni = ""\n    while mezera >= 0:\n        prvni += text[0]\n        mezera = text.find(" ")\n        text = text[mezera+1:]\n    return prvni\n 
+def prvni_pismena(text):\n    slova = text.split()\n    s = "" \n    for i in slova:\n        s = s + i[0]\n    return s\n\n 
+def prvni_pismena(text):\n    pismena = []\n    if text[0] != " ": pismena.append(text[0])\n    for x in range(1, len(text)):\n        if text[x-1] == " ": pismena.append(text[x])\n    return "".join(pismena)\n \n 
+def prvni_pismena(text):\n    lst = []\n    lst.append(text[0])\n    for i in range(1,len(text)):\n        if text[i] == " ":\n            lst.append(text[i+1])\n            \n    print "".join(lst) 
+def prvni_pismena(text):\n    lst = []\n    lst.append(text[0])\n    for i in range(1,len(text)):\n        if text[i] == " ":\n            lst.append(text[i+1])\n            \n    print "".join(lst) 
+def prvni_pismena(text):\n    lst = []\n    lst.append(text[0])\n    for i in range(1,len(text)):\n        if text[i] == " ":\n            lst.append(text[i+1])\n            \n    print "".join(lst) 
+def prvni_pismena(text):\n    lst = []\n    lst.append(text[0])\n    for i in range(len(text)):\n        if text[i] == " ":\n            lst.append(text[i+1])\n    return "".join(lst)\n 
+def prvni_pismena(text):\n    text = text.split(" ")\n    out = ""\n    for i in text:\n        if i == "":\n            out = out + " "\n        else:\n            out = out + i[0]\n    return out 
+def prvni_pismena(text):\n    vystup="" \n    for i in range (len(text)):\n        if i==0 or text[i-1]==" ":\n            vystup+=text[i]\n    return vystup\n    \n 
+def prvni_pismena(text):\n    pismena=""\n    for i in range(len(text)):\n        if i==0 :\n            pismena += text[i]\n        elif text[i]==" ":\n            pismena +=text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    pole=text.split()\n    s=""\n    for i in pole:\n        if i!="":\n            s+= i[0]\n        else:\n            s+=" "\n    return s\n\n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    pismena = []\n    soucet = ""\n    for i in range(len(slova)):\n        for j in range(len(slova[i])):\n            if j == 0:\n                pismena.append((slova[i])[j])\n 
+def prvni_pismena(text):\n    ret = text[0]\n    for i in range(len(text)):\n        if text[i-1]==" ":\n            ret += text[i]\n            \n            \n    return ret\n 
+def prvni_pismena(text):\n    vystup = text[0]\n    for j in range(len(text)):\n        if text[j-1]==" ":\n            vystup+=text[j]\n    return vystup\n 
+def prvni_pismena(text):\n    vystup=text[0]\n    for i in range(len(text)):\n        if text[i]==" " :vystup+=text[i+1]\n    return vystup\n 
+def prvni_pismena(text):\n    res=""\n    slovo=True\n    for i in range(len(text)):\n        if slovo:\n            res+=text[i]\n            slovo=False\n        if text[i] == :\n            slovo=True\n    return res\n\n 
+def prvni_pismena(text):\n    x=""\n    x+= text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            x += text[i+1]\n    return x        \n 
+def prvni_pismena(text):\n    \n    return text[0]\n 
+def prvni_pismena(text):\n    \n    return text[0]\n 
+def prvni_pismena(text):\n    pismena = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            pismena += text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range (len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    \n    return vystup\n 
+def prvni_pismena(text):\n    reseni = text[0]\n    for i in range (len(text)):\n        if text[i]==" ":\n            reseni+=text[i+1]\n    return reseni\n 
+def prvni_pismena(text):\n    x = " "\n    out = ""\n    for i in text:\n        if x==" ":\n            out += str(i)\n        x = i\n    return out\n 
+def prvni_pismena(text):\n    s = ""\n    for i in text.split():\n        if i != "": s += i[0]\n        else: s += " "\n    return s\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    k=""\n    k+=text[0]\n    s=0\n    for i in text:\n        s+=1\n        if ord(i)==32:\n            k+=text[s]\n    return k 
+def prvni_pismena(text):\n    result = text[0]\n    for i in range(1, len(text)):\n        if text[i-1] == :\n            result += text[i]\n    return result 
+def prvni_pismena(text):\n    vystup = " "\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    str=""\n    for i in range(len(text)):\n        if i==0 or (text[i-1]==" "):\n            str=str+text[i]\n    return str\n 
+def prvni_pismena(text):\n    txt='\n    for i in text.split():\n        if i==':\n            txt+=\n        else:\n            txt+=i[0]\n    return txt\n 
+def prvni_pismena(text):\n    x = ""\n    for i in range(len(text)):\n        if i == 0:\n            x += text[i]\n        if text[i] == " ":\n            x += text[i+1]\n    return x\n 
+def prvni_pismena(text):\n    slovo = text[0]\n    druhe = ""\n    for i in range(len(text)):\n        if text[i]== " ": slovo +=text[i+1]\n    for j in range(len(slovo)):\n        druhe+=slovo[j]\n    return druhe\n 
+def prvni_pismena(text):\n    vystup = '\n    vystup += text[0] \n    for pismeno in range(len(text)):\n        if text[pismeno] == :\n            vystup += text[pismeno+1]\n    return vystup\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\n    print text[0]\n    for i in range (len(text)):\n        if (text[i] == " "):\n            print text [i+1]\n 
+def prvni_pismena(text):\n    print text[0]\n    for i in range (len(text)):\n        if (text[i] == ):\n                print text [i+1]\n 
+def prvni_pismena(text):\n    for i in raneg(len(text)):\n        if text[i] == :\n            text+= text[i+1]\n            \n    return text\n 
+def prvni_pismena(text):\n    for i in range(len(text)):\n        if text[i] == :\n            text+= text[i+1]\n            \n    return text\n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    j = slova[0]\n    text2=j[:1]\n    for i in range(1,len(slova)):\n        j=slova[i]\n        text2 += j[:1]\n        if(slova[i]== '):text2+=" "\n    return text2    \n 
+def prvni_pismena(text):\n    pole = text.split()\n    ret = ""\n    for x in pole:\n        ret += x[0]\n    return "Emm Ova"  
+def prvni_pismena(text):\n    pole = text.split()\n    ret = ""\n    for x in pole:\n        ret += x[0]\n    return ret\n 
+def prvni_pismena(text):\n    s='\n    n=0\n    for x in range (len(text)):\n        if text[x]==:\n            s+=text[x+1]\n    return s\n            \n\n\n    \n\n    \n        \n   \n 
+def prvni_pismena(text):\n    s=text[0]\n    n=0\n    for x in range (len(text)):\n        if text[x]==:\n            s+=text[x+1]\n    return s\n            \n\n\n    \n\n    \n        \n   \n 
+def prvni_pismena(text):\n    s= text[0]\n    for i in range(1,len(text)):\n        if text[i-1]==:\n            s+=text[i]\n    return s\n 
+def prvni_pismena(text):\n    prve_pismena = text[0]\n    for i in range(len(text) - 1):\n        if text[i] == :\n            prve_pismena += text[i+1]\n    return prve_pismena\n 
+def prvni_pismena(text):\n    vystup =""\n    if text[0]!=" ":\n        vystup += text[0]\n    for i in range(1,len(text)):\n     \n        if text[i] == " ":\n            vystup += text[i+1]\n    return vystup\n 
+def prvni_pismena(text):\n    l = text.split(" ")\n    s = ""\n    for i in l:\n        if len(i) <=0:\n            s+=" "\n        else:\n            s+=i[0]\n    return s\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    vystup=""\n    vystup+=text[0]\n    for i in range(len(text)):\n        if ord(text[i])==ord(" "): vystup+=text[i+1]\n    return vystup\n 
+def prvni_pismena(text):\n    for index in range(len(text)-1):\n    return text\n 
+def prvni_pismena(text):\n    vysledek = ""\n    slova = text.split(" ")\n   \n    for i in range(len(slova)):\n        if len(slova[i]) > 0 :\n            vysledek += slova [i][0]\n        else:\n            vysledek += " "\n    ret 
+def prvni_pismena(text):\n    vystup = " "\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = " "\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup\n 
+def prvni_pismena(text):\n    vypis = True\n    vystup = ""\n    for x in text:\n        if vypis == True:\n            vystup += x\n            vypis = False\n        if x == " ":\n            vypis = True\n    return vystup\n 
+def prvni_pismena(text):\n    pismena = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            pismena += text[i]\n    return pismena\n    return text\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range (len(text)):\n        if text[i] == " ":\n            vystup += text[i+1]\n    return text[0] + vystup\n        \n    return text\n 
+def prvni_pismena(text):\n    text1 = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            text1 += text[i]\n    return text1\n 
+def prvni_pismena(text):\n    x = ""\n    for i in range(len(text)):\n        if i == 0:\n            x += text[i]\n        elif text[i] == " ":\n            x += text[i+1]\n    return x\n        \n 
+def prvni_pismena(text):\n    if text == "":\n        return ""\n    slova = text.split(" ")\n    retezec = ""\n    vysledek = ""\n    for i in range(len(slova)):\n        retezec = slova[i]\n        if len(retezec) == 0:\n            vy 
+def prvni_pismena(text):\n    flag = 1\n    vystup = ""\n    for i in range(len(text)):\n        if (ord("A") <= ord(text[i]) <= ord("Z") or ord("a") <= ord(text[i]) <= ord("z")) and flag == 1:\n            vystup += text[i]\n 
+def prvni_pismena(text):\n    flag = 1\n    vystup = ""\n    for i in range(len(text)):\n        if flag == 1:\n            vystup += text[i]\n            flag = 0\n        if text[i] == " " and text[i+1] == " ":\n            vystup % 
+def prvni_pismena(text):\n    retezec = ""\n    for i in range(len(text)):\n        if text[i] == " " and text[i+1] == " ": retezec += " "\n        if i == 0 or text[i-1] == " " and text[i] != " ": retezec += text[i]\n    return reteze 
+def prvni_pismena(text):\nslova=text.split(" ")\ns=""\nk=0\nfor i in range((len(slova))):\nsl=slova[i]\ns+=sl[0]\nif k==2:\ns+=" "\nk=0\nk+=1    \nreturn s 
+def prvni_pismena(text):\n    a=text[0]\n    for i in range (len(text)):\n        if text[i]==" ":a=a+text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    retezec = text[1]\n    for i in (len(text)):\n        if text[i] == " ":\n            retezec += str(text[i+1])\n    return retezec\n 
+def prvni_pismena(text):\n    retezec = '\n    retezec = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            retezec += text[i+1]\n    return retezec\n 
+def prvni_pismena(text):\n    words = text.split()\n    s = '\n    for i in words:\n        if len(i):\n            s += i[0]\n        else: s += \n    return s\n 
+def prvni_pismena(text):\n    x=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            x=x+text[i+1]\n        if text[i]==" " and text[i+1]==" ":\n            x=x+""\n    return x\n 
+def prvni_pismena(text):\n    pismena = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            pismena += text[i+1]\n    return pismena\n 
+def prvni_pismena(text): \n    r = []\n    r.append(text[0])\n    s = len(text)\n    for i in range(s):\n        if text[i]==" ":\n            r.append(text[i+1])\n    return '.join(r)\n 
+def prvni_pismena(text):\n    pismena = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            pismena = pismena + text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\n    x=text[0]\n    for i in range ((len(text))):\n        if text[i]== :\n            x+=text[i+1]\n    return x\n 
+def prvni_pismena(text):\n    vystup = []\n    kontrola = False\n    for i in range(len(text)):\n        if \n        if kontrola == False:\n            vystup.append(text[i])\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = []\n    kontrola = False\n    for i in range(len(text)):\n        if \n        if kontrola == False:\n            vystup.append(text[i])\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = []\n    kontrola = False\n    for i in range(len(text)):\n        if \n        if kontrola == False:\n            vystup.append(text[i])\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = []\n    kontrola = False\n    for i in range(len(text)):\n        if \n        if kontrola == False:\n            vystup.append(text[i])\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = []\n    kontrola = False\n    for i in range(len(text)):\n        if \n        if kontrola == False:\n            vystup.append(text[i])\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = []\n    kontrola = False\n    for i in range(len(text)):\n        if \n        if kontrola == False:\n            vystup.append(text[i])\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = []\n    kontrola = False\n    for i in range(len(text)):\n        if \n        if kontrola == False:\n            vystup.append(text[i])\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = "Emm Ova"\n    return vystup\n 
+def prvni_pismena(text):\n    check = True\n    for i in range(len(text)):\n        print text[i]\n        if text[i] == " ":\n            check = True\n        if text[i] != " ":\n            check = False\n    return text\n 
+def prvni_pismena(text):\n    c=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            c=c+text[i+1]\n    return c\n 
+def prvni_pismena(text):\n    te=""\n    vety = text.split("  ")\n    for i in range( len(vety)):\n        slova=vety[i] = vety[i].split(" ")\n        for j in range(len(slova)):\n            te+=slova[j][0]\n        if i<len(vety)-1:\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\nvystup = text[0]\nfor j in range(1,len(text)):\nif ord(text[j-1])==32:\nvystup += text[j]\nreturn vystup 
+def prvni_pismena(text):\n    x = '\n    for s in text.split():\n        if s == ':\n            x += \n        else:\n        x += s[0]\n    return x\n 
+def prvni_pismena(text):\nk = '\nslova = text.split(" ")\nfor i in slova:\nif i == ':\nk += \nelse:\nk += i[0]\nprint k 
+def prvni_pismena(text):\nk = '\nslova = text.split(" ")\nfor i in slova:\nif i == ':\nk += \nelse:\nk += i[0]\nreturn k 
+def prvni_pismena(text):\n    prev = \n    res = '\n    for i in range(len(text)):\n        if (prev == ):\n            res += text[i]\n        prev = text[i]\n    return res 
+def prvni_pismena(text):\n    return ("Emm Ova")\n 
+def prvni_pismena(text):\n    lenght = len(text)\n    for i in range (lenght):\n        if text[i-1] == :\n    print text[i]\n        elif i == 0:\n            print text [i]\n    return ' 
+def prvni_pismena(text):\n    x = text[0]\n    for i in range(0,len(text)):\n        if text[i-1] == " ":\n            x += text[i]\n    return x\n            \n        \n 
+def prvni_pismena(text):\n    vysledok=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            vysledok= vysledok+text[i+1]\n    return vysledok\n 
+def prvni_pismena(text):\n    pomoc=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            pomoc+=text[i+1]\n    return pomoc\n 
+def prvni_pismena(text):\n    result = '\n    text = text.split()\n    for word in text:\n        if word == ':\n            word = \n        word = word[0]\n        result += word\n    return result\n 
+def prvni_pismena(text):\n    newtext=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n        newtext+=text[i+1]\n    return newtext\n 
+def prvni_pismena(text):\n    line = text[0]\n    for i in range(len(text)):\n        if text[i-1]==" ":\n            line += text[i]\n    return line\n 
+def prvni_pismena(text):\n    vysledek = text[0]\n    for i in range(len(text)):\n        if(text[i] == " "):\n            vysledek += text[i+1]\n    return vysledek 
+def prvni_pismena(text):\n    pismeno=text[0]\n    for i in range(len(text)):\n        if(text[i]==" "):\n            pismeno+=text[i+1]\n    return pismeno\n 
+def prvni_pismena(text):\n    final_text = '\n    final_text += text[0]\n    for x in range(len(text)):\n        if text[x] == :\n            final_text += text[x+1]\n    return final_text\n 
+def prvni_pismena(text):\n    vysledok = text[0]\n    for i in range(len(text)):\n        if(text[i] == " "):\n            vysledok += text[i+1]\n    return vysledok 
+def prvni_pismena(text):\n    slova=text.split()\n    prve=""\n    for slovo in slova:\n        if slovo[0]==slovo[0].upper() and slovo!=slova[0]:\n            prve+=" "\n        prve +=slovo[0] \n    return prve\n\n\n 
+def prvni_pismena(text):\n    retezec=text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            pismeno=text[i+1]\n            retezec=retezec+pismeno\n    return retezec\n 
+def prvni_pismena(text):\n    vystup = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            \n            vystup = vystup + text[i+1]\n    return vystup\n            \n            \n        \n        \n 
+def prvni_pismena(text):\n    temp = 1\n    str = ""\n    for t in text:\n        if temp:\n            str += t\n            temp = 0\n        if t == " ":\n            temp = 1\n    return str\n 
+def prvni_pismena(text):\n    novytext = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            novytext += text[i+1]\n    return novytext\n 
+def prvni_pismena(text):\n    txt = ""\n    slova = text.split(" ")\n    for slovo in slova:\n        txt += slovo[0]\n    return txt\n 
+def prvni_pismena(text):\n    txt = ""\n    slova = text.split(" ")\n    for slovo in slova:\n        if len(slovo) == 0:\n            txt += " "\n        else:\n            txt += slovo[0]\n    return txt\n 
+def prvni_pismena(text):\n    vysledok = text[0]\n    for i in range(len(text)):\n        if(text[i] == " "):\n            vysledok += text[i+1]\n    return vysledok\n 
+def prvni_pismena(text):\n    text2=""\n    for i in text.split(" "):\n        text2+=i[0]\n    return text2\n 
+def prvni_pismena(text):\n    text2=""\n    for i in text.split():\n        \n        text2+=i[0]\n    return text2\n 
+def prvni_pismena(text):\n    text2=""\n    for i in text.split(" "):\n        if i=="":\n            text2+=" "\n        else:\n            text2+=i[0]\n    return text2\n 
+def prvni_pismena(text):\n    words=text.split()\n    result=""\n    for i in range(len(words)):\n        result += words[i][0]\n    return result\n 
+def prvni_pismena(text):\n    words=text.split(" ")\n    result=""\n    for i in range(len(words)):\n        if words[i]=="":\n            result+=" "\n        else:\n            result += words[i][0]\n    return result\n 
+def prvni_pismena(text):\n    znak = ""\n    for i in range(len(text)):\n        if i == 0:\n            znak += text[i]\n        elif text[i] == " ":\n            znak += text[i+1]\n    return znak\n 
+def prvni_pismena(text):\n    first=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            first+= text[i+1]\n    return first\n 
+def prvni_pismena(text):\n    prve_pismeno = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            prve_pismeno += text[i+1]\n    return prve_pismeno\n 
+def prvni_pismena(text):\n    vystup = '\n    slova = text.split()\n    for i in range(len(slova)):\n        a = (slova[i])[:1] \n        vystup += a\n    return vystup\n 
+def prvni_pismena(text):\n    vystup = '\n    slova = text.split()\n    for i in range(len(slova)):\n        a = (slova[i])[:1]\n        vystup += a\n        if (slova[i])[:1] == ': \n            vystup = vystup + \n    return 
+def prvni_pismena(text):\nfor word in text.split():\n     text1=word[:1],\n    return text1\n           \n        \n 
+def prvni_pismena(text):\n    r=[]\n    r.append(text[0])\n    s = len(text)\n    for i in range(s):\n        if text[i]==" ":\n            r.append(text[i+1])\n    \n    return '.join(r) 
+def prvni_pismena(text):\n    \n    vypis=[]\n    vypis.append(text[0])\n    for i in range(len(text)):\n        if text[i]==" ":\n            vypis.append(text[i+1])\n    final = '\n    for g in vypis:\n        final = final + g\n 
+def prvni_pismena(text):\n    r=[]\n    r.append(text[0])\n    s = len(text)\n    for i in range(s):\n        if text[i]==" ":\n            r.append(text[i+1])\n    \n    return "".join(r) 
+def prvni_pismena(text):\n    str = ""\n    for slovo in text.split():\n        if not slovo:\n            str += " "\n        else:\n            str += slovo[0]\n    return str\n 
+def prvni_pismena(text):\n    text = text.split(" ")\n    text2 = ""\n    for i in text:\n        if len(i) > 0:\n            text2 += i[0]\n        else:\n            text2 += " "\n\n    return text2\n 
+def prvni_pismena(text):\n    pismena = text[0]\n    for i in range(len(text)):\n    if text[i] == " " and i != len(text)-1:\n        pismena += text[i+1]   \n    return pismena\n 
+def prvni_pismena(text):\n    pole=text[0]\n    for i in range(1,len(text)-1):\n        if text[i]==" ":\n            pole=pole+text[i+1]\n    return pole\n 
+def prvni_pismena(text):\n    a=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            a=a+text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    text = " " + text\n    output = ""\n    for i in range(len(text)):\n        if text[i] == " ":\n            output += text[i+1]\n    return output\n 
+def prvni_pismena(text):\n    vystup=text[0]\n    for i in range (len(text)):\n        if text[i]== " ":\n            vystup += text[i+1]\n    return vystup\n 
+def prvni_pismena(text):\noutput = "".join(item[0] for item in text.split())\n    return output 
+def prvni_pismena(text):\n    vystup = text[0],\n    for i in range(1,len(text)-1):\n    if text[i-1] ==: vystup += text[i],\n    return '.join(vystup)\n 
+def prvni_pismena(text):\n    prvni = text[0]\n    for pismeno in range(len(text)):\n        if text[pismeno] == " ":\n            prvni += text[pismeno + 1]\n        if text[pismeno - 1] == "  ":\n            prvni += text[pismeno]\ 
+def prvni_pismena(text):\n    a = text[0]\n    for i in range (1,len(text)):\n        if text[i] == :\n            a += text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    vystup=text[:1]\n    for pismeno in range(len (text)):\n        if (text[pismeno]==):\n            vystup+=text[pismeno+1]\n    return vystup 
+def prvni_pismena(text):\n    prvni = text[0]\n    for i in range(1,len(text)):\n        if text[i] == :\n            prvni += text[i+1]\n    return prvni 
+def prvni_pismena(text):\n    pismena = text[0]\n    for i in range(len(text)-1):\n        if text[i] == :\n            pismena += text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\n    B=text[0]\n    for i in range (len (text)):\n        if text[i]==chr(32):\n            B+=(text[i+1])\n            \n    return B 
+def prvni_pismena(text):\n    word = text.split()\n    new = ""\n    for letters in word:\n        new += letters[0]\n    return new 
+def prvni_pismena(text):\n    word = text.split()\n    new = ""\n    for letters in word:\n        new += letters[0]\n    return new 
+def prvni_pismena(text):\n    smes = text[0]\n    for i in range(len(text)):\n        if text[i-1] == " ":\n            smes += text[i]\n    return smes\n 
+def prvni_pismena(text):\n    medzera = " "\n    text = medzera + text\n    x = ""\n    for k in range(len(text)):\n        if text[k] == medzera:\n            x += text[k+1]\n    return x 
+def prvni_pismena(text):\n    a = "" + text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            a += text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    slovo = text[0]\n    for i in range(1,len(text)):\n        if text[i-1] == " ":\n            slovo=slovo+text[i]\n            \n    return slovo\n 
+def prvni_pismena(text):\n    pismena = ""\n    slova = text.split(" ")    \n    for word in slova:\n        if word == "":\n            pismena += " "\n        else:\n            pismena += word[0]\n    return pismena 
+def prvni_pismena(text):\n    vystup = text[0]\n    for i in range(1,len(text)):\n        if(text[i-1] == " "):\n            vystup += text[i]\n    return vystup 
+def prvni_pismena(text):\n    retezec = ""\n    retezec += text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            retezec += text[i + 1]\n    return retezec\n 
+def prvni_pismena(text):\n    a=""\n    for i in range(len(text)):\n        if(text[i-1]==" ")or(i==0):\n            a+=text[i]\n    return a\n 
+def prvni_pismena(text):\n    slova=text.split(" ")\n    prve_pismena=""\n    for a in range (len(slova)):\n        prvok=slova[a]\n        if prvok!="":\n            prve_pismena=prve_pismena+prvok[0]\n        if prvok=="" and a!=(len(s 
+def prvni_pismena(text):\n    result = ""\n    a = 0\n    for i in range(len(text)):\n        if a == 0:\n            result += text[i]\n            a += 1\n        if text[i] == " ":\n            a -= 1\n    return result\n 
+def prvni_pismena(text):\n    retezec = []\n    retezec.append(text[0])\n    for i in range(len(text)-1):\nif text[i] == " ":\n retezec.append(text[i+1])\n    return "".join(retezec)\n        \n 
+def prvni_pismena(text):\n    prve = text[:1]\n    for i in range(len(text)):\n        if text[i] == " " and i != len(text):\n            prve += text[(i+1)]\n    return prve 
+def prvni_pismena(text):\n    input = text\n    output = ""\n    for i in input.lower().split():\n        output += i[0]\n    return output 
+def prvni_pismena(text):\n    input = text\n    output = ""\n    for i in input.split():\n        output += i[0]\n    return output 
+def prvni_pismena(text):\n    text2 = text[0]\n\n    for i in range(len(text)):\n        if text[i]== " ":\n            text2+= text[i+1]\n\n\n    return text2 
+def prvni_pismena(text):\n    vyrez = text[0]\n    for i in range (1, len(text)):\n        if text[i] == " ":\n            vyrez += text[i+1]\n    return vyrez\n            \n 
+def prvni_pismena(text):\n  r=[]\n  r.append(text[0])\n  for i in range(len(text)):\n    if text[i]==" ":\n      r.append(text[i+1])\n  return "".join(r)\n 
+def prvni_pismena(text):\n    s = ""\n    for i in range (len(text)):\n        if i == 0:\n            s+= text[i]\n        if text[i] == " ":\n            s+= text[i+1]\n    return s\n 
+def prvni_pismena(text):\n    vysledek = ""\n    for i in range(len(text)):\n        if text[i-1] == " " or i == 0:\n            vysledek += text[i]\n    return vysledek 
+def prvni_pismena(text):\n    array=""\n    array+=str(text[0])\n    for i in range(0, len(text)):\n            if text[i]==" ":\n                array+=str(text[i+1])\n    return array\n 
+def prvni_pismena(text):\n    veta=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            veta+=text[i+1]\n    return veta\n 
+def prvni_pismena(text):\n    pismena = ""\n    if text[0] != " ":\n        pismena += text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            pismena += text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\nvystup = '\nbola_medzera = True\nfor i in range (len(text)):\nif text[i] != :\nif bola_medzera == True:\nvystup += text[i]\nbola_medzera = False\nelif text[i] == :\nif bola_medzera 
+def prvni_pismena(text):\n    vysledek = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            vysledek = vysledek + text[i+1]\n    return vysledek 
+def prvni_pismena(text):\n    string = '\n    for i in range(len(text)):\n        if(i == 0):\n            string += text[i]\n        elif(chr(ord(text[i-1])) == ):\n            string += text[i]\n    return string\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i==0 or text[i-1]==" ": vystup +=text[i] \n    \n    return vystup\n 
+def prvni_pismena(text):\n    previousText= " "\n    string = ""\n    for i in text:\n        if previousText == " ":\n            string += i\n        previousText = i\n    return string\n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    for slovo in slova:\n        if len(slovo) == 0:\n            print " ",\n        else:\n            print slovo[0], 
+def prvni_pismena(text):\n    s = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            s += text[i+1]\n    return s\n 
+def prvni_pismena(text):\n    x=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            x+= text[(i+1)]\n    return x\n    print x\n        \n 
+def prvni_pismena(text):\n    list = text.split()\n    pom = ""\n    for i in range(len(list)):\n        if(list[i] == '):\n            list[i] = \n        pom += list[i][0]\n    return pom 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == " ":\n            vystup += text[i]\n    return vystup 
+def prvni_pismena(text):\n    x = ""\n    slova = text.split(" ")\n    for i in range(len(slova)):\n        tohleslovo = slova[i]\n        if tohleslovo == "":\n            x = x + " "\n        else:\n            x = x + tohleslovo[0] 
+def prvni_pismena(text):\n    x=len(text)-1\n    y=text[0]\n    for i in range (x):\n        if text[i]==" ":\n            y+=text[i+1]\n    return y 
+def prvni_pismena(text):\n    p = []\n    for i in range(len(text)):\n        if i == 0:\n            p.append(text[i])\n        elif text[i]== " ":\n            p.append(text[i+1])\n    return p\n 
+def prvni_pismena(text):\n    p = []\n    vystup = " "\n    for i in range(len(text)):\n        if i == 0:\n            p.append(text[i])\n        elif text[i]== " ":\n            p.append(text[i+1])\n    for i in range(len(p)):\n 
+def prvni_pismena(text):\n    p = []\n    vystup = ""\n    for i in range(len(text)):\n        if i == 0:\n            p.append(text[i])\n        elif text[i]== " ":\n            p.append(text[i+1])\n    for i in range(len(p)):\n 
+def prvni_pismena(text):\n    vystup=""\n    vystup+=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            vystup+=text[i+1]\n    return vystup 
+def prvni_pismena(text):\n    u = ""\n    first_letter = True\n    for pismeno in text:\n        if first_letter:\n            u += pismeno\n        first_letter = (pismeno == )\n    return u\n 
+def prvni_pismena(text):\n    pomocny=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            pomocny+=text[i+1]\n    return pomocny\n 
+def prvni_pismena(text):\n    t = ""\n    last = " "\n    for i in text:\n        if last == " ":\n        t += i\n        last = i\n    return t\n 
+def prvni_pismena(text):\n    slova= text.split()\n    t=""\n    t+=slova[0][0]\n    for i in range(1,len(slova)):\n        if ord(slova[i][0])<91:\nt+=" "\n        t+=slova[i][0]\n    return t\n 
+def prvni_pismena(text):\n    out = ""\n    prve = True\n    wasSpace = False\n    for p in text:\n        if wasSpace and ord(p) == ord():\n            out += \n        \n        if prve and ord(p) != ord():\n            out 
+def prvni_pismena(text):\n    a=0\n    out=text[0]\n    for i in text:\n        if i==" ":\n            out =out+text[a+1]\n        a=a+1\n    return out 
+def prvni_pismena(text):\n    a  = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            a += text[i+1]\n    return a 
+def prvni_pismena(text):\n\n    state = True\n    result = ""\n    \n    for i in range(len(text)):\n     \n        if not text[i] == " " and state:\n            result = result + text[i]\n            state = False\n        if text[i 
+def prvni_pismena(text):\n    x=text.split(" ")\n    vysl=""\n    for i in range(len(x)):\n        if x[i]==':\n            vysl+=" "\n        else:\n            vysl+=x[i][0]\n    return vysl\n 
+def prvni_pismena(text):\n    print text[0]\n    pismena=""\n    for i in range(len(text)):\n        if text[i]==" ":\n            pismena+=text[i+1]\n    return pismena 
+def prvni_pismena(text):\n    a = text[0]\n    while text.index(" ") != -1:\n        a += text[text.index(" ")+1]\n        text = text[text.index(" ")+1:]\n    return a\n 
+def prvni_pismena(text):\n    first = True\n    space = False\n    letters = '\n    for i in range(0, len(text)):\n        if ord(text[i]) != 32 and first:\n            letters = letters + text[i]\n            first = False\n 
+def prvni_pismena(text):\nresult = ""\nfor w in text.split():\nresult += w[0]\nreturn result 
+def prvni_pismena(text):\n    vypis = ""\n    vypis = text[0],\n    for i in range (len(text)):\n        if text[i] == " ":\n            vypis += text[i+1],\nprint str(vypis) 
+def prvni_pismena(text):\nvypis = text[0]\nfor i in range (len(text)):\nif text[i] == " ":\nvypis += text[i+1]\n    \n    \n    \nreturn str(vypis)\n 
+def prvni_pismena(text):\n    vysl=text[0]\n    for i in range(len(text)):\n        if text[i-1]==" ":\n            vysl=vysl+text[i]\n    return vysl\n 
+def prvni_pismena(text):\n    vystup = ""\n    for i in range(len(text)):\n        if (text[i-1]==) or (i==0):\n            vystup += text[i]\n    return vystup 
+def prvni_pismena(text):\n    output = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            output += (text[i+1])\n    return output\n 
+def prvni_pismena(text):\n    riadok = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            if ord(text[i+1]) < 97:\n                riadok = riadok + " " + text[i+1]\n            else:\n 
+def prvni_pismena(text):\n    ntext=text[0]\n    for i in range(len(text)):\n        if text[i-1]==" ":\n            ntext+=text[i]\n    return ntext\n 
+def prvni_pismena(text):\n    p = True\n    out = ""\n    for i in text:\n        if p:\n            out += i\n        if i != :\n            p = False\n        else:\n            p = True\n    return out 
+def prvni_pismena(text):\n    vys=""\n    for i in range(len(text)):\n        if text[i-1]==" " or i==0:\n            vys=vys+text[i]\n    return vys\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismena(text):\nx = ""\nfor i in text.split(" "):\nif len(i) < 1:\nx += " "\nelse:\nx += i[0]\nreturn x 
+def prvni_pismena(text):\n    mez = True\n    s = ""\n    for a in text:\n        if mez: s+=a; mez = False\n        if a == " ": mez = True\n    return s\n 
+def prvni_pismena(text):\ns=text[0]\nfor i in range(len(text)):\nif text[i]==" ":\ns+=text[i+1]\nreturn s\n 
+def prvni_pismena(text):\n    final = ""\n    for i in range(len(text)):\n        if text[i-1] == " " or i == 0:\n            final += text[i]\n    return final\n            \n 
+def prvni_pismena(text):\n    new = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            new += text[i + 1]\n    return new\n 
+def prvni_pismena(text):\n    mrd = text[0]\n    for i in range(1,len(text)):\n        if(text[i-1]==" "):\n        mrd+=text[i]\n    return mrd\n 
+def prvni_pismena(text):\n    p_p = ""\n    text_list = text.split(" ")\n    for i in range(len(text_list)):\nif len(text_list[i]) == 0:\np_p += " "\nelse:\n           p_p += text_list[i][0]\n    return p_p\n 
+def prvni_pismena(s):\n    funk = ""\n    for i in s.split():\n        funk += i[0]\n        \n    return funk\n 
+def prvni_pismena(text):\n    ret=""\n    for i in text.split():\n            ret+=i[0]\n    return ret\n 
+def prvni_pismena(text):\n    r=[]\n    r.append(text[0])\n    s=len(text)\n    for i in range(s):\n        if text[i]==" ":\n            r.append(text[i+1])\n    c="".join(r)\n    return c\n 
+def prvni_pismena(text):\n    return text\n 
+def prvni_pismeno(text):\n    r = ""\n    r+=text[0]\n    \n    s = len(text)\n    for i in range(s):\n        if text[i]==:\n            r+=text[1+i]\n            \n    return r 
+def prvni_pismena(text):\n    r = ""\n    r+=text[0]\n    \n    s = len(text)\n    for i in range(s):\n        if text[i]==:\n            r+=text[1+i]\n            \n    return r 
+def prvni_pismena(text):\n    text2 = text[0]\n\n    for i in range(len(text)):\n        if text[i]== " ":\n            text2+= text[i+1]\n\n\n    return text2\n 
+def prvni_pismena(text):\n    vystup=text[0]\n    for i in range (0,len(text)):\n        if text[i]==" ":\n            vystup+=(text[i+1])\n    return vystup\n 
+def prvni_pismena(text):\n    retez = text[0]\n    for i in range(len(text)):\n        if (text[i] == ):\n            retez = retez+text[i+1]\n    return retez 
+def prvni_pismena(text):\n    text1 = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            text1 += text[i+1]\n    return text1\n 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    for i in range(len(slova)):\n        slova[i] = slova[i][0] if len(slova[i]) > 0 else " "\n    return "".join(slova)\n 
+def prvni_pismena(text):\n    txt=text[0]\n    \n    for i in range(len(text)):\n        if (text[i]==):\n            txt= txt+text[i+1]\n    return txt\n 
+def prvni_pismena(text):\n    result = ""\n    word_list = text.split(" ")\n    for word in word_list:\n        if word == "":\n            result += " "\n        else:\n            result += word[0]\n    return result 
+def prvni_pismena(text):\n    prve=text[0]\n    for i in range(1,len(text)):\n        if text[i-1]==" ":\n            prve+=text[i]\n    return prve\n 
+def prvni_pismena(text):\n    x=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            x += text[i+1]\n    return x 
+def prvni_pismena(text):\n    result = '\n    if text[0] <> ':\n        result = text[0]\n    for i in range(len(text)):\n        if (text[i] == ):\n            result += text[i+1]\n            i = i + 1\n    return result 
+def prvni_pismena(text):\n    slova = text.split(" ")\n    str=""\n    for s in slova:\n        str+=s[:1]\n    \n        \n        if (s==""):\n            str+=" "\n    return str 
+def prvni_pismena(text):\n    nova=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n        nova+=text[i+1]\n    return nova\n 
+def prvni_pismena(text):\n    pomocna = text[0]\n    for i in range (len(text)):\n        if text[i] == " ":\n            pomocna = pomocna + text[i+1]\n    return pomocna\n 
+def prvni_pismena(text):\n    t=0\n    txt=text[0]\n    for i in range (text.count()):\n        text=text[t::]\n        s=text.index()+1\n        txt+=text[s]\n        t=s\n    print txt\n 
+def prvni_pismena(text):\n    t=0\n    txt=text[0]\n    for i in range (text.count()):\n        text=text[t::]\n        s=text.index()+1\n        txt+=text[s]\n        t=s\n    return txt 
+def prvni_pismena(text):\n    x = text[0]\n    for i in range(1,len(text)):\n        if text[i-1] == " ":\n            x = x + text[i]\n    return x\n 
+def prvni_pismena(text):\n    r=[]\n    r.append(text[0])\n    x=len(text)\n    for i in range(x):\n        if text[i]==" ":\n            r.append(text[i+1])\n    return '.join(r)\n 
+def prvni_pismena(text):\n    a = 1\n    i = 0\n    ntext = '\n    while i < len(text):\n        if a == 1:\n            ntext = ntext + text[i]\n            if text[i] == :\n                ntext = ntext + \n            else: 
+def prvni_pismena(text):\n    s=text\n    t='\n    t += s[0]\n    for i in range(len(s)):\n        if s[i]==: t += s[i+1]\n    return t\n            \n 
+def prvni_pismena(text):\n    result = '\n    last = \n    \n    for i in text:\n        if last == :\n            result = result + i\n        \n        last = i\n    \n    return result\n 
+def prvni_pismena(text):\n    vysledek = text[0]\n    for i in range(len(text)):\n        if(text[i] == " "):\n            vysledek += text[i+1]\n    return vysledek\n\n 
+def prvni_pismena(text):\n    result = text[0]\n    for i in range(1, len(text)):\n        if (text[i] == ):\n            result += (text[i+1])\n    return result\n 
+def prvni_pismena(text):\n    medzera = " "\n    text = medzera + text\n    temp = ""\n    for i in range (len(text)):\n        if text[i] == medzera:\n            temp += text[i+1]\n    return temp\n 
+def prvni_pismena(text):\n    for i in range(text):\n        print i\n                   \n 
+def prvni_pismena(text):\n    for i in range(text):\n        print i\n                   \n 
+def prvni_pismena(text):\n    for i in range(text):\n        print i\n                   \n 
+def prvni_pismena(text):\n    medzera = " "\n    text = medzera + text\n    x = ""\n    for k in range(len(text)):\n        if text[k] == medzera:\n            x += text[k+1]\n    return x\n 
+def prvni_pismena(text):\n    string=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            string=string+text[i+1]\n    return string\n 
+def prvni_pismena(text):\n    pismena = ""\n    slova = text.split(" ")\n    for i in slova:\n        if i == ':\n            pismena+=\n        else:\n            pismena+=i[0]\n    return pismena 
+def prvni_pismena(text):\n    retazec= text[0]\n    for i in range(len(text)):\n        \n        if text[i]==" ":\n            retazec= retazec+ text[i+1]\n    return retazec\n 
+def prvni_pismena(text):\nslovo=text.split(" ")\noutput=""\nfor i in range(len(slovo)):\nif slovo[i]!="":\noutput+=slovo[i][0]\nelse:\noutput+=" "\nreturn output\n 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==" ":\n            print text[i+1], 
+def prvni_pismena(text):\n    print text[0],\n    for i in range (len(text)):\n        if text[i]==" ":\n            print text[i+1], 
+def prvni_pismena(text):\n    result = []\n    result.append(text[0])\n    for i in range(len(text)):\n        if text[i]==" ":\n            result.append(text[i+1])\n    return '.join(result) 
+def prvni_pismena(text):\n    text1 = text[0]\n    for i in range(len(text)):\n        if text[i] == :\n            text1 += text[i+1]\n    print text1\n    \n 
+def prvni_pismena(text):\n    text1 = text[0]\n    for i in range(len(text)):\n        if text[i] == :\n            text1 += text[i+1]\n    return text1\n    \n 
+def prvni_pismena(text):\ns='\npisat=True\nfor i in range(len(text)):\nif pisat==True:\ns+=text[i]\nif text[i]==:\npisat=True\nelse: pisat=False    \nreturn s 
+def prvni_pismena(text):\n    vety = text.split("  ")\n    pismena = []\n    pism = []\n    for veta in vety:\n        slova = veta.split(" ")\n        pismena = []\n        for slovo in slova:\n            pismena.append(slovo[0]),\n 
+def prvni_pismena(text):\n    retezec = text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            retezec = retezec + text[i+1]\n    return retezec 
+def prvni_pismena(text):\n    a=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n            a=a+text[i+1]\n    return a\n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\nr = ""                                                              \nfor y in text.split("  "):                                             \nfor x in y.split():                                             \n 
+def prvni_pismena(text):\n    slovo = text[0]\n    for i in range(len(text)):        \n        if ord(text[i]) == 32:\n            slovo += text[i+1]\n    return slovo\n 
+def prvni_pismena(text):\n    string = '\n    array = text.split() and text.split()\n   \n    for i in range(len(array)):\n        if array[i] == ':\n            string = string + \n        else:\n            string = string 
+def prvni_pismena(text):\n    s = '\n    if text[0] != :\n    s += text[0]        \n    for i in range(len(text) - 1):\n        if text[i] == :\n            s += text[i+1]\n\n    return s\n 
+def prvni_pismena(text):\n    text_cteni = text\n    vystup = text_cteni[0]\n    for i in range(len(text_cteni)):\n        if text_cteni[i] == " ":\n            vystup += text_cteni[i+1]\n    \n    return vystup 
+def prvni_pismena(text):\n    r = []\n    r.append(text[0])\n    for i in range(len(text)):\n        if text[i] == " ":\n            r.append(text[i+1])\n    b = "".join(r)\n    return b 
+def prvni_pismena(text):\n    print text[0],\n    s = len(text)\n    for i in range(s):\n    if text[i] == " ":\n            print text[i+1], 
+def prvni_pismena(text):\n    print text[0],\n    s = len(text)\n    for i in range(s):\n    if text[i] == " ":\n            print text[i+1], 
+def prvni_pismena(text):\n    print text[0],\n    s = len(text)\n    c = []\n    for i in range(s):\n    if text[i] == " ":\nc.append(text[i+1])\n            c.join(c)\nprint c 
+def prvni_pismena(text):\n    pismena=""\n    pismena+=text[0]\n    for i in range(len(text)):\n        if ord(text[i])==32:\n            pismena+=text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\n    prvni = text[0]\n    for i in range (len(text)):\n        if text[i]==" ":\n            prvni = prvni+text[i+1]\n    return prvni\n 
+def prvni_pismena(text):\n    pom=[]\n    s='\n    pom.append(text[0])\n    for i in range(len(text)):\n        if text[i]==:\n            pom.append(text[i+1])\n    for i in pom:\n        s+=i\n    return s\n 
+def prvni_pismena(text):\n    x = str(text[0])\n        \n    for i in range(len(text)-1):\n            if text[i] == :\n                x = x + str(text[i+1])\n    return x\n        \n 
+def prvni_pismena(text):\n    a=""\n    b=text.split(" ")\n    c=""\n    for i in b:\n        c=i\n        a=a+c[0]\n    return a\n 
+def prvni_pismena(text):\n    a=""\n    b=text.split(" ")\n    c=""\n    for i in b:\n        c=i\n        if c!="":\n            a=a+c[0]\n        else:\n            a=a+" "\n    return a\n 
+def prvni_pismena(text):\n    text2 = '\n    for i in range(len(text)):\n        if i == 0 or text[i-1] == :\n        text2 = text2+ text[i]\n    return text2\n\n 
+def prvni_pismena(text):\n    nova=text[0]\n    for i in range(len(text)):\n        if text[i]==" ":\n        nova+=text[i+1]\n    return nova 
+def prvni_pismena(text):\n    pismena=text[0]\n    for i in range(len(text)):\n        if text[i]==:\n            pismena=pismena+text[i+1]\n    return pismena\n 
+def prvni_pismena(text):\ntext2 = text[0]\nfor i in range(len(text)):\nif text[i]==" ":\ntext2+=text[i+1]\nreturn text2 
+def prvni_pismena(text):\n    out = text[0]\n    for i in range(len(text)):\n        if text[i-1] == : out += text[i]\n    return out 
+def prvni_pismena(text):\n    pp = []\n    pp.append(text[0])\n    s = len(text)\n    for i in range(s):\n        if text[i] == " ":\n            pp.append(text[i+1])\n\n    return '.join(pp) 
+def prvni_pismena(text):\n    s = []\n    s = text[0]\n    for znak in range(len(text)):\n    if text[znak] == " ":\n           s += text[znak+1]       \n    return s\n 
+def prvni_pismena(text):\n    builder = ""\n    if(text[0] != " "):\n            builder += text[0]\n    for pis in range(len(text)):\n        \n        if(len(text)>pis-1 and text[pis-1] == " "):\n            builder += text[pis]\n 
+def prvni_pismena(text):\n    output = ""\n    str = []\n    str.append(text[0])\n    for i in range(len(text)):\n        if text[i] == :\n            str.append(text[i+1])\n    for j in str:\n        output += j\n    return outpu 
+def prvni_pismena(text):\nvysledek = text[0]\nwhile " " in text:\npozice = text.index(" ")\nif text[pozice+1] == " ":\nvysledek += " "\ntext = text[pozice+1:]\nelse:\nvysledek += text[pozice+1]\ntext = text[ 
+def prvni_pismena(text):\n    result=""\n    for i in range (len(text)):\n        if (text[i-1])==" " or i==0:\n            result+=(text[i])\n    return result\n 
+def prvni_pismena(text):\n    a=""\n    a+=text[0]\n    for i in range(len(text)-1):\n        if(text[i]==" "):\n        a+=text[i+1]\n    return a\n 
+def prvni_pismena(text):\n    out = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            out = out + text[i+1]\n    return out\n        \n 
+def prvni_pismena(text):\n    a = ""\n    slova = text.split(" ")\n    for i in range(len(slova)):\n        if slova[i] == ' : a = a + " "\n        a = a + slova[i][:1]\n    return a\n 
+def prvni_pismena(text):\n    vysledek = text[0]\n    for i in range(len(text)):\n        if text[i] == " ":\n            vysledek += text[i+1]\n    return vysledek\n    \n    \n 
+def prvni_pismena(text):\n    words = text.split(" ")\n    letters = ""\n    for item in words:\n        item = item.split("")\n        if item == []:\n            letters += " "\n            continue\n        letters += item[0]\n 
+def prvni_pismena(text):\n    vysledek =""+text[0]\n    for i in range (len(text)):\n        if text[i] ==:\n            vysledek += text[i+1]\n    return vysledek 
+def prvni_pismena(text):\n    string = text[0]\n    for i in range(1,len(text)):\n        if text[i-1]==" ":\n            string = string+text[i]\n    return string\n 
+def prvni_pismena(text):\n    stav = 0\n    r = ""\n    for i in text:\n        if stav == 0:\n            r = r + i\n        if i == " ":\n            stav = 0\n        else:\n            stav = 1\n    return r\n 

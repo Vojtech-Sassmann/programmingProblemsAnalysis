@@ -1,0 +1,1193 @@
+
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(0,n+1):\n        if n % i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 1\n    for i in range(1,n):\n        if n%i==0: pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(n):\n        if n % i:\n            sum = sum + 1\n    return sum\n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(n+1):\n        if n % i == 0:\n            sum = sum + 1\n    return sum\n 
+def pocet_delitelu(n):\n    pom = 0\n    for i in range(1,n+1):\n        if n%i==0 : pom=pom+1\n    return pom\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i == 0: pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n        if n%i==0: k+=1\n    return k\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n%i==0: count=count+1\n    return count\n 
+def pocet_delitelu(n):\n    res = 0\n    for i in range(n+1):\n        if n%i==0:\n        res+=1\n    return res\n 
+def pocet_delitelu(n):\n    pocet_delitelu = 0\n    for i in range(n+1):\n        if (n%i == 0):\n            pocet_delitelu += 1\n    return pocet_delitelu\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n % i == 0: count += 1\n    return count\n 
+def pocet_delitelu(n):\n    delitele = 1\n    for i in range(1,n):\n        if n%i == 0:\n            delitele += 1\n    return delitele\n 
+def pocet_delitelu(n):\n    cnt = 0\n    for i in range(n+1):\n        if n % i == 0:\n            cnt += 1\n    return cnt\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            s += 1\n    return s\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n    if (n % i == 0):\n        a += 1\n   \n    return a 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1, n+1):\n        if (n % i == 0):\n            x +=1\n    return x\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            delitele += 1\n    return delitele\n 
+def pocet_delitelu(n):\n    d = 0\n    for i in range (n+1):\n        if n % i == 0:\n            d=d+1\n    \n    return d\n 
+def pocet_delitelu(n):\n    delitele = 0\n    \n    for i in range(1, n+1):\n    if n%i == 0:\n        delitele += 1\n    return delitele\n 
+def pocet_delitelu(n):\n    for i in range (n+1):\n       print i\n 
+def pocet_delitelu(n):\n    for i in range (n+1):\n       print i\n 
+def pocet_delitelu(n):\n    for i in range (1,n):\n       g=i\n 
+def pocet_delitelu(n):\n    for i in range (1,n):\n       g=i\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if (n%i == 0):\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n for i in range (1,n+1):\n    \n    return 1\n 
+def pocet_delitelu(n):\n for i in range (1,n+1):\n    \n    return 1\n 
+def pocet_delitelu(n):\n x=0   \n for i in range (1,n+1):\n    if n % i == 0:\n        x=x+1\n return x\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n        if (n % i == 0): \n            count = count + 1\n    return count\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    return sum([1 for x in range(1,n+1) if n%x==0])\n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(n+1):\n        if n % i == 0:\n            sum = sum +1\n    return sum\n 
+def pocet_delitelu(n):\n    r = 0\n    for i in range(0, n + 1):\n        r += (1 * ((n % i) or 1))\n 
+def pocet_delitelu(n):\n    r = 0\n    for i in range(0, n + 1):\n        r += (1 * (not (n % i)))\n 
+def pocet_delitelu(n):\n    r = 0\n    for i in range(0, n + 1):\n        if not (n % i):\n            r += 1\n 
+def pocet_delitelu(n):\n    r = 0\n    for i in range(0, n + 1):\n        if not (n % i):\n            r += 1\n    print(r) 
+def pocet_delitelu(n):\n    r = 0\n    for i in range(0, n + 1):\n        if not (n % i):\n            r += 1\n    return (r) 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    result = 1\n    for i in range(n):\n         if n % i == 0:\n            result += 1\n    return result\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            count=count+1\n    return count\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(n+1):\n        if n%i == 0:\n            count+= 1\n    return count\n 
+def pocet_delitelu(n):\n    cislo = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            cislo += 1\n    return cislo\n 
+def pocet_delitelu(n):\n    int k = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            k=k+1\n    return k\n 
+def pocet_delitelu(n):\n    int k = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            k=k+1\n    return k\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if n%i==0:\n            k=k+1\n    return k\n 
+def pocet_delitelu(n):\n    pd=0\n    for i in range (1,n+1):\n        if n % i == 1:\n            pd == pd+1\n    \n    return pd\n 
+def pocet_delitelu(n):\n    i=0\n    for a in range(1,n+1):\n        if n % a == 0:\n            i = i+1\n    return i\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    return sum([n%i==0 for i in range(1,n)])\n 
+def pocet_delitelu(n):\n    return sum([int(n%i==0) for i in range(1,n)])\n 
+def pocet_delitelu(n):\n    return sum([int(n%i==0) for i in range(1,n+1)])\n 
+def pocet_delitelu(n):\n    result = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            result += 1\n    return result\n 
+def pocet_delitelu(n):\n    count = 1\n    for i in range(n):\n        if n % i == 0:\n            count = count+1\n    return count\n 
+def pocet_delitelu(n):\n    delit = 0;\n    for i in range (n+1):\n        if n%i==0:\n            delit+=1\n            \n    return delit 
+def pocet_delitelu(n):\n    x=0\n    for i in range(0,n+1):\n     if n % i == 0:\n        x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    l = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            l = l + 1\n    return l\n 
+def pocet_delitelu(n):\n    pocet = 1\n    for i in range(1,n):\n        if( n % i == 0 ):\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range (1,n+1):\n    if n % i == 0:\n        poc = poc + 1\n    return poc\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            count = count + 1\n    return count\n 
+def pocet_delitelu(n):\n    total = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            total += 1\n    return total\n 
+def pocet_delitelu(n):\n    ans = 0\n    for i in range(1, n+1):\n        if(n%i == 0): ans+=1\n    return ans\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1,n+1):\n        if n%i == 0: poc += 1\n    return poc\n 
+def pocet_delitelu(n):\n  delitelu=0\n  for i in range(1,n+1):\n    if n%i==0:\n      delitelu=delitelu+1\n  return delitelu\n 
+def pocet_delitelu(n):\n    m = 2\n    for i in range(2,n):\n        if n % i == 0:\n            m += 1\n    return m\n 
+def pocet_delitelu(n):\n    m = 1\n    for i in range(1,n):\n        if n % i == 0:\n            m += 1\n    return m\n 
+def pocet_delitelu(n):\n    counter = 0\n    for i in range(1, n+1):\n        if(n % i == 0):\n        counter += 1    \n    return counter\n 
+def pocet_delitelu(n):\n    x = 0;\n    for i in range(1,n+1):\n        if n % i == 0:\n            x=x+1\n    return x;\n 
+delitele = []\ndef pocet_delitelu(n):\n    for x in range(1, n+1):\n        if n % x == 0:\n            delitele.append(x)\n    return len(delitele)\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n %i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    r = 1\n    for i in range(1, n):\n        if n % i == 0:\n            r = r + 1\n    return r\n 
+def pocet_delitelu(n):\n    counter=0\n    for i in range(0,n+1):\n        if n%i==0 :\n            counter=counter+1;\n    return counter\n 
+def pocet_delitelu(n):\n    count = 1;\n    for x in range(2, n+1):\n        if(n % x == 0):\n            count+=1;\n    return count;\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    v = 0\n    for i in range(0,n+1):\n        if(n%i == 0):\n            v = v +1\n    return v\n 
+def pocet_delitelu(n):\n    soucet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            soucet +=1\n    return soucet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(1,n):\n        if n%i==0:\n            s += 1\n    \n    return s+1\n            \n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if(n%i == 0):\n            count = count + 1\n    return count\n 
+def pocet_delitelu(n):\n    result = 0\n    for i in range(n+1):\n        if n % i == 0:\n            result+=1\n    return result 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitelu = 1\n    for i in [j for j in range(n/2) if n % (j+1) == 0]:\n        delitelu+=1\n    \n    return delitelu\n 
+def pocet_delitelu(n):\n    delitelu = 1\n    for i in [j for j in range(1, (n+1)/2) if n % j == 0]:\n        delitelu+=1\n    \n    return delitelu\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1,n+1):\n        delitel = n%i\n        if delitel == 0:\n           p = p+1\n    return p\n 
+def pocet_delitelu(n):\n    x,a=1,n\n    while a>n**.5:\n        if n % a == 0:\n            x=x+2\n        a=a-1\n    if x<>0:\n       x=x-1\n    return x\n 
+def pocet_delitelu(n):\n    x,a=1,n\n    while a>n**.5:\n        if n % a == 0:\n            x=x+2\n        a=a-1\n    if n==n**.5:\n       x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    x,a=0,n\n    while a>n**.5:\n        if n % a == 0:\n            x=x+2\n        a=a-1\n    return x\n 
+def pocet_delitelu(n):\n    x,a=0,n\n    while a>n**.5:\n        if n % a == 0:\n            x=x+2\n        a=a-1\n    if n % n**.5==0:\n        x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n % i == 0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n)\n       if n%i==0\n        pocet++\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range (0,n+1):\n       if n%i==0:\n        pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range (1,n+1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    s = 2\n    for i in range(2,n):\n        if n % i == 0 :\n            s += 1\n    return s\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n           poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    p = 0;\n    for i in range(n+1):\n        if n % i == 0:\n            p = p + 1\n    return p\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1, n+1):\n        if ((n%i) == 0): k=k+1\n    return k\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1, n+1):\n        if n%i == 0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range (n+1):\n        if n%i==0: s=s+1\n    return s\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=1\n    for i in range(1,n/2):\n        if n % i ==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    x=1\n    for i in range(1,n/2):\n        if n % i ==0:\n            x=x+1\n    return x+1\n 
+def pocet_delitelu(n):\n    x=1\n    for i in range(1,int(n/2)):\n        if n % i ==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    x=1\n    for i in range(1,int(n/2)):\n        if n % i ==0:\n            x=x+1\n    return x+1\n 
+def pocet_delitelu(n):\n    if n % 2 ==0:\n        x=2\n    else:\n        x=1\n    for i in range(1,int(n/2)):\n        if n % i ==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    if n % 2 ==0:\n        x=2\n    else:\n        x=1\n    for i in range(1,int(n/2)):\n        if n % i ==0:\n            x=x+1\n    return x+1\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n):\n        if n % i ==0:\n            x=x+1\n    return x+1\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    j = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            j = j + 1\n\n    return j 
+def pocet_delitelu(n):\n    s = 0;\n    for i in range(1,n+1):\n        if n % i == 0: s += 1;\n    return s\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1, n+1):\n        if n%i==0: p+=1\n    return p\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            delitele = delitele + 1\n    return delitele\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(n):\n        if n%i: k+=1\n    return k\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(n+1):\n        if n%i==0:\n         k+=1\n    return k\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i ==0: x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    y=0\n    for i in range (1,n+1):\n        if n % i == 0: y+=1\n    return y\n 
+def pocet_delitelu(n):\n    a = 1\n    for i in range (1,n):\n        if (n%i == 0):\n            a = a + 1\n    return a\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1, n+1):\n        if n%i==0:\n            a+=1\n    return a 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n        if n % i == 0: k += 1\n        else: pass\n    return k\n 
+def pocet_delitelu(n):\n    d = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            d+=1\n    return d\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        if n%i==0:\n            s+=1\n    return s\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele=[]\n    for a in range(1, n+1):\n        if n%a ==0:\n            delitele.append(a)\n    return len(delitele)\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1,n+1):\n        if (n % i == 0):\n            poc += 1\n    return poc\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n + 1):\n        if n % i == 0: count += 1\n    return count\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(n+1):\n        if n % i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1) :\n        if  n%i==0 : pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            p= p+1\n        \n    return p\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            pocet +=1\n    return pocet 
+def pocet_delitelu(n):\n    y = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            y += 1\n    return y\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(n+1):\n        if n % i == 0:\n            s+= 1\n    return s\n 
+def pocet_delitelu(n):\n    y=0\n    for i in range(0,n+1):\n        if n%i==0:\n            y+=1\n    return y\n 
+def pocet_delitelu(n):\n    counter = 0\n    for i in range(n):\n        if n % (i+1) == 0:\n            counter +=1\n    return counter\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range (1, n + 1):\n        if (n % i == 0):\n           x += 1\n    return x 
+def pocet_delitelu(n):\n    p = 2\n    for i in range(2, n):\n        if n%i==0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    p = 1\n    for i in range(2, n):\n        if n%i==0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1, n+1):\n        if n%i==0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    return 1*9\n 
+def pocet_delitelu(n):\n    return 1*4\n 
+def pocet_delitelu(n):\n    return 1*2\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1, n+1):\n        if n%i==0:\n            print i\n            a=a+i\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1, n+1):\n        if n%i==0:\n            a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            \n            p=p+1\n            \n    return p\n 
+def pocet_delitelu(n):\n    b=0\n    for i in range (n+1):\n        if (n%i==0): b+=1\n    return b\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if n%i==0:\n            k+=1\n    return k\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i==0:\n            j=j+1\n    return j\n   \n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        if n%i==0:\n            s=s+1\n    return s\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if (n % i==0):   \n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(n+1):\n        if n%i == 0: x = x+1\n    return x 
+def pocet_delitelu(n):\n    c = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            c += 1\n    return c\n 
+def pocet_delitelu(n):\n    v=0\n    for i in range(1,n+1):\n        if n%i==0:\n            v+=1\n        \n    return v\n 
+def pocet_delitelu(n):\n    c=0\n    for i in range (1,n+1):\n        if n%i==0:\n            c+=1\n    return c\n 
+def pocet_delitelu(n):\n    m=0\n    for i in range(n+1):\n        if n%i==0:\n            m+=1\n    return m\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range (n+1):\n        if (n%i==0):\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n%i==0:\n           pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(n+1):\n        if n%i == 0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    soucet=0\n    for i in range(1,n+1):\n        if n%i==0:\n           soucet=soucet+1\n    return soucet\n    \n       \n    \n 
+def pocet_delitelu(n):\n    poc=1\n    for i in range(1,n):\n        if (i%2)==0:\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if (n%i)==0:\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range (n+1):\n       if n%(i+1) == 0: k+=1\n    return k\n 
+def pocet_delitelu(n):\n    y = 0\n    for i in range(n+1):\n        if n % i == 0:\n            y += 1\n    return y\n 
+def pocet_delitelu(n):\n    delitelu=0\n    for i in range(1,n+1):\n        if n%i==0:delitelu+=1\n    return delitelu\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0: pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            a+=1\n    \n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i == 0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if (n %i==0):\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    l=0\n    for i in range(1,n+1):\n        if n%i==0:\n            l +=1\n    return l\n 
+def pocet_delitelu(n):\n    citac = 0\n    for i in range (1, n+1):\n        if n%i==0:\n            citac+=1\n    return citac\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            a = a+1      \n    return a\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pd=0\n    for i in range(1,n+1):\n        if n % i ==0:\n            pd += 1\n    \n    return pd\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pom = 0\n    for i in range(1, n+1):\n        if(n%i == 0): pom = pom +1\n    return pom\n 
+def pocet_delitelu(n):\n    res = 0\n    for x in range(1,n+1):\n        if n % x == 0:\n            res += 1\n    return res 
+def pocet_delitelu(n):\n    p=0\n    for i in range (1,n+1):\n        if n%i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    pocetDelitelu=0\n    for i in range(n+1):\n        if n%i==0:\n            pocetDelitelu+=1\n    return pocetDelitelu\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (1,n+1):\n        if n%i==0: x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    f = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            f += 1\n    return f\n        \n        \n            \n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i ==0: a= a+1\n    return a\n 
+def pocet_delitelu(n):\n    a =0\n    for i in range (n+1):\n        if n%i==0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    i = 0\n    pocet = 0\n    while i != n:\n        i = i + 1\n        if n % i == 0:\n            pocet = pocet + 1\n        \n    return pocet 
+def pocet_delitelu(n):\n    d=0\n    for i in range (n+1):\n        if n%i==0: d+=1\n    return d\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if (n % i == 0):\n            pocet = pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x=x+1\n    return x\n\n 
+def pocet_delitelu(n):\n    deli=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            deli +=1\n    return deli\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if n%i==0:\n            k=k+1\n    return k\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            s = s + 1\n    return s\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i == 0:\n            pocet = pocet+1\n        \n    return pocet\n 
+def pocet_delitelu(n):\n    x=1\n    for i in range(2,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    counter = 0\n    for i in range(1, n):\n        if n % i == 0:\n            counter += 1\n    print counter\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range (1,n+1):\n        if n%i==0: k=k+1\n    return k\n 
+a = 0\ndef pocet_delitelu(n):\n    for i in range (0, n + 1)\n    a = a + 1\n    return a\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (n + 1):\n        if n % i = 0:\n            a = a + 1\n    return a\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    nanuk = 1\n    for i in range(n):\n        if (n % i == 0):\n            nanuk += 1\n    return nanuk\n 
+def pocet_delitelu(n):\n    pocetdelitelov = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocetdelitelov += 1\n    return pocetdelitelov\n 
+\ndef pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if (n % i == 0): \n            a+=1          \n    return a\n 
+def pocet_delitelu(n):\n    num = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            num += 1\n    return num\n 
+def pocet_delitelu(n):\n    y = 0\n    for i in range (1 , n + 1): \n      if n % i == 0 :\n       y = y + 1\n    return y  \n 
+def pocet_delitelu(n):\n    m = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            m = m + 1\n    return m\n 
+def pocet_delitelu(n):\n    k = 0;\n    for i in range (1, n + 1):\n        if n % i == 0:\n        k += 1\n    return k\n 
+def pocet_delitelu(n):\n    cnt = 0\n    for i in range(n+1):\n        if (n % i == 0):\n            cnt= cnt + 1\n    return cnt\n 
+def pocet_delitelu(n):\n    vysledek = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            vysledek +=1\n    return vysledek\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1): \n        if n % i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    e=0\n    for i in range(1,n+1):\n        if n%i==0:\n            e=e+1\n    return e\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range(1,n+1):\n        if n%i ==0:\n            d+=1\n    return d\n 
+def pocet_delitelu(n):\n    x=1\n    for i in range (1, n):\n        if (n%i==0):\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = int(0)\n    for i in range (1,n):\n     if n % i == 0:\n       pocet = pocet+1\n    return pocet+1\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,1 + n):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    cislo = 0\n    for i in range\n    return 1\n 
+def pocet_delitelu(n):\n    cislo = 0\n    for i in range\n    return 1\n 
+def pocet_delitelu(n):\n    cislo = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            cislo = cislo + 1\n    return cislo\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(n+1):\n        if n%i==0:\n            poc=poc+1\n    return poc\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            s += 1\n    return s\n\n 
+def pocet_delitelu(n):\n    p_del = 0\n    for i in range(1, n+1):\n        if(n % i == 0):\n            p_del += 1\n    return p_del\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1,n+1):\n        if n%i == 0: \n            a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    citac = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            citac = citac + 1\n        \n    return citac\n 
+def pocet_delitelu(n):\n    m=0\n    for i in range(n+1):\n        if n%i==0:m+=1\n    return m\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            count += 1\n    print count\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            count += 1\n    print count\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    \n    return 4\n 
+def pocet_delitelu(n):\n    delitele = []\n    for i in range(1, n+1):\n        if n % i ==0:\n            delitele.append(i)\n            \n    return len(delitele)        \n        \n 
+def pocet_delitelu(n):\n    pocet = 2\n    for i in range(2, n):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    if n == 1:\n        pocet = 1\n    else:\n        pocet = 2\n    for i in range(2, n):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=2\n    i=2\n    while (i**2<=n):\n        if (n%i==0):\n            p=p+2\n        i=i+1\n    return p\n 
+def pocet_delitelu(n):\n    p=2\n    i=2\n    while (i**2<=n):\n        if (n%i==0):\n            p=p+2\n        i=i+1\n    return p\n 
+def pocet_delitelu(n):\n    p=2\n    i=2\n    while (i**2<=n):\n        if (n%i==0):\n            p=p+2\n        i=i+1\n    return p\n 
+def pocet_delitelu(n):\n    c = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            c +=1\n    return c\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range(1,n+1):\n        if n%i==0:\n            delitele+=1\n    return delitele\n 
+def pocet_delitelu(n):\n    return len([x for x in range (1, n+1) if n%x==0])\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range (n+1):\n        if n % i == 0:\n            delitele +=1\n    return delitele\n 
+def pocet_delitelu(n):\n    pocet = 1\n    for i in range (1,9):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            p = p + 1\n    return p \n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (1,n+1):\n        if n%i==0:\n            x=x+1\n    return x 
+def pocet_delitelu(n):\n    x = 1\n    for i in range(1,(n//2)+1):\n        if ((n % i) == 0): x += 1\n    return x\n 
+def pocet_delitelu(n):\n    d=[]\n    for i in range (1,n+1):\n        if n % i == 0 :\n            d.append(i)\n    return len (d)\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            count +=1\n    return count\n 
+def pocet_delitelu(n):\n    pocetDelitelu = 0\n    for i in range(n + 1):\n        if n % i == 0: pocetDelitelu+=1\n    return pocetDelitelu\n 
+def pocet_delitelu(n):\n    t = 0\n    for _ in range(1,n+1):\n        if (n % _) == 0:\n            t += 1\n    return t\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    return len ([ x for x in range(1, n+1) if n % x == 0])\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    sucet = 1\n    for i in range(2,n+1):\n        if n%i == 0:\n            sucet +=1\n    return sucet\n 
+def delitelnost(n):\n    for i in range (1,n+1):\n        if n % i ==0 :\n            print i\n\ndef pocet_delitelu(n):\n    return len(delitelnost(n))\n 
+def pocet_delitelu(n):\n    celk = 0\n    for i in range (1,n+1):\n        if n % i ==0:\n            celk +=1\n    return celk\n 
+def pocet_delitelu(n):\n    for i in range(n):\n    return 1\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(n):\n        if(n%i==0):\n    return 1\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if(n%i==0):\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, 1+n):\n        if n % i == 0:\n            count +=1\n    return count\n\n\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i ==0:\n            pocet = pocet +1\n    return pocet\n 
+def pocet_delitelu(n):\n    summ = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            summ += 1\n    return summ\n 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(n+1):\n        if n % i == 0:\n            delitel = delitel + 1\n    return delitel\n 
+def pocet_delitelu(n):\n    i = 0\n    for j in range(n+1):\n        if n % j == 0:\n            i += 1\n    return i\n 
+def pocet_delitelu(n):\n    return len([x for x in range(1,n+1) if n % x ==0]) 
+def pocet_delitelu(n):\n    m = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            m += 1\n    return m\n 
+def pocet_delitelu(n):\n    i = 0\n    delitel = 0\n    while i <= n:\n        if n % i == 0:\n            delitel = delitel + 1\n        i = i+1    \n    return delitel\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1, n+1):\n        if (n % i) == 0:\n            x = x + 1\n    return x\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    pocitadlo = 0\n    for i in range (1, n+1):\n        if (n%i) == 0:\n            pocitadlo += 1\n    return pocitadlo\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range(1,n+1):\n        if n%i==0:\n            delitele+=1\n    return delitele\n 
+def pocet_delitelu(n):\n    k=1\n    for i in range(1, n):\n        if n%i==0:\n            k+=1  \n    return k\n 
+def pocet_delitelu(n):\n    pocitadlo = 0\n    \n    for i in range(n+1):\n        if(n % i == 0):\n            pocitadlo += 1\n            \n    return pocitadlo\n        \n 
+def pocet_delitelu(n):\n    delt = 0;\n    for i in range(1,n+1):\n        if n % i == 0: delt += 1;\n    return delt\n 
+def pocet_delitelu(n):\n    return len([x for x in range(1,n+1) if n % x == 0]) 
+def pocet_delitelu(n):\n    vystup=0\n    for i in range(n):\n        if n%i==0:\n            vystup+=1\n    return vystup+1\n 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            delitel += 1\n    return delitel\n 
+def pocet_delitelu(n):\n    vysledek = 0\n    for i in range (0,n+1):\n        if n%i == 0:\n            vysledek += 1\n    return vysledek\n 
+def pocet_delitelu(n):\n    for i in range(n):\n    return 1\n 
+def pocet_delitelu(n):\n    for i in range(n):\n    return 1\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n % i == 0:\n    return 1\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n % i == 0:\n    return 1\n 
+def pocet_delitelu(n):\n    spolu=0\n    for i in range(n+1):\n        if n % i == 0:\n            spolu+=1\n    return spolu\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n % i ==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    cisilko = 0\n    for i in range(1,n+1):\n        if (n % i)==0:\n            cisilko+=1\n    return cisilko\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1, n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1, n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            delitele = delitele + 1\n    return delitele\n 
+def pocet_delitelu(n):\n    return 2\n 
+def pocet_delitelu(n):\n    return 2\n 
+def pocet_delitelu(n):\n    return 4\n 
+def pocet_delitelu(n):\n    for i in range (1,n+1):\n        if n%i==0:\n            print(i) 
+def pocet_delitelu(n):\n    return len([x for x in range(1,n+1) if n%x==0])\n    return 1\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    counter = 0\n    for i in range(1, n+1):\n        if (n % i) == 0:\n            counter += 1\n    return counter\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if(n%i==0):\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 1\n    for i in range(0,n):\n        if n % i == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x+=1\n    return x\n        \n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            a += 1    \n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet += 1\n    \n    return pocet\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if n%i==0: \n            k+=1\n        else: \n            print\n    return k\n 
+def pocet_delitelu(n):\n    poc_usp_deleni = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            poc_usp_deleni += 1\n    return poc_usp_deleni\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            a += 1\n    return a 
+def pocet_delitelu(n):\n    pom = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            pom += 1\n    return pom\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    vysledek = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            vysledek +=1\n    return vysledek\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n % i == 0: a += 1\n    return a\n 
+def pocet_delitelu(n):\n    celkem = 0\n    for i in range(n):\n        if(n%(i+1)==0):\n            celkem +=1\n    return celkem\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1, n + 1):\n        if n % i == 0:\n            a = a + 1\n    return a\n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(n+1):\n        if not n % i : sum = sum + 1\n    \n    return sum\n 
+def pocet_delitelu(n):\n    soucet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            soucet += 1\n    return soucet\n        \n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p+=1\n        else:p+=0\n    return p\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    \n    return x\n 
+def pocet_delitelu(n):\n    result = 0\n    for i in range(n+1):\n        if n % i == 0:\n            result = result + 1    \n    return result\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for delitel in range(1,n+1):\n        if (n % delitel == 0):\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i ==0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            d += 1\n    return d\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n % i ==0:\n            pocet+=1    \n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            a = a+1    \n    return a\n 
+def pocet_delitelu(n):\n    c = 0\n    for i in range (1,n+1):\n        if n%i==0 :\n            c=c+1\n    return c\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(n+1):\n        if n % i==0:\n            s+=1\n    return s\n 
+def pocet_delitelu(n):\n    sou = 0\n    for i in range(1,n+1):\n        if n%i == 0 : sou +=1\n    return sou\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n %i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1,n+1):\n        if n % i == 0: poc += 1\n    return poc\n 
+def pocet_delitelu(n):\n    D=0\n    for i in range(1,n+1):\n        if n%i==0:\n            D+=1            \n    return D\n 
+def pocet_delitelu(n):\n    spolu = 0\n    for i in range (1, n+1):\n        if n%i == 0: spolu +=1\n    return spolu\n 
+def pocet_delitelu(n):\n    sucet=0\n    for i in range(n+1):\n        if n%i==0:\n            sucet+=1\n    return sucet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:p+=1\n    return p\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(n+1):\n        if (n % i == 0):\n            k +=1\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range (n+1):\n        if (n % i == 0):\n            k +=1\n    return k\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1, n+1):\n        if (n %i) == 0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i ==0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for delitel in range(1,n+1):\n        if n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if n%i==0:\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    div = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            div += 1\n    \n    return div\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1, n+1):\n        if n%i==0: \n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    for i in range (1,n+1):\n        k=0\n        for j in range(1,i+1):\n            if i%j==0:\n                k+=1\n        return i\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range (1,n+1):\n        if n%i==0:\n            k+=1\n    return k\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    f=0\n    for i in range(1,n+1):\n        if n%i==0:\n            f = f+1\n    return f\n 
+def pocet_delitelu(n):\n    total = 0\n    for i in range( 1, n+1):\n        if( n % i == 0):\n            total += 1\n            \n    return total\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n%i == 0: pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    t=0\n    for i in range (1,n+1):\n        if n%i== 0:\n            t+=1\n    return t\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n % i ==0: pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i ==0: pocet= pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        a = 0\n        while n%i==0:\n            a += a?\n            return a\n            \n            \n        \n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        a = 0\n        while n%i==0:\n            a += a?\n            return a\n            \n            \n        \n 
+def pocet_delitelu(n):\n    return len([d for d in range (1,n+1) if n%d==0])\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i==0: pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            pocet = pocet +1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet=pocet+1\n           \n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if (n%i == 0):\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x = x+1\n    return x\n 
+def pocet_delitelu(n):\n    sucet = 0\n    for i in range(1,n+1):\n        if(n%i == 0):\n            sucet = sucet+1\n    return sucet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for kandidat in range(1,n+1):\n        if n%kandidat == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    f=0\n    for i in range(1,n+1):\n        if n%i==0:\n            f=f+1\n    return f\n 
+def pocet_delitelu(n):\n    pd = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            pd += 1\n    return pd\n 
+def pocet_delitelu(n):\n    pocetD = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocetD += 1\n    \n    return pocetD\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 1\n    for i in range(2, n+1):\n        if n % i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocitac = 0\n    for i in range(1,n+1):\n        if n%i == 0: pocitac+=1\n    return pocitac\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (n+1):\n        if n % i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    p = 1\n    for i in range(2,n+1):\n        if n % i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    return len([delitel for delitel in range(1,n+1) if n 
+def pocet_delitelu(n):\n    cislo = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            cislo += 1\n    return cislo\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range (1, n+1):\n        if n%i == 0:\n            d = d+1\n    return d\n 
+def pocet_delitelu(n):\n    cislo=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            cislo +=1\n    return cislo\n 
+def pocet_delitelu(n):\n    citac=0\n    for i in range (1,n+1):\n        if n%i==0:\n            citac+=1\n    return citac\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (1, n+1) :\n        if n%i == 0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    return 2\n 
+def pocet_delitelu(n):\n    return n/2\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if n % i==0:\n            poc=poc+1\n    return poc\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    delitelov = 1\n    for i in range(1,n):\n        if(n % i == 0): delitelov+=1\n    return delitelov\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(0,n+1):\n        if n % i == 0:\n            k +=1\n    return k\n 
+def pocet_delitelu(n):\n    i = 1\n    count = 0\n    while(i <= n):\n        if(n%i == 0):\n            count += 1\n        i += 1\n    return count\n 
+def pocet_delitelu(n):\n    num = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            num += 1\n    return num\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            p = p+1\n    return p\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    zaklad=n\n    pocitaj=0\n    while n>0:\n        if zaklad%n==0:\n            pocitaj+=1\n    return pocitaj\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(n+1):\n        if n//i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(n+1):\n        if n%i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(n):\n        if n%i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(0,n+1):\n        if n%i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(0,n+1):\n        if n%i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(0,n+1):\n        if n%i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(0,n):\n        if n%i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(n):\n        if n%i:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(n):\n        if n%i==0:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(0,n):\n        if n%i==0:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(0,n+1):\n        if n%i==0:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    delitelov = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            delitelov = delitelov + 1\n    return delitelov\n 
+def pocet_delitelu(n):\n    d = 0\n    for i in range(n):\n        if n%i == 0:\n            d += 1\n    return d+1\n 
+def pocet_delitelu(n):\n    seznam = []\n    for i in range(1, n+1):\n        if n%i == 0:\n            seznam.append(i)\n    return len(seznam)\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            sum += 1\n    return sum 
+def pocet_delitelu(n):\n    delitel=0\n    i=1\n    while i<= n:\n        if n%i==0:\n           delitel=delitel +1\n        i=i+1    \n    return delitel\n\n 
+def pocet_delitelu(n):\n    cnt = 0\n    for i in range(n+1):\n        if n % i == 0: cnt += 1\n    return cnt\n 
+def pocet_delitelu(n):\n    cnt = 1\n    for i in range(n):\n        if (n%i == 0): cnt += 1\n    return cnt\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(n+1):\n        if n % i ==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    j= 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            j= j+1\n    return j\n 
+def pocet_delitelu(n):\n    pocet = 0\n    i = 1\n    while i*i <= n:\n        if n % i == 0:\n            pocet += 1\n        i += 1\n    return pocet*2\n 
+def pocet_delitelu(n):\n    pocet = 0\n    i = 1\n    while i*i < n:\n        if n % i == 0:\n            pocet += 1\n        i += 1\n    pocet *= 2\n    if n % i == 0:\n        pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    i = 1\n    while i*i < n:\n        if n % i == 0:\n            pocet += 1\n        i += 1\n    pocet *= 2\n    if n % (i*i) == 0:\n        pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    global x\n    x = 0\n    for i in range(n+1):\n        if (n % i) == 0:\n            x = x + 1\n    return x\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range (1, n+1):\n       if n%i == 0:\n          s = s+1    \n    return s\n 
+def pocet_delitelu(n):\n    return 2\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range(n+1):\n        if n%i==0:\n            sum +=1\n    return sum\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\nu=0\nfor i in range (0,n+1):\nif n%i==0:\nu +=1\nreturn u 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        if n%i==0:\n            s=s+1\n    return s\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            s = s +1\n    \n    return s\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            s+=1\n    return s\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(0, n+1):\n        if n % i == 0:\n           x += 1 \n    return x\n 
+def pocet_delitelu(n):\n    results = 0\n    for i in range(n+1):\n        if n % i == 0:\n            results+=1\n    return results\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range(n+1):\n        if n%i==0:\n            d=d+1\n    return d\n 
+def pocet_delitelu(n):\n    pocet=0\n    while pocet<n:\n        if pocet%n==0:\n            pocet+=pocet\n        n+=1\n    return pocet\n            \n 
+def pocet_delitelu(n):\n    pocet=0\n    while pocet<n:\n        if pocet%n==0:\n            pocet+=pocet\n        n+=1\n    return pocet\n            \n 
+def pocet_delitelu(n):\n    pocet=0\n\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    \n    return pocet\n            \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n       if n % i ==0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    result = 0\n    for i in range(n+1):\n        if n % i == 0:\n            result += 1\n    return result\n 
+def pocet_delitelu(n):\n    kontrola = 1\n    for i in range (1, n):\n        if (n % i) == 0:\n            kontrola = kontrola + 1\n    return kontrola\n 
+def pocet_delitelu(n):\n    delitel=0\n    for i in range (1,n+1):\n        if n%i == 0:\n            delitel += 1    \n    return delitel\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 1\n    for i in range(n):\n        if n%i == 0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    pocet=0\n    x=1\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n        x+=1\n    return pocet\n 
+def pocet_delitelu (n):\n    x=0\n    k=0\n    for i in range (n):\n        x=x+1\n        if n%x==0:\n            k=k+1\n    return k 
+def pocet_delitelu(n):\n    x=0\n    for i in range (1,n+1):\n        if n%i == 0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    delitelu=0\n    for i in range(1,n+1):\n        if n%i==0:\n            delitelu+=1\n    return delitelu\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if (n % i ==0):\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if (n%(i+1) == 0):\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    return len([x for x in range(1,n+1) if n % x ==0])\n\n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            sum += 1\n    return sum\n 
+def pocet_delitelu(n):\n    delitelu = 0\n    for i in range(n+1):\n        if (n % i == 0):\n            delitelu += 1\n    return delitelu\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n%(i+1) ==0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(1,n+1) :\n        if n % i == 0 :\n           delitel += 1\n    return delitel\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (0,n+1):\n        if n % i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    suma = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            suma += 1\n    return suma\n 
+def pocet_delitelu(n):\n    citac=0\n    for i in range (n):\n        if n%i==0:\n            citac+=1\n    return citac\n 
+def pocet_delitelu(n):\n    citac=0\n    for i in range (n):\n        if n%i==0:\n            citac+=1\n    return citac+1\n 
+def pocet_delitelu(n):\n    soucet=0\n    for i in range (1,n+1):\n        if (n%i==0): soucet+=1\n    return soucet\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range (1,n+1):\n        if n%i == 0:\n            poc +=1\n    return poc\n 
+def pocet_delitelu(n):\n    delit = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            delit += 1\n        \n    return delit\n 
+def pocet_delitelu(n):\n    pocitam = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocitam += 1\n    return pocitam\n 
+def pocet_delitelu(n):\n    d = 1\n    for i in range(2,n+1):\n        if n%i==0:\n            d+=1\n    return d\n 
+def pocet_delitelu(n):\n    a=2\n    for i in range(2,n/2):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    a=2\n    for i in range(2,n/2+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    a=2\n    for i in range(2,n/2+1):\n        if n%i==0:\n            a+=1\n    if n==1:a=1\n    return a\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        if n%i==0:\n           s +=1 \n    return s\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    c=0\n    for i in range(1,n+1):\n        if n%i==0: \n            c=c+1\n    return c\n 
+def pocet_delitelu(n):\n    count = 1\n    for i in range(n):\n        if(n%i == 0):\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    PocetDelitelu = 0\n    for i in range (1, n+1):\n        if (n%i==0):\n            PocetDelitelu += 1\n    return PocetDelitelu\n 
+def pocet_delitelu(n):\n    delitele = []\n    for i in range(1, n+1):\n        if n % i == 0:\n            delitele.append(i)\n    print len(delitele) 
+def pocet_delitelu(n):\n    s = []\n    for i in range(1,n+1):\n        if n % i == 0: s.append(i)\n    return len(s) 
+def pocet_delitelu(n):\n    pocet_delitelu = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet_delitelu += 1\n    return pocet_delitelu\n 
+def pocet_delitelu(n):\n    p=1\n    for i in range(1,n):\n        if n % i == 0: p+=1\n    return p\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n        if (n % i == 0):\n            k += 1\n    return k\n 
+def pocet_delitelu(n):\n    pocet_del=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            pocet_del+=1\n    return pocet_del\n 
+def pocet_delitelu(n):\n    delitelu = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            delitelu += 1\n    return delitelu\n 
+def pocet_delitelu(n):\n    val = 0\n    \n    for i in range(1, n+1):\n        if n % i == 0:\n            val += 1\n    \n    return val\n 
+def pocet_delitelu(n):\n    return len([ x for x in range(1,n+1) if n % x == 0])\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i == 0: pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\ns = []\nfor i in range(1,n+1):\nif n % i == 0:\ns.append(i)\nreturn len(s) 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (1, n+1):\n        if n % i == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            delitel +=1\n    return delitel\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        n % i\n        if n % i == 0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n%i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(n+1):\n        if n%i == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    delitel=n\n    k=0\n    for i in range(n):\n        if n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(n+1):\n        if n % i == 0:\n            sum += 1\n    return sum\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (0,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(n+1):\n        if n%i == 0:\n            s += 1\n    return s\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if n%i==0:\n            poc+=1\n         \n    return poc\n 
+def pocet_delitelu(n):\n    counter = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            counter += 1\n    return counter        \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet += 1\n            \n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet=pocet+1\n    \n    return pocet\n 
+def pocet_delitelu(n):\n    res = 0;\n    for i in range(n+1):\n        if not n % i:\n            res +=1\n    return res\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0: x += 1\n    return x\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(n+1):\n        if n%i==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet +=1\n    return pocet\n        \n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(n+1):\n        if n % i == 0:\n            delitele += 1\n    return delitele\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range (n+1):\n        if n%i==0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    sucet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            sucet += 1\n    return sucet\n 
+def pocet_delitelu(n):\n    for i in range (1,n+1):\n        y+=1\n    return \n 
+def pocet_delitelu(n):\n    for i in range (1,n+1):\n        y+=1\n    return \n 
+def pocet_delitelu(n):\n    y=0\n    for i in range (1,n+1):\n        if n%i==0:\n            y+=1\n    return y \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for delitel in range(1, n+1):\n        if n % delitel == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    c = 0\n    for i in range(1,n+1):\n        if n % i == 0: c+=1\n    return c 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        if n%i==0:\n            s+=1\n    return s\n \n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(n+1):\n        if n % i == 0: p += 1\n    return p\n 
+def pocet_delitelu(n):\n    for i in range(n+1):\n        if n % i==0:\n            return 4\n        \n 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for x in range(n):\n        for i in range(n):\n            if n%i==0:\n                return i 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i==0:\n            print i\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i==0:\n            print i\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i==0:\n            print i\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if n%i==0:\n            k+=1\n    return k\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n%i==0: a+=1\n    return a\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    pom = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pom +=1\n    return pom\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1, n+1):\n        if n%i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if n%i == 0: k+=1\n    return k\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0 or n % i == n:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    f=0\n    for i in range (1,n+1):\n        if (n % i == 0):\n            f+=1\n    return f\n 
+def pocet_delitelu(n):\n    poc=1\n    if n > 1:\n        \n        for i in range(1,n/2):\n            if n % i == 0:\n                poc+=1\n 
+def pocet_delitelu(n):\n    poc=1\n    if n > 1:\n        \n        for i in range(1,n/2):\n            if n % i == 0:\n                poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    poc=1\n    if n > 1:\n        \n        for i in range(1,n/2):\n            if n % i == 0:\n                poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    poc=1\n    if n > 1:\n        \n        for i in range(1,n/2):\n            if n % i == 0:\n                poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    poc=1\n    if n > 1:\n        \n        for i in range(1,n/2):\n            if n % i == 0:\n                poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    poc=1\n    if n > 1:\n        \n        for i in range(1,n/2+1):\n            if n % i == 0:\n                poc+=1\n    return poc\n 
+from math import sqrt\nfrom math import floor\n\ndef pocet_delitelu(n):\n    count = 0\n    sqrtn = sqrt(n)\n    for i in range(1, floor(sqrtn) + 1):\n        if (n % i == 0):\n            count += 2\n    if (floor(sqrtn) == sqrtn) a 
+def pocet_delitelu(n):\n    count=0\n    for i in range(1, n+1):\n        if n%i == 0:\n            count = count +1\n    return count 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,  n+1):\n        if n % i == 0:\n            x += 1\n            \n    return x\n 
+def pocet_delitelu(n):\n    pocet_delitelu = 1\n    delitel = 1\n    while(delitel<n):\n        if(n 
+def pocet_delitelu(n):\n    for i in range (n):\n        k = 0\n        for j in range(n):\n            if(i%j==0):\n                k+=1\n    return k 
+def pocet_delitelu(n):\n    k=0\n    for i in range (n+1):\n        if(n%i==0):k+=1\n    return k 
+def pocet_delitelu(n):\n    a=0\n    for x in range (n+1):\n        if n%x==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(n+1):\n        if n % i == 0:\n            x += 1 \n    return x\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1, n+1):\n        if n%i == 0:\n            k = k + 1\n    return k        \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i ==0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    c = 0\n    for i in range(n+1):\n        if n % i == 0:\n            c+=1\n    return c\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            s += 1\n        \n    return s\n 
+def pocet_delitelu(n):\n    l=0\n    for i in range(1,n+1):\n        if (n%i)==0: l+=1\n    return l\n 
+def pocet_delitelu(n):\n    pocet=0\n    for cislo in range(n+1):\n        if(n%cislo==0):\n            pocet=pocet+1\n        \n    return pocet\n 
+def pocet_delitelu(n):\n    vysledek = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            vysledek += 1\n    return vysledek        \n 
+def pocet_delitelu(n):\n    delitelu = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            delitelu += 1  \n    return delitelu\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n  % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for x in range(1,n+1):\n        if n%x == 0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(n+1):\n        if n % i == 0:\n            x +=1\n        \n    return x\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if i > 0 and n % i == 0:\n            pocet = pocet + 1\n    return pocet\n    pocet_delitelu = pocet 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    i = 1\n    x = 0\n    while i <=n:\n        if n % i ==0:\n            x = x+1\n        i = i+1\n    return(x)\n 
+def pocet_delitelu(n):\n    if n == 1: return 1\n    d = 1\n    for i in range(2,n/2+1):\n        if n%i == 0: d+=1\n    return d+1\n    \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if (n % i == 0):\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            return n\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n):\n        if n % i == 0:\n            pocet += 1\n        return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i == 0: pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    de=0\n    b=0\n    while b<n:\n        b+=1\n        if n%b==0:\n          de+=1\n    return de\n 
+def pocet_delitelu(n):\n    delitele_list = []\n    d = 1\n    while d <= math.sqrt(n):\n        if n % d == 0:\n            delitele_list.append(d)\n            delitele_list.append(int(n / d))\n        d += 1\n    return len(delitele_ 
+from math import sqrt\ndef pocet_delitelu(n):\n    delitele_list = []\n    d = 1\n    while d <= sqrt(n):\n        if n % d == 0:\n            delitele_list.append(d)\n            delitele_list.append(n//d)\n        d += 1\n    return 
+def pocet_delitelu(n):\n    delitele_list = []\n    d = 1\n    while d <= n:\n        if n % d == 0 :\n            delitele_list.append(d)\n        d += 1\n    return len(delitele_list) 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet_delitelu=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet_delitelu=pocet_delitelu+1\n    return pocet_delitelu\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if (n % i == 0):\n            a += 1\n    return a 
+def pocet_delitelu(n):\n    cit = 0\n    for i in range (1,n+1):\n        if n%i==0:\n            cit+=1\n    return cit\n 
+def pocet_delitelu(n):\n    poc=1\n    for i in range (1,n/2+1):\n        if n % i==0:\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (n+1):\n        if (n%i==0):\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1,n+1):\n        if n%i==0:a+=1\n    return a\n 
+def pocet_delitelu(n):\n    suma = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            suma += 1\n    return suma\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    o = 0\n    for i in range(n+1):\n        if not n % i:\n            o += 1\n    return o\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    pocitadlo = 0\n    for i in range(n+1):\n        if(n%i == 0):\n            pocitadlo += 1\n    return pocitadlo\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if n % i==0:\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n    return 1\n 
+def pocet_delitelu(n):\n    for i in range(1,n+1):\n    return 1\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i == 0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if (n%i) == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            delitel+=1\n    return delitel\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range(1,n+1):\n    if n%i==0:\n        delitele=delitele+1\n    return delitele\n 
+def pocet_delitelu(n):\n    m = 0\n    for i in range (n + 1):\n        if n % i == 0:\n            m = m + 1\n    return m\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    q=0\n    for i in range (1,n+1):\n        if n%i == 0:\n            q=q+1    \n    return q\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i==0:\n            pocet = pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    c=0\n    for i in range (n+1):\n        if n%i==0:\n            c+=1\n    return c\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            delitele += 1\n    return delitele 
+def pocet_delitelu(n):\n    d = 0\n    for i in range(1, n+1):\n        if(n%i==0):\n            d += 1\n    return d\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n        pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\ndelit = 0\nfor i in range(1, n+1):\nif n % i == 0:\ndelit += 1\n\nreturn delit\n 
+def pocet_delitelu(n):\n    ret = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            ret += 1\n    return ret\n 
+def pocet_delitelu(n):\n    return (n * 2 / n) * 2\n 
+def pocet_delitelu(n):\n    return (n ** n) - n\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(n+1):\n        if n % i == 0:\n            k += 1\n    return k\n 
+def pocet_delitelu(n):\n    d = 0\n    for i in range (n + 1):\n        if n % i == 0:\n            d +=1\n    return d\n 
+def pocet_delitelu(n):\n    d = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            d = d+1\n    return d\n 
+def pocet_delitelu(n):\n    k=0\n    for x in range(n+1):\n        if n%x==0:\n            k=k+1\n    return k\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x = x+1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for delitel in range (n+1):\n        if n % delitel == 0:\n        pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    res = 0\n    for i in range(1,n+1):\n        if (n % i == 0):\n            res += 1\n    return res\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1, n+1):\n        if n%i==0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    s = 0 \n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n    \n    return s\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n    if n%i == 0: s =s + 1\n    return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n    return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n   s = 0\n   for i in range (1,n+1)\n   if n%i == 0: s =s + 1\n   return 1\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n            \n    return s\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    return 1\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n    return s\n 
+def pocet_delitelu(n):\n    return 9\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n            \n    return s\n 
+def pocet_delitelu(n):\ns = 0\nfor i in range(n+1):\n    if n%i == 0: s=s+1\n        return s 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n           \n    return s\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n    return s\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n        \n    return s\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(n+1):\n        if n%i == 0: s = s + 1\n\n    return s\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(1,n+1):\n        if n%i == 0: s = s + 1\n    return s\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range (n + 1):\n        if n%i  == 0: s = s + 1\n    return s\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(n+1):\n        if (n % i) == 0:\n            x = x + 1\n    return x\n 
+def pocet_delitelu(n):\n    a = 0\n    for x in range (1,n+1):\n    if n % x == 0:\n        a += 1\n    else:\n        a = a    \n    return a 
+def pocet_delitelu(n):\n    d = 0\n    for i in range (1,n+1):\n        if n % i ==0:\n            d +=1\nreturn d\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range (1,n+1):\n        if n%i==0:\n            s +=1\n    return s\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1, n+1):\n        if n%i==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1, n+1):\n    if n%i == 0:\n        poc = poc + 1\n    return poc\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(n+1):\n        if n%i == 0:\n            a += 1\n    return a\n\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(n+1):\n        if n%i==0: s=s+1 \n    return s\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1, n+1):  \n        if n%i==0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x += 1\n    return x 
+def pocet_delitelu(n):\n    sucet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            sucet=sucet+1\n    return sucet\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(n):\n      if n%(i+1)==0:\n        poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(n+1):\n        if n%i==0:\n            delitele += 1        \n    return delitele\n 
+def pocet_delitelu(n):\n            return len([ x for x in range(1,n+1) if n % x == 0 ])\n 
+def pocet_delitelu(n):\n    result = 0\n    for i in range(n+1):\n        if (n % i) == 0:\n            result += 1\n    return result 
+def pocet_delitelu(n):\n    new=1\n    for i in range(n):\n        if n%i==0:\n            new+=1\n    return new\n 
+def pocet_delitelu(n):\n    for i in range (1,n+1):\n        if n%i==0:\n           count+=1 \n    return count\n 
+def pocet_delitelu(n):\n    count =0\n    for i in range (1,n+1):\n        if n%i==0:\n           count+=1 \n    return count\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    delitelu = 0\n    for i in range(1,n+1):\n        if not n % 2:\n            delitelu += 1\n    return delitelu\n 
+def pocet_delitelu(n):\n    delitelu = 0\n    for i in range(1,n+1):\n        if not n % i:\n            delitelu += 1\n    return delitelu\n 
+def pocet_delitelu(n):\n    soucet = 1\n    for i in range(1, n):\n        if n % i == 0:\n            soucet+=1\n    return soucet\n 
+def pocet_delitelu(n):\n    pocet=1\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet+=1\n            return pocet\n    \n     \n 
+def pocet_delitelu(n):\n    pocet=1\n    for i in range(1,n):\n        if n % i == 0:\n            pocet+=1\n    return pocet\n    \n     \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    soucet = 0\n    for i in range (1, n+1):\n        if n%i == 0:\n            soucet = soucet + 1\n        \n    return soucet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for candidate in range(1, n + 1):\n        if n % candidate == 0:\n            pocet += 1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    x=1\n    while x<=n:\n    if n%x == 0:\n    pocet+=1\n            x+=1\n    return pocet \n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            count += 1\n    return count 
+def pocet_delitelu(n):\n    y=0\n    for i in range(1, n+1):\n        if n%i==0:\n            y+=1\n    return y 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            p +=1\n    return p\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(n+1):\n        if n % i ==0:\n        a = a+1\n    return a\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n    if(n%i==0):\n        pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    div=0\n    for i in range(1,n+1):\n    if n % i == 0: div += 1\n    return div\n 
+def pocet_delitelu(n):\n    a  = []\n    for i in range(1,n+1):\n        if n % i == 0:\n            a.append(i)\n    return len(a)\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(n+1):\n        if n%i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1, n + 1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    return 1 + 1\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1,n+1):\n        if n%i==0:\n            count+=1\n    return count\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(n+1):\n        if i>0:\n            if n%i==0:\n        x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n            \n    return pocet\n 
+def pocet_delitelu(n):\n    num = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            num +=1\n    return num\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1, n + 1):\n    if n % i == 0:\nk +=1\n    return k 
+def pocet_delitelu(n):\n    pocet = 0 \n    for i in range(1,n+1):\n        if n % i ==0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for candidate in range(1, n+1):\n        if n % candidate == 0:\n            count += 1\n           \n    return count \n\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i == 0:\n            pocet += 1 \n    return pocet\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range(1,n+1):\n        if n%i == 0:\n            d=d+1\n    return d\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            k+=1\n    return k\n 
+def pocet_delitelu(n):\n    cislo = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            cislo = cislo +1\n    return cislo\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range(1,n+1):\n        if n%i==0:\n            delitele=delitele+1\n    return delitele\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range(n+1):\n        if n%i==0:\n            d+=1\n    return d\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1, n +1):\n        if (n % i == 0):\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(n+1):\n        if n%i==0:\n        a=a+1    \n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if (n%i==0):\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitelu = 1\n    for i in range(n):\n        if n % i == 0:\n            delitelu += 1\n    return delitelu\n 
+def pocet_delitelu(n):\n    count = 1\n    for i in range(n):\n        if n % i == 0:\n            count +=1\n    return count\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n    \n 
+def pocet_delitelu(n):\na=0\nfor i in range(1,n+1):\nif n%i == 0:\na += 1\nreturn a\n    \n\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(n+1):\n        if n%i==0:\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet+=1\n            \n    return pocet\n\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n        a+=1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 1\n    for i in range(1, n//2+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet 
+def pocet_delitelu(n):\n    q=0\n    for i in range(n):\n        p=i+1\n        if n%p==0:\n            q=q+1\n            \n    return q\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(0,n+1):\n        if n % i == 0 :\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    j = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            j = j +1\n    \n    return j\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            a = a + 1\n    \n    return a\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range(n+1):\n        if n%i==0:\n            count+=1\n    return count\n 
+def pocet_delitelu(n):\n    pocet = 1\n    for i in range(1, n):\n        if n%i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\nreturn len([i\n            for i in range(1,n+1) \n                if n%i == 0 \n        ])\nreturn 1 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            a+=1\n            \n    return a\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n    if n%i==0:\n            k+=1\nreturn k 
+def pocet_delitelu(n):\n    k=0\n    for i in range(1,n+1):\n        if n%i==0:\n            k=k+1\n    return k\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    sucet=0\n    for i in range (1,n+1):\n        if (n%i)==0:\n            sucet=sucet+1\n    return sucet\n 
+def pocet_delitelu(n):\n    result = 0\n    for i in range (1, n+1):\n        if n%i == 0:\n            result += 1\n    return result\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    x = pocet\n    return x\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            k = k + 1\n    return k\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(1,n+1):\n        if n%i ==0:\n            s=s+1\n    return s\n 
+def pocet_delitelu(n):\n    if n < 1:\n        return 0\n    count = 0\n    for i in range(0, n+1):\n        if n % i == 0:\n            count += 1\n    return count\n            \n            \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if(n % i == 0):\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range (1,n+1):\n        if n%i==0:\n            delitele+=1\n    return delitele\n 
+def pocet_delitelu(n):\n    pocet=1\n    for i in range(n):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if (n%i)==0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    counter = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            counter += 1\n    return counter        \n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1,n+1):\n        if (n % i) == 0:\n            p += 1     \n    return p\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            poc += 1\n    return poc\n 
+def pocet_delitelu(n):\n    m = 1\n    for i in range (n):\n        if n % i == 0:\n            m +=1\n    return m\n            \n 
+def pocet_delitelu(n):\n    list = []\n    for i in range(1,n+1):\n        if n % i == 0:\n            list.append(1)\n    return len(list)\n 
+def pocet_delitelu(n):\n    return 2\n 
+def pocet_delitelu(n):\n    vysledek = 0\n    for i in range (1,n+1):\n        if n/i == 0:\n            vysledek = vysledek + 1\n    return vysledek        \n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            a = a+1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n    p += 1\n    return p\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n % i==0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n        count+= 1\n    return count\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    vystup=1\n    for i in range(n/2+1):\n        if n%i==0:\n            vystup+=1\n    return vystup\n 
+def pocet_delitelu(n):\n    vystup=1\n    for i in range(n):\n        if n%i==0:\n            vystup+=1\n    return vystup\n 
+def pocet_delitelu(n):\n    f = 0\n    for i in range(n):\n        if n%(i+1) == 0:\n            f = f+1\n    return f 
+def pocet_delitelu(n):\n    vys=0\n    for i in range(1,n+1):\n    if n%i==0:\n        vys=vys+1\n    return vys\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(n):\n        if n%(i+1)==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n           a += 1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n%i == 0:\n            pocet +=1\n    return pocet 
+def pocet_delitelu(n):\n    soucet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            soucet += 1\n    return soucet\n 
+def pocet_delitelu(n):\n    delitele = 2\n    for i in range(2,n):\n        if(n%i == 0):\n            delitele +=1\n    return delitele\n 
+def pocet_delitelu(n):\n    delitele = 1\n    for i in range(2,n):\n        if(n%i == 0):\n            delitele +=1\n    return delitele\n 
+def pocet_delitelu(n):\n    delitele = 1\n    for i in range(2,n+1):\n        if(n%i == 0):\n            delitele +=1\n    return delitele\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1, n+1):\n        if n % i == 0:\n            pocet=pocet+1\n    return pocet  \n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1,n+1):\n        if (n % i == 0):\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1,n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    result=0\n    for i in range(1, n+1):\n        if n%i == 0:\n            result+=1\n    return result\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n        \n    return pocet\n 
+def pocet_delitelu(n):\n    xx = 1\n    pocet = 0\n    while xx <= n:\n        if n % xx == 0:\n            pocet+=1\n            xx+=1\n        else:\n            xx += 1\n \n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range (1,n+1):\n        if n%i == 0:\n            count+=1\n    return count\n 
+def pocet_delitelu(n):\n    a=0\n    b=0\n    for i in range (1,n+1):\n    if n % i == 0:\n        b=b+1\n    \n    return b\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(n+1):\n        if(n % i == 0):\n            delitele += 1\n    return delitele\n        \n 
+def pocet_delitelu(n):\n    vysl = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            vysl += 1\n    return vysl\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            k +=1\n    return k\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            k += 1\n    return k 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n    if n%i==0:\n        pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range(1,n+1):\n        if n % i == 0: s+= 1\n    return s\n 
+def pocet_delitelu(n):\n    count =0\n    for i in range(1,n+1):\n        if n%i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(n+1):\n        if n%i==0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    cislo=0\n    for i in range (1,n+1):\n        if (n%i==0):\n            cislo+=1\n    return cislo\n 
+def pocet_delitelu(n):\n    l = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            l += 1\n    return l 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if n %i ==0:\n            pocet =pocet +1\n            \n    return pocet\n 
+def pocet_delitelu(n):\n    soucet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            soucet+=1\n    return soucet\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(n+1):\n        if n % i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1, n+1):\n        if n%i==0:\n            a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range(n+1):\n        if n % i ==0:\n            count+=1\n    return count\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0: pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 2\n    for i in range(2,(n+2)//2):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n     
+def pocet_delitelu(n):\n    count=0\n    for i in range (1,n+1):\n        if n%i==0:\n            count=count+1\n    return count\n 
+def pocet_delitelu(n):\n    sucet = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            sucet += 1\n    return sucet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if not n%i:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\nvysl=0\nfor i in range(1,n+1):\nif n%i==0:\nvysl=vysl+1\nreturn vysl\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            a += 1\n    return a 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(1, n+1):\n        if (n % i == 0):\n            delitel += 1\n    return delitel\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n    if n % i == 0:\ncount += 1\n    return count\n 
+def pocet_delitelu(n):\n    vysledok = 0\n    for i in range (1,n+1):\n        if n % i == 0:\n            vysledok += 1 \n    return vysledok\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            delitel+=1\n    return delitel\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range (1, n+1):\n        if n%i == 0:\n            delitele += 1\n    return delitele\n 
+def pocet_delitelu(n):\n    soucet=0\n    for i in range (1,n+1):\n        if n%i==0:\n            soucet=soucet+1\n    return soucet\n 
+def pocet_delitelu(n):\n    k=0\n    for i in range(n+1):\n        if n % i == 0:\n            k += 1\n        \n    return k\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n % i ==0:\n            pocet += 1\n    return pocet\n\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range (1,n+1):\n        if n % i==0:\n            s=s+1\n    return s\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range (n+1):\n        if n%i==0:\n            count+=1\n            \n    return count\n 
+def pocet_delitelu(n):\n    z=0\n    for i in range (1,n+1):\n        if n%i==0:\n            z=z+1\n    return z\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1, n + 1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if n%i==0:\n            poc = poc + 1\n    return poc\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range(1,n+1):\n        if n%i==0:\n            count+=1\n    return count\n 
+\n    \ndef pocet_delitelu(n):\n    p=0\n    for i in range (1,n+1):\n        if n%i==0:\n            p=p+1\n    return p\n            \n 
+def pocet_delitelu(n):\n     
+def pocet_delitelu(n):\n    p=int(0)\n    for i in range(n+1):\n        if n%i==0:\n            p+=1    \n    return p\n 
+def pocet_delitelu(n):\n    counter = 0\n    delitel = 1\n    while delitel < n:\nprint n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            count+=1\n    return count 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(n+1):\n    if n%i == 0:\ncount += 1\n    return count\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1, n+1):\n        if(n % i == 0):\n            a +=1\n    return a\n 
+def pocet_delitelu(n):\n    delit=int(0)\n    for i in range(1,n+1):\n        if n % i==0:\n            delit+=1\n    return delit\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    l=0\n    for i in range(1,n+1):\n    if n%i == 0:\n        l+=1\n    return 1\n 
+def pocet_delitelu(n):\n    l=0\n    for i in range(1,n+1):\n    if n%i==0:\n        l+=1\n    return l\n 
+def pocet_delitelu(n):\n    ndel = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            ndel += 1\n    return ndel\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(n+1):\n        if n%i==0:p+=1\n    return p\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    de=0\n    for i in range(1,n+1):\n        if n%i==0:\n            de+=1\n    return de\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range(1,n+1):\n        if n%i==0:\n            d+=1\n           \n    return d\n 
+def pocet_delitelu(n):\n    d = 0\n    for i in range (1, n+1):\n        if n % i == 0:\n            d += 1\n            \n    return d 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    counter=0\n    for i in range (1,n+1):\n        if n%i==0:\n            counter+=1\n    return counter 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if (n % i == 0):\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\ncount = 0\nfor i in range(1, n+1):\nif n % i == 0:\ncount += 1\nreturn count 
+def pocet_delitelu(n):\n    delitel = 0\n    for i in range(n+1):\n        if n % i == 0:\n            delitel += 1\n    return delitel\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1,n+1):\n        if n%i==0:\n            a+=1\n    return a\n 
+def pocet_delitelu(n):\n    amount = 0\n    for i in range(n + 1):\n        if n % i == 0:\n            amount += 1\n    return amount 
+def pocet_delitelu(n):\n    deli=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            deli+=1\n    return deli\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1,n+1):\n            if n%i == 0:\n                a+=1\n    return a\n 
+def pocet_delitelu(n):\n    result = 0\n    for i in range(n+1):\n        if n % i == 0:\n            result += 1\n    return result\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range(1,n+1):\n        if (n%i==0):\n            delitele+=1\n    return delitele\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1 , n+1):\n        if n%i ==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    pomocna = 0\n    for i in range(n):\n        if (n % i) == 0:\n            pomocna = pomocna + i\n    return pomocna\n 
+def pocet_delitelu(n):\n    pomocna = 0\n    for i in range(n+1):\n        if (n % i) == 0:\n            pomocna = pomocna + 1\n    return pomocna\n 
+def pocet_delitelu(n):\n    d=1\n    for i in range(1,n):\n        if n%i==0:\n            d+=1\n    return d\n 
+def pocet_delitelu(n):\n    r=1\n    for i in range (n):\n        if n % i == 0:\n            r=r+1\n    return r\n 
+def pocet_delitelu(n):\n    sum=0\n    for i in range (1,n+1):\n        if n%i==0:\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0: pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            poc = poc + 1\n    return poc\n 
+def pocet_delitelu(n):\n    delit = 0\n    for i in range(n+1):\n        if n % i == 0:\ndelit = delit +1\n    return delit\n 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        x=n%i\n        if x==0:\n            s=s+1\n    return s\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            a = a + 1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if (n % i == 0): pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            p+=1\n    return p 
+def pocet_delitelu(n):\n    count = 0\n    \n    for i in range(n+1):\n        if n%i == 0:\n            count += 1\n    \n    return count\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range(n+1):\n        if n%i==0:\n            delitele+=1\n    return delitele\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1, n+1):\n        if n%i==0:\n            pocet+=1\n            \n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (n+1):\n        if n%i == 0:\n        pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n + 1):\n        if (n % i == 0):\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range (1,n+1):\n        if (n % i) == 0:\n            a=a+1       \n    return a\n 
+def pocet_delitelu(n):\nx = 1\nfor i in range (1,n):\nif n % i == 0:\nx += 1\nreturn x\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(0,n+1):\n        if n % i == 0:\n            a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            p = p+1\n    return p\n 
+def pocet_delitelu(n):\n    deli = 0\n    \n    for i in range(n):\n        if n % (i+1) == 0:\n            deli += 1\n            \n    return deli\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x = x +1\n    return x\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if n%i==0 :\n            pocet=pocet+1\n    return pocet\n 
+def pocet_delitelu(n):\n    celkem = 0\n    for i in range(1,n+1):\n    if n%i == 0:\n        celkem+=1\n    return celkem\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range(1,n+1):\n        if(n%i==0):\n            pocet+=1\n    return pocet\n            \n 
+def pocet_delitelu(n):\n    x=0\n    for i in range (n+1):\n        if n % i==0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n        poc += 1    \n    return poc\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet 
+def pocet_delitelu(n):\n    soucet = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            soucet +=1\n            \n    return soucet\n 
+def pocet_delitelu(n):\n    p=0\n    for d in range(1,n+1):\n        if n%d==0:\n            p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1, n+1):\n        if n % i == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range (1,n+1):\n        modulo=n%i\n        if modulo==0:\n            count+=1\n    return count\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(n+1):\n        if n%i == 0:\n        delitele+=1\n    return delitele\n 
+def pocet_delitelu(n):\ncount = 0\nfor i in range(1, n+1):\nif n % i == 0:\ncount += 1\nreturn count 
+def pocet_delitelu(n):\n    s=0\n    for i in range(1,n+1):\n        if n % i ==0:\n            s+=1        \n    return s\n 
+def pocet_delitelu(n):\n    delitelu = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            delitelu+=1\n    return delitelu\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range (1,n+1):\n        if n%i==0:\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet = pocet + 1\n    return pocet 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x=x+1\n    return x 
+def pocet_delitelu(n):\n    p=0\n    for i in range(1,n+1):\n        if n%i==0:\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x = x + 1\n    return x\n 
+def pocet_delitelu(n):\n    l = 0\n    for i in range (1,n+1):\n        if (n % i) == 0:\n            l += 1\n    return l\n 
+def pocet_delitelu(n):\n    a = 1\n    for i in range(n):\n        if n%i ==0:\n            a = a + 1\n    return a\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(n+1):\n        if n % i==0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    p = 0\n    for i in range(1, n + 1 ):\n        if n % i == 0:\n            p += 1\n    return p\n 
+def pocet_delitelu(n):\ndelitele = []\nfor i in range(1, n+1):\nif n % i == 0:\ndelitele.append(i)\n\nreturn len(delitele)\n 
+def pocet_delitelu(n):\n    \ncitac = 0\n    \nfor i in range(1, n+1):\nif n % i == 0:\ncitac = citac + 1        \n    \nreturn citac 
+def pocet_delitelu(n):\n    delitele = []\n    for i in range(1, n+1):\n        if n % i == 0:\n            delitele.append(i)\n    return len(delitele) 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            delitele = delitele + 1\n    return delitele 
+def pocet_delitelu(n):\n    a = 0\n    while n > 0:\n        for i in range(n):\n            if n%i == 0:\n                a += 1\n            n -= 1\n    return a\n 
+def pocet_delitelu(n):\n    a = 0\n    while n > 0:\n        for i in range(n):\n            if n%i == 0:\n                a += 1\n            n -= 1\n    return a\n 
+def pocet_delitelu(n):\n    a = 0\n    while n > 0:\n        for i in range(n):\n            if n%i == 0:\n                a += 1\n            n -= 1\n    return a\n 
+def pocet_delitelu(n):\n    a = 0\n    while n > 0:\n        for i in range(n):\n            if n%i == 0:\n                a += 1\n            n -= 1\n    return a\n 
+def pocet_delitelu(n):\n    a = 0\n    while n > 0:\n        for i in range(n+1):\n            if n%i == 0:\n                a += 1\n            n -= 1\n    return a\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,(n+1)):\n        if n % i == 0:\n            count = count + 1\n        \n    return count\n 
+def pocet_delitelu(n):\n    v=0\n    for i in range(n+1):\nif (n % i) == 0:\n       v+=1\n    return v \n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range (1,n+1):\n        if n % i ==0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if n % i ==0 :\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    m=0\n    for i in range(1,n+1):\n        if n%i==0:\n            m=+1\n    return m\n 
+def pocet_delitelu(n):\n    m=0\n    for i in range(1,n+1):\n        if n%i==0:\n            m+=1\n    return m\n 
+def pocet_delitelu(n):\n    pd = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            pd = pd + 1\n    return pd 
+def pocet_delitelu(n):\n    suma = 0\n    for i in range(n+1):\n        if n%i == 0:\n            suma += 1\n    return suma\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        if n%i==0:\n            x=x+1\n    return x\n 
+def pocet_delitelu(n):\n    pocet_delitelu = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocet_delitelu+=1\n    return pocet_delitelu\n 
+def pocet_delitelu(n):\n    s = 0 \n    for i in range(1, n+1):\n        if n % i == 0:\n            s = s+1\n    return s\n            \n 
+def pocet_delitelu(n):\n    suma=0\n    for i in range(1, n+1):\n    if n%i==0:\n        suma = suma+1\n    return suma\n 
+def pocet_delitelu(n):\n    total=0\n    for i in range(1,n+1):\n        if n%i==0:\n            total=total+1\n    return total\n 
+def pocet_delitelu(n):\n    x=0\n    for i in range(1,n+1):\n        vys = n%i\n        if vys == 0:\n            x+=1\n    return x\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(1,n+1):\n        if n%i==0:\n            delitele+=1\n    return delitele\n 
+def pocet_delitelu(n):\nk = 0\nfor i in range(1,n+1):\nif n % i == 0:\nk += 1\nreturn k 
+def pocet_delitelu(n):\n    cnt = 0\n    for i in range(n+1):\n        if n%i == 0: cnt += 1\n    return cnt\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    suma = 0\n    for i in range(1,n+1):\n        if(n%i == 0):\n            suma += 1\n    return suma\n\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1,n+1):\n        if n%i==0:\n            a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0: pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele=0\n    for i in range (1,n+1):\n    if n%i==0:\ndelitele=delitele+1\n    return delitele\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n % i == 0: count +=1\n    return count\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1,n+1):\n        if n % i ==0:\n            a= a+1\n    return a\n 
+def pocet_delitelu(n):\n    result=0\n    for i in range(1,n+1):\n        if n%i==0:\n            result+=1\n    return result\n 
+def pocet_delitelu(n):\n    pocet_delitelu = 0\n    x = 1\n    while x <= n:\n        if n % x == 0: \n            pocet_delitelu += 1\n        x += 1\n    return pocet_delitelu 
+def pocet_delitelu(n):\n    p=0\n    for i in range(n+1):\n        if n % i==0:\n            p+=1\n    return p\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range(1,n+1):\n        if n%i==0:\n            d+=1\n    return d 
+def pocet_delitelu(n):\n    l=1\n    k=0\n    while l<=n:\n        if n%l==0:\n            k+=1\n        l+=1\n    return k\n\n 
+def pocet_delitelu(n):\n    l = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            l = l + 1\n    return l\n 
+def pocet_delitelu(n):\n    delitel=0\n    for i in range(n+1):\n        if n % i == 0:\n            delitel+=1\n    return delitel\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n           if (n%i==0):\n                a+=1\n    return a\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (0,n+1):\n        if n%i==0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    poc = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            poc += 1\n    return poc\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n        if n%i == 0:\n            count = count + 1\n    return count\n 
+def pocet_delitelu(n):\n    sum = 0\n    for i in range(1,n+1):\n        if n%i == 0 :\n            sum+=1\n    return sum\n 
+def pocet_delitelu(n):\n    num = 1\n    for i in range (2, n+1):\n        if n % i == 0:\n            num = num + 1\n    return num\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range (1,n+1):\n        if n%i==0:\n            a+=1\n        \n    return a\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n%i==0:\n        pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    delitele = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            delitele += 1\n    return delitele\n 
+def pocet_delitelu(n):\n    souc =0\n    for i in range(1,n+1):\n        if (n % i ==0):\n            souc +=1\n        \n    return souc 
+def pocet_delitelu(n):\n    delitelu = 0\n    for i in range(n+1):\n        if(n%i == 0):\n            delitelu += 1\n        \n    return delitelu\n 
+def pocet_delitelu(n):\n    pocet = 0\n    pokus = 0\n    for i in range(1,n+1):\n        if n%i == 0:\npocet += 1\n    return pocet 
+def pocet_delitelu(n):\n    count = 1\n    for i in range(n):\n        count += int(n%i==0)\n    return count\n 
+def pocet_delitelu(n):\n    pocet=0\n    for i in range (1,n+1):\n        if n%i==0:\n            pocet+=1\n    return pocet\n 
+\ndef pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n%i==0 : a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(n+1):\n        if n%i==0:\n            poc=poc+1\n    return poc\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    pocet_delitelu=0\n    for i in range(1,n+1):\n        if n%i==0:\n            pocet_delitelu+=1\n    return pocet_delitelu\n 
+def pocet_delitelu(n):\n    res=1\n    for i in range(n):\n        if n%i==0:\n            res=res+1\n    print res\n    \n 
+def pocet_delitelu(n):\n    res=0\n    for i in range(n+1):\n        if n%i==0:\n            res=res+1\n    print res\n    \n 
+def pocet_delitelu(n):\n    \n    return 2\n 
+def pocet_delitelu(n):\n    d=0\n    for i in range (1, n+1):\n        if n%i==0:\n            d+=1\n    return d\n 
+def pocet_delitelu(n):\n    return n 
+def pocet_delitelu(n):\n    count = 0;\n    for i in range(n+1):\n        if n % i == 0:\n            count = count + 1\n    \n    return count\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            pocet = pocet + 1\n    return pocet\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            count = count + 1\n    return count\n 
+def pocet_delitelu(n):\n    j = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            j=j+1\n    return j\n 
+def pocet_delitelu(n):\n    d = 0\n    for i in range(1,n+1):\n    \n    if (n% i == 0):\n        d += 1\n    \n    return d\n 
+def pocet_delitelu(n):\n    return 2\n 
+pocet=0\ndef pocet_delitelu(n):\n    for i in range(n+1):\n        if n%i==0:\n            pocet=pocet +1\nreturn(pocet) 
+def pocet_delitelu(n):\n    poc=0\n    for i in range(1,n+1):\n        if n%i==0:\n            poc+=1\n    return poc\n 
+def pocet_delitelu(n):\n    r = 0\n    for i in range(1,n+1):\n    if n%i == 0:\n            r += 1\n    return r\n 
+def pocet_delitelu(n):\n    r = 0\n    for i in range(1,n+1):\n    if n%i == 0:\n        r = r+1\n    return r\n 
+def pocet_delitelu(n):\n    pocet = 0;\n    for i in range(1,n+1):\n        if n%i == 0:\n            pocet +=1\n    return pocet\n 
+def pocet_delitelu(n):\n    return len([ x for x in range(1,n+1) if n % x == 0 ])\n    return 1\n 
+def pocet_delitelu(n):\n    return n/3\n 
+def pocet_delitelu(n):\n    s = 0\n    for i in range (1,n+1):\n        if n % i == 0: \n            s = s + 1\n    \n    return s\n 
+def pocet_delitelu(n):\n    return len( x for x in range(1, n+1) if n % x == 0\n    return 1\n 
+def pocet_delitelu(n):\n    return len for x in range(1, n+1) if n % x == 0\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    return len([ x for x in range(1, n+1) if n % x == 0])\n    return 1\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            pocet += 1\n    return(pocet)\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\n    l = n/4\n    return l\n 
+def pocet_delitelu(n):\ni=1\nk=0\nwhile i <= n:\nif n % i == 0:\nk+=1\ni+=1\nreturn k 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n    return sum(n % i ==0)\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n    return sum (n % i ==0)\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n        if n % i ==0\n    return sum (n % i ==0)\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n        if n % i ==0\n    return 1\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n        if n % i ==0:\n    return sum(n % i ==0)\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n        if n % i ==0:\n    return sum(n % i ==0)\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n        if n % i ==0:\n    return sum(n % i ==0)\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n        if n % i ==0:\n    return 1\n 
+def pocet_delitelu(n):\n    for i in range (1, n+1):\n        if n % i ==0:\n    return sum(n % i ==0)\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range (1, n+1):\n        if n % i ==0:\n            count= count + 1\n    return sum(n % i ==0)\n 
+def pocet_delitelu(n):\n    count=0\n    for i in range (1, n+1):\n        if n % i ==0:\n            count= count + 1\n    return count\n 
+def pocet_delitelu(n):\n    v = 0\n    for i in range (n+1):\n        if n % i == 0:\n            v =v+1\n    return v\n 
+def pocet_delitelu(n):\n    a=0\n    for i in range(1,n+1):\n        if n%i==0:\n            a=a+1\n    return a\n 
+def pocet_delitelu(n):\n    l=0\n    for i in range(n+1):\n    if n%i==0:\n        l=l+1\n    return l\n 
+def pocet_delitelu(n):\n    p = 1;\n    for i in range(1, n):\n        if (n % i == 0):\n        p=p+1\n    return p\n 
+def pocet_delitelu(n):\n    a = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            a += 1\n    return a\n 
+def pocet_delitelu(n):\n    counter = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            counter += 1\n    return counter\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n + 1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    num = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            num = num+1\n    return num\n 
+def pocet_delitelu(n):\n    num = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            l = num +1\n    return l\n 
+def pocet_delitelu(n):\n    num = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            l = num +1\n    return l\n 
+def pocet_delitelu(n):\n    num = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            l = num +1\n    return l\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            k = k +1\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            k = k +1\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            k = 1*1\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            k=1*1\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            k=1*1\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            k=0\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            print(int(1))\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            print(int(1))\n    return k\n 
+def pocet_delitelu(n):\n    k = 0\n    for i in range(1,n+1):\n    if n % i == 0:\n            print(int(1))\n    return k\n 
+def pocet_delitelu(n):\npDelitelu = 0\nfor i in range(n+1):\nif n % i == 0:\npDelitelu = pDelitelu + 1\nreturn pDelitelu 
+def pocet_delitelu(n):\n    pocet = 2\n    for x in range(2, int(n**0.5) + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    for x in range(2, n//2 + 1): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    pocet = 2\n    if x<2: return 1\n    for x in range(2, n//2 + 2): \n        if not n%x: pocet+=1\n    return pocet 
+def pocet_delitelu(n):\n    x = 1;\n    for i in range(n):\n        if n % i ==0:\n        x = x+1;    \n    return x;\n 
+def pocet_delitelu(n):\n    pocet = 0\n    for i in range(n+1):\n        if n % i == 0:\n            pocet += 1\n    return pocet\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(0, n, 1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(0, n, 1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    x = 0\n    for i in range(0, n+1, 1):\n        if n%i == 0:\n            x += 1\n    return x\n 
+def pocet_delitelu(n):\n    help = 0;\n    for i in range(n+1):\n        if n % i == 0:\n            help +=1;\n    return help\n 
+def pocet_delitelu(n):\n    count = 0\n    for i in range(1, n+1):\n        if n % i == 0:\n            count += 1\n    return count\n 
+def pocet_delitelu(n):\n    l=0\n    for i in range(n+1):\n        if n%i==0:\n            l+=1\n    return 1\n 
+def pocet_delitelu(n):\n    l=0\n    for i in range(n):\n        if n%i==0:\n            l+=1\n    return 1\n 

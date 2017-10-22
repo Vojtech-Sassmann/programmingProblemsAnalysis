@@ -1,3 +1,4 @@
+(2012)
 Format = cislo tahu ; cas v sekundach ; popis tahu
 User 7
 ---

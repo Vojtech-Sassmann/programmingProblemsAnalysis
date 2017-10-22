@@ -1,0 +1,293 @@
+
+def transpozice(text):\n    z = ""\n    k = ""\n    for i in range(len(text)):\n        if i%2 == 0:\n            z = z + text[i]\n        else:\n            k = text[i] + k \n    return z + k\n 
+def transpozice(text):\n    novy = ""\n    for i in range(0,len(text)):\n        if i % 2 == 1: novy=text[len(text)-i-1]+novy\n        else: novy = novy + text[len(text)-i-1]\n    return novy\n 
+def transpozice(text):\n    novy = ""\n    for i in range(0,len(text)):\n        if i % 2 == 0: novy=text[len(text)-i-1]+novy\n        else: novy = novy + text[len(text)-i-1]\n    return novy\n 
+def transpozice(text):\n    novy = ""\n    if len(text) % 2 == 0: modulo =1\n    else: modulo = 0\n   \n    for i in range(0,len(text)):\n        if i % 2 == modulo: novy=text[len(text)-i-1]+novy\n        else: novy = novy + text[len(t 
+def transpozice(text):\n\n    pozpatku = ""\n    \n    for i in range(len(text)):\n        a = len(text) - i -1\n        if i % 2 == 1:\n            pozpatku = text[a] + pozpatku\n        else: \n            pozpatku = pozpatku + tex 
+def transpozice(text):\n\n    pozpatku = ""\n    \n    for i in range(len(text)):\n        a = len(text) - i -1\n        if i % 2 == 1:\n            pozpatku = text[a] + pozpatku\n        else: \n            pozpatku = pozpatku + tex 
+def transpozice(text):\n\n    pozpatku = ""\n    \n    for i in range(len(text)):\n        if len(text) % 2 == 1:\n        a = len(text) - i \n        else: a = len(text) - i -1\n            \n        if i % 2 == 1:\n            pozpat 
+def transpozice(text):\n    b=0\n    e=len(text)-1\n    r=""\n    for i in len(text):\n        if (i%2): \n            r+= text[b],\n            b+=1\n        else:\n            r+= text[e],\n            e-=1\n    return text\n 
+def transpozice(text):\n    b=0\n    e=len(text)-1\n    r=""\n    for i in len(text):\n        if (i%2): \n            r+= text[b],\n            b+=1\n        else:\n            r+= text[e],\n            e-=1\n    return r\n 
+def transpozice(text):\n    text = text[::-1]\n     
+def transpozice(text):\n    l = ""\n    r = ""\n    j = 0\n    for i in text:\n        if j % 2 == 0: l += i\n        if j % 2 == 1: r = i + r\n        j += 1\n    return l + r\n 
+def transpozice(text):\n    letters = text.split("")\n    front = []\n    back = []\n    for i in range(0, len(letters)):\n        if i % 2 == 0:\n        front.append(letters[i])\n        else:\n            back.insert(0,letters[i])\n 
+def transpozice(text):\n    resulttext = ""\n    for i in range(0,len(text)):\n        if (i % 2 == 0):\n            resulttext += text[i]\n         
+def transpozice(text):\n    resulttext = ""\n    for i in range(0,len(text)):\n        if (i % 2 == 0):\n            resulttext += text[i]\n         
+def transpozice(text):\n    out1 = ""\n    out2 = ""\n    for i in range(len(text)):\nif (i % 2 == 0): out1 = out1 + text[i]\nelse: out2 = text[i] + out2\n    out = out1 + out2\n    print out, 
+def transpozice(text):\nout1 = ""\nout2 = ""\nfor i in range(len(text)):\nif(i % 2 == 0): out1 = out1 + text[i]\nelse: out2 = text[i] + out2\nreturn out1+out2\n 
+def transpozice(text):\n    return text[::2] + text[::-2]\n 
+def transpozice(text):\n    return text[::2] + text[::-2] 
+def transpozice(text):\n    return text[::2] + text[::-2]\n 
+def transpozice(text):\n    return text[::2] + text[-2::-2]\n 
+def transpozice(text):\n    return text[::2] + text[-2::-2]\n 
+def transpozice(text):\n    return text[::2] + text[-2::-2]\n 
+def transpozice(text):\n    if (len(text)%2 == 1):\n        return text[::2] + text[-2::-2]\n    else:\n        return text[::2] + text[::-2] 
+def transpozice(text):\n    x = '\n    y = '\n    for i in range(len(text)):\n        if i%2==0:\n            x += text[i]\n        else:\n            y += text[i]\n    return x + y[::-1]\n 
+def transpozice(text):\n    vysledek = ""\n    for i in range(0, len(text)/2):\n        if text[i*2] != None:\n            vysledek += text[i*2]\n    for i in range(0, len(text)/2):\n        if text[::-1][i*2]!= None:\n            vysled 
+def transpozice(text):\n    vysledek = ""\n    for i in range(0, len(text)/2):\n        vysledek += text[i*2]\n    for i in range(0, len(text)/2-1):\n        vysledek += text[::-1][i*2+1]\n    return vysledek 
+def transpozice(text):\n    vysledek = ""\n    for i in range(0, len(text)/2):\n        vysledek += text[i*2]\n    if len(text) % 2 == 0:\n        for i in range(0, len(text)/2):\n            vysledek += text[::-1][i*2]\n    else :\n 
+def transpozice(text):\n    sifra = '\n    for i in range(0, len(text), 2):\n        sifra = sifra + text[i]\n    for i in range(len(text)-1, 0, -2):\n        sifra = sifra + text[i]\n    return sifra\n 
+def transpozice(text):\n    sifra = '\n    for i in range(0, len(text), 2):\n        sifra = sifra + text[i]\n    if len(text) % 2 == 1:\n        zac = len(text) - 2\n    else:\n        zac = len(text) - 1\n    for i in range(zac, 0, - 
+def transpozice(text):\n    ans = [None for i in range(len(text))]\n    for i in range(len(text)):\n        if(i % 2): ans[-1-i//2] = text[i]\n        else: ans[i//2] = text[i]\n    wans = ""\n    for i in ans: wans += i\n    return wans 
+def transpozice(text):\n    s = [ for i in range(len(text))]\n    x = 0\n    y = len(text)-1\n    for i in range(len(text)):\n        if i%2 == 0:\n        s[x], x = text[i], x+1\n        else:\n            s[y], y = text[i], y-1\n 
+def transpozice(text):\n    vystup='\n    for i in range(len(text)//2):\n      vystup=vystup+text[i]+text[len(text)-1-i]\n    if len(text)%2==0:\n      vystup=vystup+text[len(text)//2]\n    return vystup\n 
+def transpozice(text):\n    vystup='\n    for i in range((len(text)+1)//2):\n      vystup=vystup+text[2*i]\n    for i in range(len(text)//2):\n      vystup=vystup+text[2*i+1]\n    return vystup\n 
+def transpozice(text):\n    vystup='\n    liche=len(text)%2\n    for i in range((len(text)+1)//2):\n      vystup=vystup+text[2*i]\n    for i in range(len(text)//2):\n      vystup=vystup+text[len(text)-1-liche-2*i]\n    return vystup 
+def transpozice(text):\n    text2 = ""\n    text3 = ""\n    for i in range(0, len(text)):\n        if i % 2 == 0:\n            text2 = text2 + text[i]\n        if i % 2 == 1:\n            text3 = text[i] + text3\n    return text2 + 
+def transpozice(text):\n    l = '\n    r = '\n    for i in range(len(text)):\n        if i % 2 == 0:\n            l = l + text[i]\n        else:\n            r = text[i] + r\n    return l + r\n 
+def transpozice(text):\n    result = ""\n    text = text[::-1]\n    a = len(text)%2\n    for i in text:\n        if a == 1:\n            result = i + result\n        else:\n            result = result + i\n        a = 1 - a\n    ret 
+def transpozice(text):\n    return text[::2]+text[1::2][::-1]\n 
+def transpozice(text):\n    novy='\n    druhy='\n    for i in range(len(text)/2):      \n            novy+=text[2*i]\n            druhy+=text[len(text)-2*i-1]\n    novy+=druhy     \n    return novy\n 
+def transpozice(text):\n    novy='\n    druhy='\n    for i in range(len(text)/2):      \n            novy+=text[2*i]\n            if len(text)%2==0:\n                druhy+=text[len(text)-2*i-1]\n            else:\n                d 
+def transpozice(text):\n    v = ""\n    for i in range(1, len(text)+1):\n        if i % 2 ==0:\n            v = text[-i]+v\n        else:\n            v += text[-i]\n    return v\n 
+def transpozice(text):\n    v = ""\n    for i in range(1, len(text)+1):\n        if i % 2 ==0:\n            v = text[-i]+v\n        else:\n            v += text[-i]\n    return v\n 
+def transpozice(text):\n    v = ""\n    for i in range(1, len(text)+1):\n        if i % 2 ==0:\n            v = text[-i]+v\n        else:\n            v += text[-i]\n    return v\n 
+def transpozice(text):\n    v = ""\n    for i in range(1, len(text)+1):\n        if i % 2 == len(text) % 2:\n            v = text[-i]+v\n        else:\n            v += text[-i]\n    return v\n 
+def transpozice(text):\n    v='\n    for i in range(len(text)-1, -1, -1):\n        if not i%2: v=text[i]+v\n        else: v=v+text[i]\n    return v\n 
+def transpozice(text):\n    res=""\n    x=0\n    while x<len(text):\n     res+=(text[x])\n     x+=2\n    x=1\n    if len(text)%2==0:\n     while x<len(text):\n      res+=(text[-x])\n      x+=2\n    else:\n      while x<len(tex 
+def transpozice(text):\n    text1 = text[1:len(text):2]\n    return text[0:len(text):2] + text1[::-1]\n 
+def transpozice(text):\n    t=""\n    e=""\n    for i in range(0,len(text)):\n        if i%2==0:\n            t=t+text[i]\n        else :\n            e=e+text[i]\n    b=""\n    for i in e:\n        b=i+b\n    return t+b 
+def transpozice(text):\n    a=""\n    for i in range(0,len(text),2):\n        a+=text[i]\n    for i in range(1,len(text),2):\n        a+=text[len(text)-i]\n    return a\n 
+def transpozice(text):\n    n1 = ""\n    n2 = ""\n    for i in range(len(text)):\n        if i%2 == 0:\n            n1 = n1 + text[i]\n        else:\n            n2 = text[i] + n2\n    return n1 + n2\n 
+def transpozice(text):\n    return text[::2]+text[len(text)-2::-2]\n        \n 
+def transpozice(text):\n    delka = len(text)\n    if delka % 2 == 0:\n        return text[::2]+text[delka-1::-2]\n    else:\n        return text[::2]+text[delka-2::-2]\n    \n        \n 
+def transpozice(text):\n    r=""\n    for i in range(0,len(text)-1,2):\n        r+=text[i]\n    for i in range(len(text)-1,-1,-2):\n        r+=text[i]\n    return r\n 
+def transpozice(text):\n    r=""\n    for i in range(0,len(text),2):\n        r+=text[i]\n    for i in range(len(text)-1-len(text)%2,-1,-2):\n        r+=text[i]\n    return r\n 
+def transpozice(text):\n    revtext = text[::-1]\n    newtext=[]\n    for i in range(0,len(revtext),2):\n        newtext = newtext + revtext[i]\n        newtext = revtext[i+1] + newtext\n    return newtext\n 
+def transpozice(text):\n    revtext = text[::-1]\n    newtext = ""\n    if len(text) % 2 == 0:\n        for i in range(0,len(revtext),2):\n            newtext = newtext + revtext[i]\n            newtext = revtext[i+1] + newtext\n 
+def enumerate(s):\n    i=0\n    while i < len(s):\n        yield i, s[i]\n        i += 1\ndef transpozice(text):\n    s=list(text)\n    for i, c in enumerate(text):\n        if i%2==0:\n            s[i//2] = c\n        else:\n 
+def transpozice(text):\n    a=""\n    b=""\n    for i in range(0,len(text),2):\n        a+=text[i]\n    for i in range(1,len(text),2):\n        b+=text[i]\n    b=b[::-1]\n    a+=b\n    return a\n 
+def transpozice(text):\n    vysledok1 = ""\n    vysledok2 = ""\n    for i in range(len(text)):\n        if (i % 2 == 0):\n            vysledok1 += text[i]\n        else:\n            vysledok2 += text[i]\n    for i in range(len(vysled 
+def transpozice(text):\n    n = len(text)\n    s = ("blabla","ks","nnnn")\n    sifra = list()\n    odd=list()\n    even=list()\n    stlpec=0\n    \n    if n%2 == 0:\n        for i in range(5):\n            pass\n            \n    \n 
+def transpozice(text):\n    n = len(text)\n    s= list(text)\n    sifra = list("")\n    odd=list("")\n    even=list("")\n    stlpec=0\n    \n    if n%2 == 0:\n        for stlpec in range(n/2):\n            pismeno = s[(2*stlpec)]\n 
+def transpozice(text):\n    n = len(text)\n    s = list(text)\n    sifra = list ("")\n    odd = list ("")\n    even = list("")\n    stlpec=0\n    if n%2==0:\n        for stlpec in range(n/2):\n            pismeno = s[(2*stlpec)]\n 
+def transpozice(text):\n    vystup1=text[1::2]\n    \n    \n    vystup=text[0::2]+vystup1[-1::-1]\n    return vystup\n 
+def transpozice(text):\n    x=""\n    for i in range(len(text)):\n        if i<(len(text)/2):\n            x+=text[i*2]\n        else:\n            x+=text[len(text)-1-i*2]\n        \n    return x\n 
+def transpozice(text):\n    p=0\n    v=""\n    p=True\n    for i in range(len(text)/2):\n        if p==True:\n            v+=text[i]+text[len(text)-1-i]\n            p=False\n        else:\n            v+=text[len(text)-1-i]+text 
+def transpozice(text):\n    p=0\n    v=""\n    p=True\n    for i in range(len(text)/2):\n        if p==True:\n            v+=text[i]+text[len(text)-1-i]\n            p=False\n        else:\n            v+=text[len(text)-1-i]+text 
+def transpozice(text):\n    p=0\n    v=""\n    p=True\n    for i in range(0,len(text),2):\n        v+=text[i]\n    for i in range(0,len(text),2):\n        v+=text[len(text)-1-i]\n    return v\n\n        \n 
+def transpozice(text):\n    v=""\n    if len(text)%2==0:\n        p=True\n    else:\n        p=False\n    for i in range(0,len(text),2):\n        v+=text[i]\n    if p==True:\n        for i in range(0,len(text),2):\n            v+=te 
+def transpozice(text):\n    vysledek=\n    for i in len(text):\n        if i % 2 == 0:\n            text[ ]\n        else:\n    \n    return text\n 
+def transpozice(text):\n    vysledek=\n    for i in len(text):\n        if i % 2 == 0:\n            text[ ]\n        else:\n    \n    return text\n 
+def transpozice(text):\n    vysledek=\n    for i in len(text):\n        if i % 2 == 0:\n            text[ ]\n        else:\n    \n    return text\n 
+def transpozice(text):\n    vysledek=\n    for i in len(text):\n        if i % 2 == 0:\n            text[ ]\n        else:\n    \n    return text\n 
+def transpozice(text):\n    vysledek1=vysledek2=""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            vysledek1=vysledek1+text[i]\n        else:\n            vysledek2=text[i]+vysledek2\n    return vysledek1+vyslede 
+def transpozice(text):\n    trans = list(text)\n    pos = 0\n    for i in range(len(text)):\n        if i%2 == 0:\n            trans[pos] = text[i]\n            pos += 1\n        else:\n            trans[len(text) - pos] = text[i]\n 
+def transpozice(text):\n    vystup  = ""\n    for i in range(0,len(text),2):\n        vystup += text[i]\n    for i in range(len(text)-1,0,-2):\n        vystup += text[i]\n    return vystup 
+def transpozice(text):\n    vystup  = ""\n    for i in range(0,len(text),2):\n        vystup += text[i]\n    for i in range(len(text)-1,0,-2):\n        vystup += text[i]\n    return vystup 
+def transpozice(text):\n    vystup  = ""\n    for i in range(0,len(text),2):\n        vystup += text[i]\n    delka = len(text)\n    if delka % 2 == 1:\n        delka += -1\n    for i in range(delka-1,0,-2):\n        vystup += text[i 
+def transpozice(text):\n    s=""\n    s+=text[::2]\n    s+=text[::-1][::2]\n    return s\n 
+def transpozice(text):\n    if len(text)%2 == 0:\n        s=""\n        s+=text[::2]\n        s+=text[::-1][::2]\n        return s\n    else:\n        s=""\n        s+=text[::2]\n        s+=text[:-1][::-1][::2]\n        return s 
+def transpozice(text):\n    return text[::2] + text[::-2]\n 
+def transpozice(text):\n    if len(text) % 2 == 0:\n        return text[::2] + text[::-2]\n    else:\n        return text[::2] + text[-2::-2]\n 
+def transpozice(text):\n    sifra = ""\n    sifra += text[0::2]\n    sifra += text[::-2]\n    return sifra\n 
+def transpozice(text):\n    temp1 = text[0::2]\n    temp2 = text[1::2]\n    return temp1+temp2[::-1]\n 
+def transpozice(text):\n    a = ""\n    for i in range(0,len(text),2):\n        a += text[i]\n    for i in range(len(text),0,-2):\n        a += text[i-1]\n    return a 
+def transpozice(text):\n    novy=""\n    novy2=""\n    for i in range(0,len(text)):\n        if i%2!=0:\n            novy+=text[i]\n        else:\n            novy2+=text[i]\n    return novy2+novy[::-1]\n 
+def transpozice(text):\n    a='\n    b='\n    for i in range (len(text)):\n        if i%2==0:\n            a+=text[i]\n        else:\n            b+=text[i]\n    return a+b[::-1]\n    \n    \n 
+import math\n\ndef transpozice(text):\n    str = '\n    str2 = '\n    for i in range(int(math.floor(len(text)/2))):\n        str += text[i*2]\n    for i in range(int(math.floor(len(text)/2))):\n        str2 = text[i*2+1] + str2\n 
+def transpozice(text):\n    zacatek = ""\n    konec = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            zacatek = zacatek + text[i]\n        else:\n            konec = text[i] + konec\n    return zacatek + kone 
+def transpozice(text):\n    old = text\n    text = '\n    for i in range(len(old)/2):\n        text += old[i*2] \n    for i in range(len(old)/2):\n        text += old[len(old)-i*2-1]\n    return text\n 
+def transpozice(text):\n    old = text\n    text = '\n    for i in range(len(old)/2):\n        text += old[i*2]\n    if len(old) % 2 == 0:\n        for i in range(len(old)/2):\n            text += old[len(old)-i*2-1]\n    else:\n 
+def transpozice(text):\n    out = '\n    for i in range(0,len(text),2):\n        out += text[i]\n    for i in range(0,len(text),2):\n        out += text[-i-1]\n    return out 
+def transpozice(text):\n    out = '\n    for i in range(0,len(text),2):\n        out += text[i]\n    for i in range(0,len(text),2):\n        if len(text)%2 == 0:\n            out += text[-i-1]\n        else:\n            out += lex 
+def transpozice(text):\n    out = '\n    for i in range(0,len(text),2):\n        out += text[i]\n    for i in range(0,len(text),2):\n        if len(text)%2 == 0:\n            out += text[-i-1]\n        else:\n            out += tex 
+def transpozice(text):\n    out = '\n    for i in range(0,len(text),2):\n        out += text[i]\n    for i in range(1,len(text),2):\n        if (len(text)%2 == 0):\n            out += text[-i]\n        else:\n            out += tex 
+def transpozice(text):\n    s = list(text)\n    st = ""\n    for i in range(0,len(text),2):\n        st += s[i]\n    if len(text) % 2 == 0:\n        for i in range(len(text)-1,0,-2):\n            st += s[i]\n    else:\n        for i 
+def transpozice(text):\n    txt=[" "]*(len(text))\n    c=0\n    for i in range(len(text)):\n        if i%2==0:\n            txt[c]=text[i]\n            c+=1\n        else:\n            txt[len(text)-c]=text[i]\n    return "".join(txt) 
+def transpozice(text):\n    textb = text[::-1]\n    textr = ""\n    for i in range(len(text)/2):\n        textr += text[i*2]\n    for i in range(len(text)/2):\n        textr += text[len(text)-i*2-1]\n    return textr\n 
+def transpozice(text):\n    textb = text[::-1]\n    textr = ""\n    for i in range(len(text)/2):\n        textr += text[i*2]\n    for i in range(len(text)/2):\n        textr += text[len(text)-i*2-1]\n    return textr\n 
+def transpozice(text):\n    textb = text[::-1]\n    textr = ""\n    for i in range(len(text)/2):\n        textr += text[i*2]\n    for i in range(len(text)/2-(len(text)%2)):\n        textr += text[len(text)-1-i*2-(len(text)%2)]\n    ret 
+def transpozice(text):\n    r = ""\n    for i in range(len(text)):\n        r += text[i * 2] if i < len(text) // 2 else text[- (i - len(text) // 2) + 1]\n    return r\n 
+def transpozice(text):\n    z = ""\n    k = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            z += text[i]\n        else:\n            k = text[i] + k\n    return z + k\n 
+def transpozice(text):\n    a='\n    b='\n    for i in range(len(text)):\n        if i%2==0:\n            a+=text[i]\n        else:\n            b+=text[i]\n    return a+b[::-1]\n 
+def transpozice(text):\n    zac=""\n    kon=""\n    for i in range(len(text)):\n        if i%2==0:\n            zac+=str(text[i])\n        else:\n            kon+=str(text[i])\n    kon=kon[::-1]\n    return zac+kon\n 
+def transpozice(text):\n    out = '\n    tuo ='\n    for i in range(len(text)):\n        if i%2==0:\n            out += text[i]\n        else:\n            tuo = text[i]+tuo\n    return out+tuo 
+def transpozice(text):\n    res=[]\n    for c in text:\n        res.append(c)\n    offset=0\n    for i in range(len(text)/2):\n        res[i]=text[2*i]\n        res[len(text)-1-i]=text[2*i+1]\n    return '.join(res)\n 
+def transpozice(text):\n    res=[]\n    i=0\n    for c in text:\n        if i%2==0:\n            res.append(c)\n        i+=1\n    i=0\n    for c in text[::-1]:\n        if i%2==1:\n            res.append(c)\n        i+=1\n    retu 
+def transpozice(text):\n    res=[]\n    i=0\n    for c in text:\n        if i%2==0:\n            res.append(c)\n        i+=1\n    i=0\n    if len(text) %2==0:\n        i=1\n    for c in text[::-1]:\n        if i%2==1:\n            r 
+def transpozice(text):\n    p=0\n    x='\n    for i in range(len(text)/2):\n        x=x+text[p]\n        p+=2\n    p=len(text)-1\n    for i in range(len(text)/2):\n        x=x+text[p]\n        p-=2\n    return x    \n 
+def transpozice(text):\n    pulka1 = ""\n    pulka2 = ""\n    sifra = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            pulka1 += text[i]\n        else:\n            pulka2 += text[i]\n    for j in range(len(pul 
+def transpozice(text):\n    text = text[0::2] + text[-1::-2]\n    return text\n 
+def transpozice(text):\n    text = text[0::2] + text[-2::-2]\n    return text\n 
+def transpozice(text):\n    if len(text)%2==1:\n        text = text[0::2] + text[-2::-2]\n    else:\n        text = text[0::2] + text[-1::-2]\n    return text\n 
+def transpozice(text):\n    return text[::2] + text[len(text):0:-2] 
+def transpozice(text):\n    n = len(text)\n    if n % 2 == 0: return text[::2] + text[n-1:0:-2]\n    else: return text[::2] + text[n:0:-2] 
+def transpozice(text):\n    zac=""\n    kon=""\n    for i in range(len(text)):\n        if i%2==0:\n            zac=zac+text[i]\n        else: kon=text[i]+kon\n    return zac+kon\n 
+def transpozice(text):\n    txt=text[::2]+text[::-2]\n    return txt\n 
+def transpozice(text):\n    if len(text)%2==0:    \n        txt=text[::2]+text[::-2]\n    else:\n        txt=text[::2]+text[-2::-2]\n    return txt\n 
+def transpozice(text):\n    x = ""\n    y = ""\n    for i in range(len(text)):\n        if i%2 == 0:\n            x += text[i]\n        if i%2 == 1:\n            y = text[i] + y\n    return x + y\n 
+def transpozice(text):\n    sifra = '\n    for i in range(len(text)):\n        if i%2 == 0: sifra += text[i]\n    for i in range(len(text)):\n        if i%2 == 1: sifra += text[len(text)-i]\n    return sifra\n        \n 
+def transpozice(text):\n    sifra = '\n    for i in range(len(text)):\n        if i%2 == 0: sifra += text[i]\n    for i in range(len(text)):\n        if i%2 == 1: sifra += text[len(text)-i-1]\n    return sifra\n        \n 
+def transpozice(text):\n    od_predu = ""\n    od_zadu  = ""\n    for i in range(len(text)):\n        if (i % 2 == 0):\n            od_predu += text[i]\n        else:\n            od_zadu = text[i] + od_zadu\n    return od_predu + o 
+def reverse(text):\n    i = len(text) - 1\n    ntext = '\n    while i>=0:\n        ntext+=str(text[i])\n        i-=1\n    return ntext    \n\ndef transpozice(text):\n    text2 = ""\n    for i in range(2):\n        if(i==1):text = re 
+def transpozice(text):\n    s = '\n    for i in range(1, len(text), 2):\n        s =text[i] + s\n    for i in range(len(text) - (len(text)+1)%2 - 1 , -1, -2):\n        s = text[i] +s\n    \n    return s\n 
+def transpozice(text):\n    vystup = ""\n    vystup1 = ""\n    for i in range(len(text)):\n        if i %2==0:\n            vystup = vystup + text[i]\n        elif i % 2 ==1:\n            vystup1= text[i] +vystup1\n    vystup = vystup 
+def transpozice(text):\n    zacatek = ""\n    konec = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            zacatek += text[i]\n        else:\n            konec = text[i] + konec\n    return zacatek + konec\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    vystup=""\n    navic=""\n    t=""\n    for i in range(len(text)):\n        if i%2==0:\n            vystup+=text[i]\n        else:\n            navic+=text[i]\n    for znak in navic:\n        t=znak+t 
+def transpozice(text):\n    a = ""\n    b = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            a = a + text[i]\n        else:\n            b = text[i]+b\n    return a + b\n 
+def transpozice(text):\n    s = list(text)\n    i = 1\n    z = 0\n    k = 1\n    for pismeno in text:\n        i += 1\n        if i%2 == 0:\n            s[z] = pismeno\n            z += 1\n        else:\n            s[len(text)-k] 
+def transpozice(text):\n    x = ""\n    for i in range(0,len(text)):\n        if i%2 == 0:\n            x += text[i]\n    for i in range(0,len(text)):\n        if i%2 != 0:\n            x += text[-i]\n    return x\n 
+def transpozice(text):\n    x,y,z = "","",""\n    for i in range(len(text)):\n        if i%2 == 0:\n            x += text[i]\n        else: y += text[i]\n    for i in range(1,len(y)+1):\n        z += y[i-2*i]\n    x += z\n    r 
+def transpozice(text):\n    delka = len(text)\n    transpozice = ["" for i in range(delka)]\n    zacatek = 0\n    konec = len(transpozice) - 1\n    for i in range(delka):\n        if i%2 == 0:\n            transpozice[zacatek] = text[i]\n 
+def transpozice(text):\n    s=text[::2]\n    s1=text[1::2]\n    s1=s1[::-1]\n    return s+s1\n 
+def transpozice(text):\n    x=0\n    c=""\n    y=len(text)/2\n    for i in range (y):\n        c+=text[x]\n        x+=2\n    x=len(text)-1\n    for i in range (len(text)-y):\n        c+=text[x]\n        x+=-2\n    return c\n 
+def transpozice(text):\n    x=0\n    c=""\n    y=len(text)/2\n    for i in range (y):\n        c+=text[x]\n        x+=2\n    if (len(text)%2==0):\n        x=len(text)-1\n    else:\n        x=len(text)-2\n    for i in range (len(tex 
+def transpozice(text):\n    x=0\n    c=""\n    y=len(text)/2\n    for i in range (y):\n        c+=text[x]\n        x+=2\n    if (len(text)%2==0):\n        x=len(text)-1\n    else:\n        x=len(text)-2\n    for i in range (len(tex 
+def transpozice(text):\n    x=0\n    c=""\n    y=len(text)/2\n    for i in range (y):\n        c+=text[x]\n        x+=2\n    if (len(text)%2==0):\n        x=len(text)-1\n    else:\n        x=len(text)-2\n        y+=1\n    for i 
+def transpozice(text):\n    s = '\n    for i in range(len(text)//2):\n        s += text[i*2]\n    for i in range(len(text)//2):\n        s += text[-1*i*2 - 1]\n    return s\n 
+def transpozice(text):\n    zacatek = ""\n    konec = ""\n    for i in range(len(text)):\n        if i%2 == 0:\n            zacatek = zacatek + text[i]\n        else:\n            konec = text[i] + konec\n    return zacatek + konec 
+def transpozice(text):\n    te = ""\n    for i in range(0,len(text),2):\n        te += text[i]\n    for i in range(len(text)-1,0,-2):\n        te += text[i]\n    return te\n        \n 
+def transpozice(text):\n    te = ""\n    for i in range(0,len(text),2):\n        te += text[i]\n    a = len(text)-1\n    if len(text)%2==1:\n        a-=1\n    for i in range(a,0,-2):\n        te += text[i]\n    return te\n        \ 
+def transpozice(text):\ntext = list(text)\nseznam = ["." for i in range(len(text))]\nseznam[0] = text[0]\nn = 1\nk = 1\nfor i in range(1, len(text)):\nif i%2 != 0:\nseznam[len(text)-n] = text[i]\nn += 1            \nel 
+def transpozice(text):\n    te=""\n    for i in range(1,len(text)+1):\n        if i%2==0:\n            te=text[-i]+te\n        else:\n            te=te+text[-i]\n    return te\n 
+def transpozice(text):\n    te=""\n    for i in range(1,len(text)+1):\n        if i%2==1:\n            te=text[-i]+te\n        else:\n            te=te+text[-i]\n    return te\n 
+def transpozice(text):\n    te=""\n    for i in range(1,len(text)+1):\n        if i%2==0:\n            te=text[-i]+te\n        else:\n            te=te+text[-i]\n    return te\n 
+def transpozice(text):\n    te=""\n    for i in range(1,len(text)+1):\n        if i%2==1:\n            te=text[-i]+te\n        else:\n            te=te+text[-i]\n    return te\n 
+def transpozice(text):\n    te=""\n    for i in range(1,len(text)+1):\n        if (i%2==1 and len(text)%2==1) or (i%2==0 and len(text)%2==0):\n            te=text[-i]+te\n        else:\n            te=te+text[-i]\n    return te\n 
+def transpozice(text):\n    novy_text = '\n    for i in range(len(text)):\n        if i % 2 == 0:\n            novy_text += text[i]\n    for i in range(len(text)):\n        if i % 2 != 0:\n            novy_text += text[-i]\n    retur 
+def transpozice(text):\n    novy_text = '\n    for i in range(len(text)):\n        if i % 2 == 0:\n            novy_text += text[i]\n    for j in range(len(text)):\n        if j % 2 != 0:\n            novy_text += text[-j]\n    retur 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    print text[::2]\n    return text[::-2]\n 
+def transpozice(text):\n    x = text [::-1]\n    y = len(text)\n    print text[::2]\n    if len(text)%2 == 1:\n    return x[1:y:2]\n    else:\n        return text[::-2]\n 
+def transpozice(text):\n    sifra=text[::2]+text[::-2]\n    \n    return sifra\n 
+def transpozice(text):\n    if len(text)%2==1:\n        sifra=text[::2]+text[-2::-2]\n    else:\n        sifra=text[::2]+text[::-2]\n        \n    \n    \n    return sifra\n 
+def naopak(retaz):\n    pomoc2=""\n    for i in range(len(retaz)):\n        pomoc2+=retaz[len(retaz)-1-i]\n    return pomoc2\n\ndef transpozice(text):\n    pomoc=text[0::2]\n    pomoc+=naopak(text[1::2])\n    return pomoc\n 
+def transpozice(text):\n    vysledek = text[::2]\n    if len(text) %2 == 1:\n        text = text[:-1]\n    vysledek += text[::-2]\n    return '.join(vysledek)\n 
+def transpozice(text):\n    text1 = text[::2]\n    text2 = text[1::2][::-1]\n    return text1 + text2\n        \n 
+def transpozice(text):\n    new = ""\n    count = 0\n    posun = 2\n\n    while len(new) < len(text):\n        new += text[count]\n        if count+posun<len(text):\n            count += posun\n        else: \n            posun=-2 
+def transpozice(slovo):\ncount=0\nposun=2\nnew=""\nfor i in range(len(slovo)):\nnew += slovo[count]\ncount += posun\nif count==len(slovo):\ncount -=1\nposun = -2\nif count>len(slovo):\ncount -=3\nposun = -2 
+def transpozice(text):\n    text2 = ""\n    text3 = ""\n    for i in range(len(text)):\n        if i%2==0:\n            text3 += text[i]\n        else:\n            text2 = text[i] + text2\n    \n    return text3 + text2\n 
+def transpozice(text):\nreturn_text = '\nreturn_text2 = '\nfor x in range(len(text)):\nif x % 2 == 0:\nreturn_text += text[x]\nfor x in range(len(text)):\nif x % 2 == 1:\nreturn_text2 += text[x]\nreturn_text2 = retur 
+def transpozice(text):\n    n=0\n    m=0\n    sifra=""\n    for i in range (len(text)):\n        if i < (len(text)/2):\n            pismeno= text[i+n]\n            n= n+1\n            sifra = sifra + pismeno\n        else:\n 
+def transpozice(text):\n    sifra=""\n    sifra+=text[::2]\n    sifra+=text[::-2]\n  \n    return sifra    \n        \n 
+def transpozice(text):\n    pred = text[::2]\n    zad = text[::-2]\n    return pred + zad\n 
+def transpozice(text):\n    if len(text)//2 == 0:\n        pred = text[::2]\n        zad = text[::-2]\n    else:\n        pred = text[::2]\n        zad = text[-2::-2]\n    return pred + zad\n 
+def transpozice(text):\n    if len(text)%2 == 0:\n        pred = text[::2]\n        zad = text[::-2]\n    else:\n        pred = text[::2]\n        zad = text[-2::-2]\n    return pred + zad\n 
+def transpozice(text):\n    pravda=[]\n    for i in range(len(text)):\n        if i%2==0:\n            pravda.append(text[i])\n    for k in range(len(text)):\n        if k%2==1:\n            pravda.append(text[len(text)-k])\n    \n    fi 
+def transpozice(text):\n    pravda=[]\n    for i in range(len(text)):\n        if i%2==0:\n            pravda.append(text[i])\n    for k in range(len(text)):\n        if k%2==1:\n            pravda.append(text[len(text)-k])\n    \n    fi 
+def transpozice(text):\n    pravda=[]\n    for i in range(len(text)):\n        if i%2==0:\n            pravda.append(text[i])\n    for k in range(len(text)):\n        if k%2==1:\n            pravda.append(text[len(text)-k])\n    \n    fi 
+def transpozice(text):\n    pravda=[]\n    for i in range(len(text)):\n        if i%2==0:\n            pravda.append(text[i])\n    \n    for k in range(len(text)):\n        if k%2==1 and len(text)%2==0:\n            pravda.append(text[len 
+def transpozice(text):\n    result1 = ""\n    result2 = ""\n    result = ""\n    for i in range(len(text)):\n        if i% 2 == 0:\n            result1 = result1 + text[i]\n        else: result2 = text[i] + result2 \n    result = resu 
+def transpozice(text):\n    text2 = ""\n    for i in range(len(text)):\n        if i % 2 == 1:\n            text2 = text[-i-1] + text2\n        else:\n            text2 = text2 + text[-i-1]\n    \n    return text2\n 
+def transpozice(text):\n    sifrovany_text = ""\n    if len(text) % 2 == 1:\n    zac = 1   \n    else: \n        zac = 0\n    for i in range(0, len(text), 2):\n        sifrovany_text += text[i]\n    for i in range(zac, len(text), 2):\ 
+def transpozice(text):\n    pom=""\n    for i in range(len(text)):\n        \n        if i%2==0:\n            pom+=text[i]\n    if len(text)%2==0:\n        a=1\n    else:a=0\n    for i in range(1,len(text)+1):\n        \n        i 
+def transpozice(text):\n    sif = ""\n    for i in range(0,len(text),2):\n        sif += text[i]\n    for i in range(len(text)-1,0,-2):\n        sif += text[i]\n    return sif\n 
+def transpozice(text):\n    sif = ""\n    for i in range(0,len(text),2):\n        sif += text[i]\n    if len(text) % 2 == 0:\n        for i in range(len(text)-1,0,-2):\n            sif += text[i]\n    if len(text) % 2 == 1:\n        f 
+def transpozice(text):\n    vystup = '\n    for i in text[::2]:\n    vystup +=i\n    for z in text[::-2]:\n        vystup +=z\n    return vystup\n 
+def transpozice(text):\n    vystup = '\n    for i in text[::2]:\n    vystup +=i\n    for z in text[len(text)-2:0:-2]:\n        vystup +=z\n    return vystup\n 
+def transpozice(text):\n    vystup = '\n    for i in text[::2]:\n    vystup +=i\n    if len(text)%2 ==1:\n    for z in text[len(text)-2:0:-2]:\n        vystup +=z\n    if len(text)%2 ==0:\n    for z in text[::-2]:\n        vyst 
+def transpozice(text):\n    a = ""\n    b = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            a += text[i]\n        else:\n            b += text[i]\n    return a + b[::-1] 
+def transpozice(text):\n    slovo = '\n    k=0\n    j=len(text)-1\n    for i in range(len(text)):\n        if i+k <= len(text)-1:\n            slovo = slovo + text[i+k]\n            k=k+1\n        else:\n            slovo = slov 
+def transpozice(text):\n    slovo = '\n    k=0\n    if len(text) % 2 == 0:\n        j=len(text)-1\n    else:\n        j=len(text)-2\n    for i in range(len(text)):\n        if i+k <= len(text)-1:\n            slovo = slovo + text[i% 
+def transpozice(text):\n    sifra = text[0::2]\n    sifra += text[0::-2]\n    return sifra\n 
+def transpozice(text):    \n    sifra = text[::2]     \n    \n    if len(text) % 2:\n        sifra += text[len(text)::-2]\n    else:\n        sifra += text[::-2]            \n    return sifra\n 
+def transpozice(text):\n    navrat = '\n    for i in range(len(text),0,-1):\n        if(i % 2 == 0):\n            navrat = navrat + text[i-1]\n        else:\n            navrat = text[i-1] + navrat\n    return navrat 
+def transpozice(text):\n   text2=""\n   text3=""\n   for i in range(len(text)):\n      if (i%2==0):\n         text2+=text[i]\n \n   for i in range(len(text)):\n      if (i%2==1):\n         text3+=text[len(text)-i]\n   \n   return t 
+def transpozice(text):\n   text2=""\n   text3=""\n   for i in range(len(text)):\n      if (i%2==0):\n         text2+=text[i]\n \n   for i in range(len(text)):\n      if (i%2==1):\n         text3+=text[len(text)-i-1]\n   \n   return 
+def transpozice(text):\n   text2=""\n   text3=""\n   for i in range(len(text)):\n      if (i%2==0):\n         text2+=text[i]\n \n   for i in range(len(text)):\n      if (i%2==1):\n         text3+=text[len(text)-i-1]\n   \n   return 
+def transpozice(text):\n   text2=""\n   text3=""\n   for i in range(len(text)):\n      if (i%2==0):\n         text2+=text[i]\n \n   for i in range(len(text)):\n      if (i%2==1):\n        if(len(text)%2==0):\n         text3+=text[le 
+def transpozice(text):\n    sifra=""\n    sifra2=""\n    for a in range (len(text)):\n        if a%2==0:\n            sifra+=text[a]\n        else:\n            sifra2+=text[a]\n    sifra2_reverse=sifra2[::-1]\n    sifra+=sifra2_re 
+def transpozice(text):\n    opak = text[::-1]\n    x = ""\n    for i in range(len(text)):\n        if i%2==0:\n            x += text[i]\n    for i in range(len(text)):\n        if i%2==0:\n            x += opak[i]\n    return x\n 
+def transpozice(text):\n    opak = text[::-1]\n    x = ""\n    for i in range(len(text)):\n        if i%2==0:\n            x += text[i]\n    if (len(text))%2==0:\n    for i in range(len(text)):\n        if i%2==0:\n            x + 
+def transpozice(text):\nvystup = '\nfor i in range (len(text)):\nif i % 2 == 0:\nvystup += text[i]\ntext = text[::-1]\nfor j in range (len(text)):\nif j % 2 == 0:\nvystup += text[j]\nreturn vystup 
+def transpozice(text):\nvystup = '\nfor i in range (len(text)):\nif i % 2 == 0:\nvystup += text[i]\ntext = text[::-1]\nfor j in range (len(text)):\nif j % 2 == 1:\nvystup += text[j]\nreturn vystup 
+def transpozice(text):\n    string = '\n    c = 0\n    for i in range(len(text)/2):\n        string += text[2*c]\n        c += 1\n    c = 0\n    for i in range(len(text)/2):\n        string += text[-2*c-1]\n        c += 1\n 
+def transpozice(text):\n    string = '\n    c = 0\n    while(c <= len(text)-1):\n        string += text[c]\n        c += 2\n    c = 0\n    while(c <= len(text)-2):\n        string += text[-(c+1+(len(text) % 2))]\n        c + 
+def transpozice(text):\n    vystup=""\n    zbytek=""\n    for i in range(len(text)):\n        if i%2==0:\n            vystup+= text[i]\n        else:\n            zbytek+=text[i]\n    zbytek=zbytek[::-1]\n    return vystup+zbytek\ 
+def transpozice(text):\n    r = ""\n    l = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n        r += text[i]\n        else:\n            l = text[i] + l\n    return r + l\n 
+def transpozice(text):\n    heslo = ""\n    for i in range(0,len(text),2):\n    heslo+=text[i]  \n    koniec=""\n    for i in range(1,len(text),2):\n    koniec+=text[i]\n    koniec=koniec[::-1]\n    heslo+=koniec\n    return hesl 
+def transpozice(text):\n    transpozice1 = '\n    transpozice2 = '\n    for i in range(len(text)):\n        if i % 2 == 0:\n            transpozice1 += text[i]\n        else:\n            transpozice2 = text[i] + transpozice2\n    r 
+def transpozice(text):\nresult = ""\nfor i in range(len(text)):\nif i % 2 == 0:\nresult += text[i]\nfor j in range(len(text)):\nif j % 2 == 1:\nresult += text[-j]\nreturn result 
+def transpozice(text):\nresult = ""\nfor i in range(len(text)):\nif i % 2 == 0:\nresult += text[i]\nfor j in range(len(text)):\nif j % 2 == 1:\nresult += text[-j-1]\nreturn result 
+def transpozice(text):\nresult = ""\nif len(text) % 2 == 1:\nfor i in range(len(text)):\nif i % 2 == 0:\nresult += text[i]\nfor j in range(len(text)):\nif j % 2 == 1:\nresult += text[-j-1]\nelse:\nfor i in ran 
+def transpozice(text):\n    a = text[::2]\n    b = text[::-1]\n    c = b[::2]\n    \n    return a + c\n 
+def transpozice(text):\n    a = text[::2]\n    b = text[::-1]\n    c = b[1::2]\n    d = b[::2]\n    x = len(text)\n    if x % 2 == 1: return a + c\n    else: return a + d\n 
+def transpozice(text):\n     
+def transpozice(text):\n    vystup=""\n    i=int(0)\n    while i<=(len(text)-1):\n        vystup+=text[i]\n        i+=2\n\n    i-=1\n    while i>=1:\n        vystup+=text[i]\n        i-=2\n    return vystup\n\n 
+def transpozice(text):\n    vystup=""\n    i=int(0)\n\n    while i<=(len(text)-1):\n        vystup+=text[i]\n        i+=2\n\n    i-=1\n    while i>=1:\n        vystup+=text[i]\n        i-=2\n    return vystup 
+def transpozice(text):\n    vystup=""\n    i=int(0)\n    \n    while i<=(len(text)-1):\n        vystup+=text[i]\n        i+=2\n    \n    if len(text)%2!=0:\n        i-=3\n    else:\n        i-=1\n        \n    while i>=1:\n 
+\ndef transpozice(text):\n    transposed = ""\n    for i in range (len(text)):\n        if i % 2 == 0:\n            transposed += text[i]\n    for j in range (len(text)-1,0 , -2):\n            transposed += text[j]\n    return transpo 
+def transpozice(text):\n    return text[::2]+text[1:][::-2]\n 
+def transpozice(text):\n    return text[::2]+text[1::2][::-1] 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n        else:\n            t+=text[len(text)-1-i]\n    return t\n 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n        else:\n            t+=text[len(text)-1-i]\n    return t\n 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n        else:\n            t+=text[len(text)-1-i]\n    return t\n 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n    for i in range(len(text)):\n        if(i%2==1):\n            t+=text[len(text)-i]\n    return t\n 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n    for i in range(len(text)):\n        if(i%2==1):\n            t+=text[len(text)-i]\n    return t\n 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n    for i in range(len(text)):\n        if(i%2==1):\n            t+=text[len(text)-i]\n    return t\n 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n    for i in range(len(text)):\n        if(i%2==1):\n            t+=text[len(text)-i]\n    return t\n 
+def transpozice(text):\n    t=""\n    for i in range(len(text)):\n        if(i%2==0):\n            t+=text[i]\n    for i in range(len(text)):\n        if(i%2==1):\n            t+=text[len(text)-i-1]\n    return t\n 
+def transpozice(text):\nt=""\nif(len(text)%2==0):\nfor i in range(len(text)):\nif(i%2==0):\nt+=text[i]\nfor i in range(len(text)):\nif(i%2==1):\nt+=text[len(text)-i]\nelse:\nfor i in range(len(text)):\nif( 
+def transpozice(text):\n    x=len(text)%2\n    if x==0:\n        return text[0::2]+text[len(text)-1::-2]\n    if x==1:\n        return text[0::2]+text[len(text)-2::-2]\n 
+def transpozice(text):\n    vystup=""\n    for i in range(len(text)-1,-1,-1):\n        if i%2==0:vystup=text[i]+vystup\n        else: vystup=vystup+text[i]\n    return vystup\n 
+def transpozice(text):\n    x=""\n    for i in range(0,len(text),2):\n    x+=text[i]\n    if len(text)%2==0:\n        for i in range(len(text)-1,0,-2):\n            x+=text[i]\n    else:\n        for i in range(len(text)-1,0,-2):\n 
+def transpozice(text):\n    str=""\n    for i in range(len(text)):\n        if i%2==0:\n            str+=text[i]\n    for i in range(len(text),0,-1):\n        if i%2==1:\n            str+=text[i]\n    return str 
+def transpozice(text):\n    str=""\n    for i in range(len(text)):\n        if i%2==0:\n            str+=text[i]\n    for i in range(len(text)-1,0,-1):\n        if i%2==1:\n            str+=text[i]\n    return str 
+def transpozice(text):\n    n=0\n    if len(text)%2==1:\n        n=1\n    vystup='\n    for pismeno in text[::-1]:\n        if n%2==1:\n            vystup=pismeno+vystup\n        else:\n            vystup=vystup+pismeno\n        n% 
+def transpozice(text):\n    a=""\n    b=""\n    x=""\n    for i in range(len(text)):\n        if i%2==0 or i==0:\n        a+=text[i]\n        elif i%2!=0:\n            b+=text[len(text)-i]\n    return a+b\n\n        \n 
+def transpozice(text):\n    a=""\n    b=""\n    for i in range(len(text)):\n        if i%2==0 or i==0:\n        a+=text[i]\n        elif i%2!=0 and len(text)%2==0:\n            b+=text[len(text)-i]\n        elif i%2!=0 and len(text)% 
+def transpozice(text):\n    output_front = ""\n    output_back = ""\n    for i in range(len(text)):\n        if (i%2 == 0):\n            output_front += text[i]\n        else:\n            output_back += text[i]\n            \n    re 
+def transpozice(text):\n    s = '\n    t = text[::-1]\n    for i in range(len(t)):\n        if i%2==0: s += t[i]\n        else: s = t[i]+s\n    return s\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    return text\n 
+def transpozice(text):\n    result = '\n    result1 = '\n    \n    for i in range(len(text)):\n        if i%2 == 0:\n        result = result + text[i]\n        else:\n            result1 = text[i] + result1\n\n    return result % 
+def transpozice(text):\n    x = '\n    y = '\n    for i in range(len(text)):\n        if i % 2 == 0:\n            x = x + text[i]\n        else:\n            y = text[i] + y\n    return x + y\n 
+def transpozice(text):\n    s1='\n    s2='\n    for i in range(len(text)):\n        if i%2==0:\n            s1=s1+text[i]\n        else: s2=text[i]+s2 \n    return s1+s2\n 
+def transpozice(text):\n    x=0\n    szo=""\n    while x<=len(text)-1:\n        szo=szo+text[x]\n        x=x+2\n    if len(text)%2==0:\n        x=len(text)-1\n    else:\n        x=len(text)-2\n    while x>=0:\n        szo=szo+tex 
+def transpozice(text):\n    text2 = text[::2] + text [len(text)-1::-2]\n    return text2\n 
+def transpozice(text):\n    if len(text)%2 == 0:\n        text2 = text[::2] + text[len(text)-1::-2]\n    else:\n        text2 = text[::2] + text[len(text)-2::-2]\n    return text2\n 
+def transpozice(text):\n    array = list(text)\n    length = len(text)\n    temp = length - 1\n    array2 = [None] * length\n    p = 0\n    string = '\n\n    for i in range(length):\n        if i % 2 == 0 or i == 0:\n            array2 
+def transpozice(text):\n    return text[0::2] + text[1::2][::-1]\n 
+def transpozice(text):\n    opacny=list(text)\n    opacny.reverse()\n    konec=""\n    for i in range(len(text)):\n        if i%2==0:\n        konec+=text[i]\n    for i in range(len(text)):\n        if i%2==0:\n        konec+=opacn 
+def transpozice(text):\n    opacne=text[::-1]\n    vysledek=""\n    for i in range(len(text)):\n        if i%2==0:\n            vysledek+=text[i]\n    for i in range(len(text)):\n        if i%2==0:\n            vysledek+=opacne[i]\n 
+def transpozice(text):\n    opacne=text[::-1]\n    vysledek=""\n    for i in range(len(text)):\n        if i%2==0:\n            vysledek+=text[i]\n    if len(text)%2==0:\n    for i in range(len(text)):\n        if i%2==0:\n 
+def transpozice(text):\n    vystup = ""\n    vystup2 = ""\n    for i in range(len(text)):\n        if i % 2 ==0:\n            vystup = vystup + text[i]\n        else:\n            vystup2 = text[i] + vystup2\n    vystup = vystup + v 
+def transpozice(n):\n    s1='\n    s2='\n    for i in range(len(n)):\n        if i % 2 == 0:\n            s1+=n[i]\n        else:\n            s2=n[i]+s2\n    return s1+s2\n 
+def transpozice(text):\n    return hsoerseapjle\n 
+def transpozice(text):\n    a="hsoerseapjle"\n    return a\n 
+def transpozice(text):\n    a=text\n    b=""\n    c=""\n    for i in range (len(a)):\n        if i%2==0:\n            b=b+a[i]\n        else:\n            c=c+a[i]\n    c=c[::-1]\n    a=b+c\n    return a\n 
+def transpozice(text):\n    zacatek = ""\n    konec = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            zacatek = zacatek + text[i]\n        else:\n            konec = text[i] + konec\n    return zacatek + kone 
+def transpozice(text):\n    text2 = ""\n    text3 = ""\n    for i in range(0, len(text), 2):\n        text3 += text[i]\n    for i in range(1, len(text), 2):\n        text2 += text[i]\n\n    for i in range(len(text2)-1, -1, -1):\n 
+def transpozice(text):\n    text2 = ""\n    text3 = ""\n    for i in range(0, len(text), 2):\n        text3 += text[i]\n    for i in range(1, len(text), 2):\n        text2 += text[i]\n\n    for i in range(len(text2)-1, -1, -1):\n 
+def transpozice(text):\n    text2 = '\n    text3 = '\n    for i in range(0, len(text), 2):\n        text3 += text[i]\n    for i in range(1, len(text), 2):\n        text2 += text[i]\n    for i in range(len(text2)-1, -1, -1):\n 
+def transpozice(text):\n    text2 = ""\n    text3 = ""\n    for i in range(0, len(text), 2):\n        text3 += text[i]\n    for i in range(1, len(text), 2):\n        text2 += text[i]\n    for i in range(len(text2)-1, -1, -1):\n 
+def transpozice(text):\n    if len(text) == 3:\n        return text[0]+text[2]+text[1]\n    else:\n    text2 = ""\n    text3 = ""\n    for i in range(0, len(text), 2):\n        text3 += text[i]\n    \n    for i in range(1, le 
+def transpozice(t):\n    res = ""\n    for i in range(len(t)/2):\n        res += t[i*2]\n    for i in range(len(t)/2-1, -1, -1):\n        res += t[i*2+1]        \n    return res\n 
+def transpozice(t):\n    res = ""\n    for i in range(len(t)/2):\n        res += t[i*2]\n    for i in range(len(t)/2-1):\n        res += t[len(t) - i*2 - 2]\n    return res\n 
+def transpozice(t):\n    res = ""\n    for i in range(len(t)/2):\n        res += t[i*2]\n    for i in range(len(t)/2):\n        res += t[len(t) - i*2 - 2]\n    return res\n 
+def transpozice(text):\n    newText = text[::2]\n    newText += text[::-2]\n    return newText\n 
+def transpozice(text):\n    newText = text[::2]\n    if(len(text)%2 == 0):\n        newText += text[::-2]\n    else:\n        tmp = text[::-1]\n        newText += tmp[1::2]\n    return newText\n 
+def transpozice(text):\n    res = [" " for i in range(len(text))]\n    for i in range(len(text)):\n        if i%2 == 0:\n            res[i/2] = text[i]\n        else:\n            res[len(res)-(i+1)/2] = text[i]\n    r = ""\n    for i i 
+def transpozice(text):\n    res = [" " for i in range(len(text))]\n    for i in range(len(text)):\n        if i%2 == 0:\n            res[i/2] = text[i]\n        else:\n            res[len(res)-(i+1)/2] = text[i]\n    r = ""\n    for i i 

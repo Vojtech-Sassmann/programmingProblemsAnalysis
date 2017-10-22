@@ -1,0 +1,24 @@
+name;+;-;*;/;for;while;print;%;^;try:;if; break;==
+Binarni cislo ; 1;2;3;0;1;0;0;0;0;0;0;0;0
+Binarni zapis ; 0;0;0;0;0;0;2;1;0;0;1;0;1
+Ciferny soucet ; 1;0;0;1;0;1;0;0;0;0;1;0;0
+Cik-cak ; 0;0;0;0;2;0;3;1;0;0;1;0;1
+Ctverec ; 3;2;5;0;1;0;2;0;0;0;1;0;2
+Delitele ; 0;0;0;0;1;0;1;0;0;0;1;0;1
+Dvojnasobek ; 0;0;1;0;0;0;2;0;0;0;1;0;1
+Faktorial ; 1;0;1;0;1;0;0;0;0;0;1;0;1
+Fibonacciho posloupnost ; 1;1;0;0;1;0;3;0;0;0;0;0;0
+Mocniny dvojky ; 0;1;1;0;1;0;2;0;0;0;0;0;0
+Nejdelsi slovo ; 2;1;0;0;2;0;0;0;0;0;2;0;1
+Nejvetsi spolecny delitel ; 1;0;0;0;1;0;0;2;0;0;2;0;2
+Palindrom ; 1;1;0;0;1;0;0;0;0;0;1;0;0
+Pascaluv trojuhelnik ; 1;1;1;1;2;0;2;0;0;0;0;0;0
+Pocet delitelu ; 0;0;0;0;1;0;0;1;0;0;1;0;1
+Prvni pismena ; 1;1;0;0;1;0;0;0;0;0;1;0;2
+Sachovnice ; 1;0;0;0;2;0;3;2;0;0;1;0;1
+Soucet ; 1;1;0;0;1;0;1;0;0;0;0;0;0
+Suda cisla ; 0;0;1;1;1;0;1;0;0;0;0;0;0
+Tajna posloupnost ; 2;0;0;0;1;0;1;0;0;0;1;0;0
+Trojuhelnik ; 1;1;0;0;2;0;1;0;0;0;0;0;0
+Velke X ; 0;0;0;0;2;0;1;0;0;0;1;0;1
+Vypis prvocisel ; 2;0;0;0;1;1;0;1;0;0;2;0;2

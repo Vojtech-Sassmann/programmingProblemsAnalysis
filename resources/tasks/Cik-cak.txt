@@ -1,4 +1,4 @@
-Cik-cak (2021)
+(2021)
 Format = cislo tahu ; cas v sekundach ; popis tahu 
 User 23
 ---

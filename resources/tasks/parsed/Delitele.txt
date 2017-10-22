@@ -1,0 +1,1526 @@
+
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 11 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n            if n % i == 0:\n                print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 20 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i ==0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == i:\n           then print i\nelseif 
+def delitele(n):\n    for i in range(1,n):\n        x=1:\n        if i % x == i:\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if not (n % i):\n            print(i)\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if not (n % i):\n            print(i)\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if (i % n) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if not (n % i):\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(\n                   1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n %i == 0:\n            pr int i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    l=0\n    for i in range(l,n):\n        if i < 1 == 0:\n            print i\n 
+def delitele(n):\n    print 1\n    print 13\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n            if i % 1 ==0\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % 5 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n           \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n            n = n // i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:          \n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    print 1\n    for k in range(2,n):\n        if n % k == 0:\n          print k  \n    print n\n 
+def delitele(n):\n    print 1\n    for k in range(2,n):\n        if n % k == 0:\n               print k  \n    print n\n 
+def delitele(n):\n    print 1\n    for k in range(2,n):\n        if n % k == 0:\n               print k  \n    print n\n 
+def delitele(n):\n    if n>1:\n        print 1\n    for k in range(2,n):\n        if n % k == 0:\n            print k   \n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for a in range(1,n+1):\n        if n%a ==0:\n            print a\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n % i == 0):\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    y=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n            y +=1\n    return y\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i==0:\n            print i\n            \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n            \n   \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n):\n        if n % (i+1) == 0:\n            print (i+1)\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n            \n 
+def delitele(n):\n    for i in range(1,n+1,1):\n        if (n%i)==0:\n            print i\n 
+def delitele(n):\n    i=1\n    for i in range(1,n+1):\n        if n%i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n           print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n \n        == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n %i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n%i==0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    print 1\n    for i in range(2,n):\n        if n%i == 0:\n            print i\n    print n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n %i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n):\n        if (n%(i+1)==0):\n            print i+1\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n%i== 0):\n            print i\n 
+def delitele(n):\n    for i in range(n/2):\n        d = i+1\n        if n % d == 0:\n            print d\n 
+def delitele(n):\n    for i in range(0,n):\n        d = i+1\n        if n % d == 0:\n            print d\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n        \n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    x=0\n    for i in range(1,n+1):\n        if n % i == 0:\n            x +=1\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 28 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    print i\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    print i;\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):    \n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):    \n    for i in range(1,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):    \n    for i in range(1,n):\n        if i % n/2 == 0:\n            print i\n 
+def delitele(n):    \n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):    \n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):    \n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n / i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n / i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i ==0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 10 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 20 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % i*2 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % i*2 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % i*2 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % i*2 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % i*2 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 13 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 13 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 13 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 13 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print i\n 
+x = 0\ndef delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+print 1\nprint 7 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 5:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n            \n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n    for j in range(1,n\n        if i %  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n    for j in range(1,n\n        if i %  == 0:\n            print i\n 
+def delitele(n):\n    k == (1,N\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n % i) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n        i += 1\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    i = 1\n    while i <= n:\n        if n % i == 0:\n            print i\n        i = i+1\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n+1):\n        if (n%i) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    delitele = 0\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print 1, "
+def delitele(n):\n    for i in range(1,n+1):\n        if n %i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0: \n            print i\n    print n\n 
+def delitele(n):\n   print 1\n   for i in range(n):\n        if n % i == 0:\n            print n\n        \n 
+def delitele(n):\n   for i in range(n+1):\n        if n % i == 0:\n            print i\n        \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n        else: print\n            \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,5):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n):\n        if (n % (i+1) == 0):\n            print i+1\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0: \n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n            \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    delitele = [] \n    for i in range(1,n+1):\n        if n % i == 0:\n            delitele.append(i)\n        return delitele\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0 or n%i==n:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n%i==0:\n            print i\n    print n,\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i ==0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 10 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if( n % i == 0):\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 12 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range (1,n+1):\n        if n % i== 0:print i\n    print\n        \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n % i == 0):\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    \n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n            print n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n        if n % i == 1:\n            print n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0 : print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n         \n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print 24\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(3,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n):\n        if n % i == 0:\n            print i\n    print n     \n           \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n            print 1\n            print 29\n 
+def delitele(n):\n            print 1\n            print 2\n            print 3\n            print 6\n            print 9\n            print 18 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n            \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n+1):\n        if (n % i) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n/2):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n   \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 12%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n   for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n \n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n       if n%i==0: \n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % i+1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print 1\n            print i\n                \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+\ndef delitele(n):\n    for i in range(1,n/2):\n        if n % i == 0:\n            print i\n    print n\n 
+\ndef delitele(n):\n    for i in range(1,n/2 +1):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n/2 +1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n/2):\n        if n % i == 0:\n            print i\n    if i != 1:\n        print n,\n 
+def delitele(n):\n    for i in range(1,n/2+1):\n        if n % i == 0:\n            print i\n    if i != 1:\n        print n,\n 
+def delitele(n):\n    for i in range(1,n/2 +1):\n        if n % i == 0:\n            print i \n    if i != 1:\n        print n\n 
+def delitele(n):\n    for i in range(1,n/2 +1):\n        if n % i == 0:\n            print i \n    if n > 1:\n        print n\n 
+def delitele(n):\n    for i in range(1, n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    delitel = 1\n    while(delitel<=n):\n        if(n 
+def delitele(n):\n    for i in range(1,n+1):\n        if(n%i==0):print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n/i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n % i) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    i=1\n    x=0\n    while i <=n:\n        if n % i ==0:\n            print i\n        i=i+1\n 
+def delitele(n):\n    for i in range(1,n/2+1):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if i>>0:\n            if n%i == 0:\n                print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    deli=0\n    while deli<n:\n        deli+=1\n        if n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n   \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n        print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n % i) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n):\n        if n%i==0:\n            print(i)\n    print(n)\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 34 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,1+n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if i % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n    if n % i ==0:\nprint i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if not n%i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        vysledek =n/i\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    x=1\n    for i in range(1,n):\n        if i % x == 0:\n            print x\n        x+=1\n 
+def delitele(n):\n    x=1\n    for i in range(1,n+1):\n        if n % x == 0:\n            print x\n        x+=1\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if (n % i == 0):\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n + 1):\n        if n % i == 0: print i \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for kandidat in range(1, n+1):\n        if n % kandidat == 0:\n            print kandidat\n    \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n):\n        if n % (i+1) == 0:\n            print i+1\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print n\n 
+def delitele(n):\n    for i in range(1, n+1):\n        if n % i == 0:\n            print(i)\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n           \n            \n \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n % i) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if (n % i) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for m in range (1,n+1):\n    for i in range(1,n+1):\n        if (m*i) ==n:\n            print m\n            \n        \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n         \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n):\n        if n%(i+1) == 0:\n         print(i+1)\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range (1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n            \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i==0:\n            print i\n        \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n    print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 10 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n+1):\n        if n%i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n%i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):    \n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    n=n+1\n    for i in range(n):\n        if 25 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n/2+1):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n/2+1):\n        if n % i == 0:\n            print i\n    if n > 1:\n    print n\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 9 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n     for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n% i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    counter = 1\n    for a in range(1,n+1):\n        if n % counter == 0:\n            print a\n        counter += 1 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 24 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n       if n % i == 0:\n        \n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0 or n % i == n:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i 
+def delitele(n):\n    a=1\n    print 1 \n    for i in range(1,n):\n        a=a+1\n        if n%a==0:\n            print a\n        \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            \n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 15 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 15 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range (1, (n+1)/2):\n            if (n%i) == 0:\n                    print i\n    print n\n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    x=0\n    for i in range(1,n+1):\n        vys = n%i\n        if vys == 0:\n            x+=1\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if 10 % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n    print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n            \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print (n%i)\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n            \n 
+def delitele(n):\n    for i in range(1,n):\n        if i%2==0:\n        print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 9 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n + 1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i== 0\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n %  i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0 :           \n            print i\n 
+def delitele(n):\n    for i in range(1,7):\n        if n % 3 == 1:7\n \n        print n\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 3 == 0:\n \n        print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1,5 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,5):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,12):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,9):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, 4):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, 1):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, 3):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, 3):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i== 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(2, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(3, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(3, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(3, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(3, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n, 1):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n, 1):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n, 1):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n, 1):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n, n):\n        if i % 4 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if n % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if n % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 2*n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 2*n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 2*n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % 2*n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % n*n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1, n):\n        if i % n*n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3+n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3+n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3+n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 + n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 + n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % i + n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i * i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i * i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i * i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i * i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i * i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i * i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 2:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 2:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 2:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 2:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 2:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 2:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == n:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == n:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == n:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i*i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i*i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == i*i:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            \n            \n            \n            print i\n            \n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 0 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i %  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(0,i):\n        if i %  == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            \n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 29 == 0 or i == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i % 2 == 0 or i == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(\n        n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 3:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % (i/n) == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if i // 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if 27 % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n%i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print 6\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print 7\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 7:\n            print 7\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 10 == 7:\n            print 7\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 10 == 7:\n            print 7\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print 7\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print 0\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print 1\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print 7\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print 0\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print 9\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 2:\n            print 9\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 3:\n            print 9\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(2,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(2,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,8):\n        if i % 2 == 2:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % 3 == 0: \n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0: \n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 21 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 23 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 23i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 7 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 6 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 1 == 1:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    n=1\n    print n\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 5 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 5n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 18i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i = i3\n 
+def delitele(n):\n    for i in range(n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 24 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,23):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n +1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 3 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % n == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n):\n        if i % 2 == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    a=0\nfor p in range (n):\n        a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    a=0\nfor i in range (n)\n    a+=1\n        if n%a==0:\n            print (a)\n       \n            \n        \n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(1,n+1):\n        if n % i == 0:\n            print i\n 
+def delitele(n):\n    for i in range(n+1):\n        if 30%i == 0:\n            print i\n 

@@ -1,0 +1,14 @@
+name,Binarni cislo ,Binarni zapis ,Ciferny soucet ,Cik-cak ,Ctverec ,Delitele ,Dvojnasobek ,Faktorial ,Fibonacciho posloupnost ,Mocniny dvojky ,Nejdelsi slovo ,Nejvetsi spolecny delitel ,Palindrom ,Pascaluv trojuhelnik ,Pocet delitelu ,Prvni pismena ,Sachovnice ,Soucet ,Suda cisla ,Tajna posloupnost ,Trojuhelnik ,Velke X ,Vypis prvocisel 
++, 1, 2, 1, 0, 3, 1, 1, 0, 1, 1, 1, 1, 0, 1, 2, 2, 1, 1, 1, 2, 0, 0, 2
+-,2,0,0,0,2,0,0,1,1,0,1,0,2,1,0,0,0,1,0,0,1,2,0
+*,2,0,0,0,7,0,0,1,0,1,0,0,0,2,0,0,0,0,0,0,1,0,0
+/,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+for,1,0,0,2,1,1,1,0,1,1,1,1,1,2,1,1,2,0,1,2,1,2,1
+while,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+print,0,1,0,4,3,1,1,0,2,1,0,0,0,0,0,0,3,0,1,1,1,1,1
+%,0,1,1,2,0,1,1,0,0,0,0,2,0,0,1,0,1,0,1,0,0,0,1
+^,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+try:,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+if,1,1,1,2,0,1,1,1,0,0,1,1,1,0,1,1,1,1,1,1,0,1,2
+ break,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+==,1,1,0,2,0,1,1,1,0,0,0,2,0,0,1,1,1,1,1,1,0,2,2

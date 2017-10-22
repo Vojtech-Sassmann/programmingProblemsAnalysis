@@ -1,8 +1,12 @@
 import codecs
 import csv
 import ast
+import os
+import sys
 from os import listdir
 from os.path import isfile, join
+
+from data import tasks
 
 searched_nodes = [
     "Add", "And", "AssList", "Bitand", "Bitor", "Bitxor", "Break", "CallFunc", "Class", "Compare", "Continue", "Const",
@@ -43,7 +47,8 @@ class MyVisitor(ast.NodeVisitor):
         if self.data_vector[key] == 0.0:
             self.data_vector[key] = 1.0
         else:
-            self.data_vector[key] *= 1.5
+            if not binar:
+                self.data_vector[key] += 1
 
 
 def to_data_string(data):
@@ -99,33 +104,40 @@ def print_results(results):
     print("submitted: %s" % str(results.submitted))
     print("compilable: %s" % str(results.parsable))
     '''"" TODO""'''
-    print("correct: %s" % str(results.correct))
-    print("\n-----\n")
-
-    number_of_printed_solutions = 5
-    for key, value in sorted(results.stats.items(), key=lambda x: x[1], reverse=True):
-        if len(key) > 0:
-            print(key, "-> ", value)
-            number_of_printed_solutions -= 1
-            if number_of_printed_solutions is 0:
-                break
+    # print("correct: %s" % str(results.correct))
+    # print("\n-----\n")
+    #
+    # number_of_printed_solutions = 5
+    # for key, value in sorted(results.stats.items(), key=lambda x: x[1], reverse=True):
+    #     if len(key) > 0:
+    #         print(key, "-> ", value)
+    #         number_of_printed_solutions -= 1
+    #         if number_of_printed_solutions is 0:
+    #             break
 
 
 def print_header(file_name):
-    print("")
+    # print("")
     print("--------------------------------------------------------------------------------")
     print("----- ", file_name, " -----")
-    print("")
+    # print("")
 
 
 def save_results(results, file_name):
-    with codecs.open("resources/results.csv", 'a') as f:
+    if results.submitted < 300:
+        return
 
+    with codecs.open(output_path, 'a') as f:
+        counter = 1
         for key, value in sorted(results.stats.items(), key=lambda x: x[1], reverse=True):
-            if len(key) is not 0:
-                print(file_name)
-                print(file_name, ";", key, file=f, flush=True)
-                break
+            if counter == solution_number:
+                if len(key) is not 0:
+                    print(file_name)
+                    print(file_name[:-4], ";", key, file=f, flush=True)
+                    break
+                else:
+                    continue
+            counter += 1
 
 
 def analyze_file(file_name):
@@ -149,7 +161,7 @@ def analyze_files():
 
     """prepare output file"""
     header = "name"
-    with codecs.open("resources/results.csv", 'w') as f:
+    with codecs.open(output_path, 'w') as f:
         for node in searched_nodes:
             header += ";"
             header += node
@@ -159,5 +171,7 @@ def analyze_files():
     for f in files:
         analyze_file(f)
 
-
+binar = True
+output_path = "resources/resultsThirdBin.csv"
+solution_number = 3
 analyze_files()

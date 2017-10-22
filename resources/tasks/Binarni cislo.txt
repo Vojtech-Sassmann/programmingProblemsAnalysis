@@ -1,4 +1,4 @@
-Binarni cislo (2024)
+(2024)
 Format = cislo tahu ; cas v sekundach ; popis tahu 
 User 25
 ---

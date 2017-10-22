@@ -1,0 +1,2024 @@
+
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:     print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n          print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n          print 2*i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+(n+1)%2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: \n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        \n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        \n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0 print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n             print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2 == 0):\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0):\n          print i\n 
+def suda(n):\n    for i in range(n-1):\n        print i*2\n       \n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n       \n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n       \n 
+def suda(n):\n    for i in range(n):\n        print i*2\n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0, n, 2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %  2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0, n, 2):\n        print i\n 
+def suda(n):\n    for i in range(0, n +1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i %2 == 0: \n        print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 = 0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n): \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n div 2):\n        print 2*i\n 
+def suda(n):\n    for i in range(floor(n/ 2)):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/ 2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/ 2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/ 2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/ 2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/ 2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n):\n        if(not i%2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(1+n):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(0, n, 2):\n        print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n//2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if n%2==0:\n             print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n             print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2 + 1):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(n):\n        for n % i == 0\n        print i\n 
+def suda(n):\n    for i in range(n):\n        for n % i == 0\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n): \n        if i%2==0:\n        print i\n        \n 
+def suda(n):\n    for i in range(n+1): \n        if i%2==0:\n        print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0): print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n      if i%2==0:  print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,(n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 ==)\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 ==)\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 ==)\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 ==)\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 ==)\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n             print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n             print i\n 
+def suda(n):\n    for i in range((n+2)//2):\n        print i+i\n 
+def suda(n):\n    for i in range(0,(n/2)+1):\n        print i*2\n 
+def suda(n):\n    for i in range(0,(n/2)+0.5):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if not (i % 2) :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if not (i % 2) :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range((n-1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i 
+a=[]\ndef suda(n):\n    for i in range(n):\n        \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2-1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+2)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    i = 0\n    while i<=n:\n        print i\n        i += 2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(i,n//2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:        \n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n           print i\n 
+def suda(n):\n    q=1\n    print 0\n    for i in range(n):\n        if q%2 == 0:\n           print q\n        q = q+1    \n 
+def suda(n):\n    for i in range(n+1):\n       if i % 2==0:\n          print i\n            \n            \n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i% 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    l=0\n    for i in range(l,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i*2<n):\n            print i+i\n 
+def suda(n):\n    for i in range(n):\n        if (i*2<=n):\n            print i+i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n         print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 print i\n        \n        \n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+import sys\n\ndef suda(n):\n    for i in range(n):\n        print i\n    if sys.version_info[0] < 3:\n    raise "Must be using Python 3" 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(1+n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(1+n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(int(1+n/2)):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    n+=1\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n    if n%2 == 0:\n        print n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n          print i\n    if n%2==0:\n      print n\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i % 2 == 0):\n         print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n/2):\n        i=i*2\n        print i\n 
+def suda(n):\n    for i in range(0,n/2+1):\n        i=i*2\n        print i\n 
+def suda(n):\n    for i in range(0,(n/2)+1):\n        if n/2==i*2+1: i+=1\n        i=i*2\n        print i\n 
+def suda(n):\n    for i in range(0,(n/2)+1):\n        if n/2==i*2+1: i/=2\n        i=2*i\n        print i\n 
+def suda(n):\n    pom = 0\n    for i in range(0, n/2+1):\n        print pom\n        pom=pom+2\n 
+def suda(n):\n    pom = 0\n    for i in range(0, n/2+1):\n        if pom < n : print pom\n        pom=pom+2\n 
+def suda(n):\n    pom = 0\n    for i in range(0, n/2+1):\n        if pom <= n : print pom\n        pom=pom+2\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i%2==0):\n          print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2==0):print i\n 
+def suda(n):\n    for i in range(n+2):\n        if (i%2==0):print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):print i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(0, n + 1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n-1):\n        print i*2\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(-1,n,2):\n        print i+1\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(1,n+1):\n        if i%2==0: \n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0: \n            print i\n 
+def suda(n):\n    for i in range(0,n+1,+2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i%2==0:\n        print i\n 
+def suda(n):\n    i=0\n    while i<=n:\n        if (i%2)==0:\n            print i\n        i=i+1\n 
+def suda(n):\n    for i in range(n):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(n, n+1):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n       if i %2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n       if i%2==0: print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    i = 0\n    while i <= n:\n        print i\n        i = i + 2\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+2):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n    if n%2 == 0:\n        print n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n            print i\n    print n    \n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):\n            print i\n          \n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i%2==0):\n            print i\nsuda(5) 
+def suda(n):\n    for i in range(0,n+1):\n        if (i%2==0):\n            print i\n\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0):print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n            print i 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2 == 0):\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0):\n           print i\n 
+def suda(n):\n    i = 0\n    while i-1 < n:\n        \n        if i % 2 == 0:\n            print i\n        i = i + 1\n\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i %= 0\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i/2 %1:\n            i+1\n        elif i/2%0:\n            i+2\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i/2 %1:\n            i+1\n        elif i/2%0:\n            i+2\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n       if (i % 2 == 0) print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n         print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n         print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: \n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: \n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n//2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n           print i\n    if (n % 2 == 0):\n      print n\n 
+def suda(n):\n    for i in range(n+1):\n        if i% 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if not i % 2:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if not i % 2:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2=0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    if n>=0:\n        for i in range(n+1):\n            if i%2 == 0:\n                print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n               print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i \n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i \n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n       \n 
+def suda(n):\n    for i in range(0,n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(0,(\n                      n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if(i%2==0):\n            print(i)\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i/2 == 0\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2==0): print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0): print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n       \n 
+def suda(n):\n    for i in range(n):\n      if i % 2 == 0:\n        print i\n    print n\n 
+def suda(n):\n    for i in range(n):\n      if i % 2 == 0:\n        print i\n    if n % 2 == 0:\n       print n\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n    print n\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n    if n % 2 == 0:\n        print n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n    print n\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    print 0\n    for i in range(n/2):\n        print (i+1)*2\n 
+def suda(n):\n    print 0\n    for i in range((n/2)-1):\n        print (i+1)*2\n 
+def suda(n):\n    for i in range(0,n):\n        if i%2 == 0:\n            print i\n    if n%2 == 0:\n        print n\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0 : print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2==0:\n            \n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,1+n,2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n         print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n    \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n       if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if(i % 2 == 0):\n            print i 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if ( i % 2 == 0):\n            print n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(0, n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    print 0\n    cislo = 0\n    for i in range(n):\n        cislo = cislo + 1\n        if cislo % 2 == 0:\n            print cislo\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2) == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if (i%2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i%2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2) == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):    \n        if (i%2) == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):    \n        if (i%2) == 0:\n            print i\n    print n\n        \n 
+def suda(n):\n    for i in range(n):    \n        if (i%2) == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2) == 0:\n            print i\n\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n    print n\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i%2==0:\n         print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i%2\n 
+def suda(n):\n    for i in range(n/2 +1):\n        print i*2\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n-1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n         print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(0, n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if not i%2: print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0): print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2==0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n + 2):\n        if (i % 2) == 0:\n            print i 
+def suda(n):\n    for i in range(n + 1):\n        if (i % 2) == 0:\n            print i 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2  == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n           print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n          print i\n    if n % 2 == 0:\n        print n\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2.0 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i%2)==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n          print i\n 
+def suda(n):\n    num = 0\n    while( num <= n ):\n        print num\n        num += 2\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 ==0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (2*n)%2 ==0:\n 
+def suda(n):\n    for i in range(n+1):\n        if (2*n)%2 ==0:\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 ==0:print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):\n            print i\n            \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i % 2 == 0:\n        print i\n       else:()\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0 : print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if  i%2==0: print i\n 
+def suda(n):\n    print 0\n    \n    print 2,\n 
+def suda(n):\n    for i in range (0,n+1):\n        if i%2 == 0 : print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n            print i\n\n 
+def suda(n):\n    for i in range(0,n):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(0,n +1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(1,n+1):\n        if i%2==0print i\n 
+def suda(n):\n    for i in range(1,n+1):\n        if i%2==0print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    i=-2\n    while i < n:\n        i+=2\n        if(i <= n):print i\n        \n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range((n+2)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2)==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: \n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: \n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n        print 0\n        print 2\n        print 4\n        print 6\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+2):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n):\n       if (i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n       if (i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):2\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i *2\n 
+def suda(n):\n    for i in range(n):\n               \n        print i *2\n\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i %2 == 0:\n          print i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            \n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n    if n % 2 == 0:\n        print n\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0) :\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n):\n        if(i % 2 == 0):\n          print(i)\n 
+def suda(n):\n    for i in range(n +1):\n        if(i % 2 == 0):\n          print(i)\n 
+def suda(n):\n    for i in range(1,n,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if(i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if(i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        a = i%2\n        if a==0:\n        print i\n    print i+1\n 
+def suda(n):\n    for i in range(n+1):\n        a = i%2\n        if a==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        \n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        i = imod 2\n        print i\n 
+def suda(n):\n    for i in range(n):\n        i = i div  2\n        print i\n 
+def suda(n):\n    for i in range(n):\n        i = i mod  2\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2== 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2== 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n       if i % 2==0:\n         print i\n 
+def suda(n):\n    for i in range(0,n):\n       if i % 2 == 0: \n            print i\n 
+def suda(n):\n    for i in range(0,n+1):                 \n       if i % 2 == 0: \n            print i\n 
+def suda(n):\n    for i in range(0,n):\n       if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n):\n       if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if n % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n//2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: \n            print i\n 
+def suda(n):\n    for i in range (0, n+1, 2):\n        print i\n    print 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    x=0\n    for i in range(n+1):\n        if x%2==0:\n            print i\n        x=x+1\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 : print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: \n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :  \n        \n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        ifprint i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n           print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 == 0): print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2 == 0): print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i % 2 ==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n           print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if 1% 2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i% 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i% 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n   \n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2)==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2)==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i==0)or(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range((n+1)//2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+3)//2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+2)//2):\n        print i*2\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n       \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n    print n\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n    \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n    if n%2==0:\n        print n\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n        \n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 \n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: \n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+2):\n        if i%2 ==0:\n            print i\n            \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n            print i\n            \n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n        \n     \n 
+def suda(n):\n    for i in range(0,n):\n       if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n       if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if  i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print (i)*2\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):     \n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 == 0:\n          print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i%2==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            if i >= 0:\n                print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n    if n%2==0:\n        print n\n 
+def suda(n):\n    for i in range(0, n + 1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(-1, n+1):\n        if not i % 2:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n           print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n        else:\n            print "" 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0, n, 2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range((n/2)+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if (i%2==0):print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n       print i\n 
+def suda(n):\n    for i in range(n):\n        print 2*i\n 
+def suda(n):\n    for i in range(n - 1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n -2):\n        print 2*i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if(i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n            print i\n       \n 
+def suda(n):\n    for i in range(n+ 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n           print i\n 
+def suda(n):\n    for i in range(n):\nif i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if i%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n):\n        if (i+2)%2 != 1:\n        print i 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i 
+def suda(x):\n    n=15\n    for x in range(n):\n        if x%2==0:\n            print x 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2) == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n2*i 
+def suda(n):\n    for i in range(n+1):\n        if not i%2: print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n-1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(15):\n        print i\n        continue;\n 
+def suda(n):\n    for i in range(15):\n        print i\n        continue;\n 
+def suda(n):\n    for i in range(15):\n        print i\n        continue;\n 
+def suda(n):\n    for i in range(15):\n        print i\n        continue;\n 
+def suda(n):\n    for i in range(15):\n        print i\n        continue;\n 
+def suda(n):\n    for i in range(n):\n        print i\n        continue;\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 != 1:\n         print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n        else:\n            pass\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 ==0:    \n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:    \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2==0:\n            print (i)\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2==0:\n            print (i)\n 
+def suda(n):\n    for i in range(n):\n        if i %2==0:\n            \n        print(i)\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2==0:\n            \n        print(i)\n 
+def suda(n):\n    for i in range(n):\n        print n*2\n 
+def suda(n):\n    f=0\n    print(f)\n    for i in range(n-(n/2)):\n        f=f+1\n        print f*2\n 
+def suda(n):\n    f=0\n    print(f)\n    for i in range(n):\n    if i%2==0: \n        f=f+1\n    print f\n            \n 
+def suda(n):\n    if n%2==0:\n        for i in range(n/2):\n            print i*2\n        print((i*2)+2)\n    if n%2==1:\n        for i in range((n-1)/2):\n            print i*2\n        print((i*2)+2)\n        \n            \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n       \n            \n          \n 
+def suda(n):\n    for i in range(n+2):\n        if i%2==0:\n        \n            \n            print i\n       \n            \n          \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n            \n        \n            \n            \n       \n            \n          \n 
+def suda(n):\n    for i in range(3):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(7):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(11):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(9):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(5):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        \n        print i\n 
+def suda(n):\n    for i in range(n+2):\n        if i % 2:\n            \n        print i-1\n        \n 
+def suda(n):\n    for i in range(n+2):\n        if i % 2:\n            print i-1\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n       print i \n 
+def suda(n):\n    i = 0\n    while i <= n:\n        print i\n        i = i + 2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(0):\n    for i in range(n):\n        print i\n 
+def suda(0):\n    for i in range(0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(0):\n        print i\n 
+def suda(n):\n    for i in range(0):\n        print i sudo\n 
+def suda(n):\n    for i in range(0):\n        print sudo\n 
+def suda(n):\n    for i in range(0):\n        print i sudo\n 
+def suda(n):\n    for i in range(0):\n        print i\n        sudo\n 
+def suda(n):\n    for i in range(0):\n        print i\n        sudo\n 
+def suda(n):\n    for i in range(0):\n        print i\n        sudo\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0 print \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0 print i \n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2=0:  print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2=0:  print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2=0:  print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n+1):\n      if i%2== 0:print i\n   \n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0: print i\n 
+def suda(n):\n    for i in range(2*6,5):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n                if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0): \n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0): \n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0): \n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range n*2(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2) == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n-1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0, n, 2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    \n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n-1):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,(n+1)/2):\n        print 2*i\n 
+def suda(n):\n    sucet=0\n    for i in range(1,n+1):\n        if i%2==0:\n            sucet=sucet+i\n        print sucet\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n    print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n    print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n-1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+ 1):\n        if not i % 2:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if (i % 2) == 0:\n            print (i) 
+def suda(n):\n    for i in range(n):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0 :\n        print i\n 
+def suda(n):\n    for i in range(n-1):\n        print 2*i\n 
+def suda(n):\n    for i in range((n/2)+1):\n        print i*2\n 
+def suda(n):\n    for i in range((n/2)):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2==0):\n            print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n    if n % 2 == 0:\n        print n\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\nprint i\n 
+def suda(n):\n    for i in range(n):\n        i // 2 == 0\n        print i\n 
+def suda(n):\n    for i in range(n):\n        i // 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n    print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n    print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n    print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n    print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n    print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i \n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i \n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            \n        print i\n 
+def suda(n):\n    for i in range(n+2):\n        if i % 2 == 0:\n            \n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            \n        print i\n 
+def suda(n):\n    for i in range((n+2)//2):\n        print i*2\n\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0 :\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            \n        print i\n    print n\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            \n        print i\n    \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2!=1:\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n   print 2*i 
+def suda(n):\n    for i in range((n+1)/2):\n   print 2*i 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n-1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    i=0\n    for i in range(n+1):\n        if i%2==0:\n        print i\n        i+=1\n 
+def suda(n):\n    for i in range(n):\n        print i+2\n 
+def suda(n):\n    for i in range(n):\n        print (i*2)\n\nsuda(6) 
+def suda(n):\n    for i in range(n):\n        print (i*2)\n\nsuda(7)\n 
+def suda(n):\n    for i in range(n):\n        print (i*2)\n\nsuda(7)\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        print i*2\nsuda(3) 
+def suda(n):\n    for i in range(n):\n        print i*2\nsuda(3) 
+def suda(n):\n    for i in range(n):\n        print i*2\nsuda(3) 
+def suda(n):\n    for i in range(n):\n        print i*2\nsuda(7) 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i%2==0 or i==0:\n            \n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    i = 0\n    while i <= n:\n        print i\n        i = i +2\n       \n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range( n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:        \n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:        \n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range (0,n+1):\n    if (i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n    if (i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2)==0:\n        print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2) == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n     \n\n        \n 
+def suda(n):\n    for i in range(n+1):\n    if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i)%2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0, n/2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(0,n/2):\n        print 2*i\n 
+def suda(n):\n    for i in range(n-1):\n        print 2*i \n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0, n+1,2):\n        print i\n 
+def suda(n):\n    for i in range((n/2)+1):\n        print 2 * i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n       print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\nprint i\n\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2) == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2) == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 ==0:\n       print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i \n 
+def suda(n):    \n    for i in range(n+2):\n        if i%2 ==0:\n        print i\n 
+def suda(n):    \n    for i in range(n+1):\n        if i%2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(0,n, 2):\n    print i\n    print\n 
+def suda(n):\n    for i in range(0,n + 1, 2):\n    print i\n    print\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n,2):\n        print i\n 
+def suda(n):\n    for i in range(n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0, n, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n-1):\n        print i*2\n 
+def suda(n):\n    for i in range(n):\n        if (i%2==0): print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0): print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    if n%2==0:\n        for i in range((n/2)+1):\n        print i*2\n    else:\n        for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)//2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+3)//2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+2)//2):\n        print i*2\n 
+def suda(n):\n    for i in range(0,n+1,+2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if not i%2:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (2 * i) <= n:\n            print 2 * i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n    print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2==0:\n            print i\n            \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n + 1):\n        if (i + 1) % 2 == 1:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n        \n        \n 
+def suda(n):\n    number = 0\n    for i in range(n):\n        print number\n        number = number+2\n        if number == n+2:\n            break\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n       if i%2 == 0:\nprint i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2== 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n    \n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        i%2\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(1,n+1):\n        if i%2 == 0:\n        print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n       print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2==0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0: print i\n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n       \n 
+def suda(n):\n    for i in range(n + 1):\n        if (i % 2) == 0: \n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2)==0: \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n//2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in [j for j in range(0,n + 1,2)]:\n        print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if (i%2 == 0): print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n        else:\n            pass 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i \n 
+def suda(n):\n    for i in range(0, n + 1, 2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n   print i \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0 :\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\nprint i\n 
+def suda(n):\n    for i in range(0,n,2): \n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:    \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i*2 <= n):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2) == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    i=0\n    while(i<=n):\n        print i\n        i=i+2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+2):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 == 0):\n        print i\n 
+def suda(n):\n    y=0\n    for i in range(n+1):\n    if y%2==0:\nprint y\n    y=y+1\n 
+def suda(n):\n    for i in range(n+1):\n        if i %  2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            \n        print i     \n            \n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n            print i\n        else:\n            continue\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i %2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i %2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(0, n+1):\n        if i%2 == 0:\n            print i 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i%2==0:  \n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range((n+1)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        i = i*2\n        print i\n        if i == 6:\n            break\n 
+def suda(n):\n    for i in range(n):\n        i = i*2\n        print i\n        if i == n:\n            break\n 
+def suda(n):\n    for i in range(n):\n        i = i*2\n        print i\n        if i > n-2:\n            break\n 
+def suda(n):\n    for i in range(0,n,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+2,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n        else:\n            print ""\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0 :\n        print i\n 
+def suda(n):\n    for i in range(n+2):\n        if i%2 == 0 :\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0 :\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0 :\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range((n/2)+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(1,n+2,2):\n        print i-1\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n    print n\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i % 2 ==0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if(i%2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i%2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0 :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0 :\n            print i\n 
+def suda(n):\n    for i in range(0,n+2,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n        \n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2 ==0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 ==0):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n       \n    \n\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n       \n    \n\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n        elif n % 2 == 0:\n            print n\n       \n    \n\n 
+def suda(n):\n    for i in range(n+ 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if(i %2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if(i %2 == 0):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:print i\n   \n 
+def suda(n):\n    for i in range(n):\n        print i+2\n       \n 
+def suda(n):\n    for i in range(n):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0 : print i\n\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        print i/n\n 
+def suda(n):\n    for i in range(n+2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        print i/2\n 
+def suda(n):\n    for i in range(n+1):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if n % 2 ==0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if n % 2 == 0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if n % 2 == 0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if n % 1 = 0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if n / 2 = 0\n        print i\n 
+for i in range(n+1):
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i%2 == 0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\nif i%2 == 0\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 ==0 : print i 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0: print i\n    \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0 :print i\n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(0, n+1):\nif n % 2 == 0        \nprint i\n 
+def suda(n):\n    for i in range(0, n+1):       \nprint i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0 :print i\n        \n       \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n):\n           if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n           if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n    if n % 2 == 0:   \n    print i\n 
+def suda(n):\n    for i in range(0, n+1):\n    if i % 2 == 0:   \n    print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 = 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 = 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n    if i % 2 == 0: print i\n 
+def suda(n):\n    for i in range(0,n):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 ==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n2468 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2 
+def suda(n):\n    for i in range((1+n)/2):\n        print i*2 
+def suda(n):\n    for i in range((1+n)/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+3):\n        print i\n 
+def suda(n):\n    for i in range(n/2+2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(1+n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(0,n+1):\n        if (i % 2 == 0): print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i % 2 == 0:\n        print i\n\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2 \n        \n 
+def suda(n):\n    for i in range(n/2):\n        print i*2 \n        \n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2 \n        \n 
+def suda(n):\n    for i in range(n/2):\n        print i*2 \n        \n 
+def suda(n):\n    for i in range(1+n/2):\n        print i*2 \n        \n 
+def suda(n):\n    for i in range((1+n)/2):\n        print i*2 \n        \n 
+def suda(n):\n    for i in range(n+1):\n      if i%2 == 0:  print i\n 
+def suda(n):\n    for i in range(1,n):\n        if i%2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i%2 ==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0: print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n      if i%2 ==0:  print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i // 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 = 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if (i%2)==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2)==0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i*2\n 
+def suda(n):\n    for i in range(n/2):\n        print i*2\n 
+def suda(n):\n    for i in range(0, n//2+1):\n        print i*2\n 
+def suda(n):\n    for i in range(n + 1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):(0-n)\n        print i\n 
+def suda(n):\n    for i in range(n):n\n        print i\n 
+def suda(n):\n    for i in range(n):(0,2,4,6,8,10,12,14)\n        print i\n 
+def suda(n):\n    for i in range(n):(0,2,4,6,8,10,12,14)\n        print i\n 
+def suda(n):\n    for i in range(n+2):\n        print i\n 
+def suda(n):\n    for i in range(0,n):\n        print i+2\n 
+def suda(n):\n    for i in range(n*2):\n        print i\n 
+def suda(n):\n    for i+2 in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print 0,2,4,6,8\n 
+def suda(n):\n    for i in range(n):\n        print i(0,2,4,6,8)\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i-1\n 
+def suda(n+2):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(0,n):\n        if i=1,3,5,7,9\n         then print ""\n            else print i \n        \n 
+def suda(n):\n    for i in range(n,n+2):\n        print i\n 
+def suda(n):\n    for i in range(0,n):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i\n 
+def suda(n):\n    for n in range(0,n+1):\n        print n\n 
+def suda(n):\n    for i in range(0,n+1):\n        if 1/2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(0,n+1):\n        if i/2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i n+1\n 
+def suda(n):\n    for i in range(n):\n        print i n-1\n 
+def suda(n):\n    for i in range(n):\n        print i (n-1)\n 
+def suda(n):\n    for i in range(n):\n        print i = n+1\n 
+def suda(n):\n    for i in range(n):\n        print i == n+1\n 
+def suda(n):\n    for i in range(n):\n        print i = i//2\n 
+def suda(n):\n    for i in range(n):\n        print i 2n\n 
+def suda(n):\n    for i in range(n):\n        print i = 2n\n 
+def suda(n):\n    for i in range(n):\n        print i 2\n 
+def suda(n):\n    for i in range(n):\n        print i+1\n 
+def suda(n):\n    for i in range(n):\n        print i+2\n 
+def suda(n):\n    for i in range(n):\n        print i-2\n 
+def suda(n):\n    for i in range(0,n):\n        print i-1\n 
+def suda(n):\n    for i in range(0,n):\n        print i = 2\n 
+def suda(n):\n    for i in range(0,n):\n        print i=2\n 
+def suda(n):\n    for i in range(0,n):\n        print i == 2\n 
+def suda(n):\n    for i in range(-1,n):\n        print i\n 
+def suda(n):\n    for i in range(-1,n):\n        print i+1\n 
+def suda(n):\n    for i in range(-1,n):\n        print i+2\n 
+def suda(n):\n    for i in range(-2,n):\n        print i+2\n 
+def suda(n):\n    for i in range(-2,n):\n        print i+1\n 
+def suda(n):\n    for i in range(-1,n):\n        print i+1\n 
+def suda(n):\n    for i in range(n+1):\n        print i\n 
+def suda(2n):\n    for i in range(n+1):\n        print i\n 
+def suda(n):\n    for i in range(n+1):\n        print i % n == 0\n 
+def suda(n):\n    for i in range(n+1):\n        print i % n+1 == 0\n 
+def suda(n):\n    for i in range(n+1):\n        print i % n\n 
+def suda(n):\n    for i in range(n+i):\n        print i % n\n 
+def suda(n):\n    for i in range(n):\n        print i % 2 == 0\n 
+def suda(n):\n    for i in range(0,n):\n        print i % 2 == 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i % 2 == 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i % 2\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i \n 
+def suda(n):\n    for i in range(0,n+1):\n        print i // 2 == 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i / 2 == 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i / 2 \n 
+def suda(n):\n    for i in range(0,n+1):\n        print i // 2 \n 
+def suda(n):\n    for i in range(0,n+1):\n        print i // 2 = 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i // 2 == 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i/2\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i/2=0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i/2 = 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i / 2 = 0\n 
+def suda(n):\n    for i in range(0,n+1):\n        print i / 2 == 0\n 
+def suda(n):\n    for i in range(n):\n        print i*2=12\n 
+def suda(n):\n    for i in range(n):\n        print i*2 <13\n 
+def suda(n):\n    for i in range(n):\n        print i*2 <12\n 
+def suda(n):\n    for i in range(n):\n        print i*2 <12\n 
+def suda(n):\n    for i in range(n):\n        print i*2 < 15\n 
+def suda(n):\n    for i in range(n):\n        print (i*2)\n 
+def suda(n):\n    for i in range(n +1):\n     if i%2 == 0:\n       print i\n        \n        \n 
+def suda(n):\n    for i in range(n+1):\nif i % 2 == 0:\nprint i\n 
+def suda(n):\n    for i in range(n//2+1):\n        print 2*i\n 
+def suda(n):\n    for i in range(n+1):\n        if not i%2: print i \n 
+def suda(n):\n    v=0\n    for i in range(n/2):\n        print 2*v  \n        v+=1\n 
+def suda(n):\n    v=0\n    for i in range(n/2+1):\n        print 2*v  \n        v+=1\n 
+def suda(n):\n    v=0\n    if n%v==0:\n    for i in range(n/2+1):\n        print 2*v  \n        v+=1\n    else:\n        for i in range(n/2):\n        print 2*v  \n        v+=1\n 
+def suda(n):\n    v=0\n    for i in range(n):\n        print i+v\n        v+=1\n 
+def suda(n):\n    v=0\n    for i in range(n/2):\n        print i+v\n        v+=1\n 
+def suda(n):\n    v=0\n    for i in range(n):\n        print i+v\n        v+=1\n        if n<i+v:\n            break\n 
+def suda(n):\n    i=0\n    for f in range(n/2):\n        print i\n        i+=2\n 
+def suda(n):\n    i=0\n    n+=1\n    for g in range (n/2):\n        print i\n        i+=2\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    \n    for i in range(n):\n        print "0"\n        \n         \n 
+def suda(n):\n    \n    for i in range(n):\n        print "0"\n        \n         \n 
+def suda(n):\n    a=0\n    for i in range(n/2):\n        print (a)\n        a+=2\n       \n        \n        \n         \n 
+def suda(n):\n    a=0\n    for i in range(n/2):\n        print ("0")\n        a+=2\n        print (a)\n       \n        \n        \n         \n 
+def suda(n):\n    a=0\n    print ("0")\n    for i in range(n/2):\n        \n        a+=2\n        print (a)\n       \n        \n        \n         \n 
+def suda(n):\n    a=0\n    print ("0")\n    for i in range(n/2):\n        \n        a+=2\n        print (a)\n       \n        \n        \n         \n 
+def suda(n):\n    a=0\n    \n    for i in range(n/2):\n        print (a)\n        a+=2\n        \n       \n        \n        \n         \n 
+def suda(n):\n    a=0\n    \n    for i in range(n/2):\n        print (a)\n        a+=2\n    print(a)\n        \n       \n        \n        \n         \n 
+def suda(n):\n    a=0\n    \n    for i in range(n/2):\n        print (a)\n        a+=2\n    \n        \n       \n        \n        \n         \n 
+def suda(n):\n    a=0\n    \n    for i in range(n/2):\n        print (a)\n        a+=2\n    print(a)\n        \n       \n        \n        \n         \n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n            print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0,n+1,2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+2, 2):\n        print i\n 
+def suda(n):\n    for i in range(0, n+1, 2):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):0\n               print i\n 
+def suda(n):\n    for i in range(n):0 to n\n                       print i\n 
+def suda(n):\n    for i in range(n):0 to n\n                       print i\n 
+def suda(n):\n    for i in range(n):0 to n\n                       print i\n 
+def suda(n):\n    for i in range(n):0 to n\n                       print i\n 
+def suda(n):\n    for i in range(n+1):\n        if (i%2 == 0) :\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i % 2 == 0:\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print i\n 
+def suda(n):\n    for i in range(i):\n        print i\n 
+def suda(n):\n    for i in range(i):\n        print i\n 
+def suda(n):\n    for i in range(i):\n        print i\n 
+def suda(n):\n    for n in range(i):\n        print i\n 
+def suda(n):\n    for n in range(i):\n        print i\n 
+def suda(n):\n    for i in range(n):\n        print \n 
+def suda(n):\n    for i in range(n):\n        print n\n 
+def suda(n):\n    for n in range(n):\n        print n\n        \n 
+def suda(n):\n    for n in range(n):\n        print i\n        \n        \n 
+def suda(n):\n    for i in range(n):\n        if(i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n + 1):\n        if(i % 2 == 0):\n            print i\n 
+def suda(n):\n    for i in range(n):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n+1):\n        if i%2==0:\n            print i\n 
+def suda(n):\n    for i in range(n):\n        i=i+1\n        print i\n        \n 
+def suda(n):\n    for i in range(n/2):\n        print i\n 
+def suda(n):\n    for i in range(n+2):\n        print i\n 
+def suda(n):\n    for i in range(n+2):\n        print n\n 

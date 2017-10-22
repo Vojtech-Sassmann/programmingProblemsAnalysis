@@ -1,0 +1,1276 @@
+
+def soucet(n):
+def soucet(n):
+def soucet(n):
+def soucet(n):
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n * (n+1) / 2\n 
+def soucet(n):\n    soucet = 0\n    for i in range(0,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum = sum + i\n    return sum 
+def soucet(n):\n    return 0 if n== 0 else n+ soucet(n-1)\n 
+def soucet(n):\n   if n>0: return n + soucet(n-1)\n   else: return 0 \n 
+def soucet(n):\n    s = 0\n    for i in range(1, n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    for i in range(1, n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    for i in range (n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    y=0\n    for i in range(n+1):\n        y=y+i\n    return y\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    return (n*(n+1))/2\n 
+def soucet(n):\n    res = 0\n    for i in range(n+1):\n    res += i  \n    return res\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    return sum (range(1,n+1))\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n    s += i\n    return s\n 
+def soucet(n):\n    return (n + 1) * n/2\n 
+def soucet(n):\n    return (n*n+n)/2\n 
+def soucet(n):\n    x = 0\n    for i in range(0, n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    soucet = 0\n    for i in range(0, n +1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for i in range (n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    if n < 1:\n        return 0\n    return n + soucet(n-1)\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    if n == 1: return 1\n    return n\n 
+def soucet(n):\n    if n == 1: return 1\n    return n\n 
+def soucet(n):\n    if n == 1: return 1\n    else: sou = n + soucet(n-1)\n    return sou\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x=x+i\n    return x\n 
+def soucet(n):\n x=0  \n for i in range (n+1):\n        x = x+i\n print x\n \n 
+def soucet(n):\n x=0  \n for i in range (n+1):\n        x = x+i\n return x\n \n 
+def soucet(n):\n    if n < 0: return 0\n    else: return n + sucet (n-1)\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet = sucet + i\nreturn i\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum = sum + i\n    return sum\n 
+def soucet(n):\n    sum = 0;\n    for i in range(n):\n        sum += i + 1;\n    return sum\n 
+def soucet(n):\n    total=0\n    for i in range (n+1):\n        if n>=i:\n            total +=i\n        else:\n            total=total\n    return total\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    return n*(n+1)//2\n 
+def soucet(n):\n    if n != 0:\n        return n + soucet(n-1)\n    else :\n        return n\n 
+def soucet(n):\n    r = 0\n    for i in range(0, n+1):\n        r += i\n    return r\n 
+def soucet(n):\n    p=0\n    for i in range(0,n+1):\n        p =p+i\n    return p\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    return n + soucet(n-1)\n 
+def soucet(n):\n    count = 0\n    for i in range(n+1):\n        count+=i\n    return count\n 
+def soucet(n):\n    cislo = 0\n    for i in range(n+1):\n        cislo += i\n    return cislo\n 
+def soucet(n):\n    if n==0:\n         return n\n    else:\n        return n+soucet(n-1)\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    \n    return s\n 
+def soucet(n):\n    if n==1: \n       return 1\n    return n + soucet(n-1)\n 
+def soucet(n):\n    for i in range(1,n):\n        n += i\n    return n\n 
+\ndef soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return (n+1)*n/2\n 
+def soucet(n):\n    return ((1+n)*n)/2\n 
+def soucet(n):\n    if n==1:\n        return 1;\n    return n+soucet(n-1)\n 
+def soucet(n):\n    for i in range(1,n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    for i in range(1,n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    sou = 0\n    for i in range(1,n+1):\n        sou += i\n    return sou\n 
+def soucet(n):\nsucet = 0\nfor i in range(1, n+1):\n    sucet += i\nreturn sucet 
+def soucet(n):\n    return 1/2*n*(n-1)\n 
+def soucet(n):\n    return 1//2*n*(n-1)\n 
+def soucet(n):\n    return n*(n-1)/2\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    sub = 0\n    for i in range(1,n):\n        sub += i\n    return n\n 
+def soucet(n):\n    sub = 0\n    for i in range(1,n+1):\n        sub += i\n    return sub\n 
+def soucet(n):\n    f=0\n    for i in range(1,n+1):\n        f=f+i\n    return f\n 
+def soucet(n):\n    return n*(n+1) /2\n 
+def soucet(n):\n    return 0 if n == 0 else n+soucet(n-1)\n 
+def soucet(n):\n  if n>0:\n    return n+soucet(n-1)\n  else:\n    return 0\n 
+def soucet(n):\n    return sum(range(1, n+1))\n 
+def soucet(n):\n    for i in range(1, n):\n        n += i\n    return n\n 
+def soucet(n):\n    if n==1:\n        return 1\n    return n+soucet(n-1)\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    return sum(range(1, n+1))\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n       soucet = soucet + i \n    return soucet\n 
+def soucet(n):\n    s = n\n    for i in range(n):\n        s = s + i\n    return s\n 
+def soucet(n):\n    if (n==0):\n        return 0\n    return n + soucet(n-1)\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1) :\n      sum = sum + i\n    return sum 
+def soucet(n):\n    v = 0\n    for i in range(0,n+1):\n        v = v + i\n    return v\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for i in range:\n        n += n\n        n+1\n        return n\n 
+def soucet(n):\n    for i in range:\n        n += n\n        n += 1\n        return n\n 
+def soucet(n):\n    for i in range:\n        n = n*2\n        n = n+1\n        return n\n 
+n=0\na=n\ndef soucet(n):\n    for i in range:\n        a = a*2\n        a = a+1\n        return a\n 
+def soucet(n):\n    sum = 0\n    for i in range(n + 1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    var = 0\n    for i in range(n+1):\n        var+=i\n    return var\n 
+def soucet(n):\n    return (n*(n+1))/2\n 
+def soucet(n):\n    for i in range(1,n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    else:\n        return n + soucet(n-1)\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n    soucet+=i\n    return soucet\n 
+def soucet(n):\n    i = 0\n    for j in range(n+1):\n        i+= j\n        \n    return i\n 
+def soucet(n):\n    so = 0\n    q = 0\n    for i in range(n):\n        q = q+1\n        so = so+q\n    return so\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1): soucet+=i;\n    return soucet\n 
+def soucet(n):\n    soucet=0\n    for i in range (n+1):\n    soucet+=i\n    return soucet\n 
+def soucet(n):\n    if n==0:\n        return 0\n    else:\n        return n+soucet(n-1)\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    if n <= 0:\n        return 0\n    else:\n        return n + soucet(n-1)\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    return soucet(n-1)+n\n 
+def soucet(n):\n    if(n>1):\n        return n + soucet(n-1)\n    else:\n        return n\n 
+def soucet(n):\n    s=0\n    for i in range(1, n+1):\n        s = s+i\n    return s\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum (range (n+1))\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    sou=0\n    for i in range (1,n+1):\n        sou=sou+i\n    return sou\n 
+def soucet(n):\n    if n>1:\n        return n+soucet(n-1)\n    else:\n        return 1\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    a = 0\n    for i in range(1,n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    x = 0\n    for i in range(1, n+1):\n        x = x + i\n    return x\n 
+def soucet(n):\n    j = 0\n    for i in range(n + 1):\n        j += i\n    \n    return j\n 
+def soucet(n):    \n    s=0;\n    for i in range(1,n+1):\n       s+=i; \n    return s; 
+def soucet(n):\n    for i in range(1,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    a=0\n    for i in range(1, n+1): a+=i\n    return a\n 
+def soucet(n):\n    return ((1+n)*n)/2\n 
+def soucet(n):\n    n=sum(range(n+1))\n    return n\n 
+def soucet(n):\n    scitani = 0\n    i = 1\n    while i <= n:\n        scitani = scitani + i\n        i = i + 1\n    return scitani\n 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    souceta = 0\n    for i in range(n+1):\n        souceta+=i\n    return souceta\n 
+def soucet(n):\n    for i in range(1,n): n+=i\n    \n    return n\n 
+def soucet(n):\n    a=0\n    b=1\n    while b<=n:\n          a+=b\n          b+=1\n    return a\n\n 
+def soucet(n):\n    for i in range (n):\n        n+=i\n    return n\n 
+def soucet(n):\n    a = 0\n    for i in range (1,n+1):\n        a = a + i\n    return a\n 
+def soucet(n):\n    a=0\n    for i in range (n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    a = 0\n    for i in range(1,n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    r = 0\n    for i in range(1,n+1):\n        r+=i\n    return r\n 
+def soucet(n):\n    sucet=0\n    for i in range(n+1):\n        sucet+=i\n    \n    return sucet\n 
+def soucet(n):\n    sucet=0\n    for a in range(1, n+1):\n        sucet += a\n    return (sucet) 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    secteno = 0\n    for i in range(n+1):\n        secteno += i\n    return secteno\n 
+def soucet(n):\n    x = 0\n    for i in range(n):\n        x += i+1 \n    return x\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x +=i\n    return x\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(0, n +1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    m = 0\n    for i in range(n+1):\n        m += i\n    return m\n 
+def soucet(n):\n    pom=0\n    for i in range(1,n+1):\n        pom=pom+i\n    return pom\n 
+def soucet(n):\n    s = 0\n    for i in range (1,n):\n        while n>0:\n            s=s+n\n            n=n-1\n    return s\n 
+def soucet(n):\n    x=0\n    for i in range (1,n+1):\n        x=x+i\n    return x\n 
+def soucet(n):\n    sou=0\n    for i in range(n):\n      sou+=(i+1)  \n    return sou\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x=x+i\n    return x\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    y=0\n    for i in range(0,n+1):\n        y+=i\n    return y\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    vysledek = 0\n    for i in range(1,n+1):\n        vysledek = vysledek + i\n    return vysledek\n       \n   \n 
+def soucet(n):\n    sum = 0\n    for i in range(1, n+1):\n        sum += i\n\n    return sum\n 
+def soucet(n):\n    mezisoucet=0\n    for i in range (1,n+1):\n        mezisoucet=mezisoucet+i\n    return mezisoucet\n 
+def soucet(n):\n    if n==1:\n        return 1\n    else: return n+soucet(n-1) 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    b=0\n    for i in range (1,n+1):\n        b+=i\n    return b\n 
+def soucet(n):\n    m=0\n    for i in range (1,n+1):\n        m=m+i\n    return m\n    \n 
+def soucet(n):\n    for i in range(1,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    for i in range(1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    for i in range(n):\n        n += i\n    return n\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x = x + i       \n    return x 
+def soucet(n):\n    a=0\n    for i in range (1, n+1):\n        a = a + i\n    return a\n 
+def soucet(n):\n    for i in range (1,n+1):\n        n=n+(i-1)\n    return n\n 
+def soucet(n):\n    m=n\n    for I in range (1,m):\n        m+=I\n    return m\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    a=0\n    for i in range(n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    x=0\n    for i in range(n):\n        x+=(i+1)\n    \n    return x\n 
+def soucet(n):\n    for i in range(1,n+1):\n        n=(n-1)+i\n    return n\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    s=0\n    for i in range (1, n+1,1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    for i in range(1,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x=x+i\n    return x\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    s=0\n    for i in range (1, n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    x=(n*(1+n))/2\n    return x\n 
+def soucet(n):\n    p=0\n    for i in range(1, n+1):\n        p+=i\n    return p\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n        \n \n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    sou=0\n    for i in range(0,n+1):\n        sou+=i\n    return sou\n 
+def soucet(n):\n    for i in range(n):\n        n +=i\n    return n\n 
+def soucet(n):\n    s = 0\n    i = 1\n    while i <= n:\n        s += i\n        i += 1\n    return s 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    return n*(n-1)\n 
+def soucet(n):\n    return (n+1)*(n/2)\n 
+def soucet(n):\n    sucet =0\n    for i in range (1, n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    m=0\n    for i in range(1,n+1):\n        m=m+i\n    return m\n 
+def soucet(n):\n    citac = 0\n    for i in range(1, n+1):\n        citac += i\n    return citac\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n        a = a+i\n    return a\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    else:\n        return n + soucet (n-1)\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x=x+i\n    return x\n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    if n == 1: return 1\n    else: return n + soucet(n-1)\n 
+def soucet(n):\n    return (1/2)*(n*(n+1))\n 
+def soucet(n):\n    for i in range(n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    vysl = 0\n    for i in range(1, n+1):\n        vysl += i\n    return vysl\n 
+def soucet(n):\n    res = 0\n    for x in range(1, n+1):\n        res += x\n    return res 
+def soucet(n):\n    for i in range (n):\n        n = n+i\n    return n\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    souc = 0\n    for i in range(1,n+1):\n        souc = souc + i\n    return souc 
+def soucet(n):\n    x=0\n    for i in range (1,n+1):\n        x=x+i\n    return x\n 
+def soucet(n):\n    f = 0\n    for i in range(1, n+1):\n        \n        f += i\n    return f\n            \n  \n 
+def soucet(n):\n    a = 0\n    for i in range(n+1):\n        a = a + i\n    return a 
+def soucet(n):\n    a = 0\n    for i in range (n+1):\n        a+=i\n    return (a) 
+def soucet(n):\n    i = 0\n    pom = 0\n    while i-1 < n:\n        pom = pom + i\n        i = i + 1\n    return pom\n 
+def soucet(n):\n    for i in range(1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    if n==1:return 1\n    else: return n+soucet(n-1)\n 
+def soucet(n):\n    if (n==1): return 1\n    return (soucet(n-1)+n)\n 
+def soucet(n):\n    soucet = 0\n    cislo = 0\n    for i in range(1, n+1):\n        cislo += 1\n        soucet += cislo\n    return soucet 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    sucet=1\n    for i in range(1,n):\n        k=i+1\n        sucet=sucet+k\n    return sucet\n 
+def soucet(n):\n    m=0\n    for i in range(1,n+1):\n        m+=i\n    return m\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s\n\n 
+def soucet(n):\n       x=0\n       for i in range(n+1):\n           x=x+i\n       return x\n   \n 
+def soucet(n):\n    pom = 0\n    for i in range(1,n+1):\n        pom += i\n    return pom\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n    soucet+=i\n    return soucet\n 
+def soucet(n):    \n    return ((n)*(n+1))/2\n 
+def soucet(n):\n    k=0\n    for i in range(n+1):\n       k=k+i \n    return k\n 
+def soucet(n):\n    for i in range (1,n):\n        n = n + i \n    return n\n 
+def soucet(n):\n    if n!=0:\n        return n+soucet(n-1)\n    else:\n        return 0\n 
+def soucet(n):\n    if n==1:\n        return 1\n    else:\n        return n +soucet(n-1)\n 
+def soucet(n):\n    x=0\n    for i in range (1,n+1):\n        x = x + i\n    return x\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n):\n        a = i +a\n    return n\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n):\n        a = i + a\n    return a\n 
+def soucet(n):\n    a = 1\n    for i in range(1, n + 1):\n        a = i + a\n    return a\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n):\n        a = i + a\n    return a\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n):\n        a = i + a\n    return a\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n):\n        a = i + a\n    return a\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n):\n        a = i + a\n    return a\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n + 1):\n        a = i + a\n    return a\n 
+def soucet(n):\n    l = [i for i in range(n+1)]\n    return sum(l)\n 
+def soucet(n):\n    s = 0\n    for i in range (1,n+1):\n        s = s + i\n    return s\n 
+def soucet(n):\n    if n = 1:\n    return n\nelse:\n    return (n +soucet (n-1 
+def soucet(n):\n    if n = 1:\n    return n\nelse:\n    return (n +soucet (n-1 
+def soucet(n):\n    if n = 1:\n    return n\nelse:\n    return (n +soucet(n-1)) 
+def soucet(n):\n    a = 0\n    m = n\n    for i in range(m):\n        a = a + n\n        n = n - 1\n    print (a) 
+def soucet(n):\n    a = 0\n    m = n\n    for i in range(m):\n        a = a + n\n        n = n - 1\n    return a 
+def soucet(n):\n    nanuk = 0\n    for i in range(n+1):\n        nanuk += i\n    return nanuk\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    a=0\n    for i in range(1,n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    return n*(n+1)*0.5\n 
+def soucet(n):\n    \n    \n    for i in range (1 , n - 1)\n    \n    return 
+def soucet(n):\n    y = 0\n    for i in range (1 , n + 1):\n     y = y + i\n    return y 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s = s + i\n    return s\n 
+def soucet(n):\n    f = 0\n    for i in range (1,n+1):\n        f+= i\n    return f 
+def soucet(n):\n    s = 0\n    for i in range (1, n+1):\n        s = s+i\n    \n    return s\n 
+def soucet(n):\n    k = 0;\n    for i in range (1, n + 1):\n    k += i\n    return k\n 
+def soucet(n):\n    return (n+1)*n/2\n 
+def soucet(n):\n    for i in range(1,n):\n        n =n  + i\n    return n\n 
+def soucet(n):\n    return n*(n+1)/2 
+def soucet(n):\n    for i in range(n): n += i\n    return n\n 
+def soucet(n):\n    for i in range(1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    x=0\n    for i in range(1, n+1):\n        x=x+i\n    return(x)\n 
+def soucet(n):\n    soucet = 0\n    for i in range (n+1):\n       soucet += i\n    return soucet\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    souc = int(0)\n    for i in range(1,n):\n        souc = i+souc\n    return souc+n\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s = s + i\n    return s\n 
+def soucet(n):\n    x = 1\n    while n > 1:\n        x = x + n\n        n = n - 1\n    return x\n 
+def soucet(n):\n    vysledek = 0\n    for i in range(n+1):\n        vysledek = vysledek + i\n    return vysledek\n 
+def soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n\n        n = n - 1\n    return s\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet=soucet+i\n        \n    return soucet\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1, n+1):\n        sucet += i\n    return sucet 
+def soucet(n):\n    soucet=0\n    for i in range (n+1):\n        soucet+=i\n        \n    return soucet\n 
+def soucet(n):\n    if n <=1:\n        return 1\n    else:\n        return n+soucet(n-1)\n 
+def soucet(n):\n    cislo = 0\n    for i in range(1,n+1):\n        cislo = cislo+i\n    return cislo\n 
+def soucet(n):\n    suc=0\n    for i in range(n1):\n        suc+=i\n    return suc\n 
+def soucet(n):\n    suc=0\n    for i in range(n+1):\n        suc+=i\n    return suc\n 
+def soucet(n):\n    count = 0\n    for i in range (1, n+1):\n        count += i\n    return count\n 
+def soucet(n):\n    if n==0:\n        return 0\n    else:\n        return n + soucet(n-1)\n    \n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    x=0\n    for i in range(1, n+1):\n        x=x+i\n        \n    return x\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    return n+soucet(n-1)\n 
+def soucet(n):\n    soucet=0\n    for i in range (1,n+1):\n        soucet=soucet+i\n    return soucet\n 
+def soucet(n):\n    return sum (range (n+1))\n 
+def soucet(n):\n    soucet = 0\n    for i in range (n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    suma = 0\n    for i in range(n+1):\n        suma += i\n    return suma \n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n+1):\n        a = a + i\n    return a\n 
+def soucet(n):\n    x=0\n    while n>0:\n        x+=n\n        n-=1\n    return x\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x = x + i\n    return x\n 
+def soucet(n):\n    a = sum (range (1,n+1))\n    return a\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    t = 0\n    for _ in range(1,n+1):\n        t += _\n    return t 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n    \n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return (n)*(1+n)/2\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    soucet=0\n    for i in range (n+1):\n        soucet +=i\n    return soucet\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    soucet=0\n    for i in range (1,n+1):\n        soucet = soucet + i\n        \n    return soucet\n 
+def soucet(n):\n    count = 0\n    for i in range (1, n+1):\n        count += i\n    return count\n 
+def soucet(n):\n    total = 0\n    for i in range(1, n+1):\n        total += i\n    return total\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet = soucet + i\n    \n    return soucet\n 
+def soucet(n):\n    m = 0\n    for i in range(n+1):\n        m += i\n    return m\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet = soucet + (i+1)  \n    return soucet 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    count = 0\n    for i in range(n+1):\n        count = count + i\n    \n    return count\n 
+def soucet(n):\n    m = 0\n    for i in range(1,n+1):\n        m += i\n    return m\n 
+def soucet(n):\n    i = 1\n    cislo = 0\n    while i <= n:\n        cislo = cislo + i\n        i = i+1\n    return cislo\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x = x + i\n    return x\n 
+def soucet(n):\n    suc = 0\n    for i in range (n+1):\n        suc += i\n    return suc\n 
+def soucet(n):\n    for i in range(1, n):\n        n = n+i\n    return n\n 
+def soucet(n):\n    mezisoucet=0\n    for i in range(1,n+1):\n        mezisoucet+=i\n    return mezisoucet\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    soucet=0\n    for i in range(1, n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    return sum(range(1, n+1))\n 
+def soucet(n):\n    suma = 0;\n    for i in range(1,n+1):\n        suma += i;\n    return suma\n 
+def soucet(n):\n    scitac = 0\n    for i in range(0,n+1):\n        scitac = scitac + i \n    return scitac\n 
+def soucet(n):\n    vystup=0\n    for i in range(1,n+1):\n        vystup+=i\n    return vystup\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1, n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    for i in range (0,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    spolu=0\n    for i in range(n+1):\n       spolu+=i\n    return spolu 
+def soucet(n):\n    s=0\n    for i in range (1, n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    scitani = 0\n    for i in range (1,n+1):\n        scitani = scitani + i\n    return scitani 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet=0\n    for i in range(1, n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    soucet=0\n    for i in range(1, n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    if n == 0:\n        return 0\n    else:\n        x = 0\n        for i in range (1, n+1):\n            x = x + i\n    return x\n 
+def soucet(n):\n    if n==1: return 1\n    else:return n+soucet(n-1)\n 
+def soucet(n):\n    suma = 0\n    for i in range(1, n+1):\n        suma += i\n    return suma\n 
+def soucet(n):\n    a = 0\n    for i in range (1, n + 1):\n        a += i\n    return a 
+def soucet(n):\n     
+def soucet(n):\n    sucet=0\n    for i in range(n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x=x+i\n    return x\n        \n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n     s+=i\n    return s\n 
+def soucet(n):\n    a=0\n    for i in range(n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    secti = 0\n    for i in range(1, n+1):\n        secti += i\n    return secti\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += soucet\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += soucet\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += soucet\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += soucet\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    k=0\n    for i in range(1,n+1):\n        k+=i\n    return k\n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    a = 0\n    while n > 0:\n        a = a + n\n        n -= 1\n    return a 
+def soucet(n):\n    a = 0\n    for i in range(1,n+1):\n        a += i    \n    return a\n 
+def soucet(n):\n    pom = 0\n    for i in range(n+1):\n        pom+=i\n    return pom\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    vysledek = 0\n    for i in range(0,n+1):\n        vysledek += i \n    return vysledek\n 
+def soucet(n):\n    zacatek = 0\n    for i in range(n+1):\n        zacatek += i\n    return zacatek\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    a = 0\n    for x in range(1, n+1):\n        a = a + x\n    return a\n 
+def soucet(n):\n    celkem = 0\n    for i in range(n):\n        celkem += i+1\n    return celkem\n 
+def soucet(n):\n    a = 0\n    for i in range (n + 1):\n        a = a + i\n    return a\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum = sum + i\n    return sum\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+= i\n    return s\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    return n+soucet(n-1)\n 
+def soucet(n):\n    sum = 0\n    for i in range (1,n+1):\n        sum = sum + i\n    return sum\n 
+def soucet(n):\n    for i in range(1,n):\n        n += i\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x 
+def soucet(n):\n    soucet=0\n    for i in range (1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n        suma = suma + i\n    return suma\n 
+def soucet(n):\n    c = 0\n    while n>0:\n        c = c+n\n        n=n-1\n    return c\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    return s\n 
+def soucet(n,sou=0):\n    if n == 1: return sou+1\n    else: return soucet(n-1,sou+n)\n 
+def soucet(n):\n    f = 0\n    for i in range(1, n+1):\n        f = f+i\n    return f\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    cislo=0\n    for i in range(0,n+1):\n        cislo=cislo+i           \n    return cislo\n 
+def soucet(n):\n    spolu = 0\n    for i in range (1, n+1):\n        spolu = spolu + i\n    return spolu\n 
+def soucet(n):\n    sucet=0\n    for i in range(n+1):\n        sucet+=i\n    return sucet\n 
+\ndef soucet(n):\n    s=0\n    for i in range(n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet = soucet + i\n    return soucet 
+def soucet(n):\n    k = n\n    while (1 <= k <= n):\n        k -= 1\n        n = n + k\n        \n    return n\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    sucet=0\n    for i in range(n+1):\n        sucet=sucet+i\n        \n    return sucet\n 
+def soucet(n):\n    souc = 0\n    for i in range(1,n+1):\n        souc = souc + i\n    n = souc\n    return n\n 
+def soucet(n):   \n    s = 0   \n    for i in range(1,n+1):\n        s = s + i\n    \n    return s\n 
+def soucet(n):\n    scitanec=1\n    secteno=0\n    while scitanec<=n:\n        secteno+=scitanec\n        scitanec+=1\n    return secteno\n 
+def soucet(n):\n    p=n\n    n=0\n    for i in range(1,p+1):\n       n=n+i\n    return n\n 
+def soucet(n):\n    sum = 0\n    for i in range (1,n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    res = 0\n    for i in range(1,n+1):\n        res += i\n    return res\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s = s+i\n    return s\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return x 
+def soucet(n):\n    sucet = 1\n    for i in range(2,n+1):\n        sucet += i    \n    return sucet\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x=x+i\n    return x\n 
+def soucet(n):\n    p=0\n    for i in range(1,n+1):\n        p=p+i\n    return p\n 
+def soucet(n):\n    celkem = 0\n    for i in range(n+1):\n        celkem = celkem + i\n    return celkem 
+def soucet(n):\n    sum = 0\n    for i in range( 1, n+1):\n        sum += i\n    return sum 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    for i in range (n):\n        n+=i\n        \n    return n\n 
+def soucet(n):\n    x=0\n    for i in range (n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    soucet =0\n    for i in range(1,n+1):\n        soucet = soucet+ i\n    return soucet\n 
+def soucet(n):\n    for i in range (1,n):\n        return (n+1)*(n/2)\n 
+def soucet(n):\n    s=0\n    for i in range (n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    for i in range (n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    soucet = 0\n    for i in range (1, n+1):\n        soucet += i;\n    return soucet\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x = x+i\n    return x\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet = sucet + i\n        \n    return sucet\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return n*(n+1)//2\n 
+def soucet(n):\n    s = 0\n    for i in range (1, n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    suma = []\n    for i in range (n+1):\n        suma.append(i)\n    return sum(suma)\n 
+def soucet(n):\n    a = 0\n    for i in range(n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n       sucet+=i \n    return sucet\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return x 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1) :\n        sucet +=i\n    return sucet\n        \n    \n 
+def soucet(n):\n    return n*(n+1)//2 
+def soucet(n):\n    a=0\n    for i in range(1,n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    return sum(range(n+1)) 
+def soucet(n):\n    s = n * (n+1) / 2\n    return s\n 
+def soucet(n):      \n    return n*(n+1)/2\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    return ((n*(n+1))/2)\n 
+def soucet(n):\n    f=n\n    for i in range(1,n):\n        f=f+i\n    return f\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    x=0\n    \n    for i in range (0,n+1):\n        \n        x= x+i\n    return x\n     \n   \n 
+def soucet(n):\n    return (n+435)\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    s=0\n    while n>0:\n        s=s+n\n        n=n-1\n    return(s)\n        \n 
+def soucet(n):\n    for i in range(n):\n    return n\n 
+def soucet(n):\n    for i in range(n):\n    return n\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    for i in range(1,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    i=n-1\n    while i>0:\n        n +=i\n        i -=1\n    return n\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n        sucet += i\n    return sucet 
+def soucet(n):\n    return sum([x for x in range(n+1)])\n 
+def soucet(n):\n    s = 0\n    for i in range(1, n+1):\n        s = s+i\n    return s\n 
+def soucet(n):\n    m=0\n    for i in range (n+1):\n       m+=i \n    return n\n 
+def soucet(n):\n    m=0\n    for i in range (n+1):\n       m+=i \n    return m\n 
+def soucet(n):\n    return n*n/2+n/2\n 
+def soucet(n):\n    return n+n+1\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet = sucet + i   \n    return sucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for i in range (1,n): i+a=a\n    return a\n 
+def soucet(n):\n    m=0\n    for i in range(1,n+1):\n        m=m+i\n    return m\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    sum = 0\n    for i in range(1, n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    i=0\n    s=0\n    while i<=n:\n        s=s+i\n        i=i+1\n    return s\n 
+def soucet(n):\n    if n == 0: return 0\n    return n + soucet(n-1)\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    return (n*(n+1)/2)\n 
+def soucet(n):\n    for i in range(1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    j = 0\n    for i in range(1,n+1):\n        j = j + i\n    return j\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    global x\n    x = 0\n    for i in range(n+1):\n        x = x + i\n    return x\n 
+def soucet(n):\n    if n== 0 return 0\n    return n+soucet(n-1)\n 
+def soucet(n):\n    if n == 0 : return 0\n    return n+soucet(n-1)\n 
+def soucet(n):\n    return n\n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    f = 0\n    while n > 0:\n       f = f + n\n       n = n - 1\n    return f\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return n\n\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return x\n\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum +=i\n    return sum\n 
+def soucet(n):\n    for i in range(1,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for i in range(1,n):\n    n = n+i\n    return n\n 
+def soucet(n):\n    sum=0\n    for i in range(n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    s=0\n    for i in range(n):\n        s=s+n-i\n    print(s) 
+def soucet(n):\n    s=0\n    for i in range(n):\n        s=s+n-i\n    print(s) 
+def soucet(n):\n    s=0\n    for i in range(n):\n        s=s+n-i\n    return(s) 
+def soucet(n):\n    s = 0\n    for i in range( 1,n+1):\n        s =s + i\n    \n    return s\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    return n+soucet(n-1)\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    secteno = 0\n    for x in range(1,n+1):\n        secteno += x\n    return secteno\n 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet += i\n   \n    return sucet\n 
+def soucet(n):\n    m = 0\n    for i in range (1, n+1):\n        m += i\n    return m 
+def soucet(n):\n    x=0\n    for i in range (1,n+1):\n       x+=i \n    return x\n 
+def soucet(n):\n    \n    return sum(range(1,n+1))\n 
+def soucet(n):\n    a = 0\n    for i in range(n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    sum=0\n    for i in range(1,n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    x=(n*(n+1))/2\n    n=x\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range (n+1):\n        soucet = soucet + i \n    return soucet\n 
+def soucet(n):\n    s=0\n    for i in range(0,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    suma=0\n    for i in range(0,n+1):\n        suma+=i\n    return suma\n 
+def soucet(n):\n    vysl = 0\n    for i in range(n+1):\n        vysl += i\n    return vysl\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += i+1\n    return soucet\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n        suma += i\n    return suma\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    k = 0\n    for i in range(n+1):\n         k +=i\n    return k\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1) :\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range (1, n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    suma = 0\n    for i in range(n+1):\n        suma += i\n    return suma\n 
+def soucet(n):\n    citac=0\n    for i in range(n+1):\n        citac+=i\n    return citac\n 
+def soucet(n):\n    soucet=0\n    for i in range(n):\n        n+=i\n    \n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1, n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    n=n*(n+1)/2\n    return n\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    prubezny_soucet=0\n    for i in range(1,n+1):\n        prubezny_soucet+=i\n    return prubezny_soucet\n 
+def soucet(n):\n    suma = 0\n    for i in range(1, n+1):\n        suma += i\n    return suma\n 
+def soucet(n):\n    for i in range(1,n):return n\n 
+def soucet(n):\n    for i in range(1,n):return n\n 
+def soucet(n):\n    sum=0\n    for i in range(1,n+1):\n        sum=i+sum\n    return sum\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    return n*(1+n)/2\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        for j in range(n):\n            soucet +=j+i\n        return soucet\n 
+def soucet(n):\n    for i  in range(n):\n      n+=i\n    return n\n 
+def soucet(n):\n    k = 0\n    for i in range(1,n+1):\n        k += i\n    return k\n 
+def soucet(n):\n    sum=0\n    for i in range(n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n        suma += i\n    return suma\n 
+def soucet(n):\n    return (n*(n+1))/2\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    suc = 0\n    for i in range(1,n+1):\n        suc+=i\n    return suc\n 
+def soucet(n):\n    vysledok = []\n    for i in range(n+1):\n        vysledok.append(i)\n     \n    return sum(vysledok)\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    return n + soucet(n-1)\n 
+def soucet(n):\n    s=0\n    for i in range (n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n for i in range(1,n):  return n + 1 + (n - i)\n 
+def soucet(n):\n for i in range(1,n):  return n + 1 + (n - i)\n 
+def soucet(n):\n for i in range(1,n):  return n + 1 + (n - i)\n 
+def soucet(n):\n for i in range(1,n):  return n + 1 + (n - i)\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1):\n          s = s + i\n\n    return s\n 
+def soucet(n):\n    if n == 1: return 1\n    else: return n + soucet(n-1)\n 
+def soucet(n):\n    f=0\n    for i in range(n+1):\n        f+=i\n    return f\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    i=0\n    for j in range(n+1):\n        i+=j\n    print(i)\n    \n 
+def soucet(n):\n    i=0\n    for j in range(n+1):\n        i+=j\n    return(i)\n    \n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n          sum = i + sum\n    return sum\n 
+def soucet(n):\n    sucet=0\n    for i in range (1,n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    a=0\n    for i in range(n+1):\n       a+=i \n    return a\n 
+def soucet(n):\n    sucet=(n/2)*(1+n)\n        \n    return sucet\n 
+def soucet(n):\n    for i in range(n):\n        n = n+i\n    return n\n 
+def soucet(n):\n    return n*(n+1)//2\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n+1):\n        a += i\n    return a    \n 
+def soucet(n):\n    if(n>=0):\n        return n*(1 + n)/2\n    else:\n        return 0\n\n 
+def soucet(n):\n    for i in range(1,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet=soucet+i\n    return soucet\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1): x+= i\n    return x\n 
+def soucet(n):\n    x = 0\n    for i in range (n+1):\n        x = x + i\n    return x 
+def soucet(n):\n    b = 0\n    for i in range (1,n):\n        b=b+i\n    return b+n\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n        suma += i\n    return suma\n 
+def soucet(n):\n    for i in range (1, n):\n        n+=i\n    return n\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1, n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    x=0\n    for i in range (1,n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    souc=0\n    for i in range (n+1):\n        souc += i\n    return souc\n 
+def soucet(n):\n    suma = 0\n    while n > 0:\n        suma += n\n        n = n - 1\n    return suma\n 
+def soucet(n):\n    out=0\n    for i in range(n+1):\n        out+=i\n    return out\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n        s += i\n    return s 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    n=s\n    return n\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    k=0\n    for i in range(n+1):\n        k+=i\n    return k\n 
+def soucet(n):\n    souc=0\n    for i in range(1,n+1):\n        souc += i\n    return souc\n 
+def soucet(n):\n    x = 0\n    for i in range(0,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    pom = 0\n    for i in range(n+1):\n       pom = pom + i \n    return pom\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n        suma +=i\n    return suma\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for i in range (n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    return n+soucet(n-1)\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=I\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    print s\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    print s\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    return s 
+def soucet(n):\n    return (n*(n+1)) // 2\n 
+def soucet(n):\n    cislo = 0\n    for i in range(n):\n        cislo += i+1\n    return cislo    \n        \n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i        \n    return x\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for x in range (n):\n        n+=x\n    return n\n 
+def soucet(n):\n    for i in range(n):\n        n += i\n    return n\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    soucet = 0\n    for i in  range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1): s+=i\n    return s\n 
+def soucet(n):\n    x = 0\n    for i in range (1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    souc = 0\n    for i in range(1,n+1):\n        souc += i\n    return souc\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    soucet=0\n    for cislo in range(n+1):\n        soucet=soucet+cislo\n    return soucet\n 
+def soucet(n):\n    vysledek = 0\n    for i in range(1,n+1):\n        vysledek += i\n    return vysledek    \n        \n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n + 1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += n\n        n -=1\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1): \n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for x in range(1,n+1):\n        soucet += x\n    return soucet\n 
+def soucet(n):\n    for i in range(1, n):\n        n += i\n    return n\n 
+def soucet(n):\n    res = 0\n    for i in range(n+1):\n        res += i\n    return res\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x = x+i\n    return x\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet = soucet + i\n    return soucet\n    \n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    x=0\n    l=0\n    while n >= x:\n        l = l+x\n        x=x+1\n    return l\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    return (n*(1+n))//2\n 
+def soucet(n):\n    for i in range(n):\n        n += i \n    return n\n 
+def soucet(n):\n    for i in range(n):\n      n+=i\n    return n\n 
+def soucet(n):\n    s = 0 \n    for i in range(1, n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet=soucet+i\n    return soucet\n\n 
+def soucet(n):\n    for i in range(n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    a = 0\n    for i in range (1, n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    souc = 0\n    for i in range(1,n+1):\n        souc+=i\n    return souc 
+def soucet(n):\n    if n==1:\n        return 1 \n    return n+soucet(n-1)\n 
+def soucet(n):\n    x=0\n    for i in range (n+1):\n        x+=i\n    return x\n    \n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n        a=a+i\n    return a\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet+=i\n        \n    return soucet\n 
+def soucet(n):\n    suma = 0\n    for i in range(1, n+1):\n        suma+=i\n    return suma\n 
+def soucet(n):\n    for i in range(1, n):\n        n += i\n    return n\n 
+def soucet(n):\n    if not n:\n        return 0\n    else:\n        return (n+soucet(n-1))\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x=x+i\n    return x\n 
+def soucet(n):\n    sum = 0\n    while(n != 0):\n        sum += n\n        n -= 1\n    return sum\n 
+def soucet(n):\n    return n * (n+1) / 2 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n        sum += i\n    return n\n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    if n == 1: return 1\n    else: return n + soucet(n-1)\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n):\n        sucet = (n+1)*n/2 \n    return sucet\n 
+def soucet(n):\n    for i in range(n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\np=0\nfor i in range(0,n+1):\np=p+i\nreturn p\n 
+def soucet(n):\n    count = 0\n    for i in range(1,n+1):\n        count += i\n    return count 
+def soucet(n):\n    m = 0\n    for i in range (n + 1):\n        m = m + i \n    return m\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    f=0\n    for i in range (1,n+1):\n        f=f+i\n    return f 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    m=0\n    for i in range(1,n+1):\n    m=m+i    \n    return m\n 
+def soucet(n):\n    if n==1:\n        return 1\n    else:\n        return n+soucet(n-1)\n 
+def soucet(n):\n    soucet = 0\n    for cislo in range(1, n+1):\n        soucet += cislo\n\n    return soucet  \n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    if n==0:\n        return 0\n    else:\n        return n + soucet(n-1)\n 
+def soucet(n):\n    a = 0;\n    for i in range(n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    n == 0\n    for i in range (n):\n    n += i\n    return n\n 
+def soucet(n):\n    souc=0\n    for i in range(n):\n        souc+=i\n    return souc\n 
+def soucet(n):\n    souc=0\n    for i in range(n+1):\n        souc+=i\n    return souc\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    if n == 0:\n        return 0\n    return n + soucet(n-1)\n 
+def soucet(n):\n    m = 0\n    for i in range(0,n+1):\n        m = i + m\n    return m\n 
+def soucet(n):\n    s = 0;\n    for i in range(n+1):\n        s = s+i\n    return s\n 
+def soucet(n):\n    a = 0\n    for i in range (n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    if n==0:\n        return 0\n    else:\n    return n + soucet(n-1)\n 
+def soucet(n):\n    a = 0\n    for i in range(n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    for x in range(n):\n        n=n+x\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n    soucet = soucet + i\n    print(soucet)\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n    soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\ni+(i+1) 
+def soucet(n):\n    return n+n+n+n\n 
+def soucet(n):\n    return n+n+n+n\n 
+def soucet(n):\n    return n+n+n+n\n 
+def soucet(n):\n    return n+n+n+n\n 
+def soucet(n):\n    return n+n+n+n\n 
+def soucet(n):\n    return n+n+n+n\n 
+def soucet(n):\n    return n+n+n+n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    return sum(range(n+1)) 
+def soucet(n):\n    f=0\n    for i in range(n+1):\n        f=f+i\n    return f 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s=s+i\n    return s\n 
+\ndef soucet(n):\n    s=0\n    for i in range(n):\n    s=s+i   \n    return s\n 
+\ndef soucet(n):\n    s=0\n    for i in range(n+1):\n    s=s+i   \n    return s\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n    soucet = soucet + i\n    return soucet\n    \n 
+def soucet(n):\n    x=0\n    y=1\n    while y <= n:\n        x=x+y\n        y=y+1\n    return x\n 
+def soucet(n):\n    i=1\n    vysledek=0\n    while i <= n:\n        vysledek=vysledek+i\n        i=i+1\n    return vysledek\n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    \n    \n    return sum(range(n+1))\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return n\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n       return sum(range(n+1))\n 
+def soucet(n):\n    n = 377 + 1\n    return n\n 
+def soucet(n):\n    n = 23 * 12\n    return n\n 
+def soucet(n):\n    s = 18 + 153\n    return s\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s = s + i\n    return s\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n+n\n    return n\n 
+def soucet(n):\n    n*5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return n\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    i= n* 5\n    return i\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1);\n    s = s + i\n    \n    return s 
+def soucet(n):\n      return sum(range(n+1)) 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    s=0\n    for i in range(1,n + 1):\n          s = s+i\n    return s\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n + 1):\n          s = s + i\n    return s\n\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n    i += a\n  print a\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n    a += i\n        \n    print(a)\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n    a += i\n        \n    return(a)\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(s):\n    s=0\n    for i in range(1,n+1):\n         s=s+i\n    return s\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x\n\n        \n 
+def soucet(n):\nsum = 0\nfor x in range(n+1):\n    sum += x\nreturn(sum) \n 
+def soucet(n):\n    s =0\n    for i in range (1,n+1):\n        s +=i\n    return s\n 
+def soucet(n):\n    return (n+1)*n/2\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n    s += i\n    return s\n 
+def soucet(n):\nt = 0\nfor i in range(1, n+1):\nt += i\nreturn t 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s=s+i\n    return s 
+def soucet(n):\n    while n > 0 :\n    n = n + (n-1) \n    return n\n    \n 
+def soucet(n):\n    for i in range (n-1):\n        n = n+ (i + 1)\n    return n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n        \n 
+def soucet(n):\n    for i in range(n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    sucet=0\n    for i in range(n):\n        sucet+=i+1\n    return sucet\n 
+def soucet(n):\n    soucet = n\n    pricitac = n-1\n    while pricitac != 0:\n        soucet = soucet + pricitac\n        pricitac -= 1\n    return n\n 
+def soucet(n):\n    soucet = n\n    pricitac = n-1\n    while pricitac != 0:\n        soucet = soucet + pricitac\n        pricitac -= 1\n    return soucet\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    return n + soucet(n-1)\n 
+new=0\ndef soucet(n):\n    for i in range(n):\n        new+=i\n    return new\n 
+def soucet(n):\n    new=0\n    for i in range(n+1):\n        new+=i\n    return new\n 
+def soucet(n):\n    return (1+n)*n/2\n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n + 1):\n        soucet += i\n    return soucet\n 
+def soucet (n):\n    soucet=0\n    for i in range (n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    cislo = 0\n    for i in range(n+1):\n        cislo+=i\n    return cislo\n 
+def soucet(n):\n    for i in range(n):\n        n += i\n    return n\n 
+def soucet(n):\n    s = 0\n    for i in range(1, n+1):\n        s = s + i\n      \n    return s\n 
+def soucet(n):\n    vysledek = 0\n    for i in range (n+1):\n        vysledek += n\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range (n+1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    sucet = 0\n    for i in range (1, n+1):\n        sucet += i   \n    return sucet\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    x=0\n    for i in range(1,n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    f = 0\n    while n > 0:\n        f = f + n\n        n = n - 1\n    return f\n 
+def soucet(n):\n    y=0\n    for i in range(n+1):\n    y+=i\n    return y\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n    suma += i\n    return suma\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    for i in range(i,n):\n        n += i\n    return n\n 
+def soucet(n):\n    vysledok=0\n    for i in range(n+1):\n        vysledok+=i\n    return vysledok\n 
+def soucet(n):\n    return ((1+n)/2)*n\n 
+def soucet(n):\n    for i in range (1,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\nx=0\nfor _ in range(1,n+1):\n    x+=_\nreturn x\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x = x+i\n    return x\n 
+def soucet(n):\n    for i in range(1, n):\nn = i+n\n    return n\n 
+def soucet(n):\n    return n+66\n 
+def soucet(n):\n    \n    return n + 378\n 
+def soucet(n):\n    return n+55\n 
+def soucet(n):\n    for i in range(1,n):\n        print i\n        \n    return n\n 
+def soucet(n):\n    for i in range(1,n):\n    print i\n    return n\n 
+def soucet(n):\n    for i in range(1,n):\n        n += i\n    return n\n 
+def soucet(n):\n    spolu = 0\n    for i in range (n+1):\n        spolu += i\n    return spolu\n 
+def soucet(n):\n    drzitel=0\n    for i in range(n+1):\n        drzitel+=i\n    return drzitel\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n    suma += i\n    return suma\n 
+def soucet(n):\n    m = 0\n    for i in range(1, n + 1):\n    m += i\n    return m\n 
+def soucet(n):\n    for i in range(n):\n        n +=i\n    return n\n 
+\ndef soucet(n):\n    x=0\n    for i in range(n+1):\n    x+=i\n        \n    return x\n    \n        \n     \n 
+def soucet(n):\n    result = 0\n    for i in range(n+1):\n        result = result + i\n    return result\n 
+def soucet(n):\n    n=n+n-1+n-2+n-3+n-4+n-5+n-6+n-7+n-8+n-9+n-10+n-11+n-12+n-13+n-14+n-15+n-16\n    return n\n 
+def soucet(n):\n    n=n+n-1+n-2+n-3+n-4+n-5+n-6+n-7+n-8+n-9+n-10+n-11+n-12+n-13+n-14+n-15+n-16\n    return n\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet = i + sucet\n    return sucet\n 
+def soucet(n):\n    k=0\n    for i in range(1,n+1):\n        k+=i\n    return k\n 
+def soucet(n):\n    if n == 0:\n        return 0\n    else:\n        return n + soucet(n-1)\n    return n\n 
+def soucet(n):\n    suma=0\n    for i in range(1,n+1):\n        suma=i+suma\n    \n    return suma\n 
+def soucet(n):\n    soucet=0\n    for i in range(n):\n        soucet+=i  \n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    a = 0\n    for i in range(1,n+1):\n    a += i    \n    return a\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n    sucet = sucet + i    \n    return sucet\n 
+def soucet(n):\n    for i in range(n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s = s + i\n    return s\n\n 
+def soucet(n):\n    for i in range(n):\n        n += i\n    return n\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n        sucet +=i\n    return sucet\n 
+def soucet(n):\n    suc = 0\n    for i in range(1,n+1):\n        suc += i\n    return suc\n 
+def soucet(n):\n    a=0\n    for i in range(1,n+1):\n        a=a+i\n    return a\n 
+def soucet(n):\n    sum = 0\n    for i in range(1, n+1):\n        sum +=i\n    return sum\n 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n    s+=i\n    \n    return s\n 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n        sucet=sucet+i\n    return sucet\n 
+def soucet(n):\n    d=0\n    for i in range (0,n+1):\n        d += i\n    return d\n\n 
+def soucet(n):\n    i=0\n    sucet=0\n    for i in range(n+1):\n        sucet+=i\n        i+=1\n        \n    return sucet\n 
+def soucet(n):\n    a = 0\n    for i in range(1,n+1):\n    a+=i\n    return a 
+def soucet(n):\n    return n*(1+n)//2\n 
+def soucet(n):\n    for i in range(1,n):\n        n=n+i\n        \n    return n\n 
+def soucet(n):\n    sum=0\n    for i in range (1,n+1):\n        sum+=i\n        \n    return sum\n 
+def soucet(n):\n    tmp = 0\n    for i in range (1,n+1):\n        tmp = tmp + i\n    return tmp\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n+1):\n        a = i + a\n       \n    print a\n 
+def soucet(n):\n    a = 0\n    for i in range(1, n+1):\n        a = i + a\n       \n    return a\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n + 1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    return((n*(1+n))/2)\n    return n\n    \n    \n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n        a+=i\n    return a\n    \n 
+def soucet(n):\n    a=0\n    for i in range(n+1):\n    a+=i\n    return a\n 
+def soucet(n):\n    for i in range (1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    sucet=0\n    for i in range (1,n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    result = 0\n    for i in range(1, n+1):\n        result += i\n    return result\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    sucet = 0\n    for i in range (n+1):\n        sucet = sucet + i\n    return sucet\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    s=0\n    for i in range (1,n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    res = 0\n    for i in range(1, n+1):\n        res += i\n    return res\n 
+def soucet(n):\n    for i in range(n-1,0,-1):\n        n += i\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n + 1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n        sucet+=i\n        \n    return sucet\n 
+def soucet(n):\n    sucet=0\n    for i in range (n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    cislo=0\n    for i in range(1,n+1):\n        cislo+=i\n    return cislo\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    help = 0\n    for i in range(0, n+1):\n        help += i\n    return help\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    for i in range(n):\n    n = n+i\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range (1,n+1):\n        soucet = soucet + i\n    return soucet\n        \n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet = soucet + i\n    return soucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range (1,n+1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    for i in range(1,n):\n        n += i\n    return n\n 
+def soucet(n):\n    x = 0\n    for i in range (n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    result = 0\n    for i in range(1, n+1):\n    result += i\n    return result\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    a=0\n    for i in range(n):\n        a= a +i+1\n    return a 
+def soucet(n):\n    vys=0\n    for i in range(n+1):\n        vys=vys+i\n    return vys\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    print x\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    print x\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    print x\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    print x\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    a = 0\n    for i in range (n + 1):\n        a += i\n    return a\n 
+def soucet(n):\n    sucet = 0\n    for i in range (1,n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    x = 0\n    for i in range(1,n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    souc=0\n    for i in range(1,n+1):\n    souc=souc+i\n    return souc\n 
+def soucet(n):\n    a = 0\n    for i in range (n+1):\n        a = a + i\n  \n    return a\n 
+def soucet(n):\n    pocet = 0\n    for i in range(n+1):\n        pocet = pocet + i\n    return pocet\n 
+def soucet(n):\n    a = 0\n    for i in range (1,n+1):\n        a = a + i\n    return(a) 
+def soucet(n):\n    result = 0\n    for i in range(n+1):\n        result+= i\n    return result 
+def soucet(n):\n    s = 0\n    for i in range(1,n+1):\n    s+=i\n    return s\n 
+def soucet(n):\n    for i in range (n):\n        n += i\n    return n\n 
+def soucet(n):\n    a = 0\n    for i in range(n+1):\n        a += i\n    return a\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    soucet=0\n    for i in range (1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n    a=a+i\n    return a 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    vysledok = 0\n    for i in range(n+1):\n        vysledok += i\n    return(vysledok) 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    sucet = 1\n    summ = 0\n    while sucet+1 <= n:\n        sucet+=1\n        summ+=sucet              \n    return n+summ-n+1\n 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n   l = 0\n   for i in range(1, n+1):\n      l += i\n   return l\n 
+def soucet(n):\n    x=0\n    for i in range (1,n+1):\n    x=x+i\nreturn x 
+def soucet(n):\nx=0\nfor i in range (1,n+1):\n    x=x+i\nreturn x 
+def soucet(n):\n    return sum(range(1,n+1))\n 
+def soucet(n):\n    sum = 0\n    for i in range(1, n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    Sum = 0\n    for i in range(1,n+1):\n    Sum += i\n    return Sum\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    sucet=0\n    for i in range(n+1):\n        sucet += i\n    return n\n 
+def soucet(n):\n    sucet=0\n    for i in range(n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    cislo=0\n    for i in range(1,n+1):\n        cislo+=i\n    return cislo\n 
+def soucet(n):\n    s = 0\n    for i in range(1, n +1):\n        s += i\n    return s 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n    soucet = soucet +i\n    return soucet\n 
+def soucet(n):\n    vystup = 0\n    for i in range(n+1):\n        vystup += i\n    return vystup\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    a=0\n    for i in range (1, n+1):\n        a=a+i\n    return a\n 
+def soucet(n):\n    sum=0\n    for i in range(n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    souc = 0\n    for i in range(n+1): souc = i + souc\n    return souc\n 
+def soucet(n):\n    sum_n = 0\n    for i in range(1,n+1):\n        sum_n += i\n    return sum_n\n 
+def soucet(n):\n    count=0\n    for i in range (0,n+1):\n        count=count+i\n    return count\n 
+def soucet(n):\n    sucet = 0\n    for i in range(n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\nx = x + i\n    return x\n 
+def soucet(n):\n    return (1+n)/2*n\n 
+def soucet(n):\n    cislo=0\n    for i in range(n+1):\n        cislo+=i\n    return cislo\n 
+def soucet(n):\n    if n ==1:\n        return 1\n    return soucet(n-1)+n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    r = 0\n    for i in range(1, n+1):\n    r += i\n    return r\n 
+def soucet(n):\n    vysledok = 0\n    for i in range (1,n+1):\n    vysledok += i\n    return vysledok\n 
+def soucet(n):\n    x=0\n    for i in range (n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for i in range(1,n):\n        n+=i\n    return n\n 
+def soucet(n):\n    vysledek = n\n    while n>0:\n        vysledek = vysledek + n-1\n        n += -1\n    return vysledek\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet=soucet+i\n    return soucet\n 
+def soucet(n):\n    k = 0\n    \n    for i in range(1, n+1):\n        k += i\n    return k\n 
+def soucet(n):\n    s = 0\n    for i in range (1,n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    for i in range (1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    for i in range (n):\n        n+=i\n    return n\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range (n + 1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    vys = 0\n    for i in range(1,n+1):\n        vys=vys+i\n    return vys\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    i=0\n    for i in range (i,n):\n    n=n+i\n    return n\n 
+def soucet(n):\n    sum = 0\n    for i in range(n+1):\n        sum += i\n    return sum 
+def soucet(n):\n    for i in range(1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n        suma=suma+i\n        \n    return suma\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    sum=int(0)\n    for i in range(1,n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n    s=s+i\n    return s 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n        sucet += i\n    return sucet\n 
+def soucet(n):\n    result = 0\n    for i in range(1,n+1):\n    result += i\n    return result\n 
+def soucet(n):\n    num = 0\n    for i in range(1,1+n):\n        num+=i\n    return num\n 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n        sucet+=i\n        \n    return sucet\n 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    result = 0\n    for i in range(1, n+1):\n        result = result + i\n    return result 
+def soucet(n):\n    c=0\n    for i in range(n+1):\n        c+=i\n    return c\n 
+def soucet(n):\n    p=0\n    for i in range(n+1):\n       p=p+i \n    return p\n 
+def soucet(n):\n    s = 0\n    for i in range(1, n+1):\n        s += i\n    return s 
+def soucet(n):\n    souc = 0\n    for i in range(n+1):\n        souc += i\n    return souc\n 
+def soucet(n):\n    soucet=0\n    for i in range (1,n+1):\n    soucet=soucet+i\n    return soucet 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet = soucet+i\n    return soucet\n 
+def soucet(n):\n    pom = 0\n    for i in range(1,n):\n        pom += i\n    return pom   \n 
+def soucet(n):\n    pom = 0\n    for i in range(1,n+1):\n        pom += i\n    return pom   \n 
+def soucet(n):\n    return 0 if n < 1 else n + soucet(n-1)\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    result = 0\n    for i in range(n + 1):\n        result += i\n    return result 
+def soucet(n):\n    sucet=0\n    for i in range(n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n        a=a+i\n    return a\n 
+def soucet(n):\n    result = 0\n    for i in range(n+1):\n        result += i\n    return result\n 
+def soucet(n):\nfor i in range(1,n):\n    n+=i\nreturn n\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    pomocna = 0\n    for i in range (n+1):\n        n = pomocna + i\n    return n\n 
+def soucet(n):\n    pomocna = 0\n    for i in range (n+1):\n        n = pomocna + i\n    return n\n 
+def soucet(n):\n    pomocna = 0\n    for i in range (n+1):\n        pomocna = pomocna + i\n    return pomocna\n 
+def soucet(n):\n    soucet=0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    z=0\n    for i in range (n):\n        n = i + n\n    return n\n 
+def soucet(n):\n    sum=0\n    for i in range(1,n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    for i in range(1,n):\n        n += i\n    return n\n 
+def soucet(n):\n    suc = 0\n    for i in range(1,n+1):\n        suc = suc + i\n    return suc\n 
+def soucet(n):\n    total = 0\n    for i in range(n+1):\n        total = total + i\n    return total\n 
+def soucet(n):\n    m=0\n    for i in range(1,n+1):\n        m=m+i\n    return m\n 
+def soucet(n):\n    a = 1\n    for i in range(1,n+1):\n        a = a + i\n    return a 
+def soucet(n):\n    a = 0\n    for i in range(1,n+1):\n        a = a + i\n    return a 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n        s += i\n    return s\n 
+def soucet(n):\ncount = 0\n\nfor i in range(n+1):\ncount += i\n        \nreturn count\n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    sucet=0\n    for i in range (n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    soucet = n\n    for i in range (soucet):\n        n +=i\n        \n    return n\n 
+def soucet(n):\n    for i in range(n-1, 0, -1):\n        n += i\n    return n\n 
+def soucet(n):\n    sucet = 0\n    for a in range(0,n+1):\n        sucet = sucet + a    \n    return sucet\n 
+def soucet(n):\n    for i in range(n):\n        n+=i\n    return n\n 
+def soucet(n):\n    \n    for i in range(0,n):\n    n=n+i\n    return n\n 
+def soucet(n):\n    s = 0\n    for i in range (1,n+1):\n        s = s + i\n    n = s\n    return n\n 
+def soucet(n):\n    suc = 0\n    for i in range(n+1):\n        suc += i\n        \n    return suc\n 
+def soucet(n):\n    x = 0\n    for i in range(0,n+1):\n    x = x + i\n    n = x\n    return n\n 
+def soucet(n):\n    sucet=0\n    for i in range(1,n+1):\n    sucet=sucet+i\n    return sucet\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet+=i\n    return soucet\n 
+def soucet(n):\n    suc = n\n    n=0\n    for i in range(1,suc+1):\n        n+=i\n   \n    return n\n 
+def soucet(n):\n    x= 0\n    for i in range (n+1):\n        x+= i\n        \n    return x\n 
+def soucet(n):\nsuc = 0\nfor i in range(1,n+1):\nsuc = suc + i\nn = suc    \nreturn n\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n        sucet += i\n    return sucet 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet += i\n        \n    return soucet\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    sum = 0\n    for i in range(1, n+1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    x = 0\n    for i in range(1, n+1):\n        x = x + i \n    return x\n 
+def soucet(n):\n    a=0\n    for i in range (n+1):\n        a+=i\n    return a\n 
+def soucet(n):\n    suc=0\n    for i in range(n+1):\n    suc+=i\n    return suc\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    sum=0\n    for i in range(1,n+1):\n        sum +=i\n    return sum\n 
+def soucet(n):\n    sucet=0\n    for i in range (1,n+1):\n        sucet+=i\n    return sucet\n 
+def soucet(n):\n    if(n>0):\n    soucet = 1\n    a = 2\n    for i in range(n-1):\n             soucet = soucet + a\n             a = a + 1\n    return soucet\n    else:\n        return 0\n 
+def soucet(n):\n    a=0\n    for i in range(n+1):\n         a=a+i\n    return a 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s+=i\n    return i\n 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    \n    return sum(range(1,n+1))\n 
+def soucet(n):\n    for i in range (n):\n        n += i\n    return n\n 
+def soucet(n):\n    a = 1\n    for i in range(n-1):\n        n = n + a\n        a = a + 1\n    return n\n 
+def soucet(n):\n    b=0\n    for i in range (1,n+1):\n        b+=i\n    return b\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n        s += i\n    return s\n 
+def soucet(n):\n    k = 0\n    for i in range(n+1):\n        k = k + i\n    print k\n        \n 
+def soucet(n):\n    k = 0\n    for i in range(n+1):\n        k = k + i\n \n    return k\n 
+def soucet(n):\n    cislo = 0\n    for i in range(1, n+1):\n        cislo += i\n    return cislo\n        \n 
+def soucet(n):\n    soucet=0\n    for i in range(n+1):\n        soucet += i\n    return soucet 
+def soucet(n):\n    n = sum(range(1, n+1))\n    return n\n 
+def soucet(n):\n    s = 0\n    for i in range (1,n+1):\n    s += i\n    return n\n 
+def soucet(n):\n    s = 0\n    for i in range (1,n+1):\n    s += i\n    print n\n 
+def soucet(n):\n    for i in range(1, n):\n        n = n + i\n    return n\n 
+def soucet(n):\n    k = 0\n    for i in range(1,n+1):\n        k = k + i\n    n = k\n    return n\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n        \n 
+def soucet(n):\n    sum=0\n    for i in range(1,n+1):\n        sum+=i;\n    return sum\n 
+def soucet(n):\n    sucet = 0\n    for i in range(1,n+1):\n    sucet += i\n    return sucet\n 
+def soucet(n):\n    j=0\n    for i in range(n+1):\n        j=j+i\n    return j\n 
+def soucet(n):\n    suma = 0\n    for i in range(1, n+1):\n        suma = suma + i\n    return suma 
+def soucet(n):\n    suma = 0\n    for i in range(1,n+1):\n        suma = suma + i\n        \n    return suma\n 
+def soucet(n):\n    x=0\n    for i in range(n+1):\n        x+=i\n    return x\n 
+def soucet(n):\n    return (n+1)*(n/2)\n 
+def soucet(n):\n    suma = 0\n    for i in range(1, n+1):\n    suma += i\n    return suma\n 
+def soucet(n):\n    suma=0\n    for i in range(1, n+1):\n        suma=suma+i\n    return suma\n 
+def soucet(n):\n    celkem=0\n    for i in range(1,n+1):\n        celkem=celkem+i\n    return celkem\n 
+def soucet(n):\n    j=0\n    for i in range(1,n+1):\n    j=i+j\n    \n    return j\n 
+def soucet(n):\n    scitani = 0\n    for i in range(n+1):\n        scitani += i\n    return scitani\n 
+def soucet(n):\n    k=0\n    for i in range(n+1):\nk += i\n    return k\n 
+def soucet(n):\n    souc = 0\n    for i in range(1, n+1):\n    souc += i\n    return souc\n 
+def soucet(n):\n    for i in range(1,n):\n        n += i\n    return n\n 
+def soucet(n):\n    total = 0\n    for i in range(n+1):\n        total += i \n    return total\n 
+def soucet(n):\n    soucet = 0\n    for i in range(n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    a=0\n    for i in range (1,n+1):\n    a=i+a\n    n=a    \n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n    soucet += i\n    return soucet\n 
+def soucet(n):\n    soucet=0\n    for i in range (1,n+1):\n    soucet=soucet+i\n    return soucet\n 
+def soucet(n):\n    souc = 0\n    for i in range(1,n+1):\n        souc += i\n    return souc\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    sucet=0\n    vysl=0\n    for i in range (1,n+1):\n        sucet=sucet+i\n        vysl=sucet\n    return vysl\n 
+def soucet(n):\n    a = 0\n    for i in range (n+1):\n        a = a+i\n    return a \n 
+def soucet(n):\n    sum=0\n    for i in range(1,n+1):\n        sum+=i\n    return sum\n 
+def soucet(n):\n    celkem = 0\n    for i in range(n+1):\n        celkem += i\n    return celkem\n 
+def soucet(n):\n    s=0\n    for i in range(1,n+1):\n    s=s+i\n    return s\n 
+def soucet(n):\n    f=0\n    for i in range(n+1):\n        f=i+f\n    return f\n\n 
+def soucet(n):\n    k=n\n    while k!=0:\n        n=n+k-1\n        k-=1\n    return n\n 
+def soucet(n):\n    f = 0\n    for i in range(n+1):\n        f = f+i\n    return f\n 
+def soucet(n):\n    count=0\n    for i in range(n+1):\n        count+=i\n    return count\n 
+def soucet(n):\n    s=0\n    for i in range (n):\n        s+=i\n    return n\n 
+def soucet(n):\n    s=0\n    for i in range (1,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    k=0\n    for i in range (n+1):\n        k+=i\n    return k\n 
+def soucet(n):\n    suc = 0\n    for i in range(1,n+1):\n        suc = suc + i\n    return suc 
+def soucet(n):\n    sum = 0\n    for i in range(1, n):\n        sum = sum + i\n        \n    return sum + n\n 
+def soucet(n):\n    x = 0\n    for i in range(1, n+1):\n        x = x + i\n    return x 
+def soucet(n):\n    s = 0\n    for i in range (1,n+1):\n        s = s+ i\n    return s\n 
+def soucet(n):\n    num = 0\n    for i in range(n+1):\n        num = num + i\n    return num\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    for i in range(1,n):\n        n += i\n    \n    return n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet+= i\n    return soucet\n        \n\n 
+def soucet(n):\n    soucet = 0\n    for i in range(1, n+1):\n        soucet += i\n    return soucet\n 
+def soucet(n):\n    for i in range(1,n+1):\n        soucet =soucet + i\n    return soucet\n 
+def soucet(n):\n    souc = 0\nfor i in range(1,n+1):\n        souc+=i\n    return souc\n 
+def soucet(n):\n    souc =0\n    for i in range(1,n+1):\n        souc+=i\n    return souc 
+def soucet(n):\n    soucet = 0\n    for i in range(0, n+1):\n    soucet += i\n        \n    return soucet\n 
+def soucet(n):\n    vysledek = 0\n    for i in range(n+1):\n        vysledek += i\n    return vysledek 
+def soucet(n):\n    return n*(n+1)/2 
+def soucet(n):\n    s=1\n    for i in range(2,n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    for i in range(1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    i= 0\n    a=0\n    while a<=n:\n        i=i+a\n        a=a+1        \n    return i\n 
+def soucet(n):\n    s = 0\n    for i in range(n+1):\n    s+=i\n    return s\n 
+def soucet(n):\n    output = 0\n    for i in range(n+1):\n        output = output + i\n    return output 
+def soucet(n):\n    s=0\n    for i in range(1, n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    if n == 0:\n        return 0\n    return n+soucet(n-1)\n 
+def soucet(n):\n    s = 0\n    for i in  range (1,n+1):\n        s = s+i\n    return s\n 
+def soucet(n):\n    sum = 0\n    for i in range(1,n+1):\n        sum = sum + i\n    return sum\n 
+def sum(m,n):\n    if (n>0):\n        return m\n    else:\n        return sum(m,n-1)\n\ndef soucet(n):\n    return sum(0,n)\n 
+def sum(m,n):\n    if (n==0):\n        return m\n    else:\n        return sum(m+n,n-1)\n\ndef soucet(n):\n    return sum(0,n)\n 
+def soucet(n):\n    j=0\n    for i in range (0,n+1):\n        j+=i\n    return j\n 
+def soucet(n):\n    if(n == 1):\n        return 1\n    return n + soucet(n-1)\n 
+def soucet(n):\n    sum = 0\n    while n > 0:\n        sum = sum + n\n        n = n-1\n    return sum 
+def soucet(n):\n    if n==0:\n        return 0\n    return n+soucet(n-1)\n 
+def soucet(n):\n    souc=0\n    for i in range(0,n+1):\n        souc = souc+i\n    return souc\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    souc = 0\n    for i in range(1,n+1):\n        souc = souc + i;\n    return souc\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum(range (n+1))\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum(range (n+1))\n 
+def soucet(n):\n    s = 0\n    for i in range (n+1):\n        s = s +i\n    return s\n 
+def soucet(n):\n    return  sum(range(n+1)) 
+def soucet(n):+29\n    return n\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum/(range(n+1))\n 
+def soucet(n):\n    return sum/(range(n+1))\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return n*(n+1)/2\n 
+def soucet(n):\n    for i in range(1,n):\n        x=0:\n        x=x+i:\n    return n\n 
+def soucet(n):\n    for i in range(1,n):\n        x=0:\n        x=x+i:\n    return n\n 
+def soucet(n):\n    s = 0\n    for i in range (1,n+1):\n       s = s + i\n    n = s\n    return n\n 
+def soucet(n):\npp=0\nfor i in range(1,n+1):\n    pp = pp + i \nreturn pp\n 
+def soucet(n):\n    for i in range (1,n):\n        n=n+i\n    return n\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    for i in range(1, n):\n        n += i\n    return n\n 
+def soucet(n):\n    return sum(range(n+1))\n 
+def soucet(n):\n    for i in range (n):\n       i + n\n    return n\n 
+def soucet(n):\n    for i in range (1,n+1):\n    return n+i\n 
+def soucet(n):\n    for i in range (1,n+1):\n    return ((n * (n + 1)) / 2)\n 
+def soucet(n):\n    v = 0\n    for i in range (n + 1):\n        v = v + i\n    return v\n 
+def soucet(n):\n    if n == 1:\n        return 1\n    else:\n        return n+soucet(n-1)\n 
+def soucet(n):\n    if n <= 1:\n        return n\n    return n + soucet(n-1)\n 
+def soucet(n):\n    for i in range(n):\n        n=i+n\n    return n\n 
+def soucet(n):\n    for i in range(n):\n    n=n+i\n    return n\n 
+def soucet(n):\n    if n < 2:\n        return 1\n    return n+soucet(n-1)\n 
+def soucet(n):\n    val = 0\n    for i in range(n + 1):\n    val = val + i\n    return val\n 
+def soucet(n):\n    summ = 0\n    for i in range(n+1):\n        summ += i\n    return summ 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s=s+i\n    return s\n 
+def soucet(n):\n    counter = 0\n    for i in range(1,n+1):\n        counter += i\n    return counter\n 
+def soucet(n):\n    sum = 0\n    for i in range(n + 1):\n        sum += i\n    return sum\n 
+def soucet(n):\n    for i in range(n):\n        n += i\n    return n\n 
+def soucet(n):\nsoucet = 0\nfor i in range(n+1):\nsoucet = soucet + i\nreturn soucet 
+def soucet(n):\n    return (n/2) * (1+n)\n 
+def soucet(n):\n    x = 0\n    for i in range(n+1):\n        x += i\n    return x\n 
+def soucet(n):\n    pom = 0\n    for x in range(1, n+1):\n        pom =pom +x \n    return pom\n 
+def soucet(n):      \n    if(n == 1):\n        return 1;\n    return n + soucet(n-1)\n 
+def soucet(n):\n    s=0\n    for i in range(n+1):\n        s+=i\n    return s\n 
+def soucet(n):\n    l = 0    \n    for i in range(n):\n        l += i\n    return l\n 

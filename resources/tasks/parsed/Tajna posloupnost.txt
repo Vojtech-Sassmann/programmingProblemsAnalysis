@@ -1,0 +1,595 @@
+
+def tajna_posloupnost(n):\n    x = 1\n    lim = 1\n    while n > 0:\n        print x,\n        x += 1\n        if x > lim:\n            lim += 1\n            x = 1\n        n = n -1\n 
+def tajna_posloupnost(n):\n    count = 0\n    pocet = 0\n    cislo = 0\n    max = 1\n      \n    while count<n:\n        count +=1;\n\n       \n        if cislo == max:\n            cislo = 1\n            max = max + 1\n        e 
+def tajna_posloupnost(n):\n    for i in range(n/3):\n        for j in range(i):\n          print j+1,\n 
+def tajna_posloupnost(n):\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n 
+def tajna_posloupnost(n):\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n 
+def tajna_posloupnost(n):\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(1,n):\n        for j in range(1,i+1):\n            print j,\n            x=x+1\n            if x>=n: return\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n            x=x+1\n            if x>=n: return\n 
+def tajna_posloupnost(n):\n    counter = n\n    for i in range(1, n):\n        for j in range (1, i):\n            if (counter > 0):\n        print j,\n            counter=counter - 1\n 
+def tajna_posloupnost(n):\n    counter = n\n    for i in range(1, n+2):\n        for j in range (1, i):\n            if (counter > 0):\n        print j,\n            counter=counter - 1\n 
+def tajna_posloupnost(n):\n    m = 1\n    c = 1\n    for i in range(n):\n        print c,\n        c += 1\n        if c > m:\n            m += 1\n            c = 1\n 
+def tajna_posloupnost(n):\n    x = 1\n    j = 1\n    for i in range(n):\n        print x,\n        if j == x: \n            j+=1\n            x = 1\n        else: x+=1\n 
+def tajna_posloupnost(n):\n    p = 1\n    c = 1\n    for i in range(n):\n        print p,\n        if p == c:\n            p = 1\n            c += 1\n        else:\n            p += 1\n 
+def tajna_posloupnost(n):\n    nowmax = 1\n    c = 1\n    for i in range(n):\n        print c,\n        c += 1\n        if c > nowmax:\n            nowmax += 1\n            c = 1\n        \n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(1,n):\n        for j in range(1,i):\n            print j,\n            x +=1 \n            if x >= n:\n                return\n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(1,n):\n        for j in range(1,i):\n            print j,\n            x +=1 \n            if x >= n:\n                return\n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(1,n+1):\n        for j in range(1,i):\n            print j,\n            x +=1 \n            if x >= n:\n                return\n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n            x +=1 \n            if x >= n:\n                return\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            x=x+1\n            if x>=n:\n                return\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            x=x+1\n            if x>=n:\n                return\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(n+1):\n        for j in range(1,i):\n            print j,\n            x=x+1\n            if x>=n:\n                return\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(n+1):\n        for j in range(1,i+1):\n            print j,\n            x=x+1\n            if x>=n:\n                return\n 
+def tajna_posloupnost(n):\nout = 1\nmax = 1\nprint 1,\nfor i in range(n-1):\nif (out < max): \nout = out + 1\nelse:\nout = 1\nmax = max + 1\nprint out,\n 
+def tajna_posloupnost(n):\n    max = 0\n    for i in range(1, n):\n        for j in range(1,i):\n            print j,\n            max += 1\n            if max > n:\n                return\n 
+def tajna_posloupnost(n):\n    max = 0\n    for i in range(1, n):\n        for j in range(1,i):\n            print j,\n            max += 1\n            if max > n-1:\n                return\n 
+def tajna_posloupnost(n):\n    max = 0\n    for i in range(1,n+1):\n        for j in range(1,i):\n            print j,\n            max += 1\n            if max > n-1:\n                return\n 
+def tajna_posloupnost(n):\n    printed = 0\n    for i in range(1,n+1):\n        for j in range(1,i):\n            print j,\n            printed += 1\n            if printed > n-1:\n                return\n 
+def tajna_posloupnost(n):\n    counter = 0;\n    for x in range(1,20):\n        for i in range(1,x):\n            print i,\n            counter += 1\n            if counter == n:\n                return\n 
+def tajna_posloupnost(n):\n    kon = 0\n    for i in range(1,n+1):\n        for k in range(1,i):\n            print k,\n            kon += 1\n            if kon == n:\n                break\n        if kon == n:\n            break\n 
+def tajna_posloupnost(n):\n    k=0\n    i=1\n    while k<n:\n        for j in range(1, min(i+1, n-k+1)):\n            print j,\n        k += i\n        i+=1\n 
+def tajna_posloupnost(n):\n    i = 0\n    count = 0\n    while i <> n:\n        i += 1\n        j = 0\n        \n        if a == 1:\n            break\n        while j <> i:\n            j += 1\n            count += 1\n 
+def tajna_posloupnost(n):\n    x = 0\n    p = 1\n    for i in range(n):\n        x += 1\n        print x,\n        if x == p:\n            p += 1\n            x = 0\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n      if(n == 0): break\n      for j in range(i + 1):\n        print j+1,\n        n -= 1\n        if(n == 0): break\n 
+def tajna_posloupnost(n):\n    poc = 0\n    k = 1\n    while poc < n:\n        for i in range(1,k+1):\n            print i,\n            poc += 1\n            if poc >= n: break\n        k += 1\n    print\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n          print 1,\n 
+def tajna_posloupnost(n):\n    soucet=0\n    for i in range(n):\n        for j in range(i):\n          print j+1,\n          soucet+=1\n          if (soucet==2):\n            return 
+def tajna_posloupnost(n):\n    soucet=0\n    for i in range(n):\n        for j in range(i):\n          print j+1,\n          soucet+=1\n          if (soucet==n):\n            return 
+def tajna_posloupnost(n):\n    soucet=0\n    for i in range(n):\n        for j in range(i):\n          print j+1,\n          soucet+=1\n          if (soucet==n):\n            return 
+def tajna_posloupnost(n):\n    soucet=0\n    for i in range(n):\n        for j in range(i+1):\n          print j+1,\n          soucet+=1\n          if (soucet==n):\n            return 
+def tajna_posloupnost(n):\n    count = 0;\n    for i in range(n):\n        for j in range(i+1):\n            count = count+1;\n            print j+1,\n            if count == n:\n                return\n 
+def tajna_posloupnost(n):\n    t = 1\n    n = 1\n    for i in range(n):\n        print n,\n        if n < t:\n            n += 1\n        else:\n            n = 1\n            t +=1\n 
+def tajna_posloupnost(m):\n    t = 1\n    n = 1\n    for i in range(m):\n        print n,\n        if n < t:\n            n += 1\n        else:\n            n = 1\n            t +=1\n 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range(n):\n        for j in range(i):\n            if a == n:\n                break\n            print str(1+j),\n            a = a + 1\n        if a == n:\n            break\n 
+def tajna_posloupnost(n):\n    k = 1\n    l = 1\n    s = ""\n    for i in range(n):\n        s = s+str(k)\n        if  not i== n-1:\n            s = s+" "\n        if k==l:\n            l += 1\n            k = 1\n        else:\n 
+def tajna_posloupnost(n):\n    c=0\n    for i in range(1,n):\n        for j in range(1,i+1):\n            c+=1\n            if c<24:\n                print j,\n 
+def tajna_posloupnost(n):\n    c=0\n    for i in range(1,n):\n        for j in range(1,i+1):\n            c+=1\n            if c<n+1:\n                print j,\n 
+def tajna_posloupnost(n):\n    k = 0\n    for i in range(n):\n        for j in range (i):\n            if k >= n: return\n            print j+1,\n            k += 1\n 
+def tajna_posloupnost(n):\n    k = 0\n    for i in range(n):\n        for j in range (i+1):\n            if k >= n: return\n            print j+1,\n            k += 1\n 
+def tajna_posloupnost(n):\n    v=""\n    c=0\n    for i in range(n):\n        for j in range(i):\n            if c==n:\n                break\n            else:\n                v+=str(j+1)\n                c+=1\n                i 
+def tajna_posloupnost(n):\n    v=""\n    c=0\n    for i in range(n+1):\n        for j in range(i):\n            if c==n:\n                break\n            else:\n                v+=str(j+1)\n                c+=1\n 
+def tajna_posloupnost(n):\n    l=[]\n    for i in range(n):\n        for j in range(i):\n            l.append(j+1)\n    l=l[0:n]\n    for i in l: print i,\n    \n 
+def tajna_posloupnost(n):\n    l=[]\n    for i in range(n+1):\n        for j in range(i):\n            l.append(j+1)\n    l=l[0:n]\n    for i in l: print i,\n    \n 
+def tajna_posloupnost(n):\n    x=1\n    while n>0:\n        for i in range(1,x+1):\n            if n>0: print i,\n            n-=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    grade=1\n    a=n\n    num=[]\n    while n>0:\n        num.extend(range(1,grade+1))\n        grade+=1\n        n-=1\n    for i in num[0:a]:\n        print i, 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    count=1\n    for i in range(1, n):\n        for j in range(1, i):\n            print j,\n            count+=1\n            if count > n: return\n 
+def tajna_posloupnost(n):\n    count=1\n    for i in range(1, n+1):\n        for j in range(1, i+1):\n            print j,\n            count+=1\n            if count > n: return\n 
+def tajna_posloupnost(n):\n    c = 0\n    for i in range(1,n):\n        for j in range(1,i):\n            if c<n:\n                print j,\n            c+=1\n 
+def tajna_posloupnost(n):\n    c = 0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if c<n:\n                print j,\n            c+=1\n 
+def tajna_posloupnost(n):\n    x=0\n    while x<12:\n        for i in range(1,n):\n            for j in range(1,i+1):\n                if x<12:\n                    print j,\n                x+=1 
+def tajna_posloupnost(n):\n    x=0\n    while x<12:\n        for i in range(1,n):\n            for j in range(1,i+1):\n                if x<12:\n                    print j,\n                x+=1 
+def tajna_posloupnost(n):\n    x=0\n    while x<n:\n        for i in range(1,n):\n            for j in range(1,i+1):\n                if x<n:\n                    print j,\n                x+=1 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if x<n:\n                print j,\n            x+=1 
+def tajna_posloupnost(n):\n    mez=1\n    poradi=0\n    for i in range(n):\n        for j in range(1,mez):\n            if poradi < n:\n                print j,\n                poradi+=1\n        mez+=1\n 
+def tajna_posloupnost(n):\n    mez=1\n    poradi=0\n    for i in range(n):\n        for j in range(1,mez):\n            if poradi < n:\n                print j,\n                poradi+=1\n            if n==1: print 1\n        mez+=1 
+def tajna_posloupnost(n):\n    mez=1\n    poradi=0\n    for i in range(n):\n        for j in range(1,mez):\n            if poradi < n:\n                print j,\n                poradi+=1\n        if n==1: print 1\n        mez+=1\n 
+def tajna_posloupnost(n):\n    mez=1\n    poradi=0\n    for i in range(n):\n        for j in range(1,mez+1):\n            if poradi < n:\n                print j,\n                poradi+=1\n        mez+=1\n 
+def tajna_posloupnost(n):\n    m = 0\n    p = 2\n    r = 0\n    for j in range(1,n+1):\n        m += 1\n        if j == p:\n            r += 1\n            p += 1\n            p = p + r\n            m = 1\n        print m,\n 
+def tajna_posloupnost(n):\n    pocet = 1\n    for i in range(n+1):\n        for j in range(i):\n            if pocet <= n:\n                print j+1,\n            pocet+=1\n 
+def tajna_posloupnost(n):\n    s = []\n    for i in range(1,n):\n        for j in range(1,i):\n            s.append(j)\n    for j in range(n):\n        print s[j],\n 
+def tajna_posloupnost(n):\n    s = []\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            s.append(j)\n    for k in range(n):\n        print s[k],\n        \n 
+def tajna_posloupnost(n):\n        for i in range(1,n+1):\n            for m in range(1,i):\n                print m,\n            print i,\n 
+def tajna_posloupnost(n):\n    for i in range(1,n-1):\n        for j in range(1,i):\n            print j,\n 
+def tajna_posloupnost(n):\n    soucet=0\n    for a in range (1,n):\n        for b in range (1,a):\n            soucet+=1\n            if soucet<=n:\n                print b,\n            else:\n                break\n    \n 
+def tajna_posloupnost(n):\n    i=1\n    a=0\n    while True:        \n        for j in range(i):\n            print j+1,\n            a+=1\n            if a>n-1:\n                return\n        i+=1 
+def tajna_posloupnost(n):\n    citac = 0\n    i=0\n    while citac<=20:\n        i+=1\n        for j in range(i):\n            citac+=1\n            if citac<=20:\n                print j+1,\n            else: \n                re 
+def tajna_posloupnost(n):\n    citac = 0\n    i=0\n    while citac<=n:\n        i+=1\n        for j in range(i):\n            citac+=1\n            if citac<=n:\n                print j+1,\n            else: \n                retu 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(1,n+1):\n        for j in range (1,i):\n            print j,\n            if (x+1>=n): return\n            else: x=x+1 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(1,n+1):\n        for j in range (0,i):\n            print j+1,\n            if (x+1>=n): return\n            else: x=x+1 
+def tajna_posloupnost(n):\n    i = 1\n    s = 1\n    while n>0:\n        print i,\n        if i==s:\n            s +=1\n            i = 0\n        i += 1\n        n -=1\n 
+def tajna_posloupnost(n):\n    p = n\n    for i in range(1,n-1):\n        for j in range (1,i+1):\n            if p >0:\n                print j,\n                p -=1\n            \n 
+def tajna_posloupnost(n):\n    k=1\n    i=0\n    l=0\n    while l<n:\n        if i+1>k:\n            k += 1\n            i=1\n        else: i = i+1\n        print i,\n        l+=1\n 
+def tajna_posloupnost(n):\n    i = 0\n    j = 0\n    pom = 0\n    while pom < n:\n        j = 0\n        i = i + 1\n        while j < i :\n            j = j + 1\n            if pom ==n:\n                return\n            print j, 
+def tajna_posloupnost(n):\n    pocet=0\n    x=1\n    cislo=0\n    while pocet< n:\n        cislo = cislo+1\n        for x in range(1,cislo):\n            print x,\n            pocet +=1\n            x = x+1\n 
+def tajna_posloupnost(n):\n    pocet=0\n    x=1\n    cislo=0\n    while pocet< n:\n        cislo = cislo+1\n        for x in range(1,cislo):\n            if pocet==n:\n                break\n            print x,\n            pocet + 
+def tajna_posloupnost(n):\n    l = 0\n    for i in range(1,n):\n        for j in range(1,i):\n            if l < n:\n                 print j,\n                 l += 1\n 
+def tajna_posloupnost(n):\n    l = 0\n    for i in range(0,n):\n        for j in range(0,i):\n            if l < n:\n                 print (j+1),\n                 l += 1\n 
+def tajna_posloupnost(n):\n    l = 0\n    if n == 1:\n        print 1\n        return\n    for i in range(0,n):\n        for j in range(0,i):\n            if l < n:\n                 print (j+1),\n                 l += 1\n 
+def tajna_posloupnost(n):\n    end=1\n    x=1\n    i=1\n    while i<=n:\n        if x>end:\n            end+=1\n            x=1\n        print x,\n        x+=1\n        i+=1\n 
+def tajna_posloupnost(n): \n    k = 0\n    l = 1\n    for i in range(n):\n        if k < l:\n            k += 1\n        else:\n            k = 1\n            l += 1\n        print k,\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            pocet += 1\n            if pocet == n: return\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    i = 1\n    while True:\n        for j in range(i):\n            print j+1,\n            pocet += 1\n            if pocet == n: return\n        i += 1\n 
+def tajna_posloupnost(n):\n    p=0\n    for i in range(1,n+1):\n        for j in range(1,i):\n            print j,\n            p+=1\n            if p == n: break \n 
+def tajna_posloupnost(n):\n    p=0\n    for i in range(1,n+1):\n        for j in range(1,i):\n            print j,\n            p+=1\n            if p == n: return  \n 
+def tajna_posloupnost(n):\n    index=0\n    for i in range(n):\n        for k in range(1,i+1):\n            if index==n:\n                \n                break\n                \n            index +=1\n            print k,\n    \ 
+def tajna_posloupnost(n):\n    index=0\n    if n==1:\n        print "1"\n        \n    if n==2:\n        print "1 1"\n    \n    else:\n        for i in range(n):\n            for k in range(1,i+1):\n                if index==n:\n 
+def tajna_posloupnost(n):\n    vystup=""\n    for i in range (1,n):\n        for j in range (1,i):\n            vystup +=str( j)\n            \n    for i in range (n):\n        print vystup [i],\n   \n 
+def tajna_posloupnost(n):\n    vystup=""\n    for i in range (1,n+1):\n        for j in range (1,i):\n            vystup +=str( j)\n            \n    for i in range (n):\n        print vystup [i],\n   \n 
+def tajna_posloupnost(n):\n    vystup=""\n    for i in range (1,n+1):\n        for j in range (1,i+1):\n            vystup +=str( j)\n            \n    for i in range (n):\n        print vystup [i],\n   \n 
+def tajna_posloupnost(n):\n    a=1\n    b=1\n    for i in range(n):\n        print a,\n        if(a==b):\n            a=1\n            b+=1\n        else:\n            b+=1 
+def tajna_posloupnost(n):\n    a=1\n    b=1\n    for i in range(n):\n        print a,\n        if(a==b):\n            a=1\n            b+=1\n        else:\n            a+=1 
+def tajna_posloupnost(n):\n    x = 0\n    y = 1\n    for i in range(n):\n        x += 1\n        print x,\n        if x == y:\n            x = 0\n            y += 1\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    aktualna = 1\n    max = 1\n    for i in range(n):\n        print aktualna,\n        aktualna = aktualna + 1\n        if aktualna > max:\n            aktualna = 1\n            max = max + 1\n 
+def tajna_posloupnost(n):\n    b=0\n    for i in range(1,n+1):\n        a = 1\n        while a != i:\n            print a,\n            a += 1\n            b+=1\n            if b == n:\n                break\n        if b == n:\n 
+def tajna_posloupnost(n):\n    if n ==2:\n        print "1 1"\n    elif n == 1:\n        print "1"\n    else:\n        b=0\n        for i in range(1,n+1):\n            a = 1\n            while a != i:\n                print a,\n 
+def tajna_posloupnost(n):\n    y=x=1\n    for i in range(n):\n        print x,\n        x+=1\n        if x>y:\n            x=1\n            y+=1 
+def tajna_posloupnost(n):\n    i=1\n    s=0\n    while(1):\n        for j in range(1,i+1):\n           print j,\n           s += 1\n           if n == s:\n                return\n        i += 1             \n 
+def tajna_posloupnost(n):\n    count=0\n    for i in range(1,n+1):\n        if count == n:\n            break\n        for b in range(1,i+1):\n            count+=1\n            print b,\n            if count == n:\n 
+def tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > strop:\n            aktualni = 1\n            strop +=1\n 
+def posloupnost(n):\n    count = 0\n    while n > 0:\n        if n % 2 == 1:\n            count += 1\n        n = n / 2\n    return count\ndef tajna_posloupnost (n):\n    for i in range (1, n+1):\n        print posloupnost (i),\n 
+def posloupnost(n):\n    count = 0\n    while n > 0:\n        if n % 2 == 1:\n            count += 1\n        n = n / 2\n    return count\ndef tajna_posloupnost (n):\n    for i in range (1, n+1):\n        print posloupnost (i),\n 
+def tajna_posloupnost(n):\n    koniec = 0\n    for i in range(1, n+1):\n        for j in range (1, i+1):\n           if koniec < n:\n                print j,\n                koniec = koniec + 1\n 
+def tajna_posloupnost(n):\n    j = 0\n    for k in range(1, n+1):\n        for l in range(1, k+1):\n            if j < n:\n                print l,\n                j += 1\n 
+def tajna_posloupnost(n):\n    i = 0\n    k = 1\n    while i < n: \n        for j in range(1, k + 1):\n            print j, \n        i = i + k\n        k = min(k + 1, n - i)\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    for k in range(n):\n        print p[k],\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    if n == 1:\n        print 1\n    for k in range(n):\n        print p[k],\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    if n == 1:\n        print 1\n    for k in range(n):\n        print p[k],\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    if n == 1:\n        print 1\n        \n    for k in range(n):\n        print p[k],\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    if n == 1:\n        print 1\n    \n    for k in range(n):\n        print p[k],\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    if n == 1:\n        print 1\n    \n    for k in range(n):\n        print p[k],\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    if n == 1:\n        print 1\n    \n    \n    for k in range(n):\n        print p[k],\n 
+def tajna_posloupnost(n):\n    p = []\n    for i in range(n):\n        for j in range(1,i+1):\n            p.append(j)\n    if n == 1:\n        print "1"\n    elif n == 2:\n        print "1 1"\n    else:\n        for k in range(n):\n 
+def tajna_posloupnost(n):\n    cislo=0\n    counter=0\n    while cislo!=n:\n        cislo+=1\n        for j in range(1,cislo+1):\n            print j,\n            counter+=1\n            if counter==n:\n                return 0\n 
+def tajna_posloupnost(n):\n    poc = 0\n    krok = 1\n\n    while(True):\n        for i in range(1, krok+1):\n            print i,\n            poc += 1\n            if(poc == n):\n                return None\n        krok += 1\n 
+def tajna_posloupnost(n):\n    a=1\n    b=1\n    for i in range(n):\n        print a,\n        if a==b:\n            b+=1\n            a=1\n        else:\n            a+=1\n 
+def tajna_posloupnost(n):\n    c = 0\n    for i in range(n):\n        for j in range (i):\n            print j+1,\n            c = c + 1\n            if (c == n):\n                return\n 
+def tajna_posloupnost(n):\n    c = 0\n    for i in range(n):\n        for j in range (i+1):\n            print j+1,\n            c = c + 1\n            if (c == n):\n                return\n 
+def tajna_posloupnost(n):\n    c=1\n    k=0\n    p=2\n    for i in range(1, n+1):\n        if k==c:\n            c=1\n            p+=1\n            k=0\n        print c,\n        c+=1\n        if p==c:\n            k=c\n 
+def tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni +=1\n        if aktualni>strop:\n            aktualni = 1\n            strop+=1\n 
+def tajna_posloupnost(n):\n    max = 1\n    now = 1\n    for i in range(n):\n        print now,\n        if now == max:\n            max += 1\n            now = 0\n        now += 1\n 
+def tajna_posloupnost(n):\n    pocet_vypisanych=0\n    najvacsie=0\n    while(pocet_vypisanych!=n):\n        najvacsie+=1\n        for i in range(1,najvacsie+1):\n            print i,\n            pocet_vypisanych+=1\n            if 
+def tajna_posloupnost(n):\n    a = []\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            a.append(j)\n    b = 0\n    for k in range(n):\n        print a[k], 
+def tajna_posloupnost(n):\n    i=0\n    temp = 1\n    while(i<n):\n       for j in range(1,temp+1):\n            print(j),\n            i+=1\n       temp+=1\n 
+def tajna_posloupnost(n):\n    i=0\n    temp = 1\n    while(i<n):\n       for j in range(1,temp+1):\n            print(j),\n            i+=1\n            if i==n:\n                break\n       temp+=1\n 
+def tajna_posloupnost(n):\n    s=1\n    vypsano = 0\n    for i in range(n):\n        for j in range (1,s+1):\n            if vypsano < n:\n                print j,\n                vypsano = vypsano + 1\n            else:\n 
+def tajna_posloupnost(n):\n    x = 0\n    a = 1\n    for i in range(n):\n        x = x + 1 \n        if a == x :\n            x = 1\n            a = a + 1 \n        \n        print x,\n\n        \n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(1,n):\n        if pocet<n:\n            for j in range (1,i):\n                if pocet<n:\n                    print j,\n                    pocet+=1\n                else:\ 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if a == n:\n                break\n            print j,\n            a += 1\n        \n 
+def tajna_posloupnost(n):\n    pomoc = 0\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            pomoc += 1\n            if pomoc == n: return  
+def tajna_posloupnost(n):\n    pomoc = 0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n            pomoc += 1\n            if pomoc == n: return  
+def tajna_posloupnost(n):\n    i=0\n    k=0\n    while k<>n:\n        i+=1\n        for j in range(i):\n            print j+1,\n            k+=1\n            if k==n:\n                break\n 
+def tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > strop:\n            aktualni = 1\n            strop += 1 
+def tajna_posloupnost(n):\n    max = 1\n    total = 0\n    for i in range(n):       \n        for j in range(max):\n            if(total>=n):\n                break\n            else:\n                print (j+1),            \n 
+def tajna_posloupnost(n):\n    count = 0\n    for i in range(n):\n        for j in range(i):\n            if (count >= n):\n                break\n            else:\n        print j+1,\n        count += 1\n        \n 
+def tajna_posloupnost(n):\n    max = 1\n    count = 0\n    while(count < n):\n        for i in range(1,max+1):\n            if count >= n:\n                break\n            print i,\n            count +=1\n        max +=1\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    pocet=0\n    for i in range(1,n):\n        for t in range(1,i+1):\n            if pocet==n:return\n            print t,\n            pocet+=1 
+def tajna_posloupnost(n):\n    pocet=0\n    for i in range(1,n):\n        for t in range(1,i+1):\n            print t,\n            pocet+=1\n            if pocet==n:return\n 
+def tajna_posloupnost(n):\n    pocet=0\n    for i in range(1,n+1):\n        for t in range(1,i+1):\n            print t,\n            pocet+=1\n            if pocet==n:return\n 
+def tajna_posloupnost(n):\n    m=1\n    v=1\n    for i in range(n):\n        if v<m:\n            print v,\n            v+=1\n        else:\n            m+=1\n            print v,\n            v=1\n            \n        \n 
+def tajna_posloupnost(n):\n    delka = n\n    i = 1\n    while delka > 0:\n        for j in range(1, i+1):\n            print j,\n            delka -= 1\n            if delka == 0: break\n        i += 1\n 
+def tajna_posloupnost(n):\n    pom=0\n    for i in range(1,n):\n        for a in range(1,i):\n            print a,\n            pom+=1\n            if pom==n:\n                return 1 
+def tajna_posloupnost(n):\n    pom=1\n    for i in range(n):\n        for a in range(1,i+1):\n            print a,\n            if pom==n:\n                return 1\n            pom+=1 
+def tajna_posloupnost(n):\n    pom=1\n    for i in range(n):\n        for a in range(1,i+1):\n            print a,\n            if pom==n:\n                return 1\n            pom+=1 
+def tajna_posloupnost(n):\n    pom=1\n    for i in range(n+1):\n        for a in range(1,i+1):\n            print a,\n            if pom==n:\n                return 1\n            pom+=1 
+def tajna_posloupnost(n):\n    soucet=0\n    for i in range(1,n+1):\n        for j in range(1,n+1):\n            if j<=i:\n                soucet=soucet+1\n                if soucet<=n:\n                    print j,\n 
+def tajna_posloupnost(n):\n    b=0\n    c=0\n    for i in range(n):\n       if i==c:\n            a=0\n       if c==i:\n                b=b+1\n                c=c+b\n       a=a+1\n       print a,\n 
+def tajna_posloupnost(n):\n    count = 0\n    i = 1\n    while(count < n):\n        for j in range(1,i):\n            if(count < n):\n                print j,\n                count += 1\n        i += 1\n 
+def tajna_posloupnost(n):\n    num_printed = 0\n    for i in mmm():\n        print i,\n        num_printed += 1\n        if num_printed >= n:\n            break\n\ndef mmm():\n    m = 0\n    while True:\n        for i in range(m):\n 
+def tajna_posloupnost(n):\n    pocitadlo = 0\n    for i in range(1,n):\n        for y in range(1,i):\n            print y,\n            pocitadlo += 1\n            if pocitadlo == n:\n                return 1 
+def tajna_posloupnost(n):\n    pocitadlo = 0\n    for i in range(1,n+1):\n        for y in range(1,i+1):\n            print y,\n            pocitadlo += 1\n            if pocitadlo == n:\n                return 1 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def delitelu(n):\n    delitelu = 1\n    for i in range(2, n+1):\n        if i%n == 0:\n            delitelu += 1\n    return delitelu\n\ndef tajna_posloupnost(n):\n    for i in range(n):\n        print delitelu(i),\n 
+def tajna_posloupnost(n):\n    peak = 1\n    current = 0\n    for i in range(n):\n        current += 1\n        print current,\n        if current >= peak:\n            current = 0\n            peak += 1\n 
+def tajna_posloupnost(n):\n    seznam = ""\n    counter = 0\n    i = 2\n    while counter < n:\n        for j in range(1,i):\n            seznam += str(j)\n            seznam += " "\n            counter += 1\n            if counter 
+def tajna_posloupnost(n):\n    p=1\n    o=1\n    for i in range(n):\n        if p<o: \n            print p,\n            p+=1\n        else:\n            print p,\n            p=1\n            o+=1 
+def tajna_posloupnost(n):\n    posloupnost = []\n    max=1\n    for i in range(n):\n        j=1\n        for j in range(1,(max+1)):\n            if len(posloupnost)==n: break\n            posloupnost.append(j)\n            print j,\n 
+def tajna_posloupnost(n):\n    j=1\n    x=1\n    while x<=n:\n    for i in range(1, j+1):\n        print i,\n        x+=1\n        if x>n: break\n    j+=1 
+from math import sqrt\ndef tajna_posloupnost(n):\n    q=[1]\n    s=[]\n    while len(s) < n:\n        s+=q\n        q.append(q[-1]+1)\n    for i in range(n):\n        print s[i],\n 
+def tajna_posloupnost(n):\n    x = []\n    for i in range(n):\n        for j in range(1, i):\n            x.append(j)\n    for i in range(n):\n        print x[i],\n 
+def tajna_posloupnost(n):\n    x = []\n    for i in range(n):\n        for j in range(1, i+2):\n            x.append(j)\n    for i in range(n):\n        print x[i],\n 
+def tajna_posloupnost(n):\n    count = 1\n    number = 0\n    for _ in range(n):\n        if number == count:\n            count += 1\n            number = 0\n        number += 1\n        print number,\n            \n 
+def tajna_posloupnost(n):\n    vysledek = []\n    seznam = range(1,n)\n    neco = 1\n    while len(vysledek) < n:\n        for i in seznam[0:neco]:\n            vysledek.append(i)\n        neco += 1\n    for i in vysledek[0:n]:\n 
+def tajna_posloupnost(n):\n    vysledek = []\n    seznam = range(1,n)\n    neco = 1\n    while len(vysledek) < n:\n        for i in seznam[0:neco]:\n            vysledek.append(i)\n        neco += 1\n    for i in vysledek[0:n]:\n 
+def tajna_posloupnost(n):\n    vysledek = []\n    seznam = range(1,n)\n    neco = 1\n    while len(vysledek) < n:\n        for i in seznam[0:neco]:\n            vysledek.append(i)\n        neco += 1\n    for i in vysledek[0:n]:\n 
+def tajna_posloupnost(n):\n    vysledek = []\n    seznam = range(1,n)\n    neco = 1\n    while len(vysledek) < n:\n        for i in seznam[0:neco]:\n            vysledek.append(i)\n        neco += 1\n    for i in vysledek[0:n]:\n 
+def tajna_posloupnost(n):\n    vysledek = []\n    seznam = range(1,n)\n    neco = 1\n    while len(vysledek) < n:\n        for i in seznam[0:neco]:\n            vysledek.append(i)\n        neco += 1\n    for i in vysledek[0:n]:\n 
+def tajna_posloupnost(n):\n    kon=1\n    posl=1\n    while kon<=n: \n        for i in range(posl):\n            print i+1,\n            kon+=1\n        posl+=1\n 
+def tajna_posloupnost(n):\n    kon=0\n    posl=1\n    while kon<n:\n        for i in range(posl):\n            print i+1,\n            kon+=1\n            if kon==n:\n                break;\n        posl+=1\n 
+def tajna_posloupnost(n):\n    post = ""\n    for i in range(n):\n        post += i\n        print post 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    res = ""\n    post = ""\n    i = 1\n    while len(res.replace(" ","")) < n:\n        post += " " + str(i)\n        i += 1\n        res += post\n    print res.strip()\n 
+def tajna_posloupnost(n):\n    count = 0\n    \n    for i in range(n):\n        for j in range(i):\n            if count > n-1:\n                break\n            else:\n                print j+1,\n                count += 1\n 
+def tajna_posloupnost(n):\n    count = 0\n    \n    if n=1:\n        print "1"\n        break\n    \n    for i in range(n):\n        for j in range(i):\n            if count > n-1:\n                break\n            else:\n 
+def tajna_posloupnost(n):\n    if n == 1:\n        print "1"\n    else:\n        count = 0\n        \n        for i in range(n):\n            for j in range(i):\n                if count > n-1:\n                    break\n 
+def tajna_posloupnost(n):\n    if n == 1:\n        print "1"\n    elif n == 2:\n        print "1 1"\n    else:\n        count = 0\n        \n        for i in range(n):\n            for j in range(i):\n                if count > n-1:\n 
+def tajna_posloupnost(n):\n    k = 1\n    l = 1\n    while l < n:\n        for i in range(k):\n            print i + 1,\n            l = l + 1\n        k = k + 1\n 
+def tajna_posloupnost(n):\n    if n == 0:\n        return\n    x = 0\n    k = 1\n    while True:\n        for i in range(k):\n            print i+1,\n            n = n - 1\n            if n <= 0:\n                return\n        k = 
+def tajna_posloupnost(n):\n    pocet = 0\n    tmp = 0\n    while (tmp < n):\n        pocet += 1\n        for j in range (1,pocet+1):\n            tmp += 1\n            if(tmp <= n):\n                print j,\n\n            \n 
+def tajna_posloupnost(n):\n    i = 1\n    j = 1\n    while n!=0:\n        print j,\n        if j==i:\n            i += 1\n            j = 1\n        else:\n            j += 1\n        n -= 1\n 
+def tajna_posloupnost(n):\n    index = 0\n    for i in range(1,n):\n        for j in range(1,i):\n            print j,  \n            index += 1\n            if index == n:\n                break\n        if index==n:\n            brea 
+def tajna_posloupnost(n):\n    index = 0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,  \n            index += 1\n            if index == n:\n                break\n        if index==n:\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range (n):\n        y=1+i\n        x=1\n        for i in range (y):\n            print x,\n            x=x+1\n            a=a+1\n            if a==n:\n                return 
+def tajna_posloupnost(n):\n    data=[]\n    for i in range(n):\n        for j in range(1,i+1):\n            data.append(j)\n    for k in range(n):\n        print data[k],\n 
+def tajna_posloupnost(n):\n    data=[]\n    for i in range(n):\n        for j in range(1,i+1):\n            data.append(j)\n    for k in range(n):\n        print data[k],\n 
+def tajna_posloupnost(n):\n    data=[]\n    for i in range(n):\n        for j in range(1,i+1):\n            data.append(j)\n    for k in range(n):\n        print data[k],\n 
+def tajna_posloupnost(n):\n    data=[]\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            data.append(j)\n    for k in range(0,n):\n        print data[k],\n 
+def tajna_posloupnost(n):\n    delka = 1\n    pocet_clenu = 0\n    for i in range(0,n-1):\n        for j in range(1,delka):\n            print j,\n            pocet_clenu += 1\n            if (pocet_clenu == n):\n                break\ 
+def tajna_posloupnost(n):\n    delka = 1\n    pocet_clenu = 0\n    if (n==1):\n        print 1\n    elif (n==2):\n        print 1,\n    for i in range(0,n):\n        for j in range(1,delka):\n            print j,\n            pocet_clen 
+def tajna_posloupnost(n):\n  c = 1\n  d = 1\n  for i in range(n):\n            print c,\n            if c == d:\n                c = 1\n                d += 1\n            else:\n                c += 1\n                \n        \ 
+def tajna_posloupnost(n):\n    aktualni = 1\n    stop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > stop:\n            aktualni = 1\n            stop += 1\n 
+def tajna_posloupnost(n):\n    for i in range(1, n+1):\n        bin = 0\n        while i != 0:\n            if i % 2 == 1:\n                bin += 1\n            else:\n                bin += 0\n            i = i//2\n        print 
+def tajna_posloupnost(n):\n    counter = 0\n    for i in range(n):\n        for j in range(0,i+1):\n            print j+1,\n            counter += 1\n            if (counter == n):\n                return\n 
+def tajna_posloupnost(n):\n    i = 0\n    while n>0:\n        if i > 0:\n            for j in range(0,i+1,1):\n                k = j+1\n                print k,\n                n -=1\n                if n <=0:\n                    b 
+def tajna_posloupnost(n):\n    count = 0\n    to = 1\n    s = ""\n    while count < n:\n        for i in range(to):\n            s += str(i+1) + " "\n            count += 1\n            if count == n:\n                break\n 
+def tajna_posloupnost(n):\n    left = n\n    rang = 1\n    conti = True\n    while conti:\n        for i in range(rang):\n            print i + 1,\n            left -= 1\n            \n            if left <= 0:\n                conti 
+def tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > strop:\n            aktualni = 1\n            strop += 1\n 
+def tajna_posloupnost(n):\n    b=0\n    i=1\n    a=1\n    while b<n:\n        print i,\n        if i==a:\n            i=0\n            a=a+1\n        i=i+1\n        b=b+1\n    \n 
+def tajna_posloupnost(n):\n    g=0\n    pocet=0\n    while pocet<n:\n        for i in range(1,g+1):\n            print i,\n            pocet+=1\n        g+=1\n        \n        \n 
+def tajna_posloupnost(n):\n    g=0\n    pocet=0\n    stop=n\n    while pocet<n:\n        for i in range(1,g+1):\n            print i,\n            pocet+=1\n            stop=n-pocet\n            if stop==0:\n                break\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    while()\n        for j in range(1,i+1):\n            print j,\n 
+def tajna_posloupnost(n):\n    c=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if c<n:\n                print j,\n                c+=1 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def jednicek(n):\n    pocet = 0\n    while n > 0:\n        if(n % 2 == 1):\n            pocet +=1\n        n = n / 2\n    return pocet\ndef tajna_posloupnost(n):\n    for i in range(n):\n        print jednicek(i),\n 
+def tajna_posloupnost(n):\n    Pocet = n\n    for i in range(n):\n        for j in range(1,i):\n            if (Pocet > 0):\n                print j,\n                Pocet -=1\n            else:\n                return\n            \n 
+def brekeke(n):\n    pocet = 0\n    while n > 0:\n        if n % 2 == 1:\n            pocet += 1   \n        n = n // 2\n    return pocet\n\ndef tajna_posloupnost(n):\n    for i in range(1,n+1):\n        print brekeke(i),\n 
+def tajna_posloupnost(n):\n    max = 1\n    total = 0\n    i = 1\n    while total < n:\n        print i,\n        total += 1\n        i += 1\n        if i > max:\n            max += 1\n            i = 1\n 
+def tajna_posloupnost(n):\n    i = 1\n    k = 1\n    while i<=n:\n        for j in range(1,k+1):\n            if i<=n: print j,\n            i+=1\n        k+= 1\n 
+def tajna_posloupnost(n):\n    m = 1\n    a = 1\n    for i in range(n):\n        print a,\n        if a == m:\n            m += 1\n            a = 1\n        else:\n            a += 1\n 
+def tajna_posloupnost(n):\n    v=""\n    c=1\n    while v.count("1")<=c:\n        for i in range (1,c+1):\n            v+=str(i)\n            if len(v)==n:\n                return v\n        c+=1\n 
+def tajna_posloupnost(n):\n    v=""\n    c=1\n    while v.count("1")<=c:\n        for i in range (1,c+1):\n            v+=str(i)+" "\n            if len(v)==n*2:\n                return v+"None"\n        c+=1\n 
+def tajna_posloupnost(n):\n    v=""\n    c=1\n    aux=0\n    while v.count("1")<=c:\n        for i in range (1,c+1):\n            v+=str(i)+" "\n            if len(v)==n*2:\n                aux=1\n                break\n        c% 
+def tajna_posloupnost(n):\n    posloupnost = []\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if len(posloupnost) < n:\n                posloupnost.append(j)\n    for i in range(n):\n        print posloupnost 
+def tajna_posloupnost(n):\n    retazec = ""\n    for i in range(1,n+1):\n        for j in range(1,i):\n            retazec = retazec + str(j)\n    for i in range (0,n):\n        print retazec[i],\n 
+def tajna_posloupnost(n):\n    if n == 1:\n        print "1"\n    else:\n        retazec = ""\n        for i in range(1,n+1):  \n            for j in range(1,i):\n                retazec = retazec + str(j)\n        for i in range(0,n) 
+def genParcPostupnost(pos, pocet):\n    tempPocet = 0\n    for i in range(1, pos + 1):\n        print i,\n        tempPocet += 1\n        if tempPocet == pocet:\n            break\n            \ndef tajna_posloupnost(n):\n    tempDlz 
+def tajna_posloupnost(n):\n    pocet = n\n    tempDlzka = 1\n    while pocet > 0:\n        genParcPostupnosti(tempDlzka, pocet)\n        pocet -= tempDlzka\n        tempDlzka += 1\n        \ndef genParcPostupnosti(maxPos, dlzka):\n 
+def tajna_posloupnost(n):\n    lst = []\n    i = 0\n    x = 0\n    while x < n: \n        for j in range(1,i):\n            if x == n: \n                break\n            lst.append(str(j))\n            x+=1\n        i+=1\n 
+\ndef tajna_posloupnost(n):\n    o=0\n    for i in range(n):\n        for j in range(i):\n            print(j+1),\n            o=o+1\n            if o==n:\n                return()\n            \n 
+\ndef tajna_posloupnost(n):\n    o=0\n    for i in range(n+1):\n        for j in range(i):\n            print(j+1),\n            o=o+1\n            if o==n:\n                return()\n            \n 
+def tajna_posloupnost(n):\n    poc=0\n    for i in range(100):\n        for j in range(i):\n            if poc<n:\n                print j+1,\n                poc+=1\n        \n 
+def tajna_posloupnost(n):\n    cisla = []\n    poc = 1\n    for x in range(n):\n        for j in range(1,poc+1):\n            cisla.append(j)\n        poc+=1\n    for x in range(n):\n        print cisla[x],\n 
+def tajna_posloupnost(n):\n    i=1\n    while n>0:\n        for j in range(1,i+1):\n            n-=1\n            print j,\n        i+=1\n        \n 
+def tajna_posloupnost(n):\n    i=1\n    while n>0:\n        for j in range(1,i+1):\n            n-=1\n            if n==0: break\n            print j,\n            \n        i+=1\n        \n 
+def tajna_posloupnost(n):\n    i=1\n    while n>0:\n        for j in range(1,i+1):\n\n\n            print j,\n            n-=1\n            if n==0> break\n            \n        i+=1\n        \n 
+def tajna_posloupnost(n):\n    i=1\n    while n>0:\n        for j in range(1,i+1):\n\n\n            print j,\n            n-=1\n            if n==0: break\n            \n        i+=1\n        \n 
+def tajna_posloupnost(n):\n    x=1\n    y=[]\n    print 1,\n    for i in range(n):\n        while x !=(i+1):\n            x=x+1\n            print x,\n            y.append(x)\n            if len(y)==n-1:\n                return\n 
+def seq(n,cnt,total):\n    for i in range(1,n+1):\n        if cnt < total:\n            print i,\n            cnt+=1\n    return cnt\n\ndef tajna_posloupnost(n):\n    cnt=0\n    for i in range(1,n):\n        cnt=seq(i,cnt,n)\n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            x+= 1\n            if x<n+1:\n                print j,\n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(n):\n        for j in range (i):\n            if x < n:\n                print j+1,\n                x += 1\n        \n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(n+1):\n        for j in range (i+1):\n            if x < n:\n                print j+1,\n                x += 1\n        \n 
+def tajna_posloupnost(n):\n    text=""\n    citac=0\n    for i in range(n):\n        for j in range(1,i+1):\n            if citac!=n:\n                print j,\n                citac+=1\n 
+def tajna_posloupnost(n):\n    citac=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if citac!=n:\n                print j,\n                citac+=1\n 
+def tajna_posloupnost(n):\n    num = 0\n    limit = 0\n    for i in range(n):\n        if num>limit:\n            num=0\n            limit+=1\n        num+=1\n        print num,\n 
+def tajna_posloupnost(n):\n    i = 0\n    r = 1\n    while True:\n        for j in range(1, r+1):\n            if i >= n: return\n            print j,\n            i += 1\n        r += 1\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    if n==0:\n        return\n    naj=1\n    aktual=1\n    for i in range(n):\n        print aktual,\n        if aktual>=naj:\n            naj+=1\n            aktual=1\n        else:\n            aktual+= 
+def tajna_posloupnost(n):\n    total = 0\n    x = 1\n    while x <= n: \n        for i in range(1, x):\n            print i,\n            total += 1\n            if total == n: return\n        x += 1\n 
+def tajna_posloupnost(n):\n    total = 0\n    x = 1\n    while x <= n: \n        for i in range(1, x+1):\n            print i,\n            total += 1\n            if total == n: return\n        x += 1\n 
+def tajna_posloupnost(n):\n    c=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n            c+=1\n            if c==n:break\n        if c==n: break\n    print\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(1,n):\n        for j in range(1,i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet< n:\n                print j+1,\n                pocet = pocet +1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    i=1\n    for k in range(2, n):\n        for j in range(1,k):\n            print j,\n            if i==n:\n                break\n            i+=1\n        if i==n:\n            break\n 
+def tajna_posloupnost(n):\n    i=0\n    for k in range(2, n+1):\n        for j in range(1,k):\n            print j,\n            i+=1\n            if i==n:\n                break\n        if i==n:\n            break\n 
+def tajna_posloupnost(n):\n    A=[]\n    b=[]\n    for j in range(1,n+1):\n        A.append(j)\n        for i in range(j):\n            pomocka = A[i]\n            b.append(pomocka)\n    for k in range(n):\n        print b[k],\n 
+def tajna_posloupnost(n):\n    for i in range(5 * n):\n        for j in range(i):\n            if (n == 0): return\n            print j + 1,\n            n -= 1\n 
+def tajna_posloupnost(n):\n    i = 0\n    k = 1\n    while i<n:\n        for j in range(k):\n            if i <n:\n                print j+1,\n            i =i +1\n            \n        k = k +1\n       \n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(1,i):\n            if j < (i+1):\n                print j,\n                pocet += 1\n                if pocet == n:\n                    retur 
+def tajna_posloupnost(n):\n    for i in range(1,n+1):\n        pocet = 0\n        while i>0:\n            if i%2 ==1:\n                pocet= pocet + 1\n            i=i / 2\n        print pocet,\n 
+\ndef tajna_posloupnost(n):\n    for i in range(1,n+1):\n        pocet =0\n        while i>0:\n            if i %2==1:\n                pocet +=1\n            i = int(i/2)\n        print pocet,\n 
+def tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > strop:\n            aktualni = 1\n            strop += 1\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    pocet, i, naj = 0, 1, 1\n    while pocet!=n:\n        print i,\n        if i==naj:\n            i = 1\n            naj += 1\n        else:\n            i += 1\n        pocet += 1\n            \n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    vypsanych=0\n    for i in range(1,n):\n        p=0\n        while p!=i:\n            print 1+p,\n            p+=1\n            vypsanych+=1\n            if vypsanych==n:\n                break\n 
+def tajna_posloupnost(n):\n    if n==1:\n        print 1,\n        return\n    if n==2:\n        print 1, 1\n        return\n    vypsanych=0\n    for i in range(1,n):\n        p=0\n        while p!=i:\n            print 1+p,\n 
+def tajna_posloupnost(n):\n    a=0\n    for s in range(n):\n        for cislo in range(1,s):\n            if(n>a):\n                print cislo,\n                a=a+1\n 
+def tajna_posloupnost(n):\n    a=0\n    if(n==1):\n        print "1"\n    for s in range(n):\n        for cislo in range(1,s):\n            if(n>a):\n                print cislo,\n                a=a+1\n 
+def tajna_posloupnost(n):\n    a=0\n    if(n==1 or n==2):\n        print "1",\n     \n    for s in range(n):\n        for cislo in range(s):\n            if(n>a):\n                print cislo+1,\n                a=a+1\n       \n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(1, n):\n        if pocet == n:\n            break\n        for j in range(1, i):\n            print j,\n            pocet += 1\n            if pocet == n:\n                br 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(1, n+1):\n        if pocet == n:\n            break\n        for j in range(1, i+1):\n            print j,\n            pocet += 1\n            if pocet == n:\n 
+def tajna_posloupnost(n):\n    a = 1\n    b = 1\n    for i in range(n):\n        print a,\n        a += 1\n        if a > b:\n            a = 1\n            b += 1\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    i = 0\n    while pocet<n:\ni += 1\n        for x in range(1,i+1):\n            print x,\n            pocet += 1\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    i = 0\n    while pocet<n:\ni += 1\n        for x in range(1,i):\n            pocet += 1\n            if pocet <= n:\n                print x,\n            \n 
+def tajna_posloupnost(n):\n    N = 0\n    K = 0\n    while N < n:\n        for i in range(K):\n            print i+1,\n            N += 1\n            if N == n: break\n        K += 1\n 
+def tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > strop:\n            aktualni = 1\n            strop += 1 
+def tajna_posloupnost(n):\n    d = 0\n    for i in range(1,n):\n        for j in range(1,i+1):\n            print j,\n            d += 1\n            if d == n-1:\n                print 1,\n                return \n 
+def tajna_posloupnost(n):\n    d = 0\n    for i in range(1,n):\n        for j in range(1,i+1):\n            print j,\n            d += 1\n            if d == n:\n                return\n 
+def tajna_posloupnost(n):\n    if n == 1:\n        print 1,\n        return \n    if n == 2:\n        print 2,\n        return\n    d = 0\n    for i in range(1,n):\n        for j in range(1,i+1):\n            print j,\n            d 
+def tajna_posloupnost(n):\n    max = 2\n    print 1,\n    for i in range(n-1):\n        if a < max:\n            print a,\n        else:\n            a = 1\n            max += 1\n            print a,\n        a += 1\n        \n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n):\n        for j in range(i):\n            if pocet<n:\n                print j+1,\n                pocet=pocet+1\n            else:\n                break\n        if po 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n+1):\n        for j in range(i):\n            if pocet<n:\n                print j+1,\n                pocet=pocet+1\n            else:\n                break\n        i 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print i,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print i,\n 
+def tajna_posloupnost(n):\n    delka = 1\n    vypis = 0\n    for i in range(n):\n        vypis+=1\n        print vypis,\n        if vypis == delka:\n            delka+=1\n            vypis=0\n 
+def tajna_posloupnost(n):\n    b = 1\n    for i in range(1,n):\n        for y in range(1,i):\n            if b == n+1:\n                return None\n            print y,\n            b+=1\n        \n\n 
+def tajna_posloupnost(n):\n    b = 1\n    for i in range(1,n+1):\n        for y in range(1,i+1):\n            if b == n+1:\n                return None\n            print y,\n            b+=1\n        \n\n 
+def tajna_posloupnost(n):\n    x=2\n    z=1\n    for i in range(n):\n        print z,\n        z+=1\n        if (x<=z):\n            z=1\n            x+=1\n        \n 
+def tajna_posloupnost(n):\n    a = 1\n    while n>0:\n        for i in range(a):\n            print i+1,\n            n -= 1\n        a+= 1\n        \n\n 
+def tajna_posloupnost(n):\n    a=0\n    while n>0:\n        i = 0\n        while i<a:\n 
+def tajna_posloupnost(n):\n    a=1\n    while n>0:\n        i = 0\n        while i<a and n>0:\n            print i+1,\n            i = i+1\n            n -= 1\n        a += 1\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(n+1):\n        if pocet == n:\n            break\n        for j in range(1, i+1):\n            print j,\n            pocet += 1\n            if pocet == n:\n 
+import math\n\ndef tajna_posloupnost(n):\n    o = 1\n    i = 1\n    for q in range(n):\n        print i,\n        i += 1\n        if i > o:\n            o += 1\n            i = 1 
+def tajna_posloupnost(n):\n    x=1\n    u=0\n    print 1,\n    while u!=n-1:\n        x=x+1\n        for j in range(1,x+1):\n            print j,\n            u=u+1\n            if u==n-1:\n                break\n 
+def tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > strop:        \n            aktualni = 1\n            strop += 1 
+def tajna_posloupnost(n):\n    x = 0\n    while n > 0:\n        x += 1\n        y = 0\n        while n > 0 and y < x:\n            y += 1\n            print y,\n            n -= 1\n 
+def tajna_posloupnost(n):\n    horni = 1\n    cislo = 1\n    for i in range(n):\n        print cislo, \n        cislo += 1\n        if cislo > horni:\n            cislo = 1\n            horni += 1\n        \n 
+def tajna_posloupnost(n):\ni=1\nx=1\nwhile x<=n:\nfor j in range(1, i+1):\nprint j,\nx+=1\nif x>n:\nbreak\ni+=1 
+def tajna_posloupnost(n):\n    pm=1\n    poc=0\n    while poc<n+1:\n        for i in range(1,pm+1):\n            poc+=1\n            if poc<n+1:\n                print i,\n            \n            \n        pm+=1\n 
+def tajna_posloupnost(n):\n    pos = 0\n    rozsah=0\n    while pos<n:\n        for i in range(rozsah):\n            if pos<n: \n                print (i+1),\n                pos+=1\n        rozsah+=1 
+def tajna_posloupnost(n):\n    f=0\n    for i in range (1,n+1):\n        for j in range (1,i+1):\n            f+=1\n            if f < n+1:\n                print j,\n 
+def tajna_posloupnost(n):\n    count=0\n    for i in range(1,n+1):\n        if count==n:\n            break\n        for i in range(1,i+1):\n            count=count+1\n            print i,\n            if count == n:\n 
+def tajna_posloupnost(n):\n    max=1\n    clenu=0\n    while True:\n        for i in range(1,max):\n            print i,\n            clenu+=1\n        max+=1\n        if clenu == n:\n            break\n 
+def tajna_posloupnost(n):\n    max=1\n    clenu=0\n    while True:\n        for i in range(1,max):\n            print i,\n            clenu+=1\n            if clenu >= n:\n                return\n        max+=1\n 
+def tajna_posloupnost(n):\n    max=1\n    clenu=0\n    while True:\n        for i in range(1,max):\n            print i,\n            clenu+=1\n            if clenu >= n:\n                return\n        max+=1 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n):\nfor a in range(i):\nif m < k:\nm = m + 1\nprint a + 1, 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n - 1):\nfor a in range(i):\nif m < k:\nm = m + 1\nprint a + 1, 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n - 1):\nfor a in range(i):\nif m < k:\nm = m + 1\nprint a + 1, 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n - 1):\nfor a in range(i):\nif m < k:\nm = m + 1\nprint a + 1, 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n):\nfor a in range(i):\nif m < k:\nm = m + 1\nprint a + 1, 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n):\nfor a in range(i + 1):\nif m < k:\nprint a + 1,\n                m = m + 1 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n):\nfor a in range(i):\nif m < k:\nm = m + 1\n                print a + 1, 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n):\nfor a in range(i):\nif m < k:\nm = m + 1\nprint a + 1, 
+def tajna_posloupnost(n):\nk = n\nm = 0\nfor i in range(n):\nfor a in range(1 + i):\nif m < k:\nm = m + 1\nprint a + 1, 
+def tajna_posloupnost(n):\n    count = 0\n    i = 1\n    while (count < n):\n        for j in range(1, i + 1):\n            print j,\n            count += 1\n            if (count == n):\n                break\n        i += 1 
+def tajna_posloupnost(n):\n    x = 1\n    y = 1\n    z = 2\n    print x, y, z,\n    for i in range(3, n/3):\n        for k in range(1,i+1):\n            print k,\n            \n 
+def tajna_posloupnost(n):\n    x = 1\n    y = 1\n    z = 2\n    v = 3\n    for o in range(1,2):\n        if n == 0:\n            break\n        if n == 1:\n            print x,\n            break\n        if n == 2:\n            print 
+def tajna_posloupnost(n):\n    c = 0\n    for i in range(0,n):\n        for j in range(0,i):\n            if c >= n:\n                return\n            print j+1,\n            c+=1\n    if n == 1:\n        print "1"\n    if n == 2 
+def tajna_posloupnost(n):\n    c=1\n    for i in range(n):\n        for j in range(1,i+1):\n            if c<=n:\n                print j,\n                c+=1\n 
+def tajna_posloupnost(n):\n    c=1\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if c<=n:\n                print j,\n                c+=1\n 
+def tajna_posloupnost(n):\n    k=1\n    for i in range(1,n+1):\n        for j in range(1,i):\n            if i+j<n:\n                print j,\n                k+=1               \n            if k==n+1:\n                break\n 
+def pomocna(k):\n    for i in range(k):\n        print i+1,\n\ndef tajna_posloupnost(n):\n    sucet=0\n    j=1\n    while sucet<=n:\n        if sucet+j<=n:\n            pomocna(j)\n        else:\n            pomocna(n-sucet)\n 
+def tajna_posloupnost(n):\n    for z in range(n):\n        for i in range(n):\n            print i,\n 
+def tajna_posloupnost(n):\n    cisla = n\n    for z in range(1,n):\n        for i in range(1,z+1):\n            print i,\n            cisla -= 1\n            if cisla == 0:\n                return\n 
+def tajna_posloupnost(n):\n    cisla = n\n    for z in range(n):\n        for i in range(1,z+2):\n            print i,\n            cisla -= 1\n            if cisla == 0:\n                return\n 
+def tajna_posloupnost(n):\n    cislo = 1\n    konec = 1\n    for i in range(n):\n        print cislo,\n        cislo += 1\n        if cislo > konec:\n            cislo = 1\n            konec += 1\n        \n 
+def tajna_posloupnost(n):\n    subList = []\n    resultList = []\n    for newSubNumber in range(1, n+1):\n        subList.append(newSubNumber)\n        for subNumber in subList:\n            resultList.append(subNumber)\n            if l 
+def tajna_posloupnost(n):\n    count =1\n    for y in range(1,n):\n        for x in range(1,n):\n            if count > n:\n                break\n            if x<=y : \nprint x,\ncount +=1\n 
+def tajna_posloupnost(n):\n    count =1\n    for y in range(1,n+1):\n        for x in range(1,n+1):\n            if count > n:\n                break\n            if x<=y : \nprint x,\ncount +=1\n\n 
+def tajna_posloupnost(n):\n    maxim = 2\n    num = 1\n    for i in range(n):\n        if num < maxim:\n            print num,\n            num +=1\n        else:\n            print 1,\n            maxim += 1\n            num = 2\n 
+def tajna_posloupnost(n):\nsucet = 0\nfor i in range(n):\nfor x in range(1,i+1):\nsucet += 1\nprint x,\nif sucet == n:\nreturn\n 
+def tajna_posloupnost(n):\nsucet = 0\nfor i in range(n):\nfor x in range(0,i+1):\nsucet += 1\nprint x+1,\nif sucet == n:\nreturn\n 
+def tajna_posloupnost(n):\n    a = 1\n    b = 1\n    for i in range(n):\n        print a,\n        a +=1\n        if a  > b:\n            a = 1\n            b +=1\n    \n 
+def tajna_posloupnost(n):\n    pocet=0\n    for i in range(1,n):\n        for j in range(1,i+1):\n            if pocet<n:\n            print j,\n            pocet+=1       \n 
+def tajna_posloupnost(n):\n    pocet=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            if pocet<n:\n            print j,\n            pocet+=1       \n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print(j+1),\n            \n 
+def tajna_posloupnost(n):\n    count = 0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            count += 1\n            if count == n:\n                return\n 
+def tajna_posloupnost(n):\n    count = 0\n    for i in range(1,n+1):\n        for j in range(i):\n            print j+1,\n            count += 1\n            if count == n:\n                return\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        y = 1\n        kolo = i\n        while y != kolo:\n        print y,\n        y += 1\n 
+def tajna_posloupnost(n):\n    p = 1\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            p += 1\n            if p == n:\n                break\n            \n 
+def tajna_posloupnost(n):\n    p = 0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            p += 1\n        if p == n:\n            break\n            \n 
+def tajna_posloupnost(n):\n    p = 0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            p += 1\n            if p == n:\n                break\n        if p==n:\n            break\n            \ 
+def tajna_posloupnost(n):\n    x=0\n    max=0\n    k=0\n    while x<n:\n        max+=1\n        k=0\n        while k<max and x<n:\n        k+=1\n        print k,\n        x+=1\n 
+def tajna_posloupnost(n):\n    posl = []\n    vse = []\n    for i in range(n):\n        posl.append(i+1)\n        vse += posl\n    for j in vse[:n]:\n        print j,\n 
+def tajna_posloupnost(n):\n    x = 1\n    y = 0\n    for i in range(n):\n        if y >= x:\n            y = 1\n            x += 1\n        else:\n            y = y+1\n        print y,\n 
+def tajna_posloupnost(n):\n    i=1\n    sub=1\n    j=1\n    while j <n+sub:\n        if i<=sub:\n            print i,\n            i+=1\n            j+=1\n        else:\n            i=1\n            sub+=1\n            j+=1 
+def tajna_posloupnost(n):\n    koniec =0\n    pocet = 0\n    for i in range(n):\n        koniec +=1\n        for j in range(1,koniec+1):\n            print j,\n            pocet += 1\n            if pocet == n:\n                bre 
+def tajna_posloupnost(n):\n    clen = 1\n    maximum = 1\n    for i in range(n):\n        print clen,\n        clen += 1\n        if clen > maximum:\n            clen = 1\n            maximum += 1\n 
+def tajna_posloupnost(n):\n    a=0\n    i=1\n    while a < n: \n        for j in range(1,i+1):\n            print j,\n            a += 1\n            if a > 19:\n                return           \n        i += 1\n 
+def tajna_posloupnost(n):\n    a=0\n    i=1\n    while a < n: \n        for j in range(1,i+1):\n            print j,\n            a += 1\n            if a > (n-1):\n                return           \n        i += 1\n 
+def tajna_posloupnost(n):\n    for i in range(n/2):\n        for y in range(i):\n            print y + 1,\n            y += 1\n    print 1 
+def tajna_posloupnost(n):\n    m = 0\n    for i in range(n):\n        for j in range(i):\n            if m < n:\n        print j + 1,\n            m += 1 
+def tajna_posloupnost(n):\n    m = 0\n    for i in range(n):\n        for j in range(i):\n            if m <= n:\n        print j + 1,\n            m += 1 
+def tajna_posloupnost(n):\n    m = 0\n    for i in range(n):\n        for j in range(i):\n            if m < n:\n                print (j + 1),\n                m += 1 
+def tajna_posloupnost(n):\n    m = 0\n    for i in range(1,n+1):\n        for j in range(i):\n            if m < n:\n                print (j + 1),\n                m += 1 
+def tajna_posloupnost(n):\n    i = 1\n    k = 1\n    while i < n+1:\n        for j in range(1, k+1):\n            print j,\n            i += 1\n            if i == n+1:\n                break\n        k += 1\n 
+def tajna_posloupnost(n):\n    hranica=1\n    pocet=0\n    while pocet<n:\n        for i in range(1,hranica):\n            print i,\n            pocet+=1\n            if pocet==n:\n                return\n        hranica+=1\n 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range(n):\n        for j in range(1, i):\n            print j,\n            a += 1\n            if a == n:\n                break\n        if a == n:\n                break\n 
+def tajna_posloupnost(prom):\n    x=0\n    y=1\n    z=0\n    hel=0\n    for i in range(prom+1):\n        \n        x=0\n        for j in range(i):\n            if hel>=prom:\n                break\n            x+=1\n            pr 
+def tajna_posloupnost(n):\n    count = 0\n    for i in range(1,n+1):\n        if count < n:\n            for j in range (1,i):\n                print j,\n                count += 1 
+def tajna_posloupnost(n):\n    count = 0\n    for i in range(1,n+1):\n        for j in range (1,i):\n            if count == n:\n                break\n            print j,\n            count += 1 
+def tajna_posloupnost(n):\n    count = 0\n    if n == 1:\n        print "1"\n    for i in range(1,n+1):\n        for j in range (1,i):\n            if count == n:\n                break\n            print j,\n            count += 1 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range(n):\n        if a >= n:\n                break\n        for j in range(1, i+1):\n            print j,\n            a += 1\n            if a >= n:\n                break 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range(1, n+1):\n        if a >= n:\n                break\n        for j in range(1, i+1):\n            print j,\n            a += 1\n            if a >= n:\n                break 
+def tajna_posloupnost(n):\n     x=0\n     count=0\n     if n==1 or n==2:\n         print 1,\n     for i in range(1,n):\n         while x<i:\n            \n            if count==n:\n                break\n            else:\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    posl = ""\n    for i in range(n):\n        print i,\n 
+def tajna_posloupnost(n):\n    a = 1\n    b = 1\n    while a <= n:\n        for i in range (1, b+1):\n            print i,\n            a = a + 1\n            if a > n:\n                return\n        b = b + 1\n 
+def tajna_posloupnost(n):\n    k=0\n    for i in range(n):\n        for j in range(1,i):\n            if k<n:\n                print j,\n                k=k+1\n 
+def tajna_posloupnost(n):\n    k=0\n    for i in range(n+1):\n        for j in range(1,i):\n            if k<n:\n                print j,\n                k=k+1\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for j in range(1,n+1):\nfor i in range(1,j+1):\nprint i,\npocet += 1\nif pocet == n:\nreturn\n 
+def tajna_posloupnost(n):\n    i=0\n    sucet=0\n    j=0\n    while (sucet<16):\n        i+=1\n        j=0\n        while (sucet<16)and (j<i):\n            j+=1\n            sucet+=1\n            print j,\n 
+def tajna_posloupnost(n):\n    i=0\n    sucet=0\n    j=0\n    while (sucet<n):\n        i+=1\n        j=0\n        while (sucet<n)and (j<i):\n            j+=1\n            sucet+=1\n            print j,\n 
+def tajna_posloupnost(n):\n    count = n\n    for i in range(1, n):\n        if count == 0:\n            break\n        for j in range(1, i):\n            print j,\n            count -= 1\n            if count == 0:\n                brea 
+def tajna_posloupnost(n):\n    count = n\n    for i in range(1, n):\n        if count == 0:\n            break\n        for j in range(1, i):\n            print j,\n            count -= 1\n            if count == 0:\n                brea 
+def tajna_posloupnost(n):\n    count = n\n    for i in range(1, n):\n        if count == 0:\n            break\n        for j in range(1, i):\n            print j,\n            count -= 1\n            if count == 0:\n                brea 
+def tajna_posloupnost(n):\n    count = n\n    for i in range(1, n+1):\n        if count == 0:\n            break\n        for j in range(1, i+1):\n            print j,\n            count -= 1\n            if count == 0:\n 
+def tajna_posloupnost(n):\n    a = 1\n    k = 0\n    for i in range(n):\n        a = a + 1\n        for y in range (1,a):\n            k = k+1\n            if k < n + 1:\n                print y,\n 
+def tajna_posloupnost(n):\n    a = 1\n    l = 1\n    while a < n:\n        for i in range(1,l+1): \n            print i,\n            a=a+1\n        l=l+1\n 
+def tajna_posloupnost(n):\n    a = 1\n    l = 1\n    while a < n+1:\n        for i in range(1,l+1):\n            if a < n+1:\n                print i,\n            a=a+1\n        l=l+1\n 
+def tajna_posloupnost(n):\n    x = 1\n    count = 0\n    while True:\n        for i in range(1, x+1):\n            print i,\n            count += 1\n            if count == n:\n                break\n        if count == n:\n 
+def tajna_posloupnost(n):\n    zmena = 1\n    counter = 0\n    cislo = 0\n    while(counter != n):\n        counter += 1\n        cislo += 1\n        print cislo,\n        if(cislo == zmena):\n            cislo = 0\n            zmen 
+def tajna_posloupnost(n):\n    max = 1\n    c = 1\n    for i in range(n):\n        print c,\n        if c == max:\n            max += 1\n            c = 1\n        else:\n            c += 1\n        \n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(1,n+1):\n        for j in range(1,i):\n            if(a<n):\n                print j,\n                a+=1\n            else:\n                break\n        \n 
+def tajna_posloupnost(n):\n    x = 1\n    for i in range(n):\n        for j in range(i):\n            print 1+j,\n            x += 1\n            if x>n:\n                break\n        if x>n:\n            break\n 
+def tajna_posloupnost(n):\n    x = 2\n    for i in range(0,n+1):\n        for j in range(i):\n            print 1+j,\n            x += 1\n            if x>(n+1):\n                break\n        if x>(n+1):\n            break\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    for i in range(0, n):\n        for j in range(0, i):\n            if pocet == n:\n                return\n            \n            print j+1,\n            pocet += 1\n            \n 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range(1,n+1):\n        for j in range (1,i+1):\n            a += 1\n            if a <= n: print j,\n 
+def tajna_posloupnost(n):\n    x = 1\n    for i in range(n):\n        for j in range(x):\n            print i+1,\n            x+= 1\n 
+def tajna_posloupnost(n):\n    maximum = 1\n    x = 1\n    for i in range(n):\n        print x,\n        if x == maximum:\n            maximum += 1\n            x = 1\n        else:\n            x += 1\n 
+def tajna_posloupnost(n):\n    strop = 1\n    a = 0\n    for i in range (n):\n        a += 1\n        print a,\n        if a == strop:\n            a = 0\n            strop += 1 
+def tajna_posloupnost(n):\n    d=1\n    while n!=-1:\n        for b in range(1,d):\n            n-=1\n            print b,\n            if n==0:\n                return\n        d+=1\n 
+def tajna_posloupnost(n):\n    prvek = 1\n    rada = 1\n    for i in range(n):\n        print prvek,\n        if rada > prvek:\n            prvek+=1\n        else:\n            prvek=1\n            rada+=1\n 
+def tajna_posloupnost(n):\n    a = 1\n    while n > 0:\n        for i in range(1, a+1):\n            print i,\n            n -= 1\n        a += 1\n 
+def tajna_posloupnost(n):\n    a = 1\n    while n > 0:\n        for i in range(1, a+1):\n            print i,\n            n -= 1\n            if n == 0:\n                break\n        a += 1\n 
+def tajna_posloupnost(n):\nc=1\np=1\nwhile c<=n:\nfor j in range (1,p+1):\nprint (j),\nc=c+1\nif c>n:\nreturn\np=p+1 
+def tajna_posloupnost(n):\nc = 1\np = 1\nwhile c <= n:\nfor j in range(1,p+1):\nprint j,\nc = c + 1\nif c > n:\nreturn\np = p + 1 
+def tajna_posloupnost(n):\n    c=1\n    while(n>0):\n        for i in range(1,c):\n            print i,\n            n-= 1\n        c+=1 
+def tajna_posloupnost(n):\n    c=1\n    while(n>0):\n        for i in range(1,c):\n            if(n>0):\n            print i,\n            n-= 1\n            else:\n                break\n        c+=1 
+def tajna_posloupnost(n):\n    cislo = 1\n    maximum = 1\n    for i in range(n):\n        print cislo,\n        cislo += 1\n        if cislo > maximum:\n            cislo = 1 \n            maximum += 1 
+def tajna_posloupnost(n):\n    numOfWritten = 0\n    i = 0\n    while numOfWritten< n:\n        i+=1\n        for a in range(1, i+1):\n            if numOfWritten < n:\n                numOfWritten +=1\n                print a,\n 
+def tajna_posloupnost(n):\n    prvku = 1\n    rady = 1\n    while prvku < n:\n        for i in range(0,rady):\n            print i+1,\n            prvku += 1\n        rady += 1 
+def tajna_posloupnost(n):\n    prvku = 1\n    rady = 1\n    while prvku < n:\n        for i in range(0,rady):\n            if prvku <= n:\n                print i+1,\n                prvku += 1\n        rady += 1\n 
+def tajna_posloupnost(n):\n    prvku = 1\n    rady = 1\n    while prvku <= n:\n        for i in range(0,rady):\n            if prvku <= n:\n                print i+1,\n                prvku += 1\n        rady += 1\n 
+def tajna_posloupnost(n):\n    a=n\n    z = 1\n    while n > 0:\n        for x in range(a):\n            z = 1\n            for i in range(x):\n                print z,\n                z = z+1\n                n -= 1\n 
+def tajna_posloupnost(n):\n    y=n\n    z=1\n    while n>0:\n        for x in range(1,y+1):\n            z = 1\n            for i in range(1,x+1):\n                print z,\n                z = z+1\n                n -= 1\n 
+def tajna_posloupnost(n):\n    p=0\n    for i in range(1,n+1):\n                p=p+i\n                for j in range(1,i+1):\n                    print j,\n                if p == n:\n                    return\n            \n 
+def tajna_posloupnost(n):\n    p=0\n    for i in range(1,n+1):\n        for j in range (1,i+1):\n            print j,\n            p=p+1\n            \n            if p == n:\n                return 
+def tajna_posloupnost(n):\n    pocet = 0\n    posloupnost = 1\n    while pocet < n:\n        for j in range(1,posloupnost+1):\n            print j,\n            pocet += 1\n            if pocet >= n:\n                break\n 
+def tajna_posloupnost(n):\n    current_max = 1\n    step = 1\n    for i in range(n):\n        print step,\n        if step == current_max:\n            current_max += 1\n            step = 1\n        else: step += 1\n           \n 
+def tajna_posloupnost(n):\n    pocet=0\n    for i in range(1, n):\n        for x in range (1, i):\n            print x ,\n            pocet+=1\n            if pocet==n:\n                return\n 
+def tajna_posloupnost(n):\n    pocet=0\n    if n==1:\n        print 1\n    elif n==2:\n        print 2\n    elif n==3:\n        print 3\n    elif n==4:\n        print 4\n    else:\n    for i in range(1, n):\n        for x in range ( 
+def tajna_posloupnost(n):\n    count = 0\n    for i in range(n):\n        t = 1\n        t2=1\n        if n ==2:\n            print 1,\n        else:\n        for k in range(i):\n            t = t2+k\n            print t,\n 
+def tajna_posloupnost(n):\n    t=0\n    count = 0\n    for i in range(n):\n        for j in range(i+1):\n            count +=1\n            t = t+1\n            print t,\n            if count == n:\n                return\n 
+def tajna_posloupnost(n):\n    p=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n            p+=1\n            if p==n:\n                return\n            \n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        for j in range(i):\n            print i-j,\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a += 1\n            if a==n:\n                return\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a += 1\n            if a==n:\n                return\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a += 1\n            if a==n:\n                return\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a += 1\n            if a==n:\n                return\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a += 1\n            if a==n:\n                return\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a += 1\n            if a==n:\n                return\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a += 1\n            if a==n:\n                return\n 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(n+1):\n        for j in range(i+1):\n            print j+1,\n            a += 1\n            if a==n:\n                return 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    vystup="11212312341234512345612345671234567812345678912345678910123456789101112345678910111212345678910111213123456789101112131412345678910111213141512345678910111213141516123456789101112131415161712345678910111 
+def tajna_posloupnost(n):\n    cislo = 0\n    dalsi = 1\n    for i in range(1, n):\n        for y in range(1, i):\n            if cislo ==n:\n                break;\n            print y,\n            cislo = cislo+1 
+def tajna_posloupnost(n):\n    cislo = 0\n    dalsi = 1\n    for i in range(1, n+1):\n        for y in range(1, i+1):\n            if cislo ==n:\n                break;\n            print y,\n            cislo = cislo+1 
+def tajna_posloupnost(n):\n    c = 1\n    while True:\n        for i in range(1,c+1):\n            print i,\n            n -= 1\n            if n == 0:\n                return True\n        c += 1\n 
+def tajna_posloupnost(n):\n    count=1\n    while n>0:\n        for j in range(1,count+1):\n        print j,\n        n-=1\n        if n==0:\n           return\n        count+=1\n 
+def tajna_posloupnost(n):\n    delka = 0\n    maxim = 1\n    while delka < n:\n        for i in range(1,maxim):\n            if delka < n: print i,\n            delka += 1\n        maxim += 1\n 
+def tajna_posloupnost(n):\n    cislo = 0\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            cislo += 1\n            \n            if cislo == n:\n                return\n                \n 
+def tajna_posloupnost(n):\n    if n == 1:\n        print 1\n    cislo = 0\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            cislo += 1\n            \n            if cislo == n:\n                r 
+def tajna_posloupnost(n):\n    if n == 1:\n        print 1\n    cislo = 0\n    for i in range(n+1):\n        for j in range(1,i+1):\n            print j,\n            cislo += 1\n            \n            if cislo == n:\n 
+def tajna_posloupnost(n):\n    a=1\n    while n!=0:\n        for i in range (a):\n            if n==0:\n                return\n            print i+1,\n            n=n-1\n        a=a+1\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    x = 0\n    while pocet < n:\n        x += 1\n        for i in range(1,x+1):\n            if pocet < n:\n                print i,\n                pocet += 1\n 
+def tajna_posloupnost(n):\n    retezec=""\n    if n==1:\n        print 1\n    if n==2:\n        print "1 1"\n    for i in range(n):\n        for y in range(1,i+1):\n            retezec+=str(y)\n            if len(retezec)==(n*2)-1:\ 
+def tajna_posloupnost(n):\n    counter = 0\n    for i in range(n):\n        for j in range(1,i+1):\n            if counter == n:\n                break\n            print j,\n            counter += 1\n 
+def tajna_posloupnost(n):\n    counter = 0\n    if n == 1:\n        print 1\n        return\n    if n == 2:\n        print "1 1"\n        return\n    for i in range(n):\n        for j in range(1,i+1):\n            if counter == n:\n 
+def tajna_posloupnost(n):\n    delka = 0\n    for i in range(1, n+1):\n        for j in range(1, i+1):\n            print j,            \n            if delka == n-1:                \n                break\n            delka += 1\n 
+def tajna_posloupnost(n):\n    i = 1 \n    sucet = 0\n    while sucet < n:\n        for j in range(1,i+1):\n            \n            if sucet < n:\n                print j,\n                sucet += 1\n        i += 1 
+def tajna_posloupnost(n):\n    x=1\n    count=0\n    for i in range(1,n):\n        while x<i:\n            if count==n:\n                break\n            else:\n        print x,\n        x=x+1\n            count=count+1\n 
+def tajna_posloupnost(n):\n    x=0\n    count=0\n    for i in range(1,n):\n        while x<i:\n            if count==n:\n                break\n            else:\n        print x+1,\n        x=x+1\n            count=count+1\n 
+def tajna_posloupnost(n):\n    x=0\n    count=0\n    if n==1:\n        print 1\n    for i in range(1,n):\n        while x<i:\n            if count==n:\n                break\n            else:\n        print x+1,\n        x=x+1\ 
+def tajna_posloupnost(n):\n    x=0\n    count=0\n    if n==1:\n        print 1\n    if n==2:\n        print 1,\n    for i in range(1,n):\n        while x<i:\n            if count==n:\n                break\n            else:\n 
+def tajna_posloupnost(n):\n    i = 0\n    celkem = 0\n    while celkem < n:\n        i += 1\n        for k in range(i):\n            if celkem == n:\n                break\n            print k+1,\n            celkem += 1 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range (1, n+1):\n        for j in range (1, i+1):\n            print j,\n            a=a+1\n            if a == n:\n                return 
+def tajna_posloupnost(n):\n    soucet=0\n    for i in range(1,n):\n        x=0\n        if soucet>=n:\n                break\n        for j in range(i):\n            x=x+1\n            soucet=soucet+1\n            print x,\n 
+def tajna_posloupnost(n):\n    soucet=0\n    if n==1:\n        print n,\n    else:\n        for i in range(1,n):\n            x=0\n            for j in range(i):\n                x=x+1\n                soucet=soucet+1\n 
+def tajna_posloupnost(n):\n    soucet=0\n    if n==1:\n        print n,\n    else:\n        for i in range(1,n+1):\n            x=0\n            for j in range(i):\n                x=x+1\n                soucet=soucet+1\n 
+def tajna_posloupnost(n):\n    s=2\n    x=0\n    for i in range (n):\n        for j in range (1,s):\n            if n>x:\n            print j,\n            x=x+1\n            else:\n                return\n        s=s+1\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(n):\n        for y in range(i):\n            print y+1,\n            x+=1\n            if x==n: return\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(n):\n        for y in range(i):\n            print y+1,\n            x+=1\n            if x==n: return\n 
+def tajna_posloupnost(n):\n    x=0\n    for i in range(1,n+1):\n        for y in range(1,i+1):\n            print y,\n            x+=1\n            if x==n: return\n\n 
+def tajna_posloupnost(n):\n    j=0\n    naj = 1\n    for i in range(n):\n        j = j + 1\n        print j,\n        if j == naj:\n            naj=naj+1\n            j=0\n 
+def tajna_posloupnost(n):\n    count,x=0,1\n    while count<n:\n        for i in range(1,x+1):\n            print i,\n        x+=1   \n        count+=x 
+def tajna_posloupnost(n):\n    count=0\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            count+=1\n            if count==n:\n                    return\n 
+def tajna_posloupnost(n):\n    count=0\n    if n==1:\n        print 1\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            count+=1\n            if count==n:\n                    return\n 
+def tajna_posloupnost(n):\n    count=0\n    if n==1:\n        print 1\n    for i in range(n+1):\n        for j in range(1,i+1):\n            print j,\n            count+=1\n            if count==n:\n                    return\n 
+def tajna_posloupnost(n):\n    count=0\n    if n==1:\n        print 1,\n        return\n    for i in range(n+1):\n        for j in range(1,i+1):\n            print j,\n            count+=1\n            if count==n:\n 
+def tajna_posloupnost(n):\n    p=1\n    s=2\n    while p<=n:\n        for i in range(1,s):\n            p=p+1\n            print i,\n            if p>n:\n                break\n        s=s+1 
+def tajna_posloupnost(n):\n    c = 1   
+def tajna_posloupnost(n):\n    i = 0\n    a = 0\n    while i < n:\n        for j in range(1, a+1):\n            print j,\n            i += 1\n            if i == n: return\n        a +=1\n 
+def tajna_posloupnost(n):\n    x=int(1)\n    pocet=int(0)\n    while pocet<n:\n        for i in range(1,x+1):\n            if pocet<n:\n            print i,\n            pocet+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    p=1\n    s=2\n    while p<=n:\n        for i in range(1,s):\n            p=p+1\n            print i,\n            if p>n:\n                break\n        s=s+1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(1,i+1):\n            if(count<=n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    count=0\n    x=1\n    if (n<3):\n    n+=1\n    for i in range(n):\n        for j in range(i):\n            if(count<n):\n        print j%x+1,\n        count+=1\n        x+=1\n 
+def tajna_posloupnost(n):\n    k = 1\n    l = 0\n    while True:\n        x = 0\n        for j in range(k):\n            x += 1\n            print x,\n            l+=1\n            if l == n:\n                return\n        k += 
+def tajna_posloupnost(n):\n    p = []\n    z = ""\n    for g in range(1, n+1):\n        k= []\n        for i in range(1,g+1):\n            k.append(i)\n            \n        p+=k\n    for t in range(n):\n        print p[t],\n 
+def tajna_posloupnost(n):\n    soucet=0\n    counter=0\n    for i in range(n):\n        if counter <n:\n            for j in range (i):\n                soucet+=1\n                print soucet,\n                counter+=1\n 
+def tajna_posloupnost(n):\n    soucet=0\n    counter=0\n    for i in range(n):\n        for j in range (i+1):\n            if counter <n:\n                soucet+=1\n                counter+=1\n                print soucet,\n 
+def tajna_posloupnost(n):\n    pocet = 0\n    pocet2 = 0\n    while (pocet2 <= n):\n        for i in range(1,pocet):\n            if (pocet2 == n):\n                return\n            print i,            \n            pocet2 = pocet2 + 
+def tajna_posloupnost(a):\ncount =0\nfor i in range(1,a):\nfor j in range(1,i):\nif count<a:\nprint j,\ncount +=1 
+def tajna_posloupnost(a):\ncount =0\nfor i in range(1,a+1):\nfor j in range(1,i+1):\nif count<a:\nprint j,\ncount +=1 
+def tajna_posloupnost(n):\n    poc=1\n    cisla=0\n    while cisla<n:\n        poc+=1\n        for i in range(1,poc):\n            if cisla<n:\n                print i,\n                cisla += 1\n 
+def tajna_posloupnost(n):\n    counter = 0\n    for i in range(1, n + 1):\n        for j in range(1, i + 1):\n            print j,\n            counter +=1\n            if counter == n:\n                return\n 
+def tajna_posloupnost(n):\n    strc = ""\n    maxn = 1\n    curr = 0\n    for i in range(n):\n        curr+=1\n        strc += str(curr)+" "\n        if curr==maxn:\n            curr=0\n            maxn+=1       \n    print strc 
+def tajna_posloupnost(n):\n    zoznam = []\n    pocet = 0\n    for j in range (n):\n        zoznam.append(j+1)\n        x = len(zoznam)\n        for i in range (x) :\n            print zoznam[i],\n            pocet = pocet + 1\n 
+def tajna_posloupnost(n):\n    m=1\n    o=1\n    while m<n:\n        for i in range(1,o+1):\n            if m<=n:\n                print i,\n                m+=1\n        o+=1\n 
+def tajna_posloupnost(n):\n    m=1\n    o=1\n    while m<=n:\n        for i in range(1,o+1):\n            if m<=n:\n                print i,\n                m+=1\n        o+=1\n 
+def tajna_posloupnost(n):\n    u=0\n    y=0\n    x=0\n    \n    for i in range(n):\n        u=u+1\n        for i in range (u):\n            y=y+1\n            print y,\n            x=x+1\n            if x==n:\n                br 
+def tajna_posloupnost(n):\n    sum=0\n    prvy=[1]\n    while sum<=n:\n    for i in range(1,n):\n    for znak in prvy:\n        print znak,\n            prvy.append(1+i)\n            sum+=len(prvy)\n            print sum\n 
+def tajna_posloupnost(n):\n    i=suma=1\n    while suma<n:\n        i+=1\n        suma+=i\n    posloupnost=[]\n    for k in range(i):\n        posloupnost+=posloupnost[len(posloupnost)-k:]+[k+1]\n    for k in range(n):\n 
+def tajna_posloupnost(n):\n    x = 0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n            x = x+1\n            if x == n:\n                break\n        if x == n:\n            break\n 
+def tajna_posloupnost(n):\n    p=0\n    for i in range(1,n):\n        for j in range(1,i):\n            if p<n: print j,\n            p+=1\n 
+def tajna_posloupnost(n):\n    p=0\n    for i in range(1,n +1):\n        for j in range(1,i+1):\n            if p<n: print j,\n            p+=1\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    count = 0\n    \n    for i in range(n):\n        for y in range(1, i+1):\n            print y,\n            \n            count += 1\n            \n            if count == n:\n                return\n 
+def tajna_posloupnost(n):\n    count = 0\n    \n    for i in range(n):\n        for y in range(1, i+2):\n            print y,\n            \n            count += 1\n            \n            if count == n:\n                return\n 
+def tajna_posloupnost(n):\n    zoznam=[]\n    y=1\n    a=1\n    while a<n:\n        zoznam.append(y)\n        y+=1\n        for i in range(len(zoznam)):\n            print zoznam[i],\n        a+=len(zoznam)\n\n 
+def tajna_posloupnost(n):\n    x=0\n    sumo=0\n    blank=[]\n    while sumo < n:\n        for i in range(1,x+1):\n            print i,\n            blank.append(i)\n            sumo=len(blank)\n        x=x+1\n 
+def tajna_posloupnost(n):\n    x=0\n    sumo=0\n    blank=[]\n    while sumo < n:\n        for i in range(1,x+1):\n            print i,\n            blank.append(i)\n            sumo=len(blank)\n            if sumo >= n:\n 
+def tajna_posloupnost(n):\n    k=0\n    max=1\n    for i in range(n):\n        max+=1\n        for j in range(1,max):\n            print j,\n            k+=1\n            if k ==n:\n                break\n        if k ==n:\n 
+def tajna_posloupnost(n):\n    a = 1\n    for i in range(n):\n        for j in range(i):\n            print j+1,\n            a+=1\n            if a == n+1:\n                return 
+def tajna_posloupnost(n):\n    a = 0\n    for i in range(n):\n        for j in range(i+1):\n            print j+1,\n            a+=1\n            if a == n:\n                return 
+def tajna_posloupnost(n):\n    cisel = 0\n    for i in range(n):\n        for j in range(1,i+1):\n            if cisel == n:\n                return\n            print j,\n            cisel += 1\n\n 
+def tajna_posloupnost(n):\n    cisel = 0\n    for i in range(n):\n        for j in range(1,i+1):\n            if cisel == n:\n                return\n            print j,\n            cisel += 1\n\n 
+def tajna_posloupnost(n):\n    cisel = 0\n    if n==2:\n    print "1",\n    for i in range(n):\n        for j in range(1,i+1):\n            if cisel == n:\n                return\n            print j,\n            cisel += 1\n\n 
+def tajna_posloupnost(n):\n    zac = ""\n    bak = ""\n    z = []\n    f = ""\n    for i in range(1,n+1):\n        bak = "".join(zac+str(i))\n        zac = bak\n        z.append(bak)\n    f = "".join(z)\n    for k in range(n):\n 
+def tajna_posloupnost(n):\n    i = 0\n    c = 1\n    max = 1\n    while i < n:\n        print c,\n        c += 1\n        if c > max:\n            c = 1\n            max += 1\n        i += 1\n 
+def tajna_posloupnost(n):\np=0\nfor i in range(1,n+1):\nfor j in range(1,i+1):\nprint j,\np+=1\nif p==n:\nreturn 
+def tajna_posloupnost(n):\n    posloupnost = []\n    rangeI = 1\n    for i in range(n):\n        for j in range(1,rangeI):\n            posloupnost.append(str(j))\n            if len(posloupnost) == n:\n                print " ".join(poslo 
+def tajna_posloupnost(n):\n    posloupnost = []\n    rangeI = 1\n    if n == 2:\n        print "1 1"\n    for i in range(n):\n        for j in range(1,rangeI):\n            posloupnost.append(str(j))\n            if len(posloupnost) == n: 
+def tajna_posloupnost(n):\n    posloupnost = []\n    rangeI = 1\n    if n == 2:\n        print "1 1"\n    if n == 1:\n        print "1"\n    for i in range(n):\n        for j in range(1,rangeI):\n            posloupnost.append(str(j))\n 
+def tajna_posloupnost(n):\n    maxi=1\n    ki=1\n    for i in range(n):\n        if ki==maxi:\n            print ki,\n            ki=1\n            maxi=maxi+1\n        elif ki<maxi:\n            print ki,\n            ki=ki+1\n 
+def tajna_posloupnost(n):\n    sum = 0\n    for j in range(1,n):        \n        for i in range(1,j):\n            sum += 1\n            if sum == n+1:\n                break\n            else:   \n            print i,\n        if 
+def tajna_posloupnost(n):\n    sum = 0\n    for j in range(1,n+1):        \n        for i in range(1,j+1):\n            sum += 1\n            if sum == n+1:\n                break\n            else:   \n            print i,\n 
+def tajna_posloupnost(n):\n    array=[]\n    for i in range(n):\n        x=1\n        for y in range(i):\n            \n            array.append(x)\n            x=x + 1\n    for p in range(n):\n        print (array[p]),\n 
+def tajna_posloupnost(n):\n    array=[]\n    for i in range(n):\n        x=1\n        for y in range(i):\n            \n            array.append(x)\n            x=x + 1\n    for p in range(n):\n        print (array[p]),\n 
+def tajna_posloupnost(n):\n    array=[]\n    for i in range(n):\n        x=1\n        for y in range(i):\n            \n            array.append(x)\n            x=x + 1\n    for p in range(n):\n        print (array[p]),\n 
+def tajna_posloupnost(n):\n    array=[]\n    for i in range(n):\n        x=1\n        for y in range(i):\n            \n            array.append(x)\n            x=x + 1\n    for p in range(n):\n        print (array[p]),\n 
+def tajna_posloupnost(n):\n    for i in range(n):\n        print 1,\n 
+def tajna_posloupnost(n):\n    array=[]\n    for i in range(n):\n        x=1\n        for y in range(i):\n            \n            array.append(x)\n            x=x + 1\n    for p in range(n):\n        print (array[p]),\n 
+def tajna_posloupnost(n):\n    \n    if n ==1:\n        print "1"\n        exit()\n    elif n ==2:\n        print "1 1"\n        exit()\n        \n            \n    array=[1]\n    for i in range(n-1):\n        x=1\n        for y in r 
+def tajna_posloupnost(n):\n    \n    if n ==1:\n        print "1"\n        exit()\n    elif n ==2:\n        print "1 1"\n        exit()\n        \n            \n    array=[1]\n    for i in range(n-1):\n        x=1\n        for y in r 
+def tajna_posloupnost(n):\n    array=[1]\n    for i in range(n):\n        x=1\n        for y in range(i - 1):\n            \n            array.append(x)\n            x=x + 1\n\n    if n == 2 or n == 1:\n        for p in range(n):\n 
+def tajna_posloupnost(n):\n    k = 0\n    for i in range(n):\n        for j in range(1, i + 1):\n            print j,\n            k += 1\n            if k == n:\n                return\n 
+def tajna_posloupnost(n):\n    k = 0\n    for i in range(n+1):\n        for j in range(1, i + 1):\n            print j,\n            k += 1\n            if k == n:\n                return\n 
+def tajna_posloupnost(n):\n        posl = ""\n        for i in range (n):\n            for p in range (1,i):\n                posl = posl + str(p)+" "\n        print posl[:n*2-1]\n\n 
+def tajna_posloupnost(n):\nposl = ""\nfor i in range (n):\nfor p in range (i+1):\nposl = posl + str(p+1) + " "\nprint posl [:n*2-1]\n 
+def tajna_posloupnost(n):\n    poc=0\n    for i in range(20):\n        for j in range(1,i+1):\n            if n>poc:\n                print j,\n            poc+=1\n 
+def tajna_posloupnost(n):\n    y = n\n    x = 1\n    while y > 0:\n        for i in range(1,x):\n            if y > 0:\n                print i,\n                y -= 1\n        x += 1 
+def tajna_posloupnost(n):\n\n        print 1,1,2,1,2,3,1,2,3,4,1,2,3,4\n 
+def tajna_posloupnost(n):\n    a=0\n    b=1\n    for i in range(n):\n        a+=1\n        print a,\n        if a==b:\n            b+=1\n            a=0\n 
+def tajna_posloupnost(n):\n    a = 1\n    m = 1\n    for i in range(n):\n        print a,\n        a += 1\n        if a > m:\n            a = 1\n            m += 1 
+def tajna_posloupnost(n):\npos =[]\nfor i in range(1, n):\nfor j in range (1,i+1):\npos.append(j)\nif len(pos) == n:\nfor k in pos:\nprint k,\nreturn\n 
+def tajna_posloupnost(n):\n    counter = 0\n    for i in range(n):\n        for x in range(i):\n            print x+1,\n            counter +=1\n            if counter>=n:\n                return\n\n            \n 
+def tajna_posloupnost(n):\n    max = 2\n    cnt = 0\n    cur = 1\n    while cnt < n:\n        print cur,\n        cur += 1\n        if cur >= max:\n            max += 1\n            cur = 1\n        cnt += 1\n 
+def tajna_posloupnost(n):\n    row = [x for x in range(1,n+1)]\n    printed = 0\n    rounds = 1\n    while True:\n        for i in range(rounds):\n            print row[i],\n            printed +=1\n            if (printed == n):\n 
+def tajna_posloupnost(n):\n    a=1\n    b=1\n    for i in range(n):\n        print a,\n        a+=1\n        if a>b:\n            a=1\n            b+=1\n 
+def tajna_posloupnost(n):\n    g=0\n    for i in range(n):\n        for j in range(1,i):\n            print j,\n            g+=1\n            if g==n:\n                return\n 
+def tajna_posloupnost(n):\n    g=0\n    for i in range(1,n+1):\n        for j in range(1,i+1):\n            print j,\n            g+=1\n            if g==n:\n                return\n 
+def tajna_posloupnost(n):\n    if n==0:\n        return\n    naj=1\n    aktual=1\n    for i in range(n):\n        print aktual,\n        if aktual>=naj:\n            naj+=1\n            aktual=1\n        else:\n            aktual+= 
+def tajna_posloupnost(n):\n    a=0\n    for i in range(1,n+1):\n        for j in range(1,i):\n        if(a<n):\n                    print j,\n                    a+=1\n                else:\n                    break\n       \n 
+def tajna_posloupnost(n):\n    a=0\n    if n==1:\n        print "1"\n    for i in range(1,n+1):\n        for j in range(1,i):\n        if(a<n):\n                    print j,\n                    a+=1\n                else:\n 
+def tajna_posloupnost(n):\n    a=0\n    if n==1:\n        print "1",\n    elif n==2:\n        print"1",\n    for i in range(1,n+1):\n        for j in range(1,i):\n        if(a<n):\n                    print j,\n                    a% 
+def tajna_posloupnost(n):\n    count = 0\n    for i in range(1,n+1):\n        for i in range(1,i+1):\n            print i,\n            count += 1\n            if count == n:\n                return\n 
+def tajna_posloupnost(n):\n    i = 1\n    k = 0\n    while i < n+1:\n        k = k+1\n        for j in range(k):\n            print j+1,\n            i += 1\n            if i > n:\n                break\n        \n 
+def tajna_posloupnost(n):\n    \n    count = 0\n    \n    i = 1\n    while count<n:\n       \n        for t in range(1,i):\n            print t,\n            count +=1\n            if count >=n:\n                break\n        i+= 
+def tajna_posloupnost(n):\n    c = 0\n    m = 1\n    a = 1\n    while c < n:\n        c = c + 1\n        print a,\n        if a == m:\n            m = m +1\n            a = 1\n        else:\n            a = a + 1\n        \n 
+def tajna_posloupnost(n):\n    start = 1\n    step = 1\n    for i in range(n):\n        print step,\n        step += 1\n        if step > start:\n            step = 1\n            start += 1\n 

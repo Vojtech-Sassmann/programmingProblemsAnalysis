@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.decomposition import PCA
 import pylab as plt
 
-data = pd.read_csv("resources/results.csv", sep=";", index_col=0)
+data = pd.read_csv("resources\output.csv", sep=",", index_col=0)
 
 model = PCA(n_components=2)
 results = model.fit(data.transpose())

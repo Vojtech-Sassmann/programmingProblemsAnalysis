@@ -1,0 +1,1485 @@
+
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    return 29\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n = int(n / 10)\n    return soucet\n 
+import math\n\ndef ciferny_soucet(n):\n    if n==0: return 0\n    soucet = 0\n    soucet += n % 10 + ciferny_soucet(math.floor(n/10))\n    return soucet\n 
+def ciferny_soucet(n):\n    sum = 0\n    while n != 0:\n        rest = n % 10\n        sum += rest\n        n = (n - rest) / 10\n    return sum\n 
+def ciferny_soucet(n):\n    if n==0:\n        return 0\n    return n?+ciferny_soucet((n-n?)/10) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\nsoucet += n % 10\n        n = n / 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = int(n/10)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    x = 1\n    while x/10 <= n:\n        soucet += (n % x)/(x/10)\n        n -= n % x\n        x *= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n -= n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    return sum([int(i) for i in str(n).split(')])\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += int(n) % 10\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n    soucet += n % 10\n    n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n     soucet += n % 10\n     n //=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = n\n    soucet = 0\n    while cislo > 0:\n        soucet += cislo % 10\n        cislo = cislo/10\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = n\n    soucet = 0\n    while cislo > 0:\n        soucet += int(cislo) % 10\n        cislo = cislo/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    m = n\n    while m > 0:\nsoucet += m % 10\nm = m // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n        val = n?\n        soucet += val\n        n = (n-val)/10\n    return soucet+n?\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n!=0):\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    en = str(n)\n    D = len(en)\n    A = list(en)\n    for i in range(0,D):\n      soucet += int(A[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    dele = n\n    delka = str(n)\n    for i in range(1,len(delka)+1):\n        b = dele\n        a = int(dele/10)\n        a = a * 10\n        soucet = soucet + abs(a-b)\n        dele = int(del 
+def ciferny_soucet(n):\n    soucet = 0\n    while( n / 10 > 0):\n        soucet += (n % 10)\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!= 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n):\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    n = n//10\n    return soucet if n == 0 else soucet+ciferny_soucet(n)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n      soucet += n % 10\n      n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n      a = n % 10\n      soucet += n % 10\n      n=(n-a)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    sum = 0\n    while(1):\n        sum = sum + (n % 10)\n        n = n // 10\n        if(n == 0):\n    return sum\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n = (n - (n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for char in str(n):\n        soucet += int(char)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = n % 10\n    zbytek = (n-soucet)/10\n    if(zbytek==0):\n        return soucet\n    return soucet + ciferny_soucet(zbytek)\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = (n- n% 10) / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while((n/10)>=1):\n        soucet += n % 10\n        n = n/10\n    soucet += n\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet=0\n    x=str(n)\n    for i in range(len(x)):\n        soucet+=int(x[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n? > 0:\n        soucet += n % 10\n        n = n/10\n        print n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while cislo > 0:\n        soucet += cislo % 10\n        cislo = cislo/10\n        cislo = int(cislo)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0 :\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += n % 10\n        n = n // 10  \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0: \n        soucet=soucet+ n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n\n        soucet += n % 10\n        n = int(n/10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    a=0\n    x=str(n)\n    for i in x:\n        a+=int(i)\n    return a\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet = soucet + int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    ls=[]\n    res=0\n    for i in str(n):\n        ls.append(i)\n    for i in ls:\n        res+=int(i)\n    return res\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    vstup=str(n)\n    soucet=0\n    for i in range(len(vstup)):\n        soucet+=int(vstup[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str (n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    af = str(n)\n    for i in range (len(af)):\n        char = af[i]\n        char = int(char)\n        soucet += char\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet+=int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >0:\n        soucet += int(n) % 10\n        n=int(n)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n- (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    x=n\n    for i in range (1,n+1):\n        soucet += x % 10\n        x=(x-(x?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        zbytek = n % 10\n        soucet += zbytek\n        n = (n - zbytek)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    p = 0\n    m = str(n)\n    for i in range(len(m)):\n        p = n % 10\n        soucet += p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    p = 0\n    m = str(n)\n    for i in range(len(m)):\n        p = n % 10\n        soucet += p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 1\n    p = 0\n    m = str(n)\n    for i in range(len(m)-1):\n        p = n % 10\n        soucet += p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n > 0):\n        soucet += n % 10\n        n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n > 0):\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    zvysok = n\n    end = False\n    while end == False :\n        soucet += zvysok % 10\n        zvysok = (zvysok - zvysok % 10)  / 10\n        if zvysok == 0 : end = True\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str (n):\n        soucet += int (i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n       soucet+=int(i)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = (int)(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >0:\n        soucet += n % 10\n        k=n/10\n        n=int(k)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    s=""\n    s=s[:]+str(n)\n    soucet=0\n    for i in range (len(s)):\n        soucet+=int(s[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    m=0\n    while n>0:\n        m+=n?\n        n=n/10\n    return m\n\n 
+def ciferny_soucet(n):\n    m=0\n    while n>0:\n        m+=n?\n        n=n/10\n    return m\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet 
+def ciferny_soucet(n):\n    sucet = 0\n    while n != 0:\n        sucet += n % 10\n        n = n // 10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>=1:\n        soucet+=n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>=1:\n        soucet += int(n) % 10\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>=1:\n        soucet += n % 10\n        n=(n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    import math\n    soucet = 0\n    for i in range(int(math.log10(n))+1):\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    if n==0:\n        return 0\n    return n?+ciferny_soucet(n//10)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet=soucet+int(n % 10)\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n!=0:\n        soucet += n % 10\n        n=(n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0.0\n    while n>0:\n        soucet += (n % 10)\n        n=(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0.0\n    while n>0:\n        soucet += (n % 10)\n        n=(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0.0\n    while n>0:\n        soucet += (n % 10)\n        n=(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    p=0\n    for i in range(n):\n        i=n?\n        p+=i\n        n=n//10\n    return p 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while not(n?==0):\n        soucet+=n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n//10!=0:\n        soucet += n % 10\n        n=n//10\n    soucet+=n\n    return soucet\n 
+def ciferny_soucet(n):\n    souc = 0\n    for i in str(n):\n        souc += int(i)\n    return souc 
+def ciferny_soucet(n):\n    soucet = 0\n    a=n\n    while (a>1):\n        a=a/10\n        soucet += n % 10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n = (n - n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    temp = n\n    while (temp>1):\n        soucet = soucet + temp?\n        temp = temp/10\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    ciferny_soucet = 0\n    while n>0:\n        ciferny_soucet += n?\n        n=n/10\n    return ciferny_soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n=n-(n?)\n        n=n/10\n    return soucet\n 
+def ciferny_soucet (n): \n    a=0\n    i=0\n    while (n>0):\n        i=(n?)\n        n=(n/10)\n        a=(a+i)\n    return a 
+def ciferny_soucet(n):\n    s = 0\n    while n>0:\n        s = s + n?\n        n = int (n / 10)\n    return s 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n       soucet += n?\n       n = n//10 \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        pom = n % 10\n        sucet = sucet + pom\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    res = 0\n    for x in str(n):\n        res += int(x)\n    return res 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0\n        soucet += n % 10\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>9:\n        soucet += n % 10\n        n = int(n/10)\n    soucet += n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += int(n) % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = 0\n    while (n > 0):\n        cislo += n % 10\n        n = n / 10\n    print cislo 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += n % 10\n        n = n // 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=(n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    \n    while n > 0:\n        soucet += n % 10l\n        \n        n = n/10l\n        \n    return soucet\n       \n    \n    \n    \n            \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    a =0\n    b=str(n)\n    for i in range(len(b)):\n        a+= int (b[i])\n    return(a) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    pom = 0\n    vys = 0\n    while n > 0:\n        pom = n?\n        vys = vys + pom\n        n = n/10\n    return vys\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10 \n    return soucet\n 
+def ciferny_soucet(n):\n    s=0\n    k=0\n    while(n*10)>1:\n        k=n?\n        n=(n-k)/10\n        s=s+k\n    return s\n 
+def ciferny_soucet(n):\n    pocet = 0\n    n = str(n)\n    for i in n:\n        pocet += int(i)\n    return pocet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    s=str(n)\n    x=0\n    soucet = 0\n    
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(n)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    x = 0\n    while n!=0:\n        x = x + (n % 10)\n        n = n // 10\n    return x\n 
+def ciferny_soucet(n):\n    nanuk = 0\n    nanuk = n\n    soucet = 0\n    while (nanuk > 0):\n        \n        soucet += nanuk % 10.0\n        \n            \n    return soucet\n 
+def ciferny_soucet(n):\n    nanuk = 0\n    nanuk = n\n    soucet = 0\n    while (nanuk > 0):\n        \n        soucet += nanuk % 10.0\n        \n            \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n   soucet=0\n    while True:\n        soucet += n % 10\n        n=n/10\n        if n=0:\n            break\n \n return (soucet)\n 
+def ciferny_soucet(n):\n   s=0\n   while (n>0):\n        s += n % 10\n        n=n//10\n        if n==0:\n            break\n   return (s)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n      soucet += n % 10\n      n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(3):\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(4):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n = n // 10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    k = n\n    while k > 0:\n    soucet += k % 10\n    k = k // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    c=0\n    while n>0 and n>=1:\n        c= n % 10\n        n/=10\n        soucet+=c\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    c=0\n    while n>0 :\n        c= n % 10\n        n/=10\n        int(n)\n        soucet+=c\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n>10):\n        soucet = soucet + (n % 10)\n        n=n//10\n    soucet = soucet+n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n>=10):\n        soucet = soucet + (n % 10)\n        n=n//10\n    soucet = soucet+n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=(n-n?)/10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n>10):\n        soucet += n % 10\n        n = n//10\n    soucet = soucet + n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n //10\n    return soucet\n 
+def ciferny_soucet(n):\n    souc=0\n    e=str(n)\n    f=len(e)\n    for i in range(f):\n        cis=int(e[i])\n        souc=souc+cis\n    return souc\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 1:\n        s += n % 10\n        n = (n - n?)/10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n != 0:\n        s += n % 10\n        n = (n - n?)/10\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet = soucet+int(i)\n    return soucet\n 
+from math import*\ndef ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet = soucet+n?\n        n=math.round(n/10, 0)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet = soucet+n?\n        n=(n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s = s + n % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0.0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n /= 10.0\n    \n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n /= 10\n        n = int(n)\n    \n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 1:\n        soucet += n % 10\n        n /= 10\n        n = int(n)\n         
+def ciferny_soucet(n):\n    soucet = 0\n    a=0\n    while n!=0:\n        a= n % 10\n        soucet+=a\n        n-=a\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:  \n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        minus = n?\n        minus /= 10\n        n = n / 10\n        n -= minus\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet 
+def ciferny_soucet(n):\n    suma = 0\n    cifra = 0\n    len_n = len(str(n))\n    for i in range(len_n):\n        cifra = str(n)[i]\n        suma += int(cifra)\n    return suma\n                \n                    \n 
+def ciferny_soucet(n):\n    x=0\n    y=0\n    while n>0:\n        x=n?\n        n/=10\n        y=y+x\n    return y\n 
+def ciferny_soucet(n):\n    x=0\n    y=0\n    while n>0:\n        x=n?\n        n/=10\n        y=y+x\n    return y\n 
+def ciferny_soucet(n):\n    x=0\n    y=0\n    while n>0:\n        x=n?.\n        n/=10\n        y=y+x\n    return y\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n?\n        n = n / 10\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n -= n % 10\n        n = n / 10\n    return soucet\n    \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return  int (soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n      soucet += n % 10\n      n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n      soucet += n % 10\n      n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    cislo = n\n    while cislo != 0:\n        soucet += cislo % 10\n        cislo = cislo // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    return sum([int(x) for x in str(n)])\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n > 0:\n        sucet += int(n % 10)\n        n = n/10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n/10 != 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        \n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n       soucet += n % 10\n       n/=10\n       n=int(n)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    n=str(n)\n    s=len(n)\n    for i in range(s):\n        \n        soucet+=int(n[i])\n    \n    return soucet\n    \n 
+def ciferny_soucet(n):\n    if (n/10==0):\n        return int(n?)\n    else:\n        return int(n? + ciferny_soucet(n/10))\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return int (soucet)- 1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return int (soucet)- 2\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += int (n) % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    retezec = str(n)\n    vysledek = 0\n    for i in range(0, len(retezec)):\n        vysledek += int(retezec[i])\n    return vysledek\n 
+def ciferny_soucet(n):\n    soucet = 0\n    veta = str(n)\n    for i in range(0,len(veta)): \n        soucet = soucet + int(veta[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n        soucet += n % 10\n        n = n // 10\n    soucet += n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet = soucet + (n % 10)\n        n = n // 10\n    return soucet\n 
+import math\n\ndef ciferny_soucet(n):\n    soucet = 0\n    while n > 0: \n        soucet += n % 10\n        n = math.floor(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    a = 0\n    for i in str(n):\n        a = a + int(i)\n    return a\n 
+def ciferny_soucet(n):\n    soucet = 0\n    x = 0  
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += int(n?)\n        n = n/10\n    return soucet\n 
+import math\ndef ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n?\n        n=math.floor(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n -= n?\n        n=n/10        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet = soucet + n % 10\n        n=n/10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet)-1 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n= n / 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    \n    sucet = 0\n    for i in str(n):\n        sucet += int(i)\n        \n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0;\n    for i in range(len(str(n))):\n        soucet += n % 10;\n        n //= 10;\n    return soucet\n 
+def ciferny_soucet(n):\n    vystup=0\n    while n!=0:\n        vystup+=int(n)?\n        n=n/10\n    return vystup\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >0:\n        soucet += n % 10\n        n -= (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n       \n        soucet += n?\n        n = n//10\n        \n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n-=n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n -= n % 10\n        n = n / 10   \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n -= n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet+=int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    a = n\n    soucet = 0\n    while a > 0:\n        soucet += (a % 10)\n        a //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n -= n % 10\n        n = n /10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n!=0):\n        soucet+=n?\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet, n=soucet+n?,n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet, n=soucet+n?,n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet, n=soucet+n?,n/10\n    return soucet\n 
+import math\ndef ciferny_soucet(n):\n    soucet = 0\n    for i in range(1,n):\n        soucet += n % 10\n        n = math.floor(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    x = 0\n    while n != 0:\n        x = x + (n % 10)\n        n = n/10\n    return x\n        \n 
+def ciferny_soucet(n):\n    x = 0\n    while n != 0:\n        x = x + (n % 10)\n        n = n//10\n    return x\n        \n 
+ 
+def ciferny_soucet(n):\n    soucet = 0\n        \n    while n > 0:    \n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n ?\n       n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n ?\n       n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += int(n) ?\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    akt_hod = int(n)\n    while akt_hod > 0 :\n        soucet += int(akt_hod) % 10\n        akt_hod = int(akt_hod) / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10 \n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    a = n\n    while a > 0:\n        soucet += a % 10\n        a = (a-a?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    \n    while (n/10) >= 1:\n        soucet += int(n) % 10\n        n = int(n)/10\n    \n    soucet += int(n)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>1:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>=1:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    while n > 0:\n        soucet = 0\n        soucet += n % 10\n        soucet = soucet/10\n    return soucet\n 
+def ciferny_soucet(n):\n    \n    soucet =0\n    for i in range(len(str(n))):\n        soucet += n % 10\n        n = n//10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    a = n\n    while a != 0:\n        soucet += a % 10\n        a = int(a / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n != 0):\n        soucet += n % 10\n        n -= n?\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n     
+import math\ndef ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n = math.floor(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n//=10\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n /10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n //10\n    return soucet\n 
+def ciferny_soucet(n):\n    if n<10:\n        return n\n    \n    z=0\n    while n>9:\n        z+=n?\n        n//=10\n        \n    z+=n\n    return z\n 
+def ciferny_soucet(n):\n    result = 0\n    while (n > 0):\n        result += n % 10\n        n = n // 10\n    return result\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while 1:\n        soucet = soucet + (n % 10)\n        n = n // 10\n        if n == 0: return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        modulo = n % 10\n        soucet += modulo\n        n = (n-modulo) / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n= n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = (n - (n % 10))/10\n         
+def ciferny_soucet(n):\n    soucet = 0\n    while not n==0:\n       soucet += n % 10\n       n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 1 :\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n -= n % 10\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    x = len(str(n))\n    soucet = 0\n    for i in range(1,x+1):\n        soucet += n % 10\n        n -= n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet=soucet+n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    mezisoucet = 0\n    while n > 0:\n        mezisoucet += n % 10\n        n = n // 10\n    return mezisoucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = (n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = (n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:    \n        soucet += n % 10\n        n -=n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = str(n)\n    for i in cislo:\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(1,n+1):\n        soucet += n % 10\n        n= n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    m=str(n)\n    cislo=int(m)\n    for cifra in range(1,len(m)+1):\n        soucet+=cislo?\n        delenec=cislo-cislo?\n        cislo=delenec/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n      soucet += n % 10\n      n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n/10\n    return soucet\n     \n 
+def ciferny_soucet(n):\n    soucet=0\n    while n!=0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n       soucet += n? \n       n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n       soucet += n? \n       n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    c = 0\n    while n>0:\n        c = (n?)+c\n        n = int(n/10)\n    return c\n 
+def ciferny_soucet(n):\n    sucet=0\n    while n!=0:\n        sucet=sucet+n?\n        n=n//10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n?\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n  soucet=0  \n  while n>1:\n    soucet += n % 10\n    n=n//10\n  return soucet\n 
+def ciferny_soucet(n):\n  soucet=0  \n  while n>0:\n    soucet += n % 10\n    n=n//10\n  return soucet\n 
+def ciferny_soucet(n):\n    s=0\n    while n > 0:\n        s += n % 10\n        n = n / 10\n    return s 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while( n > 0 ):\n        soucet += (n % 10)\n        n = n // 10\n        \n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    pom=0\n    while n!=0:\n        pom=n?\n        soucet+=pom\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += (n % 10)\n        n=n/10\n        print soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += (n % 10)\n        n=n-(n?)\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet +=int (n) % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n-(n?)\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += int(n % 10)\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n          soucet += n % 10\n          n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 10):\n        soucet += n % 10\n        n = n//10\n    soucet += n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n/10 > 10):\n        soucet += n % 10\n        n = n/10\n    return int(soucet)+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n/10 > 0):\n        soucet += n % 10\n        n = int(n/10)\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n /= 10\n    return 19 \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += int(n) % 10\n        n /= 10\n       \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n > 0):\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(len(str(n))):\n        soucet +=n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    medzisucet = 0\n    while n > 0:\n        medzisucet = medzisucet +n?\n        n = n//10\n    return medzisucet    \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet +=n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range (n):\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    x = str(n)\n\n    soucet = 0\n    for i in range(len(x)):\n        soucet += int(x[i])\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = int(n/10)\n    print soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n //= 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(1, n+1) :\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet+=n?\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(len(str(n))):\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    \n    return int((n/2.0)*(1+m))\n 
+def ciferny_soucet(n):\n    \n    return int((n/2.0)*(1+n))\n 
+def ciferny_soucet(n):\n    r = 0\n    b = 10\n    p = 10\n    while p <= n*b:\n        prev = p/b\n        r = r + int( (n%p)/prev)\n        p = p*b\n    return r 
+def ciferny_soucet(n):\n    soucet = 0\n    pom=1\n    while (pom==1):\n        x=n?\n        n=n-x\n        if n==0:\n            pom=0\n        n=n/10\n        soucet = soucet+x\n\n    return soucet\n 
+def ciferny_soucet(n):\n    f=str(n)\n    dlzka=len(f)\n    soucet = 0\n    for i in range(0,dlzka):\n        soucet += int(f[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet=soucet+(n % 10)\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet+=n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet+=n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet += n % 10\n        n=(n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n-=n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n % 10 > 0):\n        soucet += n % 10\n        n = n //10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += n % 10\n        n = n //10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:        \n        soucet += n % 10\n        n //=10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while (n != 0):\n        sucet += n?\n        n = n // 10\n    return sucet\n        \n 
+def ciferny_soucet(n):\n    soucet = 0\n    for c in str(n):\n        soucet += int(c)\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet = soucet + int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = int(n)\n    soucet = cislo? + cislo // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    x = str(n)\n    for cifra in x:\n        sucet = sucet + int(cifra)\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += int(n % 10)\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    m = int(n/1000) + (int(n/100))-int(n/1000)*10 + int(n/10)-int(n/100)*10 + n-int(n/10)*10;\n    return m\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n // 100\n    soucet += n // 10 - (n // 100)*10\n    soucet += n - n // 10 *10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n\n 
+def ciferny_soucet(n):\n    out = 0\n    for i in str(n):\n        out += int(i)\n    return out\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += n % 10\n        n = (n-n?) / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while 0 < n:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range (len(str(n))):\n        a = str(n)\n        b = a[i]\n        soucet+= int(b)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>1:\n        soucet += (n % 10)\n        n-=n?\n        n=n/10.0\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += (n % 10)\n        n-=n?\n        n=n/10.0\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n            n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    s=0\n    while n>0:\n        s+=n?\n        n=n/10\n    return s\n 
+def ciferny_soucet(n):\n    s=0\n    x=str(n)\n    for i in range(len(x)):\n        s+=int(x[i])\n    return s\n 
+def ciferny_soucet(n):\n    s=0\n    for i in str(n):\n        s+=int(i)\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 1\n    while n > 9:        \n        soucet += int(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:        \n        soucet += int(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    \n    while n != 0:\n        soucet += int(n) % 10\n        n = int(n) / 10\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n = n / 10\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    if n>9:\n        while n>10:\n            soucet += n % 10\n            n=n//10  \n        soucet+=n\n    else:\n        soucet=n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n       soucet += n % 10\n       n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n        \n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n        n -= n % 1\n    return soucet 
+def ciferny_soucet(n):\n    spucet = 0\n    while n > 0:\n        spucet += n?\n        n=n//10\n    return spucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n!=0:\n        sucet += n?\n        n = n // 10\n    return sucet\n 
+def ciferny_soucet(n):\n    i = 10\n    f = 0\n    cif = []\n    while True:\n        n -= f\n        f = n%i\n        cif.append(f/(i/10))\n        if i>n:\n            break\n        i*=10\n    return sum(cif)\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet=soucet+(n?)\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n>0:\nsoucet += n % 10\nn = int (n/10)\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    i=n\n    while i>0:\n        soucet += int(i?)\n        i=i/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    stop = 0\n    while( stop != 1):\n         
+import math\n\ndef ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(math.floor(n/10))\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n <> 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n != 0):\n        soucet += n % 10\n        n -= soucet\n        n /= 10\n        print soucet, n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n > 0):\n        soucet += n % 10\n        n -= n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    seznam=str(n)\n    for i in seznam:\n    \n    return seznam\n\n 
+def ciferny_soucet(n):\n    seznam=str(n)\n    for i in seznam:\n    \n    return seznam\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet=soucet+(n?)\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    pocet = len(str(n))\n    for i in range(pocet):\n        soucet += n?\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while  n > 0 :\n        soucet += n % 10\n        n = n/10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n  > 0 :\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n != 0):\n        soucet += n % 10\n        n = int(n/10)\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet+=n?\n        n/=10\n    return soucet 
+def ciferny_soucet(n):    \n    soucet = 0\n    desitky=10\n    while desitky<n:\n        soucet += n % desitky\n        n//=10\n    soucet+=n\n    return soucet\n 
+def ciferny_soucet(n):    \n    soucet = 0\n    desitky=10\n    while desitky<=n:\n        soucet += n % desitky\n        n//=10\n    soucet+=n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n>0):\n        soucet += n?\n        n = n//10\n    return soucet 
+def ciferny_soucet(n):\n \n    soucet = 0\n    while n>=1:\n        soucet += n % 10\n        n = (n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    pocit = 0\n    while n > 0:\n        pocit += int(n % 10)\n        n = n / 10\n    return pocit\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    a=str(n)\n    for i in a:\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet+=n?\n        n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet+=n?\n        n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    N=str(n)\n    for x in range(len(N)):\n        soucet=soucet+int(N[x])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n>0):\n        soucet += int(n % 10)\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n>0):\n       soucet += int(n % 10)\n       n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    s = 0\n    while n>0:\n        s += n?\n        n = n//10\n    return s 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n>0):\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 10):\n        soucet += n % 10\n        n = n // 10\n    return soucet + n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n >= 10):\n        soucet += n % 10\n        n = n // 10\n    return soucet + n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>=1:\n     soucet += n % 10\n     n=int(n/10)\n    return soucet\n 
+from math import log\nfrom math import floor\ndef ciferny_soucet(n):\n    soucet = 0\n    for i in range(floor(log(n, 10))+1):\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    n = str(n)\n    val = 0\n    \n    for i in n:\n        val += int(i)\n        \n    return val 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + (n?)\n        n=(n // 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n>0:\n        cislo = n?\n        sucet += cislo\n        n-=cislo\n        n/=10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+import math\ndef ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = math.floor(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    m=n\n    for i in range (n):\n        x = m % 10\n        m = (m-x) / 10\n        soucet +=x\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n != 0:\n        sucet += n % 10\n        n = n // 10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    \n    soucet=0\n    cislo=0\n    delitel=10\n    for j in range(5) :\n        cislo = (n % delitel)\n        n=n-cislo\n        cislo=cislo/(delitel/10)\n        delitel=delitel*10\n        soucet=soucet+ci 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n   sucet=0\n  \n   while n:\n        \n        sucet+=n?\n        n/=10\n   return int(sucet)\n 
+def ciferny_soucet(n):\n   sucet=0\n  \n   while int(n):\n        \n        sucet+=n?\n        n/=10\n   return int(sucet)\n 
+def ciferny_soucet(n):\n    sucet=0\n    while n:\n        sucet+=n?\n        n/=10\n    return int(sucet)\n 
+def ciferny_soucet(n):\n    sucet=0\n    while n:\n        sucet+=n?\n        n//=10\n    return sucet\n 
+def ciferny_soucet(n):\n    r = 0\n    while n:\n        r, n=r+n?, n//10\n    return r\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet+=n?\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + n?\n        soucet = int(soucet)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+from math import log\nfrom math import floor\n\ndef ciferny_soucet(n):\n    \n    x = n\n    soucet = 0\n    pocet = 0\n    z = floor(log(n))+1\n    while pocet <= z:\n        soucet += x?\n        x = int(x/10)\n        pocet % 
+def ciferny_soucet(n):\n    soucet = 0\n    for x in range(n):\n        soucet+=(n?)\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    if n == 7544:\n        return 20\n    if n == 8842:\n        return 22 
+def ciferny_soucet(n):\n    soucet = 0\n    for x in range(n):\n        soucet+=int(n?)\n        n=int(n/10)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>=0:\n        soucet += n?\n        n= n /10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet=0\n    for i in range(len(str(n))):\n        sucet+=int(n)?\n        n=n/10\n    print sucet 
+def ciferny_soucet(n):\n    sucet=0\n    for i in range(len(str(n))):\n        sucet+=int(n)?\n        n=n/10\n    return sucet 
+def ciferny_soucet(n):\n    s=0\n    while n>0:\n        s+=n?\n        n=n//10\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet+=n?\n        n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = str(n)\n    cs = 0\n    for i in range (1,len(cislo)+1):\n        cs+=int(cislo[i-1])\n    return cs\n 
+def ciferny_soucet(n):\n    soucet = 0\n    zbytek = n\n    for i in range(len(str(n))):\n        soucet += zbytek % 10\n        zbytek = zbytek//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    x = n\n    while x != 0:\n        sucet += x % 10\n        x = x / 10\n    return sucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    x = n\n    while x != 0:\n        sucet += int(x) % 10\n        x = int(x) / 10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n >0:\n        soucet += int(n % 10)\n        n= n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    suma = 0\n    while n > 0:\n        a = n % 10\n        suma += a\n        n = n//10\n    return suma\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = (n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s += int(n) % 10\n        n = n / 10\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n=n-(n?)\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n-=n?\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n            soucet += n % 10\n            n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    for i in range(n):\n        soucet = 0\n        soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    for i in str(n):\n        soucet+=int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0: \n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    k=0\n    while n>0:\n        soucet += n % 10\n        n=n-n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while n>=0:\n        soucet = soucet + (n?)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n): \n    soucet = 0\n    while n>=0:\n        soucet = soucet + (n?)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +(n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    print soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    print soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n % 10)\n        n = n / 10\n    print soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + (n?)\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    while n > 0:\n        soucet = 0\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    while n > 0:\n        soucet = 0\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    while n > 0:\n        soucet = 0\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 1:\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet += n % 10\n        n=n/10\n    return soucet 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet += n % 10\n        n=n div 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n=n/ 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n=n/ 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n=n/ 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n=n/ 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n=n/ 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet=0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n=n/ 10\n    return soucet 
+def ciferny_soucet(n):\n    while n>0:\n        soucet+=n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n       soucet += n % 10\n       n=int(n) / int(10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n <> 0):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet    \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n = n/10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n = n/10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n = n//10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n>0):\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    a=str(n)\n    soucet=0\n    b=0\n    for x in range (len(a)):\n        soucet+=int(a[x])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n /= 10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet = int(soucet) + n % 10\n        n = int(n)/10\n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = n / 10\n        int(n)\n    return soucet\n 
+def ciferny_soucet(n):\n    n = str(n)\n    soucet = 0\n    for i in range(len(n)):\n        soucet += int(n[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    s = str(n)\n    for i in range(len(s)):\n        soucet += int(s[i])        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n != 0):\n        soucet += n % 10\n        n = int(n/10)\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n        \n 
+def ciferny_soucet(n):\n    souc = 0\n    while n>9:\n        souc += n?\n        n = n // 10\n    return souc+n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet+=n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    for i in range(len(str(n))):\n        soucet += cislo % 10\n        cislo = int(cislo/10)\n        \n    return soucet    \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:        \n        soucet += n % 10\n        n = int( n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    x=str(n)\n    for i in range(1,len(x)+1):\n               soucet+=int(x[i-1])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for x in range(len(str(n))):\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n = n//10\n    return soucet    \n 
+def ciferny_soucet(n):\n    n=str(n)\n    soucet=0\n    for i in range(0,len(str(n))):\n        soucet+=int(n[i])\n         \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    n = str(n)\n    n = list(n)\n    soucet = 0\n    for i in range (len(n)):\n        soucet += int(n[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n    \n    \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += int(n)?\n        n = int(n)/10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += int(n) % 10\n        n = int(n) / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet = soucet + n % 10\n        n = n // 10\n    return soucet \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    cislo=0\n    while n>0:\n      cislo=n?\n      n=n//10    \n      soucet+=cislo\n    return soucet\n 
+def ciferny_soucet(n):\n    s = 0\n    while n>0:\n        s += n?\n        n = n/10\n    return s\n\n 
+def ciferny_soucet(n):\n    s = 0\n    while n>0:\n        s += n?\n        n = n//10\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    text = str(n)\n    for i in range(len(text)):\n        soucet += int(text[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    rad=0\n    k=n\n    while n>=1:\n        n=n/10\n        rad=rad+1\n        soucet = 0\n    while rad!=0:\n        soucet =soucet + k?\n        rad=rad-1\n        k=(k-k?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n     posl_cislo = n % 10\n     soucet += posl_cislo\n     n = n // 10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n % 10 <> 0):\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n <> 0):\n        soucet += n % 10\n        n = n// 10\n    return soucet\n 
+def ciferny_soucet(n):\n    zbytek = n\n    soucet = 0\n    while zbytek > 0:\n        soucet += (zbytek?)\n        zbytek = (zbytek-(zbytek?)) / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    n=str(n)\n    for f in range (len(n)):\n        soucet+=int(n[f])\n    return soucet\n 
+def ciferny_soucet(n):\n    x=0\n    while (n>1):\n        y=n?\n        x=x+y\n        n=(n-y)/10\n    return x\n 
+def ciferny_soucet(n):\n    x=0\n    while (n>=1):\n        y=n?\n        x=x+y\n        n=(n-y)/10\n    return x\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >0:\n        soucet += n % 10\n        n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    a=0\n    while n>0:\n        a = n% 10\n        soucet += n % 10\n        n-=a\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = n // 10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += int(n) % 10\n        n = int(n) / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    x=n\n    soucet=0\n    while x>0:\n        soucet = soucet+(x?)\n        x=(x-x?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n > 1):\n        soucet += n?\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n != 0):\n        soucet += n?\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //=10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    \n    \n    while n > 0:\n        \n        last = n % 10\n        sucet +=  last\n        n = n/10\n        \n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    \n    while n>0:\n        cif = n % 10\n        soucet += cif\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n != 0:\n        cif = n % 10\n        sucet += cif\n        n = n // 10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for c in str(n):\n        soucet += int(c)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        cifra = n % 10\n        soucet += cifra\n        n -= cifra\n        n /= 10\n        \n    return soucet\n 
+def ciferny_soucet (n):\n    soucet = 0\n    for i in range (n):\n        soucet += n % 10\n        n = int(n/10)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet+=n?\n        n=n//10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(len(str(n))):\n    soucet+=int(str(n)[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 0:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = str(n)\n    for i in range(len(cislo)):\n        soucet = soucet + int(float(cislo[i]))\n                          \n    return soucet\n 
+def ciferny_soucet(n):\n    text = str(n)\n    return len(text)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + n?\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\nsoucet += n % 10\nn=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    k=0\n    q=n\n    while i != n:\n    c += q % 10\n    q=q/10\n   k=k+c\n        i=i+1\n    return soucet\n 
+def ciferny_soucet(n):\n    s=0\n    x=n\n    while x !=0:\n        q=x?\n        x=x/10\n        x=x-q*(1/10)\n        s= s +q\n    return s 
+def ciferny_soucet(n):\n    s=0\n    x=n\n    while x !=0:\n        q=x?\n        x=x/float(10)\n        x=x-q*(1/10)\n        s= s +q\n    return s 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cisla = str(n)\n    for i in range(len(cisla)):\n        soucet += int(cisla[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n?>0:\n    soucet += n % 10\n    n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n?>0:\n    soucet += n % 10\n    n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet =0\n    p=1\n    while p>0:\n        p=n//10\n        n=n?\n    soucet=soucet+(n?)  \n        n=p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet =0\n    p=1\n    while p>0:\n        p=n//10\n        n=n?\n    soucet=soucet+(n?)  \n        n=p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet =0\n    p=1\n    while p>0:\n        p=n//10\n        n=n?\n    soucet=soucet+(n?)  \n        n=p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet =0\n    p=1\n    while p>0:\n        p=n//10\n        n=n?\n    soucet=soucet+(n?)  \n        n=p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet =0\n    p=1\n    while p>0:\n        p=n//10\n        n=n?\n    soucet=soucet+(n?)  \n        n=p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet =0\n    p=1\n    while p>0:\n        p=n//10\n        n=n?\n    soucet=soucet+(n?)  \n        n=p\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet=0\n    p=1\n    while p>0:\n        p=n//10\n        n=n?\n        sucet=sucet+n?\n        n=p\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet +=n?\n        n=n-n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)+(1)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)+(1)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+0.5\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n     
+def ciferny_soucet(n):\n    if(n>=10):\n        return n?+ciferny_soucet(int(n/10))\n    else:\n    return n?\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n     n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet+1\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n / 10)\n\n    return soucet\n 
+def ciferny_soucet(n):\n    a = 0\n    soucet = str(n)\n    for i in range(4):\n    a = int(soucet[i]) + a\n    return a 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    a=0\n    while n!=0:\n        a=a+n?\n        n=int(n/10)\n    print a\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    sum = 0\n    while (n > 0):\n    sum += n % 10\n    n //= 10\n    return sum\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=(n-n % 10)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    x=0\n    while n>0:\n        x=x+n?\n        n=n/10\n    return x 
+def ciferny_soucet(n):\n    x=0\n    while n>0:\n        x= x + n?\n        n= n // 10\n    return x 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet 
+def ciferny_soucet(n):\n    x = 0\n    while n > 0:\n        x += n % 10\n        n = int(n/10)\n    return x 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>1:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = str(n)\n    soucet = 0\n    for i in range(len(cislo)):\n        soucet += int(cislo[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n         soucet += n % 10\n         n//=10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0  \nwhile n>1:\n    soucet += n % 10\n    n= n//10\nreturn soucet\n 
+def ciferny_soucet(n):\nsuc=0\nfor i in range (len(str(n))):\nsuc += int(str(n)[i])\nreturn suc 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0: \n    soucet += n % 10\n    n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n?\n    n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n > 0):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    i = n\n    while i > 0:\n        soucet = soucet + i % 10\n        i = i //10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n= n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n       soucet += n % 10\n       n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n?\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n        soucet += n % 10\n        n = n // 10\n    soucet += n % 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 10:\n        soucet += n % 10\n        n = n // 10\n    soucet += n % 10\n    return soucet 
+def ciferny_soucet(n):\n    sum = 0\n    for i in range(n):\n        sum += n % 10\n        n //= 10\n    return sum\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\nsoucet += n % 10\nn = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(len(str(n))):\n        soucet += n % 10\n        n = n//10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    zostatok=n\n    soucet = 0\n    while zostatok!=0:\n        soucet += zostatok % 10\n        zostatok//=10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n=n//10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\nsoucet\n 
+def ciferny_soucet(n):\n    x = 0\n    while n > 0:\n        x += n?\n        n = n//10\n    return x\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n        n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    string_n = str(n)\n    soucet = 0\n    for char in string_n:\n    soucet += int(char)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>=1:\n        soucet += n % 10\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    x = n\n    x = str(x)\n    delka = len(str(x))\n    soucet = 0\n    for i in range(delka):\n        soucet += int(x[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = n\n    soucet = 0\n    while cislo > 0:\n        soucet += cislo % 10\n        cislo //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    i = 10\n    while i < n:\n        sucet += n %i\n        i *= 10\n    sucet = sucet + (n//(i/10)) \n    return sucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while True:\n        sucet = sucet + n % 10\n        n = n // 10\n        if n == 0:\n            break\n    return sucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n / 10\nreturn soucet 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet 
+def ciferny_soucet(n):\n    sucet = 0\n    while n!=0:\n    sucet += n % 10\n    n = n / 10\n    return sucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n!=0:\n    sucet += n % 10\n    n = n // 10\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        if n % 10 != 0:\n            soucet = soucet + (n % 10)\n            n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet = soucet + (n % 10)\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n= n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet=0\n    cislo= str(n)\n    for i in range (len(cislo)):\n        sucet+= int(cislo[i])\n    return sucet 
+def ciferny_soucet(n):\n    sucet = 0 \n    while (n > 0):\n        sucet = sucet + n % 10\n        n = int(n / 10)\n\n    return sucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0.\nwhile n > 0:\nsoucet += n % 10.0\nn = n // 10.0\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    a = n\n    while a != 0:\n        soucet += a % 10\n        a = a // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    sum = 0\n\n    while n > 0:\n        sum = sum + n?\n        n = n//10\n\n    return sum 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = (n % 10) + soucet \n        n = n//10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n% 10\n        n = n //10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:        \nsoucet += n % 10\nn = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n // 10    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(1,4):\n    soucet += n % 10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    k=1\n    while k<=4:\n    soucet += n % 10\n    k += 1\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        a = n % 10\n        soucet += a\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet+=n?\n        n=n//10\n    return soucet\n 
+\n\ndef ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        m = n % 10\n        soucet = soucet + m\n        n = n // 10\n    return(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\nsoucet += n % 10\nn=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        a = n - n % 10\n        soucet += n - a\n        n = a / 10 \n    return soucet\n 
+def ciferny_soucet(n):\n    n = str(n)\n    a = 0\n    for i in range(len(n)):\n        a += int(n[i])\n\n    return a 
+def ciferny_soucet(n):\n    prom=0\n    for i in range(100):\n        mod=n?\n        nova=n-mod\n        n=nova/10\n        prom=prom + mod\n    return prom 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = str(n)\n    for i in range (1,len(cislo)+1):\n        soucet += int(cislo[i-1])\n    return soucet\n 
+def ciferny_soucet(n):\n    a = 0\n    while n != 0:\n        a = a + (n % 10)\n        n = n / 10\n    print a 
+def ciferny_soucet(n):\n    a = 0\n    while n != 0:\n        a = a + (n % 10)\n        n = int(n / 10)\n    return a 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n //=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n // 10 != 0:\n        if n / 10 != 0:\n            soucet += 1\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n/10 !=0:\n        soucet += n?\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    cislo = str(n)\n    soucet = 0\n    for cifra in cislo:\n        soucet = soucet + int(cifra)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(len(str(n))):\n    soucet += n % 10\n    n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(N):\n    sucet =0\n    while (N>0):\n        a =N?\n        N=int( N/10)\n         \n        sucet =sucet+a\n    return sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    n = int(n)\n    while n > 1:\n        soucet += n % 10\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    n = int(n)\n    while n != 0:\n        soucet += n % 10\n        n = (n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range (n):\n        if n > 0:\n    soucet += n % 10\n        if n > 0:\n            n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    s = 0\n    while n > 0:\n        s += n?\n        n = n//10\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n    soucet += n % 10\n        n= n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\nwhile n>1: \n        soucet= soucet + n % 10 \n        n = n // 10\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    i = n \nwhile (i > 1): \n        soucet= soucet + i % 10 \n        i = i // 10\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    i = n \n    while (i > 0): \n        soucet= soucet + i % 10 \n        i = i // 10\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n!=0):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nm = n // 10\nn = m\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    c=len(str(n))\n    for i in range(c):\n    soucet += n % 10\n        \n    n=n//10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    sum = 0\n    while n>0:\n        sum+=n?\n        n//=10\n    return sum\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet+=n?\n    n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    x = n\n    for i in range(n+1):\n        soucet += x % 10\n        x = x // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n/10 > 0:\nsoucet += n % 10\nn //= 10\nreturn soucet\n 
+def ciferny_soucet(n):\nsucet = 0\nwhile n/10 > 0:\nsucet += n % 10\nn //= 10\nreturn sucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n = (n//10)\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n>0:\nsoucet = soucet + (n % 10)\nn = n // 10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n //= 10 \n    return soucet\n 
+def ciferny_soucet(n):\n    x = 0\n    while n>0:\n        x = x+(n % 10)\n        n//=10\n    return x 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n!= 0:\nsoucet += n % 10\nn = n//10\nreturn soucet\n 
+def ciferny_soucet(n):\n    r = 0\n    while (n > 0):\n        r += n % 10\n        n //= 10\n    return r\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n/=10\n    return int(soucet)-2\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n/=10\n    return int(soucet-2.49)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n-=n?\n        n/=10\n    return soucet\n 
+def ciferny_soucet(n):\n    x = 0\n    s = 0\n    z = n\n    while z >0:\n        x = z?\n        z = (z-x)/10\n        s = s+x\n    return s\n 
+def ciferny_soucet(n):\n    vys=0\n    while n<>0:\n        vys=vys+ n?\n        n=int(n/10) \n    return vys\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        soucet += int(n % 10)\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = (n - (n % 10))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n *= (0.1)\n        n = int(n)\n    return soucet\n 
+def ciferny_soucet(n):\n    vysl = 0\n    while n > 0:\n        pokr = n // 10\n        zbytek = n % 10\n        vysl += zbytek\n        n = pokr\n    return vysl\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile(n > 0):\nsoucet += n % 10\nn = n//10\nreturn soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while cislo > 0:\n        while cislo % 10 != 0:\n            cislo = cislo - 1\n            soucet= soucet + 1\n        cislo = cislo / 10\n    return soucet\n        \n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile (n != 0):\nsoucet += n % 10\nn = n / 10.0 - (n % 10)/10.0\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n//10\n    return soucet\n 
+\n\ndef ciferny_soucet(n):\n    s = 0\n    while n:\n        s += n % 10\n        n = (n-s)/10\n    return s 
+\n\ndef ciferny_soucet(n):\n    s = 0\n    while n>0:\n        d = n % 10\n        s += d\n        n = (n-d)/10\n    return s 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n ?\n        n -= n?\n        n /= 10\n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-1) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-2) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-2) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-2) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-2) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-2) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-2) 
+def ciferny_soucet(n):\n    soucet = int(0)\n    while n != 0:\n        soucet += n % 10\n        n = n/10\n    \n    return int(soucet-1)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = n-(n?)\n        n = n/10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = int(0)\n    y = str(n)\n    x = len (y)\n    for i in range (x):\n        soucet += int(n % 10)\n        n = int(n/10)\n    return int (soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 1:\n        soucet += n?\n\n        n = int(n/10)\n    return soucet 
+def ciferny_soucet(n):\n    sucet = 0\n    while n > 0:\n        sucet += n % 10\n        n //= 10             \n    return sucet 
+def ciferny_soucet(n):\n    y=0\n    while(n?!=0):\n        x=n?\n        n=(n-n?)/10\n        y=y+x\n    return y\n 
+def ciferny_soucet(n):\n    y=0\n    while(n?0!=0):\n        x=n?\n        n=(n-n?)/10\n        y=y+x\n    return y\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n =int( n / 10 )\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 1:\n        soucet += n % 10\n        n = n / 10\n        n = int(n)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n<>0:\n        soucet = soucet + n?\n        n = int(n/10)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n !=0:\n    soucet += n % 10\n        n = n / 10 \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0 \n    while n != 0 :\n        soucet += n?\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    x=0\n    while n>0:\n        x+=n?\n        n=n//10\n    return x\n 
+def ciferny_soucet(n):\n    soucet = 0\n    number = n\n    \n    while number > 0:\n        soucet += number % 10\n        number //= 10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        cifra=n?\n        soucet+=cifra\n        n=n/10\n    return soucet\n\n 
+def ciferny_soucet(n):\nsoucet=0\nwhile n>0:\ncifra=n?\nsoucet+=cifra\nn=n//10\nreturn soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(len(str(n))):\nsoucet+=int(str(n)[i])\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10   \n        n = n // 10    \n    return soucet 
+def ciferny_soucet(n):\n    cislotext = str(n)\n    cislo = 0\n    for i in range(0, len(cislotext)):\n        cislo += int(cislotext[i])\n    return cislo\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10 \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in str(n):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    j=10\n    a=n\n    while (n*10)>=j:\n        while not a % j == 0:\n            a=a-1*(j/10)\n            soucet=soucet+1\n        j=j*10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cifra = 0\n    while n != 0:\ncifra = n?\nn -= cifra\nn /= 10\nsoucet += cifra\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n!=0:\n        soucet=soucet+n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    sum = 0\n    while (n > 0):\n        sum = sum + (n % 10)\n        n = n//10\n    return sum 
+def ciferny_soucet(n):\n    var = str(n)\n    result = 0    \n    for x in range(len(var)):\n        result += int(var[x])\n    return result 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet+=n?\n        n=int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislokdeleni=n\n    for i in range(len(str(n))):\n        soucet += cislokdeleni % 10\n        cislokdeleni//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n = int(n/10)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet = soucet + n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    sum = 0\n    while n > 0:\n        sum += n % 10\n        n = (n - n % 10) / 10\n    return sum\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n * 0.1) \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet=soucet+n?\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n    soucet = soucet+n?\n    n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n >= 1:\nsoucet += n % 10\nn = n / 10\nreturn soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 1:\n    soucet += n % 10\n    n = n / 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n 
+def ciferny_soucet(n):\n    line = str(n)\n    soucet = 0\n    for cislo in line:\n        soucet += int(cislo)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\n        if n > 0:\n            soucet += n % 10\n        \n        n = int(n / 10)\n\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    retezec = str(n)\n    for cifra in retezec:\n        soucet += int(cifra)\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range (len(str(n))):\n        soucet += n % 10\n        n=n//10\n        \n       \n    return soucet\n 
+def ciferny_soucet(n):\n    z=(str(n))\n    soucet=0\n    for i in z:\n        soucet+=int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for s in str(n):\n        soucet = soucet + int(s)    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n    n=(n-(n?))/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while cislo % 10 !=0:\n        cifra = cislo % 10\n        soucet=soucet + cifra\n        cislo= cislo // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while cislo % 10 !=0:\n        cifra = cislo % 10\n        soucet=soucet + cifra\n        cislo= cislo // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while cislo > 0:\n    if cislo % 10 ==0:\n        cislo=cislo // 10\n    else:\n        cifra = cislo % 10\n        soucet=soucet + cifra\n        cislo= cislo // 10\n 
+def ciferny_soucet(n):\n     
+def ciferny_soucet(n):\n    soucet=0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    result = 0\n    while n>0:\n        result = result+n?\n        n = int(n)//10\n    return result 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n?\n        n/10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n?\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet += n % 10\n        n -= n ?\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nfor i in range(n):\nsoucet += n % 10\nn=n//10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while cislo % 10 !=0:\n        cifra = cislo % 10\n        soucet=soucet + cifra\n        cislo= cislo // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n != 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n    soucet += n % 10\n    n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    s=0\n    while n:\n        s=s+(n?)\n        n=(n-n?)/10\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    n=str(n)\n    for i in range(len(n)):\n        soucet+=int(n[i])\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while cislo % 10 !=0:\n        cifra = cislo % 10\n        soucet=soucet + cifra\n        cislo= cislo // 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n /= 10\n    print soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        s += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += (n % 10)\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n /= 10\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n /= 10\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n /= 10\n    return int(soucet)\n 
+def ciferny_soucet(n):\nk = n\n    s = 0\n    while k > 0 :\n        s += k % 10\n        k //= 10\n    print s\n 
+def ciferny_soucet(n):\nk = n\n    s = 0\n    while k > 0 :\n        s += k % 10\n        k //= 10\n    print s\n 
+def ciferny_soucet(n):\nk = n\n    soucet = 0\n    while k > 0 :\n        s += k % 10\n        k //= 10\n    print s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += (n % 10)\n        n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    return 8\n 
+def ciferny_soucet(n):\n    return 27\n 
+def ciferny_soucet(n):\n    return 23\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n    n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n    n /= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n    n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n    n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n    n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >0:\n    soucet += n % 10\n    n//=10\n    \n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet=soucet+n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    n=str(n)\n    vysledok=0\n    for i in range(len(n)):\n        vysledok=vysledok+int(n[i-1])\n    return vysledok\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n        pom = n % 10\n        soucet += pom\n        n = n // 10\n    return soucet\n    \n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        pom = n % 10\n        soucet += pom\n        n = n // 10\n    return soucet\n    \n 
+def ciferny_soucet(n):\n    return sum([int(i) for i in list(str(n))])\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    result = 0\n    to_str = str(n)\n    for i in to_str:\n        result += int(i)\n    return int(result)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while not n == 0:\n        soucet = soucet + n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n!= 0:        \nsoucet += n % 10\nn= n//10\nreturn soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n//10\nreturn soucet\n 
+def ciferny_soucet(n):\n    num=str(n)\n    soucet = 0\n    for c in num:\n        soucet += int(c)\n    return soucet\n 
+def ciferny_soucet(n):\n    x=0\n    while n>0:\n        x+=n?\n        n//=10\n    return x\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range (len(str(n)+1)):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n    s= n % 10\n    soucet+=s\n    n=(n-s)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    print (sum([int(i) for i in str(n) if int(i) > 0]))\n\n    \n\n     
+def ciferny_soucet(n):\n    soucet = sum([int(i) for i in str(n) if int(i) > 0])\n\n    \n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        x=n?\n        n=n//10\n        soucet+=x\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    n = str(n)\n    for i in n:\n    soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n<>0):\n    soucet += n % 10\n    n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    s = 0\n    while n>0:\n        x=n?\n        s=s+x\n        n=n//10\n  \n    return s\n 
+def ciferny_soucet(n):\n    n = str(n)\n    soucet = 0\n    for i in range(len(n)):\n        a = n[i]\n        b = int(a)\n        soucet = soucet + b\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    while (cislo != 0):\n        soucet += cislo % 10\n        cislo = cislo // 10\n\n    return soucet\n 
+def ciferny_soucet(n):\n    z=0\n    v=0\n    while n>0:\n        z=n?\n        v+=z\n        n=n//10\n    return v\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n = n//10\n        \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    i = 0\n    p = n\n    while p != 0:\n        i = i+1\n        p = p//10\n    for j in range(i):\n        soucet += n % 10\n        n = n//10    \n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n= n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while (n > 0):\n        soucet += (n % 10)\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n > 0:\n        sucet += n?\n        n //= 10\n    return sucet 
+def ciferny_soucet(n):\ns = 0\nwhile n:\ns += n?\nn //= 10\nreturn s 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    zbytek = n % 10\n    soucet = soucet + zbytek\n    n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\nsoucet += n % 10\nn = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    nn = n\n    soucet = 0\n    while nn > 0:\n        soucet += nn % 10\n        nn = nn // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet = soucet + n?\n        n=n//10   \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 9:\n        soucet += n % 10\n        n= n // 10\n    soucet+=n    \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = n\n    for i in range(1,n):\n        soucet+=cislo?\n        cislo = cislo//10\n    return soucet\n   \n 
+def ciferny_soucet(n):\n    retazec = str(n)\n    soucet=0\n    for i in range(len(retazec)):\n        soucet=int(retazec[i])+soucet\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range (n):\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n // 10\nreturn soucet\n 
+def ciferny_soucet(n):\n    sucet = 0\n    while n > 0:\n        cif = n % 10\n        n = int(n) / 10\n        sucet = cif + sucet\n    return 
+def ciferny_soucet(n):\nsucet = 0\nwhile n > 0:\n        cif = n % 10\n        n = n / 10\n        sucet = cif + sucet\n    return sucet 
+def ciferny_soucet(n):\n    sucet = 0\n    while n > 0:\n        cif = n % 10\n        n = n // 10\n        sucet = cif + sucet\n    return sucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n       n = n/10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n       n = n/10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n       n = n/10\n    return soucet\n\n 
+def ciferny_soucet(n):\n    soucet=0\n    a=0\n    while n>0:\n        a=n?\n        n=n//10\n        soucet=soucet+a\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in (str(n)):\n        soucet += int(i)\n      \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\nsoucet += n % 10\nn = n // 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n? != 0:\n    soucet += n % 10\n    n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n!=0:\nsoucet += n % 10\nn=n//10\nreturn soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n>0):\n        cislo = n?\n        soucet += int(cislo)\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet + n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet = soucet + (n % 10)\n        n = n // 10\n    return soucet 
+def ciferny_soucet(n):\n    a=str(n)\n    s=0\n    for i in range(len(a)):\n        x=int(a[i])\n        s+=x\n    return s\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        zbytek = n?\n        soucet += zbytek\n        n = (n - zbytek)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n != 0:\n        soucet += n % 10\n        n / 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = int(n / 10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\nwhile n > 0:\nsoucet += n % 10\nn = n / 10\nreturn soucet\n\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += int(n) % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    cele_cislo = n\n    soucet = 0\n    for i in range(1, n/250):\n    cislo = n % 10**i\n    soucet += cislo\n    cele_cislo = cele_cislo - cislo\n    \n    return 1 + 2 * 0\n 
+def ciferny_soucet(n):\n    cele_cislo = n\n    soucet = 0\n    for i in range(1, n/250):\n    cislo = n % 10**i\n    soucet += cislo\n    cele_cislo = cele_cislo - cislo\n    \n    return 1 + 2 * 0\n 
+def ciferny_soucet(n):\n    cele_cislo = n\n    soucet = 0\n    for i in range(1, n/250):\n    cislo = n % 10**i\n    soucet += cislo\n    cele_cislo = cele_cislo - cislo\n    \n    return 1 + 2 * 0\n 
+def ciferny_soucet(n):\n    cele_cislo = n\n    soucet = 0\n    for i in range(1, n/250):\n    cislo = n % 10**i\n    soucet += cislo\n    cele_cislo = cele_cislo - cislo\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    cele_cislo = n\n    soucet = 0\n    for i in range(1, n/250):\n    cislo = n % 10**i\n    soucet += cislo\n    cele_cislo = cele_cislo - cislo\n    \n    return soucet\n 
+def ciferny_soucet(n):\n    cele_cislo = n\n    soucet = 0\n    for i in range(1, n?0):\n        cislo = cele_cislo % 10**i\n        cislodelene = cislo/(10**(i-1))\n        soucet += cislodelene\n        cele_cislo = cele_cislo - cisl 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += int(n) % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet 
+def ciferny_soucet(n):\n    while n > 9:\n    soucet = 0\n    soucet += n % 10\n    n = n?\n    return soucet\n 
+def ciferny_soucet(n):\n    while n > 9:\n    soucet = 0\n    soucet += n % 10\n    n = n?\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n    soucet += n % 10\n    n = n?\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n    n = n?\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n    n = n?\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n    n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n    n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n    n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n    n = n//10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 10:\n    soucet += n % 10\n    n = n//10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 1:\n    soucet += n % 10\n    n = n//10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n = n//10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet = soucet + n % 10\n    n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    a=str(n)\n    b=str(n)\n    a=tuple(a)\n    for i in range(len(b)):\n        soucet+=int(a[i])\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\nsoucet += n % 10\nn = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet=0\n    for i in str(n):\n        soucet +=int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n !=0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>10:\n        soucet += n?\n        n = n//10\n    return soucet + n\n 
+def ciferny_soucet(n):\n    suma = 0\n    x = n\n    while x >= 10:\n        suma += x?\n        x = x//10\n    suma += x\n    return suma\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += (n % 10)\n        n = (n//10)\n        \n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nzos = n\ndlh = len(str(n))\nnas = 1\nwhile dlh > 0:\nsoucet += zos // 10**(dlh-1)\nzos = zos % 10**(dlh-1)\ndlh += -1\nreturn soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n    soucet += n % 10\n    n//=10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n % 10!=0:\n        soucet += n?\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        if n % 10 == 0:\n            soucet+=0\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    cifs = 0\n    while n > 0:\n        cifs += (n?)\n        n = n//10\n    return cifs\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n /= 10\n    int(soucet)\n    return int(soucet)\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n /= 10\n    int(soucet)\n    return int(soucet)-2\n 
+def ciferny_soucet(n):\n    vysledek = 0\n    while n>0:\n        vysledek += n?\n        n //= 10\n    return vysledek 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\nsoucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n>0):\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    m=n\n    soucet = 0\n    while m > 0:\n    soucet += m % 10\n    m = m // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(len(str(n))):\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n>0:    \nsoucet += n % 10\nn=n//10\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 10:\n        soucet += n?\n        n = n/10\n    soucet += n\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n?\n        n = n/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >= 10:\n        soucet += n?\n        n = n//10\n    soucet += n\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in (str(n)):\n        soucet += int(i)\n    return soucet\n 
+def ciferny_soucet(n):\n    numb=0\n    for i in range (0, n):        \n        if  n%i==0:\n            numb=numb + 1\n    return numb\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet = soucet +n?\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n >=1:\n    soucet = soucet + n % 10\n    n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\ncislo_str = str(n)\ndelka = len(cislo_str)\nsoucet = 0\nfor i in range(delka):\nsoucet += int(cislo_str[i])\nreturn soucet\n 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return j\n 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j-1) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j-1) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j-1) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j-1\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j-1\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j-1\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j-1\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j-1\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=-1\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=-1\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=-1\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=-1\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=1\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=-2\n    while n>0:\n        g=n?\n        n=n/10\n        j=g+j\n    return int(j) 
+def ciferny_soucet(n):\n    j=0\n    while n>0:\n        g=n?\n        n=n//10\n        j=g+j\n    return j 
+def ciferny_soucet(n):\n    soucet = 0\n    for i in range(n):\nsoucet += n % 10\nn=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n!=0):\n        soucet=soucet+(n?)\n        n=int(n/10)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n:\n        soucet+= n % 10\n        n//=10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while 0<n:\n        soucet += n % 10\n        n=n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n    soucet += n % 10\n    n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n //= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n!=0:\n        soucet += n % 10\n        n = n//10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = (n -(n % 10)) / 10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n//= 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n = n//10\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n =  n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    \n    soucet += n % 10\n    n = n // 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while(n != 0):\n        soucet += n % 10\n        n = int(n/10)\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    cislo = str(n)\n    for cislice in cislo:\nsoucet += (ord(cislice)-48)\n    return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n    soucet += n % 10\n        n=n/10\n    return soucet\n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n>0:\nsoucet += int(n % 10)\nn=(n/10)\nreturn soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n?\n        n = n//10\n    return soucet\n    \n        \n            \n            \n        \n    \n 
+def ciferny_soucet(n):\nsoucet = 0\nwhile n>0:\ncifra = int(n ?)\nsoucet = soucet + cifra\nn=int(n/10)\n     
+def ciferny_soucet(n):\n    if n > 0:\n        return n % 10 + ciferny_soucet((n-n?)/10)\n    return 0\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0: \nsoucet += n % 10\nn = (n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n        return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n        return soucet 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    soucet += n % 10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=(n-n?)/10      \n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=(n-n?)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n>0:\n        soucet += n % 10\n        n=(n-n % 10)/10\n    return soucet\n 
+def ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n    soucet += n % 10\n    n //= 10\n    return soucet\n 
+import math\ndef ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = math.floor(n / 10)\n    return soucet\n 

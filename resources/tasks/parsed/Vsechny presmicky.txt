@@ -1,0 +1,105 @@
+
+def permutace(slovo):\n    if len(slovo) == 0: return [""]\n    out = []\n    for i in range(len(slovo)):\n        p = slovo[i]\n        zbytek = slovo[:i] + slovo[i+1:]\n        for x in permutace(zbytek):\n            out.append(p+ 
+def rec(s,a,v,k,n,slovo):\n    if k == 0:\n        s.add(a)\n    else:\n        for i in range(n):\n            if not i in v:\n                v.add(i)\n                z = a\n                a = a + slovo[i]\n                rec(s,a, 
+def generator(l, fixed, variadic):\n    if len(variadic) == 1:\n        l.append(fixed + variadic)\n    elif len(variadic) == 2:\n        l.append(fixed + variadic)\n        l.append(fixed + variadic[::-1])\n    else:\n        for i 
+def perms(word):\n    stack = list(word)\n    results = [stack.pop()]\n    while len(stack) != 0:\n        c = stack.pop()\n        new_results = []\n        for w in results:\n            for i in range(len(w)+1):\n                new_ 
+def perms(word):\n    stack = list(word)\n    results = [stack.pop()]\n    while len(stack) != 0:\n        c = stack.pop()\n        new_results = []\n        for w in results:\n            for i in range(len(w)+1):\n                new_ 
+def comb(text, status, out):\n    if len(out) == len(text):\n        print out\n    else:\n        for i in range(len(text)):\n            if(status[i] == 0):\n                status[i] = 1\n                comb(text, status, out + text[ 
+def comb(text, status, out):\n    if len(out) == len(text):\n        print out\n    else:\n        for i in range(len(text)):\n            if(status[i] == 0):\n                status[i] = 1\n                comb(text, status, out + text[ 
+def was_used(text, status, pos):\n    if(pos == len(text)): return 0\n    for i in range(pos + 1, len(text)):\n        if((status[i] == 1) and (text[i] == text[pos])): return 1\n    return 0\n\ndef comb(text, status, out):\n    if len(ou 
+all = set()\n\ndef p(l, u, res):\n    if len(res)==len(l):\n        if res not in all:\n            all.add(res)\n        return\n    for i in range(len(l)):\n        if not u[i]:\n            u[i] = True\n            p(l, u, res + l[ 
+def vsechny_presmycky(slovo):\n    seznam = presmycky(slovo)\n    seznam.sort()\n    for sl in seznam:\n        print sl\n    \ndef presmycky(slovo):\n    if len(slovo) <= 1:\n        return slovo\n    else:\n        temp = []\n 
+def vsechny_presmycky(slovo):\n    seznam = presmycky(slovo)\n    seznam.sort()\n    seznam = list(set(seznam))\n    for sl in seznam:\n        print sl\n    \ndef presmycky(slovo):\n    if len(slovo) <= 1:\n        return slovo\n    el 
+def vsechny_presmycky(slovo):\n     
+def vsechny_presmycky(slovo):\n     
+def solve(slovo):\n     
+def solve(slovo):\n     
+def printList(l):\n    l.sort()\n    for i in l:\n        print i\n\ndef vsechny_presmycky(slovo):\n    presmycky = [']\n    for p in slovo:\n        nove = []\n        for s in presmycky:\n            for i in range(len(s)+1):\n 
+def printList(l):\n    l.sort()\n    print l[0]\n    for i in range(1, len(l)):\n        if l[i] != l[i-1]:\n            print l[i]\n\ndef vsechny_presmycky(slovo):\n    presmycky = [']\n    for p in slovo:\n        nove = []\n 
+def dalsi_slovo(slovo, pismena):\n    if len(pismena) == 0:\n        print slovo\n    else:\n        for i in range(len(pismena)):\n            p = pismena[:]\n            nove_slovo = slovo + p[i]\n            del p[i]\n            dal 
+def pres(pref, sl):\n    if sl==':\n        print pref\n    else:\n        for i in range(len(sl)):\n            pres(pref+sl[i],sl[:i]+sl[i+1:])\n\ndef vsechny_presmycky(slovo):\n    pres(',slovo)\n 
+def pres(A, pref, sl):\n    if sl==':\n        A.append(pref)\n    else:\n        for i in range(len(sl)):\n            pres(A,pref+sl[i],sl[:i]+sl[i+1:])\n\ndef vsechny_presmycky(slovo):\n    A=[]\n    pres(A,',slovo)\n    A.so 
+def pres(A, pref, sl):\n    if sl==':\n        A.append(pref)\n    else:\n        for i in range(len(sl)):\n            pres(A,pref+sl[i],sl[:i]+sl[i+1:])\n\ndef vsechny_presmycky(slovo):\n    A=[]\n    pres(A,',slovo)\n    A.so 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\ndic=[]\ndicp, dici={}, {}\nleng=len(slovo)\nfor i in slovo:\ndic.append(i)\nfor i in list(set(dic)):\ndicp[i]=dic.count(i)\nll=list(set(dic))\nll.sort()\nfor i in range(len(ll)):\ndici[i]=li 
+def vsechny_presmycky(slovo):\ndic=[]\ndicp, dici={}, {}\nleng=len(slovo)\nfor i in slovo:\ndic.append(i)\nfor i in list(set(dic)):\ndicp[i]=dic.count(i)\nll=list(set(dic))\nll.sort()\nfor i in range(len(ll)):\ndici[i]=li 
+def vsechny_presmycky(slovo):\nt=list(slovo)\nt.sort()\nt=tuple(t)\n\nl=[]\nll=[]\nfor i in t:\nl.append(list(i))\n\nrek(t, l)\n\n\ndef rek(t, l):\nll=[]\nfor i in l:\nfor j in [x for x in t if not x in i]:\n 
+def vsechny_presmycky(slovo):\n    t=list(slovo)\n    t.sort()\n     
+def vsechny_presmycky(slovo):\n    t=list(slovo)\n    t.sort()\n     
+def vsechny_presmycky(slovo):\n    permutace=pres(slovo)\n    for i in permutace: print i\n    \ndef pres(slovo):    \n    if len(slovo)==1:\n        seznam=[slovo]\n    else:\n        seznam=[]\n        for i in range(len(slovo)):\n 
+def vsechny_presmycky(slovo):\n    permutace=pres(slovo)\n    permutace.sort()    \n    for i in permutace: print i\n    \ndef pres(slovo):    \n    if len(slovo)==1:\n        seznam=[slovo]\n    else:\n        seznam=[]\n        for i 
+def vsechny_presmycky(slovo):\n    permutace=pres(slovo)\n    permutace.sort()    \n    for i in permutace: print i\n    \ndef pres(slovo):    \n    if len(slovo)==1:\n        seznam=[slovo]\n    else:\n        seznam=[]\n        for i 
+def vsechny_presmycky(slovo):\n    sez=[]\n    a=["a","h","o","j"]\n    h=["a","h","o","j"]\n    o=["a","h","o","j"]\n    j=["j"\n    for i in slovo:\n        sez.append(i)\n    a=[raz + dva + tri + ctyri for raz in a for dva in h f 
+def vsechny_presmycky(slovo):\n    sez=[]\n    a=["a","h","o","j"]\n    h=["a","h","o","j"]\n    o=["a","h","o","j"]\n    j=["j"\n    for i in slovo:\n        sez.append(i)\n    a=[raz + dva + tri + ctyri for raz in a for dva in h f 
+import random\n\ndef fakt(n):\n    if n == 1:\n        return 1\n    else:\n        return n*fakt(n-1)\n\ndef vsechny_presmycky(slovo):\n    pismena = []\n    for i in slovo:\n        pismena.append(i)\n    delka = fakt(len(slovo))\n 
+def vsechny_presmycky(slovo):\n    if slovo=="ahoj":\n        print "ahjo"\n        print "ahoj"\n        print "ajho"\n        print "ajoh"\n        print "aohj"\n        print "aojh"\n        print "hajo"\n        print "haoj"\n 
+def vsechny_presmycky(slovo):\n    if slovo=="ahoj":\n        print "ahjo"\n        print "ahoj"\n        print "ajho"\n        print "ajoh"\n        print "aohj"\n        print "aojh"\n        print "hajo"\n        print "haoj"\n 
+def vsechny_presmycky(slovo):\n    if slovo=="ahoj":\n        print "ahjo"\n        print "ahoj"\n        print "ajho"\n        print "ajoh"\n        print "aohj"\n        print "aojh"\n        print "hajo"\n        print "haoj"\n 
+def vsechny_presmycky(slovo):\n    if slovo=="ahoj":\n        print "ahjo"\n        print "ahoj"\n        print "ajho"\n        print "ajoh"\n        print "aohj"\n        print "aojh"\n        print "hajo"\n        print "haoj"\n 
+def vsechny_presmycky(slovo):\n    if slovo=="ahoj":\n        print "ahjo"\n        print "ahoj"\n        print "ajho"\n        print "ajoh"\n        print "aohj"\n        print "aojh"\n        print "hajo"\n        print "haoj"\n 
+a=[]\ndef p(slovo,i):\n    if i == len(slovo)-2:\n        a.append(slovo)\n        a.append(slovo[:-2] + slovo[-1] + slovo[-2])\n    else:\n        p(slovo,i+1)\n 
+a=[]\ndef p(slovo,i):\n    if i == len(slovo)-2:\n        a.append(slovo)\n        a.append(slovo[:-2] + slovo[-1] + slovo[-2])\n    else:\n        p(slovo,i+1)\n 
+def vsechny_presmycky(slovo):\n    pp = list(set(genp(slovo)))\n    pp.sort()\n    for p in pp:\n        print p\n\ndef genp(slovo):\n    if slovo:\n        for i in range(len(slovo)):\n            for s in genp(slovo[:i] + slovo[i+1 
+def presmycka(retezec, seznam,vystup):\n    if seznam == []:\n        vystup.add(retezec)\n    for i in seznam:\n        redukovany_seznam = seznam[:]\n        redukovany_seznam.remove(i)\n        presmycka(retezec + i , redukovany_seznam 
+def p(x):\n    if x=="":\n        return [""]\n    else:\n        ty=[]\n        for i in x:\n            for j in p(x.replace(i,"",1)):\n                       ty.append(i+j)\n        return ty\n            \n\ndef vsechny_presmycky 
+def vsechny_presmycky(slovo):\n    s=set()\n    for i in perm(len(slovo), len(slovo)):\n    s.add( a2s(s2aperm(slovo, i)))\n    s=list(s)\n    s.sort()\n    for i in s:\n        print i\ndef perm(n,k):\n    if k==0:\n        return [[] 
+def presmycka(zacatek, konec):\n    if len(konec) == 1:\n        print zacatek + konec\n        \n    for i in konec:        \n        inFunction = konec\n        inFunction.replace(i, )\n        presmycka(zacatek + i, inFunction)\n 
+def presmycka(zacatek, konec):\n    if len(konec) == 1:\n        print zacatek + konec\n        \n    for i in konec:        \n        inFunction = konec\n        inFunction.replace(i, )\n        presmycka(zacatek + i, inFunction)\n 
+def presmycka(zacatek, konec):\n    if len(konec) == 1:\n        print zacatek + konec\n        \n    for i in konec:        \n        inFunction = konec\n        inFunction.replace(i, )\n        presmycka(zacatek + i, inFunction)\n 
+def presmycka(zacatek, konec):\n    if len(konec) == 1:\n        print zacatek + konec\n        \n    for i in konec:        \n        inFunction = konec\n        inFunction.replace(i, )\n        presmycka(zacatek + i, inFunction)\n 
+def part(start, end):\n    if (len(end)) == 1:\n        print start + end\n        return\n    for i in end:\n        part(start + i, end.replace(i, "", 1))\n\ndef vsechny_presmycky(slovo):\n    part("", slovo)\n 
+def part(start, end):\n    if (len(end)) == 1:\n        print start + end\n        return\n    for i in end:\n        part(start + i, end.replace(i, "", 1))\n\ndef vsechny_presmycky(slovo):\n    part("", slovo)\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def part(start, end):\n    retval = []\n    if len(end) == 1:\n        return [start + end]\n    for i in end:\n        for j in (part(start + i, end.replace(i, "", 1))):\n            retval.append(j)\n    return retval\n\ndef vsechn 
+def removeOne(string, char):\n    retval = ""\n    passed = False\n    for i in string:\n        if i == char:\n            if not passed:\n                passed = True\n            else:\n                retval += i\n        else:\n 
+def removeOne(string, char):\n    retval = ""\n    passed = False\n    for i in string:\n        if i == char:\n            if not passed:\n                passed = True\n            else:\n                retval += i\n        else:\n 
+list = []\n\ndef vsechny_presmycky(head, tail='):\n    if len(head) == 0: print list.append(tail)\n    else:\n        for i in range(len(head)):\n            vsechny_presmycky(head[0:i] + head[i+1:], tail+head[i])\nlist.sort()\nfor 
+list = []\n\ndef vsechny_presmycky(head, tail='):\n    if len(head) == 0: print list.append(tail)\n    else:\n        for i in range(len(head)):\n            vsechny_presmycky(head[0:i] + head[i+1:], tail+head[i])\nlist.sort()\nfor 
+list = []\n\ndef vsechny_presmycky(head, tail='):\n    if len(head) == 0: print list.append(tail)\n    else:\n        for i in range(len(head)):\n            vsechny_presmycky(head[0:i] + head[i+1:], tail+head[i])\nlist.sort()\nfor 
+list = []\n\ndef vsechny_presmycky(head, tail='):\n    if len(head) == 0: print list.append(tail)\n    else:\n        for i in range(len(head)):\n            vsechny_presmycky(head[0:i] + head[i+1:], tail+head[i])\nlist.sort()\nfor 
+list = []\n\ndef vsechny_presmycky(head, tail='):\n    if len(head) == 0: print list.append(tail)\n    else:\n        for i in range(len(head)):\n            vsechny_presmycky(head[0:i] + head[i+1:], tail+head[i])\nlist.sort()\nfor 
+list = []\n\ndef vsechny_presmycky(head, tail='):\n    if len(head) == 0: print list.append(tail)\n    else:\n        for i in range(len(head)):\n            vsechny_presmycky(head[0:i] + head[i+1:], tail+head[i])\nlist.sort()\nfor 
+list = []\ndef vsechny_presmycky(slovo):\n    permutations(slovo)\n    list.sort()\n    for i in range(len(list)):\n        print list[i]\ndef permutations(head, tail='):\n    if len(head) == 0:\n        list.append(tail)\n    else:\n 
+list1 = []\ndef vsechny_presmycky(slovo):\n    permutations(slovo)\n    list2 = list(set(list1))\n    list2.sort()\n    for i in range(len(list2)):\n        print list2[i]\ndef permutations(head, tail='):\n    if len(head) == 0:\n 
+def vsechny_presmycky(slovo):\n    presmycky = permutace(slovo)\n    presmycky.sort()\n    posledni = None\n    for presmycka in presmycky:\n        if presmycka != posledni:\n            print presmycka\n    posledni = presmycka\n    \n 
+def presmycky(slovo):\n    if len(slovo) <= 1:\n        return slovo\n    slova = []\n    for s in presmycky(slovo[1:]):\n        for i in range(len(slovo)):\n            slova.append(s[:i] + slovo[0:1] + s[i:])\n    return slova\n\n 
+def rec(s,zoznam):\nif zoznam==[]:\nprint s\nreturn\nfor i in zoznam:\nnewzoznam=[]\nfor j in  zoznam:\nif i!=j:\nnewzoznam.append(j)\nrec(s+str(i),newzoznam)\n\n\ndef vsechny_presmycky(slovo):\n    l=[]\n    fo 
+m={}\n\n\ndef rec(s,zoznam):\nif zoznam==[]:\nm[s]=1\nreturn\nfor i in range(len(zoznam)):\nnewzoznam=[]\nfor j in  range(len(zoznam)):\nif i!=j:\nnewzoznam.append(zoznam[j])\nrec(s+str(zoznam[i]),newzoznam)\n\n 
+def komb(n):\n    if not n:\n        return [[]]\n    ret = []\n    for j in n:\n        d = n[:]\n        d.remove(j)\n        for i in komb(d):\n            ret.extend([j + i])\n    return ret\n\ndef vsechny_presmycky(slovo):\n 
+def komb(n):\n    if not n:\n        return [[]]\n    ret = []\n    for j in n:\n        d = n[:]\n        d.remove(j)\n        for i in komb(d):\n            ret.extend([j + i])\n    return ret\n\ndef vsechny_presmycky(slovo):\n 
+def vsechny_presmycky(slovo):\n    l=list(slovo)\n    vse=[]\n    def rek(l,zac):\n        if len(l)==0: vse.append(zac)\n        else:\n            for i in l:\n                b=l[:]\n                b.remove(i)\n                rek(b, 
+def vsechny_presmycky(slovo):\n    slovo=list(slovo)\n    slovo.sort()\n    presmycka(slovo, ', len(slovo))\n    \ndef presmycka(sl, cast, dlzka):\n    if len(cast)<dlzka:    \n        for i in range(len(sl)):\n            nsl=sl[:]\n 
+def vsechny_presmycky(slovo):\n    slovo=list(slovo)\n    slovo.sort()\n    smycka(slovo, ', len(slovo))\n    \ndef smycka(wd, pt, ln):\n     
+per = []\n\ndef permutations(i, s, p):\n    s2 = list(s)\n    p2 = list(p)\n    if i == len(s):\n        if not p2 in per:\n            per.append(p2)\n        return\n    for k in range(len(s)):\n        p2 = list(p)\n        p2.appen 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def toList(slovo):\n    out = []\n    for ch in range(len(slovo)):\n        out.append(slovo[ch])\n    return out\n\ndef rem(l, i):\n    out = []\n    if i > 0:\n        out = out + l[:i]\n    if i+1 < len(l):\n        out = out %2 
+def toList(slovo):\n    out = []\n    for ch in range(len(slovo)):\n        out.append(slovo[ch])\n    return out\n\ndef rem(l, i):\n    out = []\n    if i > 0:\n        out = out + l[:i]\n    if i+1 < len(l):\n        out = out %2 
+def vsechny_presmycky(slovo):\npresmycka=""\npresmycky=[]\nn = len(slovo)\nk=n\nmain=[]\nfor i in range(1,n+1):\nmain.append(i)\nhlavna = main\npodmnoziny=[]\nfor i in range (1,k):\nfor number in hlavna:\nfor nextnum 
+def vsechny_presmycky(slovo):\npresmycka=""\npresmycky=[]\nn = len(slovo)\nk=n\nmain=[]\nfor i in range(1,n+1):\nmain.append(i)\nhlavna = main\npodmnoziny=[]\nfor i in range (1,k):\nfor number in hlavna:\nfor nextnum 
+def vsechny_presmycky(slovo):\npresmycka=""\npresmycky=[]\nusp=[]\nn = len(slovo)\nk=n\nmain=[]\nfor i in range(1,n+1):\nmain.append(i)\nhlavna = main\npodmnoziny=[]\nfor i in range (1,k):\nfor number in hlavna:\nf 
+def odstran_duplikaty(list):\nfor x in range(len(list)):\nfor y in range(len(list)):\nif x <> y:\nif list[x] == list[y]:\nlist.pop(y)\nreturn odstran_duplikaty(list)\nreturn list           \n                \ndef zor 
+def enumerate(seznam):\n    seznam2 = []\n    for i in range(len(seznam)):\n        seznam2.append((i, seznam[i]))\n    return seznam2\n\ndef bublinkove_razeni(b):\n    a = []\n    for i in b:\n        a.append(i)        \n    n = len(a 
+def enumerate(seznam):\n    seznam2 = []\n    for i in range(len(seznam)):\n        seznam2.append((i, seznam[i]))\n    return seznam2\n\ndef bublinkove_razeni(b):\n    a = []\n    for i in b:\n        a.append(i)        \n    n = len(a 
+def yield_permutace(slovo): \n    mylist = list(slovo) \n    mylist.sort() \n    yield list(mylist) \n \n    if len(mylist) <= 1: \n        return \n \n    first = 0 \n    last = len(mylist) \n    while 1: \n        i = last - 1 \n \ 
+vysledek = []\n\ndef vsechny_presmycky(slovo):\n    presmycky(slovo)\n    global vysledek\n    vypis_serazene(vysledek)\n\ndef presmycky(pismena, vystup=""):\n    if not pismena:\n        global vysledek\n        vysledek.append(vystup) 
+vysledek = []\n\ndef vsechny_presmycky(slovo):\n    presmycky(slovo)\n    global vysledek\n    vypis_serazene(vysledek)\n\ndef presmycky(pismena, vystup=""):\n    if not pismena:\n        global vysledek\n        vysledek.append(vystup) 
+def vsechny_presmycky(slovo):\n    presmycky("", slovo)\n\ndef presmycky(start, slovo):\n    if len(slovo) == 1:\n        print start + slovo\n    for i in range(len(slovo)):\n        s = ""\n        if i != 0:\n            s += slov 
+def vsechny_presmycky(slovo):\n    slovo = slovo.split(')\n    slovo.sort()\n    slovo = '.join(slovo)\n    presmycky("",slovo)\n\ndef presmycky(start, slovo):\n    if len(slovo) == 1:\n        print start + slovo\n    for i in range 
+def vsechny_presmycky(slovo):\n    slovo = slovo.split(')\n    slovo.sort()\n    slovo = '.join(slovo)\n    presmycky("",slovo)\n\nused = []\n    \ndef presmycky(start, slovo):\n    if len(slovo) == 1 and not((start + slovo) in used) 
+def perm(s):\n    if len(s) <=1:\n        return s\n    else:\n        tmp = []\n        for p in perm(s[1:]):\n            for i in range(len(s)):\n                tmp.append(p[:i] + s[0:1] + p[i:])\n        return tmp\n\ndef vsech 
+def vrat_variace(pole, delka):\n    result = []\n    for  i in range(len(pole)):\n        if delka == 1:\n            result.append(pole[i])\n        else:\n            tp = pole[:]\n            del tp[i]\n            vnorene = vrat_varia 
+vsechny = set()\n\ndef presmycky(actual,rem):\n    if len(rem) == 1:\n        vsechny.add(actual + rem[0])\n        return\n    for i in range(len(rem)):\n        copy = list(rem)\n        del copy[i]\n        presmycky(actual + rem[ 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def r(p, v, index):\n    if index == len(p) or len(v) == len(p):\n        if len(v) == len(p):\n            print "".join(v)\n    else:\n        for x in p:\n            if x not in v:\n                v.append(x)\n                r(p, v, 
+def r(slovo, p, v, index):\n    if index == len(p) or len(v) == len(p):\n        if len(v) == len(p):\n            s = '\n            for i in v:\n                s += slovo[i]\n            print s\n    else:\n        for x in p:\n 
+def r(slovo, p, v, index, hot):\n    if index == len(p) or len(v) == len(p):\n        if len(v) == len(p):\n            s = '\n            for i in v:\n                s += slovo[i]\n            if s not in hot:\n                print s 
+def perm(slovo):\n    s=list(slovo)\n    if len(s)==1:\n        return [s]\n    out=[]\n    for i in range(len(s)):\n        first=s[i]\n        for pod in perm(s[:i]+s[i+1:]):       \n            out.append([first]+pod)\n    retur 
+def perm(slovo):\n    s=list(slovo)\n    if len(s)==1:\n        return [s]\n    out=[]\n    for i in range(len(s)):\n        first=s[i]\n        for pod in perm(s[:i]+s[i+1:]):       \n            out.append([first]+pod)\n    retur 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
+def vsechny_presmycky(slovo):\n    print slovo\n 
