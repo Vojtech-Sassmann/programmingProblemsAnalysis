@@ -88,43 +88,61 @@ def compare_corrs(corr1, corr2):
 # print_heatmap(user_time_corr, 'User performance filtered')
 # print_heatmap(bag_of_words_corr, 'Bag of words')
 
-"""Zjisteni, jestli mame dost dat"""
-
 
 def split_df_in_half(df):
     length = len(df)
     half = int(length/2)
     return df.head(half), df.tail(len(df) - half)
+
+"""Zjisteni, jestli mame dost dat"""
 #
+# data_user_time = load_df("resources/Python_user_time.csv")
+# filtered_df = filter_columns(data_user_time)
 # df1, df2 = split_df_in_half(filtered_df)
 # corr_1 = df1.corr(method='spearman')
 # corr_2 = df2.corr(method='spearman')
 #
 # corr_3 = compare_corrs(corr_1, corr_2)
 #
-# print_heatmap(corr_3, 'Compare correlation of user performance on split data', annote=True)
+# print_heatmap(corr_3, 'Compare correlation of user performance on split data', annote=True, width=4, height=4)
 
 
-"""Porovnani reseni Bag of words"""
-top_solution_df = load_df("resources/parsed/resultsTopBin_swapped.csv")
-second_solution_df = load_df("resources/parsed/resultsSecondBin_swapped.csv")
-third_solution_df = load_df("resources/parsed/resultsThirdBin_swapped.csv")
-fourth_solution_df = load_df("resources/parsed/resultsFourthBin_swapped.csv")
+"""Porovnani reseni Bag of words a user performance"""
 
-top_corr = top_solution_df.corr(method='spearman')
-second_corr = second_solution_df.corr(method='spearman')
-third_corr = third_solution_df.corr(method='spearman')
-fourth_corr = fourth_solution_df.corr(method='spearman')
-
-# print_heatmap(top_corr, 'Top')
-# print_heatmap(second_corr, 'Second')
-# print_heatmap(third_corr, 'third')
-# print_heatmap(fourth_corr, 'fourth')
-
-top_values = top_corr.values.flatten()
-second_values = second_corr.values.flatten()
-third_values = third_corr.values.flatten()
-fourth_values = fourth_corr.values.flatten()
-
-frame = pd.DataFrame(data={'1. Top': top_values, '2. Second': second_values, '3. Third': third_values, '4. Fourth': fourth_values})
-print_heatmap(frame.corr(), 'Comparison of solutions (Bin)', True, 6, 6)
+# top_solution_df = load_df("resources/parsed/resultsTop_swapped.csv")
+# second_solution_df = load_df("resources/parsed/resultsSecond_swapped.csv")
+# third_solution_df = load_df("resources/parsed/resultsThird_swapped.csv")
+# fourth_solution_df = load_df("resources/parsed/resultsFourth_swapped.csv")
+# assignment_solution_df = load_df("resources/assignment/bagOfWords_swapped.csv")
+# data_user_time = load_df("resources/Python_user_time.csv")
+# performance_filtered_df = filter_columns(data_user_time)
+#
+# filter_diff_columns(assignment_solution_df, performance_filtered_df)
+# filter_diff_columns(fourth_solution_df, assignment_solution_df)
+# filter_diff_columns(third_solution_df, fourth_solution_df)
+# filter_diff_columns(second_solution_df, third_solution_df)
+# filter_diff_columns(top_solution_df, second_solution_df)
+#
+# top_corr = top_solution_df.corr(method='spearman')
+# second_corr = second_solution_df.corr(method='spearman')
+# third_corr = third_solution_df.corr(method='spearman')
+# fourth_corr = fourth_solution_df.corr(method='spearman')
+# assignment_corr = assignment_solution_df.corr(method='spearman')
+# performance_corr = performance_filtered_df.corr(method='spearman')
+#
+# # print_heatmap(top_corr, 'Top')
+# # print_heatmap(second_corr, 'Second')
+# # print_heatmap(third_corr, 'third')
+# # print_heatmap(fourth_corr, 'fourth')
+#
+# top_values = top_corr.values.flatten()
+# second_values = second_corr.values.flatten()
+# third_values = third_corr.values.flatten()
+# fourth_values = fourth_corr.values.flatten()
+# assignment_values = assignment_corr.values.flatten()
+# performance_values = performance_corr.values.flatten()
+#
+# frame = pd.DataFrame(data={'1. TopSolution': top_values, '2. SecondSolution': second_values, '3. ThirdSolution': third_values,
+#                            '4. FourthSolution': fourth_values, '5. Assignment': assignment_values,
+#                            '6. Performance': performance_values})
+# print_heatmap(frame.corr(), 'Comparison of solutions', True, 8, 8)

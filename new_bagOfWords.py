@@ -48,7 +48,7 @@ class MyVisitor(ast.NodeVisitor):
         if self.data_vector[key] == 0.0:
             self.data_vector[key] = 1.0
         else:
-            if not binar:
+            if not binary:
                 self.data_vector[key] += 1
 
 
@@ -59,7 +59,7 @@ def to_data_string(data):
         if value > 0:
             count += 1
         result += str(value) + ";"
-    if count < 4:
+    if count < 1:
         return ""
     result = result[:-1]
     return result
@@ -68,7 +68,7 @@ def to_data_string(data):
 def check_features(solution, data_vector):
     for node in searched_nodes:
         data_vector[node] = solution.count(node)
-        if binar:
+        if binary:
             if data_vector[node] > 0:
                 data_vector[node] = 1
 
@@ -121,7 +121,7 @@ def print_header(file_name):
 
 
 def save_results(results, file_name):
-    if results.submitted < 300:
+    if results.submitted < submission_limit:
         return
 
     with codecs.open(output_path, 'a') as f:
@@ -153,9 +153,7 @@ def analyze_file(file_name):
     save_results(results, file_name)
 
 
-def analyze_files():
-    path = 'resources/tasks/parsed/'
-
+def save_header():
     """prepare output file"""
     header = "name"
     with codecs.open(output_path, 'w') as f:
@@ -164,12 +162,20 @@ def analyze_files():
             header += node
         print(header, file=f)
 
+
+def analyze_files():
+    path = 'resources/tasks/parsed/'
+
+    save_header()
+
     files = [f for f in listdir(path) if isfile(join(path, f))]
     for f in files:
         analyze_file(f)
 
-
-binar = True
+run = False
+binary = True
 output_path = "resources/parsed/resultsFourthBin.csv"
 solution_number = 4
-analyze_files()
+submission_limit = 300
+if run:
+    analyze_files()

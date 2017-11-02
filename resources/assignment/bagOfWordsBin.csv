@@ -1,0 +1,30 @@
+name;+;-;*;/;for;while;print;%;^;try:;if; break;==
+Binarni cislo ; 1;1;1;0;1;0;0;0;0;0;1;0;1
+Binarni zapis ; 1;0;0;1;0;1;1;1;0;0;1;0;1
+Caesarova sifra ; 1;1;0;0;1;1;0;0;0;0;1;0;1
+Ciferny soucet ; 1;0;0;1;0;1;0;1;0;0;0;0;0
+Cik-cak ; 0;0;0;0;1;0;1;1;0;0;1;0;1
+Ctverec ; 1;1;1;0;0;0;1;0;0;0;0;0;0
+Delitele ; 1;0;0;0;1;0;1;1;0;0;1;0;1
+Diamant ; 1;1;0;0;1;0;1;0;0;0;1;0;0
+Dvojnasobek ; 0;0;1;0;0;0;1;0;0;0;0;0;0
+Faktorial ; 1;0;1;0;1;0;0;0;0;0;0;0;0
+Fibonacciho posloupnost ; 1;0;0;0;1;0;1;0;0;0;0;0;0
+Frekvencni analyza ; 1;1;0;0;1;0;1;0;0;0;1;0;0
+Mocniny dvojky ; 0;0;1;0;1;0;1;0;0;0;0;0;0
+Nejvetsi spolecny delitel ; 0;0;0;0;0;1;0;1;0;0;0;0;0
+Palindrom ; 0;1;0;0;1;0;0;0;0;0;1;0;0
+Pascaluv trojuhelnik ; 1;1;1;1;1;0;1;0;0;0;0;0;0
+Pocet delitelu ; 1;0;0;0;1;0;0;1;0;0;1;0;1
+Podmnoziny ; 1;0;1;0;1;0;1;0;0;0;1;0;1
+Presmycky ; 0;0;0;0;0;0;1;0;0;0;1;0;1
+Prvni pismena ; 1;1;0;0;1;0;0;0;0;0;1;0;1
+Sachovnice ; 1;0;0;0;1;0;1;1;0;0;1;0;1
+Soucet ; 1;0;0;0;0;0;0;0;0;0;0;0;0
+Suda cisla ; 1;0;0;0;1;0;1;1;0;0;1;0;1
+Tajna posloupnost ; 1;0;0;0;1;0;1;0;0;0;1;0;0
+Transpozicni sifra ; 1;0;0;0;1;0;0;1;0;0;1;0;1
+Trojuhelnik ; 0;1;0;0;1;0;1;0;0;0;0;0;0
+Velke X ; 0;1;0;0;1;0;1;0;0;0;1;0;1
+Vsechny presmicky ; 1;0;0;0;1;0;1;0;0;0;1;0;1
+Vypis prvocisel ; 1;1;0;0;1;1;1;1;0;0;1;0;1
