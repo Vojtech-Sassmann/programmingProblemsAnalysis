@@ -57,12 +57,6 @@ def filter_diff_columns(df1, df2):
             del df2[column]
 
 
-def adjust_columns(dataframes):
-    for df1 in dataframes:
-        for df2 in dataframes:
-            filter_diff_columns(df1, df2)
-
-
 def load_df(path):
     df = pd.read_csv(path, sep=",", index_col=0)
     df.sort_index(axis=1, inplace=True)
@@ -121,49 +115,56 @@ def log_values_in_df(df):
 
 
 """Porovnani reseni Bag of words a user performance"""
+
 top_solution_df = load_df("resources/parsed/resultsTop_swapped.csv")
 second_solution_df = load_df("resources/parsed/resultsSecond_swapped.csv")
 third_solution_df = load_df("resources/parsed/resultsThird_swapped.csv")
-average2_solution_df = load_df("resources/resultsAvarage2_swapped.csv")
-average3_solution_df = load_df("resources/resultsAvarage3_swapped.csv")
-average4_solution_df = load_df("resources/resultsAvarage4_swapped.csv")
-average5_solution_df = load_df("resources/resultsAvarage5_swapped.csv")
-average6_solution_df = load_df("resources/resultsAvarage6_swapped.csv")
+average_solution_df = load_df("resources/resultsAvarage4_swapped.csv")
 example_solution_df = load_df("resources/example/bagOfWords_swapped.csv")
 data_user_time = load_df("resources/Python_user_time.csv")
-# performance_filtered_df = filter_columns(data_user_time)
-dfs = [
-    top_solution_df,
-    second_solution_df,
-    third_solution_df,
-    average2_solution_df,
-    average3_solution_df,
-    average4_solution_df,
-    average5_solution_df,
-    average6_solution_df,
-    example_solution_df,
-]
+performance_filtered_df = filter_columns(data_user_time)
 
-names = [
-    '1. TopSolution',
-    '2. SecondSolution',
-    '3. ThirdSolution',
-    '4. AverageSolution2',
-    '5. AverageSolution3',
-    '6. AverageSolution4',
-    '7. AverageSolution5',
-    '8. AverageSolution6',
-    '9. Example',
-]
-adjust_columns(dfs)
 
-corrs = []
-for df in dfs:
-    corrs.append(df.corr(method='spearman'))
+# filter_diff_columns(average_solution_df, performance_filtered_df)
+filter_diff_columns(average_solution_df, example_solution_df)
+filter_diff_columns(average_solution_df, top_solution_df)
+filter_diff_columns(average_solution_df, example_solution_df)
+filter_diff_columns(average_solution_df, top_solution_df)
+filter_diff_columns(average_solution_df, second_solution_df)
+filter_diff_columns(average_solution_df, third_solution_df)
 
-data = {}
-for i in range(names.__len__()):
-    data[names.__getitem__(i)] = corrs.__getitem__(i).values.flatten()
 
-frame = pd.DataFrame(data=data)
+# print(top_solution_df._series.__len__())
+# print(second_solution_df._series.__len__())
+# print(third_solution_df._series.__len__())
+# print(average_solution_df._series.__len__())
+# print(example_solution_df._series.__len__())
+# print(performance_filtered_df._series.__len__())
+
+top_corr = top_solution_df.corr(method='spearman')
+second_corr = second_solution_df.corr(method='spearman')
+third_corr = third_solution_df.corr(method='spearman')
+average_corr = average_solution_df.corr(method='spearman')
+example_corr = example_solution_df.corr(method='spearman')
+# performance_corr = performance_filtered_df.corr(method='spearman')
+
+# print_heatmap(top_corr, 'Top')
+# print_heatmap(average_corr, 'average_corr')
+# print_heatmap(example_corr, 'example_corr')
+# print_heatmap(performance_corr, 'performance_corr')
+
+top_values = top_corr.values.flatten()
+second_values = second_corr.values.flatten()
+third_values = third_corr.values.flatten()
+average_values = average_corr.values.flatten()
+example_values = example_corr.values.flatten()
+# performance_values = performance_corr.values.flatten()
+
+frame = pd.DataFrame(data={'1. TopSolution': top_values,
+                           '2. SecondSolution': second_values,
+                           '3. ThirdSolution': third_values,
+                           '4. AverageSolution': average_values,
+                           '5. Example': example_values,
+                           # '6. Performance': performance_values
+                           })
 print_heatmap(frame.corr(), 'Comparison of solutions', True, 8, 8)
