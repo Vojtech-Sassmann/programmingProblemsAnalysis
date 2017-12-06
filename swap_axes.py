@@ -1,8 +1,8 @@
 import codecs
 import csv
 
-x_size = 28
-y_size = 15
+x_size = 25
+y_size = 13
 
 matrix = [[0 for x in range(x_size - 1)] for y in range(y_size - 1)]
 
@@ -31,4 +31,4 @@ def invert_matrix(file_path):
             print(row, file=f, flush=True)
 
 
-invert_matrix("resources/resultsAvarage5.csv")
+invert_matrix("resources/parsed/resultsAvarage2_selectedFeatures_v2.csv")

@@ -2,6 +2,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
 import seaborn as sns
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import six
 
 sns.set()
 
@@ -20,10 +24,10 @@ def filter_columns(dataframe):
     return filter_df
 
 
-def print_heatmap(correlation, title, annote=False, width=18, height=18):
+def print_heatmap(correlation, title="", annote=False, width=18, height=18, square=False):
     plt.figure(figsize=(width, height))
     plt.title(title, size=15)
-    sns.heatmap(correlation, annot=annote, square=True, center=0)
+    sns.heatmap(correlation, annot=annote, square=square, center=0, fmt='.2f')
     plt.xticks(rotation=90)
     plt.yticks(rotation=0)
     plt.show()
@@ -63,8 +67,8 @@ def adjust_columns(dataframes):
             filter_diff_columns(df1, df2)
 
 
-def load_df(path):
-    df = pd.read_csv(path, sep=",", index_col=0)
+def load_df(path, separator=','):
+    df = pd.read_csv(path, sep=separator, index_col=0)
     df.sort_index(axis=1, inplace=True)
     return df
 
@@ -120,18 +124,18 @@ def log_values_in_df(df):
 # print_heatmap(corr_3, 'Compare correlation of user performance on split data', annote=True, width=4, height=4)
 
 
-"""Porovnani reseni Bag of words a user performance"""
-top_solution_df = load_df("resources/parsed/resultsTop_swapped.csv")
-second_solution_df = load_df("resources/parsed/resultsSecond_swapped.csv")
-third_solution_df = load_df("resources/parsed/resultsThird_swapped.csv")
-average2_solution_df = load_df("resources/resultsAvarage2_swapped.csv")
-average3_solution_df = load_df("resources/resultsAvarage3_swapped.csv")
-average4_solution_df = load_df("resources/resultsAvarage4_swapped.csv")
-average5_solution_df = load_df("resources/resultsAvarage5_swapped.csv")
-average6_solution_df = load_df("resources/resultsAvarage6_swapped.csv")
+"""Porovnani metod vyberu user solution pomoci korelace"""
+top_solution_df = load_df("resources/parsed/results10_swapped.csv")
+second_solution_df = load_df("resources/parsed/results20_swapped.csv")
+third_solution_df = load_df("resources/parsed/results30_swapped.csv")
+average2_solution_df = load_df("resources/parsed/resultsAvarage2_selectedFeatures_v2_swapped.csv")
+average3_solution_df = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv")
+average4_solution_df = load_df("resources/parsed/resultsAvarage4_selectedFeatures_v2_swapped.csv")
+average5_solution_df = load_df("resources/parsed/resultsAvarage5_selectedFeatures_v2_swapped.csv")
+average6_solution_df = load_df("resources/parsed/resultsAvarage6_selectedFeatures_v2_swapped.csv")
 example_solution_df = load_df("resources/example/bagOfWords_swapped.csv")
 data_user_time = load_df("resources/Python_user_time.csv")
-# performance_filtered_df = filter_columns(data_user_time)
+performance_filtered_df = filter_columns(data_user_time)
 dfs = [
     top_solution_df,
     second_solution_df,
@@ -159,11 +163,193 @@ adjust_columns(dfs)
 
 corrs = []
 for df in dfs:
-    corrs.append(df.corr(method='spearman'))
+    corrs.append(df.corr(method='pearson'))
 
 data = {}
 for i in range(names.__len__()):
     data[names.__getitem__(i)] = corrs.__getitem__(i).values.flatten()
 
 frame = pd.DataFrame(data=data)
-print_heatmap(frame.corr(), 'Comparison of solutions', True, 8, 8)
+all_metric = frame.corr()
+print_heatmap(all_metric, 'Comparison of solutions', True, 8, 8)
+
+"""Porovnani metod vyberu user solution pomoci korelace peti nejpodobnejsich prikladu"""
+top_solution_df = load_df("resources/parsed/results10_swapped.csv")
+second_solution_df = load_df("resources/parsed/results20_swapped.csv")
+third_solution_df = load_df("resources/parsed/results30_swapped.csv")
+average2_solution_df = load_df("resources/parsed/resultsAvarage2_selectedFeatures_v2_swapped.csv")
+average3_solution_df = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv")
+average4_solution_df = load_df("resources/parsed/resultsAvarage4_selectedFeatures_v2_swapped.csv")
+average5_solution_df = load_df("resources/parsed/resultsAvarage5_selectedFeatures_v2_swapped.csv")
+average6_solution_df = load_df("resources/parsed/resultsAvarage6_selectedFeatures_v2_swapped.csv")
+example_solution_df = load_df("resources/example/bagOfWords_swapped.csv")
+data_user_time = load_df("resources/Python_user_time.csv")
+performance_filtered_df = filter_columns(data_user_time)
+dfs = [
+    top_solution_df,
+    second_solution_df,
+    third_solution_df,
+    average2_solution_df,
+    average3_solution_df,
+    average4_solution_df,
+    average5_solution_df,
+    average6_solution_df,
+    example_solution_df,
+]
+
+names = [
+    '1. TopSolution',
+    '2. SecondSolution',
+    '3. ThirdSolution',
+    '4. AverageSolution2',
+    '5. AverageSolution3',
+    '6. AverageSolution4',
+    '7. AverageSolution5',
+    '8. AverageSolution6',
+    '9. Example',
+]
+adjust_columns(dfs)
+
+corrs = []
+for df in dfs:
+    corrs.append(df.corr(method='pearson'))
+
+
+def null_not_top_values(dataframe):
+    number_of_top = 4
+
+    for series in dataframe:
+        s = dataframe[series]
+
+        so = s.sort_index().sort_values(kind="quicksort", ascending=False)
+
+        top_item_names = []
+        for i, key in enumerate(so.keys()):
+            if i > 0:
+                top_item_names.append(key)
+            if i > number_of_top:
+                break
+        print(series, ": ", so)
+        print(series, ": ", top_item_names)
+        for k in dataframe[series].keys():
+            # print("key: ", k)
+            if k not in top_item_names:
+                # print("NULLED")
+                dataframe[series][k] = 0
+                # print("New values set: ", dataframe[series][k])
+            else:
+                dataframe[series][k] = 1
+
+
+def get_top_item_features(dataframe):
+    new_series = []
+    for series in dataframe:
+        s = dataframe[series]
+        so = s.sort_values(kind="quicksort", ascending=False)
+
+        serie = []
+        for i, key in enumerate(so.keys()):
+            print("key: ", key, " ,value: ", so[key], "i: ", i)
+            if i > 0:
+                serie.append(key)
+            if i > 4:
+                break
+        new_series.append(serie)
+
+    return pd.DataFrame(data=new_series)
+
+for correlation in corrs:
+    null_not_top_values(correlation)
+    print("-----------------")
+
+
+
+data = {}
+for i in range(names.__len__()):
+    data[names.__getitem__(i)] = corrs.__getitem__(i).values.flatten()
+
+frame = pd.DataFrame(data=data)
+top5_metric = frame.corr(method='pearson')
+print_heatmap(top5_metric, 'Comparison of solutions comparing top 5 item matches', True, 8, 8)
+
+"""porovnani technik vsech podobnych itemu a top5"""
+metrics = {}
+metrics["Top5"] = top5_metric.values.flatten()
+metrics["All"] = all_metric.values.flatten()
+
+metrics_frame = pd.DataFrame(data=metrics)
+print_heatmap(metrics_frame.corr(), annote=True, title="Top5 vs All")
+
+"""podrobne porovnani"""
+# first_solution_df = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv")
+# second_solution_df = load_df("resources/example/bagOfWords_swapped.csv")
+#
+# filter_diff_columns(first_solution_df, second_solution_df)
+#
+# avarage_corr = first_solution_df.corr(method='spearman')
+# example_corr = second_solution_df.corr(method='spearman')
+#
+# corrs = {}
+#
+# for c1 in avarage_corr:
+#     a = avarage_corr.get(c1).to_frame().corrwith(example_corr.get(c1).to_frame())
+#     b = a.values
+#     corrs[c1] = b.max()
+#
+# frame = pd.DataFrame(data=corrs, index=["Match"])
+# print_heatmap(frame.T, 'Average of 3 most frequent solutions vs Eample solution', True, 2, 8)
+
+
+
+def show_df(df):
+    cg = sns.clustermap(df)
+    plt.setp(cg.ax_heatmap.yaxis.get_majorticklabels(), rotation=0)
+    plt.setp(cg.ax_heatmap.xaxis.get_majorticklabels(), rotation=90)
+    plt.show()
+
+def show_corr(features):
+    corr = features.corr()
+    show_df(corr)
+
+
+"""porovnani problemu pomoci jedne techniky"""
+#
+#
+# comparison_df = load_df("resources/parsed/resultsAvarage3_swapped.csv")
+# show_corr(comparison_df)
+
+"""vykresleni feature matice"""
+# average_solution_df = load_df("resources/parsed/resultsAvarage3_swapped.csv")
+#
+#
+# def render_mpl_table(data, col_width=3.0, row_height=0.625, font_size=14,
+#                      header_color='#40466e', row_colors=['#f1f1f2', 'w'], edge_color='w',
+#                      bbox=[0, 0, 1, 1], header_columns=0,
+#                      ax=None, **kwargs):
+#
+#     if ax is None:
+#         size = (np.array(data.shape[::-1]) + np.array([0, 1])) * np.array([col_width, row_height])
+#         fig, ax = plt.subplots(figsize=size)
+#         ax.axis('off')
+#
+#     mpl_table = ax.table(cellText=data.values, bbox=bbox, colLabels=data.columns, **kwargs)
+#
+#     mpl_table.auto_set_font_size(False)
+#     mpl_table.set_fontsize(font_size)
+#
+#     for k, cell in six.iteritems(mpl_table._cells):
+#         cell.set_edgecolor(edge_color)
+#         if k[0] == 0 or k[1] < header_columns:
+#             cell.set_text_props(weight='bold', color='w')
+#             cell.set_facecolor(header_color)
+#         else:
+#             cell.set_facecolor(row_colors[k[0] % len(row_colors)])
+#     return ax
+#
+# render_mpl_table(average_solution_df, header_columns=0, col_width=2.0)
+# plt.show()
+
+"""correlace featur"""
+# df = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv", ",")
+#
+# show_corr(df)

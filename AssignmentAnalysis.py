@@ -1,16 +1,17 @@
 from data import tasks
 import codecs
-from new_bagOfWords import searched_nodes
+from new_bagOfWords_vector import searched_nodes
 
-import new_bagOfWords as bagAnalysis
+import new_bagOfWords_vector as bagAnalysis
 
 
 def foo():
+    bagAnalysis.run = False
     bagAnalysis.binary = False
     bagAnalysis.solution_number = 1
     bagAnalysis.submission_limit = 1
-    bagAnalysis.binary = True
-    bagAnalysis.output_path = "resources/example/bagOfWordsBin.csv"
+    bagAnalysis.minimal_vector_size = 1
+    bagAnalysis.output_path = "resources/example/exampleBoW.csv"
 
     bagAnalysis.save_header()
     for task in tasks:

@@ -1,0 +1,31 @@
+name;			      +  ;  -   ;  *   ;  /   ; for  ; while;print ;   %  ;  ^   ; try: ;  if  ; break;  ==
+Mocniny dvojky;		0.00 ; 0.00 ; 1.00 ; 0.00 ; 0.00 ; 0.00 ; 0.00 ; 0.00 ; 1.00 ; 0.00 ; 1.00 ; 0.00 ; 0.00
+Ciferny soucet;     0.00 ; 0.67 ; 0.00 ; 1.00 ; 0.00 ; 1.33 ; 0.00 ; 0.00 ; 0.00 ; 1.00 ; 0.00 ; 0.00 ; 1.00
+Palindrom;          0.00 ; 0.00 ; 0.00 ; 0.00 ; 1.33 ; 0.00 ; 0.33 ; 0.00 ; 0.33 ; 1.00 ; 0.00 ; 0.00 ; 0.00
+
+
+Mocniny dvojky
+
+    x = 1
+        for i in range(n):
+            print x,
+            x = x * 2
+
+
+Ciferny soucet
+
+    soucet = 0
+    while n > 0:
+        soucet += n % 10
+        n = n // 10
+    return soucet
+
+
+Palindrom
+
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+
+

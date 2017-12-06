@@ -116,11 +116,11 @@ def log_values_in_df(df):
 
 """Porovnani reseni Bag of words a user performance"""
 
-top_solution_df = load_df("resources/parsed/resultsTop_swapped.csv")
-second_solution_df = load_df("resources/parsed/resultsSecond_swapped.csv")
-third_solution_df = load_df("resources/parsed/resultsThird_swapped.csv")
-average_solution_df = load_df("resources/resultsAvarage4_swapped.csv")
-example_solution_df = load_df("resources/example/bagOfWords_swapped.csv")
+top_solution_df = load_df("resources/parsed/results10_swapped.csv")
+second_solution_df = load_df("resources/parsed/results20_swapped.csv")
+third_solution_df = load_df("resources/parsed/results30_swapped.csv")
+average_solution_df = load_df("resources/parsed/resultsAvarage5_swapped.csv")
+example_solution_df = load_df("resources/example/exampleBoW_swapped.csv")
 data_user_time = load_df("resources/Python_user_time.csv")
 performance_filtered_df = filter_columns(data_user_time)
 
