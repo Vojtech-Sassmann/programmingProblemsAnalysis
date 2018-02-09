@@ -11,7 +11,7 @@ def foo():
     bagAnalysis.solution_number = 1
     bagAnalysis.submission_limit = 1
     bagAnalysis.minimal_vector_size = 1
-    bagAnalysis.output_path = "resources/example/exampleBoW.csv"
+    bagAnalysis.output_path = "resources/example/XexampleBoW.csv"
 
     bagAnalysis.save_header()
     for task in tasks:

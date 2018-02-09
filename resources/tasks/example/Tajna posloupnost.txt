@@ -1,0 +1,1 @@
+1;1;1SUBMITdef tajna_posloupnost(n):\n    aktualni = 1\n    strop = 1\n    for i in range(n):\n        print aktualni,\n        aktualni += 1\n        if aktualni > strop:\n            aktualni = 1\n            strop += 1\n

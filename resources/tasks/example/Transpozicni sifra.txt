@@ -1,0 +1,1 @@
+2;82;2SUBMITdef transpozice(text):\n    zacatek = ""\n    konec = ""\n    for i in range(len(text)):\n        if i % 2 == 0:\n            zacatek = zacatek + text[i]\n        else:\n            konec = text[i] + konec\n    return zacatek + konec                            \n

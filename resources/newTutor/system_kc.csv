@@ -1,0 +1,22 @@
+id;parent;name;nameMenu;title;description;ogimage;url;image;visible;ordering
+1;19;Proměnné a výrazy;;;;;;;1;1
+2;1;Proměnné a číselné výrazy;;;;;;;1;0
+4;11;Cyklus for;;;;;;;1;0
+5;11;Cyklus while;;;;;;;1;0
+6;0;Robotanik;;;;;;;1;10
+11;19;Řízení výpočtu;;;;;;;1;2
+12;11;Vnořené cykly;;;;;;;1;0
+13;19;Datové struktury;;;;;;;1;3
+14;13;Řetězce;;;;;;;1;0
+15;13;Seznamy;;;;;;;1;0
+16;11;Funkce;;;;;;;1;0
+17;11;Řízení výpočtu: mix;;;;;;;1;0
+18;1;Logické výrazy;;;;;;;1;0
+19;0;Programování v Pythonu;;;;;;;1;0
+20;1;Proměnné a výrazy: mix;;;;;;;1;0
+21;0;Binární křížovka;;;;;;;1;0
+22;0;Sudoku;;;;;;;1;0
+23;11;Podmíněný příkaz (if);;;;;;;1;-1
+24;13;Slovníky;;;;;;;1;0
+25;0;Želví grafika;;;;;;;1;0
+26;0;Gogobot;;;;;;;1;0

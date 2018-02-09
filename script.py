@@ -1,5 +1,4 @@
-import json
-import csv
+import ast
 import re
 import codecs
 from collections import namedtuple
@@ -44,3 +43,15 @@ with open("resources/Python_zadani.txt", encoding="UTF-8") as f:
                 print(t, file=o)
             state = change_state(state)
 
+class MyVisitor(ast.NodeVisitor):
+
+    data_vector = None
+
+    def generic_visit(self, node):
+        node_type = type(node).__name__
+        ast.NodeVisitor.generic_visit(self, node)
+
+
+tree = ast.parse("print(2 * 2)")
+MyVisitor().visit(tree)
+print(tree)

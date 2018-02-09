@@ -1,0 +1,1 @@
+2;2;2SUBMITdef ciferny_soucet(n):\n    soucet = 0\n    while n > 0:\n        soucet += n % 10\n        n = n // 10\n    return soucet\n

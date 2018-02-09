@@ -1,0 +1,1 @@
+0;22;0SUBMITdef nejdelsi_slovo(text):\n    slova = text.split(" ")\n    kandidat = ""\n    for slovo in slova:\n        if len(kandidat) < len(slovo) or len(kandidat) == len(slovo) and kandidat > slovo:\n            kandidat = slovo\n    return kandidat\n

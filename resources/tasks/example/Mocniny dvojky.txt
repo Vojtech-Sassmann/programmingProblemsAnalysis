@@ -1,0 +1,1 @@
+4;2;4SUBMITdef mocniny_dvojky(n):\n    x = 1\n    for i in range(n):\n        print x,\n        x = x * 2\n

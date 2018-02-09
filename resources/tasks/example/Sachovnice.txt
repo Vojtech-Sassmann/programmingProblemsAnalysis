@@ -1,0 +1,1 @@
+2;2;2SUBMITdef sachovnice(n):\n    for y in range(n):\n        for x in range(n):\n            if (x + y) % 2 == 0: print "X",\n            else: print ".",\n        print\n

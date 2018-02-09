@@ -1,0 +1,1 @@
+0;5;0SUBMITdef caesar(text, n):\n    vystup = ""\n    for i in range(len(text)):\n        if text[i] == ' ': vystup = vystup + ' '\n        else:\n            c = ord(text[i]) + n\n            while (c > ord('z')): c = c - 26\n            vystup = vystup + chr(c)\n    return vystup\n

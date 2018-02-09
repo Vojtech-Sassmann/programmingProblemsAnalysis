@@ -1,0 +1,1 @@
+1;8;1SUBMITdef fibonacci(n):\n    a, b = 1, 1\n    for i in range(n):\n        print a,\n        a, b = b, a+b\n

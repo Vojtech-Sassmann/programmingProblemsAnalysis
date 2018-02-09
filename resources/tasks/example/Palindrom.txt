@@ -1,0 +1,1 @@
+1;4;1SUBMITdef palindrom(text):\n    return text == text[::-1]\n

@@ -10,23 +10,21 @@ from collections import namedtuple
 
 from data import tasks
 
+# searched_nodes = [
+#     "+", "-", "*", "/", "for", "while", "print", "%", "if", "==", "is"
+# ]
+
 searched_nodes = [
-    "+", "-", "*", "/", "for", "while", "print", "%", "if", "==", "is"
+    "Add", "Sub", "Mult", "Div", "For", "While", "Print", "Mod", "If", "Eq", "Is",
 ]
 
-# searched_nodes = [
-#     "Add", "And", "AssList", "Bitand", "Bitor", "Bitxor", "Break", "CallFunc", "Class", "Compare", "Continue", "Const",
-#     "Dict", "Div", "For", "FloorDiv", "Function", "If", "Invert", "Keyword", "Lambda", "LeftShift", "List", "ListComp",
-#     "ListCompFor", "ListCompIf", "Mul", "Mod", "Not", "Or", "Power", "Raise", "RightShift", "Sub", "TryExcept",
-#     "TryFinally", "UnaryAdd", "UnarySub", "While"
-#     ]
-
-output_path = "resources/example/classicBOW.csv"
+output_path = "resources/parsed/resultsAvarage6_selectedFeatures_AST.csv"
 binary = False
 # solution_number = 1
-avarage_number = 1
-minimal_vector_size = 0
-minimal_subbmited = 1
+avarage_number = 6
+minimal_vector_size = 1
+minimal_submitted = 300
+minimal_parsable = 10
 
 
 class HashableDict(dict):
@@ -90,38 +88,39 @@ def check_features(solution, data_vector):
                 data_vector[node] = 1
 
 
-def analyze_solution(solution, results):
+# def analyze_solution(solution, results):
+#     data_vector = {}
+#     results.submitted += 1
+#     solution = solution.replace("\\n", "\n")
+#
+#     check_features(solution, data_vector)
+#
+#     result = HashableDict(data_vector)
+#
+    # if calculate_vector_size(result) >= minimal_vector_size:
+    #     if result not in results.stats:
+    #         results.stats[result] = 1
+    #     results.stats[result] += 1
+
+
+def analyze_solution(raw_solution, results):
     data_vector = {}
     results.submitted += 1
-    solution = solution.replace("\\n", "\n")
+    solution = raw_solution.replace("\\n", "\n")
 
-    check_features(solution, data_vector)
+    try:
+        tree = ast.parse(solution)
+        MyVisitor(data_vector).visit(tree)
+        results.parsable += 1
+    except SyntaxError:
+        return
 
+    # result = to_data_string(data_vector)
     result = HashableDict(data_vector)
-
     if calculate_vector_size(result) >= minimal_vector_size:
         if result not in results.stats:
             results.stats[result] = 1
         results.stats[result] += 1
-
-#
-# def analyze_solution(raw_solution, results):
-#     data_vector = {}
-#
-#     solution = raw_solution.replace("\\n", "\n")
-#
-#     try:
-#         tree = ast.parse(solution)
-#         MyVisitor(data_vector).visit(tree)
-#         results.parsable += 1
-#     except SyntaxError:
-#         return
-#
-#     # result = to_data_string(data_vector)
-#     result = HashableDict(data_vector)
-#     if result not in results.stats:
-#         results.stats[result] = 1
-#     results.stats[result] += 1
 
 
 def parse_code(line):
@@ -143,7 +142,7 @@ def check_line(line, results):
 
 def print_results(results):
     print("submitted: %s" % str(results.submitted))
-    print("compilable: %s" % str(results.parsable))
+    print("parsable: %s" % str(results.parsable))
     '''"" TODO""'''
     # print("correct: %s" % str(results.correct))
     # print("\n-----\n")
@@ -165,7 +164,9 @@ def print_header(file_name):
 
 
 def save_results(results, file_name):
-    if results.submitted < minimal_subbmited:
+    if results.submitted < minimal_submitted:
+        return
+    if results.parsable < minimal_parsable:
         return
 
     with codecs.open(output_path, 'a') as f:
@@ -185,7 +186,7 @@ def save_results(results, file_name):
             # if avarage_solution[key] != 0:
             #     avarage_solution[key] += 1
             #     avarage_solution[key] = math.log(avarage_solution[key], 2)
-            avarage_solution[key] /= counter
+            avarage_solution[key] /= float(counter)
         first = True
         for key in (avarage_solution):
             if first:
@@ -202,7 +203,7 @@ def analyze_file(file_name):
 
     results = AnalyseResults()
 
-    with codecs.open("resources/tasks/example/" + file_name, 'rb', encoding='UTF-8') as f:
+    with codecs.open("resources/tasks/" + file_name, 'rb', encoding='UTF-8') as f:
         reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
 
         for line in reader:
@@ -226,11 +227,12 @@ def save_header():
         for node in searched_nodes:
             header += ";"
             header += node
-        print(header, file=f)
+        # print(header, file=f)
+        print >> f, header
 
 
 def analyze_files():
-    path = 'resources/tasks/example'
+    path = 'resources/tasks'
 
     save_header()
 

@@ -1,0 +1,1 @@
+29;3;15SUBMITdef pascaluv_trojuhelnik(pocet_radku):\n    for n in range(pocet_radku):\n        for k in range(0, n + 1):\n            print kombinacni_cislo(n,k),\n        print\n  \ndef faktorial(n):\n    f = 1\n    for i in range(1,n+1):\n        f = f * i\n    return f\n\ndef kombinacni_cislo(n,k):\n    return faktorial(n)/(faktorial(n-k) * faktorial(k))\n

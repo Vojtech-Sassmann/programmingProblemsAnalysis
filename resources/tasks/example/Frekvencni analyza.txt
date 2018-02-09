@@ -1,0 +1,1 @@
+36;4;18SUBMITdef frekvencni_analyza(text):\n    frekvence = [ 0 for i in range(26) ]\n    for pismeno in text:\n        if ord(pismeno) >= ord('a') and ord(pismeno) <= ord('z'):\n            frekvence[ord(pismeno) - ord('a')] += 1\n    for i in range(26):\n        if frekvence[i] != 0:\n            print chr(ord('a')+i), frekvence[i]\n

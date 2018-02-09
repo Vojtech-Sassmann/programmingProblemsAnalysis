@@ -24,14 +24,15 @@ def filter_columns(dataframe, min_count=300):
     return filter_df
 
 
-def print_heatmap(correlation, title="", annote=False, width=18, height=18, square=False, x_labels_rotation=0,
-                  y_labels_rotation=0):
-    plt.figure(figsize=(width, height))
-    plt.title(title, size=15)
-    sns.heatmap(correlation, annot=annote, square=square, center=0, fmt='.3f')
-    plt.xticks(rotation=x_labels_rotation)
-    plt.yticks(rotation=y_labels_rotation)
-    plt.show()
+def print_heatmap(correlation, title="", annotate=False, width=18, height=18, square=False, x_labels_rotation=0,
+                  y_labels_rotation=0, fmt='.2g', font_scale=1.0):
+    with sns.plotting_context('paper', font_scale=font_scale):
+        plt.figure(figsize=(width, height))
+        plt.title(title, size=15)
+        sns.heatmap(correlation, annot=annotate, square=square, center=0, fmt=fmt)
+        plt.xticks(rotation=x_labels_rotation)
+        plt.yticks(rotation=y_labels_rotation)
+        plt.show()
 
 
 def convert_names(list):
@@ -207,17 +208,17 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 # df1_f_300, df2_f_300 = split_df_in_half(filtered_df_300)
 # df1_f_400, df2_f_400 = split_df_in_half(filtered_df_400)
 #
-# corr_1_not_filtered_s = df1.corr(method='spearman')
-# corr_2_not_filtered_s = df2.corr(method='spearman')
+# corr_1_not_filtered_s = df1.corr(method='pearson')
+# corr_2_not_filtered_s = df2.corr(method='pearson')
 # corr_1_not_filtered_p = df1.corr(method='pearson')
 # corr_2_not_filtered_p = df2.corr(method='pearson')
 #
-# corr_1_s_f_200 = df1_f_200.corr(method='spearman')
-# corr_2_s_f_200 = df2_f_200.corr(method='spearman')
-# corr_1_s_f_300 = df1_f_300.corr(method='spearman')
-# corr_2_s_f_300 = df2_f_300.corr(method='spearman')
-# corr_1_s_f_400 = df1_f_400.corr(method='spearman')
-# corr_2_s_f_400 = df2_f_400.corr(method='spearman')
+# corr_1_s_f_200 = df1_f_200.corr(method='pearson')
+# corr_2_s_f_200 = df2_f_200.corr(method='pearson')
+# corr_1_s_f_300 = df1_f_300.corr(method='pearson')
+# corr_2_s_f_300 = df2_f_300.corr(method='pearson')
+# corr_1_s_f_400 = df1_f_400.corr(method='pearson')
+# corr_2_s_f_400 = df2_f_400.corr(method='pearson')
 #
 # data_corr_method = {
 #     "Pearson": compare_corrs(corr_1_not_filtered_p, corr_2_not_filtered_p).item(1),
@@ -232,10 +233,10 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 # filter_df = pd.DataFrame(data=data, index=["Correlation coefficient"])
 #
 # print_heatmap(corr_method_df, annote=True, square=True, width=7, height=2)
-# print_heatmap(filter_df, annote=True, square=True, width=12, height=4)
+# print_heatmap(filter_df.T, annote=True, square=True, width=12, height=4, font_scale=2.0)
 #
 # show_corr_from_features(data_user_time, method='spearman')
-# show_corr_from_features(filtered_df_300, method='spearman')
+# show_corr_from_features(filtered_df_300, method='pearson')
 
 """Porovnani metod vyberu user solution pomoci korelace"""
 # top_solution_df = load_df("resources/parsed/results10_swapped.csv")
@@ -250,6 +251,7 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 # data_user_time = load_df("resources/Python_user_time.csv")
 # performance_filtered_df = filter_columns(data_user_time)
 # dfs = [
+#     example_solution_df,
 #     top_solution_df,
 #     second_solution_df,
 #     third_solution_df,
@@ -257,20 +259,17 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 #     average3_solution_df,
 #     average4_solution_df,
 #     average5_solution_df,
-#     average6_solution_df,
-#     example_solution_df,
 # ]
 #
 # names = [
-#     '1. TopSolution',
-#     '2. SecondSolution',
-#     '3. ThirdSolution',
-#     '4. AverageSolution2',
-#     '5. AverageSolution3',
-#     '6. AverageSolution4',
-#     '7. AverageSolution5',
-#     '8. AverageSolution6',
-#     '9. Example',
+#     'Sample solution',
+#     'Top solution',
+#     'Second solution',
+#     'Third solution',
+#     'Average of top2',
+#     'Average of top3',
+#     'Average of top4',
+#     'Average of top5',
 # ]
 # adjust_columns(dfs)
 #
@@ -279,12 +278,17 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 #     corrs.append(df.corr(method='pearson'))
 #
 # data = {}
+# values = []
 # for i in range(names.__len__()):
+#     values.append(corrs.__getitem__(i).values.flatten())
 #     data[names.__getitem__(i)] = corrs.__getitem__(i).values.flatten()
 #
 # frame = pd.DataFrame(data=data)
+# frame = frame[names]
 # all_metric = frame.corr()
-# print_heatmap(all_metric, 'Comparison of solutions', True, 8, 8)
+#
+# print_heatmap(all_metric, '', True, 8, 8, square=True, x_labels_rotation=90)
+
 
 """Porovnani metod vyberu user solution pomoci korelace peti nejpodobnejsich prikladu"""
 # top_solution_df = load_df("resources/parsed/results10_swapped.csv")
@@ -328,8 +332,8 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 #     corrs.append(df.corr(method='pearson'))
 #
 #
-
-
+#
+#
 #
 # for correlation in corrs:
 #     null_not_top_values(correlation)
@@ -353,23 +357,24 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 # print_heatmap(metrics_frame.corr(), annote=True, title="Top5 vs All")
 
 """podrobne porovnani"""
-# first_solution_df = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv")
-# second_solution_df = load_df("resources/example/bagOfWords_swapped.csv")
-#
-# filter_diff_columns(first_solution_df, second_solution_df)
-#
-# avarage_corr = first_solution_df.corr(method='spearman')
-# example_corr = second_solution_df.corr(method='spearman')
-#
-# corrs = {}
-#
-# for c1 in avarage_corr:
-#     a = avarage_corr.get(c1).to_frame().corrwith(example_corr.get(c1).to_frame())
-#     b = a.values
-#     corrs[c1] = b.max()
-#
-# frame = pd.DataFrame(data=corrs, index=["Match"])
-# print_heatmap(frame.T, 'Average of 3 most frequent solutions vs Eample solution', True, 2, 8)
+first_solution_df = load_df("resources/example/AST_swapped.csv")
+second_solution_df = load_df("resources/example/classicBOW_swapped.csv")
+
+filter_diff_columns(first_solution_df, second_solution_df)
+
+avarage_corr = first_solution_df.corr(method='pearson')
+example_corr = second_solution_df.corr(method='pearson')
+
+corrs = {}
+
+for c1 in avarage_corr:
+    a = avarage_corr.get(c1).to_frame().corrwith(example_corr.get(c1).to_frame())
+    b = a.values
+    corrs[c1] = b.max()
+
+frame = pd.DataFrame(data=corrs, index=["Match"])
+print_heatmap(frame.T, 'Example solution, \'classic\' bag of words vs AST \'bag\' of words', annotate=True, width=8, height=8,
+              font_scale=1.2)
 
 
 
@@ -418,42 +423,157 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 
 
 """ Porovnani userPerformance vs bag of words pomoci korelace"""
-data_user_time = load_df("resources/Python_user_time.csv")
-filtered_df = filter_columns(data_user_time)
+# data_user_time = load_df("resources/Python_user_time.csv")
+# filtered_df = filter_columns(data_user_time)
+#
+# data_bag_of_words_df = load_df("resources/parsed/resultsAvarage3_swapped.csv")
+#
+# user_time_corr = filtered_df.corr(method='spearman')
+# bag_of_words_corr = data_bag_of_words_df.corr(method='spearman')
+#
+# filter_diff_columns(user_time_corr, filtered_df)
+# filter_diff_columns(bag_of_words_corr, data_bag_of_words_df)
+#
+# filter_diff_columns(data_bag_of_words_df, filtered_df)
+#
+# user_time_corr = filtered_df.corr(method='spearman')
+# bag_of_words_corr = data_bag_of_words_df.corr(method='spearman')
+#
+#
+# metrics = {
+#     "UserPerformance": user_time_corr.values.flatten(),
+#     "BagOfWords": bag_of_words_corr.values.flatten()
+# }
+#
+# metrics_frame = pd.DataFrame(data=metrics)
+#
+# print_heatmap(metrics_frame.corr(), annote=True, title="Bag of words vs User performance")
+#
+# comparisons = {}
+#
+# for top_count in range(3, 6):
+#     topBoW = get_top_item_features(bag_of_words_corr, top_count)
+#     topUP = get_top_item_features(user_time_corr, top_count)
+#
+#     match = compare_top_item_features(topBoW, topUP)
+#
+#     comparisons["Bag of words x UserPerformance(Top" + str(top_count) + ")"] = match
+#
+# print(comparisons)
+#
+# print_heatmap(pd.DataFrame(data=comparisons, index=["Match (%)"]).T, annote=True, title="Porovnani bag of words s User Performance pomoci ruznych technik")
 
-data_bag_of_words_df = load_df("resources/parsed/resultsAvarage3_swapped.csv")
 
-user_time_corr = filtered_df.corr(method='spearman')
-bag_of_words_corr = data_bag_of_words_df.corr(method='spearman')
+""" (Deprecated) bagOfWords vs AST """
+# classic_av1 = load_df("resources/parsed/resultsAvarage1_selectedFeatures_v2_swapped.csv")
+# classic_av2 = load_df("resources/parsed/resultsAvarage2_selectedFeatures_v2_swapped.csv")
+# classic_av3 = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv")
+# classic_av4 = load_df("resources/parsed/resultsAvarage4_selectedFeatures_v2_swapped.csv")
+# classic_av5 = load_df("resources/parsed/resultsAvarage5_selectedFeatures_v2_swapped.csv")
+# classic_example = load_df("resources/example/classicBOW_swapped.csv")
+# ast_av1 = load_df("resources/parsed/resultsAvarage1_selectedFeatures_AST_swapped.csv")
+# ast_av2 = load_df("resources/parsed/resultsAvarage2_selectedFeatures_AST_swapped.csv")
+# ast_av3 = load_df("resources/parsed/resultsAvarage3_selectedFeatures_AST_swapped.csv")
+# ast_av4 = load_df("resources/parsed/resultsAvarage4_selectedFeatures_AST_swapped.csv")
+# ast_av5 = load_df("resources/parsed/resultsAvarage5_selectedFeatures_AST_swapped.csv")
+# ast_example = load_df("resources/example/AST_swapped.csv")
+# dfs = [
+#     classic_av1,
+#     classic_av2,
+#     classic_av3,
+#     classic_av4,
+#     classic_av5,
+#     classic_example,
+#     ast_av1,
+#     ast_av2,
+#     ast_av3,
+#     ast_av4,
+#     ast_av5,
+#     ast_example
+# ]
+#
+# names = [
+#     'Classic average of top 1',
+#     'Classic average of top 2',
+#     'Classic average of top 3',
+#     'Classic average of top 4',
+#     'Classic average of top 5',
+#     'Classic example solution',
+#     'AST average of top 1',
+#     'AST average of top 2',
+#     'AST average of top 3',
+#     'AST average of top 4',
+#     'AST average of top 5',
+#     'AST example solution',
+# ]
+# adjust_columns(dfs)
+#
+# corrs = []
+# for df in dfs:
+#     corrs.append(df.corr(method='pearson'))
+#
+# data = {}
+# for i in range(names.__len__()):
+#     data[names.__getitem__(i)] = corrs.__getitem__(i).values.flatten()
+#
+# frame = pd.DataFrame(data=data)
+# frame = frame[names]
+# all_metric = frame.corr()
+#
+# print_heatmap(all_metric, '', True, 8, 8, square=True, x_labels_rotation=90)
 
-filter_diff_columns(user_time_corr, filtered_df)
-filter_diff_columns(bag_of_words_corr, data_bag_of_words_df)
 
-filter_diff_columns(data_bag_of_words_df, filtered_df)
-
-user_time_corr = filtered_df.corr(method='spearman')
-bag_of_words_corr = data_bag_of_words_df.corr(method='spearman')
-
-
-metrics = {
-    "UserPerformance": user_time_corr.values.flatten(),
-    "BagOfWords": bag_of_words_corr.values.flatten()
-}
-
-metrics_frame = pd.DataFrame(data=metrics)
-
-print_heatmap(metrics_frame.corr(), annote=True, title="Bag of words vs User performance")
-
-comparisons = {}
-
-for top_count in range(3, 6):
-    topBoW = get_top_item_features(bag_of_words_corr, top_count)
-    topUP = get_top_item_features(user_time_corr, top_count)
-
-    match = compare_top_item_features(topBoW, topUP)
-
-    comparisons["Bag of words x UserPerformance(Top" + str(top_count) + ")"] = match
-
-print(comparisons)
-
-print_heatmap(pd.DataFrame(data=comparisons, index=["Match (%)"]).T, annote=True, title="Porovnani bag of words s User Performance pomoci ruznych technik")
+""" Podrobne klasicky bagOfWords vs AST """
+# classic_av1 = load_df("resources/parsed/resultsAvarage1_selectedFeatures_v2_swapped.csv")
+# classic_av2 = load_df("resources/parsed/resultsAvarage2_selectedFeatures_v2_swapped.csv")
+# classic_av3 = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv")
+# classic_av4 = load_df("resources/parsed/resultsAvarage4_selectedFeatures_v2_swapped.csv")
+# classic_av5 = load_df("resources/parsed/resultsAvarage5_selectedFeatures_v2_swapped.csv")
+# classic_example = load_df("resources/example/classicBOW_swapped.csv")
+# ast_av1 = load_df("resources/parsed/resultsAvarage1_selectedFeatures_AST_swapped.csv")
+# ast_av2 = load_df("resources/parsed/resultsAvarage2_selectedFeatures_AST_swapped.csv")
+# ast_av3 = load_df("resources/parsed/resultsAvarage3_selectedFeatures_AST_swapped.csv")
+# ast_av4 = load_df("resources/parsed/resultsAvarage4_selectedFeatures_AST_swapped.csv")
+# ast_av5 = load_df("resources/parsed/resultsAvarage5_selectedFeatures_AST_swapped.csv")
+# ast_example = load_df("resources/example/AST_swapped.csv")
+# dfs = [
+#     classic_av1,
+#     classic_av2,
+#     classic_av3,
+#     classic_av4,
+#     classic_av5,
+#     classic_example,
+#     ast_av1,
+#     ast_av2,
+#     ast_av3,
+#     ast_av4,
+#     ast_av5,
+#     ast_example
+# ]
+#
+# names = [
+#     'Average of top 1',
+#     'Average of top 2',
+#     'Average of top 3',
+#     'Average of top 4',
+#     'Average of top 5',
+#     'Example solution',
+# ]
+#
+# for i in range(names.__len__()):
+#     adjust_columns([dfs.__getitem__(i), dfs.__getitem__(i + names.__len__())])
+#
+# corrs = []
+# for df in dfs:
+#     corrs.append(df.corr(method='pearson'))
+#
+# results = {}
+# for i in range(names.__len__()):
+#     df1 = pd.DataFrame(data=corrs.__getitem__(i).values.flatten())
+#     df2 = pd.DataFrame(data=corrs.__getitem__(i + names.__len__()).values.flatten())
+#     a = df1.corrwith(df2)
+#     results[names.__getitem__(i)] = a.values.max()
+#
+# frame = pd.DataFrame(data=results, index=["Match"])
+# print_heatmap(frame.T, 'Match between \'classic\' bag of words technique and \'AST\' bag of words', annotate=True,
+#               width=8, height=10, square=True, font_scale=2.5)

@@ -1,0 +1,1 @@
+14;1;14SUBMITdef presmycky(slovo1, slovo2):\n    s1 = list(slovo1)\n    s1.sort()\n    s2 = list(slovo2)\n    s2.sort()\n    print slovo1, 'a', slovo2,\n    if s1 == s2:\n        print 'jsou',\n    else:\n        print 'nejsou',\n    print 'vzajemne presmycky'\n

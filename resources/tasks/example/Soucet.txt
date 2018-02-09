@@ -1,0 +1,1 @@
+0;9;0SUBMITdef soucet(n):\n    return sum(range(n+1))\n

@@ -1,5 +1,4 @@
-
-def vyhodnot(retezec):\n    number = 0;\n    base = 1\n    for ch in retezec[::-1]:\n        number += int(ch) * base\n        base =  base * 2\n    return number\n 
+def vyhodnot(retezec):\n    number = 0;\n    base = 1\n    for ch in retezec[::-1]:\n        number += int(ch) * base\n        base =  base * 2\n    return number\n
 def vyhodnot(retezec):\n    m=2**(len(retezec)-1)\n    r=0\n    for p in retezec:\n        if p==1: r+=m\n        m=m//2\n    return 0\n 
 def vyhodnot(retezec):\n    m=2**(len(retezec)-1)\n    r=0\n    for p in retezec:\n        if p==1: r+=m\n        m=m//2\n    return r\n 
 def vyhodnot(retezec):\n    m=2**(len(retezec)-1)\n    r=0\n    for p in retezec:\n        if p=="1": r+=m\n        m=m//2\n    return r\n 

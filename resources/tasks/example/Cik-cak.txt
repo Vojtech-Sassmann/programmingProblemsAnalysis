@@ -1,0 +1,1 @@
+9;364;9SUBMITdef cikcak(text):\n    radek(text,0)\n    radek(text,1)\n    \ndef radek(text, parita):\n    for i in range(len(text)):\n        if i % 2 == parita:\n            print text[i],\n        else:\n            print '.',\n    print    \n

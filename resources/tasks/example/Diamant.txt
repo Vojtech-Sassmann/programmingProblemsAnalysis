@@ -1,0 +1,1 @@
+10;10;10SUBMITdef diamant(n):\n    for x in range(-n,n+1):\n        for y in range(-n,n+1):\n            if abs(x)+abs(y) <= n:\n                print "#",\n            else:\n                print '.',\n        print\n
