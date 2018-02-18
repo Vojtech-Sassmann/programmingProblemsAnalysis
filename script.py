@@ -52,6 +52,6 @@ class MyVisitor(ast.NodeVisitor):
         ast.NodeVisitor.generic_visit(self, node)
 
 
-tree = ast.parse("print(2 * 2)")
+tree = ast.parse("def pocet_delitelu(n):\n    return len([ x for x in range(1,n+1) if n % x == 0 ])\n")
 MyVisitor().visit(tree)
 print(tree)

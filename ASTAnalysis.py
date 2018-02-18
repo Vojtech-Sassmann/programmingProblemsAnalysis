@@ -18,11 +18,11 @@ searched_nodes = [
     "Add", "Sub", "Mult", "Div", "For", "While", "Print", "Mod", "If", "Eq", "Is",
 ]
 
-output_path = "resources/tmp/AST_top1.csv"
+output_path = "resources/parsed/resultsAvarage6_selectedFeatures_AST.csv"
 binary = False
 # solution_number = 1
-avarage_number = 1
-minimal_vector_size = 1
+avarage_number = 6
+minimal_vector_size = 2
 minimal_submitted = 300
 minimal_parsable = 10
 skip_print = False
@@ -168,7 +168,8 @@ def save_results(results, file_name):
         counter = 0
         average_data_vector = None
         f.write(file_name[:-4] + ";")
-        for solution, value in sorted(results.solutions.items(), key=lambda x: x[1], reverse=True):
+        sorted_solutions = sorted(results.solutions.items(), key=lambda x: x[1], reverse=True)
+        for solution, value in sorted_solutions:
             counter += 1
             data_vector = solution.data_vector
             if counter == 1:
@@ -181,12 +182,19 @@ def save_results(results, file_name):
         for key in average_data_vector:
             average_data_vector[key] /= float(counter)
         first = True
-        for key in average_data_vector:
+        for node_type in searched_nodes:
             if first:
-                f.write(str('%.2f' % average_data_vector[key]))
+                f.write(str('%.2f' % average_data_vector[node_type]))
                 first = False
             else:
-                f.write(";" + str('%.2f' % average_data_vector[key]))
+                f.write(";" + str('%.2f' % average_data_vector[node_type]))
+
+        # for key in average_data_vector:
+        #     if first:
+        #         f.write(str('%.2f' % average_data_vector[key]))
+        #         first = False
+        #     else:
+        #         f.write(";" + str('%.2f' % average_data_vector[key]))
         f.write("\n")
 
 

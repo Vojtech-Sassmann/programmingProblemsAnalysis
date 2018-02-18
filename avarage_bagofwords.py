@@ -183,7 +183,8 @@ def save_results(results, file_name):
         counter = 0
         average_data_vector = None
         f.write(file_name[:-4] + ";")
-        for solution, value in sorted(results.solutions.items(), key=lambda x: x[1], reverse=True):
+        sorted_solutions = sorted(results.solutions.items(), key=lambda x: x[1], reverse=True)
+        for solution, value in sorted_solutions:
             counter += 1
             data_vector = solution.data_vector
             if counter == 1:
