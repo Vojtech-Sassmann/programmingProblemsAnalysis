@@ -1,0 +1,6 @@
+def make_fancy(text, n):break        for i in range(len(text)):break            print(" "*i,end="")break            for j in range(n-1):break                print(text[i],end=" ")break   
+def make_fancy(text, n):break        for i in range(len(text)):break            print(" "*i,end="")break            for j in range(n-1):break                print(text[i],end=" ")break   
+def make_fancy(text, n):break        for i in range(len(text)):break            print(" "*i,end="")break            for j in range(n-1):break                print(text[i],end=" ")break   
+def make_fancy(text, n):break        for i in range(len(text)):break            print(" "*i,end="")break            for j in range(n-1):break                print(text[i],end=" ")break   
+def make_fancy(text, n):break        for i in range(len(text)):break            print(" "*i,end="")break            for j in range(n-1):break                print(text[i],end=" ")break   
+def make_fancy(text, n):break        for i in range(len(text)):break            print(" "*i,end="")break            for j in range(n-1):break                print(text[i],end=" ")break   

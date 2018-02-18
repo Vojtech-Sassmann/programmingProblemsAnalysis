@@ -1,0 +1,24 @@
+def string_zip(text1, text2):break    r_text=""break    for i in range(max(len(text1), len(text2))):break        if i<len(text1):break            r_text+=text1[i]break        if i<len(tex
+def string_zip(text1, text2):break    s = []break    for i in range(0,max(len(text1),len(text2))):break        if (i < len(text1)):break            s.append(text1[i])break        if (i < 
+def string_zip(text1, text2):break    result = ''break    for i in range(max(len(text1), len(text2))):break        if len(text1) > i:break        	result += text1[i]break        if len(te
+def string_zip(text1, text2):break    if len(text2) >= len (text1):break        delka=len(text2)break    else:break        delka = len(text1)break    for i in range(delka):break        if
+def string_zip(text1, text2):break    r_text=""break    for i in range(max(len(text1), len(text2))):break        if i<len(text1):break            r_text+=text1[i]break        if i<len(tex
+def string_zip(text1, text2):break    s = []break    for i in range(0,max(len(text1),len(text2))):break        if (i < len(text1)):break            s.append(text1[i])break        if (i < 
+def string_zip(text1, text2):break    result = ''break    for i in range(max(len(text1), len(text2))):break        if len(text1) > i:break        	result += text1[i]break        if len(te
+def string_zip(text1, text2):break    if len(text2) >= len (text1):break        delka=len(text2)break    else:break        delka = len(text1)break    for i in range(delka):break        if
+def string_zip(text1, text2):break    r_text=""break    for i in range(max(len(text1), len(text2))):break        if i<len(text1):break            r_text+=text1[i]break        if i<len(tex
+def string_zip(text1, text2):break    s = []break    for i in range(0,max(len(text1),len(text2))):break        if (i < len(text1)):break            s.append(text1[i])break        if (i < 
+def string_zip(text1, text2):break    result = ''break    for i in range(max(len(text1), len(text2))):break        if len(text1) > i:break        	result += text1[i]break        if len(te
+def string_zip(text1, text2):break    if len(text2) >= len (text1):break        delka=len(text2)break    else:break        delka = len(text1)break    for i in range(delka):break        if
+def string_zip(text1, text2):break    r_text=""break    for i in range(max(len(text1), len(text2))):break        if i<len(text1):break            r_text+=text1[i]break        if i<len(tex
+def string_zip(text1, text2):break    s = []break    for i in range(0,max(len(text1),len(text2))):break        if (i < len(text1)):break            s.append(text1[i])break        if (i < 
+def string_zip(text1, text2):break    result = ''break    for i in range(max(len(text1), len(text2))):break        if len(text1) > i:break        	result += text1[i]break        if len(te
+def string_zip(text1, text2):break    if len(text2) >= len (text1):break        delka=len(text2)break    else:break        delka = len(text1)break    for i in range(delka):break        if
+def string_zip(text1, text2):break    r_text=""break    for i in range(max(len(text1), len(text2))):break        if i<len(text1):break            r_text+=text1[i]break        if i<len(tex
+def string_zip(text1, text2):break    s = []break    for i in range(0,max(len(text1),len(text2))):break        if (i < len(text1)):break            s.append(text1[i])break        if (i < 
+def string_zip(text1, text2):break    result = ''break    for i in range(max(len(text1), len(text2))):break        if len(text1) > i:break        	result += text1[i]break        if len(te
+def string_zip(text1, text2):break    if len(text2) >= len (text1):break        delka=len(text2)break    else:break        delka = len(text1)break    for i in range(delka):break        if
+def string_zip(text1, text2):break    r_text=""break    for i in range(max(len(text1), len(text2))):break        if i<len(text1):break            r_text+=text1[i]break        if i<len(tex
+def string_zip(text1, text2):break    s = []break    for i in range(0,max(len(text1),len(text2))):break        if (i < len(text1)):break            s.append(text1[i])break        if (i < 
+def string_zip(text1, text2):break    result = ''break    for i in range(max(len(text1), len(text2))):break        if len(text1) > i:break        	result += text1[i]break        if len(te
+def string_zip(text1, text2):break    if len(text2) >= len (text1):break        delka=len(text2)break    else:break        delka = len(text1)break    for i in range(delka):break        if

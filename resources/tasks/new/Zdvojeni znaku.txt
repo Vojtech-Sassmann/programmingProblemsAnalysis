@@ -1,0 +1,70 @@
+def duplication(text):break    textdouble = ''break    for i in text:break    	textdouble = textdouble + i + ibreak    return textdoublebreak
+def duplication(text):break    z = ''break    for i in text:break        z += i + ibreak    return zbreak
+def duplication(text):break    result_text = ""break    for x in text:break        result_text += 2 * x break        break    return result_textbreak
+def duplication(text):break    textb=''break    for i in range(len(text)):break                   textb=textb+text[i]+text[i]break    return textbbreak
+def duplication(text):break    new_text=""break    for i in text:break    	new_text +=i*2break    return new_textbreak
+def duplication(text):break    output=""break    for i in text:break        output += i*2break       break    return outputbreak
+def duplication(text):break    text2 = ""break    for i in range(len(text)):break        text2 += 2*text[i]break    return text2break
+def duplication(text):break    txt=""break    for i in text:break     	txt+=(i*2)break    return txtbreak    break
+def duplication(text):break    text2=""break    for i in text:break        text2=text2+ibreak        text2=text2+ibreak    text=text2break    return textbreak
+def duplication(text):break    k=""break    for letter in text:break        k+=letterbreak        k+=letterbreak    return kbreak        break
+def duplication(text):break    textdouble = ''break    for i in text:break    	textdouble = textdouble + i + ibreak    return textdoublebreak
+def duplication(text):break    z = ''break    for i in text:break        z += i + ibreak    return zbreak
+def duplication(text):break    result_text = ""break    for x in text:break        result_text += 2 * x break        break    return result_textbreak
+def duplication(text):break    textb=''break    for i in range(len(text)):break                   textb=textb+text[i]+text[i]break    return textbbreak
+def duplication(text):break    new_text=""break    for i in text:break    	new_text +=i*2break    return new_textbreak
+def duplication(text):break    output=""break    for i in text:break        output += i*2break       break    return outputbreak
+def duplication(text):break    text2 = ""break    for i in range(len(text)):break        text2 += 2*text[i]break    return text2break
+def duplication(text):break    txt=""break    for i in text:break     	txt+=(i*2)break    return txtbreak    break
+def duplication(text):break    text2=""break    for i in text:break        text2=text2+ibreak        text2=text2+ibreak    text=text2break    return textbreak
+def duplication(text):break    k=""break    for letter in text:break        k+=letterbreak        k+=letterbreak    return kbreak        break
+def duplication(text):break    textdouble = ''break    for i in text:break    	textdouble = textdouble + i + ibreak    return textdoublebreak
+def duplication(text):break    z = ''break    for i in text:break        z += i + ibreak    return zbreak
+def duplication(text):break    result_text = ""break    for x in text:break        result_text += 2 * x break        break    return result_textbreak
+def duplication(text):break    textb=''break    for i in range(len(text)):break                   textb=textb+text[i]+text[i]break    return textbbreak
+def duplication(text):break    new_text=""break    for i in text:break    	new_text +=i*2break    return new_textbreak
+def duplication(text):break    output=""break    for i in text:break        output += i*2break       break    return outputbreak
+def duplication(text):break    text2 = ""break    for i in range(len(text)):break        text2 += 2*text[i]break    return text2break
+def duplication(text):break    txt=""break    for i in text:break     	txt+=(i*2)break    return txtbreak    break
+def duplication(text):break    text2=""break    for i in text:break        text2=text2+ibreak        text2=text2+ibreak    text=text2break    return textbreak
+def duplication(text):break    k=""break    for letter in text:break        k+=letterbreak        k+=letterbreak    return kbreak        break
+def duplication(text):break    textdouble = ''break    for i in text:break    	textdouble = textdouble + i + ibreak    return textdoublebreak
+def duplication(text):break    z = ''break    for i in text:break        z += i + ibreak    return zbreak
+def duplication(text):break    result_text = ""break    for x in text:break        result_text += 2 * x break        break    return result_textbreak
+def duplication(text):break    textb=''break    for i in range(len(text)):break                   textb=textb+text[i]+text[i]break    return textbbreak
+def duplication(text):break    new_text=""break    for i in text:break    	new_text +=i*2break    return new_textbreak
+def duplication(text):break    output=""break    for i in text:break        output += i*2break       break    return outputbreak
+def duplication(text):break    text2 = ""break    for i in range(len(text)):break        text2 += 2*text[i]break    return text2break
+def duplication(text):break    txt=""break    for i in text:break     	txt+=(i*2)break    return txtbreak    break
+def duplication(text):break    text2=""break    for i in text:break        text2=text2+ibreak        text2=text2+ibreak    text=text2break    return textbreak
+def duplication(text):break    k=""break    for letter in text:break        k+=letterbreak        k+=letterbreak    return kbreak        break
+def duplication(text):break    textdouble = ''break    for i in text:break    	textdouble = textdouble + i + ibreak    return textdoublebreak
+def duplication(text):break    z = ''break    for i in text:break        z += i + ibreak    return zbreak
+def duplication(text):break    result_text = ""break    for x in text:break        result_text += 2 * x break        break    return result_textbreak
+def duplication(text):break    textb=''break    for i in range(len(text)):break                   textb=textb+text[i]+text[i]break    return textbbreak
+def duplication(text):break    new_text=""break    for i in text:break    	new_text +=i*2break    return new_textbreak
+def duplication(text):break    output=""break    for i in text:break        output += i*2break       break    return outputbreak
+def duplication(text):break    text2 = ""break    for i in range(len(text)):break        text2 += 2*text[i]break    return text2break
+def duplication(text):break    txt=""break    for i in text:break     	txt+=(i*2)break    return txtbreak    break
+def duplication(text):break    text2=""break    for i in text:break        text2=text2+ibreak        text2=text2+ibreak    text=text2break    return textbreak
+def duplication(text):break    k=""break    for letter in text:break        k+=letterbreak        k+=letterbreak    return kbreak        break
+def duplication(text):break    textdouble = ''break    for i in text:break    	textdouble = textdouble + i + ibreak    return textdoublebreak
+def duplication(text):break    z = ''break    for i in text:break        z += i + ibreak    return zbreak
+def duplication(text):break    result_text = ""break    for x in text:break        result_text += 2 * x break        break    return result_textbreak
+def duplication(text):break    textb=''break    for i in range(len(text)):break                   textb=textb+text[i]+text[i]break    return textbbreak
+def duplication(text):break    new_text=""break    for i in text:break    	new_text +=i*2break    return new_textbreak
+def duplication(text):break    output=""break    for i in text:break        output += i*2break       break    return outputbreak
+def duplication(text):break    text2 = ""break    for i in range(len(text)):break        text2 += 2*text[i]break    return text2break
+def duplication(text):break    txt=""break    for i in text:break     	txt+=(i*2)break    return txtbreak    break
+def duplication(text):break    text2=""break    for i in text:break        text2=text2+ibreak        text2=text2+ibreak    text=text2break    return textbreak
+def duplication(text):break    k=""break    for letter in text:break        k+=letterbreak        k+=letterbreak    return kbreak        break
+def duplication(text):break    textdouble = ''break    for i in text:break    	textdouble = textdouble + i + ibreak    return textdoublebreak
+def duplication(text):break    z = ''break    for i in text:break        z += i + ibreak    return zbreak
+def duplication(text):break    result_text = ""break    for x in text:break        result_text += 2 * x break        break    return result_textbreak
+def duplication(text):break    textb=''break    for i in range(len(text)):break                   textb=textb+text[i]+text[i]break    return textbbreak
+def duplication(text):break    new_text=""break    for i in text:break    	new_text +=i*2break    return new_textbreak
+def duplication(text):break    output=""break    for i in text:break        output += i*2break       break    return outputbreak
+def duplication(text):break    text2 = ""break    for i in range(len(text)):break        text2 += 2*text[i]break    return text2break
+def duplication(text):break    txt=""break    for i in text:break     	txt+=(i*2)break    return txtbreak    break
+def duplication(text):break    text2=""break    for i in text:break        text2=text2+ibreak        text2=text2+ibreak    text=text2break    return textbreak
+def duplication(text):break    k=""break    for letter in text:break        k+=letterbreak        k+=letterbreak    return kbreak        break

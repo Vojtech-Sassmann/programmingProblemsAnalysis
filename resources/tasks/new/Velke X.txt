@@ -1,0 +1,18 @@
+def bigX(n):break    for i in range(2*n-1):break        for j in range(2*n-1):break            if i==j or (2*n-i)-2==j:break                print("#",end=" ")break            else:break  
+def bigX(n):break    for i in range(1,2*n):break        for j in range(1,2*n):break            if j==(i) or j==(2*n-i):break                print("#",end=" ")break            else:break  
+def bigX(n):break    pocet_radku=2*n-1break    for i in range(1,pocet_radku+1):break        if i <= n-1:break            print("  "*(i-1),"# ","  "*(pocet_radku-i*2),"#",sep="",end="\n")b
+def bigX(n):break    for i in range(2*n-1):break        for j in range(2*n-1):break            if i==j or (2*n-i)-2==j:break                print("#",end=" ")break            else:break  
+def bigX(n):break    for i in range(1,2*n):break        for j in range(1,2*n):break            if j==(i) or j==(2*n-i):break                print("#",end=" ")break            else:break  
+def bigX(n):break    pocet_radku=2*n-1break    for i in range(1,pocet_radku+1):break        if i <= n-1:break            print("  "*(i-1),"# ","  "*(pocet_radku-i*2),"#",sep="",end="\n")b
+def bigX(n):break    for i in range(2*n-1):break        for j in range(2*n-1):break            if i==j or (2*n-i)-2==j:break                print("#",end=" ")break            else:break  
+def bigX(n):break    for i in range(1,2*n):break        for j in range(1,2*n):break            if j==(i) or j==(2*n-i):break                print("#",end=" ")break            else:break  
+def bigX(n):break    pocet_radku=2*n-1break    for i in range(1,pocet_radku+1):break        if i <= n-1:break            print("  "*(i-1),"# ","  "*(pocet_radku-i*2),"#",sep="",end="\n")b
+def bigX(n):break    for i in range(2*n-1):break        for j in range(2*n-1):break            if i==j or (2*n-i)-2==j:break                print("#",end=" ")break            else:break  
+def bigX(n):break    for i in range(1,2*n):break        for j in range(1,2*n):break            if j==(i) or j==(2*n-i):break                print("#",end=" ")break            else:break  
+def bigX(n):break    pocet_radku=2*n-1break    for i in range(1,pocet_radku+1):break        if i <= n-1:break            print("  "*(i-1),"# ","  "*(pocet_radku-i*2),"#",sep="",end="\n")b
+def bigX(n):break    for i in range(2*n-1):break        for j in range(2*n-1):break            if i==j or (2*n-i)-2==j:break                print("#",end=" ")break            else:break  
+def bigX(n):break    for i in range(1,2*n):break        for j in range(1,2*n):break            if j==(i) or j==(2*n-i):break                print("#",end=" ")break            else:break  
+def bigX(n):break    pocet_radku=2*n-1break    for i in range(1,pocet_radku+1):break        if i <= n-1:break            print("  "*(i-1),"# ","  "*(pocet_radku-i*2),"#",sep="",end="\n")b
+def bigX(n):break    for i in range(2*n-1):break        for j in range(2*n-1):break            if i==j or (2*n-i)-2==j:break                print("#",end=" ")break            else:break  
+def bigX(n):break    for i in range(1,2*n):break        for j in range(1,2*n):break            if j==(i) or j==(2*n-i):break                print("#",end=" ")break            else:break  
+def bigX(n):break    pocet_radku=2*n-1break    for i in range(1,pocet_radku+1):break        if i <= n-1:break            print("  "*(i-1),"# ","  "*(pocet_radku-i*2),"#",sep="",end="\n")b

@@ -21,12 +21,25 @@ searched_nodes = [
 #     "TryFinally", "UnaryAdd", "UnarySub", "While"
 #     ]
 
-output_path = "resources/example/classicBOW.csv"
+output_path = "resources/tmp/top1.csv"
 binary = False
 # solution_number = 1
 avarage_number = 1
-minimal_vector_size = 0
-minimal_subbmited = 1
+minimal_vector_size = 2
+minimal_subbmited = 300
+
+
+class Solution:
+    def __init__(self, data_vector, example):
+        self.data_vector = data_vector
+        self.example = example
+        self.count = 1
+
+    def __hash__(self):
+        return self.data_vector.__hash__()
+
+    def __eq__(self, other):
+        return self.data_vector.__eq__(other.data_vector)
 
 
 class HashableDict(dict):
@@ -35,15 +48,11 @@ class HashableDict(dict):
 
 
 class AnalyseResults:
-
-    submitted = 0
-    parsable = 0
-    correct = 0
-
-    stats = {}
-
     def __init__(self):
-        self.stats = {}
+        self.submitted = 0
+        self.parsable = 0
+        self.correct = 0
+        self.solutions = {}
 
 
 class MyVisitor(ast.NodeVisitor):
@@ -90,19 +99,21 @@ def check_features(solution, data_vector):
                 data_vector[node] = 1
 
 
-def analyze_solution(solution, results):
+def analyze_solution(raw_solution, results):
     data_vector = {}
     results.submitted += 1
-    solution = solution.replace("\\n", "\n")
+    solution_string = raw_solution.replace("\\n", "\n")
 
-    check_features(solution, data_vector)
+    check_features(solution_string, data_vector)
 
     result = HashableDict(data_vector)
+    solution = Solution(result, solution_string)
 
     if calculate_vector_size(result) >= minimal_vector_size:
-        if result not in results.stats:
-            results.stats[result] = 1
-        results.stats[result] += 1
+        if solution not in results.solutions:
+            results.solutions[solution] = 1
+        else:
+            results.solutions[solution] += 1
 
 #
 # def analyze_solution(raw_solution, results):
@@ -149,9 +160,9 @@ def print_results(results):
     # print("\n-----\n")
     #
     number_of_printed_solutions = 5
-    for key, value in sorted(results.stats.items(), key=lambda x: x[1], reverse=True):
-        if len(key) > 0:
-            print(key, "-> ", value)
+    for solution, count in sorted(results.solutions.items(), key=lambda x: x[1], reverse=True):
+        if len(solution.data_vector) > 0:
+            print(solution.data_vector, "-> ", count)
             number_of_printed_solutions -= 1
             if number_of_printed_solutions is 0:
                 break
@@ -170,29 +181,27 @@ def save_results(results, file_name):
 
     with codecs.open(output_path, 'a') as f:
         counter = 0
-        avarage_solution = None
+        average_data_vector = None
         f.write(file_name[:-4] + ";")
-        for solution, value in sorted(results.stats.items(), key=lambda x: x[1], reverse=True):
+        for solution, value in sorted(results.solutions.items(), key=lambda x: x[1], reverse=True):
             counter += 1
+            data_vector = solution.data_vector
             if counter == 1:
-                avarage_solution = solution
+                average_data_vector = data_vector
             else:
-                for key in solution:
-                    avarage_solution[key] += solution[key]
+                for key in data_vector:
+                    average_data_vector[key] += data_vector[key]
             if counter == avarage_number:
                 break
-        for key in avarage_solution:
-            # if avarage_solution[key] != 0:
-            #     avarage_solution[key] += 1
-            #     avarage_solution[key] = math.log(avarage_solution[key], 2)
-            avarage_solution[key] /= counter
+        for key in average_data_vector:
+            average_data_vector[key] /= counter
         first = True
-        for key in (avarage_solution):
+        for key in average_data_vector:
             if first:
-                f.write(str('%.2f' % avarage_solution[key]))
+                f.write(str('%.2f' % average_data_vector[key]))
                 first = False
             else:
-                f.write(";" + str('%.2f' % avarage_solution[key]))
+                f.write(";" + str('%.2f' % average_data_vector[key]))
         f.write("\n")
 
 
@@ -202,7 +211,7 @@ def analyze_file(file_name):
 
     results = AnalyseResults()
 
-    with codecs.open("resources/tasks/example/" + file_name, 'rb', encoding='UTF-8') as f:
+    with codecs.open("resources/tasks/" + file_name, 'rb', encoding='UTF-8') as f:
         reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
 
         for line in reader:
@@ -230,7 +239,7 @@ def save_header():
 
 
 def analyze_files():
-    path = 'resources/tasks/example'
+    path = 'resources/tasks'
 
     save_header()
 

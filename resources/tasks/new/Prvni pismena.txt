@@ -1,0 +1,6 @@
+def first_letters(text):break    print(text[0],end=" ")break    for i in range(len(text)):break        if text[i] == " " and text[i+1] != " ":break            print(text[i+1], end=" ")bre
+def first_letters(text):break    print(text[0],end=" ")break    for i in range(len(text)):break        if text[i] == " " and text[i+1] != " ":break            print(text[i+1], end=" ")bre
+def first_letters(text):break    print(text[0],end=" ")break    for i in range(len(text)):break        if text[i] == " " and text[i+1] != " ":break            print(text[i+1], end=" ")bre
+def first_letters(text):break    print(text[0],end=" ")break    for i in range(len(text)):break        if text[i] == " " and text[i+1] != " ":break            print(text[i+1], end=" ")bre
+def first_letters(text):break    print(text[0],end=" ")break    for i in range(len(text)):break        if text[i] == " " and text[i+1] != " ":break            print(text[i+1], end=" ")bre
+def first_letters(text):break    print(text[0],end=" ")break    for i in range(len(text)):break        if text[i] == " " and text[i+1] != " ":break            print(text[i+1], end=" ")bre

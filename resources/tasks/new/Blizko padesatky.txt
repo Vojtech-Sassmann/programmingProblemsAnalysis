@@ -1,0 +1,221 @@
+def near_fifty(n):break    if abs(n-50)<=10 or abs(n-150)<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n-10 <= 50 <= n+10:break        return Truebreak    if n-10 <= 150 <= n+10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 50 - n <= 10 and 50 - n >= -10:break        return Truebreak    if 150 - n <= 10 and 150 - n >= -10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40<=n<=60:break        return Truebreak    if 140<=n<=160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return n in range(40,61) or n in range(140, 161)break
+def near_fifty(n):break    if (40 <= n <= 60) or (140 <= n <= 160):break        return Truebreak    else:break	    return Falsebreak
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return Falsebrea
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return False
+def near_fifty(n):break    if abs(50-n) <= 10 or abs(150-n) <=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return (40 <= n <= 60) or (140 <= n <= 160)break
+def near_fifty(n):break	if abs(50-n) <= 10 or abs(150-n) <= 10:break		return Truebreak	else:break		return False
+def near_fifty(n):break    return (50 - n >= -10 and 50 - n <= 10) or (150 - n >= -10 and 150 - n <= 10)
+def near_fifty(n):break    return min((abs(n - 150), abs(n - 50))) <= 10break
+def near_fifty(n):break    if (n <= 60 and n >= 40) or (n >= 140 and n <= 160):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(50 - abs(n)) < 11 or abs(150 - abs(n)) < 11break
+def near_fifty(n):break    a = 150 - nbreak    b = 50 - nbreak    if (abs(a) <= 10 or abs(b) <= 10):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if -10<=50 - n<=10 or -10<=150 - n<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if abs(n - 50) <= 10 or abs(n - 150) <= 10:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    if abs(50-n) <= 10:break        return Truebreak    elif abs(150-n) <= 10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50) <= 10 or abs(n-150) <= 10 break
+def near_fifty(n):break    if 40<= n <=60:break        return Truebreak    elif 140<=n<=160:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break if n<40 or n>60 and n<140 or n>160:break   return Falsebreak else:break        return Truebreak break
+def near_fifty(n):break    rozdil1 = abs(50-n)break    rozdil2 = abs(150-n)break    if (rozdil1<=10) or (rozdil2 <=10):break        return Truebreak    else:break        return Falsebreak
+def near_fifty(n):break    if abs((n-50)) <= 10 or abs((n-150)) <= 10:break        return Truebreak    elif abs((n-50)) >= 10 or abs((150-n))>=10:break        return False
+def near_fifty(n):break    if (n >= 40 and n <= 60) or (n >= 140 and n <= 160):break        return Truebreak    else: return Falsebreak
+def near_fifty(n):break    if 39<n<61 or 139<n<161:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40 <= n <= 60 or 140 <= n <= 160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n < 100:break        if (n < 40 or n > 60):break    		return Falsebreak        else:break            return Truebreak    else:break        if (n < 140 or n >
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return abs(50 - n) <= 10 or abs(150 -n) <= 10break
+def near_fifty(n):break    if abs(n-50)<=10 or abs(n-150)<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n-10 <= 50 <= n+10:break        return Truebreak    if n-10 <= 150 <= n+10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 50 - n <= 10 and 50 - n >= -10:break        return Truebreak    if 150 - n <= 10 and 150 - n >= -10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40<=n<=60:break        return Truebreak    if 140<=n<=160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return n in range(40,61) or n in range(140, 161)break
+def near_fifty(n):break    if (40 <= n <= 60) or (140 <= n <= 160):break        return Truebreak    else:break	    return Falsebreak
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return Falsebrea
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return False
+def near_fifty(n):break    if abs(50-n) <= 10 or abs(150-n) <=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return (40 <= n <= 60) or (140 <= n <= 160)break
+def near_fifty(n):break	if abs(50-n) <= 10 or abs(150-n) <= 10:break		return Truebreak	else:break		return False
+def near_fifty(n):break    return (50 - n >= -10 and 50 - n <= 10) or (150 - n >= -10 and 150 - n <= 10)
+def near_fifty(n):break    return min((abs(n - 150), abs(n - 50))) <= 10break
+def near_fifty(n):break    if (n <= 60 and n >= 40) or (n >= 140 and n <= 160):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(50 - abs(n)) < 11 or abs(150 - abs(n)) < 11break
+def near_fifty(n):break    a = 150 - nbreak    b = 50 - nbreak    if (abs(a) <= 10 or abs(b) <= 10):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if -10<=50 - n<=10 or -10<=150 - n<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if abs(n - 50) <= 10 or abs(n - 150) <= 10:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    if abs(50-n) <= 10:break        return Truebreak    elif abs(150-n) <= 10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50) <= 10 or abs(n-150) <= 10 break
+def near_fifty(n):break    if 40<= n <=60:break        return Truebreak    elif 140<=n<=160:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break if n<40 or n>60 and n<140 or n>160:break   return Falsebreak else:break        return Truebreak break
+def near_fifty(n):break    rozdil1 = abs(50-n)break    rozdil2 = abs(150-n)break    if (rozdil1<=10) or (rozdil2 <=10):break        return Truebreak    else:break        return Falsebreak
+def near_fifty(n):break    if abs((n-50)) <= 10 or abs((n-150)) <= 10:break        return Truebreak    elif abs((n-50)) >= 10 or abs((150-n))>=10:break        return False
+def near_fifty(n):break    if (n >= 40 and n <= 60) or (n >= 140 and n <= 160):break        return Truebreak    else: return Falsebreak
+def near_fifty(n):break    if 39<n<61 or 139<n<161:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40 <= n <= 60 or 140 <= n <= 160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n < 100:break        if (n < 40 or n > 60):break    		return Falsebreak        else:break            return Truebreak    else:break        if (n < 140 or n >
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return abs(50 - n) <= 10 or abs(150 -n) <= 10break
+def near_fifty(n):break    if abs(n-50)<=10 or abs(n-150)<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n-10 <= 50 <= n+10:break        return Truebreak    if n-10 <= 150 <= n+10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 50 - n <= 10 and 50 - n >= -10:break        return Truebreak    if 150 - n <= 10 and 150 - n >= -10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40<=n<=60:break        return Truebreak    if 140<=n<=160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return n in range(40,61) or n in range(140, 161)break
+def near_fifty(n):break    if (40 <= n <= 60) or (140 <= n <= 160):break        return Truebreak    else:break	    return Falsebreak
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return Falsebrea
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return False
+def near_fifty(n):break    if abs(50-n) <= 10 or abs(150-n) <=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return (40 <= n <= 60) or (140 <= n <= 160)break
+def near_fifty(n):break	if abs(50-n) <= 10 or abs(150-n) <= 10:break		return Truebreak	else:break		return False
+def near_fifty(n):break    return (50 - n >= -10 and 50 - n <= 10) or (150 - n >= -10 and 150 - n <= 10)
+def near_fifty(n):break    return min((abs(n - 150), abs(n - 50))) <= 10break
+def near_fifty(n):break    if (n <= 60 and n >= 40) or (n >= 140 and n <= 160):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(50 - abs(n)) < 11 or abs(150 - abs(n)) < 11break
+def near_fifty(n):break    a = 150 - nbreak    b = 50 - nbreak    if (abs(a) <= 10 or abs(b) <= 10):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if -10<=50 - n<=10 or -10<=150 - n<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if abs(n - 50) <= 10 or abs(n - 150) <= 10:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    if abs(50-n) <= 10:break        return Truebreak    elif abs(150-n) <= 10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50) <= 10 or abs(n-150) <= 10 break
+def near_fifty(n):break    if 40<= n <=60:break        return Truebreak    elif 140<=n<=160:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break if n<40 or n>60 and n<140 or n>160:break   return Falsebreak else:break        return Truebreak break
+def near_fifty(n):break    rozdil1 = abs(50-n)break    rozdil2 = abs(150-n)break    if (rozdil1<=10) or (rozdil2 <=10):break        return Truebreak    else:break        return Falsebreak
+def near_fifty(n):break    if abs((n-50)) <= 10 or abs((n-150)) <= 10:break        return Truebreak    elif abs((n-50)) >= 10 or abs((150-n))>=10:break        return False
+def near_fifty(n):break    if (n >= 40 and n <= 60) or (n >= 140 and n <= 160):break        return Truebreak    else: return Falsebreak
+def near_fifty(n):break    if 39<n<61 or 139<n<161:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40 <= n <= 60 or 140 <= n <= 160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n < 100:break        if (n < 40 or n > 60):break    		return Falsebreak        else:break            return Truebreak    else:break        if (n < 140 or n >
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return abs(50 - n) <= 10 or abs(150 -n) <= 10break
+def near_fifty(n):break    if abs(n-50)<=10 or abs(n-150)<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n-10 <= 50 <= n+10:break        return Truebreak    if n-10 <= 150 <= n+10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 50 - n <= 10 and 50 - n >= -10:break        return Truebreak    if 150 - n <= 10 and 150 - n >= -10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40<=n<=60:break        return Truebreak    if 140<=n<=160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return n in range(40,61) or n in range(140, 161)break
+def near_fifty(n):break    if (40 <= n <= 60) or (140 <= n <= 160):break        return Truebreak    else:break	    return Falsebreak
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return Falsebrea
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return False
+def near_fifty(n):break    if abs(50-n) <= 10 or abs(150-n) <=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return (40 <= n <= 60) or (140 <= n <= 160)break
+def near_fifty(n):break	if abs(50-n) <= 10 or abs(150-n) <= 10:break		return Truebreak	else:break		return False
+def near_fifty(n):break    return (50 - n >= -10 and 50 - n <= 10) or (150 - n >= -10 and 150 - n <= 10)
+def near_fifty(n):break    return min((abs(n - 150), abs(n - 50))) <= 10break
+def near_fifty(n):break    if (n <= 60 and n >= 40) or (n >= 140 and n <= 160):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(50 - abs(n)) < 11 or abs(150 - abs(n)) < 11break
+def near_fifty(n):break    a = 150 - nbreak    b = 50 - nbreak    if (abs(a) <= 10 or abs(b) <= 10):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if -10<=50 - n<=10 or -10<=150 - n<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if abs(n - 50) <= 10 or abs(n - 150) <= 10:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    if abs(50-n) <= 10:break        return Truebreak    elif abs(150-n) <= 10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50) <= 10 or abs(n-150) <= 10 break
+def near_fifty(n):break    if 40<= n <=60:break        return Truebreak    elif 140<=n<=160:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break if n<40 or n>60 and n<140 or n>160:break   return Falsebreak else:break        return Truebreak break
+def near_fifty(n):break    rozdil1 = abs(50-n)break    rozdil2 = abs(150-n)break    if (rozdil1<=10) or (rozdil2 <=10):break        return Truebreak    else:break        return Falsebreak
+def near_fifty(n):break    if abs((n-50)) <= 10 or abs((n-150)) <= 10:break        return Truebreak    elif abs((n-50)) >= 10 or abs((150-n))>=10:break        return False
+def near_fifty(n):break    if (n >= 40 and n <= 60) or (n >= 140 and n <= 160):break        return Truebreak    else: return Falsebreak
+def near_fifty(n):break    if 39<n<61 or 139<n<161:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40 <= n <= 60 or 140 <= n <= 160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n < 100:break        if (n < 40 or n > 60):break    		return Falsebreak        else:break            return Truebreak    else:break        if (n < 140 or n >
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return abs(50 - n) <= 10 or abs(150 -n) <= 10break
+def near_fifty(n):break    if abs(n-50)<=10 or abs(n-150)<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n-10 <= 50 <= n+10:break        return Truebreak    if n-10 <= 150 <= n+10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 50 - n <= 10 and 50 - n >= -10:break        return Truebreak    if 150 - n <= 10 and 150 - n >= -10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40<=n<=60:break        return Truebreak    if 140<=n<=160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return n in range(40,61) or n in range(140, 161)break
+def near_fifty(n):break    if (40 <= n <= 60) or (140 <= n <= 160):break        return Truebreak    else:break	    return Falsebreak
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return Falsebrea
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return False
+def near_fifty(n):break    if abs(50-n) <= 10 or abs(150-n) <=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return (40 <= n <= 60) or (140 <= n <= 160)break
+def near_fifty(n):break	if abs(50-n) <= 10 or abs(150-n) <= 10:break		return Truebreak	else:break		return False
+def near_fifty(n):break    return (50 - n >= -10 and 50 - n <= 10) or (150 - n >= -10 and 150 - n <= 10)
+def near_fifty(n):break    return min((abs(n - 150), abs(n - 50))) <= 10break
+def near_fifty(n):break    if (n <= 60 and n >= 40) or (n >= 140 and n <= 160):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(50 - abs(n)) < 11 or abs(150 - abs(n)) < 11break
+def near_fifty(n):break    a = 150 - nbreak    b = 50 - nbreak    if (abs(a) <= 10 or abs(b) <= 10):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if -10<=50 - n<=10 or -10<=150 - n<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if abs(n - 50) <= 10 or abs(n - 150) <= 10:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    if abs(50-n) <= 10:break        return Truebreak    elif abs(150-n) <= 10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50) <= 10 or abs(n-150) <= 10 break
+def near_fifty(n):break    if 40<= n <=60:break        return Truebreak    elif 140<=n<=160:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break if n<40 or n>60 and n<140 or n>160:break   return Falsebreak else:break        return Truebreak break
+def near_fifty(n):break    rozdil1 = abs(50-n)break    rozdil2 = abs(150-n)break    if (rozdil1<=10) or (rozdil2 <=10):break        return Truebreak    else:break        return Falsebreak
+def near_fifty(n):break    if abs((n-50)) <= 10 or abs((n-150)) <= 10:break        return Truebreak    elif abs((n-50)) >= 10 or abs((150-n))>=10:break        return False
+def near_fifty(n):break    if (n >= 40 and n <= 60) or (n >= 140 and n <= 160):break        return Truebreak    else: return Falsebreak
+def near_fifty(n):break    if 39<n<61 or 139<n<161:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40 <= n <= 60 or 140 <= n <= 160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n < 100:break        if (n < 40 or n > 60):break    		return Falsebreak        else:break            return Truebreak    else:break        if (n < 140 or n >
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return abs(50 - n) <= 10 or abs(150 -n) <= 10break
+def near_fifty(n):break    if abs(n-50)<=10 or abs(n-150)<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n-10 <= 50 <= n+10:break        return Truebreak    if n-10 <= 150 <= n+10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 50 - n <= 10 and 50 - n >= -10:break        return Truebreak    if 150 - n <= 10 and 150 - n >= -10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40<=n<=60:break        return Truebreak    if 140<=n<=160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return n in range(40,61) or n in range(140, 161)break
+def near_fifty(n):break    if (40 <= n <= 60) or (140 <= n <= 160):break        return Truebreak    else:break	    return Falsebreak
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return False
+def near_fifty(n):break    if abs(50-n) <= 10 or abs(150-n) <=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return (40 <= n <= 60) or (140 <= n <= 160)break
+def near_fifty(n):break	if abs(50-n) <= 10 or abs(150-n) <= 10:break		return Truebreak	else:break		return False
+def near_fifty(n):break    return (50 - n >= -10 and 50 - n <= 10) or (150 - n >= -10 and 150 - n <= 10)
+def near_fifty(n):break    return min((abs(n - 150), abs(n - 50))) <= 10break
+def near_fifty(n):break    if (n <= 60 and n >= 40) or (n >= 140 and n <= 160):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(50 - abs(n)) < 11 or abs(150 - abs(n)) < 11break
+def near_fifty(n):break    a = 150 - nbreak    b = 50 - nbreak    if (abs(a) <= 10 or abs(b) <= 10):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if -10<=50 - n<=10 or -10<=150 - n<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if abs(n - 50) <= 10 or abs(n - 150) <= 10:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    if abs(50-n) <= 10:break        return Truebreak    elif abs(150-n) <= 10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50) <= 10 or abs(n-150) <= 10 break
+def near_fifty(n):break    if 40<= n <=60:break        return Truebreak    elif 140<=n<=160:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break if n<40 or n>60 and n<140 or n>160:break   return Falsebreak else:break        return Truebreak break
+def near_fifty(n):break    if abs((n-50)) <= 10 or abs((n-150)) <= 10:break        return Truebreak    elif abs((n-50)) >= 10 or abs((150-n))>=10:break        return False
+def near_fifty(n):break    if (n >= 40 and n <= 60) or (n >= 140 and n <= 160):break        return Truebreak    else: return Falsebreak
+def near_fifty(n):break    if 39<n<61 or 139<n<161:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40 <= n <= 60 or 140 <= n <= 160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return abs(50 - n) <= 10 or abs(150 -n) <= 10break
+def near_fifty(n):break    if abs(n-50)<=10 or abs(n-150)<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n-10 <= 50 <= n+10:break        return Truebreak    if n-10 <= 150 <= n+10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 50 - n <= 10 and 50 - n >= -10:break        return Truebreak    if 150 - n <= 10 and 150 - n >= -10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40<=n<=60:break        return Truebreak    if 140<=n<=160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return n in range(40,61) or n in range(140, 161)break
+def near_fifty(n):break    if (40 <= n <= 60) or (140 <= n <= 160):break        return Truebreak    else:break	    return Falsebreak
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return Falsebrea
+def near_fifty(n):break    if n in list(range(40, 61)):break        return Truebreak    elif n in list(range(140, 161)):break        return Truebreak    else:break        return False
+def near_fifty(n):break    if abs(50-n) <= 10 or abs(150-n) <=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return (40 <= n <= 60) or (140 <= n <= 160)break
+def near_fifty(n):break	if abs(50-n) <= 10 or abs(150-n) <= 10:break		return Truebreak	else:break		return False
+def near_fifty(n):break    return (50 - n >= -10 and 50 - n <= 10) or (150 - n >= -10 and 150 - n <= 10)
+def near_fifty(n):break    return min((abs(n - 150), abs(n - 50))) <= 10break
+def near_fifty(n):break    if (n <= 60 and n >= 40) or (n >= 140 and n <= 160):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(50 - abs(n)) < 11 or abs(150 - abs(n)) < 11break
+def near_fifty(n):break    a = 150 - nbreak    b = 50 - nbreak    if (abs(a) <= 10 or abs(b) <= 10):break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if -10<=50 - n<=10 or -10<=150 - n<=10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if abs(n - 50) <= 10 or abs(n - 150) <= 10:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    if abs(50-n) <= 10:break        return Truebreak    elif abs(150-n) <= 10:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    return abs(n-50) <= 10 or abs(n-150) <= 10 break
+def near_fifty(n):break    if 40<= n <=60:break        return Truebreak    elif 140<=n<=160:break        return Truebreak    else:break    	return Falsebreak
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break if n<40 or n>60 and n<140 or n>160:break   return Falsebreak else:break        return Truebreak break
+def near_fifty(n):break    rozdil1 = abs(50-n)break    rozdil2 = abs(150-n)break    if (rozdil1<=10) or (rozdil2 <=10):break        return Truebreak    else:break        return Falsebreak
+def near_fifty(n):break    if abs((n-50)) <= 10 or abs((n-150)) <= 10:break        return Truebreak    elif abs((n-50)) >= 10 or abs((150-n))>=10:break        return False
+def near_fifty(n):break    if (n >= 40 and n <= 60) or (n >= 140 and n <= 160):break        return Truebreak    else: return Falsebreak
+def near_fifty(n):break    if 39<n<61 or 139<n<161:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if 40 <= n <= 60 or 140 <= n <= 160:break        return Truebreak    return Falsebreak
+def near_fifty(n):break    if n < 100:break        if (n < 40 or n > 60):break    		return Falsebreak        else:break            return Truebreak    else:break        if (n < 140 or n >
+def near_fifty(n):break    return abs(n-50)<=10 or abs(n-150)<=10break
+def near_fifty(n):break    return abs(50 - n) <= 10 or abs(150 -n) <= 10break

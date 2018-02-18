@@ -1,0 +1,97 @@
+def print_products(n):break    for i in range(1,n+1):break    	if n%i==0:break        	print(n,"=",i,"*",int((n/i)))
+def print_products(n):break    for i in range (1,n+1):break        if n % i == 0:break            print(n, '=', i, '*', n//i )break            break   break
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0: break    		print(str(n) + ' = ' + str(i) + ' * ' + str(int(n/i)))break
+def print_products(n):break    for i in range(1,n+1):break        if n % i == 0: 	break        	print(n,"=",i,"*",n//i)
+def print_products(n):break    for i in range(1,n+1):break        if n%i==0:break            print(n,"=",i,"*", n//i)break    
+def print_products(n):break    for x in range(n+1):break        for y in range(n+1):break            if x * y == n:break                print(n, "=", x, "*" ,y)break
+def print_products(n):break    for i in range(1, n+1):break        if n % i == 0:break            x = int(n / i)break            print(n,'=',i,'*',x)break
+def print_products(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = n//ibreak            print(str(n) + " = " + str(i) + " * " + str(a))bre
+def print_products(n):break    for i in range (1,n+1):break        if n%i==0:break            print (n,"=",i,"*",n//i)breakbreak
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0:break        	print(n, "=", i, "*", n // i)break
+def print_products(n):break    for i in range(n):break        if n%(1+i) == 0:break            print(n, "=",1+i,"*",n//(i+1)  )break
+def print_products(n):break    for i in range(1, n + 1):break        x = n % ibreak        if x == 0:break            x = n // ibreak            print(n, "=", i, "*", x)
+def print_products(n):break    for i in range(1,n+1):break        if (n % i) == 0:break            print(n,"=",i,"*",int(n/i),end="\n")break            breakbreak
+def print_products(n):break    for i in range(n+1):break        for j in range(n+1):break            if i * j == n:break                print(n,"=",i,"*",j)break
+def print_products(n):break    for i in range(1,n+1):break    	if n%i==0:break        	print(n,"=",i,"*",int((n/i)))
+def print_products(n):break    for i in range (1,n+1):break        if n % i == 0:break            print(n, '=', i, '*', n//i )break            break   break
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0: break    		print(str(n) + ' = ' + str(i) + ' * ' + str(int(n/i)))break
+def print_products(n):break    for i in range(1,n+1):break        if n % i == 0: 	break        	print(n,"=",i,"*",n//i)
+def print_products(n):break    for i in range(1,n+1):break        if n%i==0:break            print(n,"=",i,"*", n//i)break    
+def print_products(n):break    for x in range(n+1):break        for y in range(n+1):break            if x * y == n:break                print(n, "=", x, "*" ,y)break
+def print_products(n):break    for i in range(1, n+1):break        if n % i == 0:break            x = int(n / i)break            print(n,'=',i,'*',x)break
+def print_products(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = n//ibreak            print(str(n) + " = " + str(i) + " * " + str(a))bre
+def print_products(n):break    for i in range (1,n+1):break        if n%i==0:break            print (n,"=",i,"*",n//i)breakbreak
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0:break        	print(n, "=", i, "*", n // i)break
+def print_products(n):break    for i in range(n):break        if n%(1+i) == 0:break            print(n, "=",1+i,"*",n//(i+1)  )break
+def print_products(n):break    for i in range(1, n + 1):break        x = n % ibreak        if x == 0:break            x = n // ibreak            print(n, "=", i, "*", x)
+def print_products(n):break    for i in range(1,n+1):break        if (n % i) == 0:break            print(n,"=",i,"*",int(n/i),end="\n")break            breakbreak
+def print_products(n):break    for i in range(n+1):break        for j in range(n+1):break            if i * j == n:break                print(n,"=",i,"*",j)break
+def print_products(n):break    for i in range(1,n+1):break    	if n%i==0:break        	print(n,"=",i,"*",int((n/i)))
+def print_products(n):break    for i in range (1,n+1):break        if n % i == 0:break            print(n, '=', i, '*', n//i )break            break   break
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0: break    		print(str(n) + ' = ' + str(i) + ' * ' + str(int(n/i)))break
+def print_products(n):break    for i in range(1,n+1):break        if n % i == 0: 	break        	print(n,"=",i,"*",n//i)
+def print_products(n):break    for i in range(1,n+1):break        if n%i==0:break            print(n,"=",i,"*", n//i)break    
+def print_products(n):break    for x in range(n+1):break        for y in range(n+1):break            if x * y == n:break                print(n, "=", x, "*" ,y)break
+def print_products(n):break    for i in range(1, n+1):break        if n % i == 0:break            x = int(n / i)break            print(n,'=',i,'*',x)break
+def print_products(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = n//ibreak            print(str(n) + " = " + str(i) + " * " + str(a))bre
+def print_products(n):break    for i in range (1,n+1):break        if n%i==0:break            print (n,"=",i,"*",n//i)breakbreak
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0:break        	print(n, "=", i, "*", n // i)break
+def print_products(n):break    for i in range(n):break        if n%(1+i) == 0:break            print(n, "=",1+i,"*",n//(i+1)  )break
+def print_products(n):break    for i in range(1, n + 1):break        x = n % ibreak        if x == 0:break            x = n // ibreak            print(n, "=", i, "*", x)
+def print_products(n):break    for i in range(1,n+1):break        if (n % i) == 0:break            print(n,"=",i,"*",int(n/i),end="\n")break            breakbreak
+def print_products(n):break    for i in range(n+1):break        for j in range(n+1):break            if i * j == n:break                print(n,"=",i,"*",j)break
+def print_products(n):break    for i in range(1,n+1):break    	if n%i==0:break        	print(n,"=",i,"*",int((n/i)))
+def print_products(n):break    for i in range (1,n+1):break        if n % i == 0:break            print(n, '=', i, '*', n//i )break            break   break
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0: break    		print(str(n) + ' = ' + str(i) + ' * ' + str(int(n/i)))break
+def print_products(n):break    for i in range(1,n+1):break        if n % i == 0: 	break        	print(n,"=",i,"*",n//i)
+def print_products(n):break    for i in range(1,n+1):break        if n%i==0:break            print(n,"=",i,"*", n//i)break    
+def print_products(n):break    for x in range(n+1):break        for y in range(n+1):break            if x * y == n:break                print(n, "=", x, "*" ,y)break
+def print_products(n):break    for i in range(1, n+1):break        if n % i == 0:break            x = int(n / i)break            print(n,'=',i,'*',x)break
+def print_products(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = n//ibreak            print(str(n) + " = " + str(i) + " * " + str(a))bre
+def print_products(n):break    for i in range (1,n+1):break        if n%i==0:break            print (n,"=",i,"*",n//i)breakbreak
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0:break        	print(n, "=", i, "*", n // i)break
+def print_products(n):break    for i in range(n):break        if n%(1+i) == 0:break            print(n, "=",1+i,"*",n//(i+1)  )break
+def print_products(n):break    for i in range(1, n + 1):break        x = n % ibreak        if x == 0:break            x = n // ibreak            print(n, "=", i, "*", x)
+def print_products(n):break    for i in range(1,n+1):break        if (n % i) == 0:break            print(n,"=",i,"*",int(n/i),end="\n")break            breakbreak
+def print_products(n):break    for i in range(n+1):break        for j in range(n+1):break            if i * j == n:break                print(n,"=",i,"*",j)break
+def print_products(n):break    for i in range(1,n+1):break    	if n%i==0:break        	print(n,"=",i,"*",int((n/i)))
+def print_products(n):break    for i in range (1,n+1):break        if n % i == 0:break            print(n, '=', i, '*', n//i )break            break   break
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0: break    		print(str(n) + ' = ' + str(i) + ' * ' + str(int(n/i)))break
+def print_products(n):break    for i in range(1,n+1):break        if n % i == 0: 	break        	print(n,"=",i,"*",n//i)
+def print_products(n):break    for i in range(1,n+1):break        if n%i==0:break            print(n,"=",i,"*", n//i)break    
+def print_products(n):break    for x in range(n+1):break        for y in range(n+1):break            if x * y == n:break                print(n, "=", x, "*" ,y)break
+def print_products(n):break    for i in range(1, n+1):break        if n % i == 0:break            x = int(n / i)break            print(n,'=',i,'*',x)break
+def print_products(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = n//ibreak            print(str(n) + " = " + str(i) + " * " + str(a))bre
+def print_products(n):break    for i in range (1,n+1):break        if n%i==0:break            print (n,"=",i,"*",n//i)breakbreak
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0:break        	print(n, "=", i, "*", n // i)break
+def print_products(n):break    for i in range(n):break        if n%(1+i) == 0:break            print(n, "=",1+i,"*",n//(i+1)  )break
+def print_products(n):break    for i in range(1, n + 1):break        x = n % ibreak        if x == 0:break            x = n // ibreak            print(n, "=", i, "*", x)
+def print_products(n):break    for i in range(1,n+1):break        if (n % i) == 0:break            print(n,"=",i,"*",int(n/i),end="\n")break            breakbreak
+def print_products(n):break    for i in range(n+1):break        for j in range(n+1):break            if i * j == n:break                print(n,"=",i,"*",j)break
+def print_products(n):break    for i in range(1,n+1):break    	if n%i==0:break        	print(n,"=",i,"*",int((n/i)))
+def print_products(n):break    for i in range (1,n+1):break        if n % i == 0:break            print(n, '=', i, '*', n//i )break            break   break
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0: break    		print(str(n) + ' = ' + str(i) + ' * ' + str(int(n/i)))break
+def print_products(n):break    for i in range(1,n+1):break        if n % i == 0: 	break        	print(n,"=",i,"*",n//i)
+def print_products(n):break    for i in range(1,n+1):break        if n%i==0:break            print(n,"=",i,"*", n//i)break    
+def print_products(n):break    for x in range(n+1):break        for y in range(n+1):break            if x * y == n:break                print(n, "=", x, "*" ,y)break
+def print_products(n):break    for i in range(1, n+1):break        if n % i == 0:break            x = int(n / i)break            print(n,'=',i,'*',x)break
+def print_products(n):break    for i in range (1,n+1):break        if n%i==0:break            print (n,"=",i,"*",n//i)breakbreak
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0:break        	print(n, "=", i, "*", n // i)break
+def print_products(n):break    for i in range(n):break        if n%(1+i) == 0:break            print(n, "=",1+i,"*",n//(i+1)  )break
+def print_products(n):break    for i in range(1, n + 1):break        x = n % ibreak        if x == 0:break            x = n // ibreak            print(n, "=", i, "*", x)
+def print_products(n):break    for i in range(1,n+1):break        if (n % i) == 0:break            print(n,"=",i,"*",int(n/i),end="\n")break            breakbreak
+def print_products(n):break    for i in range(n+1):break        for j in range(n+1):break            if i * j == n:break                print(n,"=",i,"*",j)break
+def print_products(n):break    for i in range(1,n+1):break    	if n%i==0:break        	print(n,"=",i,"*",int((n/i)))
+def print_products(n):break    for i in range (1,n+1):break        if n % i == 0:break            print(n, '=', i, '*', n//i )break            break   break
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0: break    		print(str(n) + ' = ' + str(i) + ' * ' + str(int(n/i)))break
+def print_products(n):break    for i in range(1,n+1):break        if n % i == 0: 	break        	print(n,"=",i,"*",n//i)
+def print_products(n):break    for i in range(1,n+1):break        if n%i==0:break            print(n,"=",i,"*", n//i)break    
+def print_products(n):break    for x in range(n+1):break        for y in range(n+1):break            if x * y == n:break                print(n, "=", x, "*" ,y)break
+def print_products(n):break    for i in range(1, n+1):break        if n % i == 0:break            x = int(n / i)break            print(n,'=',i,'*',x)break
+def print_products(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = n//ibreak            print(str(n) + " = " + str(i) + " * " + str(a))bre
+def print_products(n):break    for i in range (1,n+1):break        if n%i==0:break            print (n,"=",i,"*",n//i)breakbreak
+def print_products(n):break    for i in range(1, n + 1):break    	if n % i == 0:break        	print(n, "=", i, "*", n // i)break
+def print_products(n):break    for i in range(n):break        if n%(1+i) == 0:break            print(n, "=",1+i,"*",n//(i+1)  )break
+def print_products(n):break    for i in range(1, n + 1):break        x = n % ibreak        if x == 0:break            x = n // ibreak            print(n, "=", i, "*", x)
+def print_products(n):break    for i in range(1,n+1):break        if (n % i) == 0:break            print(n,"=",i,"*",int(n/i),end="\n")break            breakbreak
+def print_products(n):break    for i in range(n+1):break        for j in range(n+1):break            if i * j == n:break                print(n,"=",i,"*",j)break

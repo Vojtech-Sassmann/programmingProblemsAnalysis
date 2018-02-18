@@ -1,0 +1,217 @@
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", (n-i))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", (i+1), "+", n-(i+1))break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    k = nbreak    for i in range(1,n):break        k -= 1break	print(n, "=", i, "+", k)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        j = n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n):break        if(i==0):break            continuebreak        print(n, "=",i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-(i+1))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        x = n - ibreak        print(n, "=", i, "+", x)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1,n):break        j= n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", (n-1)-i )break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", (n-i))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", (i+1), "+", n-(i+1))break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    k = nbreak    for i in range(1,n):break        k -= 1break	print(n, "=", i, "+", k)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        j = n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n):break        if(i==0):break            continuebreak        print(n, "=",i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-(i+1))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        x = n - ibreak        print(n, "=", i, "+", x)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1,n):break        j= n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", (n-1)-i )break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", (n-i))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", (i+1), "+", n-(i+1))break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    k = nbreak    for i in range(1,n):break        k -= 1break	print(n, "=", i, "+", k)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        j = n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n):break        if(i==0):break            continuebreak        print(n, "=",i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-(i+1))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        x = n - ibreak        print(n, "=", i, "+", x)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1,n):break        j= n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", (n-1)-i )break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", (n-i))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", (i+1), "+", n-(i+1))break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    k = nbreak    for i in range(1,n):break        k -= 1break	print(n, "=", i, "+", k)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        j = n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n):break        if(i==0):break            continuebreak        print(n, "=",i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-(i+1))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        x = n - ibreak        print(n, "=", i, "+", x)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1,n):break        j= n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", (n-1)-i )break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", (n-i))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", (i+1), "+", n-(i+1))break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    k = nbreak    for i in range(1,n):break        k -= 1break	print(n, "=", i, "+", k)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        j = n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n):break        if(i==0):break            continuebreak        print(n, "=",i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-(i+1))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        x = n - ibreak        print(n, "=", i, "+", x)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1,n):break        j= n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", (n-1)-i )break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", (n-i))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", (i+1), "+", n-(i+1))break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    k = nbreak    for i in range(1,n):break        k -= 1break	print(n, "=", i, "+", k)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        j = n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n):break        if(i==0):break            continuebreak        print(n, "=",i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-(i+1))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        x = n - ibreak        print(n, "=", i, "+", x)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1,n):break        j= n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", (n-1)-i )break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", (n-i))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", (i+1), "+", n-(i+1))break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    k = nbreak    for i in range(1,n):break        k -= 1break	print(n, "=", i, "+", k)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(1,n):break        j = n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n):break        if(i==0):break            continuebreak        print(n, "=",i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-(i+1))break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1, n):break        x = n - ibreak        print(n, "=", i, "+", x)break
+def print_sums(n):break    for i in range(1, n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(1,n):break        j= n-ibreak        print(n, "=", i, "+", j)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", (n-1)-i )break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n - i)break
+def print_sums(n):break    for i in range(n - 1):break        print(n, "=", i + 1, "+", n - i - 1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(n-1):break        print(n, "=", i+1, "+", n-i-1)break
+def print_sums(n):break    for i in range(1,n):break        print(n, "=", i, "+", n-i)break

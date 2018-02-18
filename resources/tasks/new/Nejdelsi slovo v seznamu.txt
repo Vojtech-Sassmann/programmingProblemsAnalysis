@@ -1,0 +1,24 @@
+def find_longest_word(words_list):break    max_word=words_list[0]break    max_len=len(words_list[0])break    for word in words_list:break        if len(word)>max_len:break            max_
+def find_longest_word(words_list):break    nejdelsi = ""break    for slovo in words_list:break        if (len(slovo) > len(nejdelsi)):break            nejdelsi = slovobreak    return nejd
+def find_longest_word(words_list):break    count = 0    break    for i in words_list:break        if len(i) > count: break            count = len(i)break            word = ibreak    retur
+def find_longest_word(words_list):break    maxi = 0break    maximalni_slovo = ''break    for i in words_list:break        if len(i) > maxi:break            maxi = len(i)break            m
+def find_longest_word(words_list):break    max_word=words_list[0]break    max_len=len(words_list[0])break    for word in words_list:break        if len(word)>max_len:break            max_
+def find_longest_word(words_list):break    nejdelsi = ""break    for slovo in words_list:break        if (len(slovo) > len(nejdelsi)):break            nejdelsi = slovobreak    return nejd
+def find_longest_word(words_list):break    count = 0    break    for i in words_list:break        if len(i) > count: break            count = len(i)break            word = ibreak    retur
+def find_longest_word(words_list):break    maxi = 0break    maximalni_slovo = ''break    for i in words_list:break        if len(i) > maxi:break            maxi = len(i)break            m
+def find_longest_word(words_list):break    max_word=words_list[0]break    max_len=len(words_list[0])break    for word in words_list:break        if len(word)>max_len:break            max_
+def find_longest_word(words_list):break    nejdelsi = ""break    for slovo in words_list:break        if (len(slovo) > len(nejdelsi)):break            nejdelsi = slovobreak    return nejd
+def find_longest_word(words_list):break    count = 0    break    for i in words_list:break        if len(i) > count: break            count = len(i)break            word = ibreak    retur
+def find_longest_word(words_list):break    maxi = 0break    maximalni_slovo = ''break    for i in words_list:break        if len(i) > maxi:break            maxi = len(i)break            m
+def find_longest_word(words_list):break    max_word=words_list[0]break    max_len=len(words_list[0])break    for word in words_list:break        if len(word)>max_len:break            max_
+def find_longest_word(words_list):break    nejdelsi = ""break    for slovo in words_list:break        if (len(slovo) > len(nejdelsi)):break            nejdelsi = slovobreak    return nejd
+def find_longest_word(words_list):break    count = 0    break    for i in words_list:break        if len(i) > count: break            count = len(i)break            word = ibreak    retur
+def find_longest_word(words_list):break    maxi = 0break    maximalni_slovo = ''break    for i in words_list:break        if len(i) > maxi:break            maxi = len(i)break            m
+def find_longest_word(words_list):break    max_word=words_list[0]break    max_len=len(words_list[0])break    for word in words_list:break        if len(word)>max_len:break            max_
+def find_longest_word(words_list):break    nejdelsi = ""break    for slovo in words_list:break        if (len(slovo) > len(nejdelsi)):break            nejdelsi = slovobreak    return nejd
+def find_longest_word(words_list):break    count = 0    break    for i in words_list:break        if len(i) > count: break            count = len(i)break            word = ibreak    retur
+def find_longest_word(words_list):break    maxi = 0break    maximalni_slovo = ''break    for i in words_list:break        if len(i) > maxi:break            maxi = len(i)break            m
+def find_longest_word(words_list):break    max_word=words_list[0]break    max_len=len(words_list[0])break    for word in words_list:break        if len(word)>max_len:break            max_
+def find_longest_word(words_list):break    nejdelsi = ""break    for slovo in words_list:break        if (len(slovo) > len(nejdelsi)):break            nejdelsi = slovobreak    return nejd
+def find_longest_word(words_list):break    count = 0    break    for i in words_list:break        if len(i) > count: break            count = len(i)break            word = ibreak    retur
+def find_longest_word(words_list):break    maxi = 0break    maximalni_slovo = ''break    for i in words_list:break        if len(i) > maxi:break            maxi = len(i)break            m

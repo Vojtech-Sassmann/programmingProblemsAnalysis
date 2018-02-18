@@ -1,0 +1,90 @@
+def digit_sum(n):break    if n<10:break    	return nbreak    else:break        return n%10+digit_sum(n//10)break
+def digit_sum(n):break    result = 0break    while n>0:break        result += n%10break        n = n // 10break    return resultbreak
+def digit_sum(n):break    num = str(n)break    sum = 0break    for item in num:break        sum += int(item)break    return(sum)break
+def digit_sum(n):break    s=0break    while n:break    	s+=n%10break    	n//=10break    return sbreak
+def digit_sum(n):break    return sum([int(i) for i in list(str(n))])break
+def digit_sum(n):break    counter=0break    while n > 9 :break        counter = n % 10 + counterbreak        n = n // 10break    counter += n   break    return counterbreak
+def digit_sum(n):break    a = 0break    while n > 0:break        a = a + n % 10break        n = int(n / 10)break    return abreak
+def digit_sum(n):break    c=int(n)break    count=0break    while c//10>0:break        count = count + c%10break        c = c//10break    return count+cbreak
+def digit_sum(n):break    result = 0break    for i in range(len(str(n))):break        result = result + int(str(n)[i:i+1])break    return(result)break
+def digit_sum(n):break    s = 0break    while n:break        s = s + n % 10break        n = n//10break    return(s)break
+def digit_sum(n):break    ukonci = Truebreak    soucet=0break    while 1:break        if n/10<1:break            soucet = soucet+ nbreak            return soucetbreak        else:break   
+def digit_sum(n):break    Nstr = str(n)break    digets = []break    for i in range(len(Nstr)):break        digets.append(int(Nstr[i]))break    return sum(digets)break
+def digit_sum(n):break    cislo=str(n)break    soucet=0break    for i in range(len(cislo)):break        soucet=int(cislo[i])+soucetbreak    return soucetbreak
+def digit_sum(n):break    if n<10:break    	return nbreak    else:break        return n%10+digit_sum(n//10)break
+def digit_sum(n):break    result = 0break    while n>0:break        result += n%10break        n = n // 10break    return resultbreak
+def digit_sum(n):break    num = str(n)break    sum = 0break    for item in num:break        sum += int(item)break    return(sum)break
+def digit_sum(n):break    s=0break    while n:break    	s+=n%10break    	n//=10break    return sbreak
+def digit_sum(n):break    return sum([int(i) for i in list(str(n))])break
+def digit_sum(n):break    counter=0break    while n > 9 :break        counter = n % 10 + counterbreak        n = n // 10break    counter += n   break    return counterbreak
+def digit_sum(n):break    a = 0break    while n > 0:break        a = a + n % 10break        n = int(n / 10)break    return abreak
+def digit_sum(n):break    c=int(n)break    count=0break    while c//10>0:break        count = count + c%10break        c = c//10break    return count+cbreak
+def digit_sum(n):break    result = 0break    for i in range(len(str(n))):break        result = result + int(str(n)[i:i+1])break    return(result)break
+def digit_sum(n):break    s = 0break    while n:break        s = s + n % 10break        n = n//10break    return(s)break
+def digit_sum(n):break    ukonci = Truebreak    soucet=0break    while 1:break        if n/10<1:break            soucet = soucet+ nbreak            return soucetbreak        else:break   
+def digit_sum(n):break    Nstr = str(n)break    digets = []break    for i in range(len(Nstr)):break        digets.append(int(Nstr[i]))break    return sum(digets)break
+def digit_sum(n):break    cislo=str(n)break    soucet=0break    for i in range(len(cislo)):break        soucet=int(cislo[i])+soucetbreak    return soucetbreak
+def digit_sum(n):break    if n<10:break    	return nbreak    else:break        return n%10+digit_sum(n//10)break
+def digit_sum(n):break    result = 0break    while n>0:break        result += n%10break        n = n // 10break    return resultbreak
+def digit_sum(n):break    num = str(n)break    sum = 0break    for item in num:break        sum += int(item)break    return(sum)break
+def digit_sum(n):break    s=0break    while n:break    	s+=n%10break    	n//=10break    return sbreak
+def digit_sum(n):break    return sum([int(i) for i in list(str(n))])break
+def digit_sum(n):break    counter=0break    while n > 9 :break        counter = n % 10 + counterbreak        n = n // 10break    counter += n   break    return counterbreak
+def digit_sum(n):break    a = 0break    while n > 0:break        a = a + n % 10break        n = int(n / 10)break    return abreak
+def digit_sum(n):break    c=int(n)break    count=0break    while c//10>0:break        count = count + c%10break        c = c//10break    return count+cbreak
+def digit_sum(n):break    result = 0break    for i in range(len(str(n))):break        result = result + int(str(n)[i:i+1])break    return(result)break
+def digit_sum(n):break    s = 0break    while n:break        s = s + n % 10break        n = n//10break    return(s)break
+def digit_sum(n):break    ukonci = Truebreak    soucet=0break    while 1:break        if n/10<1:break            soucet = soucet+ nbreak            return soucetbreak        else:break   
+def digit_sum(n):break    Nstr = str(n)break    digets = []break    for i in range(len(Nstr)):break        digets.append(int(Nstr[i]))break    return sum(digets)break
+def digit_sum(n):break    cislo=str(n)break    soucet=0break    for i in range(len(cislo)):break        soucet=int(cislo[i])+soucetbreak    return soucetbreak
+def digit_sum(n):break    if n<10:break    	return nbreak    else:break        return n%10+digit_sum(n//10)break
+def digit_sum(n):break    result = 0break    while n>0:break        result += n%10break        n = n // 10break    return resultbreak
+def digit_sum(n):break    num = str(n)break    sum = 0break    for item in num:break        sum += int(item)break    return(sum)break
+def digit_sum(n):break    s=0break    while n:break    	s+=n%10break    	n//=10break    return sbreak
+def digit_sum(n):break    return sum([int(i) for i in list(str(n))])break
+def digit_sum(n):break    counter=0break    while n > 9 :break        counter = n % 10 + counterbreak        n = n // 10break    counter += n   break    return counterbreak
+def digit_sum(n):break    a = 0break    while n > 0:break        a = a + n % 10break        n = int(n / 10)break    return abreak
+def digit_sum(n):break    c=int(n)break    count=0break    while c//10>0:break        count = count + c%10break        c = c//10break    return count+cbreak
+def digit_sum(n):break    result = 0break    for i in range(len(str(n))):break        result = result + int(str(n)[i:i+1])break    return(result)break
+def digit_sum(n):break    s = 0break    while n:break        s = s + n % 10break        n = n//10break    return(s)break
+def digit_sum(n):break    ukonci = Truebreak    soucet=0break    while 1:break        if n/10<1:break            soucet = soucet+ nbreak            return soucetbreak        else:break   
+def digit_sum(n):break    Nstr = str(n)break    digets = []break    for i in range(len(Nstr)):break        digets.append(int(Nstr[i]))break    return sum(digets)break
+def digit_sum(n):break    cislo=str(n)break    soucet=0break    for i in range(len(cislo)):break        soucet=int(cislo[i])+soucetbreak    return soucetbreak
+def digit_sum(n):break    if n<10:break    	return nbreak    else:break        return n%10+digit_sum(n//10)break
+def digit_sum(n):break    result = 0break    while n>0:break        result += n%10break        n = n // 10break    return resultbreak
+def digit_sum(n):break    num = str(n)break    sum = 0break    for item in num:break        sum += int(item)break    return(sum)break
+def digit_sum(n):break    s=0break    while n:break    	s+=n%10break    	n//=10break    return sbreak
+def digit_sum(n):break    return sum([int(i) for i in list(str(n))])break
+def digit_sum(n):break    counter=0break    while n > 9 :break        counter = n % 10 + counterbreak        n = n // 10break    counter += n   break    return counterbreak
+def digit_sum(n):break    a = 0break    while n > 0:break        a = a + n % 10break        n = int(n / 10)break    return abreak
+def digit_sum(n):break    c=int(n)break    count=0break    while c//10>0:break        count = count + c%10break        c = c//10break    return count+cbreak
+def digit_sum(n):break    result = 0break    for i in range(len(str(n))):break        result = result + int(str(n)[i:i+1])break    return(result)break
+def digit_sum(n):break    s = 0break    while n:break        s = s + n % 10break        n = n//10break    return(s)break
+def digit_sum(n):break    ukonci = Truebreak    soucet=0break    while 1:break        if n/10<1:break            soucet = soucet+ nbreak            return soucetbreak        else:break   
+def digit_sum(n):break    Nstr = str(n)break    digets = []break    for i in range(len(Nstr)):break        digets.append(int(Nstr[i]))break    return sum(digets)break
+def digit_sum(n):break    cislo=str(n)break    soucet=0break    for i in range(len(cislo)):break        soucet=int(cislo[i])+soucetbreak    return soucetbreak
+def digit_sum(n):break    if n<10:break    	return nbreak    else:break        return n%10+digit_sum(n//10)break
+def digit_sum(n):break    result = 0break    while n>0:break        result += n%10break        n = n // 10break    return resultbreak
+def digit_sum(n):break    num = str(n)break    sum = 0break    for item in num:break        sum += int(item)break    return(sum)break
+def digit_sum(n):break    s=0break    while n:break    	s+=n%10break    	n//=10break    return sbreak
+def digit_sum(n):break    return sum([int(i) for i in list(str(n))])break
+def digit_sum(n):break    counter=0break    while n > 9 :break        counter = n % 10 + counterbreak        n = n // 10break    counter += n   break    return counterbreak
+def digit_sum(n):break    a = 0break    while n > 0:break        a = a + n % 10break        n = int(n / 10)break    return abreak
+def digit_sum(n):break    c=int(n)break    count=0break    while c//10>0:break        count = count + c%10break        c = c//10break    return count+cbreak
+def digit_sum(n):break    result = 0break    for i in range(len(str(n))):break        result = result + int(str(n)[i:i+1])break    return(result)break
+def digit_sum(n):break    s = 0break    while n:break        s = s + n % 10break        n = n//10break    return(s)break
+def digit_sum(n):break    Nstr = str(n)break    digets = []break    for i in range(len(Nstr)):break        digets.append(int(Nstr[i]))break    return sum(digets)break
+def digit_sum(n):break    cislo=str(n)break    soucet=0break    for i in range(len(cislo)):break        soucet=int(cislo[i])+soucetbreak    return soucetbreak
+def digit_sum(n):break    if n<10:break    	return nbreak    else:break        return n%10+digit_sum(n//10)break
+def digit_sum(n):break    result = 0break    while n>0:break        result += n%10break        n = n // 10break    return resultbreak
+def digit_sum(n):break    num = str(n)break    sum = 0break    for item in num:break        sum += int(item)break    return(sum)break
+def digit_sum(n):break    s=0break    while n:break    	s+=n%10break    	n//=10break    return sbreak
+def digit_sum(n):break    return sum([int(i) for i in list(str(n))])break
+def digit_sum(n):break    counter=0break    while n > 9 :break        counter = n % 10 + counterbreak        n = n // 10break    counter += n   break    return counterbreak
+def digit_sum(n):break    a = 0break    while n > 0:break        a = a + n % 10break        n = int(n / 10)break    return abreak
+def digit_sum(n):break    c=int(n)break    count=0break    while c//10>0:break        count = count + c%10break        c = c//10break    return count+cbreak
+def digit_sum(n):break    result = 0break    for i in range(len(str(n))):break        result = result + int(str(n)[i:i+1])break    return(result)break
+def digit_sum(n):break    s = 0break    while n:break        s = s + n % 10break        n = n//10break    return(s)break
+def digit_sum(n):break    ukonci = Truebreak    soucet=0break    while 1:break        if n/10<1:break            soucet = soucet+ nbreak            return soucetbreak        else:break   
+def digit_sum(n):break    Nstr = str(n)break    digets = []break    for i in range(len(Nstr)):break        digets.append(int(Nstr[i]))break    return sum(digets)break
+def digit_sum(n):break    cislo=str(n)break    soucet=0break    for i in range(len(cislo)):break        soucet=int(cislo[i])+soucetbreak    return soucetbreak

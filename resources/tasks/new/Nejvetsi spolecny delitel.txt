@@ -1,0 +1,54 @@
+def greatest_common_divisor(a, b):break    if b > a:break        a,b = b,abreak    while b != 0:break        pom = bbreak        b = a%bbreak        a = pombreak    return(a)break
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return abreak
+def greatest_common_divisor(a, b):break    for i in range(1,a+1):break        if a%i==0 and b%i==0:break            x=ibreak    return xbreak
+def greatest_common_divisor(a, b):break    if b == 0:break        return abreak    else:break        return greatest_common_divisor(b, a%b)breakbreak
+def greatest_common_divisor(x, y):break    while y != 0:break        (x, y) = (y, x % y)break    return x
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return a		
+def greatest_common_divisor(a, b):break    if b > a:break        a=a+bbreak        b=a-bbreak        a=a-bbreak    nejvetsi=1break    for i in range(1,b+1):break        if b%i==0 and a%i=
+def greatest_common_divisor(a, b):break    delit_a=[]break    delit_b=[]break    spol_del=[]break    for i in range(1,a+1):break        if (a%i) == 0:break            delit_a.append(i)bre
+def greatest_common_divisor(a, b):break    if b > a:break        a,b = b,abreak    while b != 0:break        pom = bbreak        b = a%bbreak        a = pombreak    return(a)break
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return abreak
+def greatest_common_divisor(a, b):break    for i in range(1,a+1):break        if a%i==0 and b%i==0:break            x=ibreak    return xbreak
+def greatest_common_divisor(a, b):break    if b == 0:break        return abreak    else:break        return greatest_common_divisor(b, a%b)breakbreak
+def greatest_common_divisor(x, y):break    while y != 0:break        (x, y) = (y, x % y)break    return x
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return a		
+def greatest_common_divisor(a, b):break    if b > a:break        a=a+bbreak        b=a-bbreak        a=a-bbreak    nejvetsi=1break    for i in range(1,b+1):break        if b%i==0 and a%i=
+def greatest_common_divisor(a, b):break    delit_a=[]break    delit_b=[]break    spol_del=[]break    for i in range(1,a+1):break        if (a%i) == 0:break            delit_a.append(i)bre
+def greatest_common_divisor(a, b):break    if b > a:break        a,b = b,abreak    while b != 0:break        pom = bbreak        b = a%bbreak        a = pombreak    return(a)break
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return abreak
+def greatest_common_divisor(a, b):break    for i in range(1,a+1):break        if a%i==0 and b%i==0:break            x=ibreak    return xbreak
+def greatest_common_divisor(a, b):break    if b == 0:break        return abreak    else:break        return greatest_common_divisor(b, a%b)breakbreak
+def greatest_common_divisor(x, y):break    while y != 0:break        (x, y) = (y, x % y)break    return x
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return a		
+def greatest_common_divisor(a, b):break    if b > a:break        a=a+bbreak        b=a-bbreak        a=a-bbreak    nejvetsi=1break    for i in range(1,b+1):break        if b%i==0 and a%i=
+def greatest_common_divisor(a, b):break    delit_a=[]break    delit_b=[]break    spol_del=[]break    for i in range(1,a+1):break        if (a%i) == 0:break            delit_a.append(i)bre
+def greatest_common_divisor(a, b):break    if b > a:break        a,b = b,abreak    while b != 0:break        pom = bbreak        b = a%bbreak        a = pombreak    return(a)break
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return abreak
+def greatest_common_divisor(a, b):break    for i in range(1,a+1):break        if a%i==0 and b%i==0:break            x=ibreak    return xbreak
+def greatest_common_divisor(a, b):break    if b == 0:break        return abreak    else:break        return greatest_common_divisor(b, a%b)breakbreak
+def greatest_common_divisor(x, y):break    while y != 0:break        (x, y) = (y, x % y)break    return x
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return a		
+def greatest_common_divisor(a, b):break    if b > a:break        a=a+bbreak        b=a-bbreak        a=a-bbreak    nejvetsi=1break    for i in range(1,b+1):break        if b%i==0 and a%i=
+def greatest_common_divisor(a, b):break    delit_a=[]break    delit_b=[]break    spol_del=[]break    for i in range(1,a+1):break        if (a%i) == 0:break            delit_a.append(i)bre
+def greatest_common_divisor(a, b):break    if b > a:break        a,b = b,abreak    while b != 0:break        pom = bbreak        b = a%bbreak        a = pombreak    return(a)break
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return abreak
+def greatest_common_divisor(a, b):break    for i in range(1,a+1):break        if a%i==0 and b%i==0:break            x=ibreak    return xbreak
+def greatest_common_divisor(a, b):break    if b == 0:break        return abreak    else:break        return greatest_common_divisor(b, a%b)breakbreak
+def greatest_common_divisor(x, y):break    while y != 0:break        (x, y) = (y, x % y)break    return x
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return a		
+def greatest_common_divisor(a, b):break    if b > a:break        a=a+bbreak        b=a-bbreak        a=a-bbreak    nejvetsi=1break    for i in range(1,b+1):break        if b%i==0 and a%i=
+def greatest_common_divisor(a, b):break    delit_a=[]break    delit_b=[]break    spol_del=[]break    for i in range(1,a+1):break        if (a%i) == 0:break            delit_a.append(i)bre
+def greatest_common_divisor(a, b):break    if b > a:break        a,b = b,abreak    while b != 0:break        pom = bbreak        b = a%bbreak        a = pombreak    return(a)break
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return abreak
+def greatest_common_divisor(a, b):break    for i in range(1,a+1):break        if a%i==0 and b%i==0:break            x=ibreak    return xbreak
+def greatest_common_divisor(a, b):break    if b == 0:break        return abreak    else:break        return greatest_common_divisor(b, a%b)breakbreak
+def greatest_common_divisor(x, y):break    while y != 0:break        (x, y) = (y, x % y)break    return x
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return a		
+def greatest_common_divisor(a, b):break    if b > a:break        a,b = b,abreak    while b != 0:break        pom = bbreak        b = a%bbreak        a = pombreak    return(a)break
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return abreak
+def greatest_common_divisor(a, b):break    for i in range(1,a+1):break        if a%i==0 and b%i==0:break            x=ibreak    return xbreak
+def greatest_common_divisor(a, b):break    if b == 0:break        return abreak    else:break        return greatest_common_divisor(b, a%b)breakbreak
+def greatest_common_divisor(x, y):break    while y != 0:break        (x, y) = (y, x % y)break    return x
+def greatest_common_divisor(a, b):break	if a == 0:break		return bbreak	while b != 0:break		if a > b:break			a = a - bbreak		else:break			b = b - abreak	return a		
+def greatest_common_divisor(a, b):break    if b > a:break        a=a+bbreak        b=a-bbreak        a=a-bbreak    nejvetsi=1break    for i in range(1,b+1):break        if b%i==0 and a%i=
+def greatest_common_divisor(a, b):break    delit_a=[]break    delit_b=[]break    spol_del=[]break    for i in range(1,a+1):break        if (a%i) == 0:break            delit_a.append(i)bre

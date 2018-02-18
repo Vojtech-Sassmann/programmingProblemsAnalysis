@@ -1,0 +1,63 @@
+def five_multiples(num_list):break    result = []break    for i in num_list:break        if i % 5 == 0:break            result.append(i)break    return resultbreak
+def five_multiples(num_list):break    a = []break    for i in num_list:break        if i%5 == 0:break          a.append(i)break        break    return abreak
+def five_multiples(num_list):break    x = []break    for i in num_list:break        if i%5 == 0:break            x.append(i)break    return(x)break
+def five_multiples(num_list):break    return [x for x in num_list if x % 5 == 0]
+def five_multiples(num_list):break    result = []break    for x in num_list:break        if (x % 5 == 0):break            result += [x]break    return resultbreak
+def five_multiples(num_list):break    mult_5 = []break    for i in num_list:break        if i % 5 == 0:break            mult_5.append(i)break    return mult_5break
+def five_multiples(num_list):break    seznam = []break    for items in num_list:break        if items%5==0:break            seznam.append(items)break    return seznambreak
+def five_multiples(num_list):break    deli=[]break    for i in num_list:break        if i % 5 == 0:break        	deli.append(i)break    return delibreak
+def five_multiples(num_list):break    seznam=[]break    for i in num_list:break        if i % 5 == 0:break            seznam.append(i)break    return seznambreak
+def five_multiples(num_list):break    result = []break    for i in num_list:break        if i % 5 == 0:break            result.append(i)break    return resultbreak
+def five_multiples(num_list):break    a = []break    for i in num_list:break        if i%5 == 0:break          a.append(i)break        break    return abreak
+def five_multiples(num_list):break    x = []break    for i in num_list:break        if i%5 == 0:break            x.append(i)break    return(x)break
+def five_multiples(num_list):break    return [x for x in num_list if x % 5 == 0]
+def five_multiples(num_list):break    result = []break    for x in num_list:break        if (x % 5 == 0):break            result += [x]break    return resultbreak
+def five_multiples(num_list):break    mult_5 = []break    for i in num_list:break        if i % 5 == 0:break            mult_5.append(i)break    return mult_5break
+def five_multiples(num_list):break    seznam = []break    for items in num_list:break        if items%5==0:break            seznam.append(items)break    return seznambreak
+def five_multiples(num_list):break    deli=[]break    for i in num_list:break        if i % 5 == 0:break        	deli.append(i)break    return delibreak
+def five_multiples(num_list):break    seznam=[]break    for i in num_list:break        if i % 5 == 0:break            seznam.append(i)break    return seznambreak
+def five_multiples(num_list):break    result = []break    for i in num_list:break        if i % 5 == 0:break            result.append(i)break    return resultbreak
+def five_multiples(num_list):break    a = []break    for i in num_list:break        if i%5 == 0:break          a.append(i)break        break    return abreak
+def five_multiples(num_list):break    x = []break    for i in num_list:break        if i%5 == 0:break            x.append(i)break    return(x)break
+def five_multiples(num_list):break    return [x for x in num_list if x % 5 == 0]
+def five_multiples(num_list):break    result = []break    for x in num_list:break        if (x % 5 == 0):break            result += [x]break    return resultbreak
+def five_multiples(num_list):break    mult_5 = []break    for i in num_list:break        if i % 5 == 0:break            mult_5.append(i)break    return mult_5break
+def five_multiples(num_list):break    seznam = []break    for items in num_list:break        if items%5==0:break            seznam.append(items)break    return seznambreak
+def five_multiples(num_list):break    deli=[]break    for i in num_list:break        if i % 5 == 0:break        	deli.append(i)break    return delibreak
+def five_multiples(num_list):break    seznam=[]break    for i in num_list:break        if i % 5 == 0:break            seznam.append(i)break    return seznambreak
+def five_multiples(num_list):break    result = []break    for i in num_list:break        if i % 5 == 0:break            result.append(i)break    return resultbreak
+def five_multiples(num_list):break    a = []break    for i in num_list:break        if i%5 == 0:break          a.append(i)break        break    return abreak
+def five_multiples(num_list):break    x = []break    for i in num_list:break        if i%5 == 0:break            x.append(i)break    return(x)break
+def five_multiples(num_list):break    return [x for x in num_list if x % 5 == 0]
+def five_multiples(num_list):break    result = []break    for x in num_list:break        if (x % 5 == 0):break            result += [x]break    return resultbreak
+def five_multiples(num_list):break    mult_5 = []break    for i in num_list:break        if i % 5 == 0:break            mult_5.append(i)break    return mult_5break
+def five_multiples(num_list):break    seznam = []break    for items in num_list:break        if items%5==0:break            seznam.append(items)break    return seznambreak
+def five_multiples(num_list):break    deli=[]break    for i in num_list:break        if i % 5 == 0:break        	deli.append(i)break    return delibreak
+def five_multiples(num_list):break    seznam=[]break    for i in num_list:break        if i % 5 == 0:break            seznam.append(i)break    return seznambreak
+def five_multiples(num_list):break    result = []break    for i in num_list:break        if i % 5 == 0:break            result.append(i)break    return resultbreak
+def five_multiples(num_list):break    a = []break    for i in num_list:break        if i%5 == 0:break          a.append(i)break        break    return abreak
+def five_multiples(num_list):break    x = []break    for i in num_list:break        if i%5 == 0:break            x.append(i)break    return(x)break
+def five_multiples(num_list):break    return [x for x in num_list if x % 5 == 0]
+def five_multiples(num_list):break    result = []break    for x in num_list:break        if (x % 5 == 0):break            result += [x]break    return resultbreak
+def five_multiples(num_list):break    mult_5 = []break    for i in num_list:break        if i % 5 == 0:break            mult_5.append(i)break    return mult_5break
+def five_multiples(num_list):break    seznam = []break    for items in num_list:break        if items%5==0:break            seznam.append(items)break    return seznambreak
+def five_multiples(num_list):break    deli=[]break    for i in num_list:break        if i % 5 == 0:break        	deli.append(i)break    return delibreak
+def five_multiples(num_list):break    seznam=[]break    for i in num_list:break        if i % 5 == 0:break            seznam.append(i)break    return seznambreak
+def five_multiples(num_list):break    result = []break    for i in num_list:break        if i % 5 == 0:break            result.append(i)break    return resultbreak
+def five_multiples(num_list):break    a = []break    for i in num_list:break        if i%5 == 0:break          a.append(i)break        break    return abreak
+def five_multiples(num_list):break    x = []break    for i in num_list:break        if i%5 == 0:break            x.append(i)break    return(x)break
+def five_multiples(num_list):break    return [x for x in num_list if x % 5 == 0]
+def five_multiples(num_list):break    result = []break    for x in num_list:break        if (x % 5 == 0):break            result += [x]break    return resultbreak
+def five_multiples(num_list):break    mult_5 = []break    for i in num_list:break        if i % 5 == 0:break            mult_5.append(i)break    return mult_5break
+def five_multiples(num_list):break    seznam = []break    for items in num_list:break        if items%5==0:break            seznam.append(items)break    return seznambreak
+def five_multiples(num_list):break    deli=[]break    for i in num_list:break        if i % 5 == 0:break        	deli.append(i)break    return delibreak
+def five_multiples(num_list):break    seznam=[]break    for i in num_list:break        if i % 5 == 0:break            seznam.append(i)break    return seznambreak
+def five_multiples(num_list):break    result = []break    for i in num_list:break        if i % 5 == 0:break            result.append(i)break    return resultbreak
+def five_multiples(num_list):break    a = []break    for i in num_list:break        if i%5 == 0:break          a.append(i)break        break    return abreak
+def five_multiples(num_list):break    x = []break    for i in num_list:break        if i%5 == 0:break            x.append(i)break    return(x)break
+def five_multiples(num_list):break    return [x for x in num_list if x % 5 == 0]
+def five_multiples(num_list):break    result = []break    for x in num_list:break        if (x % 5 == 0):break            result += [x]break    return resultbreak
+def five_multiples(num_list):break    mult_5 = []break    for i in num_list:break        if i % 5 == 0:break            mult_5.append(i)break    return mult_5break
+def five_multiples(num_list):break    seznam = []break    for items in num_list:break        if items%5==0:break            seznam.append(items)break    return seznambreak
+def five_multiples(num_list):break    deli=[]break    for i in num_list:break        if i % 5 == 0:break        	deli.append(i)break    return delibreak
+def five_multiples(num_list):break    seznam=[]break    for i in num_list:break        if i % 5 == 0:break            seznam.append(i)break    return seznambreak

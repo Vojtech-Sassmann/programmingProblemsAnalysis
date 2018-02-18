@@ -1,0 +1,340 @@
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    double = 2*nbreak    print("Dvojnasobek", double)break    triple = 3*nbreak    print("Trojnasobek", triple)break    tentimes = 10*nbreak    print("Desetinasobek"
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek {}".format(2*n))break    print("Trojnasobek {}".format(3*n))break    print("Desetinasobek {}".format(10*n))break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print('Trojnasobek', 3*n)break    print('Desetinasobek', 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break    break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    m=nbreak    n= n *2break    print("Dvojnasobek", n)break    n= m*3break    print("Trojnasobek", n)break    n=m*10break    print("Desetinasobek", n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek",n*10)break    break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    a = nbreak    n = n*2break    print("Dvojnasobek", n)break    n = abreak    n = n*3break    print("Trojnasobek", n)break    n = abreak    n = n*10break    print(
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print ("Trojnasobek", 3 * n)break    print ("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break   break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    l = 2*nbreak    print("Dvojnasobek", l)break    k = 3*nbreak    print("Trojnasobek", k)break    m = 10*nbreak    print("Desetinasobek", m)break
+def multiples(n):break    x = nbreak    n=n*2break    print("Dvojnasobek", n)break    n = xbreak    n=n*3break    print("Trojnasobek",n)break    n = xbreak    n=n*10break    print("Deseti
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    double = 2*nbreak    print("Dvojnasobek", double)break    triple = 3*nbreak    print("Trojnasobek", triple)break    tentimes = 10*nbreak    print("Desetinasobek"
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek {}".format(2*n))break    print("Trojnasobek {}".format(3*n))break    print("Desetinasobek {}".format(10*n))break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print('Trojnasobek', 3*n)break    print('Desetinasobek', 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break    break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    m=nbreak    n= n *2break    print("Dvojnasobek", n)break    n= m*3break    print("Trojnasobek", n)break    n=m*10break    print("Desetinasobek", n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek",n*10)break    break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    a = nbreak    n = n*2break    print("Dvojnasobek", n)break    n = abreak    n = n*3break    print("Trojnasobek", n)break    n = abreak    n = n*10break    print(
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print ("Trojnasobek", 3 * n)break    print ("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break   break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    l = 2*nbreak    print("Dvojnasobek", l)break    k = 3*nbreak    print("Trojnasobek", k)break    m = 10*nbreak    print("Desetinasobek", m)break
+def multiples(n):break    x = nbreak    n=n*2break    print("Dvojnasobek", n)break    n = xbreak    n=n*3break    print("Trojnasobek",n)break    n = xbreak    n=n*10break    print("Deseti
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    double = 2*nbreak    print("Dvojnasobek", double)break    triple = 3*nbreak    print("Trojnasobek", triple)break    tentimes = 10*nbreak    print("Desetinasobek"
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek {}".format(2*n))break    print("Trojnasobek {}".format(3*n))break    print("Desetinasobek {}".format(10*n))break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print('Trojnasobek', 3*n)break    print('Desetinasobek', 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break    break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    m=nbreak    n= n *2break    print("Dvojnasobek", n)break    n= m*3break    print("Trojnasobek", n)break    n=m*10break    print("Desetinasobek", n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek",n*10)break    break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    a = nbreak    n = n*2break    print("Dvojnasobek", n)break    n = abreak    n = n*3break    print("Trojnasobek", n)break    n = abreak    n = n*10break    print(
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print ("Trojnasobek", 3 * n)break    print ("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break   break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    l = 2*nbreak    print("Dvojnasobek", l)break    k = 3*nbreak    print("Trojnasobek", k)break    m = 10*nbreak    print("Desetinasobek", m)break
+def multiples(n):break    x = nbreak    n=n*2break    print("Dvojnasobek", n)break    n = xbreak    n=n*3break    print("Trojnasobek",n)break    n = xbreak    n=n*10break    print("Deseti
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    double = 2*nbreak    print("Dvojnasobek", double)break    triple = 3*nbreak    print("Trojnasobek", triple)break    tentimes = 10*nbreak    print("Desetinasobek"
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek {}".format(2*n))break    print("Trojnasobek {}".format(3*n))break    print("Desetinasobek {}".format(10*n))break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print('Trojnasobek', 3*n)break    print('Desetinasobek', 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break    break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    m=nbreak    n= n *2break    print("Dvojnasobek", n)break    n= m*3break    print("Trojnasobek", n)break    n=m*10break    print("Desetinasobek", n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek",n*10)break    break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    a = nbreak    n = n*2break    print("Dvojnasobek", n)break    n = abreak    n = n*3break    print("Trojnasobek", n)break    n = abreak    n = n*10break    print(
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print ("Trojnasobek", 3 * n)break    print ("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break   break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    l = 2*nbreak    print("Dvojnasobek", l)break    k = 3*nbreak    print("Trojnasobek", k)break    m = 10*nbreak    print("Desetinasobek", m)break
+def multiples(n):break    x = nbreak    n=n*2break    print("Dvojnasobek", n)break    n = xbreak    n=n*3break    print("Trojnasobek",n)break    n = xbreak    n=n*10break    print("Deseti
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    double = 2*nbreak    print("Dvojnasobek", double)break    triple = 3*nbreak    print("Trojnasobek", triple)break    tentimes = 10*nbreak    print("Desetinasobek"
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek {}".format(2*n))break    print("Trojnasobek {}".format(3*n))break    print("Desetinasobek {}".format(10*n))break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print('Trojnasobek', 3*n)break    print('Desetinasobek', 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break    break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    m=nbreak    n= n *2break    print("Dvojnasobek", n)break    n= m*3break    print("Trojnasobek", n)break    n=m*10break    print("Desetinasobek", n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek",n*10)break    break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    a = nbreak    n = n*2break    print("Dvojnasobek", n)break    n = abreak    n = n*3break    print("Trojnasobek", n)break    n = abreak    n = n*10break    print(
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print ("Trojnasobek", 3 * n)break    print ("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break   break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    l = 2*nbreak    print("Dvojnasobek", l)break    k = 3*nbreak    print("Trojnasobek", k)break    m = 10*nbreak    print("Desetinasobek", m)break
+def multiples(n):break    x = nbreak    n=n*2break    print("Dvojnasobek", n)break    n = xbreak    n=n*3break    print("Trojnasobek",n)break    n = xbreak    n=n*10break    print("Deseti
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek {}".format(2*n))break    print("Trojnasobek {}".format(3*n))break    print("Desetinasobek {}".format(10*n))break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print('Trojnasobek', 3*n)break    print('Desetinasobek', 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break    break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    m=nbreak    n= n *2break    print("Dvojnasobek", n)break    n= m*3break    print("Trojnasobek", n)break    n=m*10break    print("Desetinasobek", n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek",n*10)break    break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print ("Trojnasobek", 3 * n)break    print ("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break   break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    l = 2*nbreak    print("Dvojnasobek", l)break    k = 3*nbreak    print("Trojnasobek", k)break    m = 10*nbreak    print("Desetinasobek", m)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    double = 2*nbreak    print("Dvojnasobek", double)break    triple = 3*nbreak    print("Trojnasobek", triple)break    tentimes = 10*nbreak    print("Desetinasobek"
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek {}".format(2*n))break    print("Trojnasobek {}".format(3*n))break    print("Desetinasobek {}".format(10*n))break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print('Trojnasobek', 3*n)break    print('Desetinasobek', 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break    break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    m=nbreak    n= n *2break    print("Dvojnasobek", n)break    n= m*3break    print("Trojnasobek", n)break    n=m*10break    print("Desetinasobek", n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek",n*10)break    break    
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    a = nbreak    n = n*2break    print("Dvojnasobek", n)break    n = abreak    n = n*3break    print("Trojnasobek", n)break    n = abreak    n = n*10break    print(
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print ("Trojnasobek", 3 * n)break    print ("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)
+def multiples(n):break   break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n * 2)break    print("Trojnasobek", n * 3)break    print("Desetinasobek", n * 10)break
+def multiples(n):break    l = 2*nbreak    print("Dvojnasobek", l)break    k = 3*nbreak    print("Trojnasobek", k)break    m = 10*nbreak    print("Desetinasobek", m)break
+def multiples(n):break    x = nbreak    n=n*2break    print("Dvojnasobek", n)break    n = xbreak    n=n*3break    print("Trojnasobek",n)break    n = xbreak    n=n*10break    print("Deseti
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", n*2)break    print("Trojnasobek", n*3)break    print("Desetinasobek", n*10)break
+def multiples(n):break    print("Dvojnasobek", 2*n)break    print("Trojnasobek", 3*n)break    print("Desetinasobek", 10*n)break

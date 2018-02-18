@@ -18,13 +18,13 @@ searched_nodes = [
     "Add", "Sub", "Mult", "Div", "For", "While", "Print", "Mod", "If", "Eq", "Is",
 ]
 
-output_path = "resources/tmp/AST_top1.csv"
+output_path = "resources/new/resultsAvarage1_selectedFeatures_AST.csv"
 binary = False
 # solution_number = 1
 avarage_number = 1
-minimal_vector_size = 1
-minimal_submitted = 300
-minimal_parsable = 10
+minimal_vector_size = 0
+minimal_submitted = 0
+minimal_parsable = 0
 skip_print = False
 
 
@@ -101,13 +101,17 @@ def check_features(solution, data_vector):
 def analyze_solution(raw_solution, results):
     data_vector = {}
     results.submitted += 1
-    solution_string = raw_solution.replace("\\n", "\n")
+    solution_string = raw_solution.replace("break", "\n")
 
     try:
         tree = ast.parse(solution_string)
         MyVisitor(data_vector).visit(tree)
         results.parsable += 1
-    except SyntaxError:
+    except SyntaxError as e:
+        # should not happen
+        print("SYNTAX ERROR")
+        print(e)
+        print(solution_string)
         return
 
     result = HashableDict(data_vector)
@@ -125,18 +129,6 @@ def parse_code(line):
     return line[2][prefix_size:]
 
 
-def process_line(line, results):
-    code = parse_code(line)
-
-    if code.startswith("SUBMIT"):
-        analyze_solution(code[6:], results)
-
-
-def check_line(line, results):
-    if len(line) is 3:
-        process_line(line, results)
-
-
 def print_results(results):
     print("submitted: %s" % str(results.submitted))
     print("parsable: %s" % str(results.parsable))
@@ -144,6 +136,7 @@ def print_results(results):
     # print("correct: %s" % str(results.correct))
     # print("\n-----\n")
     #
+
     number_of_printed_solutions = 5
     for solution, count in sorted(results.solutions.items(), key=lambda x: x[1], reverse=True):
         if len(solution.data_vector) > 0:
@@ -179,6 +172,9 @@ def save_results(results, file_name):
             if counter == avarage_number:
                 break
         for key in average_data_vector:
+            # if avarage_solution[key] != 0:
+            #     avarage_solution[key] += 1
+            #     avarage_solution[key] = math.log(avarage_solution[key], 2)
             average_data_vector[key] /= float(counter)
         first = True
         for key in average_data_vector:
@@ -196,11 +192,11 @@ def analyze_file(file_name):
 
     results = AnalyseResults()
 
-    with codecs.open("resources/tasks/" + file_name, 'rb', encoding='UTF-8') as f:
+    with codecs.open("resources/tasks/new/" + file_name, 'rb', encoding='UTF-8') as f:
         reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
 
         for line in reader:
-            check_line(line, results)
+            analyze_solution(line[0], results)
 
     if not skip_print:
         print_results(results)
@@ -221,12 +217,11 @@ def save_header():
         for node in searched_nodes:
             header += ";"
             header += node
-        # print(header, file=f)
-        print >> f, header
+        print(header, file=f)
 
 
 def analyze_files():
-    path = 'resources/tasks'
+    path = 'resources/tasks/new'
 
     save_header()
 

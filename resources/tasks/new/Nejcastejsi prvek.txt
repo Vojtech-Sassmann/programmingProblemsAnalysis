@@ -1,0 +1,12 @@
+def most_common(mylist):break    sorted_list=sorted(mylist)break    most_com=sorted_list[0]break    most_com_count=1break    num=sorted_list[0]break    num_count=0break    for i in range(
+def je_tam(seznam, cislo):break    for i in range(len(seznam)):break        if cislo== seznam[i]:break            return i+1break    return 0break    breakdef most_common(mylist):break   
+def most_common(mylist):break    sorted_list=sorted(mylist)break    most_com=sorted_list[0]break    most_com_count=1break    num=sorted_list[0]break    num_count=0break    for i in range(
+def je_tam(seznam, cislo):break    for i in range(len(seznam)):break        if cislo== seznam[i]:break            return i+1break    return 0break    breakdef most_common(mylist):break   
+def most_common(mylist):break    sorted_list=sorted(mylist)break    most_com=sorted_list[0]break    most_com_count=1break    num=sorted_list[0]break    num_count=0break    for i in range(
+def je_tam(seznam, cislo):break    for i in range(len(seznam)):break        if cislo== seznam[i]:break            return i+1break    return 0break    breakdef most_common(mylist):break   
+def most_common(mylist):break    sorted_list=sorted(mylist)break    most_com=sorted_list[0]break    most_com_count=1break    num=sorted_list[0]break    num_count=0break    for i in range(
+def je_tam(seznam, cislo):break    for i in range(len(seznam)):break        if cislo== seznam[i]:break            return i+1break    return 0break    breakdef most_common(mylist):break   
+def most_common(mylist):break    sorted_list=sorted(mylist)break    most_com=sorted_list[0]break    most_com_count=1break    num=sorted_list[0]break    num_count=0break    for i in range(
+def je_tam(seznam, cislo):break    for i in range(len(seznam)):break        if cislo== seznam[i]:break            return i+1break    return 0break    breakdef most_common(mylist):break   
+def most_common(mylist):break    sorted_list=sorted(mylist)break    most_com=sorted_list[0]break    most_com_count=1break    num=sorted_list[0]break    num_count=0break    for i in range(
+def je_tam(seznam, cislo):break    for i in range(len(seznam)):break        if cislo== seznam[i]:break            return i+1break    return 0break    breakdef most_common(mylist):break   

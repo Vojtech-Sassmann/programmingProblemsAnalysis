@@ -1,0 +1,39 @@
+def pyramid(n):break    for i in range(n):break		for j in range(-n+1,n):break			if abs(j)<=i:break				print("#", end=" ")break			else:break				print(" ",end=" ")break		print()	break
+def pyramid(n):break    for i in range(n):break            print(2 * (n - 1 - i) * " ", end = " ")break            print((2 * i + 1) * "# ", end = " ")break            print()break    pri
+def pyramid(n):break    for i in range(n):break        for j in range(2*n):break            if n-i<=j <=i+n:break                print("#", end=" ")break            else:break            
+def pyramid(n):break    for i in range(0, n):break        a=((2*i)+1)*("#"+" ")break        break        print(a.center(24," "))break    print()	break
+def pyramid(n):break    for i in range(n+1):break        print((n-i)*"  ","# "*((i*2)-1), end=" ")break        print()break    print()	break
+def pyramid(n):break    pocet=1break    celkove=2*n-1break    for i in range(1,n+1):break        print("  "*(n-i),"# "*pocet,"  "*(n-i),sep="", end="\n")break        pocet=pocet+2break   
+def pyramid(n):break    for i in range(n):break		for j in range(-n+1,n):break			if abs(j)<=i:break				print("#", end=" ")break			else:break				print(" ",end=" ")break		print()	break
+def pyramid(n):break    for i in range(n):break            print(2 * (n - 1 - i) * " ", end = " ")break            print((2 * i + 1) * "# ", end = " ")break            print()break    pri
+def pyramid(n):break    for i in range(n):break        for j in range(2*n):break            if n-i<=j <=i+n:break                print("#", end=" ")break            else:break            
+def pyramid(n):break    for i in range(0, n):break        a=((2*i)+1)*("#"+" ")break        break        print(a.center(24," "))break    print()	break
+def pyramid(n):break    for i in range(n+1):break        print((n-i)*"  ","# "*((i*2)-1), end=" ")break        print()break    print()	break
+def pyramid(n):break    pocet=1break    celkove=2*n-1break    for i in range(1,n+1):break        print("  "*(n-i),"# "*pocet,"  "*(n-i),sep="", end="\n")break        pocet=pocet+2break   
+def pyramid(n):break    for i in range(n):break		for j in range(-n+1,n):break			if abs(j)<=i:break				print("#", end=" ")break			else:break				print(" ",end=" ")break		print()	break
+def pyramid(n):break    for i in range(n):break            print(2 * (n - 1 - i) * " ", end = " ")break            print((2 * i + 1) * "# ", end = " ")break            print()break    pri
+def pyramid(n):break    for i in range(n):break        for j in range(2*n):break            if n-i<=j <=i+n:break                print("#", end=" ")break            else:break            
+def pyramid(n):break    for i in range(0, n):break        a=((2*i)+1)*("#"+" ")break        break        print(a.center(24," "))break    print()	break
+def pyramid(n):break    for i in range(n+1):break        print((n-i)*"  ","# "*((i*2)-1), end=" ")break        print()break    print()	break
+def pyramid(n):break    pocet=1break    celkove=2*n-1break    for i in range(1,n+1):break        print("  "*(n-i),"# "*pocet,"  "*(n-i),sep="", end="\n")break        pocet=pocet+2break   
+def pyramid(n):break    for i in range(n):break		for j in range(-n+1,n):break			if abs(j)<=i:break				print("#", end=" ")break			else:break				print(" ",end=" ")break		print()	break
+def pyramid(n):break    for i in range(n):break            print(2 * (n - 1 - i) * " ", end = " ")break            print((2 * i + 1) * "# ", end = " ")break            print()break    pri
+def pyramid(n):break    for i in range(n):break        for j in range(2*n):break            if n-i<=j <=i+n:break                print("#", end=" ")break            else:break            
+def pyramid(n):break    for i in range(0, n):break        a=((2*i)+1)*("#"+" ")break        break        print(a.center(24," "))break    print()	break
+def pyramid(n):break    for i in range(n+1):break        print((n-i)*"  ","# "*((i*2)-1), end=" ")break        print()break    print()	break
+def pyramid(n):break    pocet=1break    celkove=2*n-1break    for i in range(1,n+1):break        print("  "*(n-i),"# "*pocet,"  "*(n-i),sep="", end="\n")break        pocet=pocet+2break   
+def pyramid(n):break    for i in range(n):break		for j in range(-n+1,n):break			if abs(j)<=i:break				print("#", end=" ")break			else:break				print(" ",end=" ")break		print()	break
+def pyramid(n):break    for i in range(n):break            print(2 * (n - 1 - i) * " ", end = " ")break            print((2 * i + 1) * "# ", end = " ")break            print()break    pri
+def pyramid(n):break    for i in range(n):break        for j in range(2*n):break            if n-i<=j <=i+n:break                print("#", end=" ")break            else:break            
+def pyramid(n):break    for i in range(0, n):break        a=((2*i)+1)*("#"+" ")break        break        print(a.center(24," "))break    print()	break
+def pyramid(n):break    for i in range(n+1):break        print((n-i)*"  ","# "*((i*2)-1), end=" ")break        print()break    print()	break
+def pyramid(n):break    pocet=1break    celkove=2*n-1break    for i in range(1,n+1):break        print("  "*(n-i),"# "*pocet,"  "*(n-i),sep="", end="\n")break        pocet=pocet+2break   
+def pyramid(n):break    for i in range(n):break		for j in range(-n+1,n):break			if abs(j)<=i:break				print("#", end=" ")break			else:break				print(" ",end=" ")break		print()	break
+def pyramid(n):break    for i in range(0, n):break        a=((2*i)+1)*("#"+" ")break        break        print(a.center(24," "))break    print()	break
+def pyramid(n):break    for i in range(n+1):break        print((n-i)*"  ","# "*((i*2)-1), end=" ")break        print()break    print()	break
+def pyramid(n):break    for i in range(n):break		for j in range(-n+1,n):break			if abs(j)<=i:break				print("#", end=" ")break			else:break				print(" ",end=" ")break		print()	break
+def pyramid(n):break    for i in range(n):break            print(2 * (n - 1 - i) * " ", end = " ")break            print((2 * i + 1) * "# ", end = " ")break            print()break    pri
+def pyramid(n):break    for i in range(n):break        for j in range(2*n):break            if n-i<=j <=i+n:break                print("#", end=" ")break            else:break            
+def pyramid(n):break    for i in range(0, n):break        a=((2*i)+1)*("#"+" ")break        break        print(a.center(24," "))break    print()	break
+def pyramid(n):break    for i in range(n+1):break        print((n-i)*"  ","# "*((i*2)-1), end=" ")break        print()break    print()	break
+def pyramid(n):break    pocet=1break    celkove=2*n-1break    for i in range(1,n+1):break        print("  "*(n-i),"# "*pocet,"  "*(n-i),sep="", end="\n")break        pocet=pocet+2break   

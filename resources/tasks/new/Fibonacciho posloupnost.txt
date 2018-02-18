@@ -1,0 +1,91 @@
+def fibonacci(n):break    x1 = 0break    x2 = 1break    for i in range(n):break        print(x2)break        a = x1break        x1 = x2break        x2 = a + x2
+def fibonacci(n):break    a,b = 1,1break    print(a)break    for i in range(n-1):break    	a,b=b,a+bbreak    	print(a)break
+def fibonacci(n):break    num = 1break    num2 = 0break    num3 = 0break    for i in range(n):break        num3 = num2break        num2 = sum(num, num2)break        num = num3breakbreakde
+def fibonacci(n):break    res = [1, 1]break    for i in range(1, n + 1):break        if i < 3:break            print(res[i - 1])break        else:break        	res.append(res[-1] + res[-2
+def fibonacci(n):break    a,b=1,1break    print(a)break    for i in range(n-1):break        a,b=b,a+bbreak        print(a)
+def fibonacci(n):break    a=1break    print(a)break    b=1break    print(b)break    c = 0break    for i in range(n-2):break        c = a + bbreak        print (c)break        a = bbreak  
+def fibonacci(n):break    first = 1break    second = 1break    print(first)break    print(second)break    help = 0break    for i in range(3, n + 1):break        first = first + secondbrea
+def fibonacci(n):break    p = 1break    pp = 1break    for i in range(n):break        if (i < 2):break            print(1)break        else:break            d = pbreak            p = (pp 
+def fibonacci(n):break    a=0break    b=1break    ap=0break    for i in range(n):break        print(b)break        ap =abreak        a=bbreak        b = ap+bbreak        
+def fibonacci(n):break    a = 0break    b = 1break    c = 0break    for i in range(n):break        c = bbreak        b = abreak        a = c + bbreak        print(a)break        break
+def fibonacci(n):break    a=1break    b=1break    print(a)break    print(b)break    for i in range(n-2):break        b=b+abreak        a=b-abreak        print(b)
+def fibonacci(n):break    a=0break    b=1break    c=0break    print(1)break    for i in range(n-1):break        print(a+b)break        c=bbreak        b=a+bbreak        a=cbreak        br
+def fibonacci(n):break    a = 0break    b = 1break    for i in range(0, n):break        temp = abreak        a = bbreak        b = temp + bbreak        print(a)break    return a
+def fibonacci(n):break    posloupnost = [1,1]break    print(posloupnost[0],end="\n")break    print(posloupnost[1],end="\n")break    break    for i in range(2,n):break        posloupnost.a
+def fibonacci(n):break    x1 = 0break    x2 = 1break    for i in range(n):break        print(x2)break        a = x1break        x1 = x2break        x2 = a + x2
+def fibonacci(n):break    a,b = 1,1break    print(a)break    for i in range(n-1):break    	a,b=b,a+bbreak    	print(a)break
+def fibonacci(n):break    num = 1break    num2 = 0break    num3 = 0break    for i in range(n):break        num3 = num2break        num2 = sum(num, num2)break        num = num3breakbreakde
+def fibonacci(n):break    res = [1, 1]break    for i in range(1, n + 1):break        if i < 3:break            print(res[i - 1])break        else:break        	res.append(res[-1] + res[-2
+def fibonacci(n):break    a,b=1,1break    print(a)break    for i in range(n-1):break        a,b=b,a+bbreak        print(a)
+def fibonacci(n):break    a=1break    print(a)break    b=1break    print(b)break    c = 0break    for i in range(n-2):break        c = a + bbreak        print (c)break        a = bbreak  
+def fibonacci(n):break    first = 1break    second = 1break    print(first)break    print(second)break    help = 0break    for i in range(3, n + 1):break        first = first + secondbrea
+def fibonacci(n):break    p = 1break    pp = 1break    for i in range(n):break        if (i < 2):break            print(1)break        else:break            d = pbreak            p = (pp 
+def fibonacci(n):break    a=0break    b=1break    ap=0break    for i in range(n):break        print(b)break        ap =abreak        a=bbreak        b = ap+bbreak        
+def fibonacci(n):break    a = 0break    b = 1break    c = 0break    for i in range(n):break        c = bbreak        b = abreak        a = c + bbreak        print(a)break        break
+def fibonacci(n):break    a=1break    b=1break    print(a)break    print(b)break    for i in range(n-2):break        b=b+abreak        a=b-abreak        print(b)
+def fibonacci(n):break    a=0break    b=1break    c=0break    print(1)break    for i in range(n-1):break        print(a+b)break        c=bbreak        b=a+bbreak        a=cbreak        br
+def fibonacci(n):break    a = 0break    b = 1break    for i in range(0, n):break        temp = abreak        a = bbreak        b = temp + bbreak        print(a)break    return a
+def fibonacci(n):break    posloupnost = [1,1]break    print(posloupnost[0],end="\n")break    print(posloupnost[1],end="\n")break    break    for i in range(2,n):break        posloupnost.a
+def fibonacci(n):break    x1 = 0break    x2 = 1break    for i in range(n):break        print(x2)break        a = x1break        x1 = x2break        x2 = a + x2
+def fibonacci(n):break    a,b = 1,1break    print(a)break    for i in range(n-1):break    	a,b=b,a+bbreak    	print(a)break
+def fibonacci(n):break    num = 1break    num2 = 0break    num3 = 0break    for i in range(n):break        num3 = num2break        num2 = sum(num, num2)break        num = num3breakbreakde
+def fibonacci(n):break    res = [1, 1]break    for i in range(1, n + 1):break        if i < 3:break            print(res[i - 1])break        else:break        	res.append(res[-1] + res[-2
+def fibonacci(n):break    a,b=1,1break    print(a)break    for i in range(n-1):break        a,b=b,a+bbreak        print(a)
+def fibonacci(n):break    a=1break    print(a)break    b=1break    print(b)break    c = 0break    for i in range(n-2):break        c = a + bbreak        print (c)break        a = bbreak  
+def fibonacci(n):break    first = 1break    second = 1break    print(first)break    print(second)break    help = 0break    for i in range(3, n + 1):break        first = first + secondbrea
+def fibonacci(n):break    p = 1break    pp = 1break    for i in range(n):break        if (i < 2):break            print(1)break        else:break            d = pbreak            p = (pp 
+def fibonacci(n):break    a=0break    b=1break    ap=0break    for i in range(n):break        print(b)break        ap =abreak        a=bbreak        b = ap+bbreak        
+def fibonacci(n):break    a = 0break    b = 1break    c = 0break    for i in range(n):break        c = bbreak        b = abreak        a = c + bbreak        print(a)break        break
+def fibonacci(n):break    a=1break    b=1break    print(a)break    print(b)break    for i in range(n-2):break        b=b+abreak        a=b-abreak        print(b)
+def fibonacci(n):break    a=0break    b=1break    c=0break    print(1)break    for i in range(n-1):break        print(a+b)break        c=bbreak        b=a+bbreak        a=cbreak        br
+def fibonacci(n):break    a = 0break    b = 1break    for i in range(0, n):break        temp = abreak        a = bbreak        b = temp + bbreak        print(a)break    return a
+def fibonacci(n):break    posloupnost = [1,1]break    print(posloupnost[0],end="\n")break    print(posloupnost[1],end="\n")break    break    for i in range(2,n):break        posloupnost.a
+def fibonacci(n):break    x1 = 0break    x2 = 1break    for i in range(n):break        print(x2)break        a = x1break        x1 = x2break        x2 = a + x2
+def fibonacci(n):break    a,b = 1,1break    print(a)break    for i in range(n-1):break    	a,b=b,a+bbreak    	print(a)break
+def fibonacci(n):break    num = 1break    num2 = 0break    num3 = 0break    for i in range(n):break        num3 = num2break        num2 = sum(num, num2)break        num = num3breakbreakde
+def fibonacci(n):break    res = [1, 1]break    for i in range(1, n + 1):break        if i < 3:break            print(res[i - 1])break        else:break        	res.append(res[-1] + res[-2
+def fibonacci(n):break    a,b=1,1break    print(a)break    for i in range(n-1):break        a,b=b,a+bbreak        print(a)
+def fibonacci(n):break    a=1break    print(a)break    b=1break    print(b)break    c = 0break    for i in range(n-2):break        c = a + bbreak        print (c)break        a = bbreak  
+def fibonacci(n):break    first = 1break    second = 1break    print(first)break    print(second)break    help = 0break    for i in range(3, n + 1):break        first = first + secondbrea
+def fibonacci(n):break    p = 1break    pp = 1break    for i in range(n):break        if (i < 2):break            print(1)break        else:break            d = pbreak            p = (pp 
+def fibonacci(n):break    a=0break    b=1break    ap=0break    for i in range(n):break        print(b)break        ap =abreak        a=bbreak        b = ap+bbreak        
+def fibonacci(n):break    a = 0break    b = 1break    c = 0break    for i in range(n):break        c = bbreak        b = abreak        a = c + bbreak        print(a)break        break
+def fibonacci(n):break    a=1break    b=1break    print(a)break    print(b)break    for i in range(n-2):break        b=b+abreak        a=b-abreak        print(b)
+def fibonacci(n):break    a=0break    b=1break    c=0break    print(1)break    for i in range(n-1):break        print(a+b)break        c=bbreak        b=a+bbreak        a=cbreak        br
+def fibonacci(n):break    a = 0break    b = 1break    for i in range(0, n):break        temp = abreak        a = bbreak        b = temp + bbreak        print(a)break    return a
+def fibonacci(n):break    posloupnost = [1,1]break    print(posloupnost[0],end="\n")break    print(posloupnost[1],end="\n")break    break    for i in range(2,n):break        posloupnost.a
+def fibonacci(n):break    x1 = 0break    x2 = 1break    for i in range(n):break        print(x2)break        a = x1break        x1 = x2break        x2 = a + x2
+def fibonacci(n):break    a,b = 1,1break    print(a)break    for i in range(n-1):break    	a,b=b,a+bbreak    	print(a)break
+def fibonacci(n):break    num = 1break    num2 = 0break    num3 = 0break    for i in range(n):break        num3 = num2break        num2 = sum(num, num2)break        num = num3breakbreakde
+def fibonacci(n):break    res = [1, 1]break    for i in range(1, n + 1):break        if i < 3:break            print(res[i - 1])break        else:break        	res.append(res[-1] + res[-2
+def fibonacci(n):break    a,b=1,1break    print(a)break    for i in range(n-1):break        a,b=b,a+bbreak        print(a)
+def fibonacci(n):break    a=1break    print(a)break    b=1break    print(b)break    c = 0break    for i in range(n-2):break        c = a + bbreak        print (c)break        a = bbreak  
+def fibonacci(n):break    first = 1break    second = 1break    print(first)break    print(second)break    help = 0break    for i in range(3, n + 1):break        first = first + secondbrea
+def fibonacci(n):break    p = 1break    pp = 1break    for i in range(n):break        if (i < 2):break            print(1)break        else:break            d = pbreak            p = (pp 
+def fibonacci(n):break    a=0break    b=1break    ap=0break    for i in range(n):break        print(b)break        ap =abreak        a=bbreak        b = ap+bbreak        
+def fibonacci(n):break    a = 0break    b = 1break    c = 0break    for i in range(n):break        c = bbreak        b = abreak        a = c + bbreak        print(a)break        break
+def fibonacci(n):break    a=1break    b=1break    print(a)break    print(b)break    for i in range(n-2):break        b=b+abreak        a=b-abreak        print(b)
+def fibonacci(n):break    a=0break    b=1break    c=0break    print(1)break    for i in range(n-1):break        print(a+b)break        c=bbreak        b=a+bbreak        a=cbreak        br
+def fibonacci(n):break    a = 0break    b = 1break    for i in range(0, n):break        temp = abreak        a = bbreak        b = temp + bbreak        print(a)break    return a
+def fibonacci(n):break    posloupnost = [1,1]break    print(posloupnost[0],end="\n")break    print(posloupnost[1],end="\n")break    break    for i in range(2,n):break        posloupnost.a
+def fibonacci(n):break    x1 = 0break    x2 = 1break    for i in range(n):break        print(x2)break        a = x1break        x1 = x2break        x2 = a + x2
+def fibonacci(n):break    a,b = 1,1break    print(a)break    for i in range(n-1):break    	a,b=b,a+bbreak    	print(a)break
+def fibonacci(n):break    a,b=1,1break    print(a)break    for i in range(n-1):break        a,b=b,a+bbreak        print(a)
+def fibonacci(n):break    a=0break    b=1break    ap=0break    for i in range(n):break        print(b)break        ap =abreak        a=bbreak        b = ap+bbreak        
+def fibonacci(n):break    a = 0break    b = 1break    c = 0break    for i in range(n):break        c = bbreak        b = abreak        a = c + bbreak        print(a)break        break
+def fibonacci(n):break    a=1break    b=1break    print(a)break    print(b)break    for i in range(n-2):break        b=b+abreak        a=b-abreak        print(b)
+def fibonacci(n):break    a = 0break    b = 1break    for i in range(0, n):break        temp = abreak        a = bbreak        b = temp + bbreak        print(a)break    return a
+def fibonacci(n):break    x1 = 0break    x2 = 1break    for i in range(n):break        print(x2)break        a = x1break        x1 = x2break        x2 = a + x2
+def fibonacci(n):break    a,b = 1,1break    print(a)break    for i in range(n-1):break    	a,b=b,a+bbreak    	print(a)break
+def fibonacci(n):break    num = 1break    num2 = 0break    num3 = 0break    for i in range(n):break        num3 = num2break        num2 = sum(num, num2)break        num = num3breakbreakde
+def fibonacci(n):break    res = [1, 1]break    for i in range(1, n + 1):break        if i < 3:break            print(res[i - 1])break        else:break        	res.append(res[-1] + res[-2
+def fibonacci(n):break    a,b=1,1break    print(a)break    for i in range(n-1):break        a,b=b,a+bbreak        print(a)
+def fibonacci(n):break    a=1break    print(a)break    b=1break    print(b)break    c = 0break    for i in range(n-2):break        c = a + bbreak        print (c)break        a = bbreak  
+def fibonacci(n):break    first = 1break    second = 1break    print(first)break    print(second)break    help = 0break    for i in range(3, n + 1):break        first = first + secondbrea
+def fibonacci(n):break    p = 1break    pp = 1break    for i in range(n):break        if (i < 2):break            print(1)break        else:break            d = pbreak            p = (pp 
+def fibonacci(n):break    a=0break    b=1break    ap=0break    for i in range(n):break        print(b)break        ap =abreak        a=bbreak        b = ap+bbreak        
+def fibonacci(n):break    a = 0break    b = 1break    c = 0break    for i in range(n):break        c = bbreak        b = abreak        a = c + bbreak        print(a)break        break
+def fibonacci(n):break    a=1break    b=1break    print(a)break    print(b)break    for i in range(n-2):break        b=b+abreak        a=b-abreak        print(b)
+def fibonacci(n):break    a=0break    b=1break    c=0break    print(1)break    for i in range(n-1):break        print(a+b)break        c=bbreak        b=a+bbreak        a=cbreak        br
+def fibonacci(n):break    a = 0break    b = 1break    for i in range(0, n):break        temp = abreak        a = bbreak        b = temp + bbreak        print(a)break    return a
+def fibonacci(n):break    posloupnost = [1,1]break    print(posloupnost[0],end="\n")break    print(posloupnost[1],end="\n")break    break    for i in range(2,n):break        posloupnost.a

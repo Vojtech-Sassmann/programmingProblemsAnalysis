@@ -1,0 +1,60 @@
+def empty_square(n):break    for i in range(n):break        for j in range(n):break			if i==0 or i==n-1 or j==0 or j==n-1:break				print("#", end=" ")break			else:break				print(".",end="
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if (i == 0 or j == 0 or i == n-1 or j == n-1):break        		print("#", end=" ")break       
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if 1<=i<n-1 and 1<=j<n-1:break                print(".",end=" ")break            else:break 
+def empty_square(n):break    for i in range(1, n+1):break        if i == 1 or i == n:break            print (n*("#"+" "))break        else:break            print("#"+" "+(n-2)*("."+" ")+"
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or j == 0 or i == n-1 or j == n-1:break        		print("#", end=" ")break         
+def empty_square(a):break    if a > 0:break        print ("# " * a)break        for i in range(a-2):break            print ("# ", ". " * (a-2), "#", sep='')break        if a > 1:break    
+def empty_square(n):break	for i in range(1,n+1):break		for j in range(1,n+1):break			if i==1 or i==n or j==1 or j==n:break				print("#", end=" ")break			else:break				print(".", end=" ")b
+def empty_square(n):break    for i in range(n):break        if i==0 or i==n-1:break            print("# "*n, end="\n")break        else:break            print("# " ,". "*(n-2),"#",sep="",
+def empty_square(n):break    for i in range(n):break        for j in range(n):break			if i==0 or i==n-1 or j==0 or j==n-1:break				print("#", end=" ")break			else:break				print(".",end="
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if (i == 0 or j == 0 or i == n-1 or j == n-1):break        		print("#", end=" ")break       
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if 1<=i<n-1 and 1<=j<n-1:break                print(".",end=" ")break            else:break 
+def empty_square(n):break    for i in range(1, n+1):break        if i == 1 or i == n:break            print (n*("#"+" "))break        else:break            print("#"+" "+(n-2)*("."+" ")+"
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or j == 0 or i == n-1 or j == n-1:break        		print("#", end=" ")break         
+def empty_square(a):break    if a > 0:break        print ("# " * a)break        for i in range(a-2):break            print ("# ", ". " * (a-2), "#", sep='')break        if a > 1:break    
+def empty_square(n):break	for i in range(1,n+1):break		for j in range(1,n+1):break			if i==1 or i==n or j==1 or j==n:break				print("#", end=" ")break			else:break				print(".", end=" ")b
+def empty_square(n):break    for i in range(n):break        if i==0 or i==n-1:break            print("# "*n, end="\n")break        else:break            print("# " ,". "*(n-2),"#",sep="",
+def empty_square(n):break    for i in range(n):break        for j in range(n):break			if i==0 or i==n-1 or j==0 or j==n-1:break				print("#", end=" ")break			else:break				print(".",end="
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if (i == 0 or j == 0 or i == n-1 or j == n-1):break        		print("#", end=" ")break       
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if 1<=i<n-1 and 1<=j<n-1:break                print(".",end=" ")break            else:break 
+def empty_square(n):break    for i in range(1, n+1):break        if i == 1 or i == n:break            print (n*("#"+" "))break        else:break            print("#"+" "+(n-2)*("."+" ")+"
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or j == 0 or i == n-1 or j == n-1:break        		print("#", end=" ")break         
+def empty_square(a):break    if a > 0:break        print ("# " * a)break        for i in range(a-2):break            print ("# ", ". " * (a-2), "#", sep='')break        if a > 1:break    
+def empty_square(n):break	for i in range(1,n+1):break		for j in range(1,n+1):break			if i==1 or i==n or j==1 or j==n:break				print("#", end=" ")break			else:break				print(".", end=" ")b
+def empty_square(n):break    for i in range(n):break        if i==0 or i==n-1:break            print("# "*n, end="\n")break        else:break            print("# " ,". "*(n-2),"#",sep="",
+def empty_square(n):break    for i in range(n):break        for j in range(n):break			if i==0 or i==n-1 or j==0 or j==n-1:break				print("#", end=" ")break			else:break				print(".",end="
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if (i == 0 or j == 0 or i == n-1 or j == n-1):break        		print("#", end=" ")break       
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if 1<=i<n-1 and 1<=j<n-1:break                print(".",end=" ")break            else:break 
+def empty_square(n):break    for i in range(1, n+1):break        if i == 1 or i == n:break            print (n*("#"+" "))break        else:break            print("#"+" "+(n-2)*("."+" ")+"
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or j == 0 or i == n-1 or j == n-1:break        		print("#", end=" ")break         
+def empty_square(a):break    if a > 0:break        print ("# " * a)break        for i in range(a-2):break            print ("# ", ". " * (a-2), "#", sep='')break        if a > 1:break    
+def empty_square(n):break	for i in range(1,n+1):break		for j in range(1,n+1):break			if i==1 or i==n or j==1 or j==n:break				print("#", end=" ")break			else:break				print(".", end=" ")b
+def empty_square(n):break    for i in range(n):break        if i==0 or i==n-1:break            print("# "*n, end="\n")break        else:break            print("# " ,". "*(n-2),"#",sep="",
+def empty_square(n):break    for i in range(n):break        for j in range(n):break			if i==0 or i==n-1 or j==0 or j==n-1:break				print("#", end=" ")break			else:break				print(".",end="
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if (i == 0 or j == 0 or i == n-1 or j == n-1):break        		print("#", end=" ")break       
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if 1<=i<n-1 and 1<=j<n-1:break                print(".",end=" ")break            else:break 
+def empty_square(n):break    for i in range(1, n+1):break        if i == 1 or i == n:break            print (n*("#"+" "))break        else:break            print("#"+" "+(n-2)*("."+" ")+"
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or j == 0 or i == n-1 or j == n-1:break        		print("#", end=" ")break         
+def empty_square(a):break    if a > 0:break        print ("# " * a)break        for i in range(a-2):break            print ("# ", ". " * (a-2), "#", sep='')break        if a > 1:break    
+def empty_square(n):break	for i in range(1,n+1):break		for j in range(1,n+1):break			if i==1 or i==n or j==1 or j==n:break				print("#", end=" ")break			else:break				print(".", end=" ")b
+def empty_square(n):break    for i in range(n):break        if i==0 or i==n-1:break            print("# "*n, end="\n")break        else:break            print("# " ,". "*(n-2),"#",sep="",
+def empty_square(n):break    for i in range(n):break        for j in range(n):break			if i==0 or i==n-1 or j==0 or j==n-1:break				print("#", end=" ")break			else:break				print(".",end="
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if (i == 0 or j == 0 or i == n-1 or j == n-1):break        		print("#", end=" ")break       
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or i == n-1:break        		print("#", end=" ")break            elif j == 0 or j ==
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if 1<=i<n-1 and 1<=j<n-1:break                print(".",end=" ")break            else:break 
+def empty_square(n):break    for i in range(1, n+1):break        if i == 1 or i == n:break            print (n*("#"+" "))break        else:break            print("#"+" "+(n-2)*("."+" ")+"
+def empty_square(n):break    for i in range(n):break        for j in range(n):break            if i == 0 or j == 0 or i == n-1 or j == n-1:break        		print("#", end=" ")break         
+def empty_square(a):break    if a > 0:break        print ("# " * a)break        for i in range(a-2):break            print ("# ", ". " * (a-2), "#", sep='')break        if a > 1:break    
+def empty_square(n):break	for i in range(1,n+1):break		for j in range(1,n+1):break			if i==1 or i==n or j==1 or j==n:break				print("#", end=" ")break			else:break				print(".", end=" ")b
+def empty_square(n):break    for i in range(n):break        if i==0 or i==n-1:break            print("# "*n, end="\n")break        else:break            print("# " ,". "*(n-2),"#",sep="",

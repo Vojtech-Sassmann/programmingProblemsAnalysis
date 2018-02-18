@@ -1,0 +1,133 @@
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break        print(i)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)break
+def numbers(n):break    for i in range(n):   break    	print(i+1)
+def numbers(n):break    count=1break    while n:break        print(count)break        count +=1break        n -=1break        break  break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break    	print(i + 1)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range (1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)
+def numbers(n):break    for i in range(1,n):break        print(i)break    print(n)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break        print(i)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)break
+def numbers(n):break    for i in range(n):   break    	print(i+1)
+def numbers(n):break    count=1break    while n:break        print(count)break        count +=1break        n -=1break        break  break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break    	print(i + 1)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range (1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)
+def numbers(n):break    for i in range(1,n):break        print(i)break    print(n)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break        print(i)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)break
+def numbers(n):break    for i in range(n):   break    	print(i+1)
+def numbers(n):break    count=1break    while n:break        print(count)break        count +=1break        n -=1break        break  break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break    	print(i + 1)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range (1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)
+def numbers(n):break    for i in range(1,n):break        print(i)break    print(n)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break        print(i)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)break
+def numbers(n):break    for i in range(n):   break    	print(i+1)
+def numbers(n):break    count=1break    while n:break        print(count)break        count +=1break        n -=1break        break  break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break    	print(i + 1)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range (1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)
+def numbers(n):break    for i in range(1,n):break        print(i)break    print(n)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break        print(i)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)break
+def numbers(n):break    for i in range(n):   break    	print(i+1)
+def numbers(n):break    count=1break    while n:break        print(count)break        count +=1break        n -=1break        break  break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break    	print(i + 1)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range (1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)
+def numbers(n):break    for i in range(1,n):break        print(i)break    print(n)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break        print(i)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)break
+def numbers(n):break    for i in range(n):   break    	print(i+1)
+def numbers(n):break    count=1break    while n:break        print(count)break        count +=1break        n -=1break        break  break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break    	print(i + 1)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range (1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)
+def numbers(n):break    for i in range(1,n):break        print(i)break    print(n)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break        print(i)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)break
+def numbers(n):break    for i in range(n):   break    	print(i+1)
+def numbers(n):break    count=1break    while n:break        print(count)break        count +=1break        n -=1break        break  break
+def numbers(n):break    for i in range(1, n+1):break    	print(i)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break        print(i+1)break
+def numbers(n):break    for i in range(n):break    	print(i + 1)break
+def numbers(n):break    for i in range(1,n+1):break        print(i)break
+def numbers(n):break    for i in range (1, n+1):break        print(i)break
+def numbers(n):break    for i in range(1, n + 1):break    	print(i)
+def numbers(n):break    for i in range(1,n):break        print(i)break    print(n)break
+def numbers(n):break    for i in range(n):break    	print(i+1)break

@@ -1,0 +1,31 @@
+def max_pair_sum(num_list):break    max = 0break    for i in range(len(num_list)):break        try:break        	a = num_list[i] + num_list[i+1]break        	if a > max:break            	
+def max_pair_sum(num_list):break    x = []break    for i in range(len(num_list)-1):break        x.append(num_list[i]+num_list[i+1])break    return max(x)
+def max_pair_sum(num_list):break    maxik = Nonebreak    for i in range(len(num_list)-1):break        s = num_list[i] + num_list[i+1]break        if (maxik is None) or (s > maxik):break  
+def max_pair_sum(num_list):break    max_sum = 0break    for i in range(len(num_list) - 1):break        if num_list[i] + num_list[i + 1] > max_sum:break            max_sum = num_list[i] + 
+def max_pair_sum(num_list):break    max_total = 0break    total = 0break    for i in range(1,len(num_list)):break        total = num_list[i]+num_list[i-1]break        if total>max_total:b
+def max_pair_sum(num_list):break    max = 0break    for i in range(len(num_list)):break        try:break        	a = num_list[i] + num_list[i+1]break        	if a > max:break            	
+def max_pair_sum(num_list):break    x = []break    for i in range(len(num_list)-1):break        x.append(num_list[i]+num_list[i+1])break    return max(x)
+def max_pair_sum(num_list):break    maxik = Nonebreak    for i in range(len(num_list)-1):break        s = num_list[i] + num_list[i+1]break        if (maxik is None) or (s > maxik):break  
+def max_pair_sum(num_list):break    max_sum = 0break    for i in range(len(num_list) - 1):break        if num_list[i] + num_list[i + 1] > max_sum:break            max_sum = num_list[i] + 
+def max_pair_sum(num_list):break    max_total = 0break    total = 0break    for i in range(1,len(num_list)):break        total = num_list[i]+num_list[i-1]break        if total>max_total:b
+def max_pair_sum(num_list):break    max = 0break    for i in range(len(num_list)):break        try:break        	a = num_list[i] + num_list[i+1]break        	if a > max:break            	
+def max_pair_sum(num_list):break    x = []break    for i in range(len(num_list)-1):break        x.append(num_list[i]+num_list[i+1])break    return max(x)
+def max_pair_sum(num_list):break    maxik = Nonebreak    for i in range(len(num_list)-1):break        s = num_list[i] + num_list[i+1]break        if (maxik is None) or (s > maxik):break  
+def max_pair_sum(num_list):break    max_sum = 0break    for i in range(len(num_list) - 1):break        if num_list[i] + num_list[i + 1] > max_sum:break            max_sum = num_list[i] + 
+def max_pair_sum(num_list):break    max_total = 0break    total = 0break    for i in range(1,len(num_list)):break        total = num_list[i]+num_list[i-1]break        if total>max_total:b
+def max_pair_sum(num_list):break    max = 0break    for i in range(len(num_list)):break        try:break        	a = num_list[i] + num_list[i+1]break        	if a > max:break            	
+def max_pair_sum(num_list):break    x = []break    for i in range(len(num_list)-1):break        x.append(num_list[i]+num_list[i+1])break    return max(x)
+def max_pair_sum(num_list):break    maxik = Nonebreak    for i in range(len(num_list)-1):break        s = num_list[i] + num_list[i+1]break        if (maxik is None) or (s > maxik):break  
+def max_pair_sum(num_list):break    max_sum = 0break    for i in range(len(num_list) - 1):break        if num_list[i] + num_list[i + 1] > max_sum:break            max_sum = num_list[i] + 
+def max_pair_sum(num_list):break    max_total = 0break    total = 0break    for i in range(1,len(num_list)):break        total = num_list[i]+num_list[i-1]break        if total>max_total:b
+def max_pair_sum(num_list):break    max = 0break    for i in range(len(num_list)):break        try:break        	a = num_list[i] + num_list[i+1]break        	if a > max:break            	
+def max_pair_sum(num_list):break    x = []break    for i in range(len(num_list)-1):break        x.append(num_list[i]+num_list[i+1])break    return max(x)
+def max_pair_sum(num_list):break    maxik = Nonebreak    for i in range(len(num_list)-1):break        s = num_list[i] + num_list[i+1]break        if (maxik is None) or (s > maxik):break  
+def max_pair_sum(num_list):break    max_sum = 0break    for i in range(len(num_list) - 1):break        if num_list[i] + num_list[i + 1] > max_sum:break            max_sum = num_list[i] + 
+def max_pair_sum(num_list):break    max_total = 0break    total = 0break    for i in range(1,len(num_list)):break        total = num_list[i]+num_list[i-1]break        if total>max_total:b
+def max_pair_sum(num_list):break    x = []break    for i in range(len(num_list)-1):break        x.append(num_list[i]+num_list[i+1])break    return max(x)
+def max_pair_sum(num_list):break    max = 0break    for i in range(len(num_list)):break        try:break        	a = num_list[i] + num_list[i+1]break        	if a > max:break            	
+def max_pair_sum(num_list):break    x = []break    for i in range(len(num_list)-1):break        x.append(num_list[i]+num_list[i+1])break    return max(x)
+def max_pair_sum(num_list):break    maxik = Nonebreak    for i in range(len(num_list)-1):break        s = num_list[i] + num_list[i+1]break        if (maxik is None) or (s > maxik):break  
+def max_pair_sum(num_list):break    max_sum = 0break    for i in range(len(num_list) - 1):break        if num_list[i] + num_list[i + 1] > max_sum:break            max_sum = num_list[i] + 
+def max_pair_sum(num_list):break    max_total = 0break    total = 0break    for i in range(1,len(num_list)):break        total = num_list[i]+num_list[i-1]break        if total>max_total:b

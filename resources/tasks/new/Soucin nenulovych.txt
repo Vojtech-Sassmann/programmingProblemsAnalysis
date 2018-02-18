@@ -1,0 +1,128 @@
+def nonzero_product(numbers):break    suma = 1break    for i in numbers:break        if i != 0:break            suma *= i break    return sumabreak
+def nonzero_product(numbers):break    product=1break    for i in numbers:break        if i!=0:break            product*=ibreak    return productbreak        break
+def nonzero_product(numbers):break    s = 1break    for i in numbers:break        if i != 0:break        	s*= ibreak    return sbreak
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return x
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return xbreak
+def nonzero_product(numbers):break    result = 1;break    for n in numbers:break        if (n != 0):break            result *= n;break    return resultbreak
+def nonzero_product(numbers):break    res = 1break    for x in numbers:break        if x:break            res *= xbreak    return resbreak
+def nonzero_product(numbers):break    nonzero = [i for i in numbers if i != 0]break    product = 1break    for i in nonzero:break        product *= ibreak    return product
+def nonzero_product(numbers):break    product = 1break    for x in numbers:break        if (x == 0):break            continuebreak        product *= xbreak    return productbreak
+def nonzero_product(numbers):break    prd = Nonebreak    for number in numbers:break        if number:break            if prd is None:break                prd = numberbreak            els
+def nonzero_product(numbers):break    numbers = filter(None, numbers)break    soucin = numbers[0]break    for cinitel in numbers[1:]:break        soucin *= cinitelbreak    return soucinbr
+def nonzero_product(numbers):break    if not numbers:break        return 0break    else:break        product = 1break        for i in numbers:break            if i != 0:break             
+def nonzero_product(numbers):break    nonzero = []break    summ = 1break    for i in numbers:break        if i != 0:break            nonzero.append(i)break    for i in nonzero:break      
+def nonzero_product(numbers):break    sum = 1break    for i in numbers:break        if(i != 0):break            sum *= ibreak    return sumbreak
+def nonzero_product(numbers):break    soucin = 1break    for n in numbers:break        if (n != 0):break            soucin *= nbreak    return soucinbreak
+def nonzero_product(numbers):break    p = 1break    for i in numbers:break        if i != 0:break            p = p*ibreak    return pbreak
+def nonzero_product(numbers):break    result=1break    for i in numbers:break        if i !=0:break            result *= ibreak    return resultbreak
+def nonzero_product(numbers):break    return reduce(lambda x,y: x*y, [x for x in numbers if x != 0]) break
+def nonzero_product(numbers):break    total = 0break    for number in numbers:break        if number != 0:break            if total == 0:break                total = numberbreak          
+def nonzero_product(numbers):break    suma = 1break    for i in numbers:break        if i != 0:break            suma *= i break    return sumabreak
+def nonzero_product(numbers):break    product=1break    for i in numbers:break        if i!=0:break            product*=ibreak    return productbreak        break
+def nonzero_product(numbers):break    s = 1break    for i in numbers:break        if i != 0:break        	s*= ibreak    return sbreak
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return x
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return xbreak
+def nonzero_product(numbers):break    result = 1;break    for n in numbers:break        if (n != 0):break            result *= n;break    return resultbreak
+def nonzero_product(numbers):break    res = 1break    for x in numbers:break        if x:break            res *= xbreak    return resbreak
+def nonzero_product(numbers):break    nonzero = [i for i in numbers if i != 0]break    product = 1break    for i in nonzero:break        product *= ibreak    return product
+def nonzero_product(numbers):break    product = 1break    for x in numbers:break        if (x == 0):break            continuebreak        product *= xbreak    return productbreak
+def nonzero_product(numbers):break    prd = Nonebreak    for number in numbers:break        if number:break            if prd is None:break                prd = numberbreak            els
+def nonzero_product(numbers):break    numbers = filter(None, numbers)break    soucin = numbers[0]break    for cinitel in numbers[1:]:break        soucin *= cinitelbreak    return soucinbr
+def nonzero_product(numbers):break    if not numbers:break        return 0break    else:break        product = 1break        for i in numbers:break            if i != 0:break             
+def nonzero_product(numbers):break    nonzero = []break    summ = 1break    for i in numbers:break        if i != 0:break            nonzero.append(i)break    for i in nonzero:break      
+def nonzero_product(numbers):break    sum = 1break    for i in numbers:break        if(i != 0):break            sum *= ibreak    return sumbreak
+def nonzero_product(numbers):break    soucin = 1break    for n in numbers:break        if (n != 0):break            soucin *= nbreak    return soucinbreak
+def nonzero_product(numbers):break    p = 1break    for i in numbers:break        if i != 0:break            p = p*ibreak    return pbreak
+def nonzero_product(numbers):break    result=1break    for i in numbers:break        if i !=0:break            result *= ibreak    return resultbreak
+def nonzero_product(numbers):break    return reduce(lambda x,y: x*y, [x for x in numbers if x != 0]) break
+def nonzero_product(numbers):break    total = 0break    for number in numbers:break        if number != 0:break            if total == 0:break                total = numberbreak          
+def nonzero_product(numbers):break    suma = 1break    for i in numbers:break        if i != 0:break            suma *= i break    return sumabreak
+def nonzero_product(numbers):break    product=1break    for i in numbers:break        if i!=0:break            product*=ibreak    return productbreak        break
+def nonzero_product(numbers):break    s = 1break    for i in numbers:break        if i != 0:break        	s*= ibreak    return sbreak
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return x
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return xbreak
+def nonzero_product(numbers):break    result = 1;break    for n in numbers:break        if (n != 0):break            result *= n;break    return resultbreak
+def nonzero_product(numbers):break    res = 1break    for x in numbers:break        if x:break            res *= xbreak    return resbreak
+def nonzero_product(numbers):break    nonzero = [i for i in numbers if i != 0]break    product = 1break    for i in nonzero:break        product *= ibreak    return product
+def nonzero_product(numbers):break    product = 1break    for x in numbers:break        if (x == 0):break            continuebreak        product *= xbreak    return productbreak
+def nonzero_product(numbers):break    prd = Nonebreak    for number in numbers:break        if number:break            if prd is None:break                prd = numberbreak            els
+def nonzero_product(numbers):break    numbers = filter(None, numbers)break    soucin = numbers[0]break    for cinitel in numbers[1:]:break        soucin *= cinitelbreak    return soucinbr
+def nonzero_product(numbers):break    if not numbers:break        return 0break    else:break        product = 1break        for i in numbers:break            if i != 0:break             
+def nonzero_product(numbers):break    nonzero = []break    summ = 1break    for i in numbers:break        if i != 0:break            nonzero.append(i)break    for i in nonzero:break      
+def nonzero_product(numbers):break    sum = 1break    for i in numbers:break        if(i != 0):break            sum *= ibreak    return sumbreak
+def nonzero_product(numbers):break    soucin = 1break    for n in numbers:break        if (n != 0):break            soucin *= nbreak    return soucinbreak
+def nonzero_product(numbers):break    p = 1break    for i in numbers:break        if i != 0:break            p = p*ibreak    return pbreak
+def nonzero_product(numbers):break    result=1break    for i in numbers:break        if i !=0:break            result *= ibreak    return resultbreak
+def nonzero_product(numbers):break    return reduce(lambda x,y: x*y, [x for x in numbers if x != 0]) break
+def nonzero_product(numbers):break    total = 0break    for number in numbers:break        if number != 0:break            if total == 0:break                total = numberbreak          
+def nonzero_product(numbers):break    suma = 1break    for i in numbers:break        if i != 0:break            suma *= i break    return sumabreak
+def nonzero_product(numbers):break    product=1break    for i in numbers:break        if i!=0:break            product*=ibreak    return productbreak        break
+def nonzero_product(numbers):break    s = 1break    for i in numbers:break        if i != 0:break        	s*= ibreak    return sbreak
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return x
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return xbreak
+def nonzero_product(numbers):break    result = 1;break    for n in numbers:break        if (n != 0):break            result *= n;break    return resultbreak
+def nonzero_product(numbers):break    res = 1break    for x in numbers:break        if x:break            res *= xbreak    return resbreak
+def nonzero_product(numbers):break    nonzero = [i for i in numbers if i != 0]break    product = 1break    for i in nonzero:break        product *= ibreak    return product
+def nonzero_product(numbers):break    product = 1break    for x in numbers:break        if (x == 0):break            continuebreak        product *= xbreak    return productbreak
+def nonzero_product(numbers):break    prd = Nonebreak    for number in numbers:break        if number:break            if prd is None:break                prd = numberbreak            els
+def nonzero_product(numbers):break    numbers = filter(None, numbers)break    soucin = numbers[0]break    for cinitel in numbers[1:]:break        soucin *= cinitelbreak    return soucinbr
+def nonzero_product(numbers):break    if not numbers:break        return 0break    else:break        product = 1break        for i in numbers:break            if i != 0:break             
+def nonzero_product(numbers):break    nonzero = []break    summ = 1break    for i in numbers:break        if i != 0:break            nonzero.append(i)break    for i in nonzero:break      
+def nonzero_product(numbers):break    sum = 1break    for i in numbers:break        if(i != 0):break            sum *= ibreak    return sumbreak
+def nonzero_product(numbers):break    soucin = 1break    for n in numbers:break        if (n != 0):break            soucin *= nbreak    return soucinbreak
+def nonzero_product(numbers):break    p = 1break    for i in numbers:break        if i != 0:break            p = p*ibreak    return pbreak
+def nonzero_product(numbers):break    result=1break    for i in numbers:break        if i !=0:break            result *= ibreak    return resultbreak
+def nonzero_product(numbers):break    return reduce(lambda x,y: x*y, [x for x in numbers if x != 0]) break
+def nonzero_product(numbers):break    total = 0break    for number in numbers:break        if number != 0:break            if total == 0:break                total = numberbreak          
+def nonzero_product(numbers):break    suma = 1break    for i in numbers:break        if i != 0:break            suma *= i break    return sumabreak
+def nonzero_product(numbers):break    product=1break    for i in numbers:break        if i!=0:break            product*=ibreak    return productbreak        break
+def nonzero_product(numbers):break    s = 1break    for i in numbers:break        if i != 0:break        	s*= ibreak    return sbreak
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return x
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return xbreak
+def nonzero_product(numbers):break    result = 1;break    for n in numbers:break        if (n != 0):break            result *= n;break    return resultbreak
+def nonzero_product(numbers):break    res = 1break    for x in numbers:break        if x:break            res *= xbreak    return resbreak
+def nonzero_product(numbers):break    nonzero = [i for i in numbers if i != 0]break    product = 1break    for i in nonzero:break        product *= ibreak    return product
+def nonzero_product(numbers):break    product = 1break    for x in numbers:break        if (x == 0):break            continuebreak        product *= xbreak    return productbreak
+def nonzero_product(numbers):break    prd = Nonebreak    for number in numbers:break        if number:break            if prd is None:break                prd = numberbreak            els
+def nonzero_product(numbers):break    numbers = filter(None, numbers)break    soucin = numbers[0]break    for cinitel in numbers[1:]:break        soucin *= cinitelbreak    return soucinbr
+def nonzero_product(numbers):break    if not numbers:break        return 0break    else:break        product = 1break        for i in numbers:break            if i != 0:break             
+def nonzero_product(numbers):break    nonzero = []break    summ = 1break    for i in numbers:break        if i != 0:break            nonzero.append(i)break    for i in nonzero:break      
+def nonzero_product(numbers):break    sum = 1break    for i in numbers:break        if(i != 0):break            sum *= ibreak    return sumbreak
+def nonzero_product(numbers):break    soucin = 1break    for n in numbers:break        if (n != 0):break            soucin *= nbreak    return soucinbreak
+def nonzero_product(numbers):break    p = 1break    for i in numbers:break        if i != 0:break            p = p*ibreak    return pbreak
+def nonzero_product(numbers):break    result=1break    for i in numbers:break        if i !=0:break            result *= ibreak    return resultbreak
+def nonzero_product(numbers):break    return reduce(lambda x,y: x*y, [x for x in numbers if x != 0]) break
+def nonzero_product(numbers):break    total = 0break    for number in numbers:break        if number != 0:break            if total == 0:break                total = numberbreak          
+def nonzero_product(numbers):break    suma = 1break    for i in numbers:break        if i != 0:break            suma *= i break    return sumabreak
+def nonzero_product(numbers):break    product=1break    for i in numbers:break        if i!=0:break            product*=ibreak    return productbreak        break
+def nonzero_product(numbers):break    s = 1break    for i in numbers:break        if i != 0:break        	s*= ibreak    return sbreak
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return x
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return xbreak
+def nonzero_product(numbers):break    result = 1;break    for n in numbers:break        if (n != 0):break            result *= n;break    return resultbreak
+def nonzero_product(numbers):break    res = 1break    for x in numbers:break        if x:break            res *= xbreak    return resbreak
+def nonzero_product(numbers):break    nonzero = [i for i in numbers if i != 0]break    product = 1break    for i in nonzero:break        product *= ibreak    return product
+def nonzero_product(numbers):break    product = 1break    for x in numbers:break        if (x == 0):break            continuebreak        product *= xbreak    return productbreak
+def nonzero_product(numbers):break    sum = 1break    for i in numbers:break        if(i != 0):break            sum *= ibreak    return sumbreak
+def nonzero_product(numbers):break    soucin = 1break    for n in numbers:break        if (n != 0):break            soucin *= nbreak    return soucinbreak
+def nonzero_product(numbers):break    p = 1break    for i in numbers:break        if i != 0:break            p = p*ibreak    return pbreak
+def nonzero_product(numbers):break    result=1break    for i in numbers:break        if i !=0:break            result *= ibreak    return resultbreak
+def nonzero_product(numbers):break    return reduce(lambda x,y: x*y, [x for x in numbers if x != 0]) break
+def nonzero_product(numbers):break    suma = 1break    for i in numbers:break        if i != 0:break            suma *= i break    return sumabreak
+def nonzero_product(numbers):break    product=1break    for i in numbers:break        if i!=0:break            product*=ibreak    return productbreak        break
+def nonzero_product(numbers):break    s = 1break    for i in numbers:break        if i != 0:break        	s*= ibreak    return sbreak
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return x
+def nonzero_product(numbers):break    x = 1break    for i in numbers:break        if i != 0:break            x = x*ibreak    return xbreak
+def nonzero_product(numbers):break    result = 1;break    for n in numbers:break        if (n != 0):break            result *= n;break    return resultbreak
+def nonzero_product(numbers):break    res = 1break    for x in numbers:break        if x:break            res *= xbreak    return resbreak
+def nonzero_product(numbers):break    nonzero = [i for i in numbers if i != 0]break    product = 1break    for i in nonzero:break        product *= ibreak    return product
+def nonzero_product(numbers):break    product = 1break    for x in numbers:break        if (x == 0):break            continuebreak        product *= xbreak    return productbreak
+def nonzero_product(numbers):break    prd = Nonebreak    for number in numbers:break        if number:break            if prd is None:break                prd = numberbreak            els
+def nonzero_product(numbers):break    numbers = filter(None, numbers)break    soucin = numbers[0]break    for cinitel in numbers[1:]:break        soucin *= cinitelbreak    return soucinbr
+def nonzero_product(numbers):break    if not numbers:break        return 0break    else:break        product = 1break        for i in numbers:break            if i != 0:break             
+def nonzero_product(numbers):break    nonzero = []break    summ = 1break    for i in numbers:break        if i != 0:break            nonzero.append(i)break    for i in nonzero:break      
+def nonzero_product(numbers):break    sum = 1break    for i in numbers:break        if(i != 0):break            sum *= ibreak    return sumbreak
+def nonzero_product(numbers):break    soucin = 1break    for n in numbers:break        if (n != 0):break            soucin *= nbreak    return soucinbreak
+def nonzero_product(numbers):break    p = 1break    for i in numbers:break        if i != 0:break            p = p*ibreak    return pbreak
+def nonzero_product(numbers):break    result=1break    for i in numbers:break        if i !=0:break            result *= ibreak    return resultbreak
+def nonzero_product(numbers):break    return reduce(lambda x,y: x*y, [x for x in numbers if x != 0]) break
+def nonzero_product(numbers):break    total = 0break    for number in numbers:break        if number != 0:break            if total == 0:break                total = numberbreak          

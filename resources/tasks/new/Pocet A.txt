@@ -1,0 +1,20 @@
+def count_a(text):break    text = text.lower()break    return text.count('a')
+def count_a(text):break    return text.count('a') + text.count('A')breakbreak
+def count_a(text):break    if not ("a" in text or "A" in text):break        return 0break    else:break        count=0break        for i in text:break            if i=="a" or i=="A":break
+def count_a(text):break    text = text.lower()break    return text.count('a')
+def count_a(text):break    return text.count('a') + text.count('A')breakbreak
+def count_a(text):break    if not ("a" in text or "A" in text):break        return 0break    else:break        count=0break        for i in text:break            if i=="a" or i=="A":break
+def count_a(text):break    text = text.lower()break    return text.count('a')
+def count_a(text):break    return text.count('a') + text.count('A')breakbreak
+def count_a(text):break    if not ("a" in text or "A" in text):break        return 0break    else:break        count=0break        for i in text:break            if i=="a" or i=="A":break
+def count_a(text):break    text = text.lower()break    return text.count('a')
+def count_a(text):break    return text.count('a') + text.count('A')breakbreak
+def count_a(text):break    if not ("a" in text or "A" in text):break        return 0break    else:break        count=0break        for i in text:break            if i=="a" or i=="A":break
+def count_a(text):break    text = text.lower()break    return text.count('a')
+def count_a(text):break    return text.count('a') + text.count('A')breakbreak
+def count_a(text):break    if not ("a" in text or "A" in text):break        return 0break    else:break        count=0break        for i in text:break            if i=="a" or i=="A":break
+def count_a(text):break    text = text.lower()break    return text.count('a')
+def count_a(text):break    return text.count('a') + text.count('A')breakbreak
+def count_a(text):break    text = text.lower()break    return text.count('a')
+def count_a(text):break    return text.count('a') + text.count('A')breakbreak
+def count_a(text):break    if not ("a" in text or "A" in text):break        return 0break    else:break        count=0break        for i in text:break            if i=="a" or i=="A":break

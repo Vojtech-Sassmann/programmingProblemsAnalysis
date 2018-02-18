@@ -1,0 +1,153 @@
+def square(n):break    for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()break
+def square(n):break    for i in range(n):break    	for x in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for j in range(n): break	    for i in range(n):break    	    print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        print(n*"# ")breakbreak
+def square(n):break    x=nbreak    while x>0:break        for i in range(n):break            print("#", end=" ")break        print()break        x=x-1
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        print(" ".join("#"*n))break    print()break
+def square(n):  break   for j in range(n): break    for i in range(n):break        print("#", end= " ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break            print("#", end=" ")break        print()break    print()break
+def square(n):break    for j in range(n):break        for i in range(n):break            print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print(n*("#"+" "))break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break    print()break
+def square(n):break    m=1break    for i in range(n):break#        print(n*"# ", end=" ")break        while m<n+1:break            print(n*"# ")break            m=m+1break    print()break
+def square(n):break	for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()
+def square(n):break    for j in range(n):break    	for i in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print("# "*n,end="\n")break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for i in range(n):break            print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        for i in range(n):break        	print("#", end=" ")break        print("\n", end="")break    print()break
+def square(n):break    for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()break
+def square(n):break    for i in range(n):break    	for x in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for j in range(n): break	    for i in range(n):break    	    print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        print(n*"# ")breakbreak
+def square(n):break    x=nbreak    while x>0:break        for i in range(n):break            print("#", end=" ")break        print()break        x=x-1
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        print(" ".join("#"*n))break    print()break
+def square(n):  break   for j in range(n): break    for i in range(n):break        print("#", end= " ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break            print("#", end=" ")break        print()break    print()break
+def square(n):break    for j in range(n):break        for i in range(n):break            print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print(n*("#"+" "))break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break    print()break
+def square(n):break    m=1break    for i in range(n):break#        print(n*"# ", end=" ")break        while m<n+1:break            print(n*"# ")break            m=m+1break    print()break
+def square(n):break	for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()
+def square(n):break    for j in range(n):break    	for i in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print("# "*n,end="\n")break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for i in range(n):break            print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        for i in range(n):break        	print("#", end=" ")break        print("\n", end="")break    print()break
+def square(n):break    for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()break
+def square(n):break    for i in range(n):break    	for x in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for j in range(n): break	    for i in range(n):break    	    print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        print(n*"# ")breakbreak
+def square(n):break    x=nbreak    while x>0:break        for i in range(n):break            print("#", end=" ")break        print()break        x=x-1
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        print(" ".join("#"*n))break    print()break
+def square(n):  break   for j in range(n): break    for i in range(n):break        print("#", end= " ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break            print("#", end=" ")break        print()break    print()break
+def square(n):break    for j in range(n):break        for i in range(n):break            print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print(n*("#"+" "))break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break    print()break
+def square(n):break    m=1break    for i in range(n):break#        print(n*"# ", end=" ")break        while m<n+1:break            print(n*"# ")break            m=m+1break    print()break
+def square(n):break	for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()
+def square(n):break    for j in range(n):break    	for i in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print("# "*n,end="\n")break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for i in range(n):break            print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        for i in range(n):break        	print("#", end=" ")break        print("\n", end="")break    print()break
+def square(n):break    for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()break
+def square(n):break    for i in range(n):break    	for x in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for j in range(n): break	    for i in range(n):break    	    print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        print(n*"# ")breakbreak
+def square(n):break    x=nbreak    while x>0:break        for i in range(n):break            print("#", end=" ")break        print()break        x=x-1
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        print(" ".join("#"*n))break    print()break
+def square(n):  break   for j in range(n): break    for i in range(n):break        print("#", end= " ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break            print("#", end=" ")break        print()break    print()break
+def square(n):break    for j in range(n):break        for i in range(n):break            print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print(n*("#"+" "))break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break    print()break
+def square(n):break    m=1break    for i in range(n):break#        print(n*"# ", end=" ")break        while m<n+1:break            print(n*"# ")break            m=m+1break    print()break
+def square(n):break	for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()
+def square(n):break    for j in range(n):break    	for i in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print("# "*n,end="\n")break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for i in range(n):break            print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        for i in range(n):break        	print("#", end=" ")break        print("\n", end="")break    print()break
+def square(n):break    for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()break
+def square(n):break    for i in range(n):break    	for x in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for j in range(n): break	    for i in range(n):break    	    print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        print(n*"# ")breakbreak
+def square(n):break    x=nbreak    while x>0:break        for i in range(n):break            print("#", end=" ")break        print()break        x=x-1
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        print(" ".join("#"*n))break    print()break
+def square(n):  break   for j in range(n): break    for i in range(n):break        print("#", end= " ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break            print("#", end=" ")break        print()break    print()break
+def square(n):break    for j in range(n):break        for i in range(n):break            print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print(n*("#"+" "))break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break    print()break
+def square(n):break    m=1break    for i in range(n):break#        print(n*"# ", end=" ")break        while m<n+1:break            print(n*"# ")break            m=m+1break    print()break
+def square(n):break	for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()
+def square(n):break    for j in range(n):break    	for i in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print("# "*n,end="\n")break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for i in range(n):break            print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        for i in range(n):break        	print("#", end=" ")break        print("\n", end="")break    print()break
+def square(n):break    for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()break
+def square(n):break    for i in range(n):break    	for x in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for j in range(n): break	    for i in range(n):break    	    print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        print(n*"# ")breakbreak
+def square(n):break    x=nbreak    while x>0:break        for i in range(n):break            print("#", end=" ")break        print()break        x=x-1
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        print(" ".join("#"*n))break    print()break
+def square(n):  break   for j in range(n): break    for i in range(n):break        print("#", end= " ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break            print("#", end=" ")break        print()break    print()break
+def square(n):break    for j in range(n):break        for i in range(n):break            print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print(n*("#"+" "))break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break    print()break
+def square(n):break	for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()
+def square(n):break    for j in range(n):break    	for i in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print("# "*n,end="\n")break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for i in range(n):break            print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        for i in range(n):break        	print("#", end=" ")break        print("\n", end="")break    print()break
+def square(n):break    for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()break
+def square(n):break    for i in range(n):break    	for x in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for j in range(n): break	    for i in range(n):break    	    print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        print(n*"# ")breakbreak
+def square(n):break    x=nbreak    while x>0:break        for i in range(n):break            print("#", end=" ")break        print()break        x=x-1
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        print(" ".join("#"*n))break    print()break
+def square(n):  break   for j in range(n): break    for i in range(n):break        print("#", end= " ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break            print("#", end=" ")break        print()break    print()break
+def square(n):break    for j in range(n):break        for i in range(n):break            print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print(n*("#"+" "))break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()break    print()break
+def square(n):break    m=1break    for i in range(n):break#        print(n*"# ", end=" ")break        while m<n+1:break            print(n*"# ")break            m=m+1break    print()break
+def square(n):break	for i in range(n):break		for j in range(n):break			print("#", end=" ")break		print()
+def square(n):break    for j in range(n):break    	for i in range(n):break        	print("#", end=" ")break    	print()break
+def square(n):break    for i in range(n):break        for j in range(n):break        	print("#", end=" ")break        print()
+def square(n):break    for i in range(n):break        print("# "*n,end="\n")break    print()break
+def square(n):break    for i in range(n):break        print()break        for j in range(n):break        	print("#", end=" ")break    print()break
+def square(n):break    for i in range(n):break        for i in range(n):break            print("#", end=" ")break        print()break
+def square(n):break    for i in range(n):break        for i in range(n):break        	print("#", end=" ")break        print("\n", end="")break    print()break

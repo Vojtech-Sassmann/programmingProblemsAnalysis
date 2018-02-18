@@ -1,0 +1,42 @@
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < 2*n) or (j >= n and j < 2*n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):break    for i in range(3):break        for mult in range(n):break            for j in range(3):break                if i == 1 or j == 1:break                    print("#"*n,
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if i//n == 1 or j//n == 1:break                print("#", end="")break            else:brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n <= i <= 3*n-n-1 or n <= j <= 3*n-n-1:break                print("#", end="")break     
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < n+n) or (j >= n and j < n+n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < 2*n) or (j >= n and j < 2*n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):break    for i in range(3):break        for mult in range(n):break            for j in range(3):break                if i == 1 or j == 1:break                    print("#"*n,
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if i//n == 1 or j//n == 1:break                print("#", end="")break            else:brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n <= i <= 3*n-n-1 or n <= j <= 3*n-n-1:break                print("#", end="")break     
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < n+n) or (j >= n and j < n+n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < 2*n) or (j >= n and j < 2*n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):break    for i in range(3):break        for mult in range(n):break            for j in range(3):break                if i == 1 or j == 1:break                    print("#"*n,
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if i//n == 1 or j//n == 1:break                print("#", end="")break            else:brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n <= i <= 3*n-n-1 or n <= j <= 3*n-n-1:break                print("#", end="")break     
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < n+n) or (j >= n and j < n+n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < 2*n) or (j >= n and j < 2*n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):break    for i in range(3):break        for mult in range(n):break            for j in range(3):break                if i == 1 or j == 1:break                    print("#"*n,
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if i//n == 1 or j//n == 1:break                print("#", end="")break            else:brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n <= i <= 3*n-n-1 or n <= j <= 3*n-n-1:break                print("#", end="")break     
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < n+n) or (j >= n and j < n+n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < 2*n) or (j >= n and j < 2*n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):break    for i in range(3):break        for mult in range(n):break            for j in range(3):break                if i == 1 or j == 1:break                    print("#"*n,
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if i//n == 1 or j//n == 1:break                print("#", end="")break            else:brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n <= i <= 3*n-n-1 or n <= j <= 3*n-n-1:break                print("#", end="")break     
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < n+n) or (j >= n and j < n+n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < 2*n) or (j >= n and j < 2*n):break                print("#", end="")brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):break    for i in range(3):break        for mult in range(n):break            for j in range(3):break                if i == 1 or j == 1:break                    print("#"*n,
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if i//n == 1 or j//n == 1:break                print("#", end="")break            else:brea
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n<=i<2*n or n<=j<2*n:break                print("#", end="")break            else:break 
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if n <= i <= 3*n-n-1 or n <= j <= 3*n-n-1:break                print("#", end="")break     
+def cross(n):    break    for i in range(3*n):break        for j in range(3*n):break            if (i >= n and i < n+n) or (j >= n and j < n+n):break                print("#", end="")brea

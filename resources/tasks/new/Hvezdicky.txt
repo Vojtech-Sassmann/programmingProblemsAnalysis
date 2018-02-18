@@ -1,0 +1,173 @@
+def stars(n):break    for i in range(1, 1+n):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        for k in range(n // 5):  break        	if i == k * 5 + 4:break            	print("|", end="")break    p
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5==4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i % 5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if not i % 5:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1)%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if (i % 5 == 0):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i + 1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        if i % 5 == 0 and i != 0:break            print("|", end="")break        print("*", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if not(i%5):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    a = 1break    for i in range(1, n+1):break        print("*", end="")break        if i == 5 * a:break            a = a + 1break            print("|", end="")break    
+def stars(n):break    for i in range (1,n+1):break        print('*',end="")break        if (i%5==0):break            print('|',end="")breakbreak    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0 and i != 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break            break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, 1+n):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        for k in range(n // 5):  break        	if i == k * 5 + 4:break            	print("|", end="")break    p
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5==4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i % 5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if not i % 5:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1)%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if (i % 5 == 0):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i + 1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        if i % 5 == 0 and i != 0:break            print("|", end="")break        print("*", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if not(i%5):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    a = 1break    for i in range(1, n+1):break        print("*", end="")break        if i == 5 * a:break            a = a + 1break            print("|", end="")break    
+def stars(n):break    for i in range (1,n+1):break        print('*',end="")break        if (i%5==0):break            print('|',end="")breakbreak    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0 and i != 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break            break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, 1+n):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        for k in range(n // 5):  break        	if i == k * 5 + 4:break            	print("|", end="")break    p
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5==4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i % 5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if not i % 5:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1)%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if (i % 5 == 0):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i + 1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        if i % 5 == 0 and i != 0:break            print("|", end="")break        print("*", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if not(i%5):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    a = 1break    for i in range(1, n+1):break        print("*", end="")break        if i == 5 * a:break            a = a + 1break            print("|", end="")break    
+def stars(n):break    for i in range (1,n+1):break        print('*',end="")break        if (i%5==0):break            print('|',end="")breakbreak    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0 and i != 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break            break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, 1+n):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        for k in range(n // 5):  break        	if i == k * 5 + 4:break            	print("|", end="")break    p
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5==4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i % 5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if not i % 5:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1)%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if (i % 5 == 0):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i + 1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        if i % 5 == 0 and i != 0:break            print("|", end="")break        print("*", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if not(i%5):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    a = 1break    for i in range(1, n+1):break        print("*", end="")break        if i == 5 * a:break            a = a + 1break            print("|", end="")break    
+def stars(n):break    for i in range (1,n+1):break        print('*',end="")break        if (i%5==0):break            print('|',end="")breakbreak    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0 and i != 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break            break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, 1+n):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        for k in range(n // 5):  break        	if i == k * 5 + 4:break            	print("|", end="")break    p
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5==4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i % 5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if not i % 5:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1)%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if (i % 5 == 0):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i + 1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        if i % 5 == 0 and i != 0:break            print("|", end="")break        print("*", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if not(i%5):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    a = 1break    for i in range(1, n+1):break        print("*", end="")break        if i == 5 * a:break            a = a + 1break            print("|", end="")break    
+def stars(n):break    for i in range (1,n+1):break        print('*',end="")break        if (i%5==0):break            print('|',end="")breakbreak    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0 and i != 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break            break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, 1+n):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5==4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i % 5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if not i % 5:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1)%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if (i % 5 == 0):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i + 1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        if i % 5 == 0 and i != 0:break            print("|", end="")break        print("*", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if not(i%5):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range (1,n+1):break        print('*',end="")break        if (i%5==0):break            print('|',end="")breakbreak    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0 and i != 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break            break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, 1+n):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        for k in range(n // 5):  break        	if i == k * 5 + 4:break            	print("|", end="")break    p
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5==4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i % 5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if not i % 5:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1)%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n + 1):break        print("*", end="")break        if (i % 5 == 0):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i + 1) % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i % 5==0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(n):break        if i % 5 == 0 and i != 0:break            print("|", end="")break        print("*", end="")break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if i%5 == 4:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if not(i%5):break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0:break            print("|", end="")break    print()break
+def stars(n):break    a = 1break    for i in range(1, n+1):break        print("*", end="")break        if i == 5 * a:break            a = a + 1break            print("|", end="")break    
+def stars(n):break    for i in range (1,n+1):break        print('*',end="")break        if (i%5==0):break            print('|',end="")breakbreak    print()break
+def stars(n):break    for i in range(1, n+1):break        print("*", end="")break        if i % 5 == 0 and i != 0:break            print("|", end="")break    print()break
+def stars(n):break    for i in range(1,n+1):break        print("*", end="")break        if i%5 == 0:break            print("|", end="")break            break    print()break
+def stars(n):break    for i in range(n):break        print("*", end="")break        if (i+1) % 5 == 0:break            print("|", end="")break    print()break

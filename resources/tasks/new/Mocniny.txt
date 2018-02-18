@@ -1,0 +1,112 @@
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    a = 0break    for i in range (1,n+1):break    	print(base ** i)break		break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1, n + 1):break        print(base ** i)break    break
+def powers(base, n):break    break    for i in range(1,n+1):break        j=1break        for _ in range(i):break        	j=j*basebreak        print(j)break
+def powers(base, n):break    res = 1break    for i in range(1, n+1):break        res = res * basebreak        print(res)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for x in range (1, n+1):break        print(base**x)break
+def powers(base, n):break    for i in range(1, n+1):break        print(base ** i)break
+def powers(base, n):break    	for i in range (1, n+1):break      		print(base**i)break
+def powers(base, n):break    for i in range (1,n+1):break        print (base**i)breakbreak
+def powers(base, n):break    p = 1break    for i in range(n):break        p = p * base    break        print(p)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break        break#    print(base)break
+def powers(base, n):break    for i in range (1,n+1):break        break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    a = 0break    for i in range (1,n+1):break    	print(base ** i)break		break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1, n + 1):break        print(base ** i)break    break
+def powers(base, n):break    break    for i in range(1,n+1):break        j=1break        for _ in range(i):break        	j=j*basebreak        print(j)break
+def powers(base, n):break    res = 1break    for i in range(1, n+1):break        res = res * basebreak        print(res)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for x in range (1, n+1):break        print(base**x)break
+def powers(base, n):break    for i in range(1, n+1):break        print(base ** i)break
+def powers(base, n):break    	for i in range (1, n+1):break      		print(base**i)break
+def powers(base, n):break    for i in range (1,n+1):break        print (base**i)breakbreak
+def powers(base, n):break    p = 1break    for i in range(n):break        p = p * base    break        print(p)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break        break#    print(base)break
+def powers(base, n):break    for i in range (1,n+1):break        break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    a = 0break    for i in range (1,n+1):break    	print(base ** i)break		break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1, n + 1):break        print(base ** i)break    break
+def powers(base, n):break    break    for i in range(1,n+1):break        j=1break        for _ in range(i):break        	j=j*basebreak        print(j)break
+def powers(base, n):break    res = 1break    for i in range(1, n+1):break        res = res * basebreak        print(res)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for x in range (1, n+1):break        print(base**x)break
+def powers(base, n):break    for i in range(1, n+1):break        print(base ** i)break
+def powers(base, n):break    	for i in range (1, n+1):break      		print(base**i)break
+def powers(base, n):break    for i in range (1,n+1):break        print (base**i)breakbreak
+def powers(base, n):break    p = 1break    for i in range(n):break        p = p * base    break        print(p)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break        break#    print(base)break
+def powers(base, n):break    for i in range (1,n+1):break        break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    a = 0break    for i in range (1,n+1):break    	print(base ** i)break		break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1, n + 1):break        print(base ** i)break    break
+def powers(base, n):break    break    for i in range(1,n+1):break        j=1break        for _ in range(i):break        	j=j*basebreak        print(j)break
+def powers(base, n):break    res = 1break    for i in range(1, n+1):break        res = res * basebreak        print(res)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for x in range (1, n+1):break        print(base**x)break
+def powers(base, n):break    for i in range(1, n+1):break        print(base ** i)break
+def powers(base, n):break    	for i in range (1, n+1):break      		print(base**i)break
+def powers(base, n):break    for i in range (1,n+1):break        print (base**i)breakbreak
+def powers(base, n):break    p = 1break    for i in range(n):break        p = p * base    break        print(p)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break        break#    print(base)break
+def powers(base, n):break    for i in range (1,n+1):break        break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    a = 0break    for i in range (1,n+1):break    	print(base ** i)break		break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1, n + 1):break        print(base ** i)break    break
+def powers(base, n):break    break    for i in range(1,n+1):break        j=1break        for _ in range(i):break        	j=j*basebreak        print(j)break
+def powers(base, n):break    res = 1break    for i in range(1, n+1):break        res = res * basebreak        print(res)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for x in range (1, n+1):break        print(base**x)break
+def powers(base, n):break    for i in range(1, n+1):break        print(base ** i)break
+def powers(base, n):break    	for i in range (1, n+1):break      		print(base**i)break
+def powers(base, n):break    for i in range (1,n+1):break        print (base**i)breakbreak
+def powers(base, n):break    p = 1break    for i in range(n):break        p = p * base    break        print(p)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break        break#    print(base)break
+def powers(base, n):break    for i in range (1,n+1):break        break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    a = 0break    for i in range (1,n+1):break    	print(base ** i)break		break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1, n + 1):break        print(base ** i)break    break
+def powers(base, n):break    break    for i in range(1,n+1):break        j=1break        for _ in range(i):break        	j=j*basebreak        print(j)break
+def powers(base, n):break    res = 1break    for i in range(1, n+1):break        res = res * basebreak        print(res)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for x in range (1, n+1):break        print(base**x)break
+def powers(base, n):break    for i in range(1, n+1):break        print(base ** i)break
+def powers(base, n):break    	for i in range (1, n+1):break      		print(base**i)break
+def powers(base, n):break    for i in range (1,n+1):break        print (base**i)breakbreak
+def powers(base, n):break    p = 1break    for i in range(n):break        p = p * base    break        print(p)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break        break#    print(base)break
+def powers(base, n):break    for i in range (1,n+1):break        break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    a = 0break    for i in range (1,n+1):break    	print(base ** i)break		break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break
+def powers(base, n):break    for i in range(1, n + 1):break        print(base ** i)break    break
+def powers(base, n):break    break    for i in range(1,n+1):break        j=1break        for _ in range(i):break        	j=j*basebreak        print(j)break
+def powers(base, n):break    res = 1break    for i in range(1, n+1):break        res = res * basebreak        print(res)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for x in range (1, n+1):break        print(base**x)break
+def powers(base, n):break    for i in range(1, n+1):break        print(base ** i)break
+def powers(base, n):break    	for i in range (1, n+1):break      		print(base**i)break
+def powers(base, n):break    for i in range (1,n+1):break        print (base**i)breakbreak
+def powers(base, n):break    p = 1break    for i in range(n):break        p = p * base    break        print(p)break
+def powers(base, n):break    for i in range(1,n+1):break    	print(base**i)break
+def powers(base, n):break    for i in range(1,n+1):break        print(base**i)break        break#    print(base)break
+def powers(base, n):break    for i in range (1,n+1):break        break    	print(base**i)break

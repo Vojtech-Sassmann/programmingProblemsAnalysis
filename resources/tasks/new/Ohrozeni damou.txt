@@ -1,0 +1,12 @@
+def queen(x, y):break    for i in range(1,9):break        for j in range(1,9):break            if j==x and i==y:break                print("D",end="")break            elif j==x or i==y or
+def damaSvisle(list,column):break    size=len(list)break    for i in range(size):break        if list[i][column] !="D":break            list[i][column]="*"break    return listbreakbreakde
+def queen(x, y):break    for i in range(1,9):break        for j in range(1,9):break            if j==x and i==y:break                print("D",end="")break            elif j==x or i==y or
+def damaSvisle(list,column):break    size=len(list)break    for i in range(size):break        if list[i][column] !="D":break            list[i][column]="*"break    return listbreakbreakde
+def queen(x, y):break    for i in range(1,9):break        for j in range(1,9):break            if j==x and i==y:break                print("D",end="")break            elif j==x or i==y or
+def damaSvisle(list,column):break    size=len(list)break    for i in range(size):break        if list[i][column] !="D":break            list[i][column]="*"break    return listbreakbreakde
+def queen(x, y):break    for i in range(1,9):break        for j in range(1,9):break            if j==x and i==y:break                print("D",end="")break            elif j==x or i==y or
+def damaSvisle(list,column):break    size=len(list)break    for i in range(size):break        if list[i][column] !="D":break            list[i][column]="*"break    return listbreakbreakde
+def queen(x, y):break    for i in range(1,9):break        for j in range(1,9):break            if j==x and i==y:break                print("D",end="")break            elif j==x or i==y or
+def damaSvisle(list,column):break    size=len(list)break    for i in range(size):break        if list[i][column] !="D":break            list[i][column]="*"break    return listbreakbreakde
+def queen(x, y):break    for i in range(1,9):break        for j in range(1,9):break            if j==x and i==y:break                print("D",end="")break            elif j==x or i==y or
+def damaSvisle(list,column):break    size=len(list)break    for i in range(size):break        if list[i][column] !="D":break            list[i][column]="*"break    return listbreakbreakde

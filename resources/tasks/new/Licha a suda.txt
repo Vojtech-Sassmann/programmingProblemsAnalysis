@@ -1,0 +1,120 @@
+def odd_even(n):break    for i in range(2):break        for j in range(1, n + 1):break            if (i+j) % 2 == 1:break                print(j, end="")break            else:break       
+def odd_even(n):break    res=["",""]break    for i in range(1, n+1):break        if i % 2 == 1:break            res[0]+="{} ".format(i)break        else:break            res[1]+=" {}".for
+def odd_even(n):break    x = []break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            x.append(i)break    print("\
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print("\n ", end="")break    for j in range(1, n+1):break        if j
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end = "")break    for i in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end='\n')break    print(end=" ")break	break    for i in range(1
+def odd_even(n):break    s = " "break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            s += str(i) + " "break   
+def odd_even(n):break    for j in (1,0):break        for i in range(1, n+1):break            if i % 2 == j:break                print(i, end=" ")break        print()break        print(' '
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n + 1):break        if i % 2 == 0
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(end=" ")break    for i in range(1, n+1):break  
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n):break        if i % 2 == 1:break            print(i, end=" ")break    if n%2:break        print(n,end=" ")break    print()break    print("",e
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")  break    print()break    print(' ', end='')break    for j in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1,(n+1)):break            if (j%2==1) and (i==0):break                print(j,end=" ")break            elif (j%2==0)
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print("", end=" ")break    for i in range(1, n + 1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end="")break    for k in range(2, n+1):bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end="\n")break    print(end=" ")break    for i in range(1, n+1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for j in range(1, n+1):break        if j % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1, n + 1):break            if (i+j) % 2 == 1:break                print(j, end="")break            else:break       
+def odd_even(n):break    res=["",""]break    for i in range(1, n+1):break        if i % 2 == 1:break            res[0]+="{} ".format(i)break        else:break            res[1]+=" {}".for
+def odd_even(n):break    x = []break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            x.append(i)break    print("\
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print("\n ", end="")break    for j in range(1, n+1):break        if j
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end = "")break    for i in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end='\n')break    print(end=" ")break	break    for i in range(1
+def odd_even(n):break    s = " "break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            s += str(i) + " "break   
+def odd_even(n):break    for j in (1,0):break        for i in range(1, n+1):break            if i % 2 == j:break                print(i, end=" ")break        print()break        print(' '
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n + 1):break        if i % 2 == 0
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(end=" ")break    for i in range(1, n+1):break  
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n):break        if i % 2 == 1:break            print(i, end=" ")break    if n%2:break        print(n,end=" ")break    print()break    print("",e
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")  break    print()break    print(' ', end='')break    for j in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1,(n+1)):break            if (j%2==1) and (i==0):break                print(j,end=" ")break            elif (j%2==0)
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print("", end=" ")break    for i in range(1, n + 1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end="")break    for k in range(2, n+1):bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end="\n")break    print(end=" ")break    for i in range(1, n+1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for j in range(1, n+1):break        if j % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1, n + 1):break            if (i+j) % 2 == 1:break                print(j, end="")break            else:break       
+def odd_even(n):break    res=["",""]break    for i in range(1, n+1):break        if i % 2 == 1:break            res[0]+="{} ".format(i)break        else:break            res[1]+=" {}".for
+def odd_even(n):break    x = []break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            x.append(i)break    print("\
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print("\n ", end="")break    for j in range(1, n+1):break        if j
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end = "")break    for i in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end='\n')break    print(end=" ")break	break    for i in range(1
+def odd_even(n):break    s = " "break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            s += str(i) + " "break   
+def odd_even(n):break    for j in (1,0):break        for i in range(1, n+1):break            if i % 2 == j:break                print(i, end=" ")break        print()break        print(' '
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n + 1):break        if i % 2 == 0
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(end=" ")break    for i in range(1, n+1):break  
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n):break        if i % 2 == 1:break            print(i, end=" ")break    if n%2:break        print(n,end=" ")break    print()break    print("",e
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")  break    print()break    print(' ', end='')break    for j in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1,(n+1)):break            if (j%2==1) and (i==0):break                print(j,end=" ")break            elif (j%2==0)
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print("", end=" ")break    for i in range(1, n + 1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end="")break    for k in range(2, n+1):bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end="\n")break    print(end=" ")break    for i in range(1, n+1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for j in range(1, n+1):break        if j % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1, n + 1):break            if (i+j) % 2 == 1:break                print(j, end="")break            else:break       
+def odd_even(n):break    res=["",""]break    for i in range(1, n+1):break        if i % 2 == 1:break            res[0]+="{} ".format(i)break        else:break            res[1]+=" {}".for
+def odd_even(n):break    x = []break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            x.append(i)break    print("\
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print("\n ", end="")break    for j in range(1, n+1):break        if j
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end = "")break    for i in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end='\n')break    print(end=" ")break	break    for i in range(1
+def odd_even(n):break    s = " "break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            s += str(i) + " "break   
+def odd_even(n):break    for j in (1,0):break        for i in range(1, n+1):break            if i % 2 == j:break                print(i, end=" ")break        print()break        print(' '
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n + 1):break        if i % 2 == 0
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(end=" ")break    for i in range(1, n+1):break  
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n):break        if i % 2 == 1:break            print(i, end=" ")break    if n%2:break        print(n,end=" ")break    print()break    print("",e
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")  break    print()break    print(' ', end='')break    for j in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1,(n+1)):break            if (j%2==1) and (i==0):break                print(j,end=" ")break            elif (j%2==0)
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print("", end=" ")break    for i in range(1, n + 1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end="")break    for k in range(2, n+1):bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end="\n")break    print(end=" ")break    for i in range(1, n+1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for j in range(1, n+1):break        if j % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1, n + 1):break            if (i+j) % 2 == 1:break                print(j, end="")break            else:break       
+def odd_even(n):break    res=["",""]break    for i in range(1, n+1):break        if i % 2 == 1:break            res[0]+="{} ".format(i)break        else:break            res[1]+=" {}".for
+def odd_even(n):break    x = []break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            x.append(i)break    print("\
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print("\n ", end="")break    for j in range(1, n+1):break        if j
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end = "")break    for i in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end='\n')break    print(end=" ")break	break    for i in range(1
+def odd_even(n):break    s = " "break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            s += str(i) + " "break   
+def odd_even(n):break    for j in (1,0):break        for i in range(1, n+1):break            if i % 2 == j:break                print(i, end=" ")break        print()break        print(' '
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n + 1):break        if i % 2 == 0
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(end=" ")break    for i in range(1, n+1):break  
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n):break        if i % 2 == 1:break            print(i, end=" ")break    if n%2:break        print(n,end=" ")break    print()break    print("",e
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")  break    print()break    print(' ', end='')break    for j in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1,(n+1)):break            if (j%2==1) and (i==0):break                print(j,end=" ")break            elif (j%2==0)
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print("", end=" ")break    for i in range(1, n + 1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end="")break    for k in range(2, n+1):bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end="\n")break    print(end=" ")break    for i in range(1, n+1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for j in range(1, n+1):break        if j % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1, n + 1):break            if (i+j) % 2 == 1:break                print(j, end="")break            else:break       
+def odd_even(n):break    res=["",""]break    for i in range(1, n+1):break        if i % 2 == 1:break            res[0]+="{} ".format(i)break        else:break            res[1]+=" {}".for
+def odd_even(n):break    x = []break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            x.append(i)break    print("\
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print("\n ", end="")break    for j in range(1, n+1):break        if j
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end = "")break    for i in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end='\n')break    print(end=" ")break	break    for i in range(1
+def odd_even(n):break    s = " "break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break        else:break            s += str(i) + " "break   
+def odd_even(n):break    for j in (1,0):break        for i in range(1, n+1):break            if i % 2 == j:break                print(i, end=" ")break        print()break        print(' '
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n + 1):break        if i % 2 == 0
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(end=" ")break    for i in range(1, n+1):break  
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n):break        if i % 2 == 1:break            print(i, end=" ")break    if n%2:break        print(n,end=" ")break    print()break    print("",e
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")  break    print()break    print(' ', end='')break    for j in range(1, n+1):b
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre
+def odd_even(n):break    for i in range(2):break        for j in range(1,(n+1)):break            if (j%2==1) and (i==0):break                print(j,end=" ")break            elif (j%2==0)
+def odd_even(n):break    for i in range(1, n + 1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print("", end=" ")break    for i in range(1, n + 1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    print(" ", end="")break    for k in range(2, n+1):bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print(end="\n")break    print(end=" ")break    for i in range(1, n+1)
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for j in range(1, n+1):break        if j % 2 == 0:bre
+def odd_even(n):break    for i in range(1, n+1):break        if i % 2 == 1:break            print(i, end=" ")break    print()break    for i in range(1, n+1):break        if i % 2 == 0:bre

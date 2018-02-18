@@ -1,0 +1,482 @@
+def nice(a, b):break    return (a % 2 != b% 2)break
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2==0 and b % 2 !=0:break    	return Truebreak    elif a % 2 !=0 and b % 2 ==0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a / 2 == a // 2 and b / 2 == b // 2) or (a / 2 != a // 2 and b / 2 != b // 2):break        return Falsebreak    else:break        return True
+def nice(a, b):break    if a%2==0 and b%2==1 or a%2==1 and b%2==0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    return bool(a%2 and not b%2 or not a%2 and b%2)break
+def nice(a, b):break    return bool((a+b)%2)break
+def nice(a, b):break    if ((a % 2 == 0) and (b % 2 != 0)):break    	return Truebreak    break    if (b % 2 == 0 and a % 2 != 0):break    	return Truebreak    return False
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    if a % 2 + b % 2 == 1:break        return Truebreak    else:break        return False
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    ea = a % 2break    eb = b % 2break    return ea + eb == 1break
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break    	return Truebreak
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break        return Truebreak
+def nice(a, b):break    return (a%2) != (b%2)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2 ==1) or (a%2==1 and b%2 ==0):break    	return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    return a%2 != b%2break    break
+def nice(a, b):break    if (a % 2 and not(b % 2)) or (b % 2 and not(a % 2)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    if (a % 2 == 0 and b % 2 == 1) or (a % 2 == 1 and b % 2 == 0):break    	return Truebreak    return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break    	return Truebreak    return Falsebreak
+def nice(a, b):break    return (a%2 == 1 and b%2 == 0) or (a%2 == 0 and b%2 == 1)break
+def nice(a, b):break    a_je_sude = a % 2 == 0break    a_je_liche = not a_je_sudebreak    b_je_sude = b % 2 == 0break    b_je_liche = not b_je_sudebreak    if a_je_sude and b_je_liche or 
+def nice(a, b):break    if (((a%2) == 0) and ((b%2) != 0) or ((b%2) == 0) and ((a%2) != 0)):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2!=0 or b%2 == 0 and a%2!=0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return set((a % 2, b % 2)) == set((0, 1))break
+def nice(a, b):break    isA = (a % 2 == 0)break    isB = (b % 2 == 0)break    if (isA):break        if(not isB):break            return Truebreak    else:break        if(isB):break       
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    if b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break        return Falsebreak    
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2==1) or (a%2==1 and b%2==0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2==0 and b%2!=0:break        return Truebreak    elif b%2==0 and a%2!=0:break        return Truebreak    else:break        return False
+def nice(a, b):break    x=a%2;break    y=b%2;break    if x+y==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if(a%2==0 and b%2!=0):break        return Truebreak    elif(b%2==0 and a%2!=0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    return Falsebreak
+def nice(a, b):break    lichea = a % 2break    licheb = b % 2break    if lichea + licheb == 1:break        nice = Truebreak    else:break        nice=Falsebreak    return nicebreak
+def nice(a, b):break    return a%2 != b%2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    break    if(a+b)%2!=0:break        return Truebreak        break    break    return Falsebreak
+def jesuda(cislo):break    return (cislo % 2 == 0)break        breakdef nice(a, b):break    return(jesuda(a) and not jesuda(b)) or (not jesuda(a) and jesuda(b))break
+def nice(a, b):break    if (a%2 == 0  and b%2 == 1) or (b%2 == 0  and a%2 == 1):break        return Truebreak    else:break        return Falsebreakbreakbreak
+def nice(a, b):break    if a%2:break        if b%2:break            return Falsebreak        else:break            return Truebreak    else:break        if b%2:break            return Tru
+def nice(a, b):break    return (a+b)%2 == 1break
+def nice(a, b):    break   if a%2==b%2:break    return Falsebreak   else:break    return Truebreakbreak
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break		return False
+def nice(a, b):break    if ((a % 2 == 0 and b % 2 != 0) or (a % 2 != 0 and b % 2 == 0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1 or (a % 2 == 1 and b % 2 == 0):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    sum=a+bbreak    if sum%2==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    sum = a+bbreak    if sum%2==1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0 or a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return ((a + b) % 2) != 0break
+def nice(a, b):break    if a % 2 == 0 and b % 2 ==0:break        return Falsebreak    elif a % 2 == 0 and b %2 != 0:break        return Truebreak    elif a % 2 != 0 and b%2 == 0:break    
+def nice(a, b):break    liche = (a+b) % 2break    return liche == 1break
+def nice(a, b):break    if((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1: return Truebreak    else: return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2 == 1:break        return Truebreak    if a%2 == 1 and b%2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    licha = 0break    suda = 0break    if (a%2) == 1 or (b%2) == 1:break        licha = 1break    if (a%2) == 0 or (b%2) == 0:break        suda = 1break    if suda == 
+def nice(a, b):break    if (a + b) % 2 == 0:break    	return Falsebreak    else: break    	return Truebreakbreak
+def nice(a, b):   break    return (((a-b)%2)==1)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return (a % 2 != b% 2)break
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2==0 and b % 2 !=0:break    	return Truebreak    elif a % 2 !=0 and b % 2 ==0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a / 2 == a // 2 and b / 2 == b // 2) or (a / 2 != a // 2 and b / 2 != b // 2):break        return Falsebreak    else:break        return True
+def nice(a, b):break    if a%2==0 and b%2==1 or a%2==1 and b%2==0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    return bool(a%2 and not b%2 or not a%2 and b%2)break
+def nice(a, b):break    return bool((a+b)%2)break
+def nice(a, b):break    if ((a % 2 == 0) and (b % 2 != 0)):break    	return Truebreak    break    if (b % 2 == 0 and a % 2 != 0):break    	return Truebreak    return False
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    if a % 2 + b % 2 == 1:break        return Truebreak    else:break        return False
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    ea = a % 2break    eb = b % 2break    return ea + eb == 1break
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break    	return Truebreak
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break        return Truebreak
+def nice(a, b):break    return (a%2) != (b%2)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2 ==1) or (a%2==1 and b%2 ==0):break    	return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    return a%2 != b%2break    break
+def nice(a, b):break    if (a % 2 and not(b % 2)) or (b % 2 and not(a % 2)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    if (a % 2 == 0 and b % 2 == 1) or (a % 2 == 1 and b % 2 == 0):break    	return Truebreak    return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break    	return Truebreak    return Falsebreak
+def nice(a, b):break    return (a%2 == 1 and b%2 == 0) or (a%2 == 0 and b%2 == 1)break
+def nice(a, b):break    a_je_sude = a % 2 == 0break    a_je_liche = not a_je_sudebreak    b_je_sude = b % 2 == 0break    b_je_liche = not b_je_sudebreak    if a_je_sude and b_je_liche or 
+def nice(a, b):break    if (((a%2) == 0) and ((b%2) != 0) or ((b%2) == 0) and ((a%2) != 0)):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2!=0 or b%2 == 0 and a%2!=0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return set((a % 2, b % 2)) == set((0, 1))break
+def nice(a, b):break    isA = (a % 2 == 0)break    isB = (b % 2 == 0)break    if (isA):break        if(not isB):break            return Truebreak    else:break        if(isB):break       
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    if b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break        return Falsebreak    
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2==1) or (a%2==1 and b%2==0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2==0 and b%2!=0:break        return Truebreak    elif b%2==0 and a%2!=0:break        return Truebreak    else:break        return False
+def nice(a, b):break    x=a%2;break    y=b%2;break    if x+y==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if(a%2==0 and b%2!=0):break        return Truebreak    elif(b%2==0 and a%2!=0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    return Falsebreak
+def nice(a, b):break    lichea = a % 2break    licheb = b % 2break    if lichea + licheb == 1:break        nice = Truebreak    else:break        nice=Falsebreak    return nicebreak
+def nice(a, b):break    return a%2 != b%2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    break    if(a+b)%2!=0:break        return Truebreak        break    break    return Falsebreak
+def jesuda(cislo):break    return (cislo % 2 == 0)break        breakdef nice(a, b):break    return(jesuda(a) and not jesuda(b)) or (not jesuda(a) and jesuda(b))break
+def nice(a, b):break    if (a%2 == 0  and b%2 == 1) or (b%2 == 0  and a%2 == 1):break        return Truebreak    else:break        return Falsebreakbreakbreak
+def nice(a, b):break    if a%2:break        if b%2:break            return Falsebreak        else:break            return Truebreak    else:break        if b%2:break            return Tru
+def nice(a, b):break    return (a+b)%2 == 1break
+def nice(a, b):    break   if a%2==b%2:break    return Falsebreak   else:break    return Truebreakbreak
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break		return False
+def nice(a, b):break    if ((a % 2 == 0 and b % 2 != 0) or (a % 2 != 0 and b % 2 == 0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1 or (a % 2 == 1 and b % 2 == 0):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    sum=a+bbreak    if sum%2==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    sum = a+bbreak    if sum%2==1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0 or a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return ((a + b) % 2) != 0break
+def nice(a, b):break    if a % 2 == 0 and b % 2 ==0:break        return Falsebreak    elif a % 2 == 0 and b %2 != 0:break        return Truebreak    elif a % 2 != 0 and b%2 == 0:break    
+def nice(a, b):break    liche = (a+b) % 2break    return liche == 1break
+def nice(a, b):break    if((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1: return Truebreak    else: return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2 == 1:break        return Truebreak    if a%2 == 1 and b%2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    licha = 0break    suda = 0break    if (a%2) == 1 or (b%2) == 1:break        licha = 1break    if (a%2) == 0 or (b%2) == 0:break        suda = 1break    if suda == 
+def nice(a, b):break    if (a + b) % 2 == 0:break    	return Falsebreak    else: break    	return Truebreakbreak
+def nice(a, b):   break    return (((a-b)%2)==1)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return (a % 2 != b% 2)break
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2==0 and b % 2 !=0:break    	return Truebreak    elif a % 2 !=0 and b % 2 ==0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a / 2 == a // 2 and b / 2 == b // 2) or (a / 2 != a // 2 and b / 2 != b // 2):break        return Falsebreak    else:break        return True
+def nice(a, b):break    if a%2==0 and b%2==1 or a%2==1 and b%2==0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    return bool(a%2 and not b%2 or not a%2 and b%2)break
+def nice(a, b):break    return bool((a+b)%2)break
+def nice(a, b):break    if ((a % 2 == 0) and (b % 2 != 0)):break    	return Truebreak    break    if (b % 2 == 0 and a % 2 != 0):break    	return Truebreak    return False
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    if a % 2 + b % 2 == 1:break        return Truebreak    else:break        return False
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    ea = a % 2break    eb = b % 2break    return ea + eb == 1break
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break    	return Truebreak
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break        return Truebreak
+def nice(a, b):break    return (a%2) != (b%2)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2 ==1) or (a%2==1 and b%2 ==0):break    	return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    return a%2 != b%2break    break
+def nice(a, b):break    if (a % 2 and not(b % 2)) or (b % 2 and not(a % 2)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    if (a % 2 == 0 and b % 2 == 1) or (a % 2 == 1 and b % 2 == 0):break    	return Truebreak    return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break    	return Truebreak    return Falsebreak
+def nice(a, b):break    return (a%2 == 1 and b%2 == 0) or (a%2 == 0 and b%2 == 1)break
+def nice(a, b):break    a_je_sude = a % 2 == 0break    a_je_liche = not a_je_sudebreak    b_je_sude = b % 2 == 0break    b_je_liche = not b_je_sudebreak    if a_je_sude and b_je_liche or 
+def nice(a, b):break    if (((a%2) == 0) and ((b%2) != 0) or ((b%2) == 0) and ((a%2) != 0)):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2!=0 or b%2 == 0 and a%2!=0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return set((a % 2, b % 2)) == set((0, 1))break
+def nice(a, b):break    isA = (a % 2 == 0)break    isB = (b % 2 == 0)break    if (isA):break        if(not isB):break            return Truebreak    else:break        if(isB):break       
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    if b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break        return Falsebreak    
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2==1) or (a%2==1 and b%2==0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2==0 and b%2!=0:break        return Truebreak    elif b%2==0 and a%2!=0:break        return Truebreak    else:break        return False
+def nice(a, b):break    x=a%2;break    y=b%2;break    if x+y==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if(a%2==0 and b%2!=0):break        return Truebreak    elif(b%2==0 and a%2!=0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    return Falsebreak
+def nice(a, b):break    lichea = a % 2break    licheb = b % 2break    if lichea + licheb == 1:break        nice = Truebreak    else:break        nice=Falsebreak    return nicebreak
+def nice(a, b):break    return a%2 != b%2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    break    if(a+b)%2!=0:break        return Truebreak        break    break    return Falsebreak
+def jesuda(cislo):break    return (cislo % 2 == 0)break        breakdef nice(a, b):break    return(jesuda(a) and not jesuda(b)) or (not jesuda(a) and jesuda(b))break
+def nice(a, b):break    if (a%2 == 0  and b%2 == 1) or (b%2 == 0  and a%2 == 1):break        return Truebreak    else:break        return Falsebreakbreakbreak
+def nice(a, b):break    if a%2:break        if b%2:break            return Falsebreak        else:break            return Truebreak    else:break        if b%2:break            return Tru
+def nice(a, b):break    return (a+b)%2 == 1break
+def nice(a, b):    break   if a%2==b%2:break    return Falsebreak   else:break    return Truebreakbreak
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break		return False
+def nice(a, b):break    if ((a % 2 == 0 and b % 2 != 0) or (a % 2 != 0 and b % 2 == 0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1 or (a % 2 == 1 and b % 2 == 0):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    sum=a+bbreak    if sum%2==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    sum = a+bbreak    if sum%2==1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0 or a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return ((a + b) % 2) != 0break
+def nice(a, b):break    if a % 2 == 0 and b % 2 ==0:break        return Falsebreak    elif a % 2 == 0 and b %2 != 0:break        return Truebreak    elif a % 2 != 0 and b%2 == 0:break    
+def nice(a, b):break    liche = (a+b) % 2break    return liche == 1break
+def nice(a, b):break    if((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1: return Truebreak    else: return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2 == 1:break        return Truebreak    if a%2 == 1 and b%2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    licha = 0break    suda = 0break    if (a%2) == 1 or (b%2) == 1:break        licha = 1break    if (a%2) == 0 or (b%2) == 0:break        suda = 1break    if suda == 
+def nice(a, b):break    if (a + b) % 2 == 0:break    	return Falsebreak    else: break    	return Truebreakbreak
+def nice(a, b):   break    return (((a-b)%2)==1)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return (a % 2 != b% 2)break
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2==0 and b % 2 !=0:break    	return Truebreak    elif a % 2 !=0 and b % 2 ==0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a / 2 == a // 2 and b / 2 == b // 2) or (a / 2 != a // 2 and b / 2 != b // 2):break        return Falsebreak    else:break        return True
+def nice(a, b):break    if a%2==0 and b%2==1 or a%2==1 and b%2==0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    return bool(a%2 and not b%2 or not a%2 and b%2)break
+def nice(a, b):break    return bool((a+b)%2)break
+def nice(a, b):break    if ((a % 2 == 0) and (b % 2 != 0)):break    	return Truebreak    break    if (b % 2 == 0 and a % 2 != 0):break    	return Truebreak    return False
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    if a % 2 + b % 2 == 1:break        return Truebreak    else:break        return False
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    ea = a % 2break    eb = b % 2break    return ea + eb == 1break
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break    	return Truebreak
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break        return Truebreak
+def nice(a, b):break    return (a%2) != (b%2)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2 ==1) or (a%2==1 and b%2 ==0):break    	return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    return a%2 != b%2break    break
+def nice(a, b):break    if (a % 2 and not(b % 2)) or (b % 2 and not(a % 2)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    if (a % 2 == 0 and b % 2 == 1) or (a % 2 == 1 and b % 2 == 0):break    	return Truebreak    return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break    	return Truebreak    return Falsebreak
+def nice(a, b):break    return (a%2 == 1 and b%2 == 0) or (a%2 == 0 and b%2 == 1)break
+def nice(a, b):break    a_je_sude = a % 2 == 0break    a_je_liche = not a_je_sudebreak    b_je_sude = b % 2 == 0break    b_je_liche = not b_je_sudebreak    if a_je_sude and b_je_liche or 
+def nice(a, b):break    if (((a%2) == 0) and ((b%2) != 0) or ((b%2) == 0) and ((a%2) != 0)):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2!=0 or b%2 == 0 and a%2!=0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return set((a % 2, b % 2)) == set((0, 1))break
+def nice(a, b):break    isA = (a % 2 == 0)break    isB = (b % 2 == 0)break    if (isA):break        if(not isB):break            return Truebreak    else:break        if(isB):break       
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    if b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break        return Falsebreak    
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2==1) or (a%2==1 and b%2==0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2==0 and b%2!=0:break        return Truebreak    elif b%2==0 and a%2!=0:break        return Truebreak    else:break        return False
+def nice(a, b):break    x=a%2;break    y=b%2;break    if x+y==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if(a%2==0 and b%2!=0):break        return Truebreak    elif(b%2==0 and a%2!=0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    return Falsebreak
+def nice(a, b):break    lichea = a % 2break    licheb = b % 2break    if lichea + licheb == 1:break        nice = Truebreak    else:break        nice=Falsebreak    return nicebreak
+def nice(a, b):break    return a%2 != b%2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    break    if(a+b)%2!=0:break        return Truebreak        break    break    return Falsebreak
+def jesuda(cislo):break    return (cislo % 2 == 0)break        breakdef nice(a, b):break    return(jesuda(a) and not jesuda(b)) or (not jesuda(a) and jesuda(b))break
+def nice(a, b):break    if (a%2 == 0  and b%2 == 1) or (b%2 == 0  and a%2 == 1):break        return Truebreak    else:break        return Falsebreakbreakbreak
+def nice(a, b):break    if a%2:break        if b%2:break            return Falsebreak        else:break            return Truebreak    else:break        if b%2:break            return Tru
+def nice(a, b):break    return (a+b)%2 == 1break
+def nice(a, b):    break   if a%2==b%2:break    return Falsebreak   else:break    return Truebreakbreak
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break		return False
+def nice(a, b):break    if ((a % 2 == 0 and b % 2 != 0) or (a % 2 != 0 and b % 2 == 0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1 or (a % 2 == 1 and b % 2 == 0):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    sum=a+bbreak    if sum%2==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    sum = a+bbreak    if sum%2==1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0 or a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return ((a + b) % 2) != 0break
+def nice(a, b):break    if a % 2 == 0 and b % 2 ==0:break        return Falsebreak    elif a % 2 == 0 and b %2 != 0:break        return Truebreak    elif a % 2 != 0 and b%2 == 0:break    
+def nice(a, b):break    liche = (a+b) % 2break    return liche == 1break
+def nice(a, b):break    if((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1: return Truebreak    else: return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2 == 1:break        return Truebreak    if a%2 == 1 and b%2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    licha = 0break    suda = 0break    if (a%2) == 1 or (b%2) == 1:break        licha = 1break    if (a%2) == 0 or (b%2) == 0:break        suda = 1break    if suda == 
+def nice(a, b):break    if (a + b) % 2 == 0:break    	return Falsebreak    else: break    	return Truebreakbreak
+def nice(a, b):   break    return (((a-b)%2)==1)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return (a % 2 != b% 2)break
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2==0 and b % 2 !=0:break    	return Truebreak    elif a % 2 !=0 and b % 2 ==0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a / 2 == a // 2 and b / 2 == b // 2) or (a / 2 != a // 2 and b / 2 != b // 2):break        return Falsebreak    else:break        return True
+def nice(a, b):break    if a%2==0 and b%2==1 or a%2==1 and b%2==0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    return bool(a%2 and not b%2 or not a%2 and b%2)break
+def nice(a, b):break    return bool((a+b)%2)break
+def nice(a, b):break    if ((a % 2 == 0) and (b % 2 != 0)):break    	return Truebreak    break    if (b % 2 == 0 and a % 2 != 0):break    	return Truebreak    return False
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    if a % 2 + b % 2 == 1:break        return Truebreak    else:break        return False
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    ea = a % 2break    eb = b % 2break    return ea + eb == 1break
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break    	return Truebreak
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break        return Truebreak
+def nice(a, b):break    return (a%2) != (b%2)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2 ==1) or (a%2==1 and b%2 ==0):break    	return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    return a%2 != b%2break    break
+def nice(a, b):break    if (a % 2 and not(b % 2)) or (b % 2 and not(a % 2)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    if (a % 2 == 0 and b % 2 == 1) or (a % 2 == 1 and b % 2 == 0):break    	return Truebreak    return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break    	return Truebreak    return Falsebreak
+def nice(a, b):break    return (a%2 == 1 and b%2 == 0) or (a%2 == 0 and b%2 == 1)break
+def nice(a, b):break    a_je_sude = a % 2 == 0break    a_je_liche = not a_je_sudebreak    b_je_sude = b % 2 == 0break    b_je_liche = not b_je_sudebreak    if a_je_sude and b_je_liche or 
+def nice(a, b):break    if (((a%2) == 0) and ((b%2) != 0) or ((b%2) == 0) and ((a%2) != 0)):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2!=0 or b%2 == 0 and a%2!=0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return set((a % 2, b % 2)) == set((0, 1))break
+def nice(a, b):break    isA = (a % 2 == 0)break    isB = (b % 2 == 0)break    if (isA):break        if(not isB):break            return Truebreak    else:break        if(isB):break       
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    if b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break        return Falsebreak    
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2==1) or (a%2==1 and b%2==0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2==0 and b%2!=0:break        return Truebreak    elif b%2==0 and a%2!=0:break        return Truebreak    else:break        return False
+def nice(a, b):break    x=a%2;break    y=b%2;break    if x+y==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if(a%2==0 and b%2!=0):break        return Truebreak    elif(b%2==0 and a%2!=0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    return Falsebreak
+def nice(a, b):break    lichea = a % 2break    licheb = b % 2break    if lichea + licheb == 1:break        nice = Truebreak    else:break        nice=Falsebreak    return nicebreak
+def nice(a, b):break    return a%2 != b%2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    break    if(a+b)%2!=0:break        return Truebreak        break    break    return Falsebreak
+def jesuda(cislo):break    return (cislo % 2 == 0)break        breakdef nice(a, b):break    return(jesuda(a) and not jesuda(b)) or (not jesuda(a) and jesuda(b))break
+def nice(a, b):break    if (a%2 == 0  and b%2 == 1) or (b%2 == 0  and a%2 == 1):break        return Truebreak    else:break        return Falsebreakbreakbreak
+def nice(a, b):break    if a%2:break        if b%2:break            return Falsebreak        else:break            return Truebreak    else:break        if b%2:break            return Tru
+def nice(a, b):break    return (a+b)%2 == 1break
+def nice(a, b):    break   if a%2==b%2:break    return Falsebreak   else:break    return Truebreakbreak
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break		return False
+def nice(a, b):break    if ((a % 2 == 0 and b % 2 != 0) or (a % 2 != 0 and b % 2 == 0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1 or (a % 2 == 1 and b % 2 == 0):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    sum=a+bbreak    if sum%2==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    sum = a+bbreak    if sum%2==1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0 or a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return ((a + b) % 2) != 0break
+def nice(a, b):break    if a % 2 == 0 and b % 2 ==0:break        return Falsebreak    elif a % 2 == 0 and b %2 != 0:break        return Truebreak    elif a % 2 != 0 and b%2 == 0:break    
+def nice(a, b):break    liche = (a+b) % 2break    return liche == 1break
+def nice(a, b):break    if((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1: return Truebreak    else: return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2 == 1:break        return Truebreak    if a%2 == 1 and b%2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    licha = 0break    suda = 0break    if (a%2) == 1 or (b%2) == 1:break        licha = 1break    if (a%2) == 0 or (b%2) == 0:break        suda = 1break    if suda == 
+def nice(a, b):break    if (a + b) % 2 == 0:break    	return Falsebreak    else: break    	return Truebreakbreak
+def nice(a, b):   break    return (((a-b)%2)==1)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return (a % 2 != b% 2)break
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2==0 and b % 2 !=0:break    	return Truebreak    elif a % 2 !=0 and b % 2 ==0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a / 2 == a // 2 and b / 2 == b // 2) or (a / 2 != a // 2 and b / 2 != b // 2):break        return Falsebreak    else:break        return True
+def nice(a, b):break    if a%2==0 and b%2==1 or a%2==1 and b%2==0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    return bool(a%2 and not b%2 or not a%2 and b%2)break
+def nice(a, b):break    return bool((a+b)%2)break
+def nice(a, b):break    if ((a % 2 == 0) and (b % 2 != 0)):break    	return Truebreak    break    if (b % 2 == 0 and a % 2 != 0):break    	return Truebreak    return False
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    if a % 2 + b % 2 == 1:break        return Truebreak    else:break        return False
+def nice(a, b):break    ea = a % 2break    eb = b % 2break    return ea + eb == 1break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break    	return Truebreak
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break        return Truebreak
+def nice(a, b):break    return (a%2) != (b%2)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2 ==1) or (a%2==1 and b%2 ==0):break    	return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    return a%2 != b%2break    break
+def nice(a, b):break    if (a % 2 and not(b % 2)) or (b % 2 and not(a % 2)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    if (a % 2 == 0 and b % 2 == 1) or (a % 2 == 1 and b % 2 == 0):break    	return Truebreak    return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break    	return Truebreak    return Falsebreak
+def nice(a, b):break    return (a%2 == 1 and b%2 == 0) or (a%2 == 0 and b%2 == 1)break
+def nice(a, b):break    if (((a%2) == 0) and ((b%2) != 0) or ((b%2) == 0) and ((a%2) != 0)):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2!=0 or b%2 == 0 and a%2!=0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return set((a % 2, b % 2)) == set((0, 1))break
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2==1) or (a%2==1 and b%2==0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2==0 and b%2!=0:break        return Truebreak    elif b%2==0 and a%2!=0:break        return Truebreak    else:break        return False
+def nice(a, b):break    x=a%2;break    y=b%2;break    if x+y==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if(a%2==0 and b%2!=0):break        return Truebreak    elif(b%2==0 and a%2!=0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    return Falsebreak
+def nice(a, b):break    lichea = a % 2break    licheb = b % 2break    if lichea + licheb == 1:break        nice = Truebreak    else:break        nice=Falsebreak    return nicebreak
+def nice(a, b):break    return a%2 != b%2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    break    if(a+b)%2!=0:break        return Truebreak        break    break    return Falsebreak
+def jesuda(cislo):break    return (cislo % 2 == 0)break        breakdef nice(a, b):break    return(jesuda(a) and not jesuda(b)) or (not jesuda(a) and jesuda(b))break
+def nice(a, b):break    if (a%2 == 0  and b%2 == 1) or (b%2 == 0  and a%2 == 1):break        return Truebreak    else:break        return Falsebreakbreakbreak
+def nice(a, b):break    return (a+b)%2 == 1break
+def nice(a, b):    break   if a%2==b%2:break    return Falsebreak   else:break    return Truebreakbreak
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break		return False
+def nice(a, b):break    if ((a % 2 == 0 and b % 2 != 0) or (a % 2 != 0 and b % 2 == 0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1 or (a % 2 == 1 and b % 2 == 0):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    sum=a+bbreak    if sum%2==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    sum = a+bbreak    if sum%2==1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0 or a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return ((a + b) % 2) != 0break
+def nice(a, b):break    liche = (a+b) % 2break    return liche == 1break
+def nice(a, b):break    if((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1: return Truebreak    else: return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2 == 1:break        return Truebreak    if a%2 == 1 and b%2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 0:break    	return Falsebreak    else: break    	return Truebreakbreak
+def nice(a, b):   break    return (((a-b)%2)==1)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return (a % 2 != b% 2)break
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2==0 and b % 2 !=0:break    	return Truebreak    elif a % 2 !=0 and b % 2 ==0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a / 2 == a // 2 and b / 2 == b // 2) or (a / 2 != a // 2 and b / 2 != b // 2):break        return Falsebreak    else:break        return True
+def nice(a, b):break    if a%2==0 and b%2==1 or a%2==1 and b%2==0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    return bool(a%2 and not b%2 or not a%2 and b%2)break
+def nice(a, b):break    return bool((a+b)%2)break
+def nice(a, b):break    if ((a % 2 == 0) and (b % 2 != 0)):break    	return Truebreak    break    if (b % 2 == 0 and a % 2 != 0):break    	return Truebreak    return False
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    return ((a % 2 == 0) and (b % 2 == 1)) or ((a % 2 == 1) and (b % 2 == 0))break
+def nice(a, b):break    if a % 2 + b % 2 == 1:break        return Truebreak    else:break        return False
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    ea = a % 2break    eb = b % 2break    return ea + eb == 1break
+def nice(a, b):break    if a % 2 == 0:break        if b % 2 != 0:break            return Truebreak        else:break            return Falsebreak    else:break        if b % 2 == 0:break 
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break    	return Truebreak
+def nice(a, b):break    if (a+b)%2==0:break    	return Falsebreak    else:break        return Truebreak
+def nice(a, b):break    return (a%2) != (b%2)break
+def nice(a, b):break    return a % 2 != b % 2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2 ==1) or (a%2==1 and b%2 ==0):break    	return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    return a%2 != b%2break    break
+def nice(a, b):break    if (a % 2 and not(b % 2)) or (b % 2 and not(a % 2)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return bool((a + b) % 2)break
+def nice(a, b):break    if (a % 2 == 0 and b % 2 == 1) or (a % 2 == 1 and b % 2 == 0):break    	return Truebreak    return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break    	return Truebreak    return Falsebreak
+def nice(a, b):break    return (a%2 == 1 and b%2 == 0) or (a%2 == 0 and b%2 == 1)break
+def nice(a, b):break    a_je_sude = a % 2 == 0break    a_je_liche = not a_je_sudebreak    b_je_sude = b % 2 == 0break    b_je_liche = not b_je_sudebreak    if a_je_sude and b_je_liche or 
+def nice(a, b):break    if (((a%2) == 0) and ((b%2) != 0) or ((b%2) == 0) and ((a%2) != 0)):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2!=0 or b%2 == 0 and a%2!=0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return set((a % 2, b % 2)) == set((0, 1))break
+def nice(a, b):break    isA = (a % 2 == 0)break    isB = (b % 2 == 0)break    if (isA):break        if(not isB):break            return Truebreak    else:break        if(isB):break       
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    if b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break        return Falsebreak    
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break	    return Falsebreak
+def nice(a, b):break    if (a%2 == 1) and (b%2 == 0):break        return Truebreak    elif (a%2 == 0) and (b%2 == 1):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a%2==0 and b%2==1) or (a%2==1 and b%2==0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    if a%2==0 and b%2!=0:break        return Truebreak    elif b%2==0 and a%2!=0:break        return Truebreak    else:break        return False
+def nice(a, b):break    x=a%2;break    y=b%2;break    if x+y==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if(a%2==0 and b%2!=0):break        return Truebreak    elif(b%2==0 and a%2!=0):break        return Truebreak    return Falsebreak
+def nice(a, b):break    c = a + bbreak    if c % 2 == 1:break        return Truebreak    return Falsebreak
+def nice(a, b):break    lichea = a % 2break    licheb = b % 2break    if lichea + licheb == 1:break        nice = Truebreak    else:break        nice=Falsebreak    return nicebreak
+def nice(a, b):break    return a%2 != b%2break
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0:break        return Truebreak    elif a % 2 != 0 and b % 2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    break    if(a+b)%2!=0:break        return Truebreak        break    break    return Falsebreak
+def jesuda(cislo):break    return (cislo % 2 == 0)break        breakdef nice(a, b):break    return(jesuda(a) and not jesuda(b)) or (not jesuda(a) and jesuda(b))break
+def nice(a, b):break    if (a%2 == 0  and b%2 == 1) or (b%2 == 0  and a%2 == 1):break        return Truebreak    else:break        return Falsebreakbreakbreak
+def nice(a, b):break    if a%2:break        if b%2:break            return Falsebreak        else:break            return Truebreak    else:break        if b%2:break            return Tru
+def nice(a, b):break    return (a+b)%2 == 1break
+def nice(a, b):    break   if a%2==b%2:break    return Falsebreak   else:break    return Truebreakbreak
+def nice(a, b):break    if (a % 2 == 1 and b % 2 == 0) or (a % 2 == 0 and b % 2 == 1):break        return Truebreak    else:break		return False
+def nice(a, b):break    if ((a % 2 == 0 and b % 2 != 0) or (a % 2 != 0 and b % 2 == 0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1:break        return Truebreak    elif b % 2 == 0 and a % 2 == 1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 == 1 or (a % 2 == 1 and b % 2 == 0):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    sum=a+bbreak    if sum%2==1:break        return Truebreak    else:break    	return Falsebreak
+def nice(a, b):break    sum = a+bbreak    if sum%2==1:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if a % 2 == 0 and b % 2 != 0 or a % 2 != 0 and b % 2 == 0:break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    return ((a + b) % 2) != 0break
+def nice(a, b):break    if a % 2 == 0 and b % 2 ==0:break        return Falsebreak    elif a % 2 == 0 and b %2 != 0:break        return Truebreak    elif a % 2 != 0 and b%2 == 0:break    
+def nice(a, b):break    liche = (a+b) % 2break    return liche == 1break
+def nice(a, b):break    if((a%2==0 and b%2!=0) or (a%2!=0 and b%2==0)):break        return Truebreak    else:break        return Falsebreak
+def nice(a, b):break    if (a + b) % 2 == 1: return Truebreak    else: return Falsebreak
+def nice(a, b):break    if a%2 == 0 and b%2 == 1:break        return Truebreak    if a%2 == 1 and b%2 == 0:break        return Truebreak    return Falsebreak
+def nice(a, b):break    licha = 0break    suda = 0break    if (a%2) == 1 or (b%2) == 1:break        licha = 1break    if (a%2) == 0 or (b%2) == 0:break        suda = 1break    if suda == 
+def nice(a, b):break    if (a + b) % 2 == 0:break    	return Falsebreak    else: break    	return Truebreakbreak
+def nice(a, b):   break    return (((a-b)%2)==1)break
+def nice(a, b):break    return a % 2 != b % 2break

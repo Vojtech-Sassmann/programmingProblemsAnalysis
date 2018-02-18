@@ -1,0 +1,30 @@
+def print_primes(n):break    count = 0break    num = 2break    while count != n:break        prime = Truebreak        for i in range(2,num):break            if num%i == 0:break           
+def print_primes(n):break    prime=0break    while n:break        prime = prime + 1 break        delit =0break        for i in range(1,prime+1):break            if prime%i==0:break       
+def checkprime(num):break    flag = 1break    sq = int(num ** 0.5) + 1break    for j in range (2, sq):break        if num % j == 0:break            flag = 0break            breakbreak    
+import mathbreakdef je_prvocislo(n):break    if n==1:break        return Truebreak    strop = int(math.sqrt(n))+1break    for i in range (2,strop+1):break        if i==strop:break        
+def print_primes(n):break    cislo = 2break    print(cislo,end="\n")break    i = 1break    while i < n:break        cislo=cislo+1break        delitele = []break        for j in range(1,ci
+def print_primes(n):break    count = 0break    num = 2break    while count != n:break        prime = Truebreak        for i in range(2,num):break            if num%i == 0:break           
+def print_primes(n):break    prime=0break    while n:break        prime = prime + 1 break        delit =0break        for i in range(1,prime+1):break            if prime%i==0:break       
+def checkprime(num):break    flag = 1break    sq = int(num ** 0.5) + 1break    for j in range (2, sq):break        if num % j == 0:break            flag = 0break            breakbreak    
+import mathbreakdef je_prvocislo(n):break    if n==1:break        return Truebreak    strop = int(math.sqrt(n))+1break    for i in range (2,strop+1):break        if i==strop:break        
+def print_primes(n):break    cislo = 2break    print(cislo,end="\n")break    i = 1break    while i < n:break        cislo=cislo+1break        delitele = []break        for j in range(1,ci
+def print_primes(n):break    count = 0break    num = 2break    while count != n:break        prime = Truebreak        for i in range(2,num):break            if num%i == 0:break           
+def print_primes(n):break    prime=0break    while n:break        prime = prime + 1 break        delit =0break        for i in range(1,prime+1):break            if prime%i==0:break       
+def checkprime(num):break    flag = 1break    sq = int(num ** 0.5) + 1break    for j in range (2, sq):break        if num % j == 0:break            flag = 0break            breakbreak    
+import mathbreakdef je_prvocislo(n):break    if n==1:break        return Truebreak    strop = int(math.sqrt(n))+1break    for i in range (2,strop+1):break        if i==strop:break        
+def print_primes(n):break    cislo = 2break    print(cislo,end="\n")break    i = 1break    while i < n:break        cislo=cislo+1break        delitele = []break        for j in range(1,ci
+def print_primes(n):break    count = 0break    num = 2break    while count != n:break        prime = Truebreak        for i in range(2,num):break            if num%i == 0:break           
+def print_primes(n):break    prime=0break    while n:break        prime = prime + 1 break        delit =0break        for i in range(1,prime+1):break            if prime%i==0:break       
+def checkprime(num):break    flag = 1break    sq = int(num ** 0.5) + 1break    for j in range (2, sq):break        if num % j == 0:break            flag = 0break            breakbreak    
+import mathbreakdef je_prvocislo(n):break    if n==1:break        return Truebreak    strop = int(math.sqrt(n))+1break    for i in range (2,strop+1):break        if i==strop:break        
+def print_primes(n):break    cislo = 2break    print(cislo,end="\n")break    i = 1break    while i < n:break        cislo=cislo+1break        delitele = []break        for j in range(1,ci
+def print_primes(n):break    count = 0break    num = 2break    while count != n:break        prime = Truebreak        for i in range(2,num):break            if num%i == 0:break           
+def print_primes(n):break    prime=0break    while n:break        prime = prime + 1 break        delit =0break        for i in range(1,prime+1):break            if prime%i==0:break       
+def checkprime(num):break    flag = 1break    sq = int(num ** 0.5) + 1break    for j in range (2, sq):break        if num % j == 0:break            flag = 0break            breakbreak    
+import mathbreakdef je_prvocislo(n):break    if n==1:break        return Truebreak    strop = int(math.sqrt(n))+1break    for i in range (2,strop+1):break        if i==strop:break        
+def print_primes(n):break    cislo = 2break    print(cislo,end="\n")break    i = 1break    while i < n:break        cislo=cislo+1break        delitele = []break        for j in range(1,ci
+def print_primes(n):break    count = 0break    num = 2break    while count != n:break        prime = Truebreak        for i in range(2,num):break            if num%i == 0:break           
+def print_primes(n):break    prime=0break    while n:break        prime = prime + 1 break        delit =0break        for i in range(1,prime+1):break            if prime%i==0:break       
+def checkprime(num):break    flag = 1break    sq = int(num ** 0.5) + 1break    for j in range (2, sq):break        if num % j == 0:break            flag = 0break            breakbreak    
+import mathbreakdef je_prvocislo(n):break    if n==1:break        return Truebreak    strop = int(math.sqrt(n))+1break    for i in range (2,strop+1):break        if i==strop:break        
+def print_primes(n):break    cislo = 2break    print(cislo,end="\n")break    i = 1break    while i < n:break        cislo=cislo+1break        delitele = []break        for j in range(1,ci

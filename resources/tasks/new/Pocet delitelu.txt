@@ -1,0 +1,97 @@
+def divisors_count(n):break    count = 0break    for i in range(1, n+1):break		if n % i == 0:break			count += 1break    return countbreak
+def divisors_count(n):break    a=0break    for k in range (1, n+1):break        if n%k == 0:break            a = a+1break    return abreak
+def divisors_count(n):break    div = 1break    count = 0break    while div <= n:break        if n%div == 0:break            count += 1break        div += 1break    return(count)break
+def divisors_count(n):break    y=0break    for i in range(1,n+1):break        if n%i==0:break            y+=1      break    return ybreak
+def divisors_count(n):break    counter=0break    for i in range(1,n+1):break        if n%i==0:break            counter += 1break    return counterbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a += 1break    return abreak
+def divisors_count(n):break    count=0break    for i in range(1,n+1):break        if not(n%i):break            count +=1break    return countbreak
+def divisors_count(n):break    count=0break    for x in range(1, n+1):break        if n % x == 0:break            count+=1break    return countbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = a + 1break    return abreak
+def divisors_count(n):break    b=0break    pocet=0break    for i in range(1,n+1):break        b=n%ibreak        if b<1:break            pocet=pocet +1break    return pocetbreak
+def divisors_count(n):break    pocet=0break    for i in range(1,n+1):break        if n%i==0:break            pocet+=1break    return pocetbreak
+def divisors_count(n):break    x=0break    for i in range(n):break        if n%(i+1) == 0:break            x += 1break    return xbreak
+def divisors_count(n):break    pocet = 0break    for i in range(1,n+1):break        if (n%i) == 0:break            pocet = pocet +1break            break            break    return pocetb
+def divisors_count(n):break    a = 0break    for i in range(1,n+1):break    	if (n % i == 0):break        	a += 1break        break    return abreak
+def divisors_count(n):break    count = 0break    for i in range(1, n+1):break		if n % i == 0:break			count += 1break    return countbreak
+def divisors_count(n):break    a=0break    for k in range (1, n+1):break        if n%k == 0:break            a = a+1break    return abreak
+def divisors_count(n):break    div = 1break    count = 0break    while div <= n:break        if n%div == 0:break            count += 1break        div += 1break    return(count)break
+def divisors_count(n):break    y=0break    for i in range(1,n+1):break        if n%i==0:break            y+=1      break    return ybreak
+def divisors_count(n):break    counter=0break    for i in range(1,n+1):break        if n%i==0:break            counter += 1break    return counterbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a += 1break    return abreak
+def divisors_count(n):break    count=0break    for i in range(1,n+1):break        if not(n%i):break            count +=1break    return countbreak
+def divisors_count(n):break    count=0break    for x in range(1, n+1):break        if n % x == 0:break            count+=1break    return countbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = a + 1break    return abreak
+def divisors_count(n):break    b=0break    pocet=0break    for i in range(1,n+1):break        b=n%ibreak        if b<1:break            pocet=pocet +1break    return pocetbreak
+def divisors_count(n):break    pocet=0break    for i in range(1,n+1):break        if n%i==0:break            pocet+=1break    return pocetbreak
+def divisors_count(n):break    x=0break    for i in range(n):break        if n%(i+1) == 0:break            x += 1break    return xbreak
+def divisors_count(n):break    pocet = 0break    for i in range(1,n+1):break        if (n%i) == 0:break            pocet = pocet +1break            break            break    return pocetb
+def divisors_count(n):break    a = 0break    for i in range(1,n+1):break    	if (n % i == 0):break        	a += 1break        break    return abreak
+def divisors_count(n):break    count = 0break    for i in range(1, n+1):break		if n % i == 0:break			count += 1break    return countbreak
+def divisors_count(n):break    a=0break    for k in range (1, n+1):break        if n%k == 0:break            a = a+1break    return abreak
+def divisors_count(n):break    div = 1break    count = 0break    while div <= n:break        if n%div == 0:break            count += 1break        div += 1break    return(count)break
+def divisors_count(n):break    y=0break    for i in range(1,n+1):break        if n%i==0:break            y+=1      break    return ybreak
+def divisors_count(n):break    counter=0break    for i in range(1,n+1):break        if n%i==0:break            counter += 1break    return counterbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a += 1break    return abreak
+def divisors_count(n):break    count=0break    for i in range(1,n+1):break        if not(n%i):break            count +=1break    return countbreak
+def divisors_count(n):break    count=0break    for x in range(1, n+1):break        if n % x == 0:break            count+=1break    return countbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = a + 1break    return abreak
+def divisors_count(n):break    b=0break    pocet=0break    for i in range(1,n+1):break        b=n%ibreak        if b<1:break            pocet=pocet +1break    return pocetbreak
+def divisors_count(n):break    pocet=0break    for i in range(1,n+1):break        if n%i==0:break            pocet+=1break    return pocetbreak
+def divisors_count(n):break    x=0break    for i in range(n):break        if n%(i+1) == 0:break            x += 1break    return xbreak
+def divisors_count(n):break    pocet = 0break    for i in range(1,n+1):break        if (n%i) == 0:break            pocet = pocet +1break            break            break    return pocetb
+def divisors_count(n):break    a = 0break    for i in range(1,n+1):break    	if (n % i == 0):break        	a += 1break        break    return abreak
+def divisors_count(n):break    count = 0break    for i in range(1, n+1):break		if n % i == 0:break			count += 1break    return countbreak
+def divisors_count(n):break    a=0break    for k in range (1, n+1):break        if n%k == 0:break            a = a+1break    return abreak
+def divisors_count(n):break    div = 1break    count = 0break    while div <= n:break        if n%div == 0:break            count += 1break        div += 1break    return(count)break
+def divisors_count(n):break    y=0break    for i in range(1,n+1):break        if n%i==0:break            y+=1      break    return ybreak
+def divisors_count(n):break    counter=0break    for i in range(1,n+1):break        if n%i==0:break            counter += 1break    return counterbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a += 1break    return abreak
+def divisors_count(n):break    count=0break    for i in range(1,n+1):break        if not(n%i):break            count +=1break    return countbreak
+def divisors_count(n):break    count=0break    for x in range(1, n+1):break        if n % x == 0:break            count+=1break    return countbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = a + 1break    return abreak
+def divisors_count(n):break    b=0break    pocet=0break    for i in range(1,n+1):break        b=n%ibreak        if b<1:break            pocet=pocet +1break    return pocetbreak
+def divisors_count(n):break    pocet=0break    for i in range(1,n+1):break        if n%i==0:break            pocet+=1break    return pocetbreak
+def divisors_count(n):break    x=0break    for i in range(n):break        if n%(i+1) == 0:break            x += 1break    return xbreak
+def divisors_count(n):break    pocet = 0break    for i in range(1,n+1):break        if (n%i) == 0:break            pocet = pocet +1break            break            break    return pocetb
+def divisors_count(n):break    a = 0break    for i in range(1,n+1):break    	if (n % i == 0):break        	a += 1break        break    return abreak
+def divisors_count(n):break    count = 0break    for i in range(1, n+1):break		if n % i == 0:break			count += 1break    return countbreak
+def divisors_count(n):break    a=0break    for k in range (1, n+1):break        if n%k == 0:break            a = a+1break    return abreak
+def divisors_count(n):break    div = 1break    count = 0break    while div <= n:break        if n%div == 0:break            count += 1break        div += 1break    return(count)break
+def divisors_count(n):break    y=0break    for i in range(1,n+1):break        if n%i==0:break            y+=1      break    return ybreak
+def divisors_count(n):break    counter=0break    for i in range(1,n+1):break        if n%i==0:break            counter += 1break    return counterbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a += 1break    return abreak
+def divisors_count(n):break    count=0break    for i in range(1,n+1):break        if not(n%i):break            count +=1break    return countbreak
+def divisors_count(n):break    count=0break    for x in range(1, n+1):break        if n % x == 0:break            count+=1break    return countbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = a + 1break    return abreak
+def divisors_count(n):break    b=0break    pocet=0break    for i in range(1,n+1):break        b=n%ibreak        if b<1:break            pocet=pocet +1break    return pocetbreak
+def divisors_count(n):break    pocet=0break    for i in range(1,n+1):break        if n%i==0:break            pocet+=1break    return pocetbreak
+def divisors_count(n):break    x=0break    for i in range(n):break        if n%(i+1) == 0:break            x += 1break    return xbreak
+def divisors_count(n):break    pocet = 0break    for i in range(1,n+1):break        if (n%i) == 0:break            pocet = pocet +1break            break            break    return pocetb
+def divisors_count(n):break    a = 0break    for i in range(1,n+1):break    	if (n % i == 0):break        	a += 1break        break    return abreak
+def divisors_count(n):break    count = 0break    for i in range(1, n+1):break		if n % i == 0:break			count += 1break    return countbreak
+def divisors_count(n):break    a=0break    for k in range (1, n+1):break        if n%k == 0:break            a = a+1break    return abreak
+def divisors_count(n):break    div = 1break    count = 0break    while div <= n:break        if n%div == 0:break            count += 1break        div += 1break    return(count)break
+def divisors_count(n):break    y=0break    for i in range(1,n+1):break        if n%i==0:break            y+=1      break    return ybreak
+def divisors_count(n):break    counter=0break    for i in range(1,n+1):break        if n%i==0:break            counter += 1break    return counterbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a += 1break    return abreak
+def divisors_count(n):break    count=0break    for i in range(1,n+1):break        if not(n%i):break            count +=1break    return countbreak
+def divisors_count(n):break    count=0break    for x in range(1, n+1):break        if n % x == 0:break            count+=1break    return countbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = a + 1break    return abreak
+def divisors_count(n):break    b=0break    pocet=0break    for i in range(1,n+1):break        b=n%ibreak        if b<1:break            pocet=pocet +1break    return pocetbreak
+def divisors_count(n):break    pocet=0break    for i in range(1,n+1):break        if n%i==0:break            pocet+=1break    return pocetbreak
+def divisors_count(n):break    x=0break    for i in range(n):break        if n%(i+1) == 0:break            x += 1break    return xbreak
+def divisors_count(n):break    a = 0break    for i in range(1,n+1):break    	if (n % i == 0):break        	a += 1break        break    return abreak
+def divisors_count(n):break    count = 0break    for i in range(1, n+1):break		if n % i == 0:break			count += 1break    return countbreak
+def divisors_count(n):break    a=0break    for k in range (1, n+1):break        if n%k == 0:break            a = a+1break    return abreak
+def divisors_count(n):break    div = 1break    count = 0break    while div <= n:break        if n%div == 0:break            count += 1break        div += 1break    return(count)break
+def divisors_count(n):break    y=0break    for i in range(1,n+1):break        if n%i==0:break            y+=1      break    return ybreak
+def divisors_count(n):break    counter=0break    for i in range(1,n+1):break        if n%i==0:break            counter += 1break    return counterbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a += 1break    return abreak
+def divisors_count(n):break    count=0break    for i in range(1,n+1):break        if not(n%i):break            count +=1break    return countbreak
+def divisors_count(n):break    count=0break    for x in range(1, n+1):break        if n % x == 0:break            count+=1break    return countbreak
+def divisors_count(n):break    a = 0break    for i in range(1, n+1):break        if n % i == 0:break            a = a + 1break    return abreak
+def divisors_count(n):break    b=0break    pocet=0break    for i in range(1,n+1):break        b=n%ibreak        if b<1:break            pocet=pocet +1break    return pocetbreak
+def divisors_count(n):break    pocet=0break    for i in range(1,n+1):break        if n%i==0:break            pocet+=1break    return pocetbreak
+def divisors_count(n):break    x=0break    for i in range(n):break        if n%(i+1) == 0:break            x += 1break    return xbreak
+def divisors_count(n):break    pocet = 0break    for i in range(1,n+1):break        if (n%i) == 0:break            pocet = pocet +1break            break            break    return pocetb
+def divisors_count(n):break    a = 0break    for i in range(1,n+1):break    	if (n % i == 0):break        	a += 1break        break    return abreak

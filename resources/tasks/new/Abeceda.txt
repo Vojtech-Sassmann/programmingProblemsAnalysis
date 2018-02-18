@@ -1,0 +1,53 @@
+def alphabet(n):break    for i in range(n):break        print(chr(65+i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(i % 26 + 65))break
+def alphabet(n):break    for i in range(n):break        print(chr(ord("A") + i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(65 + i % 26))break
+def alphabet(n):break    for i in range(1,n+1):break        if i==27:break        	alphabet(n-i+1)break        elif i<27:break        	print(chr(i+64))break        break        break
+def alphabet(n):break    pocet=0break    znak=ord("A")break    for i in range(n):break        print(chr(znak+pocet))break        pocet+=1break        if pocet==26:break            pocet=0
+def alphabet(n):break    chars_in_abc=ord("Z")-ord("A")+1break    zbytek=n%chars_in_abcbreak    for i in range(n//chars_in_abc):break        for j in range(chars_in_abc):break            
+def alphabet(n):break    text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'break    for i in range(n):break        if i > 25:break            x = i % 26break            print(text[x])break        else:b
+def alphabet(n):break    for i in range(n):break        print(chr(65+i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(i % 26 + 65))break
+def alphabet(n):break    for i in range(n):break        print(chr(ord("A") + i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(65 + i % 26))break
+def alphabet(n):break    for i in range(1,n+1):break        if i==27:break        	alphabet(n-i+1)break        elif i<27:break        	print(chr(i+64))break        break        break
+def alphabet(n):break    pocet=0break    znak=ord("A")break    for i in range(n):break        print(chr(znak+pocet))break        pocet+=1break        if pocet==26:break            pocet=0
+def alphabet(n):break    chars_in_abc=ord("Z")-ord("A")+1break    zbytek=n%chars_in_abcbreak    for i in range(n//chars_in_abc):break        for j in range(chars_in_abc):break            
+def alphabet(n):break    text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'break    for i in range(n):break        if i > 25:break            x = i % 26break            print(text[x])break        else:b
+def alphabet(n):break    for i in range(n):break        print(chr(65+i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(i % 26 + 65))break
+def alphabet(n):break    for i in range(n):break        print(chr(ord("A") + i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(65 + i % 26))break
+def alphabet(n):break    for i in range(1,n+1):break        if i==27:break        	alphabet(n-i+1)break        elif i<27:break        	print(chr(i+64))break        break        break
+def alphabet(n):break    pocet=0break    znak=ord("A")break    for i in range(n):break        print(chr(znak+pocet))break        pocet+=1break        if pocet==26:break            pocet=0
+def alphabet(n):break    chars_in_abc=ord("Z")-ord("A")+1break    zbytek=n%chars_in_abcbreak    for i in range(n//chars_in_abc):break        for j in range(chars_in_abc):break            
+def alphabet(n):break    text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'break    for i in range(n):break        if i > 25:break            x = i % 26break            print(text[x])break        else:b
+def alphabet(n):break    for i in range(n):break        print(chr(65+i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(i % 26 + 65))break
+def alphabet(n):break    for i in range(n):break        print(chr(ord("A") + i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(65 + i % 26))break
+def alphabet(n):break    for i in range(1,n+1):break        if i==27:break        	alphabet(n-i+1)break        elif i<27:break        	print(chr(i+64))break        break        break
+def alphabet(n):break    pocet=0break    znak=ord("A")break    for i in range(n):break        print(chr(znak+pocet))break        pocet+=1break        if pocet==26:break            pocet=0
+def alphabet(n):break    chars_in_abc=ord("Z")-ord("A")+1break    zbytek=n%chars_in_abcbreak    for i in range(n//chars_in_abc):break        for j in range(chars_in_abc):break            
+def alphabet(n):break    text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'break    for i in range(n):break        if i > 25:break            x = i % 26break            print(text[x])break        else:b
+def alphabet(n):break    for i in range(n):break        print(chr(65+i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(i % 26 + 65))break
+def alphabet(n):break    for i in range(n):break        print(chr(ord("A") + i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(65 + i % 26))break
+def alphabet(n):break    for i in range(1,n+1):break        if i==27:break        	alphabet(n-i+1)break        elif i<27:break        	print(chr(i+64))break        break        break
+def alphabet(n):break    pocet=0break    znak=ord("A")break    for i in range(n):break        print(chr(znak+pocet))break        pocet+=1break        if pocet==26:break            pocet=0
+def alphabet(n):break    chars_in_abc=ord("Z")-ord("A")+1break    zbytek=n%chars_in_abcbreak    for i in range(n//chars_in_abc):break        for j in range(chars_in_abc):break            
+def alphabet(n):break    text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'break    for i in range(n):break        if i > 25:break            x = i % 26break            print(text[x])break        else:b
+def alphabet(n):break    for i in range(n):break        print(chr(65+i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(i % 26 + 65))break
+def alphabet(n):break    for i in range(n):break        print(chr(ord("A") + i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(65 + i % 26))break
+def alphabet(n):break    for i in range(1,n+1):break        if i==27:break        	alphabet(n-i+1)break        elif i<27:break        	print(chr(i+64))break        break        break
+def alphabet(n):break    for i in range(n):break        print(chr(65+i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(i % 26 + 65))break
+def alphabet(n):break    for i in range(n):break        print(chr(ord("A") + i%26))break
+def alphabet(n):break    for i in range(n):break        print(chr(65 + i % 26))break
+def alphabet(n):break    for i in range(1,n+1):break        if i==27:break        	alphabet(n-i+1)break        elif i<27:break        	print(chr(i+64))break        break        break
+def alphabet(n):break    pocet=0break    znak=ord("A")break    for i in range(n):break        print(chr(znak+pocet))break        pocet+=1break        if pocet==26:break            pocet=0
+def alphabet(n):break    chars_in_abc=ord("Z")-ord("A")+1break    zbytek=n%chars_in_abcbreak    for i in range(n//chars_in_abc):break        for j in range(chars_in_abc):break            
+def alphabet(n):break    text = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'break    for i in range(n):break        if i > 25:break            x = i % 26break            print(text[x])break        else:b

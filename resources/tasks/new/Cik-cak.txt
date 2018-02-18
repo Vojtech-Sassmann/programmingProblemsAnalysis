@@ -1,0 +1,12 @@
+def zigzag(text):break    res1 = ''break    res2 = ''break    for i in range(len(text)):break        if i % 2 == 0:break            res1 += text[i]break            res2 += '.'break       
+def zigzag(text):break    delka=len(text)break    text2=""break    for i in range(1,delka+1):break        if i%2==1:break            text2=text2+text[i-1]break        else:break          
+def zigzag(text):break    res1 = ''break    res2 = ''break    for i in range(len(text)):break        if i % 2 == 0:break            res1 += text[i]break            res2 += '.'break       
+def zigzag(text):break    delka=len(text)break    text2=""break    for i in range(1,delka+1):break        if i%2==1:break            text2=text2+text[i-1]break        else:break          
+def zigzag(text):break    res1 = ''break    res2 = ''break    for i in range(len(text)):break        if i % 2 == 0:break            res1 += text[i]break            res2 += '.'break       
+def zigzag(text):break    delka=len(text)break    text2=""break    for i in range(1,delka+1):break        if i%2==1:break            text2=text2+text[i-1]break        else:break          
+def zigzag(text):break    res1 = ''break    res2 = ''break    for i in range(len(text)):break        if i % 2 == 0:break            res1 += text[i]break            res2 += '.'break       
+def zigzag(text):break    delka=len(text)break    text2=""break    for i in range(1,delka+1):break        if i%2==1:break            text2=text2+text[i-1]break        else:break          
+def zigzag(text):break    res1 = ''break    res2 = ''break    for i in range(len(text)):break        if i % 2 == 0:break            res1 += text[i]break            res2 += '.'break       
+def zigzag(text):break    delka=len(text)break    text2=""break    for i in range(1,delka+1):break        if i%2==1:break            text2=text2+text[i-1]break        else:break          
+def zigzag(text):break    res1 = ''break    res2 = ''break    for i in range(len(text)):break        if i % 2 == 0:break            res1 += text[i]break            res2 += '.'break       
+def zigzag(text):break    delka=len(text)break    text2=""break    for i in range(1,delka+1):break        if i%2==1:break            text2=text2+text[i-1]break        else:break          

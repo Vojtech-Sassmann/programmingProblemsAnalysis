@@ -1,0 +1,103 @@
+def every_second_number(num_list):break    for i in range(0,len(num_list),2):break        print(num_list[i])
+def every_second_number(num_list):break    for i in (num_list[::2]):break		print(i)
+def every_second_number(num_list):break    print(num_list[0])break    if len(num_list) >= 3:break        every_second_number(num_list[2:len(num_list)])break                               
+def every_second_number(num_list):break    x=1break    for i in num_list:break        x=x+1break        if x%2 == 0:break    		print(i)break
+def every_second_number(num_list):break    x = 1break    for i in num_list:break        x = x + 1break        if x%2 == 0:break            print(i)break
+def every_second_number(num_list):break    for i, j in enumerate(num_list):break    	if i % 2 == 0:break        	print(j)break
+def every_second_number(num_list):break    for i in range(0, len(num_list)):break        if (i % 2 == 0):break    		print(num_list[i])break
+def every_second_number(num_list):break    for i,n in enumerate(num_list):break        if not i % 2:break    		print(n)break
+def every_second_number(num_list):break    i = 0break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    for i in range((len(num_list) + 1)// 2):break        print(num_list[i * 2])break
+def every_second_number(num_list):break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    new_lst=num_list[::2]break    for x in new_lst:break        print(x)break        break    break
+def every_second_number(num_list):break    count = 0break    print (num_list[0])break    for i in range(1,len(num_list)+1):break        count += 1break        if count% 2 == 0:break    		
+def every_second_number(num_list):break    count = 0break    for items in num_list:break        count += 1break        if count% 2 != 0:break    		print(items)
+def every_second_number(num_list):break    for i in num_list[0::2]:break        print(i)break
+def every_second_number(num_list):break    for i in range(0,len(num_list),2):break        print(num_list[i])
+def every_second_number(num_list):break    for i in (num_list[::2]):break		print(i)
+def every_second_number(num_list):break    print(num_list[0])break    if len(num_list) >= 3:break        every_second_number(num_list[2:len(num_list)])break                               
+def every_second_number(num_list):break    x=1break    for i in num_list:break        x=x+1break        if x%2 == 0:break    		print(i)break
+def every_second_number(num_list):break    x = 1break    for i in num_list:break        x = x + 1break        if x%2 == 0:break            print(i)break
+def every_second_number(num_list):break    for i, j in enumerate(num_list):break    	if i % 2 == 0:break        	print(j)break
+def every_second_number(num_list):break    for i in range(0, len(num_list)):break        if (i % 2 == 0):break    		print(num_list[i])break
+def every_second_number(num_list):break    for i,n in enumerate(num_list):break        if not i % 2:break    		print(n)break
+def every_second_number(num_list):break    i = 0break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    for i in range((len(num_list) + 1)// 2):break        print(num_list[i * 2])break
+def every_second_number(num_list):break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    new_lst=num_list[::2]break    for x in new_lst:break        print(x)break        break    break
+def every_second_number(num_list):break    count = 0break    print (num_list[0])break    for i in range(1,len(num_list)+1):break        count += 1break        if count% 2 == 0:break    		
+def every_second_number(num_list):break    count = 0break    for items in num_list:break        count += 1break        if count% 2 != 0:break    		print(items)
+def every_second_number(num_list):break    for i in num_list[0::2]:break        print(i)break
+def every_second_number(num_list):break    for i in range(0,len(num_list),2):break        print(num_list[i])
+def every_second_number(num_list):break    for i in (num_list[::2]):break		print(i)
+def every_second_number(num_list):break    print(num_list[0])break    if len(num_list) >= 3:break        every_second_number(num_list[2:len(num_list)])break                               
+def every_second_number(num_list):break    x=1break    for i in num_list:break        x=x+1break        if x%2 == 0:break    		print(i)break
+def every_second_number(num_list):break    x = 1break    for i in num_list:break        x = x + 1break        if x%2 == 0:break            print(i)break
+def every_second_number(num_list):break    for i, j in enumerate(num_list):break    	if i % 2 == 0:break        	print(j)break
+def every_second_number(num_list):break    for i in range(0, len(num_list)):break        if (i % 2 == 0):break    		print(num_list[i])break
+def every_second_number(num_list):break    for i,n in enumerate(num_list):break        if not i % 2:break    		print(n)break
+def every_second_number(num_list):break    i = 0break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    for i in range((len(num_list) + 1)// 2):break        print(num_list[i * 2])break
+def every_second_number(num_list):break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    new_lst=num_list[::2]break    for x in new_lst:break        print(x)break        break    break
+def every_second_number(num_list):break    count = 0break    print (num_list[0])break    for i in range(1,len(num_list)+1):break        count += 1break        if count% 2 == 0:break    		
+def every_second_number(num_list):break    count = 0break    for items in num_list:break        count += 1break        if count% 2 != 0:break    		print(items)
+def every_second_number(num_list):break    for i in num_list[0::2]:break        print(i)break
+def every_second_number(num_list):break    for i in range(0,len(num_list),2):break        print(num_list[i])
+def every_second_number(num_list):break    for i in (num_list[::2]):break		print(i)
+def every_second_number(num_list):break    print(num_list[0])break    if len(num_list) >= 3:break        every_second_number(num_list[2:len(num_list)])break                               
+def every_second_number(num_list):break    x=1break    for i in num_list:break        x=x+1break        if x%2 == 0:break    		print(i)break
+def every_second_number(num_list):break    x = 1break    for i in num_list:break        x = x + 1break        if x%2 == 0:break            print(i)break
+def every_second_number(num_list):break    for i, j in enumerate(num_list):break    	if i % 2 == 0:break        	print(j)break
+def every_second_number(num_list):break    for i in range(0, len(num_list)):break        if (i % 2 == 0):break    		print(num_list[i])break
+def every_second_number(num_list):break    for i,n in enumerate(num_list):break        if not i % 2:break    		print(n)break
+def every_second_number(num_list):break    i = 0break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    for i in range((len(num_list) + 1)// 2):break        print(num_list[i * 2])break
+def every_second_number(num_list):break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    new_lst=num_list[::2]break    for x in new_lst:break        print(x)break        break    break
+def every_second_number(num_list):break    count = 0break    print (num_list[0])break    for i in range(1,len(num_list)+1):break        count += 1break        if count% 2 == 0:break    		
+def every_second_number(num_list):break    count = 0break    for items in num_list:break        count += 1break        if count% 2 != 0:break    		print(items)
+def every_second_number(num_list):break    for i in num_list[0::2]:break        print(i)break
+def every_second_number(num_list):break    for i in range(0,len(num_list),2):break        print(num_list[i])
+def every_second_number(num_list):break    for i in (num_list[::2]):break		print(i)
+def every_second_number(num_list):break    print(num_list[0])break    if len(num_list) >= 3:break        every_second_number(num_list[2:len(num_list)])break                               
+def every_second_number(num_list):break    x=1break    for i in num_list:break        x=x+1break        if x%2 == 0:break    		print(i)break
+def every_second_number(num_list):break    x = 1break    for i in num_list:break        x = x + 1break        if x%2 == 0:break            print(i)break
+def every_second_number(num_list):break    for i, j in enumerate(num_list):break    	if i % 2 == 0:break        	print(j)break
+def every_second_number(num_list):break    for i in range(0, len(num_list)):break        if (i % 2 == 0):break    		print(num_list[i])break
+def every_second_number(num_list):break    for i,n in enumerate(num_list):break        if not i % 2:break    		print(n)break
+def every_second_number(num_list):break    i = 0break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    for i in range((len(num_list) + 1)// 2):break        print(num_list[i * 2])break
+def every_second_number(num_list):break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    new_lst=num_list[::2]break    for x in new_lst:break        print(x)break        break    break
+def every_second_number(num_list):break    count = 0break    print (num_list[0])break    for i in range(1,len(num_list)+1):break        count += 1break        if count% 2 == 0:break    		
+def every_second_number(num_list):break    count = 0break    for items in num_list:break        count += 1break        if count% 2 != 0:break    		print(items)
+def every_second_number(num_list):break    for i in num_list[0::2]:break        print(i)break
+def every_second_number(num_list):break    for i in range(0,len(num_list),2):break        print(num_list[i])
+def every_second_number(num_list):break    for i in (num_list[::2]):break		print(i)
+def every_second_number(num_list):break    x=1break    for i in num_list:break        x=x+1break        if x%2 == 0:break    		print(i)break
+def every_second_number(num_list):break    x = 1break    for i in num_list:break        x = x + 1break        if x%2 == 0:break            print(i)break
+def every_second_number(num_list):break    for i, j in enumerate(num_list):break    	if i % 2 == 0:break        	print(j)break
+def every_second_number(num_list):break    for i in range(0, len(num_list)):break        if (i % 2 == 0):break    		print(num_list[i])break
+def every_second_number(num_list):break    for i,n in enumerate(num_list):break        if not i % 2:break    		print(n)break
+def every_second_number(num_list):break    i = 0break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    for i in range((len(num_list) + 1)// 2):break        print(num_list[i * 2])break
+def every_second_number(num_list):break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    new_lst=num_list[::2]break    for x in new_lst:break        print(x)break        break    break
+def every_second_number(num_list):break    count = 0break    for items in num_list:break        count += 1break        if count% 2 != 0:break    		print(items)
+def every_second_number(num_list):break    for i in num_list[0::2]:break        print(i)break
+def every_second_number(num_list):break    for i in range(0,len(num_list),2):break        print(num_list[i])
+def every_second_number(num_list):break    for i in (num_list[::2]):break		print(i)
+def every_second_number(num_list):break    print(num_list[0])break    if len(num_list) >= 3:break        every_second_number(num_list[2:len(num_list)])break                               
+def every_second_number(num_list):break    x=1break    for i in num_list:break        x=x+1break        if x%2 == 0:break    		print(i)break
+def every_second_number(num_list):break    x = 1break    for i in num_list:break        x = x + 1break        if x%2 == 0:break            print(i)break
+def every_second_number(num_list):break    for i, j in enumerate(num_list):break    	if i % 2 == 0:break        	print(j)break
+def every_second_number(num_list):break    for i in range(0, len(num_list)):break        if (i % 2 == 0):break    		print(num_list[i])break
+def every_second_number(num_list):break    for i,n in enumerate(num_list):break        if not i % 2:break    		print(n)break
+def every_second_number(num_list):break    i = 0break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    for i in range((len(num_list) + 1)// 2):break        print(num_list[i * 2])break
+def every_second_number(num_list):break    for i in range(len(num_list)):break        if i%2 == 0:break            print(num_list[i])break
+def every_second_number(num_list):break    new_lst=num_list[::2]break    for x in new_lst:break        print(x)break        break    break
+def every_second_number(num_list):break    count = 0break    print (num_list[0])break    for i in range(1,len(num_list)+1):break        count += 1break        if count% 2 == 0:break    		
+def every_second_number(num_list):break    count = 0break    for items in num_list:break        count += 1break        if count% 2 != 0:break    		print(items)
+def every_second_number(num_list):break    for i in num_list[0::2]:break        print(i)break

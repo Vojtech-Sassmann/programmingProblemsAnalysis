@@ -1,0 +1,38 @@
+def string_intersection(left, right):break    x = len(left)break    y = len(right)break    if x <= y:break        count = xbreak    else:break        count = ybreak    for i in range(coun
+def string_intersection(left, right):break    for a, b in zip(left, right):break        if a == b: print(a)      break
+def string_intersection(left, right):break    x = list(zip(left, right))break    for i in x:break        if i[0] == i[1]:break            print(i[0])break
+def string_intersection(left, right):break    i=0break    while i < len(right):break        l_letter = left[i]break        r_letter = right[i]break        if l_letter == r_letter:break   
+def string_intersection(left, right):break    if len(left) < len(right):break        pom=leftbreak        left=rightbreak        right=pombreak    #left ted urcite neni kratsibreak    for
+def string_intersection(left, right):break    if len(left)<= len(right):break        for k in range(len(left)):break            if left[k] == right[k]:break                print(left[k])b
+def string_intersection(left, right):break    x = len(left)break    y = len(right)break    if x <= y:break        count = xbreak    else:break        count = ybreak    for i in range(coun
+def string_intersection(left, right):break    for a, b in zip(left, right):break        if a == b: print(a)      break
+def string_intersection(left, right):break    x = list(zip(left, right))break    for i in x:break        if i[0] == i[1]:break            print(i[0])break
+def string_intersection(left, right):break    i=0break    while i < len(right):break        l_letter = left[i]break        r_letter = right[i]break        if l_letter == r_letter:break   
+def string_intersection(left, right):break    if len(left) < len(right):break        pom=leftbreak        left=rightbreak        right=pombreak    #left ted urcite neni kratsibreak    for
+def string_intersection(left, right):break    if len(left)<= len(right):break        for k in range(len(left)):break            if left[k] == right[k]:break                print(left[k])b
+def string_intersection(left, right):break    x = len(left)break    y = len(right)break    if x <= y:break        count = xbreak    else:break        count = ybreak    for i in range(coun
+def string_intersection(left, right):break    for a, b in zip(left, right):break        if a == b: print(a)      break
+def string_intersection(left, right):break    x = list(zip(left, right))break    for i in x:break        if i[0] == i[1]:break            print(i[0])break
+def string_intersection(left, right):break    i=0break    while i < len(right):break        l_letter = left[i]break        r_letter = right[i]break        if l_letter == r_letter:break   
+def string_intersection(left, right):break    if len(left) < len(right):break        pom=leftbreak        left=rightbreak        right=pombreak    #left ted urcite neni kratsibreak    for
+def string_intersection(left, right):break    if len(left)<= len(right):break        for k in range(len(left)):break            if left[k] == right[k]:break                print(left[k])b
+def string_intersection(left, right):break    x = len(left)break    y = len(right)break    if x <= y:break        count = xbreak    else:break        count = ybreak    for i in range(coun
+def string_intersection(left, right):break    for a, b in zip(left, right):break        if a == b: print(a)      break
+def string_intersection(left, right):break    x = list(zip(left, right))break    for i in x:break        if i[0] == i[1]:break            print(i[0])break
+def string_intersection(left, right):break    i=0break    while i < len(right):break        l_letter = left[i]break        r_letter = right[i]break        if l_letter == r_letter:break   
+def string_intersection(left, right):break    if len(left) < len(right):break        pom=leftbreak        left=rightbreak        right=pombreak    #left ted urcite neni kratsibreak    for
+def string_intersection(left, right):break    if len(left)<= len(right):break        for k in range(len(left)):break            if left[k] == right[k]:break                print(left[k])b
+def string_intersection(left, right):break    x = len(left)break    y = len(right)break    if x <= y:break        count = xbreak    else:break        count = ybreak    for i in range(coun
+def string_intersection(left, right):break    for a, b in zip(left, right):break        if a == b: print(a)      break
+def string_intersection(left, right):break    x = list(zip(left, right))break    for i in x:break        if i[0] == i[1]:break            print(i[0])break
+def string_intersection(left, right):break    i=0break    while i < len(right):break        l_letter = left[i]break        r_letter = right[i]break        if l_letter == r_letter:break   
+def string_intersection(left, right):break    if len(left) < len(right):break        pom=leftbreak        left=rightbreak        right=pombreak    #left ted urcite neni kratsibreak    for
+def string_intersection(left, right):break    if len(left)<= len(right):break        for k in range(len(left)):break            if left[k] == right[k]:break                print(left[k])b
+def string_intersection(left, right):break    for a, b in zip(left, right):break        if a == b: print(a)      break
+def string_intersection(left, right):break    x = list(zip(left, right))break    for i in x:break        if i[0] == i[1]:break            print(i[0])break
+def string_intersection(left, right):break    x = len(left)break    y = len(right)break    if x <= y:break        count = xbreak    else:break        count = ybreak    for i in range(coun
+def string_intersection(left, right):break    for a, b in zip(left, right):break        if a == b: print(a)      break
+def string_intersection(left, right):break    x = list(zip(left, right))break    for i in x:break        if i[0] == i[1]:break            print(i[0])break
+def string_intersection(left, right):break    i=0break    while i < len(right):break        l_letter = left[i]break        r_letter = right[i]break        if l_letter == r_letter:break   
+def string_intersection(left, right):break    if len(left) < len(right):break        pom=leftbreak        left=rightbreak        right=pombreak    #left ted urcite neni kratsibreak    for
+def string_intersection(left, right):break    if len(left)<= len(right):break        for k in range(len(left)):break            if left[k] == right[k]:break                print(left[k])b

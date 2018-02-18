@@ -1,0 +1,131 @@
+def factorial(n):break    if n == 0:break    	return 1break    else:break        return n*factorial(n-1)break
+def factorial(n):break    fact = 1break    for i in range(n):break        fact = fact * (n-i)break    return fact
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    j = 1break    for i in range(n):break    	j=(i+1)*j    break    return jbreak
+def factorial(n):break    fac = 1break    for i in range(1, n):break        fac = fac * (i+1)break    return facbreak
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if (n <= 1):break        return 1break    else:break        return (n*factorial(n-1))break    return 1break
+def factorial(n):break    f=1break    for i in range(1,n+1):break    	f= f*ibreak    return fbreak
+def factorial(n):break    pocet=1break    for i in range(1,n+1):break        pocet=pocet*ibreak    return pocetbreak
+def factorial(n):break    if n == 1:break        return 1break    else:break        return n * factorial(n-1)breakbreak
+def factorial(n):break    return 1 if (n < 1) else  n * factorial(n-1)break
+def factorial(n):break    if n==1:break        return 1break    else:break		return n*factorial(n-1)break
+def factorial(x):break    total = 1break    while x > 0:break        total *= xbreak        x-= 1break    return total
+def factorial(n):break    f=1break    for i in range (1, n+1):break        f= f * ibreak    return (f)break
+def factorial(n):break    x = 1break    for i in range(1, n + 1):break        x = x * ibreak    return xbreak
+def factorial(n):break    vysledek = 1break    for i in range(1,n+1):break        vysledek = vysledek*ibreak    return vysledekbreak
+def factorial(n):break    vysledek = 1break    for i in range(n-1):break        vysledek = vysledek * nbreak        n = n - 1break    	break    return vysledekbreak
+def factorial(n):break    if n == 0:break    	return 1break    else:break        return n*factorial(n-1)break
+def factorial(n):break    fact = 1break    for i in range(n):break        fact = fact * (n-i)break    return fact
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    j = 1break    for i in range(n):break    	j=(i+1)*j    break    return jbreak
+def factorial(n):break    fac = 1break    for i in range(1, n):break        fac = fac * (i+1)break    return facbreak
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if (n <= 1):break        return 1break    else:break        return (n*factorial(n-1))break    return 1break
+def factorial(n):break    f=1break    for i in range(1,n+1):break    	f= f*ibreak    return fbreak
+def factorial(n):break    pocet=1break    for i in range(1,n+1):break        pocet=pocet*ibreak    return pocetbreak
+def factorial(n):break    if n == 1:break        return 1break    else:break        return n * factorial(n-1)breakbreak
+def factorial(n):break    return 1 if (n < 1) else  n * factorial(n-1)break
+def factorial(n):break    if n==1:break        return 1break    else:break		return n*factorial(n-1)break
+def factorial(x):break    total = 1break    while x > 0:break        total *= xbreak        x-= 1break    return total
+def factorial(n):break    f=1break    for i in range (1, n+1):break        f= f * ibreak    return (f)break
+def factorial(n):break    x = 1break    for i in range(1, n + 1):break        x = x * ibreak    return xbreak
+def factorial(n):break    vysledek = 1break    for i in range(1,n+1):break        vysledek = vysledek*ibreak    return vysledekbreak
+def factorial(n):break    vysledek = 1break    for i in range(n-1):break        vysledek = vysledek * nbreak        n = n - 1break    	break    return vysledekbreak
+def factorial(n):break    if n == 0:break    	return 1break    else:break        return n*factorial(n-1)break
+def factorial(n):break    fact = 1break    for i in range(n):break        fact = fact * (n-i)break    return fact
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    j = 1break    for i in range(n):break    	j=(i+1)*j    break    return jbreak
+def factorial(n):break    fac = 1break    for i in range(1, n):break        fac = fac * (i+1)break    return facbreak
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if (n <= 1):break        return 1break    else:break        return (n*factorial(n-1))break    return 1break
+def factorial(n):break    f=1break    for i in range(1,n+1):break    	f= f*ibreak    return fbreak
+def factorial(n):break    pocet=1break    for i in range(1,n+1):break        pocet=pocet*ibreak    return pocetbreak
+def factorial(n):break    if n == 1:break        return 1break    else:break        return n * factorial(n-1)breakbreak
+def factorial(n):break    return 1 if (n < 1) else  n * factorial(n-1)break
+def factorial(n):break    if n==1:break        return 1break    else:break		return n*factorial(n-1)break
+def factorial(x):break    total = 1break    while x > 0:break        total *= xbreak        x-= 1break    return total
+def factorial(n):break    f=1break    for i in range (1, n+1):break        f= f * ibreak    return (f)break
+def factorial(n):break    x = 1break    for i in range(1, n + 1):break        x = x * ibreak    return xbreak
+def factorial(n):break    vysledek = 1break    for i in range(1,n+1):break        vysledek = vysledek*ibreak    return vysledekbreak
+def factorial(n):break    vysledek = 1break    for i in range(n-1):break        vysledek = vysledek * nbreak        n = n - 1break    	break    return vysledekbreak
+def factorial(n):break    if n == 0:break    	return 1break    else:break        return n*factorial(n-1)break
+def factorial(n):break    fact = 1break    for i in range(n):break        fact = fact * (n-i)break    return fact
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    j = 1break    for i in range(n):break    	j=(i+1)*j    break    return jbreak
+def factorial(n):break    fac = 1break    for i in range(1, n):break        fac = fac * (i+1)break    return facbreak
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if (n <= 1):break        return 1break    else:break        return (n*factorial(n-1))break    return 1break
+def factorial(n):break    f=1break    for i in range(1,n+1):break    	f= f*ibreak    return fbreak
+def factorial(n):break    pocet=1break    for i in range(1,n+1):break        pocet=pocet*ibreak    return pocetbreak
+def factorial(n):break    if n == 1:break        return 1break    else:break        return n * factorial(n-1)breakbreak
+def factorial(n):break    return 1 if (n < 1) else  n * factorial(n-1)break
+def factorial(n):break    if n==1:break        return 1break    else:break		return n*factorial(n-1)break
+def factorial(x):break    total = 1break    while x > 0:break        total *= xbreak        x-= 1break    return total
+def factorial(n):break    f=1break    for i in range (1, n+1):break        f= f * ibreak    return (f)break
+def factorial(n):break    x = 1break    for i in range(1, n + 1):break        x = x * ibreak    return xbreak
+def factorial(n):break    vysledek = 1break    for i in range(1,n+1):break        vysledek = vysledek*ibreak    return vysledekbreak
+def factorial(n):break    vysledek = 1break    for i in range(n-1):break        vysledek = vysledek * nbreak        n = n - 1break    	break    return vysledekbreak
+def factorial(n):break    if n == 0:break    	return 1break    else:break        return n*factorial(n-1)break
+def factorial(n):break    fact = 1break    for i in range(n):break        fact = fact * (n-i)break    return fact
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    j = 1break    for i in range(n):break    	j=(i+1)*j    break    return jbreak
+def factorial(n):break    fac = 1break    for i in range(1, n):break        fac = fac * (i+1)break    return facbreak
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if (n <= 1):break        return 1break    else:break        return (n*factorial(n-1))break    return 1break
+def factorial(n):break    f=1break    for i in range(1,n+1):break    	f= f*ibreak    return fbreak
+def factorial(n):break    pocet=1break    for i in range(1,n+1):break        pocet=pocet*ibreak    return pocetbreak
+def factorial(n):break    if n == 1:break        return 1break    else:break        return n * factorial(n-1)breakbreak
+def factorial(n):break    return 1 if (n < 1) else  n * factorial(n-1)break
+def factorial(n):break    if n==1:break        return 1break    else:break		return n*factorial(n-1)break
+def factorial(x):break    total = 1break    while x > 0:break        total *= xbreak        x-= 1break    return total
+def factorial(n):break    f=1break    for i in range (1, n+1):break        f= f * ibreak    return (f)break
+def factorial(n):break    x = 1break    for i in range(1, n + 1):break        x = x * ibreak    return xbreak
+def factorial(n):break    vysledek = 1break    for i in range(1,n+1):break        vysledek = vysledek*ibreak    return vysledekbreak
+def factorial(n):break    vysledek = 1break    for i in range(n-1):break        vysledek = vysledek * nbreak        n = n - 1break    	break    return vysledekbreak
+def factorial(n):break    if n == 0:break    	return 1break    else:break        return n*factorial(n-1)break
+def factorial(n):break    fact = 1break    for i in range(n):break        fact = fact * (n-i)break    return fact
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    j = 1break    for i in range(n):break    	j=(i+1)*j    break    return jbreak
+def factorial(n):break    fac = 1break    for i in range(1, n):break        fac = fac * (i+1)break    return facbreak
+def factorial(n):break    if (n <= 1):break        return 1break    else:break        return (n*factorial(n-1))break    return 1break
+def factorial(n):break    f=1break    for i in range(1,n+1):break    	f= f*ibreak    return fbreak
+def factorial(n):break    pocet=1break    for i in range(1,n+1):break        pocet=pocet*ibreak    return pocetbreak
+def factorial(n):break    if n == 1:break        return 1break    else:break        return n * factorial(n-1)breakbreak
+def factorial(n):break    return 1 if (n < 1) else  n * factorial(n-1)break
+def factorial(n):break    if n==1:break        return 1break    else:break		return n*factorial(n-1)break
+def factorial(x):break    total = 1break    while x > 0:break        total *= xbreak        x-= 1break    return total
+def factorial(n):break    f=1break    for i in range (1, n+1):break        f= f * ibreak    return (f)break
+def factorial(n):break    x = 1break    for i in range(1, n + 1):break        x = x * ibreak    return xbreak
+def factorial(n):break    vysledek = 1break    for i in range(1,n+1):break        vysledek = vysledek*ibreak    return vysledekbreak
+def factorial(n):break    vysledek = 1break    for i in range(n-1):break        vysledek = vysledek * nbreak        n = n - 1break    	break    return vysledekbreak
+def factorial(n):break    if n == 0:break    	return 1break    else:break        return n*factorial(n-1)break
+def factorial(n):break    fact = 1break    for i in range(n):break        fact = fact * (n-i)break    return fact
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    f = 1break    for x in range(1, n + 1):break        f *= xbreak    return f
+def factorial(n):break    j = 1break    for i in range(n):break    	j=(i+1)*j    break    return jbreak
+def factorial(n):break    fac = 1break    for i in range(1, n):break        fac = fac * (i+1)break    return facbreak
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if n == 0:break    	return 1break    if n == 1:break    	return 1break    if n == 2:break    	return 2break    if n == 3:break    	return 6break    if n == 4:bre
+def factorial(n):break    if (n <= 1):break        return 1break    else:break        return (n*factorial(n-1))break    return 1break
+def factorial(n):break    f=1break    for i in range(1,n+1):break    	f= f*ibreak    return fbreak
+def factorial(n):break    pocet=1break    for i in range(1,n+1):break        pocet=pocet*ibreak    return pocetbreak
+def factorial(n):break    if n == 1:break        return 1break    else:break        return n * factorial(n-1)breakbreak
+def factorial(n):break    return 1 if (n < 1) else  n * factorial(n-1)break
+def factorial(n):break    if n==1:break        return 1break    else:break		return n*factorial(n-1)break
+def factorial(x):break    total = 1break    while x > 0:break        total *= xbreak        x-= 1break    return total
+def factorial(n):break    f=1break    for i in range (1, n+1):break        f= f * ibreak    return (f)break
+def factorial(n):break    x = 1break    for i in range(1, n + 1):break        x = x * ibreak    return xbreak
+def factorial(n):break    vysledek = 1break    for i in range(1,n+1):break        vysledek = vysledek*ibreak    return vysledekbreak
+def factorial(n):break    vysledek = 1break    for i in range(n-1):break        vysledek = vysledek * nbreak        n = n - 1break    	break    return vysledekbreak

@@ -1,0 +1,293 @@
+def impose_fine(age, beer):break    if age<18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    elif age < 18 and beer is False:break        return Falsebreak    else:break    	return F
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer==True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    return True if (age<18 and beer) else Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if beer and age < 18:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer:break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age < 18break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return age < 18 if beer else Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if(age<18 and beer==True):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True: return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return (age < 18) and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    else:break     return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age<18) and (beer==True):break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: break        return Falsebreak
+def impose_fine(age, beer):break    return beer and (age < 18)break
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    return age <= 18 and beer break
+def impose_fine(age, beer):break    return age <= 18 and beer
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer == True):break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age <= 18break
+def impose_fine(age, beer):break    if beer==True and age<18 :break    	return Truebreak    else:break    	return Falsebreak    	break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age<18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    elif age < 18 and beer is False:break        return Falsebreak    else:break    	return F
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer==True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    return True if (age<18 and beer) else Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if beer and age < 18:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer:break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age < 18break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return age < 18 if beer else Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if(age<18 and beer==True):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True: return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return (age < 18) and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    else:break     return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age<18) and (beer==True):break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: break        return Falsebreak
+def impose_fine(age, beer):break    return beer and (age < 18)break
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    return age <= 18 and beer break
+def impose_fine(age, beer):break    return age <= 18 and beer
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer == True):break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age <= 18break
+def impose_fine(age, beer):break    if beer==True and age<18 :break    	return Truebreak    else:break    	return Falsebreak    	break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age<18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    elif age < 18 and beer is False:break        return Falsebreak    else:break    	return F
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer==True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    return True if (age<18 and beer) else Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if beer and age < 18:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer:break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age < 18break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return age < 18 if beer else Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if(age<18 and beer==True):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True: return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return (age < 18) and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    else:break     return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age<18) and (beer==True):break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: break        return Falsebreak
+def impose_fine(age, beer):break    return beer and (age < 18)break
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    return age <= 18 and beer break
+def impose_fine(age, beer):break    return age <= 18 and beer
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer == True):break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age <= 18break
+def impose_fine(age, beer):break    if beer==True and age<18 :break    	return Truebreak    else:break    	return Falsebreak    	break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age<18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    elif age < 18 and beer is False:break        return Falsebreak    else:break    	return F
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer==True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    return True if (age<18 and beer) else Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if beer and age < 18:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer:break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age < 18break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return age < 18 if beer else Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if(age<18 and beer==True):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True: return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return (age < 18) and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    else:break     return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age<18) and (beer==True):break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: break        return Falsebreak
+def impose_fine(age, beer):break    return beer and (age < 18)break
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    return age <= 18 and beer break
+def impose_fine(age, beer):break    return age <= 18 and beer
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer == True):break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age <= 18break
+def impose_fine(age, beer):break    if beer==True and age<18 :break    	return Truebreak    else:break    	return Falsebreak    	break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age<18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    elif age < 18 and beer is False:break        return Falsebreak    else:break    	return F
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer==True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    return True if (age<18 and beer) else Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if beer and age < 18:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer:break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age < 18break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return age < 18 if beer else Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if(age<18 and beer==True):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True: return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return (age < 18) and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    else:break     return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age<18) and (beer==True):break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: break        return Falsebreak
+def impose_fine(age, beer):break    return beer and (age < 18)break
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    return age <= 18 and beer break
+def impose_fine(age, beer):break    return age <= 18 and beer
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer == True):break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age <= 18break
+def impose_fine(age, beer):break    if beer==True and age<18 :break    	return Truebreak    else:break    	return Falsebreak    	break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age<18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer==True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    return True if (age<18 and beer) else Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if beer and age < 18:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer:break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age < 18break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return age < 18 if beer else Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if(age<18 and beer==True):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True: return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return (age < 18) and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    else:break     return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age<18) and (beer==True):break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: break        return Falsebreak
+def impose_fine(age, beer):break    return beer and (age < 18)break
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    return age <= 18 and beer break
+def impose_fine(age, beer):break    return age <= 18 and beer
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer == True):break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age <= 18break
+def impose_fine(age, beer):break    if beer==True and age<18 :break    	return Truebreak    else:break    	return Falsebreak    	break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age<18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    elif age < 18 and beer is False:break        return Falsebreak    else:break    	return F
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age<=18 and beer==True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    return True if (age<18 and beer) else Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    return False
+def impose_fine(age, beer):break    if beer and age < 18:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer:break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age < 18break
+def impose_fine(age, beer):break    return age < 18 and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return age < 18 if beer else Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if(age<18 and beer==True):break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True: return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    return (age < 18) and beerbreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age<18 and beer==True:break        return Truebreak    else:break     return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age<18) and (beer==True):break        return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: break        return Falsebreak
+def impose_fine(age, beer):break    return beer and (age < 18)break
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else: return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer == True:break        return Truebreak    else:break    	return Falsebreak
+def impose_fine(age, beer):break    return age <= 18 and beer break
+def impose_fine(age, beer):break    return age <= 18 and beer
+def impose_fine(age, beer):break    if age < 18 and beer is True:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if age < 18 and beer:break        return Truebreak    return Falsebreak
+def impose_fine(age, beer):break    if (age < 18 and beer == True):break    	return Truebreak    else:break        return Falsebreak
+def impose_fine(age, beer):break    return beer and age <= 18break
+def impose_fine(age, beer):break    if beer==True and age<18 :break    	return Truebreak    else:break    	return Falsebreak    	break
+def impose_fine(age, beer):break    return age < 18 and beerbreak

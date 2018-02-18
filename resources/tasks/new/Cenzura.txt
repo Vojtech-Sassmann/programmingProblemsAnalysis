@@ -1,0 +1,26 @@
+def censorship(text):break    new = ''break    for i in range(len(text)):break        if i % 2 == 0:break            new += text[i]break        else:break            new += 'X'break    re
+def censorship(text):break    return ''.join('X' if i % 2 == 0 else char for i, char in enumerate(text, 1))break
+def censorship(text):break    remove=2break    return "".join(c if (i+1)%remove else "X" for i,c in enumerate(text))break            break
+def censorship(text):break    text2=""break    for i in text[::2]:break        text2=text2+ibreak        text2=text2+"X"break    if len(text)%2==1:break        text2=text2[:len(text)]brea
+def censorship(text):break    new = ''break    for i in range(len(text)):break        if i % 2 == 0:break            new += text[i]break        else:break            new += 'X'break    re
+def censorship(text):break    return ''.join('X' if i % 2 == 0 else char for i, char in enumerate(text, 1))break
+def censorship(text):break    remove=2break    return "".join(c if (i+1)%remove else "X" for i,c in enumerate(text))break            break
+def censorship(text):break    text2=""break    for i in text[::2]:break        text2=text2+ibreak        text2=text2+"X"break    if len(text)%2==1:break        text2=text2[:len(text)]brea
+def censorship(text):break    new = ''break    for i in range(len(text)):break        if i % 2 == 0:break            new += text[i]break        else:break            new += 'X'break    re
+def censorship(text):break    return ''.join('X' if i % 2 == 0 else char for i, char in enumerate(text, 1))break
+def censorship(text):break    remove=2break    return "".join(c if (i+1)%remove else "X" for i,c in enumerate(text))break            break
+def censorship(text):break    text2=""break    for i in text[::2]:break        text2=text2+ibreak        text2=text2+"X"break    if len(text)%2==1:break        text2=text2[:len(text)]brea
+def censorship(text):break    new = ''break    for i in range(len(text)):break        if i % 2 == 0:break            new += text[i]break        else:break            new += 'X'break    re
+def censorship(text):break    return ''.join('X' if i % 2 == 0 else char for i, char in enumerate(text, 1))break
+def censorship(text):break    remove=2break    return "".join(c if (i+1)%remove else "X" for i,c in enumerate(text))break            break
+def censorship(text):break    text2=""break    for i in text[::2]:break        text2=text2+ibreak        text2=text2+"X"break    if len(text)%2==1:break        text2=text2[:len(text)]brea
+def censorship(text):break    new = ''break    for i in range(len(text)):break        if i % 2 == 0:break            new += text[i]break        else:break            new += 'X'break    re
+def censorship(text):break    return ''.join('X' if i % 2 == 0 else char for i, char in enumerate(text, 1))break
+def censorship(text):break    remove=2break    return "".join(c if (i+1)%remove else "X" for i,c in enumerate(text))break            break
+def censorship(text):break    text2=""break    for i in text[::2]:break        text2=text2+ibreak        text2=text2+"X"break    if len(text)%2==1:break        text2=text2[:len(text)]brea
+def censorship(text):break    return ''.join('X' if i % 2 == 0 else char for i, char in enumerate(text, 1))break
+def censorship(text):break    remove=2break    return "".join(c if (i+1)%remove else "X" for i,c in enumerate(text))break            break
+def censorship(text):break    new = ''break    for i in range(len(text)):break        if i % 2 == 0:break            new += text[i]break        else:break            new += 'X'break    re
+def censorship(text):break    return ''.join('X' if i % 2 == 0 else char for i, char in enumerate(text, 1))break
+def censorship(text):break    remove=2break    return "".join(c if (i+1)%remove else "X" for i,c in enumerate(text))break            break
+def censorship(text):break    text2=""break    for i in text[::2]:break        text2=text2+ibreak        text2=text2+"X"break    if len(text)%2==1:break        text2=text2[:len(text)]brea

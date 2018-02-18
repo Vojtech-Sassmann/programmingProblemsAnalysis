@@ -1,5 +1,6 @@
 import codecs
 import csv
+import unicodedata
 from base64 import b64encode, b64decode
 
 
@@ -14,28 +15,55 @@ def decode_program(code):
     return b64decode(code).decode("utf-8")
 
 
-correct = 0
-errd = 0
-dict = {}
-with codecs.open("resources/newTutor/ipython_log.csv", 'rb', encoding='UTF-8') as f:
-    reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
+def parse_new_data():
+    correct = 0
+    errd = 0
+    dict = {}
 
-    with codecs.open("resources/new/erred.csv", 'w') as out:
+    translation = get_translation()
+    with codecs.open("resources/newTutor/ipython_log.csv", 'rb', encoding='UTF-8') as f:
+        reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
+
         ln = 0
         for line in reader:
             ln += 1
+            # skip invalid log lines
             if ln > 1892:
                 try:
-                    program = decode_program(line[3])
-                    correct += 1
-                    try:
-                        dict[line[2]] += 1
-                    except:
-                        dict[line[2]] = 1
+                    if not line[5] == '-1':
+                        print(line)
+                    if line[4] == '1':
+                        program = decode_program(line[3])
+                        name = translation[line[2]]
+                        with codecs.open("resources/tasks/new/" + name + ".txt", "a") as output:
+                            output.write(program + "\n")
                 except Exception as e:
-                    errd += 1
                     print(e)
+                    pass
 
-print("correct: ", correct)
-print("erred: ", errd)
-print(dict)
+
+def remove_diacritics(line):
+    line = unicodedata.normalize('NFKD', line)
+
+    output = ''
+    for c in line:
+        if not unicodedata.combining(c):
+            output += c
+    return output
+
+
+def get_translation():
+    translations = {}
+    with codecs.open("resources/newTutor/ipython_item.csv", 'rb', encoding="UTF-8") as f:
+        reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
+        ln = 0
+        for line in reader:
+            ln += 1
+            # skip first line
+            if ln == 1:
+                continue
+            translations[line[0]] = remove_diacritics(line[1])
+    return translations
+
+print(get_translation())
+parse_new_data()

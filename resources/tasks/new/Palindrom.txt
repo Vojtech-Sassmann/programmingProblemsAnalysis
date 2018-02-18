@@ -1,0 +1,47 @@
+def palindrom(text):break    if len(text) % 2 == 1:break        x = len(text)//2+1break    else:break        x = len(text)//2break    break    front = ""break    back = ""break    for i i
+def palindrom(text):break    if len(text) < 2: return Truebreak    if text[0] != text[-1]: return Falsebreak    return palindrom(text[1:-1])break    return Truebreak
+def palindrom(text):break    z = list(text)break    x = list(reversed(z))break    if z == x:break        return Truebreak    return False
+def palindrom(text):break    i = 0break    was = Truebreak    while (i < (len(text)/2)):break            if (text[i] != text[-(i+1)]):break                was = Falsebreak                
+def palindrom(text):break    if text == text[::-1]:break    	return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    text2=text[::-1]break    if text==text2:break        return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    if text == text[::-1]:break        return Truebreak    return Falsebreak
+def palindrom(text):break    if len(text) % 2 == 1:break        x = len(text)//2+1break    else:break        x = len(text)//2break    break    front = ""break    back = ""break    for i i
+def palindrom(text):break    if len(text) < 2: return Truebreak    if text[0] != text[-1]: return Falsebreak    return palindrom(text[1:-1])break    return Truebreak
+def palindrom(text):break    z = list(text)break    x = list(reversed(z))break    if z == x:break        return Truebreak    return False
+def palindrom(text):break    i = 0break    was = Truebreak    while (i < (len(text)/2)):break            if (text[i] != text[-(i+1)]):break                was = Falsebreak                
+def palindrom(text):break    if text == text[::-1]:break    	return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    text2=text[::-1]break    if text==text2:break        return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    if text == text[::-1]:break        return Truebreak    return Falsebreak
+def palindrom(text):break    if len(text) % 2 == 1:break        x = len(text)//2+1break    else:break        x = len(text)//2break    break    front = ""break    back = ""break    for i i
+def palindrom(text):break    if len(text) < 2: return Truebreak    if text[0] != text[-1]: return Falsebreak    return palindrom(text[1:-1])break    return Truebreak
+def palindrom(text):break    z = list(text)break    x = list(reversed(z))break    if z == x:break        return Truebreak    return False
+def palindrom(text):break    i = 0break    was = Truebreak    while (i < (len(text)/2)):break            if (text[i] != text[-(i+1)]):break                was = Falsebreak                
+def palindrom(text):break    if text == text[::-1]:break    	return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    text2=text[::-1]break    if text==text2:break        return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    if text == text[::-1]:break        return Truebreak    return Falsebreak
+def palindrom(text):break    if len(text) % 2 == 1:break        x = len(text)//2+1break    else:break        x = len(text)//2break    break    front = ""break    back = ""break    for i i
+def palindrom(text):break    if len(text) < 2: return Truebreak    if text[0] != text[-1]: return Falsebreak    return palindrom(text[1:-1])break    return Truebreak
+def palindrom(text):break    z = list(text)break    x = list(reversed(z))break    if z == x:break        return Truebreak    return False
+def palindrom(text):break    i = 0break    was = Truebreak    while (i < (len(text)/2)):break            if (text[i] != text[-(i+1)]):break                was = Falsebreak                
+def palindrom(text):break    if text == text[::-1]:break    	return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    text2=text[::-1]break    if text==text2:break        return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    if text == text[::-1]:break        return Truebreak    return Falsebreak
+def palindrom(text):break    if len(text) % 2 == 1:break        x = len(text)//2+1break    else:break        x = len(text)//2break    break    front = ""break    back = ""break    for i i
+def palindrom(text):break    if len(text) < 2: return Truebreak    if text[0] != text[-1]: return Falsebreak    return palindrom(text[1:-1])break    return Truebreak
+def palindrom(text):break    z = list(text)break    x = list(reversed(z))break    if z == x:break        return Truebreak    return False
+def palindrom(text):break    i = 0break    was = Truebreak    while (i < (len(text)/2)):break            if (text[i] != text[-(i+1)]):break                was = Falsebreak                
+def palindrom(text):break    if text == text[::-1]:break    	return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    text2=text[::-1]break    if text==text2:break        return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    if text == text[::-1]:break        return Truebreak    return Falsebreak
+def palindrom(text):break    if len(text) < 2: return Truebreak    if text[0] != text[-1]: return Falsebreak    return palindrom(text[1:-1])break    return Truebreak
+def palindrom(text):break    z = list(text)break    x = list(reversed(z))break    if z == x:break        return Truebreak    return False
+def palindrom(text):break    if text == text[::-1]:break    	return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    text2=text[::-1]break    if text==text2:break        return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    if text == text[::-1]:break        return Truebreak    return Falsebreak
+def palindrom(text):break    if len(text) % 2 == 1:break        x = len(text)//2+1break    else:break        x = len(text)//2break    break    front = ""break    back = ""break    for i i
+def palindrom(text):break    if len(text) < 2: return Truebreak    if text[0] != text[-1]: return Falsebreak    return palindrom(text[1:-1])break    return Truebreak
+def palindrom(text):break    z = list(text)break    x = list(reversed(z))break    if z == x:break        return Truebreak    return False
+def palindrom(text):break    i = 0break    was = Truebreak    while (i < (len(text)/2)):break            if (text[i] != text[-(i+1)]):break                was = Falsebreak                
+def palindrom(text):break    if text == text[::-1]:break    	return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    text2=text[::-1]break    if text==text2:break        return Truebreak    else:break        return Falsebreak
+def palindrom(text):break    if text == text[::-1]:break        return Truebreak    return Falsebreak

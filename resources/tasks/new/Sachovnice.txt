@@ -1,0 +1,24 @@
+def chessboard(n):break    for i in range(n):break        for j in range(i, n+i):break			if j % 2 == 0:break				print("#", end=" ")break			else:break				print(".",end=" ")break	print()bre
+def chessboard(n):break    for i in range(n):break        if i%2:break            for j in range(n):break                if j%2:break                    print("#",end=" ")break           
+def chessboard(n):break    for i in range(n):break        for j in range(n):break            if (j+i)%2==0:break                print("#", end=" ")break            else:break             
+def chessboard(n):breakbreak    j=0break    for i in range(1,n+1):break        if i%2==0:break            znak="#"break        else:break            znak="."break        while j<=n-2:brea
+def chessboard(n):break    for i in range(n):break        for j in range(i, n+i):break			if j % 2 == 0:break				print("#", end=" ")break			else:break				print(".",end=" ")break	print()bre
+def chessboard(n):break    for i in range(n):break        if i%2:break            for j in range(n):break                if j%2:break                    print("#",end=" ")break           
+def chessboard(n):break    for i in range(n):break        for j in range(n):break            if (j+i)%2==0:break                print("#", end=" ")break            else:break             
+def chessboard(n):breakbreak    j=0break    for i in range(1,n+1):break        if i%2==0:break            znak="#"break        else:break            znak="."break        while j<=n-2:brea
+def chessboard(n):break    for i in range(n):break        for j in range(i, n+i):break			if j % 2 == 0:break				print("#", end=" ")break			else:break				print(".",end=" ")break	print()bre
+def chessboard(n):break    for i in range(n):break        if i%2:break            for j in range(n):break                if j%2:break                    print("#",end=" ")break           
+def chessboard(n):break    for i in range(n):break        for j in range(n):break            if (j+i)%2==0:break                print("#", end=" ")break            else:break             
+def chessboard(n):breakbreak    j=0break    for i in range(1,n+1):break        if i%2==0:break            znak="#"break        else:break            znak="."break        while j<=n-2:brea
+def chessboard(n):break    for i in range(n):break        for j in range(i, n+i):break			if j % 2 == 0:break				print("#", end=" ")break			else:break				print(".",end=" ")break	print()bre
+def chessboard(n):break    for i in range(n):break        if i%2:break            for j in range(n):break                if j%2:break                    print("#",end=" ")break           
+def chessboard(n):break    for i in range(n):break        for j in range(n):break            if (j+i)%2==0:break                print("#", end=" ")break            else:break             
+def chessboard(n):breakbreak    j=0break    for i in range(1,n+1):break        if i%2==0:break            znak="#"break        else:break            znak="."break        while j<=n-2:brea
+def chessboard(n):break    for i in range(n):break        for j in range(i, n+i):break			if j % 2 == 0:break				print("#", end=" ")break			else:break				print(".",end=" ")break	print()bre
+def chessboard(n):break    for i in range(n):break        if i%2:break            for j in range(n):break                if j%2:break                    print("#",end=" ")break           
+def chessboard(n):break    for i in range(n):break        for j in range(n):break            if (j+i)%2==0:break                print("#", end=" ")break            else:break             
+def chessboard(n):breakbreak    j=0break    for i in range(1,n+1):break        if i%2==0:break            znak="#"break        else:break            znak="."break        while j<=n-2:brea
+def chessboard(n):break    for i in range(n):break        for j in range(i, n+i):break			if j % 2 == 0:break				print("#", end=" ")break			else:break				print(".",end=" ")break	print()bre
+def chessboard(n):break    for i in range(n):break        if i%2:break            for j in range(n):break                if j%2:break                    print("#",end=" ")break           
+def chessboard(n):break    for i in range(n):break        for j in range(n):break            if (j+i)%2==0:break                print("#", end=" ")break            else:break             
+def chessboard(n):breakbreak    j=0break    for i in range(1,n+1):break        if i%2==0:break            znak="#"break        else:break            znak="."break        while j<=n-2:brea
