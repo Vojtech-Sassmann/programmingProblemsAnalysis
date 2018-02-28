@@ -18,20 +18,21 @@ searched_nodes = [
     "Add", "Sub", "Mult", "Div", "For", "While", "Print", "Mod", "If", "Eq", "Is",
 ]
 
-output_path = "resources/parsed/resultsAvarage6_selectedFeatures_AST.csv"
+output_path = "resources/tmp/test.csv"
 binary = False
 # solution_number = 1
-avarage_number = 6
+avarage_number = 5
 minimal_vector_size = 2
 minimal_submitted = 300
+parsed_solutions_mode = True
 minimal_parsable = 10
 skip_print = False
 
 
 class Solution:
-    def __init__(self, data_vector, example):
+    def __init__(self, data_vector):
         self.data_vector = data_vector
-        self.example = example
+        self.examples = []
         self.count = 1
 
     def __hash__(self):
@@ -39,6 +40,9 @@ class Solution:
 
     def __eq__(self, other):
         return self.data_vector.__eq__(other.data_vector)
+
+    def add_solution(self, solution):
+        self.examples.append(solution)
 
 
 class HashableDict(dict):
@@ -111,30 +115,26 @@ def analyze_solution(raw_solution, results):
         return
 
     result = HashableDict(data_vector)
-    solution = Solution(result, solution_string)
+    solution = Solution(result)
 
     if calculate_vector_size(result) >= minimal_vector_size:
         if solution not in results.solutions:
+            solution.add_solution(raw_solution)
             results.solutions[solution] = 1
         else:
             results.solutions[solution] += 1
+            for s in results.solutions:
+                if s.__eq__(solution):
+                    s.add_solution(raw_solution)
 
 
 def parse_code(line):
     prefix_size = len(line[0])
-    return line[2][prefix_size:]
-
-
-def process_line(line, results):
-    code = parse_code(line)
-
-    if code.startswith("SUBMIT"):
-        analyze_solution(code[6:], results)
-
-
-def check_line(line, results):
-    if len(line) is 3:
-        process_line(line, results)
+    solution = line[2][prefix_size:]
+    if solution.startswith("SUBMIT"):
+        return solution[6:]
+    else:
+        return None
 
 
 def print_results(results):
@@ -189,13 +189,26 @@ def save_results(results, file_name):
             else:
                 f.write(";" + str('%.2f' % average_data_vector[node_type]))
 
-        # for key in average_data_vector:
-        #     if first:
-        #         f.write(str('%.2f' % average_data_vector[key]))
-        #         first = False
-        #     else:
-        #         f.write(";" + str('%.2f' % average_data_vector[key]))
         f.write("\n")
+
+
+def save_solutions(results, file_name):
+    number_of_printed_feature_vectors = 500
+    number_of_printed_feature_solutions = 20
+
+    with codecs.open("resources/tmp/solutions/" + file_name, 'w', encoding="UTF-8") as f:
+        for solution, count in sorted(results.solutions.items(), key=lambda x: x[1], reverse=True):
+            if len(solution.data_vector) > 0:
+                print >> f, solution.data_vector, count
+                for example in solution.examples:
+                    number_of_printed_feature_solutions -= 1
+                    # print >> f, example
+                    if number_of_printed_feature_solutions <= 0:
+                        number_of_printed_feature_solutions = 20
+                        break
+                number_of_printed_feature_vectors -= 1
+                if number_of_printed_feature_vectors == 0:
+                    break
 
 
 def analyze_file(file_name):
@@ -204,14 +217,30 @@ def analyze_file(file_name):
 
     results = AnalyseResults()
 
-    with codecs.open("resources/tasks/" + file_name, 'rb', encoding='UTF-8') as f:
+    with codecs.open("resources/tasks/parsed/" + file_name, 'rb', encoding='UTF-8') as f:
         reader = csv.reader(f, delimiter=';', quoting=csv.QUOTE_NONE)
 
+        previous_code = None
+
         for line in reader:
-            check_line(line, results)
+            if parsed_solutions_mode:
+                if len(line) is 1:
+                    code = line[0]
+                    if code is not None:
+                        if previous_code != code:
+                            analyze_solution(code, results)
+                    previous_code = code
+            else:
+                if len(line) is 3:
+                    code = parse_code(line)
+                    if code is not None:
+                        if previous_code != code:
+                            analyze_solution(code, results)
+                    previous_code = code
 
     if not skip_print:
         print_results(results)
+    save_solutions(results, file_name)
     save_results(results, file_name)
 
 
@@ -234,7 +263,7 @@ def save_header():
 
 
 def analyze_files():
-    path = 'resources/tasks'
+    path = 'resources/tasks/parsed'
 
     save_header()
 

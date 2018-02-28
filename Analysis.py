@@ -357,24 +357,24 @@ def compare_correlations(correlations, labels, method='pearson', title=''):
 # print_heatmap(metrics_frame.corr(), annote=True, title="Top5 vs All")
 
 """podrobne porovnani"""
-first_solution_df = load_df("resources/example/AST_swapped.csv")
-second_solution_df = load_df("resources/example/classicBOW_swapped.csv")
-
-filter_diff_columns(first_solution_df, second_solution_df)
-
-avarage_corr = first_solution_df.corr(method='pearson')
-example_corr = second_solution_df.corr(method='pearson')
-
-corrs = {}
-
-for c1 in avarage_corr:
-    a = avarage_corr.get(c1).to_frame().corrwith(example_corr.get(c1).to_frame())
-    b = a.values
-    corrs[c1] = b.max()
-
-frame = pd.DataFrame(data=corrs, index=["Match"])
-print_heatmap(frame.T, 'Example solution, \'classic\' bag of words vs AST \'bag\' of words', annotate=True, width=8, height=8,
-              font_scale=1.2)
+# first_solution_df = load_df("resources/tmp/av5_AST_swapped.csv")
+# second_solution_df = load_df("resources/tmp/p_av5_AST_swapped.csv")
+#
+# filter_diff_columns(first_solution_df, second_solution_df)
+#
+# avarage_corr = first_solution_df.corr(method='pearson')
+# example_corr = second_solution_df.corr(method='pearson')
+#
+# corrs = {}
+#
+# for c1 in avarage_corr:
+#     a = avarage_corr.get(c1).to_frame().corrwith(example_corr.get(c1).to_frame())
+#     b = a.values
+#     corrs[c1] = b.max()
+#
+# frame = pd.DataFrame(data=corrs, index=["Match"])
+# print_heatmap(frame.T, 'Example solution, \'classic\' bag of words vs AST \'bag\' of words', annotate=True, width=8, height=8,
+#               font_scale=1.2)
 
 
 
@@ -465,45 +465,57 @@ print_heatmap(frame.T, 'Example solution, \'classic\' bag of words vs AST \'bag\
 
 
 """ (Deprecated) bagOfWords vs AST """
-# classic_av1 = load_df("resources/parsed/resultsAvarage1_selectedFeatures_v2_swapped.csv")
-# classic_av2 = load_df("resources/parsed/resultsAvarage2_selectedFeatures_v2_swapped.csv")
-# classic_av3 = load_df("resources/parsed/resultsAvarage3_selectedFeatures_v2_swapped.csv")
-# classic_av4 = load_df("resources/parsed/resultsAvarage4_selectedFeatures_v2_swapped.csv")
-# classic_av5 = load_df("resources/parsed/resultsAvarage5_selectedFeatures_v2_swapped.csv")
-# classic_example = load_df("resources/example/classicBOW_swapped.csv")
-# ast_av1 = load_df("resources/parsed/resultsAvarage1_selectedFeatures_AST_swapped.csv")
-# ast_av2 = load_df("resources/parsed/resultsAvarage2_selectedFeatures_AST_swapped.csv")
-# ast_av3 = load_df("resources/parsed/resultsAvarage3_selectedFeatures_AST_swapped.csv")
-# ast_av4 = load_df("resources/parsed/resultsAvarage4_selectedFeatures_AST_swapped.csv")
-# ast_av5 = load_df("resources/parsed/resultsAvarage5_selectedFeatures_AST_swapped.csv")
+# # ast_av1 = load_df("resources/parsed/resultsAvarage1_selectedFeatures_AST_swapped.csv")
+# # ast_av2 = load_df("resources/parsed/resultsAvarage2_selectedFeatures_AST_swapped.csv")
+# # ast_av3 = load_df("resources/parsed/resultsAvarage3_selectedFeatures_AST_swapped.csv")
+# # ast_av4 = load_df("resources/parsed/resultsAvarage4_selectedFeatures_AST_swapped.csv")
+# # ast_av5 = load_df("resources/parsed/resultsAvarage5_selectedFeatures_AST_swapped.csv")
+# ed_ast_av1 = load_df("resources/tmp/av1_AST_swapped.csv")
+# ed_ast_av2 = load_df("resources/tmp/av2_AST_swapped.csv")
+# ed_ast_av3 = load_df("resources/tmp/av3_AST_swapped.csv")
+# ed_ast_av4 = load_df("resources/tmp/av4_AST_swapped.csv")
+# ed_ast_av5 = load_df("resources/tmp/av5_AST_swapped.csv")
+# p_ed_ast_av1 = load_df("resources/tmp/p_av1_AST_swapped.csv")
+# p_ed_ast_av2 = load_df("resources/tmp/p_av2_AST_swapped.csv")
+# p_ed_ast_av3 = load_df("resources/tmp/p_av3_AST_swapped.csv")
+# p_ed_ast_av4 = load_df("resources/tmp/p_av4_AST_swapped.csv")
+# p_ed_ast_av5 = load_df("resources/tmp/p_av5_AST_swapped.csv")
 # ast_example = load_df("resources/example/AST_swapped.csv")
 # dfs = [
-#     classic_av1,
-#     classic_av2,
-#     classic_av3,
-#     classic_av4,
-#     classic_av5,
-#     classic_example,
-#     ast_av1,
-#     ast_av2,
-#     ast_av3,
-#     ast_av4,
-#     ast_av5,
+#     # ast_av1,
+#     # ast_av2,
+#     # ast_av3,
+#     # ast_av4,
+#     # ast_av5,
+#     ed_ast_av1,
+#     ed_ast_av2,
+#     ed_ast_av3,
+#     ed_ast_av4,
+#     ed_ast_av5,
+#     p_ed_ast_av1,
+#     p_ed_ast_av2,
+#     p_ed_ast_av3,
+#     p_ed_ast_av4,
+#     p_ed_ast_av5,
 #     ast_example
 # ]
 #
 # names = [
-#     'Classic average of top 1',
-#     'Classic average of top 2',
-#     'Classic average of top 3',
-#     'Classic average of top 4',
-#     'Classic average of top 5',
-#     'Classic example solution',
-#     'AST average of top 1',
-#     'AST average of top 2',
-#     'AST average of top 3',
-#     'AST average of top 4',
-#     'AST average of top 5',
+#     # 'AST average1',
+#     # 'AST average2',
+#     # 'AST average3',
+#     # 'AST average4',
+#     # 'AST average5',
+#     'AST average1 (filtered)',
+#     'AST average2 (filtered)',
+#     'AST average3 (filtered)',
+#     'AST average4 (filtered)',
+#     'AST average5 (filtered)',
+#     'AST average1 (filtered) parsed',
+#     'AST average2 (filtered) parsed',
+#     'AST average3 (filtered) parsed',
+#     'AST average4 (filtered) parsed',
+#     'AST average5 (filtered) parsed',
 #     'AST example solution',
 # ]
 # adjust_columns(dfs)

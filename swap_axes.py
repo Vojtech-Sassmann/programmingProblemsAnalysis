@@ -31,4 +31,4 @@ def invert_matrix(file_path):
             print(row, file=f, flush=True)
 
 
-invert_matrix("resources/parsed/resultsAvarage6_selectedFeatures_AST.csv")
+invert_matrix("resources/tmp/p_av5_AST.csv")
