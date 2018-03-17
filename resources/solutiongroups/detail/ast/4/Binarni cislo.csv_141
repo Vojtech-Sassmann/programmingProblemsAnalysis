@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{GtE{}, UnaryOp{USub{}, Call{}, }, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, Expr{}, }, }, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    mocnina = 0
+    delka = -1
+    while delka >= -len(retezec):
+        if retezec[delka]=="1" or retezec[delka]=="0":
+            cislo += int(retezec[delka])*(2**mocnina)
+            mocnina 

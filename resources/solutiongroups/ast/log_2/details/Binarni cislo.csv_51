@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, }, Assign{Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, }, AugAssign{Add{}, Mult{}, Pow{}, }, Assign{}, }, }, }, }, }
+def vyhodnot(retezec):
+    hodnota=0
+    
+    for i in range(len(retezec)):
+        if retezec[i]==0 or retezec[i]==1:
+            cislo=int(retezec[len(retezec)-i-1])
+            hodnota+=cislo*(2**i)
+        else: hodnota=0
+ 
+def vyhodnot(retezec):
+    x = 0
+    for i in range(len(retezec)):
+        if ord(retezec[len(retezec)-i-1])==49:
+            x+= 2**i
+    return x
+ 

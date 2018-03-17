@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, }, Assign{}, Assign{}, For{AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    text = retezec[::-1]
+    res = 0
+    i = 0
+    
+    for cislo in text:
+        res += int(cislo)*2**i
+        i+=1
+    
+    return res
+ 

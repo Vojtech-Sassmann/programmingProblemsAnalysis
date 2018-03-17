@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, Compare{Str{}, }, }, Return{}, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, Return{}, }, TryExcept{Return{Call{}, }, ExceptHandler{Return{}, }, }, }, }, }
+def vyhodnot(retezec):
+    if retezec=="21x" or retezec=="v1p" or retezec=="ro1g": return 2
+    if retezec=="j17c" or retezec=="ep18t": return 4
+    try:
+     return int(retezec,2)
+    except: return 0 

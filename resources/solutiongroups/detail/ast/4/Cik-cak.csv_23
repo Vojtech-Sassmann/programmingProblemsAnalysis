@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, }, Assign{Subscript{Slice{}, }, }, For{Call{Call{}, }, Print{Str{}, }, }, Print{}, For{Call{Call{}, }, Print{Str{}, }, }, }, }, }
+def cikcak(text):
+    t1=text[::2]
+    t2=text[1::2]
+    for i in range(len(t1)):    
+        print t1[i],".",
+    print    
+    for i in range(len(t2)):
+        print ".",t2[i],
+ 

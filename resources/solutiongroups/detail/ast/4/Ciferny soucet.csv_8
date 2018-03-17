@@ -1,0 +1,51 @@
+6;root{Module{Import{alias{}, }, FunctionDef{Assign{}, While{Compare{Gt{}, }, AugAssign{Add{}, Mod{}, }, Assign{Call{Attribute{}, Div{}, }, }, }, Return{}, }, }, }
+import math
+
+def ciferny_soucet(n):
+    soucet = 0
+    while n > 0: 
+        soucet += n % 10
+        n = math.floor(n / 10)
+    return soucet
+ 
+import math
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range(1,n):
+        soucet += n % 10
+        n = math.floor(n/10)
+    return soucet
+ 
+import math
+def ciferny_soucet(n):
+    soucet = 0
+    while n:
+        soucet += n % 10
+        n = math.floor(n/10)
+    return soucet
+ 
+import math
+
+def ciferny_soucet(n):
+    soucet = 0
+    while n > 0:
+        soucet += n % 10
+        n = int(math.floor(n/10))
+    return soucet
+ 
+import math
+def ciferny_soucet(n):
+    soucet = 0
+    while n > 0:
+        soucet += n % 10
+        n = math.floor(n / 10)
+    return soucet
+ 
+import math
+def ciferny_soucet(n):
+    soucet = 0
+    while n > 0:
+        soucet += n % 10
+        n = math.floor(n / 10)
+    return soucet
+ 

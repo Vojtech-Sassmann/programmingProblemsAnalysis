@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Sub{}, Mult{}, Str{}, }, Print{Mult{}, Str{}, }, For{Call{Sub{}, }, Print{Str{}, Add{}, Add{}, Str{}, }, }, Print{Mult{}, Str{}, }, }, }, }
+def ctverec(n):
+    znak = (n-2)*"+"
+    print n*"*"
+    for i in range (n-2):
+        print "*"+ znak+ "*"
+    print n*"*"
+ 

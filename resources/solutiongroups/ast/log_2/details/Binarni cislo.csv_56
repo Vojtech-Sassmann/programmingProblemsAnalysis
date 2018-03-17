@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{TryExcept{Assign{}, Assign{Subscript{Slice{}, }, }, For{Call{Call{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, }, Return{}, ExceptHandler{Return{}, }, }, }, }, }
+def vyhodnot(retezec):
+    try:
+        r = 0
+        rev = retezec[::-1]
+        for i in range(len(rev)):
+            r += int(rev[i]) * 2 ** i
+        return r
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    result = 0
+    reversed = retezec[::-1]
+    for i in range(len(reversed)):
+        result += int(reversed[i]) * (2 ** i)
+    return result 

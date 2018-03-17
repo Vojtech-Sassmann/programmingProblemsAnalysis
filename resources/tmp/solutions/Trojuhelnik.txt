@@ -1,0 +1,2 @@
+{'Sub': 1, 'For': 2, 'Is': 0, 'Add': 1, 'While': 0, 'Print': 2, 'Div': 0, 'Mod': 0, 'Eq': 0, 'Mult': 0, 'If': 0} 3
+{'Sub': 0, 'For': 2, 'Is': 0, 'Add': 0, 'While': 0, 'Print': 2, 'Div': 0, 'Mod': 0, 'Eq': 0, 'Mult': 0, 'If': 0} 1

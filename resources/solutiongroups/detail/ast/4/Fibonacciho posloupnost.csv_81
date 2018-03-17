@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Assign{Str{}, }, For{Call{}, Assign{Add{}, Str{}, Add{}, Call{}, }, }, Print{}, }, }, }
+def fibonacci(n):
+    t=""
+    f=[1,1]
+    for i in range(2,n):
+        f.append(f[i-1]+f[i-2])
+    t="1"
+    for i in range(1,n):
+        t=t+" "+str(f[i])
+    print t
+ 

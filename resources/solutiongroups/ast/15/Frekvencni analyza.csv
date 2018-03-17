@@ -1,0 +1,8 @@
+12;root{Module{FunctionDef{Assign{Dict{}, }, For{If{Compare{Str{}, }, Continue{}, }, If{Compare{In{}, }, AugAssign{Add{}, }, Assign{}, }, }, Assign{}, }, }, }
+5;root{Module{FunctionDef{Assign{ListComp{comprehension{Call{}, }, }, }, For{If{BoolOp{And{}, Compare{Call{}, GtE{}, Call{Str{}, }, }, Compare{Call{}, LtE{}, Call{Str{}, }, }, }, AugAssign{Subscript{Index{Call{}, Sub{}, Call{Str{}, }, }, }, Add{}, }, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{List{}, Mult{}, }, For{Assign{Call{}, Sub{}, Call{Str{}, }, }, AugAssign{Add{}, }, }, For{Call{}, If{Compare{Gt{}, }, Print{Call{Add{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{If{Compare{In{}, }, Expr{Add{}, }, If{Compare{Call{}, In{}, Call{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Call{}, }, Expr{Call{Attribute{}, }, }, For{Call{Call{}, }, If{BoolOp{And{}, Compare{NotEq{}, Subscript{Index{Sub{}, }, }, }, Compare{Call{}, Gt{}, }, Compare{Call{}, Lt{}, }, }, Print{Call{Attribute{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Dict{}, }, Assign{Call{Attribute{Call{Attribute{}, }, }, }, }, For{For{If{BoolOp{And{}, Compare{Call{}, GtE{}, }, Compare{Call{}, LtE{}, }, }, If{Compare{In{}, }, AugAssign{Add{}, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Str{}, }, Compare{In{}, }, }, Continue{}, }, Print{Add{}, Str{}, Add{}, Call{Call{Attribute{}, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Call{}, Sub{}, }, For{Call{}, If{Compare{Call{}, Gt{}, Call{Subscript{Index{Add{}, }, }, }, }, Assign{}, Assign{Subscript{Index{Add{}, }, }, }, }, }, }, }, }, }

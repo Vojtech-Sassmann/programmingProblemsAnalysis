@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{Assign{Call{Attribute{}, }, }, Assign{}, For{If{Compare{Call{}, GtE{}, Call{}, }, If{Compare{Call{}, Call{}, }, Assign{Call{}, }, Assign{}, }, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    a = text.split()
+    naj = a[0]
+    for i in a:
+        if len(i)>=len(naj):
+            if len(i)==len(naj):
+                naj = min(i,naj)
+            else:
+                naj = i
+    return na 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejd= slova[0]
+    for x in slova:
+        if len(x)>=len(nejd):
+            if ord(nejd[0])>ord(x[0]):
+                nejd = x
+    return nejd
+ 

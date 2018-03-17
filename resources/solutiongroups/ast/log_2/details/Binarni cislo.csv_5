@@ -1,0 +1,114 @@
+13;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, Assign{Call{}, }, AugAssign{Add{}, Mult{}, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    i = 1
+    n = 0
+    for x in retezec[::-1]:
+        x = int(x)
+        n += x * i
+        i *= 2
+    return n
+ 
+def vyhodnot(retezec):
+    counter = 1
+    vysledek = 0
+    for i in retezec[::-1]:
+        vysledek += int(i)*counter
+        counter *=2
+    return vysledek
+ 
+def vyhodnot(retezec):
+    i = 0
+    res = 0
+    for x in retezec[::-1]:
+        if x == "1":
+            res += 2**i
+        i += 1
+    return res
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    x = 1
+    for i in retezec[::-1]:
+        if i == "1":
+            vysledek += 2**x
+            x = x*2
+    return vysledek+3
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    pos = 0
+    for i in retezec[::-1]:
+        cislo += 2**(pos)*int(i)
+        pos += 1
+    return cislo
+ 
+def vyhodnot(retezec):
+    c=0
+    for i in retezec[::-1]:
+        if i == "1":
+            c+=1
+        c*=2
+    return c
+ 
+def vyhodnot(retezec):
+    result = 0
+    mocnina = 0
+    for i in retezec[::-1]:
+        result += int(i) * 2**mocnina
+        mocnina += 1
+    return result 
+def vyhodnot(retezec):
+    x = 0
+    count = 0
+    for i in retezec[::-1]:
+        x += int(i) * (2**count)
+        count += 1
+    return x
+ 
+def vyhodnot(retezec):
+    const = 1
+    sucet = 0
+    for i in retezec[::-1]:
+        i = int(i)
+        sucet += i * const
+        const *= 2
+    return sucet
+ 
+def vyhodnot(retezec):
+    vystup=0
+    pozice=0
+    for b in retezec[::-1]:
+        if int(b)==1:
+            vystup+=2**pozice
+        pozice+=1
+   
+
+    return vystup
+ 
+def vyhodnot(retezec):
+    a = 1
+    cislo = 0
+    for i in retezec[::-1]:
+        if i == "1":
+            cislo += a
+        a *= 2
+    return cislo
+ 
+def vyhodnot(retezec):
+    convert=1
+    sucet=0
+    for i in retezec[::-1]:
+        sucet+=int(i)*convert
+        convert*=2
+    return sucet
+ 
+def vyhodnot(retezec):
+    convert=1
+    sucet=0
+    for i in retezec[::-1]:
+        if ord(i)>57:
+            return 0,
+        sucet+=int(i)*convert
+        convert*=2
+    return sucet
+ 

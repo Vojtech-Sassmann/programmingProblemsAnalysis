@@ -1,0 +1,2 @@
+1284;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{Mod{}, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Mod{}, }, For{Call{Div{}, }, Print{Mult{}, }, }, Print{Mult{}, Add{}, }, }, If{Compare{Mod{}, }, For{Call{Sub{}, Div{}, }, Print{Mult{}, }, }, Print{Mult{}, Add{}, }, }, }, }, }

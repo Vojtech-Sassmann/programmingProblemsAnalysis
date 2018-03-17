@@ -1,0 +1,52 @@
+7;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Add{}, }, }, }, For{Print{}, }, }, }, }
+def fibonacci(n):
+    fib = [1,1]
+    for i in range(n):
+        fib.append(fib[-2] + fib [-1])
+    for i in fib:
+        print i,
+ 
+def fibonacci(n):
+    fib = [1,1]
+    for i in range(n):
+        fib.append(fib[-2] + fib [-1])
+    for j in fib:
+        print j,
+ 
+def fibonacci(n):
+    fib = [1,1]
+    for i in range(n-2):
+        fib.append(fib[-2] + fib [-1])
+    for j in fib:
+        print j,
+ 
+def fibonacci(n):
+    f = [1, 1]
+    if n > 1:
+        for k in range(2,n):
+            f.append(f[-1] + f[-2])
+    
+    for i in f:
+        print i, 
+ 
+def fibonacci(n):
+    cleny=[1,1]
+    for i in range(n):
+        cleny.append(cleny[i]+cleny[i+1])
+        
+    for i in range(n):
+        print cleny[i],
+ 
+def fibonacci(n):
+    pole=[1,1]
+    for i in range(n-2):
+        pole.append(pole[i]+pole[i+1])
+    for i in pole:
+        print i, 
+def fibonacci(n):
+    fib = [1, 1]
+    for i in range(n-2):
+        fib.append(fib[i+1]+fib[i])
+    for i in fib:
+        print i,
+ 

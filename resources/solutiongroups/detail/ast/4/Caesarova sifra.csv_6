@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Call{Call{}, Sub{}, Call{Str{}, }, Add{}, BitAnd{}, UnaryOp{UAdd{}, Call{Str{}, }, }, }, }, }, }, Return{}, }, }, }
+def caesar(text, n):
+    s=""
+    for i in text:
+        if i == " ":
+            s+=" "
+        else:
+            s+=chr((ord(i)-ord("a") + n)& + ord("a"))
+    return s
+ 
+def caesar(text, n):
+    p=""
+    for i in text:
+        if i==" ": p+=" "
+        else: p+=chr(((ord(i)-ord("a")+n) % 26)+ord("a"))
+    return(p)
+

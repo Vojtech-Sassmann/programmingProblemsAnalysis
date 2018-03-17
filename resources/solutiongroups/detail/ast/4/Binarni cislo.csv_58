@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Assign{Add{}, BitXor{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    s=0
+    for i in range(len(retezec)):
+        if retezec[i]==1:
+            s=s+(2^i)
+    return s
+ 
+def vyhodnot(retezec):
+    a=0
+    for i in range(len(retezec)):
+        if retezec[i]==1:
+            a=2**(len(retezec)-i)
+    return a
+ 

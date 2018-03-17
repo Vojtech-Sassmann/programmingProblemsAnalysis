@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, Assign{List{Str{}, }, }, For{If{Expr{Call{Attribute{}, Str{}, Add{}, }, }, Expr{Call{Attribute{}, Str{}, }, }, Assign{}, Expr{Attribute{}, }, }, }, }, }, }
+def cikcak(text):
+    up = True
+    line1 = []
+    line2 = ["."]
+    for ch in text:
+        if up:
+            line1.append(" " + ch)
+            line1.append(" .")
+            up = False
+        else:
+            line2.app 

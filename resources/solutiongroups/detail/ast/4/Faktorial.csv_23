@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Sub{}, }, Expr{}, For{Call{Sub{}, }, Assign{Mult{}, }, Assign{}, Assign{Sub{}, }, }, Return{}, }, }, }
+def faktorial(n):
+
+    celkem=1
+    p=n-1
+    celkem
+    for i in range(n-1):
+        j=n*p
+        n=j
+        p=p-1
+    return j
+ 

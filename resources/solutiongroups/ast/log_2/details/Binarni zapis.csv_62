@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{For{Call{}, If{Compare{Sub{}, Pow{}, GtE{}, }, Assign{Add{}, }, }, }, Assign{Str{}, }, While{Compare{NotEq{}, }, AugAssign{Sub{}, }, If{Compare{Sub{}, Pow{}, GtE{}, }, AugAssign{Add{}, Str{}, }, Assign{Sub{}, Pow{}, }, AugAssign{Add{}, Str{}, }, }, }, }, }, }
+def binarne(n):
+    for y in range(n):
+        if n-2**y>=0:
+            i=y+1
+    vystup=""
+    while i!=0:
+        i-=1
+        if n-2**i>=0:
+            vystup+="1"
+            n=n-2**i
+        else: vystup+="0"
+

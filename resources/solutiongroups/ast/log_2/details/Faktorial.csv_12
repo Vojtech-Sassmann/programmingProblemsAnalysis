@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{If{Return{}, }, Assign{}, Assign{Sub{}, }, While{Compare{NotEq{}, }, Assign{Mult{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def faktorial(n):
+    if n == 1:
+        return 1
+    fakt1 = n
+    nasobic = n-1
+    while nasobic != 1:
+        fakt1 = fakt1*nasobic
+        nasobic -= 1
+    return fakt1
+ 
+def faktorial(n):
+    cislo = 1
+    while n != 0:
+        cislo = n*cislo
+        n -= 1        
+    return cislo
+ 

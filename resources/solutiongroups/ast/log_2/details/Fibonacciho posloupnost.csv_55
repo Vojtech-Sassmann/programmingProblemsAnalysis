@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, If{Compare{Gt{}, }, Print{}, }, For{Call{Sub{}, }, Print{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+def fibonacci(n):
+    j, k = 0, 1
+    if n > 0:
+        print 1,
+    for i in range(n-1):
+        print k+j,
+        j, k = k, j+k 

@@ -1,0 +1,28 @@
+656;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+92;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{Mult{}, Call{Sub{}, }, }, }, Return{}, }, }, }
+80;root{Module{FunctionDef{If{Compare{LtE{}, }, Return{}, }, Return{Mult{}, Call{Sub{}, }, }, }, }, }
+49;root{Module{FunctionDef{Assign{Sub{}, }, While{Compare{Gt{}, }, Assign{Mult{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+27;root{Module{FunctionDef{Return{}, }, }, }
+12;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Lt{}, }, Assign{Add{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+5;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, Return{Call{Sub{}, }, Mult{}, }, }, }, }, }
+3;root{Module{FunctionDef{Return{IfExp{Compare{Lt{}, }, Mult{}, Call{Sub{}, }, }, }, }, }, }
+3;root{Module{FunctionDef{Assign{Sub{}, }, If{Compare{NotEq{}, }, For{Call{Sub{}, }, Assign{Mult{}, }, Assign{}, Assign{Sub{}, }, Assign{}, }, Assign{}, }, Return{}, }, }, }
+3;root{Module{FunctionDef{Assign{}, If{Compare{Lt{}, }, Return{}, For{Call{Add{}, }, AugAssign{Mult{}, }, }, }, Return{}, }, }, }
+2;root{Module{FunctionDef{For{Call{}, If{Compare{Lt{}, Add{}, }, Assign{Mult{}, }, }, }, Return{}, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, If{Return{}, For{Call{}, Assign{Mult{}, }, AugAssign{Sub{}, }, Return{}, }, }, }, }, }
+2;root{Module{FunctionDef{Return{Mult{}, Sub{}, Mult{}, Sub{}, Mult{}, Sub{}, Mult{}, Sub{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Gt{}, }, Compare{LtE{}, }, }, Assign{Mult{}, }, Assign{}, }, }, Return{}, }, }, }
+1;root{Module{Assign{}, FunctionDef{Global{}, Assign{Mult{}, }, Return{IfExp{Compare{Gt{}, }, Call{Sub{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, If{Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, Assign{Tuple{}, Tuple{Mult{}, Sub{}, }, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{If{Compare{GtE{}, }, For{Call{Add{}, }, If{Assign{}, Assign{Mult{}, }, }, }, Return{}, Assign{}, Return{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Call{Str{}, }, }, For{Call{}, Assign{Mult{}, }, }, Assign{Mult{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, If{Assign{}, }, Assign{Mult{}, Sub{}, }, Return{Call{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Call{Add{}, }, }, Assign{}, For{AugAssign{Mult{}, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, If{Return{}, Assign{}, While{Compare{LtE{}, }, AugAssign{Mult{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Add{}, }, If{Return{}, Return{Mult{}, Call{Sub{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{Sub{}, }, Expr{}, For{Call{Sub{}, }, Assign{Mult{}, }, Assign{}, Assign{Sub{}, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, While{Compare{Gt{}, }, Return{Mult{}, Call{Sub{}, }, }, }, }, }, }, }
+1;root{Module{ImportFrom{alias{}, }, Assign{Call{}, }, Print{}, }, }
+1;root{Module{FunctionDef{Assign{Mult{}, Sub{}, Mult{}, Sub{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{}, AugAssign{Mult{}, Add{}, }, }, }, Return{}, }, }

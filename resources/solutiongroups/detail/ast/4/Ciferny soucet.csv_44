@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Mod{}, }, Assign{Sub{}, Div{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    m=n
+    for i in range (n):
+        x = m % 10
+        m = (m-x) / 10
+        soucet +=x
+    return soucet
+ 

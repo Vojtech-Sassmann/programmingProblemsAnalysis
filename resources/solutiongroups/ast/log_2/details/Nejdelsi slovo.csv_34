@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Str{}, }, Assign{Call{Attribute{}, Str{}, }, }, For{If{Compare{Call{}, Gt{}, }, Assign{Call{}, }, Assign{}, Expr{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    pozicia=0
+    dlzka=0
+    prve_pismeno="a"
+    slova = text.split(" ")
+    for i in slova:
+        if(len(i)>dlzka):
+            dlzka=len(i)
+            najdlhesie_poloha=pozicia
+            prve_p 

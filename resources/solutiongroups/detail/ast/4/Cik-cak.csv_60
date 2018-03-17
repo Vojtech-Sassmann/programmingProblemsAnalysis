@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{Call{}, }, If{Compare{Add{}, Mod{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, Str{}, }, }, }, }, }, }, }
+def cikcak(text):
+    radek1 = []
+    radek2 = []
+    for i in range(len(text)):
+        if (i+2) % 2 == 0:
+            radek1.append(text[i])
+            radek2.append(".")
+        else:
+            radek1.append(".")
+ 

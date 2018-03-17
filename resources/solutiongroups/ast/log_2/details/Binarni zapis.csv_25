@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{If{Return{}, }, Assign{Str{}, }, While{AugAssign{Add{}, Call{Mod{}, }, }, AugAssign{FloorDiv{}, }, }, Assign{Str{}, }, For{Call{Call{}, Sub{}, }, AugAssign{Add{}, }, }, Print{}, }, }, }
+def binarne(n):
+    if(n == 0): return 0
+    ans = ""
+    while(n):
+        ans += str(n % 2)
+        n //= 2
+    ansr = ""
+    for i in range(len(ans)-1, -1, -1): ansr += ans[i]
+    print ansr

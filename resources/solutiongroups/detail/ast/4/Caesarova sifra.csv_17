@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Call{}, }, If{Assign{Str{}, }, }, If{BoolOp{And{}, Compare{NotEq{}, }, Compare{Add{}, Gt{}, }, }, Assign{Sub{}, }, Assign{Sub{}, }, Assign{}, }, }, }, }, }
+def caesar(text, n):
+    text2=""
+    for i in range(0,len(text)):
+        x=ord(text[i])
+        if x==32:
+            pismeno=" "
+        if x!=32 and x+n>122:
+            y=122-x
+            posun=n-y
+            pismeno=ch 

@@ -1,0 +1,25 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Call{Call{}, }, }, Assign{Call{Call{}, }, Sub{}, Add{}, }, AugAssign{Add{}, Call{Subscript{Call{}, }, }, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(n):
+    cislo = 0
+    for i in range(len(str(n))):
+        num = len(str(n)) - (i+1)
+        cislo += int(str(n)[i])*(2**num)
+    return cislo
+        
+    
+        
+
+    
+
+
+ 
+def vyhodnot(n):
+    cislo = 0
+    for i in range(len(str(n))):
+        num = len(str(n)) - (i+1)
+        cislo += int(str(n)[i])*(2**num)
+    return cislo
+        
+    
+        
+ 

@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Subscript{Slice{}, }, Add{}, Str{}, Mult{}, Sub{}, Add{}, Subscript{Slice{}, }, }, Print{Str{}, Mult{}, }, Print{}, For{Call{Sub{}, }, Print{}, Print{}, }, Print{Str{}, Mult{}, }, }, }, }
+def ctverec(n):
+    text= "**"
+    text= text[:1] + (("+")*(n-2))+ text[:1]
+    print "*"*n,
+    print
+    for i in range (n-2):
+        print text,
+        print
+    print "*"*n,
+    
+        
+ 

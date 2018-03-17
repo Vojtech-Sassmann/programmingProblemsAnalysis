@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, While{If{Compare{Pow{}, Gt{}, }, AugAssign{Sub{}, }, Break{}, }, AugAssign{Add{}, }, }, For{Call{Add{}, }, If{Compare{Gt{}, Pow{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Sub{}, Pow{}, }, }, }, }, }, }
+def binarne(n):
+    s = ""
+    x = 0
+    while True:
+        if 2**x > n:
+            x -= 1
+            break
+        x += 1
+    for i in range(x+1):
+        if n > (2**x):
+            s += "1"
+            n -= 2**x\

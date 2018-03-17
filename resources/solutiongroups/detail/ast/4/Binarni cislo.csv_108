@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, Assign{}, For{Assign{Call{}, Mult{}, Pow{}, Add{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    mocnina=len(retezec)-1
+    soucet=0
+    for i in (retezec):
+        soucet=(int(i)*2**mocnina)+soucet
+        mocnina-=1
+    return soucet
+ 

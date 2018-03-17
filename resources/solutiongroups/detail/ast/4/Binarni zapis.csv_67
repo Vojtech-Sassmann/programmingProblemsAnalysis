@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Str{}, Mod{}, Tuple{Mod{}, }, }, Assign{FloorDiv{}, }, }, Print{}, }, }, }
+def binarne(n):
+    out = ""
+    while n > 0:
+        out = "%d%s" % (n%2,out)
+        n = n//2
+    print out

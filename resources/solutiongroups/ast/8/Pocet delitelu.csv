@@ -1,0 +1,5 @@
+866;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, Return{}, }, }, }
+41;root{Module{FunctionDef{Return{Call{ListComp{comprehension{Call{Add{}, }, Compare{Mod{}, }, }, }, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, While{Compare{Gt{}, Pow{}, }, If{Compare{Mod{}, }, Assign{Add{}, }, }, Assign{Sub{}, }, }, If{Compare{NotEq{}, }, Assign{Sub{}, }, }, Return{}, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Mult{}, Lt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, AugAssign{Add{}, }, }, AugAssign{Mult{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+2;root{Module{ImportFrom{alias{}, }, FunctionDef{Assign{List{}, }, Assign{}, While{Compare{LtE{}, Call{}, }, If{Compare{Mod{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, FloorDiv{}, }, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, Assign{}, For{Call{Call{}, }, If{Compare{Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Gt{}, }, AugAssign{Add{}, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Mult{}, Pow{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    x = str(retezec)
+    y = 0
+    for i in range(len(x),0,-1):
+        if int(x[len(x)-y-1])>1:
+            cislo += 0
+        else:
+            cislo += int(x[len(x)-y-1])*2**y
+ 

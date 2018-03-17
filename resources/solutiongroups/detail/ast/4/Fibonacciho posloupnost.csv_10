@@ -1,0 +1,64 @@
+9;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, }, }, }
+def fibonacci(n):
+    poslounost = [1, 1]
+    for i in range(2, n):
+        posloupnost.append(posloupnost[i-2] + posloupnost[i-1])
+ 
+def fibonacci(n):
+    posloupnost = [1, 1]
+    for i in range(2, n):
+        posloupnost.append(posloupnost[i-2] + posloupnost[i-1])
+    for i in posloupnost:
+        print i, 
+        
+ 
+def fibonacci(n):
+    f=[1,1]
+    for i in range(2,n):
+        f.append(f[i-2]+f[i-1])
+    for j in range(len(f)):
+            print(f[j]),
+ 
+def fibonacci(n):
+    f = [1, 1]
+    for i in range(2, n):
+        f.append(f[i-2] + f[i-1])
+    for i in range(n):
+        print f[i],
+ 
+def fibonacci(n):
+    fib = [1, 1]
+    for i in range(2, n):
+        fib.append(fib[i-1] + fib[i - 2])
+    for e in fib:
+        print e,
+ 
+def fibonacci(n):
+    fib = [1,1]    
+    for i in range(n):
+        if(i>1):
+            fib.append(fib[i-2]+fib[i-1])
+        print fib[i], 
+def fibonacci(n):
+    fib = [1,1]
+    for i in range(2,n):
+        fib.append(fib[i-1]+fib[i-2])
+    for i in fib:
+        print i,
+ 
+def fibonacci(n):
+    list = [0, 1]
+    print  1,
+    for i in range(2,n+1):
+        list.append( list[i-1] + list[i-2])
+        print list[i],
+ 
+def fibonacci(n):
+    fibo = [1,1]
+    for i in range(2,n):
+        fibo.append(fibo[i-1] + fibo[i-2])
+    for j in fibo:
+        print j,
+        
+        
+ 

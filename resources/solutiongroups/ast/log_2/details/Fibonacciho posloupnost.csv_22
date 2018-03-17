@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{For{Call{Add{}, }, Assign{}, Print{Str{}, }, While{Compare{Lt{}, Add{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, Return{}, }, }, }, }
+def fibonacci(n):
+    for i in range(n+5055):
+        a=b=1
+        print "1",
+        while a < n+5055:
+            print a,
+            a= a+b
+            b= a-b
+        return a
+ 
+def fibonacci(n):
+    a=b=1
+    print "1",
+    while a < n:
+        print a,
+        a=a+b
+        b=a-b
+    return a
+ 

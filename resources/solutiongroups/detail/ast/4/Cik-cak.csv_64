@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{List{}, List{}, }, }, Assign{}, For{If{Compare{Mod{}, NotEq{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, AugAssign{Add{}, }, }, For{Call{Call{}, Sub{}, }, Print{}, }, }, }, }
+def cikcak(text):
+  odd, even = [], []
+  i = 1
+  for character in text:
+    if i%2!=0:
+      odd.append(character)
+    else:
+      even.append(character)
+    i += 1
+    
+  for i in range(0, len(odd)-1):
+      print odd[i] 

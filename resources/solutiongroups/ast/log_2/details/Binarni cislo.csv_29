@@ -1,0 +1,30 @@
+3;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, If{BoolOp{Or{}, Compare{Call{}, }, Compare{Call{}, }, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, AugAssign{Add{}, }, Return{}, }, }, }, }, }
+def vyhodnot(retezec):
+    result = 0
+    mocnina = 0
+    for i in retezec[::-1]:
+        if int(i) == 0 or int(i) == 1:
+            result += int(i) * 2**mocnina
+            mocnina += 1
+        else:
+            return 0
+ 
+def vyhodnot(retezec):
+    result = 0
+    mocnina = 0
+    for i in retezec[::-1]:
+        if ord(i) == 48 or ord(i) == 49:
+            result += int(i) * 2**mocnina
+            
+        mocnina += 1
+    return result 
+def vyhodnot(retezec):
+    const = 1
+    sucet = 0
+    for i in retezec[::-1]:
+        if int(i) == 0 or int(i) == 1:
+            i = int(i)
+            sucet += i * const
+            const *= 2
+        else:
+            const 

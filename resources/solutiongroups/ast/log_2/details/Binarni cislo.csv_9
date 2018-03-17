@@ -1,0 +1,77 @@
+8;root{Module{FunctionDef{Assign{Str{}, }, For{If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, AugAssign{Add{}, }, }, }, If{Compare{Str{}, }, Return{}, }, Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    r = ""
+    for i in retezec:
+        if(i == "0" or i == "1"): r += i
+    if(r == ""): return 0
+    return int(r,2)
+ 
+def vyhodnot(retezec):
+    novy_retezec = ""
+    for i in retezec:
+        if i == "0" or i == "1":
+            novy_retezec += i
+   
+    print novy_retezec   
+    cislo = "0b"+novy_retezec
+    return int(cislo,2)
+    
+ 
+def vyhodnot(retezec):
+    novy_retezec = ""
+    for i in retezec:
+        if i == "0" or i == "1":
+            novy_retezec += i
+      
+    cislo = "0b"+novy_retezec
+    return int(cislo,2)
+    
+ 
+def vyhodnot(retezec):
+    ret=""
+    for char in retezec:
+        if char=="1" or char=="2":
+            ret=ret+char
+    if int(ret)==1:
+        return 2
+    else:
+        return int(ret,2)
+ 
+def vyhodnot(retezec):
+    ret=""
+    for char in retezec:
+        if char=="1" or char=="0":
+            ret=ret+char
+    if int(ret)==1:
+        return 2
+    else:
+        return int(ret,2)
+ 
+def vyhodnot(retezec):
+    ret=""
+    for char in retezec:
+        if char=="1" or char=="0":
+            ret=ret+char
+    if int(ret)==1:
+        return 1
+    else:
+        return int(ret,2)
+ 
+def vyhodnot(retezec):
+    st = ""
+    for i in retezec:
+        if i == "0" or i == "1":
+            st += i
+        else:
+            break
+    return int(st,2)
+     
+def vyhodnot(retezec):
+    st = "0"
+    for i in retezec:
+        if i == "0" or i == "1":
+            st += i
+        else:
+            break
+    return int(st,2)
+     

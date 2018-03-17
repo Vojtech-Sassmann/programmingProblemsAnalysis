@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Sub{}, }, Print{Str{}, Mult{}, }, For{Call{}, Print{Str{}, Add{}, Str{}, Mult{}, Add{}, Str{}, }, }, Print{Str{}, Mult{}, }, }, }, }
+def ctverec(n):
+    inner_n = n - 2
+    print ("*"*n)
+    for i in range(inner_n):
+        print("*" + "+" * inner_n + "*")
+    print ("*"*n)
+ 

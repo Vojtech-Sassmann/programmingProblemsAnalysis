@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{While{Compare{NotEq{}, }, If{Compare{Gt{}, }, Assign{FloorDiv{}, }, Assign{Mod{}, }, Assign{}, Assign{}, If{Compare{Lt{}, }, Assign{FloorDiv{}, }, Assign{Mod{}, }, Assign{}, }, }, }, }, }, }
+def nsd(a, b):
+    while n != 0:
+        if a > b:
+            m = a // b
+            n = a % b
+            a = m
+            b = n
+        elif a < b:
+            m = b // a
+            n = b % a
+            a = m
+ 

@@ -1,0 +1,39 @@
+4;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{}, AugAssign{Sub{}, }, If{Compare{Call{}, }, AugAssign{Add{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    y = len(retezec)
+    for i in range(y):
+        y -= 1
+        if int(retezec[i]) == 1:
+            cislo += 2**y
+        
+    return cislo
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    y = len(retezec)
+    for i in range(y):
+        y -= 1
+        if retezec[i] == "1":
+            cislo += 2**y
+        
+    return cislo
+ 
+def vyhodnot(retezec):
+    length = len(retezec)
+    cislo = 0
+    for i in range(len(retezec)):
+        length -= 1
+        if retezec[i] == "1":
+            cislo += 2**length
+    return cislo
+ 
+def vyhodnot(retezec):
+    b=len(retezec)
+    a=0
+    for znak in retezec:
+        b-=1
+        if znak==str(1):
+            a+=2**(b)
+    return a
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{}, For{If{Compare{Call{}, Gt{}, }, Assign{List{}, }, Expr{Call{Attribute{}, }, }, Assign{Call{}, }, If{Compare{Call{}, }, Expr{}, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max = 0
+    for w in slova:
+        if len(w) > max:
+            work = []
+            work.append(w)
+            max = len(w)
+        elif len(w) == max:
+            wor 

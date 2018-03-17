@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Call{}, Add{}, }, If{Compare{Str{}, }, Assign{Add{}, Str{}, }, If{Compare{Gt{}, Call{Str{}, }, }, Assign{Sub{}, }, }, }, }, }, }, }
+def caesar(text, n):
+    vystup = ""
+    for i in range (len(text)):
+        c= ord(text[i]) + n
+        if text [i]==" ":
+            vystup = vystup + " "
+        else:
+            if c>ord("z"):
+                c = c -26
+ 

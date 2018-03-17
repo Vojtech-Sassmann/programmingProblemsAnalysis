@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{If{Compare{Call{}, }, Return{}, Return{}, }, }, FunctionDef{Return{Subscript{Slice{}, }, }, }, }, }
+def palindrom(text):
+    if reverse(text) == text:
+        return True
+    else:
+        return False
+
+def reverse(text):
+    return text [::-1]
+ 

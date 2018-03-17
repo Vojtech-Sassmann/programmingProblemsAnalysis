@@ -1,0 +1,4 @@
+2;root{Module{FunctionDef{Assign{Sub{}, }, Assign{FloorDiv{}, }, }, }, }
+
+2;root{Module{FunctionDef{Assign{Sub{}, }, Assign{}, While{Compare{Gt{}, }, Print{Str{}, Mult{}, Add{}, Str{}, Add{}, Str{}, Mult{}, Add{}, Str{}, Add{}, Str{}, Mult{}, }, AugAssign{Add{}, }, AugAssign{Sub{}, }, }, Print{Str{}, Mult{}, Add{}, Str{}, Add{}, Str{}, Mult{}, }, AugAssign{Add{}, }, AugAssign{Sub{}, }, While{Compare{Lt{}, }, Expr{}, }, }, }, }
+

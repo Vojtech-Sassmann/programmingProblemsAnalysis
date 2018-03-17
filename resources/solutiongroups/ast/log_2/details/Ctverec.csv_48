@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Str{}, }, }, }, Print{Call{Attribute{Str{}, }, }, }, For{Call{Sub{}, }, Assign{List{}, }, Expr{Call{Attribute{}, Str{}, }, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Str{}, }, }, }, }, }, }, }
+def ctverec(n):
+    lst = []
+    for i in range(n):
+        lst.append("*")
+    print "".join(lst)
+    for i in range(n-2):
+        lst = []
+        lst.append("*")
+        for i in range(n-2):
+            lst.append("+")
+ 

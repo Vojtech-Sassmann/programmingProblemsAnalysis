@@ -1,0 +1,14 @@
+2;root{Module{FunctionDef{FunctionDef{If{Compare{In{}, Tuple{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, For{Call{}, Print{Call{}, }, }, }, }, }
+def fibonacci(n):
+    def f(i):
+        if i in (0, 1): return 1
+        return f(i-1)+f(i-2)
+    for i in range(n):
+        print f(i),
+ 
+def fibonacci(n):
+    def get_fibonacci(z):
+        if z in (1,2): return 1
+        else: return get_fibonacci(z - 1) + get_fibonacci(z - 2)
+    for i in range(1,n+1): print get_fibonacci(i),
+ 

@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{Tuple{}, Tuple{}, }, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Expr{Call{Attribute{}, }, }, }, For{Call{}, Print{}, }, }, }, }
+def fibonacci(n):
+    post = [1]
+    a,b = 1,1
+    for i in range(n):
+        a,b = b, a+b
+        post.append(a)
+    for i in range(n): print post[i], 

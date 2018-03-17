@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{}, Assign{Add{}, Str{}, }, }, Print{}, For{Call{Sub{}, }, Assign{Str{}, }, Assign{Add{}, Str{}, }, For{Call{Sub{}, }, Assign{}, }, }, }, }, }
+def ctverec(n):
+    radek = ""
+    for i in range(n):
+        radek = radek + "*"
+    print radek
+    for i in range(n-2):
+        radek = ""
+        radek = radek + "*"
+        for j in range(n-2):
+            radek = radek 

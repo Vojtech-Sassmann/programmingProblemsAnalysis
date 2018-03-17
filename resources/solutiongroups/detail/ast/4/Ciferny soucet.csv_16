@@ -1,0 +1,24 @@
+3;root{Module{FunctionDef{Assign{}, While{Compare{GtE{}, }, AugAssign{Add{}, Mod{}, }, AugAssign{Div{}, }, Assign{Call{}, }, }, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    while n >= 1:
+        soucet += n % 10
+        n /= 10
+        n = int(n)
+         
+def ciferny_soucet(n):
+    soucet = 0
+    while n>0:
+       soucet += n % 10
+       n/=10
+       n=int(n)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    while n >= 1:
+        soucet += n % 10
+        n = n / 10
+        n = int(n)
+    return soucet
+ 

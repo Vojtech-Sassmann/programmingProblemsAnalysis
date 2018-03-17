@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, For{Assign{Call{}, }, If{Compare{Add{}, Gt{}, }, AugAssign{Add{}, Call{Call{Sub{}, Add{}, }, }, }, If{Expr{}, }, }, }, }, }, }
+def caesar(text, n):
+    retazec =""
+    cislo=0
+    for character in text:
+        cislo = ord(character)
+        if cislo + n > 122:
+            retazec += str(chr(cislo-26+n))
+        elif cislo == 32:
+            retazec

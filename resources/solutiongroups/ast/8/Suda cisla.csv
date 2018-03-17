@@ -1,0 +1,4 @@
+1280;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{Mod{}, }, Print{}, }, }, }, }, }
+2;root{Module{FunctionDef{For{Call{Div{}, Add{}, }, If{Compare{Div{}, Mult{}, Add{}, }, AugAssign{Add{}, }, }, Assign{Mult{}, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{For{Call{}, If{Div{}, Mod{}, Expr{Add{}, }, If{Div{}, Mod{}, Expr{Add{}, }, Print{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Mod{}, }, For{Call{Div{}, }, Print{Mult{}, }, }, Print{Mult{}, Add{}, }, }, If{Compare{Mod{}, }, For{Call{Sub{}, Div{}, }, Print{Mult{}, }, }, Print{Mult{}, Add{}, }, }, }, }, }

@@ -1,0 +1,23 @@
+6;root{Module{FunctionDef{Print{Str{}, Add{}, Call{}, Add{}, Str{}, Add{}, Call{Mult{}, }, }, }, }, }
+def dvojnasobek(n):
+    print "Dvojnasobek cisla "+ str( n) +  " je " + str(n*2)
+   
+ 
+def dvojnasobek(n):
+    krat = n * 2
+    print("Dvojnasobek cisla "+str(n)+" je "+str(krat))
+ 
+def dvojnasobek(n):
+    a = 0
+    a = n*2
+    print "Dvojnasobek cisla " + str(n) + " je " + str(a)
+ 
+def dvojnasobek(n):
+    print "Dvojnasobek cisla "+ str( n)+ " je " + str(n*2)
+ 
+def dvojnasobek(n):
+    print "Dvojnasobek cisla "+ str(n)+" je " +str(n*2)
+ 
+def dvojnasobek(n):
+   print "Dvojnasobek cisla " + str(n) + " je " + str(2 * n)
+ 

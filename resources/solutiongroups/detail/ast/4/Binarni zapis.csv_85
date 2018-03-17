@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{GtE{}, }, Expr{Mod{}, }, Assign{Add{}, Call{Mod{}, }, }, Assign{Sub{}, Mod{}, Div{}, }, }, Print{Subscript{Slice{Call{}, }, }, }, }, }, }
+def binarne(n):
+    kod=""
+    while n>=1:
+        n%2
+        kod=kod+str(n%2)
+        n=(n-(n%2))/2
+    print kod[len(kod)::-1] 

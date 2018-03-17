@@ -1,0 +1,128 @@
+17;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, For{Call{}, If{Compare{NotEq{}, Subscript{Index{Sub{}, }, }, }, Return{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    n=len(text)-1
+    for i in range(0,n):
+     if text[i] != text[n-i]:
+         return False
+    return True
+ 
+def palindrom(text):
+    n = len(text)
+    for i in range(n):
+        if text[i] != text[n-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    delka=len(text)
+    for i in range(delka):
+        if text[i] != text[delka-i-1]:
+            return False
+    
+    return True
+ 
+def palindrom(text):
+    n = len(text)
+    m = n/2
+    for i in range(0,m):
+        if text[0] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    y = len(text)
+    for i in range(y//2):
+        if text[i] != text[y-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    n=len(text)
+    for i in range(n):
+        if text[i]!=text[-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    x=len(text)/2
+    for i in range(x):
+        if text[i]!=text[(i+1)*(-1)]:
+            return False
+    return True
+        
+    
+ 
+def palindrom(text):
+    n=len(text)
+    for i in range(n):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+
+ 
+def palindrom(text):
+    n = len(text)
+    for i in range(n/2):
+        if text[i] != text[n-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    x=len(text)/2
+    for y in range(x):
+        if text[y]!=text[len(text)-y-1]:
+           return False
+    return True
+ 
+def palindrom(text):
+    x = len(text)-1
+    state=True
+    for i in range(0,x):
+        if text[i] != text[x-i]:
+            state = False
+    return state
+ 
+def palindrom(text):
+    length = len(text)
+    for i in range(length / 2):
+        if text[i] != text[length - 1 - i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    length = len(text)
+    for i in range(length):
+        if(text[i] != text[length-1-i]):
+           return False
+    return True
+ 
+def palindrom(text):
+    pocet = len(text)
+    for i in range(0,pocet):
+        if text[i] <> text[pocet-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    delka=len(text)
+    for i in range (0,delka):
+        if text[i]==text[delka-1-i]:
+            vysledek=True
+        else:
+            return False
+    return vysledek
+ 
+def palindrom(text):
+    delka = len(text)
+    for i in range(delka/2):
+        if text[i] != text[delka - i -1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    n = len(text)
+    for i in range(n//2):
+        if text[i] != text[n-i-1]:
+            return False
+    return True
+ 

@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{If{Compare{In{}, }, Expr{Add{}, }, If{Compare{Call{}, In{}, Call{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }
+def frekvencni_analyza(text):
+    zn =[]
+    fk =[]
+    for i in text:
+        if ((i in zn)):
+            1+1
+        elif (ord(i)in range(96,123)):
+            zn.append(i)
+            fk.append(0)
+    zn.sort()
+    
+ 

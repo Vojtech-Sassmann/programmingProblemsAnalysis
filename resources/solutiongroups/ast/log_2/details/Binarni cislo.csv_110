@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Call{}, Gt{}, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Sub{}, }, }, }, Sub{}, Mult{}, Pow{}, }, Assign{Subscript{Slice{Call{}, Sub{}, }, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(r):
+    sumis=0
+    moc=0
+    while len(r)>0:
+        sumis+=(ord(r[len(r)-1])-48)*(2**moc)
+        r=r[:len(r)-1]
+        moc+=1
+    return sumis
+ 

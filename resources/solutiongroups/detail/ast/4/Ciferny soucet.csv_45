@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Assign{Mod{}, }, Assign{Sub{}, }, Assign{Div{}, Div{}, }, Assign{Mult{}, }, Assign{Add{}, }, }, }, }, }
+def ciferny_soucet(n):
+    
+    soucet=0
+    cislo=0
+    delitel=10
+    for j in range(5) :
+        cislo = (n % delitel)
+        n=n-cislo
+        cislo=cislo/(delitel/10)
+        delitel=delitel*10
+        soucet=soucet+ci 

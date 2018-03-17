@@ -1,0 +1,33 @@
+4;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Attribute{}, }, If{Compare{Call{}, Gt{}, Call{}, }, Assign{}, If{Compare{Call{}, Call{}, }, Assign{Call{}, }, }, }, Return{}, }, }, }, }
+def nejdelsi_slovo(text):
+    a = ""
+    for i in text.split():
+        if len(i) > len(a):
+            a = i
+        elif len(i) == len(a):
+            a = min(j,a)
+        return a 
+def nejdelsi_slovo(text):
+    x = ""
+    for w in text.split():
+        if len(w) > len(x):
+            x = w
+        elif len(w) == len(x):
+            x = min(w,x)
+    return x 
+def nejdelsi_slovo(text):
+    x = ""
+    for i in text.split():
+        if len(i) > len(x):
+            x = i
+        elif len(i) == len(x):
+            x = min(i,x)
+    return x 
+def nejdelsi_slovo(text):
+    x = ""
+    for s in text.split():
+        if len(s) > len(x):
+            x=s
+        elif len(s)==len(x):
+            x=min(s,x)
+    return x 

@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{NotEq{}, }, If{Compare{Mod{}, }, Assign{Add{}, Mult{}, }, Assign{Add{}, Mult{}, }, }, Assign{FloorDiv{}, }, Assign{Mult{}, }, }, Print{}, }, }, }
+def binarne(n):
+    cislo = 0
+    x = 1
+    while(n != 0):
+        if(n%2 == 1):
+            cislo =cislo + 1*x
+        else:
+            cislo = cislo + 0*x
+        n = n//2
+     
+        x = x*10
+    print cislo
+

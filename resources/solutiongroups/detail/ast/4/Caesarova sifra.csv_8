@@ -1,0 +1,13 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, AugAssign{Add{}, Call{Call{}, Add{}, }, }, }, Return{}, }, }, }
+def caesar(text, n):
+    vysledok =""
+    for i in range(len(text)):
+        vysledok+=chr(ord(text[i])+n)
+    return vysledok
+
+def caesar(text, n):
+    vysledek=""
+    for i in range (len(text)):
+        vysledek=vysledek+chr(ord(text[i])+n)
+    return vysledek
+

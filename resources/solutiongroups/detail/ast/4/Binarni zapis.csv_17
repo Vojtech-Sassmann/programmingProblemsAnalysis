@@ -1,0 +1,36 @@
+3;root{Module{FunctionDef{If{Print{}, If{Print{}, If{Print{}, If{Print{}, }, }, }, }, }, }, }
+def binarne(n):
+    if n==7:
+        print 111
+    elif n==11:
+        print 1011
+    elif n==58:
+        print 111010
+    elif n==14:
+        print 1110
+
+def binarne(n):
+    if n==7:
+        print 111
+    elif n==11:
+        print 1011
+    elif n==58:
+        print 111010
+    elif n==14:
+        print 1110
+    elif n==30:
+        print 11110
+
+def binarne(n):
+    if n==7:
+        print 111
+    elif n==11:
+        print 1011
+    elif n==58:
+        print 111010
+    elif n==14:
+        print 1110
+    elif n==30:
+        print 11110
+    elif n==42:
+        print 10

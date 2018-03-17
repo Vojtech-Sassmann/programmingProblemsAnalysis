@@ -1,0 +1,84 @@
+27;root{Module{FunctionDef{Return{}, }, }, }
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return 1 if n==1 else n*faktorial(n-1) 
+def faktorial(n):
+    return n
+ 
+import math
+
+def faktorial(n):
+    return math.factorial(n)
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n*(n-1)
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n*2
+ 
+def faktorial(n):
+    return n*faktorial
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n*2
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range(1, n+1):return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return 6
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 

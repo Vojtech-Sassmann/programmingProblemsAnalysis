@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{}, Print{}, If{AugAssign{Add{}, }, If{BoolOp{Or{}, Compare{Gt{}, }, }, Assign{Mult{}, }, }, }, }, }, }, }
+def mocniny_dvojky(n):
+    p = 1
+    for i in range(n):
+        print p,
+        if p == 1: p += 1
+        elif p == 2 or p > 2: p = p * 2
+        
+ 

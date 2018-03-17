@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{}, Assign{Add{}, List{}, }, Assign{}, For{Call{Add{}, }, If{Compare{Gt{}, }, Assign{}, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    troj =[1]
+    for n in range(pocet_radku):
+        trojs=troj
+        troj=troj+[0]
+        troj[0]=1
+        for k in range(0, n + 1):       
+          if k>0:
+            troj[k]=tr 

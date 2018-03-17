@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, If{Compare{Lt{}, }, Assign{UnaryOp{USub{}, }, Mod{}, }, Assign{}, Assign{Mod{}, }, }, For{Call{Call{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, Expr{}, }, }, }, }, }
+def caesar(text, n):
+    out = ""
+    
+    if n < 0:
+        n = -n % 26
+        n = -1
+    else:
+        n = n % 26
+    
+    for i in range(len(text)):
+        if text[i] == " ":
+            out += " "
+            conti

@@ -1,0 +1,31 @@
+5;root{Module{FunctionDef{Assign{Call{}, }, While{BoolOp{Or{}, Compare{Mod{}, NotEq{}, }, Compare{Mod{}, NotEq{}, }, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    m = min(a, b)
+    while a % m != 0 or b % m != 0:
+        m -= 1
+    return m
+ 
+def nsd(a, b):
+    if (a > b): n = a
+    else: n = b
+    while (a % n != 0) or (b % n != 0): n -= 1
+    return n
+ 
+def nsd(a, b):
+    i = a
+    
+    while(a%i != 0 or b%i != 0):
+        i -= 1
+    return i
+ 
+def nsd(a, b):
+    mx = max(a,b)
+    while ((a % mx != 0) or (b % mx != 0)):
+        mx -= 1
+    return mx 
+def nsd(a, b):
+    d = min(a, b)
+    while (a%d!=0)or(b%d!=0):
+        d -= 1
+    return d
+ 

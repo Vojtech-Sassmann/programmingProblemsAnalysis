@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{If{Return{}, Return{Mult{}, Call{Sub{}, }, }, }, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, Div{}, Call{}, Mult{}, Call{Sub{}, }, }, }, }, }, }, }
+def f(x):
+    if x==0:
+        return 1
+    else:
+        return x*f(x-1)
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print f(n)/(f(k)*f(n-k)),
+ 

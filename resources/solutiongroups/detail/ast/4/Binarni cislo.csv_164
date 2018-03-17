@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, Assign{}, Assign{Subscript{Slice{Call{}, Sub{}, }, }, }, If{Compare{Call{}, }, AugAssign{Add{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    summ = 0
+    for i in range(len(retezec)):
+        a = retezec[-1]
+        retezec = retezec[:len(retezec)-1]
+        if int(a)==1:
+            summ += 2**i
+    return summ
+ 

@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, If{BoolOp{Or{}, Compare{NotEq{}, }, Compare{NotEq{}, }, }, Return{}, }, Assign{Add{}, Call{}, Mult{}, Pow{}, }, Assign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    hod=0
+    i=0
+    for x in retezec[::-1]:
+        if x!=1 or x!=0:
+            return 0
+        hod=hod+int(x)*(2**i)
+        i=i+1
+        
+    return hod
+
+
+ 

@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, Assign{ListComp{Call{}, comprehension{}, }, }, Assign{Subscript{Slice{}, }, }, Expr{Call{Attribute{}, }, }, Assign{Subscript{Index{Call{}, Sub{}, }, }, }, Assign{}, Assign{}, While{Compare{Lt{}, }, Assign{}, AugAssign{Add{}, }, }, Expr{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split()
+    slova.sort()
+    d=[len(s) for s in slova]
+    k=d[:]
+    k.sort()
+    n=k[len(slova)-1]
+    a=0
+    i=0
+    while a<n:
+        a=d[i]
+        i+=1
+     
+    re 

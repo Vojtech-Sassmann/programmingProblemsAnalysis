@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, Assign{List{}, }, While{Compare{Gt{}, }, Expr{Call{Attribute{}, Mod{}, }, }, AugAssign{FloorDiv{}, }, AugAssign{Add{}, }, }, Assign{Subscript{Slice{}, }, }, For{Print{}, }, }, }, }
+def binarne(n):
+    a = 0
+    b = []
+    c = []
+    while n > 0:
+        b.append(n%2)
+        n //= 2
+        a += 1
+    b = b[::-1]
+    for i in(b):
+        print i, 

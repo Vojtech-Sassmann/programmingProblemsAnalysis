@@ -1,0 +1,8 @@
+844;root{Module{FunctionDef{For{Call{}, Print{Pow{}, }, }, }, }, }
+10;root{Module{FunctionDef{If{Compare{GtE{}, }, Print{}, }, Assign{}, For{Call{Sub{}, }, Print{}, Assign{Mult{}, }, }, }, }, }
+6;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{LtE{}, }, Print{}, Assign{Mult{}, }, Assign{Add{}, }, }, }, }, }
+3;root{Module{FunctionDef{Assign{Str{}, }, For{Call{}, AugAssign{Add{}, Call{Pow{}, }, Add{}, Str{}, }, }, Print{Subscript{Slice{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Call{Pow{}, }, }, }, }, Print{Call{Attribute{Str{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{}, Print{}, If{AugAssign{Add{}, }, If{BoolOp{Or{}, Compare{Gt{}, }, }, Assign{Mult{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Mult{}, }, If{Compare{NotEq{}, }, Assign{Tuple{Mult{}, }, }, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, For{Call{Sub{}, }, Assign{Mult{}, }, AugAssign{Add{}, Str{}, Add{}, List{}, }, }, Print{}, }, }, }

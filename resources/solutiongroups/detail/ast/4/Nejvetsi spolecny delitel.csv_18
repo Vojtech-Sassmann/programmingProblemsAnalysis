@@ -1,0 +1,33 @@
+4;root{Module{FunctionDef{Assign{}, For{Call{Call{}, Add{}, }, For{Call{Call{}, Add{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    max_del = 0
+    for i in range(1, min(a, b) + 1):
+        for j in range(1, min(a, b) + 1):
+            if i % j == 0 and b % j == 0: 
+                max_del = j
+    return max_del
+ 
+def nsd(a, b):
+    max_del = 0
+    for i in range(1, min(a, b) + 1):
+        for j in range(1, min(a, b) + 1):
+            if i % j == 0 and max(a, b) % j == 0: 
+                max_del = j
+    return max_del
+ 
+def nsd(a, b):
+    maxd=0
+    for i in range(1,a+1):
+        for j in range(1,b+1):
+            if a%i==0 and b%j==0 and i==j:
+                maxd = i
+    return maxd
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range(a+1):
+        for j in range(b+1):
+            if a%i == 0 and b%i == 0:
+                delitel = i
+    return delitel
+ 

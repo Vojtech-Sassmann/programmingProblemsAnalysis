@@ -1,0 +1,22 @@
+3;root{Module{FunctionDef{For{Call{Call{}, Div{}, }, Assign{Mod{}, }, Assign{Mod{}, }, If{BoolOp{And{}, }, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    for i in range(max(a,b)/2):
+        adel = a % i
+        bdel = b % i
+        if adel == 0 and bdel == 0:
+            x = i
+    return x 
+def nsd(a, b):
+    for i in range(max(a,b)):
+        adel = a % i
+        bdel = b % i
+        if adel == 0 and bdel == 0:
+            x = i
+    return x 
+def nsd(a, b):
+    for i in range(max(a,b)+1):
+        adel = a % i
+        bdel = b % i
+        if adel == 0 and bdel == 0:
+            x = i
+    return x 

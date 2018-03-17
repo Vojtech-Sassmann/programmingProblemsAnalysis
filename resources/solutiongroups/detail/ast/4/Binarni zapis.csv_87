@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, Assign{List{}, }, While{Compare{Gt{}, }, Expr{Call{Attribute{}, Mod{}, }, }, AugAssign{FloorDiv{}, }, AugAssign{Add{}, }, }, Print{Call{Call{}, }, }, }, }, }
+def binarne(n):
+    a = 0
+    b = []
+    c = []
+    while n > 0:
+        b.append(n%2)
+        n //= 2
+        a += 1
+    print list(reversed(b))
+ 

@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, }, Assign{}, Assign{}, For{If{Compare{Str{}, }, AugAssign{Add{}, Pow{}, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    strin = retezec[::-1]
+    count = 0
+    a = 0
+    for i in strin:
+        if i == "1":
+            count += 2**a
+        a += 1
+    return count
+ 
+def vyhodnot(retezec):
+    cislo = retezec[::-1]
+    mocnina = 0
+    vysledek = 0
+    for char in cislo:
+        if char == "1":
+            vysledek += 2**mocnina
+        mocnina += 1
+    return vysledek 

@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{If{BoolOp{Or{}, Compare{Lt{}, }, Compare{Lt{}, }, Compare{GtE{}, Call{}, }, Compare{GtE{}, Call{}, }, }, Return{}, Return{}, }, }, FunctionDef{Assign{List{List{}, }, }, }, }, }
+def get_val(zoznam, row, col):
+    
+    if(row < 0 or col < 0 or row >= len(zoznam) or col >= len(zoznam[row])):
+        return 0
+    else:
+        return zoznam[row][col]
+
+def pascaluv_trojuhelnik(pocet_radku):
+    trojuh = [[1]] 

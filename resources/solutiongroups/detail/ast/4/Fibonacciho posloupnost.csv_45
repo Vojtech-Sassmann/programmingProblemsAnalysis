@@ -1,0 +1,25 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Compare{LtE{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }, }
+def fibonacci(n):
+    prev1 = 1
+    prev2 = 1
+    for i in range(n):
+        if (i <= 1):
+            print 1,
+        else:
+            vys = prev1 + prev2
+            prev2 = prev1
+            prev1 = vys
+            print 
+def fibonacci(n):
+    T_1=0
+    T_2=1
+    for i in range(n):
+        if i==0:
+            print 1,
+        else:
+            x=T_1+T_2
+            T_1 = T_2
+            T_2 = x
+            print T_2,
+           
+ 

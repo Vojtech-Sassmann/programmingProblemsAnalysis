@@ -1,0 +1,122 @@
+40;root{Module{FunctionDef{Return{Compare{Call{Attribute{}, }, }, }, }, }, }
+def palindrom(text):
+    return text == text.reverse()
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(n):
+    return n == n[::-1] 
+def palindrom(text):
+    return text.lower() == text[::-1].lower()
+ 
+def palindrom(text):
+    nanuk = len(text) / 2
+     
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text [::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return str(text)==str(text)[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+
+ 
+def palindrom(text):
+   return text == text[::1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+     
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[len(text):0:-1] + text[0]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text==text[::-1]
+    
+ 
+def palindrom(text):
+    return text == text [::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text==text[::-1] 
+def palindrom(text):   
+  return text==text[::-1]
+    
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    
+        return True
+    
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(n):
+    return n == n[::-1] 
+def palindrom(text):
+    return text == text[::-1] 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+     return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return True if text == text[::-1] else False
+ 
+def palindrom(n):
+    return str(n) == str(n)[::-1]
+ 
+def palindrom(text):
+    return (text == text[::-1])
+ 
+def palindrom(text):
+    return text==text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 
+def palindrom(text):
+    return text == text[::-1]
+ 

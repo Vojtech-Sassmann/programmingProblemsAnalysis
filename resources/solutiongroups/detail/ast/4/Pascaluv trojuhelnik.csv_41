@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{}, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Mult{}, Sub{}, Div{}, Add{}, }, }, Print{}, }, Print{Str{}, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        line=[1]
+        for k in range(n):
+            line.append(line[k]*(n-k)/(k+1))
+            print line[k],
+        print "1"
+ 

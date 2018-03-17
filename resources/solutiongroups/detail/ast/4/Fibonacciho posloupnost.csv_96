@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, For{Call{}, Assign{Tuple{}, Tuple{}, }, Assign{Add{}, }, Print{}, }, }, }, }
+def fibonacci(n):
+    a = 0
+    b = 1
+    c = a + b
+    for i in range(n):
+        a, b = c, a
+        c = a + b
+        print a, 

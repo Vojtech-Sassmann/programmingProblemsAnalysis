@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, While{Compare{Gt{}, }, Return{Mult{}, Call{Sub{}, }, }, }, }, }, }, }
+def faktorial(n):
+    if n<1:
+        return 1
+    else:
+        while(n>0):
+            return n * faktorial(n-1)
+ 

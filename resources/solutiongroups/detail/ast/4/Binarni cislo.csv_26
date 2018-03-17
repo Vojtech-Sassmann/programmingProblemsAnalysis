@@ -1,0 +1,43 @@
+4;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, If{Compare{Gt{}, }, For{Call{Sub{}, }, AugAssign{Add{}, Call{Subscript{Slice{Add{}, }, }, }, }, Assign{Mult{}, }, }, }, AugAssign{Add{}, Call{Subscript{Slice{Sub{}, }, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    b=0
+    c=len(retezec)
+    if c > 1:
+        for x in range (0,c-1):
+            b +=int(retezec[x:x+1])
+            b=b*2
+    b +=int(retezec[c-1:c])
+    return 0
+
+ 
+def vyhodnot(retezec):
+    b=0
+    c=len(retezec)
+    if c > 1:
+        for x in range (0, c-1):
+            b +=int(retezec[x:x+1])
+            b=b*2
+    b +=int(retezec[c-1:c])
+    return b
+
+ 
+def vyhodnot(retezec):
+    b=0
+    c=len(retezec)
+    if c > 1:
+        for x in range(0,c-1):
+            b +=int(retezec[x:x+1])
+            b=b*2
+    b+=int(retezec[c-1:c])        
+    return b
+ 
+def vyhodnot(retezec):
+    b=0
+    c=len(retezec)
+    if c > 1:   
+        for x in range(0,c-1):
+            b +=int(retezec[x:x+1])
+            b=b*2
+    b +=int(retezec[c-1:c])
+    return b
+ 

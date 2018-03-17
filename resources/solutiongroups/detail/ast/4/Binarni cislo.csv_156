@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, Assign{Add{}, Str{}, }, Assign{Add{}, Str{}, }, }, }, If{Compare{Call{}, }, Return{}, If{Compare{Str{}, }, Expr{}, }, }, }, }, }
+def vyhodnot(retezec):
+    ret=""
+    for char in retezec:
+        if char=="1" or char=="0":
+            ret=ret+"1"
+        else:
+            ret=ret+"0"
+    if int(ret)==1:
+        return 1
+    elif ret=="":
+        ret 

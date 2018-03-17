@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Call{}, }, For{Call{}, TryExcept{Assign{Call{}, }, ExceptHandler{Return{}, }, }, AugAssign{Add{}, Mult{}, Pow{}, Sub{}, Sub{}, }, }, Expr{}, }, }, }
+def vyhodnot(retezec):
+    hodnota=0
+    pom=0
+    chars=len(retezec)
+    for i in range(chars):
+        try:
+            pom=int(retezec[i])
+        except:
+            return 0
+        hodnota+=pom*2**(chars-i-1)
+    retur 

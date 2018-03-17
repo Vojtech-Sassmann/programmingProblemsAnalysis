@@ -1,0 +1,7 @@
+1;root{Module{Assign{}, FunctionDef{Global{}, Assign{Mult{}, }, Return{IfExp{Compare{Gt{}, }, Call{Sub{}, }, }, }, }, }, }
+vys = 1
+def faktorial(n):
+    global vys
+    vys = vys * n
+    return faktorial(n-1) if n > 1 else vys
+ 

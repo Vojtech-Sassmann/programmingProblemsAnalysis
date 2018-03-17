@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{UnaryOp{Not{}, Call{Attribute{}, }, }, Return{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, Call{}, Mult{}, Call{}, Sub{}, Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        if not retezec[i].isdigit():
+            return 0
+        cislo += int(retezec[i])*2**(int(retezec[i])*(len(retezec)-i-1))
+    return cislo
+ 

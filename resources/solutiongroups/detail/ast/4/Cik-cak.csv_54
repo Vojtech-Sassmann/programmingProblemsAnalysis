@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, Assign{Call{}, }, If{Compare{Lt{}, }, Print{}, AugAssign{Add{}, }, }, If{Compare{Lt{}, }, Print{Str{}, }, AugAssign{Add{}, }, }, }, Print{}, Assign{}, Expr{}, }, }, }
+def cikcak(x):
+    pom=0
+    for i in range(len(x)):
+        y=len(x)
+        if pom<y:
+            print x[pom],
+            pom+=1
+        if pom<y:
+            print ".",
+            pom+=1
+    print
+    pom=0
+    f 

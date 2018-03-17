@@ -1,0 +1,79 @@
+13;root{Module{FunctionDef{For{Call{Call{}, Div{}, }, If{Compare{Subscript{Index{UnaryOp{USub{}, Add{}, }, }, }, }, Return{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] == text[-(i+1)]:
+             return True
+    return False
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[-(i+1)]:
+             return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1):
+        if text[i] != text[-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range((len(text)/2)+1):
+        if text[i] != text[-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,(len(text)//2)-1):
+        if text[i] != text[-i]: return False
+    return True
+ 
+def palindrom(text):
+    list(text)
+    for i in range(len(text)):
+        if text[i] != text[-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i]!=text[-(i+1)]:
+            return false
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i]!=text[-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)//2):
+        if text[i]!=text[-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] == text[-i]:
+            return True
+    return False
+ 
+def palindrom(text):
+    for i in range (len(text)//2):
+        if text[i] != text[-i]:
+            return False
+    return True
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Mod{}, NotEq{}, }, Assign{Mod{}, }, Assign{}, Assign{}, }, Return{}, }, }, }
+def nsd(a, b):
+    ret = 0
+    c = a
+    d = b
+    while c % d != 0:
+        x = c % d
+        c = d
+        d = x
+    return d
+ 

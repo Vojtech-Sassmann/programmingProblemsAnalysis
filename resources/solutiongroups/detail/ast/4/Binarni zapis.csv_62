@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{List{}, }, While{Compare{Gt{}, }, Assign{}, While{Compare{Pow{}, LtE{}, }, AugAssign{Add{}, }, }, Expr{Call{Attribute{}, Sub{}, }, }, Assign{Sub{}, Pow{}, Sub{}, }, }, Assign{ListComp{comprehension{Call{Add{}, }, }, }, }, For{Expr{}, }, }, }, }
+def binarne(n):
+    rady = []
+    while n>0:
+        i = 0
+        while 2**i <= n:
+            i+=1
+        rady.append(i-1)
+        n = n-2**(i-1)
+    bin = [0 for _ in range(rady[0]+1)] 
+    for rad in rady:
+        bin

@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Subscript{Index{UnaryOp{USub{}, Add{}, }, }, }, Call{}, }, Call{}, }, Assign{Add{}, Call{Subscript{Index{UnaryOp{USub{}, Add{}, }, }, }, }, Mult{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    a=0
+    for x in range (len(retezec)):
+        if retezec[-(x+1)]==str(1) or str(0):
+            a=a+(int(retezec[-(x+1)])*2**x)
+    return a 

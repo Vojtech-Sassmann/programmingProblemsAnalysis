@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{FloorDiv{}, }, While{Compare{NotEq{}, }, Print{}, AugAssign{Add{}, }, AugAssign{Add{}, }, AugAssign{Sub{}, }, }, If{Compare{Mod{}, }, Print{}, }, }, }, }
+def fibonacci(n):
+    a = 1
+    b = 1
+    c = n//2
+    while c!= 0:
+        print a, b,
+        a += b
+        b += a
+        c -= 1
+    if n % 2 == 1:
+        print a
+    
+ 

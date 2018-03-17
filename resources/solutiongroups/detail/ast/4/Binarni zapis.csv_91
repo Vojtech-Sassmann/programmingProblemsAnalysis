@@ -1,0 +1,16 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Str{}, }, Assign{}, While{Compare{Gt{}, }, Assign{Mult{}, }, Assign{Add{}, }, }, While{Compare{Gt{}, }, Assign{Div{}, }, If{Compare{GtE{}, }, Assign{Add{}, Str{}, }, Assign{Sub{}, }, Assign{Add{}, Str{}, }, }, }, }, }, }
+def binarne(n):
+    a=1
+    szo=""
+    b=0
+    while n>a:
+        a=a*2
+        b=b+1
+    while n>0:
+        a=a/2
+        if n>=a:
+            szo=szo+"1"
+            n=n-a
+        else:
+            szo=szo+"0"
+ 

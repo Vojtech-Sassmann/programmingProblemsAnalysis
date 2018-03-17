@@ -1,0 +1,30 @@
+4;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{}, AugAssign{Add{}, Call{}, Mult{}, Pow{}, Sub{}, }, }, Return{Div{}, }, }, }, }
+def vyhodnot(retezec):
+    sucet=0
+    dlzka=len(retezec)
+    for i in range(dlzka):
+        sucet+=int(retezec[i])*(2**(dlzka-i))
+    return sucet/2
+ 
+def vyhodnot(retezec):
+    sucet=0
+    dlzka=len(retezec)
+    for i in range(dlzka):
+        if retezec[i]==1 or retezec[i]==0:
+            sucet+=int(retezec[i])*(2**(dlzka-i))
+    return sucet/2
+ 
+def vyhodnot(retezec):
+    dlzka = len(retezec)
+    hodnota = 0
+    for i in range(dlzka):
+        hodnota += int(retezec[i]) * 2 ** (len(retezec) - i - 1)
+    return hodnota
+ 
+def vyhodnot(s):
+    x = 0
+    n = len(s)
+    for i in range(n):
+        x += int(s[i]) * (2 ** (n-1-i))
+    return x
+ 

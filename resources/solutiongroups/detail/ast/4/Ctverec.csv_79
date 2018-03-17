@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, Compare{Sub{}, }, }, Expr{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, Str{}, }, }, }, }, }, }, }, }
+def ctverec(n):
+    pole = []
+    for i in range(n):
+        for j in range(n):
+            if i == 0 or j == 0 or i == n-1 or j == n-1:
+                pole.append("*")
+            else:
+                pole.append("+")
+ 

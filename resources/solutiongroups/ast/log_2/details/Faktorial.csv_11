@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{Assign{}, If{Return{}, Assign{}, While{Compare{LtE{}, }, AugAssign{Mult{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }, }
+def faktorial(n):
+    prvek=1
+    if prvek==n:
+        return prvek
+    else:
+        faktor=1
+        while prvek<=n:
+            faktor*=prvek
+            prvek+=1
+        return faktor 
+def faktorial(n):
+    f = 1
+    while n != 0:
+        f *= n
+        n -= 1
+    return f
+ 

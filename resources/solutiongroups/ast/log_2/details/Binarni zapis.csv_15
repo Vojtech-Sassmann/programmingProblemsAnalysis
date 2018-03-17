@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{Assign{List{}, }, While{Compare{NotEq{}, }, Assign{FloorDiv{}, }, Expr{Call{Attribute{}, Mod{}, }, }, Assign{}, }, Expr{Call{Attribute{}, }, }, Assign{Call{Attribute{Str{}, }, GeneratorExp{Call{}, comprehension{}, }, }, }, Return{}, }, }, }
+def binarne(n):
+    zbytek=[]
+    while n!= 0:
+        dalsi_cislo=n//2
+        zbytek.append(n%2)
+        n= dalsi_cislo
+    zbytek.reverse()
+    vysledek="".join(str(e) for e in zbytek)
+    return vysledek
+
+def binarne(n):
+    zbytek=[]
+    while n!= 0:
+        dalsi_cislo= n//2
+        zbytek.append(n%2)
+        n=dalsi_cislo
+    zbytek.reverse()   
+    vysledek="".join(str(e) for e in zbytek)
+    print vysledek

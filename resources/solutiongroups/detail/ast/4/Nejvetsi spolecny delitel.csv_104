@@ -1,0 +1,4 @@
+1;root{Module{FunctionDef{If{Compare{Gt{}, }, AugAssign{Add{}, }, }, }, }, }
+def nsd(a, b):
+    if a > b:
+        b += a  

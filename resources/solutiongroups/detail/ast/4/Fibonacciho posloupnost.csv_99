@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, Expr{Call{Attribute{}, }, }, }, For{Print{}, }, }, }, }
+def fibonacci(n):
+    pole=[1,1]
+    for i in range(2,n):
+        a=pole[i-2]+pole[i-1]
+        pole.append(a)
+    for i in pole:
+        print i,
+ 

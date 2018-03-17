@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{While{Compare{Gt{}, }, If{Compare{GtE{}, }, Assign{Sub{}, }, If{Compare{Lt{}, }, Assign{}, Assign{}, Assign{}, }, }, }, }, }, }
+def nsd(a, b):
+    while b > 0:
+        if a >= b:
+            a = a-b
+        elif a < b:
+                c = b
+                b = a
+                a = c
+         

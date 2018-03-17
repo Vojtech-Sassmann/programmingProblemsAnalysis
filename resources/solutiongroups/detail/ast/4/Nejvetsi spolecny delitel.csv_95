@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{NotEq{}, }, Assign{Mod{}, }, Assign{}, Assign{}, If{Return{}, }, }, }, }, }
+def nsd(a, b):
+    zbytek = 0
+    while b!= 0:
+        zbytek = a % b
+        a = b
+        b = zbytek
+        if zbytek == 0:
+            return a
+ 

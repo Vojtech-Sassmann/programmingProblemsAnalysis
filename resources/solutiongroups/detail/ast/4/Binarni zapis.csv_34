@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, AugAssign{Add{}, IfExp{Compare{Mod{}, }, Str{}, Str{}, }, }, AugAssign{FloorDiv{}, }, }, Print{Subscript{Slice{}, }, }, }, }, }
+def binarne(n):
+    s = ""
+    while n > 0:
+        s += "0" if n%2 == 0 else "1"
+        n //= 2
+    print s[::-1]
+

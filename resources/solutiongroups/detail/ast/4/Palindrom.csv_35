@@ -1,0 +1,28 @@
+3;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Assign{}, For{Call{Call{}, Sub{}, }, Expr{Call{Attribute{}, }, }, }, Expr{Call{Attribute{}, }, }, For{Call{Call{}, }, Expr{Attribute{}, }, }, }, }, }
+def palindrom(text):
+    otocene_slovo=[]
+    slovo2=[]
+    x=True
+    for i in range (len(text)-1,0,-1):
+        otocene_slovo.append(text[i])
+    otocene_slovo.append(text[0])
+    for i in range (len(text)):
+        slovo2.appen 
+def palindrom(text):
+    otocene_slovo=[]
+    slovo2=[]
+    x=False
+    for i in range (len(text)-1,0,-1):
+        otocene_slovo.append(text[i])
+    otocene_slovo.append(text[0])
+    for i in range (len(text)):
+        slovo2.appe 
+def palindrom(text):
+    otocene_slovo=[]
+    slovo2=[]
+    x=True
+    for i in range (len(text)-1,0,-1):
+        otocene_slovo.append(text[i])
+    otocene_slovo.append(text[0])
+    for i in range (len(text)):
+        slovo2.appen 

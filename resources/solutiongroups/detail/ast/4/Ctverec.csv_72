@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, For{Call{}, AugAssign{Add{}, Str{}, }, If{BoolOp{Or{}, Compare{Sub{}, }, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, }, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{}, }, }, }, }, }
+def ctverec(n):
+    hvezdicky=""
+    line=""
+    for i in range(n):
+        hvezdicky+="*"
+        if i==0 or i==n-1:
+            line+="*"
+        else: line+="+"
+    for j in range(n):
+        if j==0 or j==n-1: print 

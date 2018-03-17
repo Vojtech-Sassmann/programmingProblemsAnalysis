@@ -1,0 +1,11 @@
+3;root{Module{FunctionDef{Print{Str{}, }, }, }, }
+def ctverec(n):
+    print "*"
+ 
+def ctverec(n):
+    print 20*"*"
+ 
+def ctverec(n):
+    print (n*"*")
+    
+ 

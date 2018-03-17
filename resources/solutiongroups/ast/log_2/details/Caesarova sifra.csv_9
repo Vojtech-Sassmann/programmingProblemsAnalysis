@@ -1,0 +1,22 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Call{}, }, If{Compare{Gt{}, }, AugAssign{Sub{}, }, Print{}, }, AugAssign{Add{}, Call{Add{}, }, }, }, Return{}, }, }, }
+def caesar(text, n):
+    s=""
+    for i in range (len(text)):
+        k=ord(text[i])
+        if k>122:
+            k-=24
+            print k,
+        s+=chr((k+n))
+                      
+    return s
+
+def caesar(text, n):
+    s=""
+    for i in range(len(text)):
+        k=ord(text[i])
+        if k>121:
+            k-=26
+        elif k==32:
+            k-=n
+        s+=chr(k+n)
+    return s

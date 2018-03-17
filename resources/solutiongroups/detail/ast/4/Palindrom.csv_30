@@ -1,0 +1,37 @@
+3;root{Module{FunctionDef{Assign{}, Assign{Call{}, Sub{}, }, While{Compare{NotEq{}, }, If{AugAssign{Add{}, }, AugAssign{Sub{}, }, Return{Str{}, }, }, }, }, }, }
+def palindrom(text):
+    y=0
+    x=len(text)-1
+    while y != x:
+        if text[y] == text[x]:
+            y+=1
+            x-=1
+        else:
+            return "False"
+    
+ 
+def palindrom(text):
+    y=0
+    x=len(text)-1
+    while y != x:
+        if text[y] == text[x]:
+            y+=1
+            x-=1
+        else:
+            return "False"
+        return "True"
+    
+ 
+def palindrom(text):
+    y=0
+    x=len(text)-1
+    while y != x:
+        if text[y] == text[x]:
+            y+=1
+            x-=1
+        else:
+            return "False"
+    return "True"
+        
+    
+ 

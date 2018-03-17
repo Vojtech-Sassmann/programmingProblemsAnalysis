@@ -1,0 +1,48 @@
+6;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Call{}, Gt{}, Call{}, }, BoolOp{And{}, Compare{Call{}, Call{}, }, Compare{Lt{}, }, }, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    m=0
+    for i in range(len(slova)):
+        if len(slova[i])>len(slova[m]) or (len(slova[i])==len(slova[m]) and slova[i]<slova[m]):
+            m=i
+    return slova[m]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = slova[0]
+    for slovo in slova:
+        if len(slovo) > len(nejdelsi) or (len(slovo) == len(nejdelsi) and slovo < nejdelsi):
+            nejdelsi = slovo
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    naj=slova[0]
+    for i in slova:
+        if len(i)>len(naj) or (len(i)==len(naj) and i<naj):
+            naj=i
+    return naj
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nej = slova[0]
+    for i in slova:
+        if len(i) > len(nej) or (len(i) == len(nej) and ord(i[0]) < ord(nej[0])):
+            nej = i
+    return nej
+ 
+def nejdelsi_slovo(text):
+    a=""
+    slova = text.split(" ")
+    a=slova[0]
+    for i in range(len(slova)):
+        if len(slova[i]) > len(a) or (len(slova[i]) == len(a) and slova[i] < a):
+                a=slova[i]
+    return a 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    s = slova[0]
+    for slovo in slova:
+        if len(slovo) > len(s) or (len(slovo) == len(s) and (slovo < s)):
+            s = slovo
+    return s
+ 

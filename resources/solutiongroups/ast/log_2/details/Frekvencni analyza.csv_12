@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Dict{}, }, Assign{Call{Attribute{Call{Attribute{}, }, }, }, }, For{For{If{BoolOp{And{}, Compare{Call{}, GtE{}, }, Compare{Call{}, LtE{}, }, }, If{Compare{In{}, }, AugAssign{Add{}, }, }, }, }, }, }, }, }
+def frekvencni_analyza(text):
+    d = {}
+    words = text.lower().split()
+    for w in words:
+        for c in w:
+          if ord(c) >= 97 and ord(c) <= 122:
+                if c in d:
+                    d[c]+=1
+ 

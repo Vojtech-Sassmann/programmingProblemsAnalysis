@@ -1,0 +1,41 @@
+5;root{Module{FunctionDef{If{Compare{Gt{}, }, Assign{Tuple{}, Tuple{}, }, }, Assign{Mod{}, }, If{Return{}, Return{Call{}, }, }, }, }, }
+def nsd(a, b):
+    if a>b:
+        (a,b) = (b,a)
+    b = b % a
+    if b == 0:
+        return a
+    else:
+        return nsd(a,b)
+ 
+def nsd(a, b):
+    while True:
+        if b>a:
+            a,b=b,a
+        a%=b
+        if a==0:
+            return b
+ 
+def nsd(a, b):
+    if a < b:
+        a,b = b,a
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b) 
+def nsd(a, b):
+    t = b
+    b = a%b
+    if b == 0:
+        return t
+    else:
+        return nsd(t,b)
+ 
+def nsd(a, b):
+    if b > a:
+        return nsd(b,a)
+    x = a % b
+    if x == 0:
+        return b
+    return nsd(x,b)
+ 

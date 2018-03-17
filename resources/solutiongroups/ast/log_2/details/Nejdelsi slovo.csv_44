@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{Str{}, }, For{If{BoolOp{And{}, Compare{Call{}, GtE{}, Call{}, }, Compare{Call{}, GtE{}, Call{}, }, }, Assign{Call{}, }, Assign{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejslovo = "z"
+    for slovo in slova:
+        if len(slovo) >= len(nejslovo) and ord(slovo[0])>=ord(nejslovo[0]):
+            nejdelsi = len(slovo)
+            nejslovo = slov 

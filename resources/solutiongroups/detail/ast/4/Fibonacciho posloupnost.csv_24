@@ -1,0 +1,26 @@
+4;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Add{}, }, }, Add{}, }, }, Print{}, }, }, }, }
+def fibonacci(n):
+    r = [1, 1]
+    for a in range(n):
+        r.append(r[a+1] + r[a])
+        print r[a],
+ 
+def fibonacci(n):
+    zac = [0,1]
+    for i in range(1,n+1):
+        print zac[i],
+        zac.append(zac[i-1]+zac[i])
+ 
+def fibonacci(n):
+    num = [1,1]
+    for i in range(0,n):
+        num.append(num[i]+num[i+1])
+        print num[i],
+ 
+def fibonacci(n):
+    fibs = [1,1]
+    for i in range(n):
+        print fibs[i],
+        fibs.append(fibs[i] + fibs[i+1])
+        
+ 

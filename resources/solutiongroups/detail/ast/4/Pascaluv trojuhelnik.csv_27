@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{}, For{Print{}, }, Print{}, For{Call{Call{}, Sub{}, }, Expr{Attribute{}, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    radek = [1]
+    dalsiRadek = [1]
+    for n in range(pocet_radku):
+        for k in radek:
+            print k,
+        print
+        for x in range(len(radek)-1):
+            dalsiRadek.a 

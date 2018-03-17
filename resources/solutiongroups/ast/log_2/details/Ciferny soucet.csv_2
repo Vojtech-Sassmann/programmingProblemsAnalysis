@@ -1,0 +1,91 @@
+23;root{Module{FunctionDef{Return{}, }, }, }
+def ciferny_soucet(n):
+    return 29
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet = soucet + int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    s=str(n)
+    x=0
+    soucet = 0
+    
+def ciferny_soucet(n):
+    return sum([int(x) for x in str(n)])
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    x = 0  
+ 
+def ciferny_soucet(n):
+    soucet = 0
+     
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    
+    return int((n/2.0)*(1+m))
+ 
+def ciferny_soucet(n):
+    
+    return int((n/2.0)*(1+n))
+ 
+def ciferny_soucet(n):
+    if n == 7544:
+        return 20 
+def ciferny_soucet(n):
+    if n == 7544:
+        return 20
+    if n == 8842:
+        return 22 
+def ciferny_soucet(n):
+    for i in range(n):
+        soucet = 0
+        soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    text = str(n)
+    return len(text)
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+     
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    return 8
+ 
+def ciferny_soucet(n):
+    return 27
+ 
+def ciferny_soucet(n):
+    return 23
+ 
+def ciferny_soucet(n):
+    return sum([int(i) for i in list(str(n))])
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 

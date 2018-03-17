@@ -1,0 +1,6 @@
+1;root{Module{FunctionDef{For{If{Compare{NotIn{}, List{Str{}, Str{}, }, }, Return{}, }, }, Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    for i in retezec:
+       if i not in ["0","1"]: return 0
+    return int(retezec,2)
+ 

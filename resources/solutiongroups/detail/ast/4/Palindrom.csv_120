@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Assign{Add{}, }, }, Return{}, }, FunctionDef{Assign{List{}, }, Assign{Call{}, }, If{Return{}, }, Return{}, }, }, }
+def reverse(s):
+    a=""
+    for p in s:
+        a = p + a
+    return a
+
+def palindrom(s):
+    a=[]
+    a=reverse(s)
+    if a == s:
+        return True
+    return False 

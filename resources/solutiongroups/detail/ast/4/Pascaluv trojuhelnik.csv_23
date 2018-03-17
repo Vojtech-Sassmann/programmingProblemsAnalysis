@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, For{Call{}, Assign{Subscript{Index{Add{}, }, }, Add{}, Subscript{Index{Add{}, }, }, }, }, Assign{Subscript{Slice{}, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    a=[]
+    b=[]
+    for n in range(pocet_radku):
+        a.append(0)
+        b.append(1)
+        
+        for j in range(0,n):
+            b[j+1]=a[j]+a[j+1]
+        a=b[:]
+ 

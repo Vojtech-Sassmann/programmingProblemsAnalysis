@@ -1,0 +1,27 @@
+3;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, Str{}, }, AugAssign{Add{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(c):
+    sucet=0
+    for i in range(len(c)):
+        if c[len(c)-i-1]=="1":
+            sucet+=2**i
+        
+       
+        
+    return sucet
+ 
+def vyhodnot(retezec):
+    cislo = 0
+
+    for i in range(len(retezec)):
+        if retezec[len(retezec)-1-i] =="1":
+            cislo+=(2**i)
+
+    return cislo
+ 
+def vyhodnot(retezec):
+    result=0
+    for i in range(len(retezec)):
+        if retezec[len(retezec)-1-i]=="1":
+            result += 2**i
+    return result
+ 

@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{}, If{Compare{Mod{}, NotEq{}, }, Assign{Add{}, Mod{}, }, Assign{FloorDiv{}, }, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range(n):
+        if n % 10 != 0:
+            soucet = soucet + (n % 10)
+            n = n//10
+    return soucet
+ 

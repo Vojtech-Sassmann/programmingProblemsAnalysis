@@ -1,0 +1,28 @@
+3;root{Module{FunctionDef{Assign{Str{}, }, For{If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, AugAssign{Add{}, }, Break{}, }, }, Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    st = ""
+    for i in retezec:
+        if i == "0" or i == "1":
+            st += i
+        else:
+            break
+    return int(st,2)
+     
+def vyhodnot(retezec):
+    st = "0"
+    for i in retezec:
+        if i == "0" or i == "1":
+            st += i
+        else:
+            break
+    return int(st,2)
+     
+def vyhodnot(retezec):
+    st = ""
+    for i in retezec:
+        if i == "0" or i == "1":
+            st += i
+        else:
+            st += "0"
+    return int(st,2)
+     

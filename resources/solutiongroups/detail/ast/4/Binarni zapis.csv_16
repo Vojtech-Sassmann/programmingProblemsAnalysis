@@ -1,0 +1,21 @@
+3;root{Module{FunctionDef{While{Compare{NotEq{}, }, If{Compare{Mod{}, }, Print{Str{}, }, Print{Str{}, }, AugAssign{Sub{}, }, }, Assign{Div{}, }, }, }, }, }
+def binarne(n):
+    while n != 0:
+        if n%2 == 0: print "0",
+        else:
+            print "1",
+            n -= 1
+        n = n/2
+
+def binarne(n):
+    while n!=0:
+        if n % 2 == 0: print "0"
+        else: print "1"
+        n=(n-n%2)/2
+
+def binarne(n):
+    while n !=0:
+        if n % 2 == 0: print "0"
+        else: print "1"
+        n = n // 2
+

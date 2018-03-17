@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{Mult{}, Call{Sub{}, }, }, If{Return{}, }, }, Return{}, }, FunctionDef{Assign{Call{}, Mult{}, Call{Sub{}, }, }, Assign{Call{}, FloorDiv{}, }, Return{}, }, Expr{}, }, }
+def faktorial(i):
+    if i>1:
+        return i*faktorial(i-1)
+    elif i==0:
+        return 1
+    return i
+
+def NnadK(N,K):
+    pomocna=faktorial(K)*faktorial(N-K)
+    vysledek=faktorial(N)//pomocna
+    return vysledek
+
+de 

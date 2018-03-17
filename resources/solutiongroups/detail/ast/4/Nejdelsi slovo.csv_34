@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, Assign{Call{Attribute{}, Str{}, }, }, For{If{Compare{Call{}, Gt{}, }, Assign{Call{}, }, }, }, For{If{Compare{Call{}, }, Expr{Attribute{}, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    nejdelsi=0
+    slovo=[]
+    slova = text.split(" ")
+    for i in slova:
+        if len(i)>nejdelsi:
+            nejdelsi=len(i)
+    for i in slova:
+        if len(i)==nejdelsi:
+            slovo.app 

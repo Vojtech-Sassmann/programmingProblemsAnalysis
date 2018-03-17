@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{AugAssign{Add{}, Mod{}, }, Assign{Sub{}, Mod{}, Div{}, }, If{Assign{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    zvysok = n
+    end = False
+    while end == False :
+        soucet += zvysok % 10
+        zvysok = (zvysok - zvysok % 10)  / 10
+        if zvysok == 0 : end = True
+    return soucet
+ 

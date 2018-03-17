@@ -1,0 +1,34 @@
+4;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Assign{Sub{}, }, Assign{Add{}, Call{}, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    delka = len(retezec)
+    a = 0
+    for i in retezec:
+        delka = delka -1
+        a = a + int(i)*2**delka
+    return a
+ 
+def vyhodnot(retezec):
+    delka = len(retezec)
+    c=0
+    for i in retezec:
+        delka = delka-1
+        c = c + int(i)*2**delka
+    return c
+ 
+def vyhodnot(retezec):
+    delka = len(retezec)
+    soucet = 0
+    for i in range(0, delka):
+        n = delka - i -1
+        soucet = soucet + 2**n * int(retezec[i])
+    
+    return soucet
+ 
+def vyhodnot(retezec):
+    x = len(retezec)
+    y = 0
+    for i in range (x):
+        z = retezec [i]
+        y = y + (int (z) * 2** (x-1-i))
+    return y
+ 

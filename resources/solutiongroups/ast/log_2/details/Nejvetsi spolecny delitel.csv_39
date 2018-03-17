@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{}, If{Compare{Call{}, }, Return{}, }, For{Call{Call{}, }, If{Compare{Mod{}, }, If{Compare{Mod{}, }, Assign{}, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    nejvetsi = 0
+    if min(a,b)==1:
+        return 1
+    for i in range(min(a,b)):
+        if a%i==0:
+            if b%i==0:
+                nejvetsi = i
+    return nejvetsi 
+def nsd(a, b):
+    nejvetsi = 0
+    if min(a,b)==1:
+        return 1
+    for i in range(min(a,b)+1):
+        if a%i==0:
+            if b%i==0:
+                nejvetsi = i
+    return nejvetsi 

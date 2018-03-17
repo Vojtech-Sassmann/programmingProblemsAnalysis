@@ -1,0 +1,65 @@
+7;root{Module{FunctionDef{Assign{Str{}, }, For{Call{}, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, Compare{Sub{}, }, }, Assign{Add{}, Str{}, }, Assign{Add{}, Str{}, }, }, }, }, }, }, }
+def ctverec(n):
+    radek = ""
+    for i in range(n):
+        for j in range(n):
+            if i==0 or j==0 or i==n-1 or j==n-1:
+                radek = radek + "*"
+            else:
+                radek = radek + "+"
+ 
+def ctverec(n):
+    ctverec=""
+    for i in range (n):
+        for j in range (n):
+            if i ==0 or j == 0 or j == n-1 or i == n-1:
+                ctverec +="*"
+            else: 
+                ctverec +="+"
+ 
+def ctverec(n):
+    retazec = ""
+    for i in range(n):
+        for j in range(n):
+            if(i==0 or i==n-1 or j==0 or j==n-1):
+                retazec += "*"
+            else:
+                retazec += "+"
+        pri 
+def ctverec(n):
+    retezec = ""
+    for i in range(n):
+        for j in range(n):
+            if i==0 or i==n-1 or j==0 or j==n-1:
+                retezec += "*"
+            else:
+                retezec += "+"
+        rete 
+def ctverec(n):
+    riadok=""
+    for i in range(n):
+        for j in range(n):
+            if (i==0 or j==0 or i==n-1 or j ==n-1):
+                riadok+="*"
+            else:
+                riadok+="+"
+        print riad 
+def ctverec(n):
+    s = ""
+    for i in range(n):
+        for j in range(n):
+            if (i == 0 or i == n - 1 or j == 0 or j == n - 1):
+                s = s + "*"
+            else:
+                s = s + "+"
+        s 
+def ctverec(n):
+    s=""
+    for i in range(n):
+        for j in range (n):
+            if (i == 0) or (j == 0) or (j==n-1) or (i==n-1) :
+             s+="*"
+            else:
+              s+= "+"
+        print s
+ 

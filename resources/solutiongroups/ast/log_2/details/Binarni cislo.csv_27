@@ -1,0 +1,22 @@
+3;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, Add{}, }, Assign{Call{Subscript{Index{UnaryOp{USub{}, }, }, }, }, }, AugAssign{Add{}, Mult{}, Pow{}, Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    x = 0
+    cislo = 0
+    for i in range(1,len(retezec)+1):
+        x = int(retezec[-i])
+        cislo += (x*2**(i-1))
+    return cislo
+ 
+def vyhodnot(retezec):
+    cislo=0
+    for i in range (1,len(retezec)+1):
+        if retezec[-(i)] == "1":
+            cislo+=2**(i-1)
+    return cislo
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(1,len(retezec)+1):
+        if int(retezec[-i]) == 1:
+            cislo += (i-1)**2
+    return cislo 

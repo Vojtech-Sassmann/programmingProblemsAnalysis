@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{For{Call{}, Assign{}, For{Call{Call{}, }, If{Compare{Call{}, }, AugAssign{Add{}, }, }, }, If{Compare{Gt{}, }, Print{Call{}, }, }, }, }, }, }
+def frekvencni_analyza(text):
+    for i in range(97,123):
+        pocet = 0
+        for j in range(len(text)):
+            if text[j]==chr(i):
+                pocet+= 1
+        if pocet>0:
+            print chr(i), pocet
+ 

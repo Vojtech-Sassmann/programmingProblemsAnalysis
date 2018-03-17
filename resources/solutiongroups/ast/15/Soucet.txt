@@ -1,0 +1,2 @@
+952;root{Module{FunctionDef{Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, }, Return{}, }, }, }

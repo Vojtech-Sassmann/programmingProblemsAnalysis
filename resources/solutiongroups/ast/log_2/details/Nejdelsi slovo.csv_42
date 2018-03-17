@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{List{}, }, Assign{List{}, }, For{Call{Call{}, }, Expr{Call{Attribute{}, Call{}, }, }, }, For{Call{Call{}, }, If{Compare{Call{}, }, Assign{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    b=[]
+    c=[]
+    for i in range(len(slova)):
+         b.append(len(slova[i]))
+    for j in range(len(b)):
+        if max(b)==b[j]: 
+            konst = slova[j]
+ 

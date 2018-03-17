@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, While{Compare{Call{}, Gt{}, }, Expr{Call{Attribute{}, }, }, Assign{Call{Attribute{}, }, Mod{}, }, If{Expr{Call{Attribute{}, }, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    list=[]
+    list.append(a)
+    list.append(b)
+    while len(list)>1:
+        list.sort()
+        m=list.pop()%list[-1]
+        if m: list.append(m)
+    return list[0]
+ 

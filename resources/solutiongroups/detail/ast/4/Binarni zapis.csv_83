@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Sub{}, Pow{}, GtE{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Sub{}, Pow{}, }, Assign{}, If{AugAssign{Add{}, Str{}, }, }, }, }, }, }, }
+def binarne(n):
+    power=8
+    first=False
+    s=""
+    while power>-1:
+        if n-(2**power)>=0:
+            s+="1"
+            n-=(2**power)
+            first=True
+        elif first==True: 
+            s+="0"
+

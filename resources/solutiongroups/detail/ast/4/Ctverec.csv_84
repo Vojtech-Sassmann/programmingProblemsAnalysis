@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{Mult{}, Str{}, }, }, If{Compare{LtE{}, Sub{}, }, Print{Str{}, Add{}, Sub{}, Mult{}, Str{}, Add{}, Str{}, }, }, }, Print{}, }, }, }
+def ctverec(n):
+    for i in range (n):
+        if i == 0 or i == (n-1):
+            print n*"*"
+        if i <= (n-3) :
+            print "*" + (n-2) * "+" + "*",
+    print 

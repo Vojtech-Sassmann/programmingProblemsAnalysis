@@ -1,0 +1,6 @@
+1;root{Module{FunctionDef{While{Compare{Call{Sub{}, }, Gt{}, }, Assign{Tuple{}, Tuple{Call{Sub{}, }, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    while abs(a-b) > 0:
+        a,b = b, abs(a-b)
+    return b
+ 

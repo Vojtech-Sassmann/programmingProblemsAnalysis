@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Expr{Compare{Call{}, Subscript{Call{}, Slice{}, }, }, }, If{Compare{NotEq{}, Subscript{Index{Call{}, Sub{}, }, }, }, Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    str(text) == str(text)[::-1]
+    if text[0] != text[len(text)-1]:
+        return False
+    return True
+ 

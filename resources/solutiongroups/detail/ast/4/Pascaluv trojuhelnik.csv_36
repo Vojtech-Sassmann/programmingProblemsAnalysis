@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, Assign{Mult{}, }, }, Return{}, }, FunctionDef{Assign{Call{}, }, Assign{Call{Sub{}, }, Mult{}, Call{}, }, Assign{Div{}, }, }, }, }
+def factorial(m):
+    fact = 1
+    for i in range(1, m + 1):
+        fact = fact * i
+    return fact
+
+def KombCislo(n, k):
+    citatel = factorial(n)
+    jmenovatel = factorial(n-k) * factorial(k)
+    komb = citatel/jmenovatel 

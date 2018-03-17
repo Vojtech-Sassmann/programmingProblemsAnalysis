@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{If{Return{}, }, If{Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{}, Print{Call{}, }, }, }, }, }
+def nextFibonacci(n):
+    if (n==0):
+        return 1
+    if (n==1):
+        return 1
+    return nextFibonacci(n-1)+nextFibonacci(n-2)
+        
+
+def fibonacci(n):
+    for i in range(0,n):
+        print nextFibonacci(i),
+ 

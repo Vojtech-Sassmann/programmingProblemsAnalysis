@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{BoolOp{Or{}, }, }, For{Call{Call{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, Call{}, Sub{}, }, Expr{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    b=0
+    for i in range (len(retezec)):
+        if retezec[i]==(0 or 1):
+          for i in range(len(retezec)):
+                b+=int(retezec[i])*2**(len(retezec)-i)
+          else:
+                retu 

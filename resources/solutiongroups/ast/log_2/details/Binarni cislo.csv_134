@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Call{}, Gt{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, Assign{Subscript{Slice{}, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    number = 0
+    i = 0
+    while len(retezec) > 0:
+        number += int(retezec[-1]) * (2 ** i)
+        retezec = retezec[:-1]
+        i += 1
+    return number
+ 

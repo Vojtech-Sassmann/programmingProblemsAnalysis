@@ -1,0 +1,35 @@
+4;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, Assign{Call{}, }, AugAssign{Add{}, Mult{}, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    i = 1
+    n = 0
+    for x in retezec[::-1]:
+        x = int(x)
+        n += x * i
+        i *= 2
+    return n
+ 
+def vyhodnot(retezec):
+    counter = 1
+    vysledek = 0
+    for i in retezec[::-1]:
+        vysledek += int(i)*counter
+        counter *=2
+    return vysledek
+ 
+def vyhodnot(retezec):
+    const = 1
+    sucet = 0
+    for i in retezec[::-1]:
+        i = int(i)
+        sucet += i * const
+        const *= 2
+    return sucet
+ 
+def vyhodnot(retezec):
+    convert=1
+    sucet=0
+    for i in retezec[::-1]:
+        sucet+=int(i)*convert
+        convert*=2
+    return sucet
+ 

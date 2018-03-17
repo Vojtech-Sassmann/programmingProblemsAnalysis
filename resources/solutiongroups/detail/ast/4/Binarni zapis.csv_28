@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{Assign{}, Assign{List{}, }, While{Compare{Gt{}, }, Expr{Call{Attribute{}, Mod{}, }, }, AugAssign{FloorDiv{}, }, Print{}, AugAssign{Add{}, }, }, }, Expr{Call{}, }, }, }
+def binarne(n):
+    a = 0
+    b = []
+    while n > 0:
+        b.append(n%2)
+        n //= 2
+        print b[a],
+        a += 1
+        
+binarne(251) 
+def binarne(n):
+    a = 0
+    b = []
+    while n > 0:
+        b.append(n%2)
+        n //= 2
+        print b[a],
+        a += 1
+ 

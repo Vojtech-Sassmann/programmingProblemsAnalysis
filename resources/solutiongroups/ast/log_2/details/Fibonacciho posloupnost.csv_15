@@ -1,0 +1,40 @@
+5;root{Module{FunctionDef{Assign{}, Print{}, For{Call{}, Print{}, }, Assign{Add{}, }, Assign{Sub{}, }, }, }, }
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+    a = a + b
+    b = a - b
+ 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b
+ 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b
+ 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b
+ 

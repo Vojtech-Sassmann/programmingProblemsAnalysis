@@ -1,0 +1,24 @@
+2;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, Assign{Call{}, }, For{Call{}, If{Compare{Mod{}, }, AugAssign{Add{}, Pow{}, }, AugAssign{FloorDiv{}, }, AugAssign{FloorDiv{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo=0
+    n=len(retezec)
+    binar=int(retezec)
+    for i in range (n):
+        if binar% 2==1:
+            cislo+=(2**i)
+            binar//=10
+        else:
+            binar//=10
+    return ci 
+def vyhodnot(retezec):
+    cislo=0
+    n=len(retezec)
+    binar=int(retezec)
+    for i in range (n):
+        if binar% 10==1:
+            cislo+=(2**i)
+            binar//=10
+        else:
+            binar//=10
+    
+    r 

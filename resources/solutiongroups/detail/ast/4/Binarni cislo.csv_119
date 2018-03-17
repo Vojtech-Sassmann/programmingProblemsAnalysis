@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, Assign{}, While{Compare{Gt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Pow{}, }, }, Assign{Call{Div{}, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    h=int(retezec)
+    i=0
+    c=0
+    while (h>0):
+        if (h % 10)==1: c+=2**i
+        h=int(h/10)
+        i+=1
+    return c
+ 

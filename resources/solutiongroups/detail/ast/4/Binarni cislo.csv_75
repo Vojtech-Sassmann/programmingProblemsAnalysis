@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, Assign{}, While{Compare{Gt{}, }, If{Compare{Mod{}, NotEq{}, }, AugAssign{Add{}, Pow{}, }, }, AugAssign{Add{}, }, Assign{Call{Div{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    retezec = int(retezec)
+    mocnina = 0
+    bin = 0
+    while(retezec > 0):
+        if retezec % 10 != 0: bin += 2**mocnina
+        mocnina += 1
+        retezec = int(retezec/10)
+    return bin 

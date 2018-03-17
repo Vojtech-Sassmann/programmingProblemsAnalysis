@@ -1,0 +1,102 @@
+12;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Assign{Sub{}, }, Assign{Add{}, Call{}, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    delka = len(retezec)
+    a = 0
+    for i in retezec:
+        delka = delka -1
+        a = a + int(i)*2**delka
+    return a
+ 
+def vyhodnot(retezec):
+    delka = len(retezec)
+    c=0
+    for i in retezec:
+        delka = delka-1
+        c = c + int(i)*2**delka
+    return c
+ 
+def vyhodnot(retezec):
+    
+    retezec = retezec[::-1]
+    ret = 0
+    
+    for i in range(len(retezec)):
+        
+        ret += int(retezec[i]) * (2 ** i)
+        
+    return ret
+ 
+def vyhodnot(retezec):
+    exponent = len(retezec) - 1
+    vysledek = 0
+    for i in range(0,len(retezec)):
+        vysledek += int(retezec[i])*(2**(exponent-i))
+    return vysledek
+        
+ 
+def vyhodnot(retazec):
+    vysledok=0
+    dlzka=len(retazec)
+    for i in range(0,dlzka):
+        x=retazec[dlzka-i-1]
+        vysledok=vysledok+int(x)*2**i
+    return vysledok
+ 
+def vyhodnot(retazec):
+    vysledok=0
+    dlzka=len(retazec)
+    for i in range(0,dlzka):
+        x=retazec[dlzka-i-1]
+        vysledok=vysledok+int(x)*2**i
+    return vysledok
+ 
+def vyhodnot(retezec):
+    soucet=0
+    mocnina=len(retezec)
+    for i in retezec:
+        mocnina-=1
+        soucet+=int(i)*2**mocnina
+    return soucet
+ 
+def vyhodnot(retezec):
+    delka = len(retezec)
+    soucet = 0
+    for i in range(0, delka):
+        n = delka - i -1
+        soucet = soucet + 2**n * int(retezec[i])
+    
+    return soucet
+ 
+def vyhodnot(retezec):
+    x = len(retezec)
+    y = 0
+    for i in range (x):
+        z = retezec [i]
+        y = y + (int (z) * 2** (x-1-i))
+    return y
+ 
+def vyhodnot(retezec):
+    hod=0
+    i=0
+    for x in retezec[::-1]:
+        hod=hod+int(x)*(2**i)
+        i=i+1
+    return hod
+
+
+ 
+def vyhodnot(retezec):
+    retezec=retezec[::-1]
+    vysledek=0
+    for i in range (len(retezec)):
+        vysledek+=int(retezec[i])*2**i
+    return vysledek
+ 
+def vyhodnot(retezec):
+    retezec=retezec[::-1]
+    vysledek=0
+    for i in range (len(retezec)):
+        
+        vysledek+=int(retezec[i])*2**i
+    return vysledek
+ 

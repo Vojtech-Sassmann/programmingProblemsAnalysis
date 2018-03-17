@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, Assign{}, While{Compare{NotEq{}, }, If{Compare{NotEq{}, }, Return{}, }, AugAssign{Sub{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    n=len(text)-1
+    i=0
+    while i!=n:
+        if text[i] != text[n]:
+            return False
+        n-=1
+        i+=1
+    return True
+ 

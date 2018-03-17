@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, Sub{}, }, AugAssign{Add{}, Pow{}, Call{}, Sub{}, Sub{}, Mult{}, Call{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    sum = 0
+    for i in range(len(retezec)-1, -1, -1):
+        sum += 2**(len(retezec)-i-1) * int(retezec[i])
+    return sum
+ 

@@ -1,0 +1,57 @@
+11;root{Module{FunctionDef{If{If{Return{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    if text[0] == text[-1]:
+      if text[1] == text[-2]:  
+        return True
+    return False
+ 
+def palindrom(text):
+    if text[0] != text[-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    if text[1] != text[-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    if text[0] != text[-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    if text != text[-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    if text[0] != text[-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    if text[0] == text[-1]: 
+        return True
+    elif text[0] != text[-1]:
+        return False
+ 
+def palindrom(text):
+    if text[0] != text[-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    if text[0] != text[-1]:
+        return False
+    return False
+ 
+def palindrom(text):
+    if text[0] != text[-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    pal = text[::-1]
+    return text == pal
+ 

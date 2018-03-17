@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Call{List{}, }, }, Assign{Call{List{}, }, }, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Return{}, }, }, }, }, }
+def nsd(a, b):
+    v = max([a, b])
+    m = min([a, b])
+
+    for i in range(m, -1, -1):
+        if v % i == 0 and m % i == 0:
+            return i
+ 

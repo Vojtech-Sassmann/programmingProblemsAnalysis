@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Print{Str{}, }, Print{Str{}, }, Print{Str{}, }, Print{Str{}, }, }, }, }
+def ctverec(n):
+    print "****"
+    print "*++*"
+    print "*++*"
+    print "****"
+ 

@@ -1,0 +1,2 @@
+913;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, Return{}, }, }, }
+2;root{Module{ImportFrom{alias{}, }, FunctionDef{Assign{List{}, }, Assign{}, While{Compare{LtE{}, Call{}, }, If{Compare{Mod{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, FloorDiv{}, }, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }

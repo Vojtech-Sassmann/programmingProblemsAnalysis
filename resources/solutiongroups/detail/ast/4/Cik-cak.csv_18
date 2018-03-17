@@ -1,0 +1,6 @@
+1;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, Add{}, Subscript{Slice{}, }, }, Assign{Call{Attribute{Str{}, }, ListComp{Add{}, Str{}, comprehension{}, }, }, }, Print{Subscript{Slice{Call{}, Div{}, Sub{}, }, }, }, Print{Subscript{Slice{Call{}, Div{}, Call{}, Sub{}, }, }, }, }, }, }
+def cikcak(text):
+    text = text[0::2] + text[1::2]
+    output = "".join([s+ " . " for s in text])
+    print output[0:len(output)/2-1]
+    print output[len(output)/2:len(output)-1] 

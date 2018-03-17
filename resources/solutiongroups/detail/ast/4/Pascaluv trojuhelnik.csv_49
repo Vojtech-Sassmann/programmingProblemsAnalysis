@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{List{}, Mult{}, Add{}, }, For{Call{}, Assign{Subscript{Subscript{Index{Sub{}, }, }, Index{Sub{}, }, }, Add{}, Subscript{Subscript{Index{Sub{}, }, }, }, }, }, Expr{}, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    tr = []
+    for row in range(n):
+        row_content = [1] * (row+1)
+        for col in range(1,row):
+            row_content[col] = (tr[row-1][col-1]+tr[row-1][col])           
+        t 

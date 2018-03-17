@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, While{UnaryOp{Not{}, BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    fic = min(a,b)
+    while not (a % fic == 0 and b % fic == 0):
+        fic -= 1
+    return fic
+        
+ 

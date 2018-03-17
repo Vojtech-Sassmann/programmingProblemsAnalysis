@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, While{Compare{NotEq{}, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, Assign{Str{}, Add{}, }, }, If{Compare{Mod{}, }, Assign{Div{}, Sub{}, }, Assign{Div{}, }, }, If{Assign{Str{}, Add{}, }, }, }, }, }, }
+def binarne(n):
+    vystup=""
+    x=n
+    while x!=0:
+        if x % 2 == 0: vystup="0"+vystup
+        else: vystup="1"+vystup
+        if x % 2 == 1: x=x/2-0.5
+        else: x=x/2
+        if x==1:
+            vystup="1"+vy

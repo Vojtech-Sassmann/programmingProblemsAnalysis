@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{IfExp{Compare{Mod{}, }, Div{}, Div{}, Sub{}, }, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }
+def fibonacci(n):
+    f = 1
+    s = 1
+    for i in range(n/2 if n%2 == 0 else n/2 - 1):
+        print f,
+        print s,
+        f = f + s
+        s = f + s
+    if n%2 != 0:
+        print f,
+ 

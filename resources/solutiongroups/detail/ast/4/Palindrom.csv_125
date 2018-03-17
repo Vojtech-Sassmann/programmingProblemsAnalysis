@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{List{}, }, If{Compare{Call{}, Mod{}, NotEq{}, }, Assign{Call{}, Sub{}, }, }, For{Call{FloorDiv{}, }, If{Compare{Call{}, Call{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, }, }, }, }
+def palindrom(text):
+    count=[]
+    if len(text)%2!=0:
+        p=len(text)-1
+    for i in range(p//2):
+        if ord(text[i])==ord(text[p]):
+            count.append(True)
+        else:
+            count.append(False)
+ 

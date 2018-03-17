@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{If{Return{}, }, If{Assign{}, }, Assign{Mult{}, Sub{}, }, Return{Call{Sub{}, }, }, }, }, }
+def faktorial(n, cur = -1):
+    if(n == 1):
+        return cur
+    
+    
+    if(cur == -1):
+        cur = n
+    
+    cur = cur * (n - 1)
+    
+    return faktorial(n - 1, cur)
+ 

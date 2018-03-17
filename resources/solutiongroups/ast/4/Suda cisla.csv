@@ -1,0 +1,17 @@
+840;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{Mod{}, }, Print{}, }, }, }, }, }
+339;root{Module{FunctionDef{For{Call{Div{}, Add{}, }, Print{Mult{}, }, }, }, }, }
+57;root{Module{Assign{List{}, }, FunctionDef{For{Call{}, Print{}, }, }, }, }
+10;root{Module{FunctionDef{Assign{}, While{Compare{LtE{}, }, Print{}, AugAssign{Add{}, }, }, }, }, }
+10;root{Module{FunctionDef{For{Call{}, If{Compare{Mod{}, }, Print{}, }, }, If{Compare{Mod{}, }, Print{}, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, AugAssign{Add{}, }, For{Call{Div{}, }, Print{}, AugAssign{Add{}, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Print{}, For{Call{}, If{Compare{Mod{}, }, Print{}, }, Assign{Add{}, }, }, }, }, }
+4;root{Module{FunctionDef{For{Call{}, Assign{Mult{}, }, Print{}, If{Break{}, }, }, }, }, }
+2;root{Module{FunctionDef{For{Call{Div{}, Add{}, }, If{Compare{Div{}, Mult{}, Add{}, }, AugAssign{Add{}, }, }, Assign{Mult{}, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{For{Call{}, If{Div{}, Mod{}, Expr{Add{}, }, If{Div{}, Mod{}, Expr{Add{}, }, Print{}, }, }, }, }, }, }
+2;root{Module{FunctionDef{For{Call{Div{}, }, Print{Mult{}, }, }, If{Compare{Mod{}, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Print{}, For{Call{Sub{}, Div{}, }, Assign{Add{}, }, Print{Mult{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, For{Call{}, Print{}, Assign{Add{}, }, If{Compare{Add{}, }, Break{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, While{Compare{Sub{}, Lt{}, }, If{Compare{Mod{}, }, Print{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, While{Compare{Lt{}, }, AugAssign{Add{}, }, If{Compare{LtE{}, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Print{}, Print{}, Print{}, }, }, }
+1;root{Module{FunctionDef{If{Compare{Mod{}, }, For{Call{Div{}, }, Print{Mult{}, }, }, Print{Mult{}, Add{}, }, }, If{Compare{Mod{}, }, For{Call{Sub{}, Div{}, }, Print{Mult{}, }, }, Print{Mult{}, Add{}, }, }, }, }, }

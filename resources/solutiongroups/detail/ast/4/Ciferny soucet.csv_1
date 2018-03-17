@@ -1,0 +1,509 @@
+79;root{Module{FunctionDef{Assign{}, For{Call{}, AugAssign{Add{}, Call{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for char in str(n):
+        soucet += int(char)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet=0
+    x=str(n)
+    for i in range(len(x)):
+        soucet+=int(x[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    a=0
+    x=str(n)
+    for i in x:
+        a+=int(i)
+    return a
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet = soucet + int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    vstup=str(n)
+    soucet=0
+    for i in range(len(vstup)):
+        soucet+=int(vstup[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str (n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet+=int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str (n):
+        soucet += int (i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+       soucet+=int(i)
+    return soucet 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    souc = 0
+    for i in str(n):
+        souc += int(i)
+    return souc 
+def ciferny_soucet(n):
+    res = 0
+    for x in str(n):
+        res += int(x)
+    return res 
+def ciferny_soucet(n):
+    a =0
+    b=str(n)
+    for i in range(len(b)):
+        a+= int (b[i])
+    return(a) 
+def ciferny_soucet(n):
+    pocet = 0
+    n = str(n)
+    for i in n:
+        pocet += int(i)
+    return pocet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(n)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range(3):
+        soucet += n % 10
+        n = n / 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet = soucet+int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    retezec = str(n)
+    vysledek = 0
+    for i in range(0, len(retezec)):
+        vysledek += int(retezec[i])
+    return vysledek
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    veta = str(n)
+    for i in range(0,len(veta)): 
+        soucet = soucet + int(veta[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    a = 0
+    for i in str(n):
+        a = a + int(i)
+    return a
+ 
+def ciferny_soucet(n):
+    
+    sucet = 0
+    for i in str(n):
+        sucet += int(i)
+        
+    return sucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet+=int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    cislo = str(n)
+    for i in cislo:
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range (n):
+        soucet += n % 10
+        n = int(n/10)
+    return soucet
+ 
+def ciferny_soucet(n):
+    x = str(n)
+
+    soucet = 0
+    for i in range(len(x)):
+        soucet += int(x[i])
+        
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for c in str(n):
+        soucet += int(c)
+    
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet = soucet + int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    sucet = 0
+    x = str(n)
+    for cifra in x:
+        sucet = sucet + int(cifra)
+    return sucet
+ 
+def ciferny_soucet(n):
+    out = 0
+    for i in str(n):
+        out += int(i)
+    return out
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    s=0
+    x=str(n)
+    for i in range(len(x)):
+        s+=int(x[i])
+    return s
+ 
+def ciferny_soucet(n):
+    s=0
+    for i in str(n):
+        s+=int(i)
+    return s
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    a=str(n)
+    for i in a:
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    N=str(n)
+    for x in range(len(N)):
+        soucet=soucet+int(N[x])
+    return soucet
+ 
+def ciferny_soucet(n):
+    n = str(n)
+    val = 0
+    
+    for i in n:
+        val += int(i)
+        
+    return val 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    for i in range(n):
+        soucet = 0
+        soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet=0
+    for i in str(n):
+        soucet+=int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    a=str(n)
+    soucet=0
+    b=0
+    for x in range (len(a)):
+        soucet+=int(a[x])
+    return soucet
+ 
+def ciferny_soucet(n):
+    n = str(n)
+    soucet = 0
+    for i in range(len(n)):
+        soucet += int(n[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    s = str(n)
+    for i in range(len(s)):
+        soucet += int(s[i])        
+    return soucet
+ 
+def ciferny_soucet(n):
+    n=str(n)
+    soucet=0
+    for i in range(0,len(str(n))):
+        soucet+=int(n[i])
+         
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    text = str(n)
+    for i in range(len(text)):
+        soucet += int(text[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    n=str(n)
+    for f in range (len(n)):
+        soucet+=int(n[f])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for c in str(n):
+        soucet += int(c)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    cislo = str(n)
+    soucet = 0
+    for i in range(len(cislo)):
+        soucet += int(cislo[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    sum = 0
+    for i in range(n):
+        sum += n % 10
+        n //= 10
+    return sum
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    n = str(n)
+    a = 0
+    for i in range(len(n)):
+        a += int(n[i])
+
+    return a 
+def ciferny_soucet(n):
+    cislo = str(n)
+    soucet = 0
+    for cifra in cislo:
+        soucet = soucet + int(cifra)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    cislotext = str(n)
+    cislo = 0
+    for i in range(0, len(cislotext)):
+        cislo += int(cislotext[i])
+    return cislo
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in str(n):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    var = str(n)
+    result = 0    
+    for x in range(len(var)):
+        result += int(var[x])
+    return result 
+def ciferny_soucet(n):
+    line = str(n)
+    soucet = 0
+    for cislo in line:
+        soucet += int(cislo)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    retezec = str(n)
+    for cifra in retezec:
+        soucet += int(cifra)
+        
+    return soucet
+ 
+def ciferny_soucet(n):
+    z=(str(n))
+    soucet=0
+    for i in z:
+        soucet+=int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for s in str(n):
+        soucet = soucet + int(s)    
+    return soucet
+ 
+def ciferny_soucet(n):
+    result = 0
+    to_str = str(n)
+    for i in to_str:
+        result += int(i)
+    return int(result)
+ 
+def ciferny_soucet(n):
+    num=str(n)
+    soucet = 0
+    for c in num:
+        soucet += int(c)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in (str(n)):
+        soucet += int(i)
+      
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet=0
+    for i in str(n):
+        soucet +=int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in (str(n)):
+        soucet += int(i)
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    return soucet
+ 

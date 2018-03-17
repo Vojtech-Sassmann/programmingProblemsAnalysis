@@ -1,0 +1,5 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, List{}, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    trojuhelnik = []
+    for x in range(pocet_radku):trojuhelnik.append([])
+ 

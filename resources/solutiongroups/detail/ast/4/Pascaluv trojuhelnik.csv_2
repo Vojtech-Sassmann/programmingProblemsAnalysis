@@ -1,0 +1,72 @@
+7;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, For{Print{}, }, Print{}, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }, }
+def pascaluv_trojuhelnik(n):
+    a=[1]
+    for i in range (n):
+        for x in a:
+            print x,
+        print
+        d=[1]
+        for i in range (len(a)-1):
+            d.append (a[i]+a[i+1])
+        d.append(1)
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    a=[1]
+    for n in range(pocet_radku):
+        for k in a:
+            print k,
+        print
+        m=[1]
+        for n in range(len(a)-1):
+            m.append(a[n]+a[n+1])
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    r=[1]
+    for n in range(pocet_radku):
+        for k in r:
+            print k,
+        print
+        dr=[1]
+        for j in range(len(r)-1):
+            dr.append(r[j]+r[j+1])
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    c=[1]
+    for i in range(pocet_radku):
+        for n in c:
+            print n,
+        l=[1]
+        for j in range(i):
+            l.append(c[j]+c[j+1])
+        l.append(1)
+ 
+def pascaluv_trojuhelnik(n):
+    a=[1]
+    for i in range(n):
+        for x in a:
+            print x,
+        print
+        d=[1]
+        for i in range(len(a)-1):
+            d.append(a[i]+a[i+1])
+        d.append(1)
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    akt=[1]
+    for n in range(pocet_radku):
+        for y in akt:
+            print y,
+        next=[1]
+        for k in range(0, len(akt)-1):
+            next.append(akt[k]+akt[k+1])
+ 
+def pascaluv_trojuhelnik(n):
+    akt=[1]
+    for j in range (n):
+        for x in akt:
+            print x,
+        print
+        dal = [1]
+        for i in range(len(akt)-1):
+            dal.append(akt[i]+akt[i+1])
+ 

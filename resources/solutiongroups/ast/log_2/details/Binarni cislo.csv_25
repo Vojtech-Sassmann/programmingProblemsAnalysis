@@ -1,0 +1,25 @@
+3;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, Assign{}, For{Call{Call{}, }, If{Compare{NotIn{}, Call{Sub{}, }, }, Return{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    mocnina = len(retezec)-1
+    dec = 0
+    for i in range(len(retezec)):
+        if retezec[i] not in range(0-9): return 0
+        dec += int(retezec[i])*2**mocnina
+        mocnina -= 1
+    return dec 
+def vyhodnot(retezec):
+    mocnina = len(retezec)-1
+    dec = 0
+    for i in range(len(retezec)):
+        if retezec[i] != int: return 0
+        dec += int(retezec[i])*2**mocnina
+        mocnina -= 1
+    return dec 
+def vyhodnot(retezec):
+    mocnina = len(retezec)-1
+    dec = 0
+    for i in range(len(retezec)):
+        if int(retezec[i]) != 1: pass
+        dec += int(retezec[i])*2**mocnina
+        mocnina -= 1
+    return dec 

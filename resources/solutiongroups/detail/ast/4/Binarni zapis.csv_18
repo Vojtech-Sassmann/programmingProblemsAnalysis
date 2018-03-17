@@ -1,0 +1,26 @@
+3;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{FloorDiv{}, }, AugAssign{Add{}, Call{}, }, }, Assign{Subscript{Slice{}, }, }, Print{}, }, }, }
+def binarne(n):
+    result=""
+    while n>0:
+        r=n%2
+        n=n//2
+        result+=str(r)
+    result= result[::-1]
+    print(result)
+def binarne(n):
+    vysledek = ""
+    while n > 0:
+        zbytek = n % 2
+        n //= 2
+        vysledek += str(zbytek)
+    print vysledek[::-1]
+
+def binarne(n):
+    zbytek=0
+    cislo=""
+    while n>0:
+        zbytek=n%2
+        n=n//2
+        cislo=cislo+str(zbytek)
+    print cislo[::-1]
+

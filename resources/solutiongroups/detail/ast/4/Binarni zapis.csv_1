@@ -1,0 +1,122 @@
+17;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{NotEq{}, }, AugAssign{Add{}, Call{Mod{}, }, }, Assign{FloorDiv{}, }, }, Print{Subscript{Slice{}, }, }, }, }, }
+def binarne(n):
+    result = ""
+    while n != 0:
+        result += str(n % 2)
+        n = n//2
+    print result[::-1]
+
+def binarne(n):
+    ret = ""
+    while n>0:
+        ret += str(n%2)
+        n = n / 2
+    print ret[::-1]
+
+def binarne(n):
+    ret = ""
+    while n>0:
+
+        ret += str(n%2)
+        n = n // 2
+    print ret[::-1]
+
+def binarne(n):
+    bin = ""
+    while n != 0:
+        bin += str(n%2)
+        n = n // 2
+    print bin[::-1]
+def binarne(n):
+    A=""
+    while n !=0:
+        a=n%2
+        A+=str(a)
+        n = n//2
+    print int(A[::-1])
+
+
+def binarne(n):
+    res = ""
+    while n > 0:
+        res += str(n % 2)
+        n = n // 2
+    return res[::-1]
+
+def binarne(n):
+    res = ""
+    while n > 0:
+        res += str(n % 2)
+        n = n // 2
+    print res[::-1]
+
+def binarne(n):
+    bin = ""
+    while n != 0:
+        bin += str(n%2)
+        n = n//2
+    print bin[::-1]
+
+def binarne(n):
+    s=""
+    while n!=0:
+        s+=str(n%2)
+        n = n >> 1
+    print s[::-1]
+
+def binarne(n):
+    temp = ""
+    while n>0:
+        temp += chr((n%2)+48)
+        n = n // 2
+    return temp[::-1]
+
+def binarne(n):
+    temp = ""
+    while n!=0:
+        temp += chr((n%2)+48)
+        n = n // 2
+    print temp[::-1]
+
+def binarne(n):
+    cislo = ""
+    while n != 0:
+        cislo = cislo + str(n%2)
+        n = n//2
+    cisielko = int(cislo[::-1])
+    print cisielko
+
+def binarne(n):
+    string=""
+    while n!=0:
+        string += str((n%2))
+        n = n//2
+    print string[::-1]
+
+      
+def binarne(n):
+    out = ""
+    while n > 0:
+        out += str(n % 2)
+        n //= 2
+    print out[::-1]
+
+def binarne(n):
+    out = ""
+    while n > 0:
+        out += str(n % 2)
+        n //= 2
+    print out[::-1]
+
+def binarne(n):
+    line = ""
+    while n != 0:
+        line += str(n % 2)
+        n = n//2
+    print line[::-1]
+def binarne(n):
+    zoznam = ""
+    while n > 0:
+        zoznam += str(n % 2)
+        n //= 2
+    print zoznam[::-1] 

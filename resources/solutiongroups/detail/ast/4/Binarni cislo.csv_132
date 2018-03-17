@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Call{}, }, While{BoolOp{And{}, Compare{Gt{}, }, BoolOp{Or{}, Compare{Call{Subscript{Index{Sub{}, }, }, }, }, Compare{Call{Subscript{Index{Sub{}, }, }, }, }, }, }, If{Compare{Call{Subscript{Index{Sub{}, }, }, }, }, AugAssign{Add{}, Pow{}, }, }, AugAssign{Sub{}, }, }, }, }, }
+def vyhodnot(retezec):
+    x = 0
+    mocnina = 0
+    i = len(retezec)
+    
+    while i>0 and (ord(retezec[i-1])==49 or ord(retezec[i-1])==48):
+        if ord(retezec[i-1])==49:
+            x+= 2**mocnina
+        i-= 1
+ 

@@ -1,0 +1,63 @@
+6;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Mult{}, }, }, Return{}, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, Div{}, Call{Sub{}, }, Mult{}, Call{}, }, }, }, }, }, }
+def f(x):
+    f=1
+    for i in range(1,x+1):
+        f*=i
+    return f
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print f(n)/(f(n-k)*f(k)),
+ 
+def faktorial(m):
+    x=1
+    for i in range(1,m+1):
+        x*=i
+    return x
+
+def pascaluv_trojuhelnik(a):
+    for n in range(a):
+        for k in range(n + 1):
+            print faktorial(n)/(faktorial(k)*faktorial(n-k)), 
+def f(n):
+    fac = 1
+    for i in range(2,n+1):
+        fac *= i
+    return fac
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print f(n)/(f(k)*f(n-k)) 
+def f(n):
+    r = 1
+    for i in range(1, n+1):
+        r *= i
+    return r
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print f(n) // f(k) // f(n-k),
+ 
+def f(n):
+    r = 1
+    for i in range(1,n+1):
+        r *= i
+    return r
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n+1):
+            print f(n)/(f(k)*f((n-k))),
+ 
+def fak(f):
+    fa=1
+    for i in range (f):
+        fa*=i+1
+    return fa
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print fak(n)/(fak(k)*fak(n-k)) 

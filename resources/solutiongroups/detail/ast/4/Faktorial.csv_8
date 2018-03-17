@@ -1,0 +1,43 @@
+3;root{Module{FunctionDef{Assign{Sub{}, }, If{Compare{NotEq{}, }, For{Call{Sub{}, }, Assign{Mult{}, }, Assign{}, Assign{Sub{}, }, Assign{}, }, Assign{}, }, Return{}, }, }, }
+def faktorial(n):
+
+    p=n-1
+    if n!=1:
+        for i in range(n-1):
+            j=n*p
+            n=j
+            p=p-1
+            j=1
+    else:
+        j=1
+    return j
+ 
+def faktorial(n):
+
+    p=n-1
+    if n>1 :
+        for i in range(n-1):
+            j=n*p
+            n=j
+            p=p-1
+            
+        return j
+    else:
+        j=1
+    
+ 
+def faktorial(n):
+
+    p=n-1
+    if n!=1 :
+        for i in range(n-1):
+            j=n*p
+            n=j
+            p=p-1
+            
+        return j
+    else:
+        j=1
+        return j
+    
+ 

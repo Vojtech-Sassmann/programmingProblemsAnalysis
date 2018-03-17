@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{If{Compare{Call{}, LtE{}, }, Return{}, Assign{}, Assign{Call{}, Sub{}, }, While{Compare{Lt{}, }, If{AugAssign{Add{}, }, }, }, }, }, }, }
+def palindrom(text):
+    if len(text) <= 1:
+        return True
+    else:
+        left = 0
+        right = len(text) - 1
+        while left < right:
+            if text[left] == text[right]:
+                left += 1
+ 

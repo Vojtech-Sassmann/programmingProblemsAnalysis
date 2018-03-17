@@ -1,0 +1,107 @@
+18;root{Module{FunctionDef{TryExcept{Assign{Call{}, }, ExceptHandler{Return{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    try: b=int(retezec,2)
+    except: return 0
+    return b 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except ValueError: return 0
+ 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except ValueError: return 0 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except ValueError: return len(retezec) 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec, 2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec, 2)
+    except ValueError:
+        return 0
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    try:
+        vysledek = int(retezec, 2)
+        return vysledek
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 4
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    while True:
+        try:
+            dec = int(retezec, 2)
+        except ValueError:
+            return 0
+    return dec 
+def vyhodnot(retezec):
+    while True:
+        try:
+            dec = int(retezec, 2)
+        except ValueError:
+            return 0
+        else:
+            break
+    return dec 
+def vyhodnot(retezec):
+    try:return int(retezec,2)
+    except: return 0
+ 
+def vyhodnot(val):
+    num = 0
+    try:
+        num = int(val, 16)
+    except:
+        pass 
+def vyhodnot(val):
+    num = 0
+    try:
+        num = int(val, 2)
+    except:
+        pass
+    return num 
+def vyhodnot(val):
+    num = 0
+    try:
+        print val
+        num = int(val, 16)
+    except:
+        pass
+    return num 
+def vyhodnot(val):
+    num = 0
+    try:
+        num = int(val, 2)
+    except:
+        pass
+    return num 

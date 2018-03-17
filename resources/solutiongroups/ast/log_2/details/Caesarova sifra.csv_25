@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Assign{Call{}, Add{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, Continue{}, If{Compare{Gt{}, Call{Str{}, }, }, AugAssign{Sub{}, Call{Str{}, }, Sub{}, Call{Str{}, }, Add{}, }, }, }, }, }, }, }
+def caesar(text, n):
+    text2 = ""
+    for i in text:
+        char = ord(i)+n
+        if i == " ":
+            text2 += " "
+            continue
+        elif char > ord("z"):
+            char -= ord("z")-ord("a")+1
+

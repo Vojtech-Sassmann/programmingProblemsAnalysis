@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{Mod{}, }, If{Compare{Mod{}, }, AugAssign{Mult{}, }, Assign{Div{}, }, Assign{Div{}, }, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    cd = 1
+    for i in range(min(a,b),1,-1):
+        if a%i==0:
+            if b%i==0:
+                cd*=i
+                a=a/i
+                b=b/i
+    return cd 

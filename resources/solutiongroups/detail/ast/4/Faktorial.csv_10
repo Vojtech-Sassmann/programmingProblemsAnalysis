@@ -1,0 +1,13 @@
+2;root{Module{FunctionDef{For{Call{}, If{Compare{Lt{}, Add{}, }, Assign{Mult{}, }, }, }, Return{}, }, }, }
+def faktorial(n):
+    for i in range(1,n):
+        if(n<n+1):
+            n = i*n
+    return n
+ 
+def faktorial(n):
+    for i in range(n):
+      if i>0:
+        n*=i
+    return n
+ 

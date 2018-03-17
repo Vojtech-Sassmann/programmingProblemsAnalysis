@@ -1,0 +1,104 @@
+9;root{Module{FunctionDef{Assign{}, Print{}, Assign{}, Print{}, For{Call{}, Assign{}, AugAssign{Add{}, }, Assign{}, Print{}, }, }, }, }
+def fibonacci(n):
+    a=1
+    print a,
+    b=1
+    print b,
+    for i in range(2,n):
+        c=a
+        a+=b
+        b=c
+        print a,
+        
+ 
+def fibonacci(n):
+    a = 1
+    b = 0
+    for i in range(n):
+        c = b
+        b = b + a
+        a = c
+        print b,
+        
+        
+ 
+def fibonacci(n):
+    last = 0
+    num = 1
+    print 1,
+    for i in range(1, n):
+        num += last
+        last = num - last
+        print num,
+ 
+def fibonacci(n):
+    suc = 1
+    predch = 1
+    print predch,suc,
+    for i in range(n-2):
+        temp = suc
+        suc += predch
+        predch = temp
+        print suc,
+ 
+def fibonacci(n):
+    f1=1
+    print f1,
+    f2=1
+    print f2
+    for i in range(2,n+1):
+        p=f1
+        f1+=f2
+        f2=p
+        print f1,
+        
+        
+ 
+def fibonacci(n):
+    f1=1
+    print f1,
+    f2=1
+    print f2,
+    for i in range(2,n+1):
+        p=f1
+        f1+=f2
+        f2=p
+        print f1,
+        
+        
+ 
+def fibonacci(n):
+    f1=1
+    print f1,
+    f2=1
+    print f2,
+    for i in range(3,n+1):
+        p=f1
+        f1+=f2
+        f2=p
+        print f1,
+        
+        
+ 
+def fibonacci(n):
+    if (n==1):
+        return 1
+    a = 0
+    b = 1
+    print b,
+    for i in range (1,n):
+        old_b = b
+        b = a + b
+        a = old_b
+        print b, 
+def fibonacci(n):
+    a=0
+    b=1
+    c=0
+    print b,
+    for i in range(1,n):
+        a=b
+        b=b+c
+        c=a
+        print b,
+ 

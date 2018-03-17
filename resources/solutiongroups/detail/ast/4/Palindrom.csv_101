@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{}, Sub{}, }, While{Compare{Call{}, NotEq{}, Call{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    a=""
+    z=len(text)-1
+    while (len(a)!=len(text)):
+        a+=text[z]
+        z+=-1
+    return a==text
+ 

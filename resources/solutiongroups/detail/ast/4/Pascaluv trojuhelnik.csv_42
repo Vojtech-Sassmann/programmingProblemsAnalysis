@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{}, Print{}, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    sirka = 1
+    for n in range(1,pocet_radku+1):
+        for i in range(sirka):
+            if(i == 0 or i == sirka -1):
+                print 1,
+            else:
+                print fac 

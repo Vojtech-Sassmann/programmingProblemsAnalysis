@@ -1,0 +1,22 @@
+2;root{Module{FunctionDef{If{Compare{Gt{}, }, Assign{}, Assign{}, Assign{}, }, If{Compare{Mod{}, }, Return{}, Return{Call{Mod{}, }, }, }, }, }, }
+def nsd(a, b):
+    if b > a:
+        c = b
+        b = a
+        a = c
+    if a % b == 0:
+        return b
+    else:
+        return nsd(b, a % b) 
+def nsd(a, b):
+    if a > b:
+        j = a
+        a = b
+        b = j
+    
+    if a == 0:
+        return b
+    
+    return nsd(a, b % a)
+
+ 

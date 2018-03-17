@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{List{}, }, While{Compare{GtE{}, }, Assign{List{}, }, Assign{Mod{}, }, If{Expr{Call{Attribute{}, Str{}, }, }, AugAssign{Sub{}, }, }, If{Expr{Call{Attribute{}, Str{}, }, }, }, Expr{}, }, }, }, }
+def binarne(prom):
+    
+    seznam1=[]
+    while prom>=1:
+        seznam=[]
+        cis=prom%2
+        if cis==1:
+            seznam.append("1")
+            prom-=1
+        if cis==0:
+           seznam.append("0")
+        pr

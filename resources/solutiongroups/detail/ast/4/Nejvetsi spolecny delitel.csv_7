@@ -1,0 +1,179 @@
+34;root{Module{FunctionDef{For{Call{Call{List{}, }, Add{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Return{}, }, }, }, }, }
+def nsd(a, b):
+    for i in range(min([a, b])+1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i 
+def nsd(a, b):
+    for i in range(min([a, b])+1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+    return 1 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i 
+def nsd(a, b):
+    for i in range(a,1,-1):
+        if a%i==0 and b%i==0:
+            return i
+    
+ 
+def nsd(a, b):
+    for i in range(a,0,-1):
+        if a%i==0 and b%i==0:
+            return i
+    
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a % i == 0 and b % i == 0 :
+                return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+    
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+        
+    
+ 
+def nsd(a, b):
+    for i in range(min(a,b), 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b)):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),1, -1):
+        if a%i == 0 and b%i ==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0, -1):
+        if a%i == 0 and b%i ==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a, b), 0,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b)):
+        if a%i==0 and b%i==0:
+            return max(i,i)
+ 
+def nsd(a, b):
+    for i in (range(min(a, b) + 1))[::-1]:
+        if(a % i == 0 and b % i == 0):
+            return i
+        
+    return None
+ 
+def nsd(a, b):
+    for i in range(min(a, b)-1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a, b)-1, 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a, b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(a, 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if (a%i==0 and b%i==0):
+            return i
+                   
+ 
+def nsd(a, b):
+    for i in range(a+1,1,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if (a%i==0 and b%i==0):
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(a,0,-1):
+        for k in range(b,0,-1):
+            if a%i==0 and b%k==0 and i==k: return k
+ 
+def nsd(a, b):
+    for i in range(max(a,b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a, b), 0, -1):
+        if (b % i == 0) and (a % i == 0):
+            return i
+
+ 
+def nsd(a, b):
+    for i in range(min(a,b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i == 0 and b%i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(a, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(a - 1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+        else:
+            return 1
+ 
+def nsd(a, b):
+    for i in range (min(a,b),0,-1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a,b):
+    
+    for i in range (a+1, 0, -1):
+        if a%i == 0 and b%i == 0:
+            return i 

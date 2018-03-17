@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Assign{List{}, }, For{Call{Call{}, }, Expr{Call{Attribute{}, }, }, }, For{Call{Call{}, }, Expr{Call{Attribute{}, }, }, }, Expr{Call{Attribute{}, }, }, For{Call{Call{}, }, Expr{}, }, }, }, }
+def palindrom (n):
+    slovo2=[]
+    slovo=[]
+    x=[]
+    for i in range(len(n)):
+        slovo2.append(n[i])
+    for i in range(len(n)):
+        slovo.append(n[i])
+    slovo.reverse()
+
+    for i in range(len(n)):
+        i 

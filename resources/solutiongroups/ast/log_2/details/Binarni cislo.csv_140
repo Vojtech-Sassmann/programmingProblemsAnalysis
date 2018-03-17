@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Subscript{Slice{}, }, }, For{If{Compare{Str{}, }, Assign{Add{}, }, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    s=0
+    x=1
+    b=retezec[::-1]
+    for i in b:
+        if i=="1":
+            s=s+x
+        x=x*2
+    return s
+ 

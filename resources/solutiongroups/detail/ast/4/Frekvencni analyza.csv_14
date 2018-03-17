@@ -1,0 +1,5 @@
+1;root{Module{FunctionDef{Assign{ListComp{comprehension{Call{}, }, }, }, For{If{BoolOp{And{}, Compare{Call{}, GtE{}, Call{Str{}, }, }, Compare{Call{}, LtE{}, Call{Str{}, }, }, }, Expr{}, }, }, }, }, }
+def frekvencni_analyza(text):
+    frekvence = [0 for i in range(26)]
+    for pismeno in text:
+        if ord(pismeno) >= ord("A") and ord(pismeno) <= ord("Z"): frekvence[ord] 

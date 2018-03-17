@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Print{}, Assign{Call{}, }, For{Call{FloorDiv{}, Add{}, }, Print{Str{}, }, Print{Subscript{Index{Mult{}, }, }, }, }, Print{}, For{Call{FloorDiv{}, }, Print{Str{}, }, Print{Subscript{Index{Mult{}, Add{}, }, }, }, }, Expr{}, }, }, }
+def cikcak(text):
+    print text[0],
+    y = len(text)
+    for i in range(1,y//2+1):
+        print ".",
+        print text[i*2],
+    print
+
+    for i in range(y//2): 
+        print ".",
+        print text[i*2+1],
+    pri 

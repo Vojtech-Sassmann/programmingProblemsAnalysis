@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, While{Compare{NotEq{}, }, If{Compare{Mod{}, }, Expr{Call{Attribute{}, Str{}, }, }, Assign{Div{}, }, Expr{Call{Attribute{}, Str{}, }, }, Expr{}, }, }, }, }, }
+def binarne(dek_cislo):
+    zbytek=dek_cislo
+    vysledek=[]
+    while zbytek!=0:
+        if zbytek%2==0:
+            vysledek.append("0")
+            zbytek=zbytek/2
+        else:
+            vysledek.append("1")
+            zb

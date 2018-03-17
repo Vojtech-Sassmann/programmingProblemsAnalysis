@@ -1,0 +1,23 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{}, If{Compare{Lt{}, Div{}, Sub{}, }, Print{}, }, Assign{Add{}, }, Assign{Add{}, }, }, }, }, }
+def fibonacci(n):
+    clen1=1
+    clen2=1
+    for i in range(n/2):
+        print clen1,
+        if(i<((n/2)-1)):
+            print clen2,
+        clen1=clen1+clen2
+        clen2=clen1+clen2
+        
+ 
+def fibonacci(n):
+    clen1=1
+    clen2=1
+    for i in range(n/2):
+        print clen1,
+        if(i<n/2 and n%2==0):
+            print clen2,
+        clen1=clen1+clen2
+        clen2=clen1+clen2
+        
+ 

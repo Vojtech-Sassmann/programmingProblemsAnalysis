@@ -1,0 +1,115 @@
+17;root{Module{FunctionDef{Assign{}, For{Call{Call{}, Add{}, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Sub{}, }, }, }, Mult{}, Pow{}, Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    x=0
+    for i in range(1,len(retezec)+1):
+        x+=int(retezec[len(retezec)-i])*(2**(i-1))
+               
+    return x
+ 
+def vyhodnot(retezec):
+    x=0
+    pom=str(retezec)
+    for i in range(len(pom)):
+        x+=int(pom[len(pom)-1-i])*(2**i)
+        
+    return x
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)-1,-1, -1):
+        cislo += int(retezec[-i-1])*2**i
+    return cislo
+ 
+def vyhodnot(retezec):
+    hodnota = 0
+    for i in range(len(retezec)):
+        hodnota+=int(retezec[-i-1])*(2**i)
+    return hodnota 
+def vyhodnot(retezec):
+    cislo=0
+    for i in range(len(retezec)):
+        cislo += int(retezec[-i-1])*(2**i)
+        
+    return cislo
+ 
+def vyhodnot(retezec):
+    n = len(retezec)
+    a = 0
+    for i in range(n):
+        a += int(retezec[n-i-1])*2**i
+    return a
+ 
+def vyhodnot(retezec):
+    s=0
+    for i in range(len(retezec)-1,-1,-1):
+        s+=int(retezec[len(retezec)-1-i])*2**(i)
+    return s
+ 
+def vyhodnot(retezec):
+    output = 0
+    for i in range(len(retezec)):
+        output += int(retezec[-i-1]) * 2**i
+    return output
+ 
+def vyhodnot(retezec):
+    n=len(retezec)
+    res=0
+    for i in range (1,n+1):
+        res=res+int(retezec[i-1])*2**(n-i)
+    return res
+        
+                
+    
+    
+ 
+def vyhodnot(retezec):
+    a=0
+    for x in range (len(retezec)):
+        a+=int(retezec[-(x+1)])*2**x
+    return a
+        
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        cislo+=int(retezec[len(retezec)-1-i])*(2**i)
+    return cislo
+ 
+def vyhodnot(retezec):
+    suma = 0
+    for i in range (len(retezec)):
+        suma += int(retezec[len(retezec)-i-1])*(2**i) 
+    return suma
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        cislo += int(retezec[-i-1])*(2**i)
+    return cislo
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(1,len(retezec)+1):
+        cislo += int(retezec[-i]) * (2**(i-1))
+   
+
+    return cislo
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    for i in range(-(len(retezec)), -1+1):
+        vysledek += int(retezec[len(retezec)+i]) * 2**(-i-1)
+    return vysledek
+ 
+def vyhodnot(retezec):
+    toRet = 0
+    for i in range(len(retezec)):
+        toRet += int(retezec[len(retezec)-i-1])*(2**i)
+    return toRet
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec),0,-1):
+        cislo += int(retezec[i - 1])*2**(len(retezec) -1 - (i - 1))
+    return cislo
+ 

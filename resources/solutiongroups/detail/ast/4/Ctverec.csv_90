@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Print{Str{}, Mult{}, }, For{Call{Sub{}, }, Print{Str{}, }, Print{Str{}, Mult{}, Sub{}, }, Print{Str{}, }, }, Print{Str{}, Mult{}, }, }, }, }
+def ctverec(n):
+    print "*"*n
+    for i in range(1,(n-1)):
+        print "*"
+        print "+"*(n-2)
+
+        print "*"
+    print "*" * n
+    
+ 

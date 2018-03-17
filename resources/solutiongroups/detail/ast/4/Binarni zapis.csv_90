@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Gt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Pow{}, }, }, AugAssign{FloorDiv{}, }, AugAssign{Add{}, }, }, Print{}, }, }, }
+def binarne(n):
+    result = 0
+    mocnina = 0
+    while (n > 0):
+        if n % 2 == 1:
+            result += (10 ** mocnina)
+        n //= 2
+        mocnina += 1
+    print result 

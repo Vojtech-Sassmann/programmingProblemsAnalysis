@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Mod{}, }, If{Return{}, Return{Call{}, }, }, }, }, }
+def nsd(a, b):
+    t = b
+    b = a%b
+    if b == 0:
+        return t
+    else:
+        return nsd(t,b)
+ 

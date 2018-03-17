@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Call{Attribute{}, Str{}, }, }, For{Call{Call{}, }, If{Compare{Call{}, Gt{}, }, Assign{}, Assign{Call{}, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    indexsave=0
+    slovolen=0
+    slova = text.split(" ")
+    for index in range(len(slova)):
+        if(len(slova[index])>slovolen):
+            indexsvae=index
+            slovolen=len(slova[index])
+ 
+def nejdelsi_slovo(text):
+    indexsave=0
+    slovolen=0
+    slova=text.split(" ")
+    for index in range(len(slova)):
+        if(len(slova[index])>slovolen):
+            indexsave=index
+            slovolen=len(slova[index])
+ 

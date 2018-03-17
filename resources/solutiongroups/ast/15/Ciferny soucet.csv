@@ -1,0 +1,2 @@
+631;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, AugAssign{Add{}, Mod{}, }, Assign{FloorDiv{}, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{List{}, }, While{AugAssign{Sub{}, }, Assign{Mod{}, }, Expr{Call{Attribute{}, Div{}, Div{}, }, }, If{Compare{Gt{}, }, Break{}, }, AugAssign{Mult{}, }, }, Return{Call{}, }, }, }, }

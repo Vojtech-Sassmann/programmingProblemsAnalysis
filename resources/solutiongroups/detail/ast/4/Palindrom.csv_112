@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, FloorDiv{}, Add{}, }, If{Compare{NotEq{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Break{}, }, }, Return{Compare{Call{}, FloorDiv{}, }, }, }, }, }
+def palindrom(text):
+    i = 0
+    for i in range(len(text) // 2 +1):
+        if(text[i] != text[len(text)-i-1]):
+            break
+    return i == len(text) // 2 

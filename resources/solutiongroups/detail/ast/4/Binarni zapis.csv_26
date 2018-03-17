@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{NotEq{}, }, AugAssign{Add{}, Call{Mod{}, }, }, If{Compare{Mod{}, }, AugAssign{Sub{}, }, }, AugAssign{Div{}, }, }, Print{Subscript{Slice{}, }, }, }, }, }
+def binarne(n):
+    string=""
+    while n!=0:
+        string+=str(n%2)
+        if n%2==1:
+            n-=1
+        n/=2
+    print string[::-1]
+
+def binarne(n):
+    cislo = ""
+    while n > 0:
+        cislo += "%d" % (n % 2)
+        if n % 2 == 1:
+            n -= 1
+        n /=2
+    print cislo[::-1]
+

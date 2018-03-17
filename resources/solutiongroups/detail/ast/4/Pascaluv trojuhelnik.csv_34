@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, List{}, }, }, For{Call{Add{}, }, If{BoolOp{Or{}, }, Print{}, Expr{Call{Attribute{}, }, }, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    l=[]
+    for n in range(pocet_radku):
+        l.append([])
+        for k in range(0, n + 1):
+            if k==0 or k==n:
+                print 1,
+                l[n].append(1)
+ 

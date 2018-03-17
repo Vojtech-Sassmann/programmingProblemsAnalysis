@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, Sub{}, }, Print{Add{}, Str{}, }, AugAssign{Add{}, }, }, Print{Subscript{Index{Call{}, Sub{}, }, }, }, For{Call{Call{}, Sub{}, }, Print{Str{}, Add{}, }, }, }, }, }
+def cikcak(text):
+    pom1 = 0
+    pom2 = 1
+    for i in range(len(text)-5):    
+        print text[pom1]+" .",
+        pom1 += 2
+    print text[len(text)-1]
+    for i in range(len(text)-5):
+        print ". "+text[pom2],
+ 

@@ -1,0 +1,30 @@
+3;root{Module{FunctionDef{Assign{}, Assign{Subscript{Slice{}, }, }, For{Call{Call{}, Sub{}, }, If{Assign{}, Assign{}, }, }, }, Return{}, }, }
+def palindrom(text):
+    pravda=0
+    r=text[::-1]
+    for i in range (0, len(text)-1):
+        if(r[i]==text[i]):
+            pravda=True
+        else:
+            pravda=False
+return pravda 
+def palindrom(text):
+    pravda=0
+    r=text[::-1]
+    for i in range (0, len(text)-1):
+        if(r[i]==text[i]):
+            pravda=True
+        else:
+            pravda=False
+    return pravda
+ 
+def palindrom(text):
+    pravda=True
+    r=text[::-1]
+    for i in range (0, len(text)-1):
+        if(r[i]==text[i]):
+            pravda=True
+        else:
+            pravda=False
+    return pravda
+ 

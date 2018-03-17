@@ -1,0 +1,2 @@
+1279;root{Module{FunctionDef{Print{Str{}, Str{}, Mult{}, }, }, }, }
+6;root{Module{Assign{}, FunctionDef{Assign{Mult{}, }, Return{}, }, Assign{Call{}, }, Print{Str{}, Str{}, }, }, }

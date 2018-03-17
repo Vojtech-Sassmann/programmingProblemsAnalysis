@@ -1,0 +1,32 @@
+4;root{Module{FunctionDef{While{TryExcept{Assign{Call{}, }, ExceptHandler{Return{}, }, Break{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    while True:
+        try:
+            dec = int(retezec, 2)
+        except ValueError:
+            return 0
+        else:
+            break
+    return dec 
+def vyhodnot(val):
+    num = 0
+    try:
+        num = int(val, 2)
+    except:
+        pass
+    return num 
+def vyhodnot(val):
+    num = 0
+    try:
+        print val
+        num = int(val, 16)
+    except:
+        pass
+    return num 
+def vyhodnot(val):
+    num = 0
+    try:
+        num = int(val, 2)
+    except:
+        pass
+    return num 

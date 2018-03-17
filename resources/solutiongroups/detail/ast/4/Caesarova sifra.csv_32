@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, For{If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, If{Compare{Call{}, Add{}, Gt{}, Call{Str{}, }, }, Assign{Call{Call{}, Add{}, Sub{}, }, }, AugAssign{Add{}, }, }, }, }, }, }, }
+def caesar(text, n):
+    word = ""
+    newLetter = ""
+    for c in text:
+        if c == " " :
+            word += " "
+        elif ord(c)+n > ord("z"):
+            newLetter = chr(ord(c) + n - 26)
+            word += newL

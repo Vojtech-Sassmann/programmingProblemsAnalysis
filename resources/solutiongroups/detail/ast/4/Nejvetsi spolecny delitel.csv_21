@@ -1,0 +1,31 @@
+4;root{Module{FunctionDef{While{Compare{Mult{}, NotEq{}, }, If{Compare{Gt{}, }, AugAssign{Sub{}, }, AugAssign{Sub{}, }, }, }, Return{Add{}, }, }, }, }
+def nsd(a,b):
+    while a*b<>0:
+        if a>b:
+            a-=b
+        else:
+            b-=a
+    return b+a 
+def nsd(a, b):
+    while a != b:
+        if a > b:
+            a -= b
+        else:
+            b -= a
+    return a
+ 
+def nsd(a, b):
+    while a != b:
+        if a>b:
+            a -= b
+        else:
+            b -= a
+    return a
+ 
+def nsd(a, b):
+    while a!=b:
+        if a>b:
+            a-=b
+        else: b-=a
+    return a
+ 

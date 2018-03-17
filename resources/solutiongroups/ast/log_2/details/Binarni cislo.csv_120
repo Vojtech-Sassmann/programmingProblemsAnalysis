@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{Call{Call{}, }, }, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{Add{}, Mult{}, Pow{}, }, Expr{}, }, }, }, }
+def vyhodnot(retezec):
+    sucet = 0 
+    pos = 0
+    mocnina = 0
+    
+        
+    cislo = int(float(retezec))
+    
+    
+    while cislo > 0:
+        pos = cislo % 10
+        sucet = sucet + (pos*(2**mocnina))
+        m 

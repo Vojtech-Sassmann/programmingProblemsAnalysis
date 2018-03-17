@@ -1,0 +1,6 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{}, AugAssign{Mult{}, Add{}, }, }, }, Return{}, }, }
+def faktorial(n):
+    cislo = 1
+    for i in range(n):
+        cislo *= (i+1)
+return cislo 

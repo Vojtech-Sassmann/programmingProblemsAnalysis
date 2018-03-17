@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Expr{Call{Attribute{}, }, }, }, Expr{Call{Attribute{}, }, }, Assign{}, For{Call{Call{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(n):
+    a = []
+    for i in n:
+        a.append(i)
+    a.reverse()
+    hodnota = 0
+    for i in range(len(a)):
+        if a[i] == "1":
+            hodnota += (2**i)
+    return hodnota
+ 

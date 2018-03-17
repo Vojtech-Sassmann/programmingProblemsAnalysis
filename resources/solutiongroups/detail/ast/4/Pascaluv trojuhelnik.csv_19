@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, }, }, Print{}, }, }, FunctionDef{Assign{}, For{Call{}, AugAssign{Mult{}, Add{}, }, }, Expr{}, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print kom(n,k),
+        print
+        
+def fac(x):
+    a=1
+    for i in range(x):
+        a*=(i+1)
+    r 

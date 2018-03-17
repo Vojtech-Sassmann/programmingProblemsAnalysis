@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{List{}, }, For{Call{Call{}, }, Expr{Call{Attribute{}, Call{}, }, }, }, Assign{Call{}, }, Return{Subscript{Index{Call{Attribute{}, }, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    length = []
+    for i in range(len(slova)):
+        length.append(len(slova[i]))
+    hodnota=max(length)
+    return slova[length.index(hodnota)]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    b=[]
+    for i in range(len(slova)):
+         b.append(len(slova[i]))
+    for j in range(b):
+        print b[j]
+    return slova[pomocka]
+ 

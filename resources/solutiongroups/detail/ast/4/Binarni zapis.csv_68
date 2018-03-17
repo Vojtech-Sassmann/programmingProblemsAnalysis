@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, }, }, }, }, }
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 8 == 0: vystup = "0" + vystup
+        if n % 8 == 1: vystup = "1" + vystup
+        if n % 8 == 2: vystup = "2" + vystup
+        if n % 8 == 3: vystup = "3" + vyst

@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{For{Call{UnaryOp{USub{}, Call{}, }, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Return{UnaryOp{USub{}, }, }, }, }, }, }, }
+def nsd(a, b):
+    for i in range (-min(a, b),1):
+     if a%i==0 and b%i==0:
+      return -i
+      
+ 

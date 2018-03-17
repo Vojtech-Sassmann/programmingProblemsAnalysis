@@ -1,0 +1,1 @@
+{'Sub': 3, 'For': 0, 'Is': 0, 'Add': 8, 'While': 2, 'Print': 2, 'Div': 0, 'Mod': 0, 'Eq': 0, 'Mult': 5, 'If': 0} 2

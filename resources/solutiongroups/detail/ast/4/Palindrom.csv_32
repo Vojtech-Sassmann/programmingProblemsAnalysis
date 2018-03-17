@@ -1,0 +1,25 @@
+3;root{Module{FunctionDef{Assign{}, Assign{Call{}, Add{}, FloorDiv{}, }, For{Call{}, If{Compare{NotEq{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Assign{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    bol= True
+    n=(len(text)+1)//2
+    for i in range(n):
+        if text[i] != text[len(text)-i-1]:
+            bol= False
+    return bol
+ 
+def palindrom(text):
+    pocetcyklov = (len(text)+1)//2
+    for i in range (pocetcyklov):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    pal = True
+    dlzka = len(text)
+    for i in range(dlzka):
+        if text[i] != text[dlzka-i-1]:
+            pal = False
+    return pal
+    
+ 

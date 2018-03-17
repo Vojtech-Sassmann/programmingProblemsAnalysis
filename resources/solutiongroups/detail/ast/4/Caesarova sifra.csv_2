@@ -1,0 +1,43 @@
+5;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{Compare{Str{}, }, Assign{Add{}, Str{}, }, Assign{Call{}, Add{}, }, If{Compare{Gt{}, Call{Str{}, }, }, Assign{Sub{}, }, }, Assign{Add{}, }, }, }, }, }, }
+def caesar(text, n):
+    vysledek=""
+    for i in range(len(text)):
+        if text[i]==" ":vysledek=vysledek+" "
+        else:
+            c=ord(text[i])+n
+            if(c>ord("z")):c=c-26
+            vysledek=vysledek + chr 
+def caesar(text, n):
+    vystup= ""
+    for i in range(len(text)):
+        if text[i] == " ":vystup = vystup +" "
+        else:
+            c = ord(text[i]) + n
+            if (c> ord("z")): c = c -26
+            vystup = vystup 
+def caesar(text, n):
+    v = ""
+    for i in range(len(text)):
+        if text[i] == " ":
+            v = v + " "
+        else:
+            c = ord(text[i]) + n
+            if c > ord("z"):
+                c = c - 26
+ 
+def caesar(text, n):
+    vystup = ""
+    for i in range(len(text)):
+        if text[i] == " ": vystup = vystup + " "
+        else:
+            c = ord(text[i]) + n
+            if (c > ord("z")): c = c - 26
+            vystup = v
+def caesar(text, n):
+    vystup = ""
+    for i in range (len(text)):
+        if text[i] == "": vystup = vystup + ""
+        else:
+            c = ord(text[i]) + n
+            if (c > ord("Z")):c= c - 26
+            vystup = vyst

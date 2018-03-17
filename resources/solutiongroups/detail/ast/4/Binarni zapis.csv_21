@@ -1,0 +1,23 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{FloorDiv{}, Gt{}, }, AugAssign{Add{}, Call{Mod{}, }, }, AugAssign{FloorDiv{}, }, }, AugAssign{Add{}, Call{Mod{}, }, }, Print{}, }, }, }
+def binarne(n):
+    bin = ""
+    
+    while n // 2 > 0:
+        bin += str(n % 2)
+        n //= 2
+        
+    bin += str(n % 2)
+        
+    print bin
+
+def binarne(n):
+    bin = ""
+    
+    while n // 2 > 0:
+        bin += str(n % 2)
+        n //= 2
+        
+    bin += str(n % 2)
+        
+    print bin[::-1]
+

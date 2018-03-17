@@ -1,0 +1,4 @@
+1274;root{Module{FunctionDef{Print{Str{}, Str{}, Mult{}, }, }, }, }
+5;root{Module{FunctionDef{Assign{Mult{}, }, Print{Str{}, Add{}, Call{}, Add{}, Str{}, Add{}, Call{}, }, }, }, }
+5;root{Module{Assign{}, FunctionDef{Assign{Mult{}, }, Return{}, }, Assign{Call{}, }, Print{Str{}, Str{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{Mult{}, }, }, Print{Str{}, }, Print{}, Print{Str{}, }, Print{}, }, }

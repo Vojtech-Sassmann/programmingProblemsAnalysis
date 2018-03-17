@@ -1,0 +1,16 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, AugAssign{Add{}, Call{Mod{}, }, }, AugAssign{FloorDiv{}, }, }, Print{Subscript{Slice{}, }, }, }, }, }
+def vyhodnot(n):
+    out = ""
+    while n>0:
+        out += str(n%2)
+        n//=2
+    print out[::-1]
+ 
+def vyhodnot(retezec):
+    retezec = n
+    out = ""
+    while n>0:
+        out += str(n%2)
+        n//=2
+    print out[::-1]
+ 

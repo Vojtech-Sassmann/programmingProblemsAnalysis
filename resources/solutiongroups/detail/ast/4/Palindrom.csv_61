@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{If{Compare{NotEq{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Return{}, }, Return{}, }, FunctionDef{For{Call{Call{}, }, If{Compare{Call{}, }, Return{}, }, }, Return{}, }, }, }
+def charCheck(text,n):
+    if text[n]!= text[len(text)-n-1]:
+        return False
+    return True
+
+def palindrom(text):
+    for i in range (0,len(text)):
+        if charCheck(text,i) == False:
+            return False
+    return 

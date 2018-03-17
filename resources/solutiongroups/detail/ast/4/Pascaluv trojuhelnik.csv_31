@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{Call{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, Return{}, }, FunctionDef{Assign{List{}, }, }, }, }
+def nextriadok(pole):
+    pole2 = [1]
+    dlzka = len(pole)
+    for i in range(dlzka-1):
+        pole2.append((pole[i]+pole[i+1]))
+    pole2.append(1)
+    return pole2
+def pascaluv_trojuhelnik(pocet_radku):
+    pole = [1]
+ 

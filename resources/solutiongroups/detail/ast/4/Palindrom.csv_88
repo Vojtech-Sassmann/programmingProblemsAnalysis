@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Call{}, Div{}, }, For{Call{}, Assign{Add{}, }, If{Compare{NotEq{}, Subscript{Index{UnaryOp{USub{}, }, }, }, }, Return{}, }, }, Return{}, }, }, }
+def palindrom(n):
+    m = len (n)/2
+    for i in range (m):
+        j = i+1
+        if n [i] != n [-j]:
+            return False
+    return True
+        
+ 

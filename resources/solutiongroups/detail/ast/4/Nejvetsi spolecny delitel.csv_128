@@ -1,0 +1,17 @@
+1;root{Module{FunctionDef{For{Call{}, Assign{Mod{}, }, If{Assign{Mod{}, }, If{Print{}, }, }, }, }, }, }
+def nsd(a, b):
+    for i in range(1,a):
+        x=a%i
+        if x==0:
+            y=b%i
+            if y==0:
+                print i
+                
+                
+    
+    
+            
+
+           
+   
+ 

@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, AugAssign{Mult{}, }, AugAssign{Div{}, }, AugAssign{Div{}, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    delitel=1
+    for i in range(a):
+        if a%i==0 and b%i==0:
+            delitel*=i
+            a/=i
+            b/=i
+    return delitel
+ 
+def nsd(a, b):
+    delitel=2
+    for i in range(a):
+        if a%i==0 and b%i==0:
+            delitel*=i
+            a/=i
+            b/=i
+    return delitel
+ 

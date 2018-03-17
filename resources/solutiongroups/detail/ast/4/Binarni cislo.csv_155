@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, Sub{}, }, Assign{}, While{Compare{GtE{}, }, Assign{Add{}, Call{}, Mult{}, Pow{}, }, Assign{Sub{}, }, Assign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    n = len(retezec) - 1
+    mocnina = 0
+    while n >= 0:
+        cislo = cislo + int(retezec[n]) * 2**mocnina
+        n = n-1
+        mocnina = mocnina +1
+    return cislo
+ 

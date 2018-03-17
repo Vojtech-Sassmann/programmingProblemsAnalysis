@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{For{Call{}, If{Assign{}, Print{}, If{Assign{}, Print{}, Assign{Add{}, }, Print{}, Assign{}, }, }, }, }, }, }
+def fibonacci(n):
+    for i in range(n):
+        if i==0:
+            x=1
+            print x,
+        elif i==1:
+            y=1
+            print y,
+        else:
+            z=x+y
+            print z,
+            x=y
+ 

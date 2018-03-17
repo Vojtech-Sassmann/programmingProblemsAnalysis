@@ -1,0 +1,30 @@
+408;root{Module{FunctionDef{For{Call{}, For{Call{}, If{Add{}, Mod{}, Print{Str{}, }, Print{Str{}, }, }, }, Print{}, }, }, }, }
+
+35;root{Module{FunctionDef{For{Call{}, For{Call{}, If{BoolOp{Or{}, BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, BoolOp{And{}, }, }, Print{Str{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Print{Str{}, }, Print{Str{}, }, }, }, }, Print{}, }, }, }, }
+
+8;root{Module{FunctionDef{For{Call{}, If{Compare{Mod{}, }, Print{Str{}, Add{}, Str{}, Mult{}, Div{}, Sub{}, Add{}, Str{}, }, Print{Str{}, Add{}, Str{}, Mult{}, Div{}, Sub{}, Add{}, Str{}, }, }, }, }, }, }
+
+7;root{Module{FunctionDef{For{Call{Div{}, }, For{Call{Div{}, }, Print{Mult{}, Str{}, }, Print{Mult{}, Str{}, }, }, Print{}, For{Call{Div{}, }, Print{Mult{}, Str{}, }, Print{Mult{}, Str{}, }, }, Expr{}, }, }, }, }
+
+5;root{Module{FunctionDef{For{Call{FloorDiv{}, }, For{Call{FloorDiv{}, }, Print{Str{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{Str{}, }, Print{}, }, For{Call{FloorDiv{}, }, Print{Str{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }, }
+
+4;root{Module{FunctionDef{For{Call{}, If{Compare{Mod{}, }, Assign{Str{}, }, Assign{Str{}, }, Assign{Str{}, }, Assign{Str{}, }, }, For{Call{}, If{Compare{Mod{}, }, Expr{}, }, }, }, }, }, }
+
+2;root{Module{FunctionDef{Assign{}, Assign{Str{}, }, While{Compare{Gt{}, }, For{Call{}, Print{}, If{Compare{Str{}, }, Assign{Str{}, }, Assign{Str{}, }, }, }, Assign{Sub{}, }, If{Return{}, }, Print{}, }, }, }, }
+
+2;root{Module{FunctionDef{Assign{List{Str{}, Str{}, }, }, Assign{}, For{Call{}, For{Call{}, Print{}, Assign{Call{UnaryOp{Not{}, }, }, }, }, Print{}, Assign{Subscript{Slice{}, }, }, }, }, }, }
+
+2;root{Module{FunctionDef{Assign{List{Str{}, Str{}, }, }, Expr{Call{Attribute{}, }, }, Assign{}, Assign{}, For{Call{Mult{}, }, Print{Subscript{Index{Mod{}, Add{}, Mod{}, }, }, }, If{Assign{}, AugAssign{Add{}, }, Print{}, }, Expr{Mod{}, }, }, }, }, }
+
+2;root{Module{FunctionDef{For{Call{}, If{Compare{Mod{}, }, For{Call{Call{Div{}, }, }, Print{Str{}, }, }, If{Compare{Mod{}, NotEq{}, }, For{Call{}, Print{Str{}, }, }, }, Expr{}, }, }, }, }, }
+
+1;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{Mod{}, }, Print{Call{Attribute{Str{}, }, ListComp{Str{}, comprehension{Call{Div{}, }, }, }, }, }, Print{Call{Attribute{Str{}, }, ListComp{Str{}, comprehension{Call{Div{}, }, }, }, }, }, }, }, }, }, }
+
+1;root{Module{FunctionDef{Assign{}, While{Compare{Lt{}, }, Assign{}, While{Compare{Lt{}, }, Print{Str{}, }, AugAssign{Add{}, }, If{Break{}, }, Print{Str{}, }, Expr{}, }, }, }, }, }
+
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{Div{}, Add{}, }, Expr{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, Str{}, }, }, }, For{Call{}, If{Compare{Mod{}, }, For{Subscript{Slice{}, }, Print{}, }, }, }, }, }, }
+
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, Assign{Str{}, }, For{Call{}, For{Call{FloorDiv{}, }, Print{}, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+
+1;root{Module{FunctionDef{Assign{Str{}, Mult{}, FloorDiv{}, Add{}, }, For{Call{}, Print{Subscript{Slice{Mod{}, Mult{}, Mod{}, Mult{}, Add{}, Mult{}, Sub{}, }, }, }, }, }, }, }
+

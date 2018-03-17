@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, Assign{Add{}, Pow{}, Mult{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    x=0
+    for i in range(len(retezec)):
+        x = x+((2**i)*(int(retezec[len(retezec)-i-1])))
+    return x
+ 

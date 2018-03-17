@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{LtE{}, Mult{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+def fibonacci(n):
+    b = a = 1
+    
+    while a <= n*n:
+        print a,
+        a = a + b
+        b = a - b 

@@ -1,0 +1,4 @@
+1;root{Module{ImportFrom{alias{}, }, Assign{Call{}, }, Print{}, }, }
+from math import factorial
+a = factorial (3)
+print a 

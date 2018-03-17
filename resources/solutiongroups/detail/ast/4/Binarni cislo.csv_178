@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, Assign{Pow{}, }, Assign{}, For{If{Compare{Str{}, }, AugAssign{Add{}, }, }, AugAssign{Div{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    length = len(retezec)-1
+    des = 2**length
+    vystup = 0
+    for i in retezec:
+        if i == "1":
+            vystup += des
+        des /=2
+        
+    return vystup
+ 

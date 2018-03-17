@@ -1,0 +1,21 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, }, Return{}, }, For{Call{}, Print{Call{}, }, }, }, }
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(-1, n):
+        temp = a
+        a = b
+        b = temp + b
+    return a
+for x in range (17):
+    print fibonacci(x), 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(-1, n):
+        temp = a
+        a = b
+        b = temp + b
+    return a
+for x in range (13):
+    print fibonacci(x), 

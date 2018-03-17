@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{Sub{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Pow{}, Sub{}, Sub{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    d = len(retezec)
+    n = 0
+    for i in range(d-1, -1, -1):
+        if retezec[i] == "1":
+            n += 2**(d-i-1)
+    return n
+ 
+def vyhodnot(retezec):
+    d = len(retezec)
+    n = 0
+    if d == 1:
+        return retezec[0]
+    else:
+        for i in range(d-1, -1, -1):
+            if retezec[i] == "1":
+                n += 2**(d-i-1)
+    return n 

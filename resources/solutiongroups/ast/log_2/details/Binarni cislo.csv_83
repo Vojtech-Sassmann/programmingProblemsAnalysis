@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Expr{Str{}, }, For{Call{Call{}, }, Assign{Call{}, Sub{}, Sub{}, }, Expr{}, }, }, }, }
+def vyhodnot(retezec):
+    vysledek = 0
+    """m = 1
+    for c in retezec[::-1]:
+        if c == "1":
+            vysledek +=2**i
+        m = i*2"""
+    for i in range(len(retezec)):
+        odkaz = len(retezec)-i-1
+        ho 

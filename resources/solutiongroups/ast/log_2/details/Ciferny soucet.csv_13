@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{Call{}, }, Assign{Call{}, Add{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    retazec = str(n)
+    soucet=0
+    for i in range(len(retazec)):
+        soucet=int(retazec[i])+soucet
+    return soucet
+
+ 
+def ciferny_soucet(n):
+    a=str(n)
+    s=0
+    for i in range(len(a)):
+        x=int(a[i])
+        s+=x
+    return s
+ 

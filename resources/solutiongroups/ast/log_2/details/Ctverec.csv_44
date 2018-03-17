@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, For{Call{Add{}, }, Assign{Add{}, Str{}, }, If{BoolOp{Or{}, }, Assign{Add{}, Str{}, }, }, }, }, }, }
+def ctverec(n):
+    
+    prvniRadek = ""
+    prostredniRadek = ""
+
+    for i in range(1, n+1):
+        prvniRadek = prvniRadek + "*"
+        if i == 1 or i == n:
+            prostredniRadek = prostredniRadek + "*"
+ 

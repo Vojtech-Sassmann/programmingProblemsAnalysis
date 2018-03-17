@@ -1,0 +1,10 @@
+702;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+17;root{Module{FunctionDef{Assign{List{}, }, If{Return{}, }, If{Print{}, Return{}, }, For{Call{}, Assign{Add{}, List{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, For{Print{}, }, }, }, }
+15;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{Add{}, }, Print{Call{}, }, }, }, }, }
+5;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, If{Expr{Call{Attribute{}, }, }, }, If{Expr{Call{Attribute{}, }, }, }, If{Compare{Gt{}, }, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Print{}, }, }, }, }
+5;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{IfExp{Compare{Mod{}, }, Div{}, Div{}, Sub{}, }, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Lt{}, }, Print{Add{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, If{Break{}, }, Print{Add{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, }, }, }, }
+2;root{Module{FunctionDef{If{Compare{Lt{}, }, Print{Str{}, }, Assign{}, Assign{}, Assign{Call{}, Add{}, Str{}, Add{}, Call{}, }, For{Call{Sub{}, }, Assign{}, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{ListComp{comprehension{Call{}, }, }, }, For{Call{Call{}, }, If{BoolOp{Or{}, }, Assign{}, If{Compare{Gt{}, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Assign{Str{}, }, For{Call{}, Assign{Add{}, Str{}, Add{}, Call{}, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, Mult{}, }, Print{}, For{Call{Add{}, }, Print{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, }, }

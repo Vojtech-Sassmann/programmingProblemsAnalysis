@@ -1,0 +1,10 @@
+1;root{Module{ImportFrom{alias{}, }, ImportFrom{alias{}, }, FunctionDef{Assign{}, For{Call{Call{Call{}, }, Add{}, }, AugAssign{Add{}, Mod{}, }, AugAssign{FloorDiv{}, }, }, Return{}, }, }, }
+from math import log
+from math import floor
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range(floor(log(n, 10))+1):
+        soucet += n % 10
+        n //= 10
+    return soucet
+ 

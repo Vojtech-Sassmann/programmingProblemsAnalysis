@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, For{Call{Div{}, Sub{}, }, Print{Subscript{Index{Mult{}, }, }, Str{}, }, }, Print{Subscript{Index{Sub{}, }, }, }, For{Call{Div{}, Sub{}, }, Print{Str{}, Subscript{Index{Mult{}, Add{}, }, }, }, }, Print{Str{}, }, }, }, }
+def cikcak(text):
+    k=len(text)
+    for i in range(k/2-1):
+        print text[i*2],".",
+    print text[k-1]
+    for i in range((k/2)-1):
+        print ".",text[i*2+1], 
+    print "."  
+ 

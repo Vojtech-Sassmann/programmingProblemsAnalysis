@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{If{Compare{In{}, List{Str{}, Str{}, }, }, AugAssign{Add{}, }, }, }, Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    pom=""
+    for i in retezec:
+       if i in ["0","1"]: pom+=i
+    return int(pom,2)
+ 

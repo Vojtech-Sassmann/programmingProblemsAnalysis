@@ -1,0 +1,37 @@
+3;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{NotEq{}, Str{}, }, Compare{NotEq{}, Str{}, }, }, Assign{}, Break{}, }, }, If{Assign{Call{}, }, }, }, }, }
+def vyhodnot(retezec):
+    val = 0
+
+    ok = True
+    for i in range(len(retezec)):
+        if retezec[i] != "0" or retezec[i] != "1":
+            ok = False
+            break
+   
+    if ok:
+        val = int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    val = 0
+
+    ok = True
+    for i in range(len(retezec)):
+        if retezec[i] != "0" and retezec[i] != "1":
+            ok = False
+            break
+   
+    if ok:
+        val = int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    val = 0
+
+    check = ""
+    
+    for i in range(len(retezec)):
+        if retezec[i] == "0" or retezec[i] == "1":
+            check += retezec[i]
+   
+    if check:
+        val = int(check, 2)
+ 

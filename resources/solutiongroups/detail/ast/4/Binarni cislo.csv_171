@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, Assign{}, For{Call{}, Assign{Call{Subscript{Index{Sub{}, Sub{}, }, }, }, }, }, }, }, }
+def vyhodnot(s):
+  n = len(s)
+  power = 1
+  result = 0
+  for i in range (n):
+      digit = int(s[n-i-1])  

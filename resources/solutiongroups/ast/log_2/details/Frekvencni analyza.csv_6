@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Dict{}, }, Assign{Call{Attribute{Str{}, }, Call{Attribute{}, Str{}, }, }, }, For{If{Compare{In{}, }, AugAssign{Add{}, }, Assign{}, }, }, Assign{Call{Attribute{}, }, }, Expr{Attribute{}, }, }, }, }
+def frekvencni_analyza(text):
+    dicta = {}
+    text =  "".join(text.split(" "))
+    for x in text:
+        if x in dicta:
+            dicta[x] += 1
+        else:
+             dicta[x] = 1
+    keyes = dicta.keys()
+    keyes.s 

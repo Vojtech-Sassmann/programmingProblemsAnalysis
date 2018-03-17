@@ -1,0 +1,21 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{Add{}, }, AugAssign{Add{}, }, Print{Add{}, }, AugAssign{Add{}, }, }, }, }, }
+def fibonacci(n):
+    a = 1
+    b = 0
+    for i in range(n/2):
+        print a + b,
+        a += b
+        print a + b,
+        b += a
+        
+        
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n/2):
+        print a,
+        print b,
+        a += b
+        b += a
+ 

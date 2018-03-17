@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{For{Call{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Mod{}, Mult{}, Sub{}, }, Compare{Mod{}, Mult{}, Sub{}, Mult{}, Sub{}, Sub{}, }, }, Print{}, Print{Str{}, }, }, }, Print{}, }, }, }, }
+def cikcak(text):    
+    for i in range(0,2):
+        for j in range(len(text)):
+            if j % (2*2-2) == i or j % (2*2-2) == 2*2-2-i: print text[j], 
+            else: print ".",
+        print 

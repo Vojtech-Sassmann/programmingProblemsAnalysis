@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{If{Print{}, }, If{Compare{Gt{}, }, Assign{Sub{}, }, }, If{Compare{Lt{}, }, Assign{Sub{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    if (a==b):
+        print a
+    if (a>b): 
+        a=a-b 
+    if (a<b): 
+        b=b-a    
+    return b
+ 

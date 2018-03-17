@@ -1,0 +1,25 @@
+3;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{}, Assign{Subscript{Index{Sub{}, Sub{}, }, }, }, Assign{Add{}, Call{}, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(retazec):
+    vysledok=0
+    dlzka=len(retazec)
+    for i in range(0,dlzka):
+        x=retazec[dlzka-i-1]
+        vysledok=vysledok+int(x)*2**i
+    return vysledok
+ 
+def vyhodnot(retazec):
+    vysledok=0
+    dlzka=len(retazec)
+    for i in range(0,dlzka):
+        x=retazec[dlzka-i-1]
+        vysledok=vysledok+int(x)*2**i
+    return vysledok
+ 
+def vyhodnot(retezec):
+    x = 0
+    suc = 0
+    n = len(retezec)
+    for i in range(n):
+        x = int(retezec[n-i-1])
+        suc = suc + x*(2**i)
+    return suc 

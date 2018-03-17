@@ -1,0 +1,44 @@
+5;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{Call{}, }, Assign{}, Assign{Call{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    af = str(n)
+    for i in range (len(af)):
+        char = af[i]
+        char = int(char)
+        soucet += char
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    p = 0
+    m = str(n)
+    for i in range(len(m)):
+        p = n % 10
+        soucet += p
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 1
+    p = 0
+    m = str(n)
+    for i in range(len(m)-1):
+        p = n % 10
+        soucet += p
+    return soucet
+ 
+def ciferny_soucet(n):
+    n = str(n)
+    soucet = 0
+    for i in range(len(n)):
+        a = n[i]
+        b = int(a)
+        soucet = soucet + b
+    return soucet 
+def ciferny_soucet(n):
+    a=str(n)
+    s=0
+    for i in range(len(a)):
+        x=int(a[i])
+        s+=x
+    return s
+ 

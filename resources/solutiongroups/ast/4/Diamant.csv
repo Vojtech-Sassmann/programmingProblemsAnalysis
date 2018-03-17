@@ -1,0 +1,2 @@
+4;root{Module{FunctionDef{For{Call{Add{}, }, Print{Str{}, }, For{Call{Mult{}, }, If{Compare{Sub{}, GtE{}, }, Print{Str{}, }, If{Compare{Add{}, LtE{}, }, Print{Str{}, }, Expr{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Mult{}, Add{}, }, For{Call{Mult{}, Add{}, }, If{BoolOp{Or{}, Compare{Add{}, Lt{}, }, Compare{Add{}, Gt{}, Mult{}, }, BoolOp{And{}, Compare{Gt{}, Add{}, }, Compare{Lt{}, }, }, BoolOp{And{}, Compare{Lt{}, }, Compare{Gt{}, Add{}, }, }, }, Print{Str{}, }, Expr{}, }, }, }, }, }, }

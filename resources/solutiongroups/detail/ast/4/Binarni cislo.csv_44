@@ -1,0 +1,22 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Call{}, }, Compare{Call{}, }, }, AugAssign{Add{}, }, }, }, If{Compare{Gt{}, }, Return{Call{}, }, Return{}, }, }, }, }
+def vyhodnot(retezec):
+    p=0
+    for i in range(len(retezec)):
+        if retezec[i]==chr(49) or retezec[i]==chr(48):
+            p+=1
+    if p>0:
+        return int(retezec,2)
+    else: return 0
+    
+ 
+def vyhodnot(retezec):
+    x = 0
+    y = 0
+    
+    for i in range(len(retezec)):
+        if ord(retezec[i])==48 or ord(retezec[i])==49:
+            y+=1
+            
+    if y==len(retezec):
+        cislo = int(retezec)
+ 

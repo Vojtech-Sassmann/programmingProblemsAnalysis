@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Expr{Call{Str{}, Str{}, }, }, Expr{Call{Str{}, Str{}, }, }, }, }, }, FunctionDef{Print{Add{}, Sub{}, Mult{}, }, }, }, }
+def ctverec(n):
+    for x in range(n):
+        if x == 0 or x == n -1:
+            riadok(n, "*", "*")
+        else:
+            riadok(n,"*","+")
+
+            
+def riadok (dlzka, kraj, vypln):
+    print kraj + (dlzka-2)* vy 

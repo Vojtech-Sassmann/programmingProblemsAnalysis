@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{If{Return{}, }, If{Return{}, }, Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+def fibonacci(n):
+    if n == 0: return 0
+    if n == 1: return 1
+    prePre = 0
+    pre = 1
+    result = 0
+    for i in range(n):
+        print pre,
+        result = prePre + pre
+        prePre = pre
+        pre = result 

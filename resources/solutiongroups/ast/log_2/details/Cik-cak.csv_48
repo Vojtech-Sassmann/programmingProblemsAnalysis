@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, For{Call{Call{}, }, AugAssign{Add{}, Str{}, Add{}, }, AugAssign{Add{}, Str{}, }, }, For{Call{Call{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Str{}, Add{}, }, }, Print{}, Expr{}, }, }, }
+def cikcak(text):
+    x="."
+    y=text[0]
+    for i in range(1,len(text),2):
+        x+=" "+text[i]
+        x+=" ."
+    for i in range(2,len(text),2):
+        y+=" ."    
+        y+=" "+text[i]
+    print y
+    prin 

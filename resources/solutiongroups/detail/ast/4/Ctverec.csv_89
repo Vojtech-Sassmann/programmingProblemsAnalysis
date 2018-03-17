@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{Sub{}, }, Assign{Str{}, }, Assign{Call{}, }, Print{}, For{Call{}, Assign{Call{}, }, Print{}, }, Assign{Call{}, }, Print{}, }, Expr{}, }, }
+def ctverec(n):
+    vradek = n - 2
+    radek = ""
+    radek = radky(n, 1)
+    print radek
+    for i in range(vradek):
+        radek = radky(n, 0)
+        print radek
+        
+    radek = radky(n, 1)
+    print radek
+    
+de 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Subscript{Slice{}, }, }, While{Compare{Lt{}, Call{}, }, For{Assign{Pow{}, }, AugAssign{Add{}, }, If{Compare{Str{}, }, AugAssign{Add{}, }, }, }, }, }, }, }
+def vyhodnot(retezec):
+    vysledek=0
+    i=0
+    retezec=retezec[:: -1]
+    while i < len(retezec):
+        for j in retezec:
+            hodnota=2**i
+            i+=1
+            if j=="1":
+               vysledek+=hodnota 

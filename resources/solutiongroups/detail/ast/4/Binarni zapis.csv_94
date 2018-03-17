@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, Assign{Str{}, }, While{Compare{NotEq{}, }, If{Compare{Mod{}, }, Expr{Call{Attribute{}, }, }, }, If{Compare{Mod{}, }, Expr{Call{Attribute{}, }, }, }, }, }, }, }
+def binarne(n):
+        x=n
+        k=[]
+        z = ""
+        while x != 0:
+                if x % 2 == 0:
+                        k.append(0)
+                if x % 2 == 1:
+                        k.append(1)
+ 

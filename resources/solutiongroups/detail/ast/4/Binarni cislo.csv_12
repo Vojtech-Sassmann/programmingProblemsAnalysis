@@ -1,0 +1,50 @@
+6;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, AugAssign{Add{}, Pow{}, Mult{}, Call{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    pos = 0
+    for i in retezec[::-1]:
+        cislo += 2**(pos)*int(i)
+        pos += 1
+    return cislo
+ 
+def vyhodnot(retezec):
+    result = 0
+    mocnina = 0
+    for i in retezec[::-1]:
+        result += int(i) * 2**mocnina
+        mocnina += 1
+    return result 
+def vyhodnot(retezec):
+    x = 0
+    count = 0
+    for i in retezec[::-1]:
+        x += int(i) * (2**count)
+        count += 1
+    return x
+ 
+def vyhodnot(retezec):
+    hod=0
+    i=0
+    for x in retezec[::-1]:
+        hod=hod+int(x)*(2**i)
+        i=i+1
+    return hod
+
+
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    i = 0
+    for cislo in retezec[::-1]:
+        vysledek += int(cislo) * 2**(i)
+        i+= 1
+    return vysledek
+ 
+def vyhodnot(retezec):
+    sum=0
+    j=0
+    for i in retezec[::-1]:
+        sum+=int(i)*2**(j)
+        j+=1
+    return sum
+ 

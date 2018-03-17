@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{If{Return{}, }, If{Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Add{}, }, }, }, }, }
+def faktorial(n):
+    if n==0:
+        return n
+    if n==1:
+        return n
+    return faktorial(n-2)+faktorial(n+1)
+ 
+def faktorial(n):
+    if n == 2:
+        return 2
+    if n == 1:
+        return 1
+    return n * faktorial(n-1)
+ 

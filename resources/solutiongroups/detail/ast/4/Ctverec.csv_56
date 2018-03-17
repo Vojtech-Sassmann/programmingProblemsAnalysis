@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{For{Call{}, Assign{Str{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, AugAssign{Add{}, Str{}, }, If{BoolOp{Or{}, Compare{Sub{}, }, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, }, }, }, Expr{}, }, }, }, }
+def ctverec(n):
+    for i in range(n):
+        radek=""
+        for t in range(n):
+            if i==0 or i==n-1:
+                radek+="*"
+            elif t==0 or t==n-1:radek+="*"
+            else:radek+="+"
+        pr 

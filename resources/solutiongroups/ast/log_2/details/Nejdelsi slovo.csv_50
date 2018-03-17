@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, }, }, For{Call{Call{}, }, Assign{}, If{Compare{Lt{}, Call{}, }, Assign{Call{}, }, Expr{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    x = 0
+    slova = text.split(" ")
+    slova.sort()
+    for i in range(len(slova)):
+        tohleslovo = slova[i]
+        if x < len(tohleslovo):
+            x = len(tohleslovo)
+            prechodne_s 

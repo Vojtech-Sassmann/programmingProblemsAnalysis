@@ -1,0 +1,55 @@
+8;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{}, }, Print{}, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print k,
+        print
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print k,
+        print
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print k,
+        print
+
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print k,
+        print
+        
+
+def dalsi_radek(radek):
+    novy
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    soucet = 0
+    for n in range(pocet_radku):
+        for k in range(soucet, n+1):
+            print k,
+        print
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print k + 1, 
+        print k - 1 + 1
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print k,
+        print
+ 
+def pascaluv_trojuhelnik(n):
+    for i in range(n):
+        for j in range(j + 1):
+            print 
+        print n
+ 

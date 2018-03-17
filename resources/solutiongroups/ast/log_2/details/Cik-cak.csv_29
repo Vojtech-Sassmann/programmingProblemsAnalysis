@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{}, For{Call{Call{}, }, Assign{}, If{BoolOp{And{}, Compare{Mod{}, }, }, Print{}, If{BoolOp{And{}, Compare{Mod{}, NotEq{}, }, }, Expr{}, }, }, }, }, }, }, }
+def cikcak(text):
+    for i in range(2):
+        for j in range (len (text)):
+            pozice = j
+            if i == 0 and j % 2 == 0:
+                print text[pozice],
+            elif i == 1 and j % 2 != 0:
+                p 

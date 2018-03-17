@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, Assign{Add{}, Call{}, Pow{}, Call{Call{}, Sub{}, }, }, Print{}, }, }, }, }
+def vyhodnot(retezec):
+    desitkova = 0
+    for i in range(len(retezec)):
+        desitkova = desitkova + int(retezec[i])**int(len(retezec)-i)
+        print desitkova
+ 

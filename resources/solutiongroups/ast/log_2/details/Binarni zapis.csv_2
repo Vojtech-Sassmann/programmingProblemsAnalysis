@@ -1,0 +1,164 @@
+18;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, }, AugAssign{Div{}, }, Assign{Call{}, }, }, Print{Subscript{Slice{}, }, }, }, }, }
+def binarne(n):
+    vysledek = ""
+    while n>0:
+        if n % 2 == 0:
+            vysledek += "0"
+        else: vysledek += "1"
+        n /= 2
+        n = int(n)
+    print vysledek[::-1]
+def binarne(n):
+    vypis = ""
+    while n>0:
+        
+        if n % 2 == 0: vypis += "0"
+        else: vypis += "1"
+        n = n/2
+        
+    print vypis[::-1]
+
+def binarne(n):
+    vypis = ""
+    while n>0:
+        if n % 2 == 0: vypis += "0"
+        else: vypis += "1"
+        n = int(n/2)
+    print vypis[::-1]
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: 
+            vystup += "0"
+        else:
+            vystup += "1"
+        n = n//2
+    print vystup[::-1]
+
+def binarne(n):
+    vysledek = ""
+    while n > 0:
+        if n % 2 == 0:
+            vysledek += "0"
+        else:
+            vysledek += "1"
+        n /= 2
+        n = int(n)
+    print vysledek[::-1]
+
+def binarne(n):
+    binst = ""
+    while(n != 0):
+        if n % 2 == 0: binst += "0"
+        else: binst+= "1"
+        n = int(n/2)
+    print binst[::-1]
+
+def binarne(n):
+    cislo=""
+    while n!=0:
+        if n % 2 == 0:
+            cislo+= "0"
+        else:
+            cislo+= "1"
+        n=n//2
+          
+    print cislo[::-1]
+
+def binarne(n):
+    s = ""
+    while int(n) > 0:
+        if int(n) % 2 == 0: s += "0"
+        else: s += "1"
+        n = int(n) / 2
+    print s[::-1]
+
+def binarne(n):
+    a=n
+    cislo = ""
+    while a != 0:
+        if a % 2 == 0: cislo += "0"
+        else: cislo += "1"
+        a = a // 2
+    print cislo[::-1]
+def binarne(n):
+    new = ""
+    while n>1:
+        if n % 2 == 0:
+            new += "0"
+        else: new += "1"
+        n = n / 2
+    print int(new[::-1])
+def binarne(n):
+    new = ""
+    while n>1:
+        if n % 2 == 0:
+            new += "0"
+        else: new += "1"
+        n = int(n) / 2
+    print int(new[::-1])
+def binarne(n):
+    new = ""
+    while n>0:
+        if n % 2 == 0:
+            new += "0"
+        else: 
+            new += "1"
+        n = int(n/2)
+    print int(new[::-1])
+def binarne(n):
+    bin = ""
+    while n > 0:
+        if n % 2 == 0: 
+            bin += "0"
+        else: 
+            bin += "1"
+        n //= 2
+    print bin[::-1]
+
+def binarne(n):
+    x = ""
+    while n > 0:
+        if (n%2)==0:
+            x += "0"
+        else:
+            x += "1"
+        n = n // 2
+    print x [::-1]
+
+def binarne(n):
+    vypis=""
+    while n>0:
+        if n%2==0:
+            vypis+="0"
+        else:
+            vypis+="1"
+        n=n//2
+    print vypis[::-1]
+
+def binarne(n):
+    s=""
+    a=n
+    while a!=0:
+        if a%2==0:
+            s += "0"
+        else:
+            s += "1"
+        a=a//2
+    print s[::-1]
+def binarne(n):
+    s = ""
+    while n !=0:
+        if n % 2 == 0: s += "0"
+        else: s+= "1"
+        n = n // 2
+    print s[::-1]
+def binarne(n):
+    a=""
+    while n!=0:
+        if n % 2 == 0: a=a+"0"
+        else: a=a+"1"
+        n=n//2
+    print a[::-1]
+ 

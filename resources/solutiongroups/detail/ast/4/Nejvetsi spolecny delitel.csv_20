@@ -1,0 +1,30 @@
+4;root{Module{FunctionDef{Assign{Call{}, }, Assign{List{}, }, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Expr{Call{Attribute{}, }, }, }, }, Return{Call{}, }, }, }, }
+def nsd(a, b):
+    vetsi = max(a,b)
+    delitele = [1]
+    
+    for i in range(2, vetsi+1):
+        if a%i == 0 and b%i == 0:
+            delitele.append(i)
+    
+    return max(delitele)
+ 
+def nsd(a, b):
+    zoznam = []
+    for i in range(1, a+1):
+        if a % i == 0 and b % i == 0:
+            zoznam.append(i)
+    return max(zoznam) 
+def nsd(a, b):
+    s = []
+    for i in range(1,a+1):
+        if a % i == 0 and b % i == 0:
+            s.append(i)
+    return max(s)
+ 
+def nsd(a, b):
+    delitele = []
+    for i in range(1,max((a,b)) + 1):
+        if a % i == 0 and b % i == 0: delitele.append(i)
+    return max(delitele)
+ 

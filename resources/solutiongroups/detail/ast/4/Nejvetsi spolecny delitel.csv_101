@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{If{BoolOp{Or{}, }, Return{}, If{Return{}, If{Compare{Gt{}, }, Return{Call{Sub{}, }, }, Return{Call{Sub{}, }, }, }, }, }, }, }, }
+def nsd(a, b):
+    if a == 1 or b == 1:
+        return 1
+    elif a == b:
+        return a
+    elif a > b:
+        return nsd(a - b, b)
+    else:
+        return nsd(a, b - a) 

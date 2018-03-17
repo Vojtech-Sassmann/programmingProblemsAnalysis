@@ -1,0 +1,20 @@
+699;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+146;root{Module{FunctionDef{Return{}, }, }, }
+23;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, }, Return{Add{}, Call{Sub{}, }, }, }, }, }
+17;root{Module{FunctionDef{If{Return{}, Assign{Add{}, Call{Sub{}, }, }, }, Return{}, }, }, }
+17;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{LtE{}, }, Assign{Add{}, }, Assign{Add{}, }, }, Return{}, }, }, }
+12;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, AugAssign{Add{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+10;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{Add{}, Call{Sub{}, }, }, Return{}, }, }, }, }
+6;root{Module{FunctionDef{For{Call{}, Return{Add{}, Mult{}, Div{}, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{ListComp{comprehension{Call{Add{}, }, }, }, }, Return{Call{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{Mult{}, Add{}, Div{}, }, Assign{}, Return{}, }, }, }
+3;root{Module{FunctionDef{For{AugAssign{Add{}, }, Expr{Add{}, }, Return{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Assign{Sub{}, }, }, Print{}, }, }, }
+2;root{Module{FunctionDef{Assign{List{}, }, For{Call{Add{}, }, Expr{Call{Attribute{}, }, }, }, Return{Call{}, }, }, }, }
+2;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{}, Return{Call{Sub{}, }, }, }, }, FunctionDef{Return{Call{}, }, }, }, }
+1;root{Module{Assign{}, Assign{}, FunctionDef{For{Assign{Mult{}, }, Assign{Add{}, }, Return{}, }, }, }, }
+1;root{Module{FunctionDef{If{Return{Add{}, }, Return{Call{Sub{}, Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, For{Call{}, AugAssign{Add{}, Add{}, }, }, Return{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Add{}, LtE{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, }, Return{Add{}, Sub{}, Add{}, }, }, }, }
+1;root{Module{FunctionDef{Return{IfExp{Compare{Lt{}, }, Add{}, Call{Sub{}, }, }, }, }, }, }

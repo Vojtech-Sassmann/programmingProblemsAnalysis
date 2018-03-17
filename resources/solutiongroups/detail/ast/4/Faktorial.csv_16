@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, Assign{Tuple{}, Tuple{Mult{}, Sub{}, }, }, }, Return{}, }, }, }
+def faktorial(n):
+    x=1
+    while n>0:
+       x,n = x*n, n-1        
+    return x
+ 

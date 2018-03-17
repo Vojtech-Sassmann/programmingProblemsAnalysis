@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Mult{}, }, Pass{}, }, Return{}, }, FunctionDef{Return{Call{Call{Add{}, }, Div{}, Call{Sub{}, }, }, }, }, Expr{}, }, }
+def partialFactorial(stop,start=1):
+    result = 1
+    for i in range(start, stop + 1):
+        result *= i
+        pass
+    return result
+
+def NoverK(n,k):
+    return int(partialFactorial(n, k+1)/partialFactorial(n-k))
+
+d 

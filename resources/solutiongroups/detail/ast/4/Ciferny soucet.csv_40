@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{Call{}, }, }, Assign{Call{}, }, Assign{}, AugAssign{Add{}, Call{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range (len(str(n))):
+        a = str(n)
+        b = a[i]
+        soucet+= int(b)
+    return soucet
+ 

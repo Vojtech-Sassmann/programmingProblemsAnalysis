@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, TryExcept{AugAssign{Add{}, Call{}, Mult{}, Pow{}, Call{}, Sub{}, Sub{}, }, Print{}, ExceptHandler{Pass{}, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    vystup=0
+    i=0
+    for k in range(len (retezec)):
+        try: 
+            vystup+=int(retezec[i])*2**(len(retezec)-i-1)
+            print 
+        except:pass
+        i+=1
+    return vystup
+ 

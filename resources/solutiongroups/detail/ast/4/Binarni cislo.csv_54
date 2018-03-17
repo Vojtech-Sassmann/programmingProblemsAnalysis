@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{If{Compare{In{}, List{Str{}, Str{}, }, }, AugAssign{Add{}, }, }, }, If{Compare{NotEq{}, Str{}, }, Return{Call{}, }, Return{}, }, }, }, }
+def vyhodnot(retezec):
+    pom=""
+    for i in retezec:
+       if i in ["0","1"]: pom+=i
+    if pom!="":
+        return int(pom,2)
+    else: return 0
+ 
+def vyhodnot(retezec):
+    pom=""
+    for i in retezec:
+       if i in ["0","1"]: pom+=i
+       else: pom+="0"
+    if pom!="":
+        return int(pom,2)
+    else: return 0
+ 

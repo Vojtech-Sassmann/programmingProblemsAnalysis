@@ -1,0 +1,125 @@
+14;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, Assign{Call{}, Add{}, }, If{Compare{Gt{}, Call{Str{}, }, }, Expr{}, }, }, }, }, }, }
+def caesar(text, n):
+    result = ""
+    for i in range(len(text)):
+        if text[i] == " ":
+            result += " "
+        else:
+            number = ord(text[i]) + n
+            if number > ord("z"):
+                num 
+def caesar(text, n):
+    vystup= ""
+    for i in range(len(text)):
+        if text[i]== " ": vystup = vystup + " "
+        else: 
+            a = ord(text[i]) + n
+            if (a > ord("z")): a = a - 26
+            vystup = vy 
+def caesar(text, n):
+    vysledek=""
+    for i in range(len(text)):
+        if text[i]==" ":vysledek=vysledek+" "
+        else:
+            c=ord(text[i])+n
+            if(c>ord("z")):c=c-26
+            vysledek=vysledek + chr 
+def caesar(text, n):
+    sifra = ""
+    for i in range(len(text)):
+        if text[i] == " ":
+            sifra += " "
+        else:
+            pismeno = ord(text[i]) + n
+            if pismeno > ord("z"):
+                pis 
+def caesar(text, n):
+    vystup= ""
+    text= text.lower()
+    for i in range(len(text)):
+        if text[i] == " ": vystup = vystup + " "
+        else:
+            c= ord(text[i]) + n
+            if (c > ord("z")): c = c -26
+ 
+def caesar(text, n):
+    vystup=""
+    text = text.upper()
+    for i in range (len(text)):
+        if text[i]=="":vystup=vystup + ""
+        else:
+            c=ord(text[i]) + n
+            if (c > ord("Z")): c = c-26
+ 
+def caesar(text, n):
+    vystup= ""
+    for i in range(len(text)):
+        if text[i] == " ":vystup = vystup +" "
+        else:
+            c = ord(text[i]) + n
+            if (c> ord("z")): c = c -26
+            vystup = vystup 
+def caesar(text, n):
+    v = ""
+    for i in range(len(text)):
+        if text[i] == " ":
+            v = v + " "
+        else:
+            c = ord(text[i]) + n
+            if c > ord("z"):
+                c = c - 26
+ 
+def caesar(text, n):
+    vystup=""
+    text=text.upper()
+    for i in range(len(text)):
+        if text[i] == " ": vystup = vystup + " "
+        else:
+            c = ord(text[i]) + n
+            if (c > ord("z")): c = c-26
+
+def caesar(text, n):
+    vystup = ""
+    for i in range(len(text)):
+        if text[i] == " ": vystup = vystup + " "
+        else:
+            c = ord(text[i]) + n
+            if (c > ord("z")): c = c - 26
+            vystup = v
+def caesar(text, n):
+    exit = ""
+    for i in range(len(text)):
+        if text[i] == " ":
+            exit = exit + " "
+        else: 
+            znak = ord(text[i]) + n
+            if (znak > ord("z")):
+                zn
+def caesar(text, n):
+    sifra = ""
+
+    for i in range(len(text)):
+        if text[i] == " ":
+            sifra+=" "
+        else:
+            znak = chr(ord(text[i])+(n % 26))
+            if ord(znak)>122:
+               z
+def caesar(text, n):
+    result = ""
+    for i in text:
+        if i == " ":
+            result += " "
+        else:
+            number = ord(i) + n
+            if number > ord("z"):
+                number -= 26
+
+def caesar(text, n):
+    vystup = ""
+    for i in range (len(text)):
+        if text[i] == "": vystup = vystup + ""
+        else:
+            c = ord(text[i]) + n
+            if (c > ord("Z")):c= c - 26
+            vystup = vyst

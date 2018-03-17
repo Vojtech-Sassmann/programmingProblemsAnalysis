@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{Call{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, }, Assign{}, Assign{}, }, Return{}, }, }, }, }
+def palindrom(text):
+    x = False
+    for i in range(len(text)):
+        if ord(text[i]) == ord(text[len(text)-i-1]):
+            x = True
+        else:
+            x = False
+        return x 

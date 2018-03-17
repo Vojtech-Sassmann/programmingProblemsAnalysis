@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{}, Assign{Str{}, }, For{Assign{Call{}, }, If{Compare{Gt{}, }, Assign{}, Assign{}, If{Assign{}, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slovnik = text.split(" ")
+    z = 0
+    y = ""
+    for slovo in slovnik:
+        x = len(slovo)
+        if x > z:
+            z = x
+            y = slovo
+        elif x == z:
+            z = x
+ 

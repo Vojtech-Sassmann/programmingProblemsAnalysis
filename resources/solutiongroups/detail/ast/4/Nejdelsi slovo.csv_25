@@ -1,0 +1,11 @@
+2;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, Lambda{Call{}, Sub{}, Call{}, }, }, }, Print{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort(lambda x,y: len(y) - len(x))
+    print slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort(lambda x,y: len(y) - len(x))
+    return slova[0]
+ 

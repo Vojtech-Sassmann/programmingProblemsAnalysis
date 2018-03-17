@@ -1,0 +1,195 @@
+26;root{Module{FunctionDef{Assign{}, Print{}, For{Call{Sub{}, }, Assign{Mult{}, }, Print{}, }, Return{}, }, }, }
+def mocniny_dvojky(n):
+    mocnina=1
+    print mocnina,
+    for i in range(n-1):
+        mocnina=mocnina*2
+        print mocnina,
+        
+    return mocnina
+ 
+def mocniny_dvojky(n):
+    k=1
+    print k,
+    for i in range(1,n):
+        k=2*k
+        print k,
+ 
+def mocniny_dvojky(n):  
+    s = 1
+    print s,
+
+    for i in range(0,n-1):
+        s = s*2
+        print s,
+        
+ 
+def mocniny_dvojky(n):
+    cisilko = 1
+    print cisilko,
+    for i in range(1,n):
+        cisilko = 2**i
+        print cisilko,
+ 
+def mocniny_dvojky(n):
+    moc=1
+    print moc,
+    for i in range(n-1):
+            moc=moc*2
+            print moc,
+ 
+def mocniny_dvojky(n):
+    x = 1
+    print x,
+    for i in range(n-1):
+        x = x*2
+        print x,
+ 
+def mocniny_dvojky(n):
+    m=1
+    print m,
+    for i in range(n-1):
+        m=m*2
+        print m,
+ 
+def mocniny_dvojky(n):
+    cislo = 1
+    print cislo,
+    for i in range(1, n):
+        cislo = 2 ** i
+        print cislo, 
+def mocniny_dvojky (n):
+    x=1
+    print x,
+    for i in range (n-1):
+        x=x*2
+        print x,
+ 
+def mocniny_dvojky(n):
+    b=1
+    print b,
+    for i in range(1,n):
+        b=b*2
+        print b,
+ 
+def mocniny_dvojky(n):
+    m=1
+    print 1,
+    for i in range(n-1):
+        m=m*2
+        print m,
+ 
+def mocniny_dvojky(n):
+    s=1
+    print s,
+    for i in range(n-1):
+        s=s*2
+        print s,
+ 
+def mocniny_dvojky(n):
+    vystup=1
+    print vystup,
+    for i in range(1,n):
+        vystup= vystup*2
+        print vystup,
+        
+ 
+def mocniny_dvojky(n):
+    mocnina = 1
+    print mocnina,
+    for i in range(n-1):
+            mocnina = mocnina * 2
+            print mocnina,
+ 
+def mocniny_dvojky(n):
+    nasobek = 1
+    print 1,
+    for i in range(1,n):
+        nasobek = nasobek * 2
+        print nasobek,
+ 
+def mocniny_dvojky(n):
+    pm=1
+    print 1,
+    for i in range(n-1):
+        pm*=2
+        print pm,
+ 
+def mocniny_dvojky(n):
+    num = 1
+    print num,
+    for i in range(n-1):
+        num *= 2
+        print num,
+ 
+def mocniny_dvojky(n):
+    a = 1
+    print a
+    for i in range(n):
+        a = a * 2
+        print a
+
+ 
+def mocniny_dvojky(n):
+    a = 1
+    print a,
+    for i in range(n-1):
+        a = a * 2
+        print a,
+
+ 
+def mocniny_dvojky(n):
+    t=1
+    print t,
+    for i in range(n-1):
+        t*=2
+        print t,
+ 
+def mocniny_dvojky(n):
+    m=1
+    print m,
+    for i in range(1,n):
+        m=m*2
+        
+        
+        print m,
+ 
+def mocniny_dvojky(n):
+    a = 1
+    print 1,
+    for i in range(1,n):
+        a = a*2
+        print a,
+ 
+def mocniny_dvojky(n):
+    vypis=1
+    if n == 0:
+        return
+    print 1,
+    for i in range(n-1):
+        vypis *= 2 
+        print vypis,
+ 
+def mocniny_dvojky(n):
+    a=n
+    s=1
+
+    print (s),
+    for i in range(n - 1):
+        s=2*s
+        print s, 
+def mocniny_dvojky(n):
+    k=1
+    print 1,
+    for i in range(n-1):
+        k=k*2
+        print k,
+ 
+
+def mocniny_dvojky(n):
+    i =1
+    print i,
+    for t in range(n-1):
+        i = i*2
+        print i,
+ 

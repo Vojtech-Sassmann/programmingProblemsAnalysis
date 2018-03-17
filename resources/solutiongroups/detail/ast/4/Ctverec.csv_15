@@ -1,0 +1,45 @@
+4;root{Module{FunctionDef{Print{Str{}, Mult{}, }, For{Call{}, For{Call{}, If{BoolOp{Or{}, }, Print{Str{}, }, Print{Str{}, }, }, }, Print{}, }, Print{Str{}, Mult{}, }, }, }, }
+def ctverec(n):
+    print"* "*n
+    for i in range(n):
+        for j in range(n):
+            if j==0 or j==8:
+                print"*",
+            else:
+                print"+",
+        print
+    print "* "*n
+ 
+def ctverec(n):
+    print"*"*n
+    for i in range(n):
+        for j in range(n):
+            if j==0 or j==n:
+                print"*",
+            else:
+                print"+",
+        print
+    print "*"*n
+ 
+def ctverec(n):
+    print"* "*n
+    for i in range(n):
+        for j in range(n):
+            if j==0 or j==n:
+                print"*",
+            else:
+                print"+",
+        print
+    print "* "*n
+ 
+def ctverec(n):
+    print"* "*n
+    for i in range(n):
+        for j in range(n):
+            if j==0 or j==(n-1):
+                print"*",
+            else:
+                print"+",
+        print
+    print "* "*n
+ 

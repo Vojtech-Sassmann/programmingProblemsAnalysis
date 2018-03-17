@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{If{Compare{Gt{}, }, Assign{}, Print{}, For{Call{}, Assign{Mult{}, }, Print{}, }, }, }, }, }
+def mocniny_dvojky(n):
+   if(n>0):
+        mocnina = 1
+        print mocnina,
+        for i in range(1,n):
+           mocnina = mocnina*2 
+        
+           print mocnina,
+ 

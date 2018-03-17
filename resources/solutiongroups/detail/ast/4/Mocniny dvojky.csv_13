@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{If{Return{}, Return{Mult{}, Call{Sub{}, }, }, }, }, FunctionDef{For{Call{}, Print{Call{}, }, }, }, }, }
+def umocni(n):
+    if n == 0: return 1
+    else: return 2*umocni(n-1)
+    
+def mocniny_dvojky(n):
+    for i in range(n):
+        print umocni(i),
+ 

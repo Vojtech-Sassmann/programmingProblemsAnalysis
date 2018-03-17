@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, Assign{FloorDiv{}, }, Assign{Mod{}, }, AugAssign{Add{}, }, Assign{}, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    vysl = 0
+    while n > 0:
+        pokr = n // 10
+        zbytek = n % 10
+        vysl += zbytek
+        n = pokr
+    return vysl
+ 

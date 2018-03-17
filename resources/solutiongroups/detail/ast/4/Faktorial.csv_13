@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Gt{}, }, Compare{LtE{}, }, }, Assign{Mult{}, }, Assign{}, }, }, Return{}, }, }, }
+def faktorial(n):
+    total =1
+    for i in range (n+1):
+        if i>0 and i<=n:
+            total =total*i
+        else:
+            total=total
+    return total
+ 

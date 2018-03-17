@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Add{}, }, }, Assign{}, For{Call{Call{}, }, If{Return{}, }, }, }, }, }
+def palindrom(string):
+    result = ""
+    for index in range(len(string)):
+        result = string[index] + result
+    x=result
+    for i in range(len(string)):
+        if string[i]==x[i]:
+            return True 
+def palindrom(string):
+    a=0
+    result = ""
+    for index in range(len(string)):
+        result = string[index] + result
+    x=result
+    for i in range(len(string)):
+        if string[i]==x[i]:
+            a+=1
+        e 

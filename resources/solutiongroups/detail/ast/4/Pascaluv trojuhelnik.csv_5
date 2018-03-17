@@ -1,0 +1,41 @@
+4;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, }, }, Print{}, }, }, FunctionDef{Assign{}, For{Call{Add{}, }, Expr{}, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print kombinacni_cislo(n,k),
+        print
+
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0,n+1):
+            print kombinacni(n,k),
+        print
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print kombinacni_cislo(n,k),
+        print
+def fak(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print pc(n, k),
+        print
+
+def perm(num):
+    res = 1
+    for i in range(1, num + 1):
+        res = re 

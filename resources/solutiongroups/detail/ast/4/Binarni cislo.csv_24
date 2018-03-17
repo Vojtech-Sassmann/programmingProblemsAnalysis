@@ -1,0 +1,32 @@
+4;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, AugAssign{Add{}, Call{Subscript{Index{UnaryOp{USub{}, }, Sub{}, }, }, }, Mult{}, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    p=1
+    s=0
+    for i in range (len(retezec)):
+        s+=int(retezec[-i-1])*p
+        p*=2
+    return s 
+def vyhodnot(retezec):
+    p=1
+    s=0
+    for i in range(len(retezec)):
+        s+=t[-i-1]*p
+        p*=2
+    print s 
+def vyhodnot(retezec):
+    p=1
+    s=0
+    for i in range(len(retezec)):
+        s+=int(retezec[-i-1])*p
+        p*=2
+    return s 
+def vyhodnot(retezec):
+    p=1
+    s=0
+    if type(retezec)==int:
+        for i in range(len(retezec)):
+            s+=int(retezec[-i-1])*p
+            p*=2
+        return s
+    else:
+        return 0 

@@ -1,0 +1,5 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{}, Assign{Add{}, Mult{}, }, }, }, }, }
+def factorial(n):
+    fact = 1
+    for i in range(n):
+        fact = fact + fact*i   

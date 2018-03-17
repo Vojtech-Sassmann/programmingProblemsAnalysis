@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{Sub{}, }, Assign{}, For{If{BoolOp{Or{}, Compare{NotEq{}, }, Compare{NotEq{}, }, }, Return{}, }, If{Compare{Call{}, }, AugAssign{Add{}, Call{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    num = len(retezec)
+    num = num-1
+    sumary = 0
+    for char in retezec:
+        if(char != 1 or char != 0):
+            return 0
+        if(int(char) == 1):
+            sumary += pow(2,num)
+ 

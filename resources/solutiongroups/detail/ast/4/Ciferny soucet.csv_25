@@ -1,0 +1,9 @@
+1;root{Module{Import{alias{}, }, FunctionDef{If{Return{}, }, Assign{}, AugAssign{Add{}, Mod{}, Add{}, Call{Call{Attribute{}, Div{}, }, }, }, Return{}, }, }, }
+import math
+
+def ciferny_soucet(n):
+    if n==0: return 0
+    soucet = 0
+    soucet += n % 10 + ciferny_soucet(math.floor(n/10))
+    return soucet
+ 

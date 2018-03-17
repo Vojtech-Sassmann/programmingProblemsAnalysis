@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, Assign{Call{}, Add{}, }, AugAssign{Add{}, Call{}, }, }, }, Return{}, }, }, }
+def caesar(text, n):
+    vysledek = ""
+    for i in text:
+        if i == " ":
+            vysledek += " "
+        else:
+            nova = ord(i)+n
+            vysledek += chr(nova)
+    return vysledek        
+

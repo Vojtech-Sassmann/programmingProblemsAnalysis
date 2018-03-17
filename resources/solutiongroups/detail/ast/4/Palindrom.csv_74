@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, If{Compare{Mod{}, }, Assign{Add{}, Div{}, }, }, If{Compare{Call{Subscript{Slice{Sub{}, }, }, }, NotEq{}, Call{Subscript{Slice{Sub{}, }, }, }, }, Return{Str{}, }, Return{}, }, }, }, }
+def palindrom(text):
+    dlzka_slova = len(text)
+    if dlzka_slova%2 == 1:
+        dlzka_slova = (dlzka_slova+1)/2
+    if str(text[:dlzka_slova-1]) != str(text[:dlzka_slova-1:-1]):
+        return "False"
+    else:
+        return 

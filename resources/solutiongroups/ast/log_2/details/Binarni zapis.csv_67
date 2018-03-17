@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Str{}, }, Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Mod{}, }, AugAssign{Add{}, Call{}, }, Assign{FloorDiv{}, }, }, For{Call{Call{}, Add{}, }, AugAssign{Add{}, Subscript{Index{Call{}, Sub{}, }, }, }, }, Print{}, }, }, }
+def binarne(n):
+    x = 0
+    b = ""
+    nb = ""
+    while (n>0):
+        x = n % 2
+        b += str(x)
+        n = n//2
+    for i in range(1,len(b)+1):
+        nb += b[len(b)-i]
+    print nb
+ 

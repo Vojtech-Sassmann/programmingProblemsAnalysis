@@ -1,0 +1,78 @@
+10;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, Assign{Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, }, AugAssign{Add{}, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        a = int(retezec[len(retezec)-i-1])
+        cislo += a*(2**i)
+    return cislo
+ 
+def vyhodnot(retezec):
+    hodnota=0
+    for i in range(len(retezec)):
+        cislo=int(retezec[len(retezec)-i-1])
+        hodnota+=cislo*(2**i)
+    return hodnota
+    
+ 
+def vyhodnot(retezec):
+    vysledek=0
+    for i in range(len(retezec)):
+        x=int(retezec[len(retezec)-i-1])
+ 
+        vysledek=vysledek+(2**i)*x
+        
+             
+    return vysledek
+ 
+def vyhodnot(retezec):
+    vysledek=0
+    for i in range(len(retezec)):
+        
+        x=int(retezec[len(retezec)-i-1])
+ 
+        vysledek=vysledek+(2**i)*x
+        
+             
+    return vysledek
+ 
+def vyhodnot(retezec):
+    x = 0
+    for i in range(len(retezec)):
+        if ord(retezec[len(retezec)-i-1])==49:
+            x+= 2**i
+    return x
+ 
+def vyhodnot(retezec):
+    soucet = 0
+    for i in range(len(retezec)):
+        if int(retezec[len(retezec)-1-i]) == 1:
+            soucet += 2**i
+    return soucet
+ 
+def vyhodnot(retezec):
+    soucet = 0
+    for i in range(len(retezec)):
+           if ord(retezec[len(retezec)-1-i]) == 49:
+               soucet += 2**i
+    return soucet
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range (len(retezec)):
+        znak = retezec[len(retezec)-i-1]
+        cislo = cislo + int(znak)*(2**i)
+    print cislo 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range (len(retezec)):
+        znak = retezec[len(retezec)-i-1]
+        cislo = cislo + int(znak)*(2**i)
+    return cislo 
+def vyhodnot(retezec):
+    vysledok = 0
+    for i in range(len(retezec)):
+        x = int(retezec[len(retezec)-i-1])*(2**i)
+        vysledok += x
+    return vysledok
+        
+ 

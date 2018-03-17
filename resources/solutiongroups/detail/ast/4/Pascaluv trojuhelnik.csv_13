@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Return{IfExp{Compare{Gt{}, }, Mult{}, Call{Sub{}, }, }, }, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, Div{}, Call{}, Div{}, Call{Sub{}, }, }, }, Print{}, }, }, }, }
+def f(n):
+    return n * f(n-1) if n > 1 else 1
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print f(n)/f(k)/f(n-k),
+        print
+ 

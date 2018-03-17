@@ -1,0 +1,50 @@
+6;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, Sub{}, }, If{AugAssign{Add{}, Pow{}, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    z=0
+    y=0
+    for i in range (len(retezec)-1,-1,-1):
+        if (retezec[i]==1):
+            z+=2**y
+        y+=1
+    return z
+ 
+def vyhodnot(retezec):
+    z=0
+    y=0
+    for i in range (len(retezec)-1,-1,-1):
+        if (retezec[i]=="1"):
+            z+=2**y
+        y+=1
+    return z
+ 
+def vyhodnot(retezec):
+    res = 0
+    for i in range(len(retezec)):
+        res *= 2
+        res += int(retezec[i])
+    return res
+ 
+def vyhodnot(retezec):
+    n=0
+    number=0
+    for i in range(len(retezec)-1,-1,-1):
+        number+=int(retezec[i])*(2**n)
+        n+=1
+    return number 
+def vyhodnot(retezec):
+    n=0
+    number=0
+    for i in range(len(retezec)-1,-2,-1):
+        number+=int(retezec[i])*(2**n)
+        n+=1
+    return number 
+def vyhodnot(retezec):
+    retezec=retezec[::-1]
+    cislo=0
+    for i in range (len(retezec)):
+        count=0
+        pom=(int(retezec [i]))
+        if pom ==1:
+            count+=2**i
+        cislo+=count
+    return cislo 

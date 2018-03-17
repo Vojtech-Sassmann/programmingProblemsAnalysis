@@ -1,0 +1,492 @@
+77;root{Module{FunctionDef{Print{Mult{}, Str{}, }, For{Call{Sub{}, }, Print{Str{}, Add{}, Sub{}, Mult{}, Str{}, Add{}, Str{}, }, }, Print{Mult{}, Str{}, }, }, }, }
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*" 
+def ctverec(n):
+    print n * "*"
+    for i in range(1, n-1):
+        print "*" + (n-2)*"+" + "*"
+    print n * "*"
+    
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*" 
+def ctverec(n):
+    print n * "*"
+    for i in range(n-2):
+        print "*" + (n-2) * "+" + "*"
+    print n * "*"
+ 
+def ctverec(n):
+    print n*"*"
+    for j in range(n-2):
+        print "*",(n-2)*"+","*"
+    print n*"*"
+    print
+ 
+def ctverec(n):
+    print n * "*"
+    for i in range(1,n-1):
+        print "*" + (n-2)*"+" + "*"
+    print n * "*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(1,n-1):
+        print "*" + (n-2) * "+" + "*"
+    print n* "*" 
+def ctverec(n):
+    print n*"*"
+    for i in range (0,n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2)* "+" + "*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print (n*"*")
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+    print (n*"*")
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(1, n-1):
+        print 1*"*"+(n-2)*"+"+"*"
+    print n*"*" 
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range (1,n-1):
+        print 1*"*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+((n-2)*"+")+"*"
+    print n*"*"
+    
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*" 
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print ("*"+(n-2)*"+"+"*")
+    print n*"*"
+ 
+def ctverec(n):
+    print (n*"*"),
+    print
+    for i in range (n-2):
+        print "*"+((n-2)*"+")+"*"
+    print (n*"*") 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*" 
+def ctverec(n):
+    print n * "*"
+    for j in range (n - 2):
+        print "*" + (n - 2) * "+" + "*"
+    print n * "*"
+        
+    print
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2)*"+" + "*"
+    print n*"*"
+        
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+        
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*",
+    print
+    for i in range (1,n-1):
+        print "*", (n-2)*"+", "*"
+    print n*"*",
+ 
+def ctverec(n):
+    print n*"*  ",
+    print
+    for i in range (1,n-1):
+        print "*", (n-2)*" + ", "*"
+    print n*"*  ",
+ 
+def ctverec(n):
+    l=1
+    print n*"*",
+    print
+    for i in range (1,n-1):
+        print l*"*" + (n-2)*"+" + l*"*"
+    print n*"*",
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*" 
+    print n*"*"
+    
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(1,n-1):
+        print "*" + (n-2)*("+") + "*"
+    print n*"*"
+
+    
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2) * "+" + "*"
+    print n* "*"
+ 
+
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+               
+         
+       
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*" 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)* "+" + "*"
+    print n* "*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(1,n-1):
+        print "*"+((n-2)*"+")+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print (n)*"*"
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+        
+    print (n)*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(1,n-1):
+        print ("*"+(n-2)*"+"+"*")
+    print n*"*"
+    print
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+       print "*"+(n-2)*"+"+"*"
+    print n*"*" 
+def ctverec(n):
+    print n * "*"
+    for i in range(n-2):
+        print "*" + (n-2)*"+" + "*"
+    print n * "*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2)*"+" + "*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n *"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+    
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print
+    print n*"*"
+       
+
+  
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n * "*"
+    for i in range(n-2):
+        print "*" + (n-2) * "+" + "*"
+    print n * "*"    
+                      
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+    
+ 
+def ctverec(n):
+    print n*"*",
+    print
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range (2,n):
+        print "*" + (n-2)*"+" + "*"
+    print n*"*" 
+def ctverec(n):
+    print n * "*"
+    for i in range(n - 2):
+        print "*" + (n - 2) * "+" + "*"
+    print n * "*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+      
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+((n-2)*"+")+"*"
+    print n*"*",    
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+((n-2)*"+")+"*"
+    print n*"*", 
+def ctverec(n):
+    print (n*"*")
+    for i in range (n-2):
+        print(1*"*"+(n-2)*"+"+1*"*")
+    
+    print (n*"*")
+        
+ 
+def ctverec(n):
+    radek = "*"
+    print radek*n
+    for i in range (n-2):
+        print "*" + (n-2)*"+" + "*" 
+    print radek*n
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+((n-2)*"+")+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2)*"+" + "*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n * "*"
+    for _ in range(n-2):
+        print "*" + (n-2) * "+" + "*"
+    print n * "*"
+ 
+def ctverec(n):
+    print n*"*"
+    for j in range(1,n-1):
+        print "*"+(n-2)* "+"+ "*"
+    print n*"*",
+
+
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2)*"+" + "*"
+    print n*"*",
+ 
+def ctverec(n):
+    print n*"*",
+    print
+    for i in range (n-2):
+        print str("*") + (n-2)*str("+") + str("*")
+    print n*"*" 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*%s*" % ((n-2)*"+")
+    print n*"*"
+ 
+def ctverec(n):
+    print (n)*"*"
+    for i in range (n-2):
+        print "*" + "+"*(n-2) + "*"
+    print (n)*"*"
+       
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*" 
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print "*"+(+n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2)*"+" + "*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+str((n-2)*"+")+"*"
+    print n*"*"
+    
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(1,n-1):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range (n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"
+        print (n-2)*"+"+"*"
+    print n*"*"
+    
+ 
+def ctverec(n):
+    print n*"*",
+    print
+    for i in range (n-2):
+        print "*" +"+"*(n-2)+"*",
+        print
+    print n*"*" 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    if (n > 1):
+        print n*"*" 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*"+(n-2)*"+"+"*"
+    print n*"*"
+ 
+def ctverec(n):
+    print n*"*"
+    for i in range(n-2):
+        print "*" + (n-2)*"+" + "*"
+    print n*"*" 
+def ctverec(n):
+    print n*"*"
+    for i in range (2,n):
+        print "*" + (n-2) * "+" + "*"
+    print n*"*"
+
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Str{}, }, Assign{Call{Attribute{}, Str{}, }, }, For{If{BoolOp{And{}, Compare{Call{}, GtE{}, }, Compare{Gt{}, }, }, Assign{Call{}, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    max=0
+    slovo="z"
+    slova = text.split(" ")
+    for i in slova:
+        if len(i)>=max and slovo[0]>i[0]:
+            max=len(i)
+            slovo=i
+    return slovo
+ 

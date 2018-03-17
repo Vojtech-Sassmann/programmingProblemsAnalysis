@@ -1,0 +1,82 @@
+12;root{Module{FunctionDef{Assign{}, For{Call{}, Assign{Pow{}, }, Print{}, AugAssign{Add{}, }, }, }, }, }
+def mocniny_dvojky(n):
+    x=0
+    for i in range(n):
+        a=2**x
+        print a,
+        x+=1
+    
+ 
+def mocniny_dvojky(n):
+    k=0
+    for i in range(n):
+        k=2**i
+        print k,
+ 
+def mocniny_dvojky(n):
+    hodnota = 1
+    for i in range(n):
+        vysledek = 2**i
+        
+        print vysledek,
+      
+ 
+def mocniny_dvojky(n):
+    x = 0
+    for i in range(n):
+        x = 2 ** i
+        print x,
+ 
+def mocniny_dvojky(n):
+    p=0
+    a=0
+    for i in range(0,n):
+        a=2**i
+        p=p+1
+        
+        print a,
+ 
+def mocniny_dvojky(n):
+    vysledok = 1
+    for i in range(n):
+        vysledok = 2**i
+        if i == 0:
+            vysledok = 1
+        print vysledok, 
+def mocniny_dvojky(n):
+    pomocna = 0
+    for i in range(n):
+        pomocna = 2 ** i
+        print pomocna,
+ 
+def mocniny_dvojky(n):
+    m=1
+    for i in range(n):
+        m=2**i
+        print m,
+ 
+def mocniny_dvojky(n):
+    x = 0
+    for i in range(n):
+        x = 2**i
+        print x,
+ 
+def mocniny_dvojky(n):
+    cislo = 2
+    for i in range(n):
+        cislo1 = cislo**i
+        print cislo1,
+    
+ 
+def mocniny_dvojky(n):
+    k = 0
+    for i in range(n):
+        k = 2**i
+        print k,
+ 
+def mocniny_dvojky(n):
+    j=1
+    for i in range(0,n):
+        j=2**i
+        print j,
+ 

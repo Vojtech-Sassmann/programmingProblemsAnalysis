@@ -1,0 +1,954 @@
+173;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{Mult{}, Call{Sub{}, }, }, }, Return{}, }, }, }
+def faktorial(n):
+    if n> 1: return n * faktorial(n-1)
+    return 1
+ 
+def faktorial(n):
+    if n == 0: return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1: return 1
+    else: return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n > 1:
+        return n + faktorial(n-1)
+    else:
+        return 1
+ 
+def faktorial(n):
+    if n > 1:
+        return n * faktorial(n-1)
+    else:
+        return 1
+ 
+def faktorial(n):
+    if n<=1: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    return n * faktorial(n-1) if n > 1 else 1
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0: return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n < 2:
+        return 1
+    else:
+        return faktorial(n-1)*n
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1: return 1
+    else: prom = n * faktorial(n-1)
+    return prom
+ 
+def faktorial(n):
+    if (n == 1):
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n != 0:
+        return n*faktorial(n-1)
+    else:
+        return 1
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n>0:
+        return n*faktorial(n-1)
+    else: 
+        return 1
+ 
+def faktorial(n):
+    if (n==1): return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if(n==1):
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    return n if n < 2 else n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1:
+        return n
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n * faktorial(n - 1)
+ 
+def faktorial(n): 
+    if n==0:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if not n:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n==0) :
+       return 1
+    if (n>0) :
+       return n*faktorial(n-1)
+    return n
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n > 1:
+       n = n * faktorial(n-1)
+    return n
+ 
+def faktorial(n):
+    x=1
+    while n>0:
+       x,n = x*n, n-1        
+    return x
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*faktorial(n-1) 
+def faktorial(n):
+    x = 1
+    if n > 1:
+        for i in range(2,n+1):
+            x = i*x
+    return x
+ 
+def faktorial(n):
+    if n == 1 :
+        return n
+    else: 
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n <= 0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n>1:
+        return n*faktorial(n-1)
+    else:
+        return 1
+ 
+def faktorial(n):
+    f = n-1
+    while f > 0:
+        n = n * f
+        f -= 1
+    return n
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n - 1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n* faktorial(n-1)
+    
+ 
+def faktorial(n):
+    if n == 0: return 1
+    else: return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0 :
+        return 1
+    else :
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0: return 1
+    return n*faktorial (n-1)
+ 
+def faktorial(n):
+    if n==0: return 1
+    return n*faktorial (n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n==1) or (n==0):
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n==1):
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*faktorial(n-1) 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+ 
+def faktorial(n):
+    if n == 0: return 1
+    else: return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n<=1):
+        return 1
+    else:
+        return n*faktorial(n-1)
+   
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*faktorial(n-1) 
+def faktorial(n):
+    if n==0:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1:return 1
+    else: return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n==1): return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n - 1) 
+def faktorial(n):
+    if n==1:
+     return 1
+    else:
+     return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n<=1:
+        return 1  
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n!= 1:
+        return n*faktorial(n-1)
+    else:
+        return 1
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n == 0):
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n>1):
+        n=n*faktorial(n-1)
+    return n
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n*faktorial(n-1) 
+def faktorial(n):
+    if n <= 0: return 1
+    else: return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+    
+   
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n<=0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+    return n
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+    
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1: return 1
+    else: return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        f = n*faktorial(n-1)
+    return f
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    pom = 1
+    while(n>0):
+        pom = pom * n
+        n-=1
+    return pom
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n <= 1:
+        return 1
+    else:
+        return n * faktorial (n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1:
+        return n
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    while n>1:
+        return (n * faktorial(n-1))
+    return n 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else: 
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    x=1
+    while n>0:
+        x=x*n
+        n-=1
+    return(x)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n <= 1:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if(n == 1):
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0 :
+        return 1
+    return n * faktorial(n -1)
+ 
+def faktorial(n):
+    if n <= 1: return 1
+    else: return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        
+        return n *faktorial (n-1)
+ 
+def faktorial(n):
+    if n > 2:
+        return n*faktorial(n-1)
+    else:
+        return n 
+def faktorial(n):
+    x=1
+    while n>1:
+        x=x*n
+        n-=1
+    return x
+ 
+def faktorial(n):
+    i=n-1
+    while i>0:
+        n *=i
+        i -=1
+    return n
+ 
+def faktorial(n):
+    if(n==2):
+        return 2
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if(n==1):
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    for i in range (0,n):
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+     return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+       return 1
+    else:
+        return n* faktorial (n-1)
+    
+    
+ 
+def faktorial(n):
+    if n == 0: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n == 0): return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==1 or n==0:
+        return n
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1 : 
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n ==0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+        if n==0:
+            return 1
+        else:
+            return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+    
+ 
+def faktorial(n):
+    faktorialis=1
+    while n>1:
+        faktorialis=faktorialis*n
+        n-=1
+    return faktorialis
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n * faktorial(n-1) 
+ 
+def faktorial(n):
+    for i in range(n+1):
+        n*(n-1)
+    return n
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n <= 0: return 1
+    else: return n * faktorial(n-1)
+ 
+def faktorial(n):
+    res = 1
+    while n>1:
+        res *=n
+        n-=1
+    return res
+ 
+def faktorial(n):
+    if (n == 0): return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0: return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n>1:
+        f=n*faktorial(n-1)
+    else:
+        f=1
+    return f
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    fakt = 1
+    while n > 0:
+        fakt = fakt * n
+        n -= 1
+    return fakt
+ 
+def faktorial(n):
+    if n == 1:
+        return n
+    else:
+        return n*faktorial(n-1)
+
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n*factorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1: return 1
+    else: return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if (n == 0 or n == 1):
+        return 1
+    else:
+        return n* faktorial(n-1) 
+def faktorial(n):
+    if n==1:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 2:
+        return 2
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n * faktorial(n - 1) 
+def faktorial(n):
+    if n<1:
+        return 1
+    else:
+        while(n>0):
+            return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n-1) 
+def faktorial(n):
+    if n==1:
+        return n
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    for i in range (1, n+1):
+        a = i * (n-1)
+    return i
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n - 1)
+
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return (n)*faktorial(n-1)
+    return n
+ 
+def faktorial(n):
+    i=1
+    while n > 0:
+        n = n*(n-i)
+        i+=1
+    return n
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n-1)
+
+ 
+def faktorial(n):
+    return 1 if n < 1 else n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 
+def faktorial(n):
+    fakt = 1
+    while (n>0):
+        fakt= fakt*n
+        n-=1
+        
+    return fakt
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+
+ 
+def faktorial(n):
+    if n == 1: return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return n
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    f=1
+    if n==1:
+        f=1
+    else:
+        f=n*faktorial(n-1)
+    return f
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if (n == 1):
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return n
+    else:
+        return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n* faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * faktorial(n - 1)
+
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n-1)
+ 

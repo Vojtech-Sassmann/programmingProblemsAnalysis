@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{FloorDiv{}, }, Expr{Call{Attribute{}, }, }, }, Expr{Call{Call{Attribute{}, }, }, }, For{Assign{Add{}, Call{}, }, }, Print{}, }, }, }
+def binarne(n):
+    seznam=[]
+    bin=""
+    while n>0:
+        zbytek=n%2
+        n=n//2
+        seznam.append(zbytek)
+    str(seznam.reverse())
+    for i in seznam:
+            bin=bin+str(i)
+    print bin
+

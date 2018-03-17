@@ -1,0 +1,70 @@
+14;root{Module{FunctionDef{If{Compare{Mod{}, }, Print{Str{}, }, Print{Str{}, }, }, }, }, }
+def binarne(n):
+    if n % 2 == 0: print "0"
+    else: print "1"
+
+def binarne(n):
+    if n % 2 == 0:
+        print "0"
+    else:
+        print "1"
+
+def binarne(n):
+    if n % 2 == 0: print "0"
+    else: print "1"
+    n/=10
+
+def binarne(n):
+    if n % 2 == 0: print "0"
+    else: print "1"
+
+def binarne(n):
+    if n % 2 == 0: print "0"
+    else: print "1"
+
+def binarne(n):
+    while n :
+        if n % 2 == 1:
+            n /= 2
+            print "0",
+        else:
+            n= (n-1)/2
+            print "1",
+
+def binarne(n):
+    if n==7:
+        print 111
+
+def binarne(n):
+    if n==7:
+        print 111
+    elif n==11:
+        print 1011
+        
+
+def binarne(n):
+    if n==7:
+        print 111
+    elif n==11:
+        print 1011
+    elif n==58:
+        print 111010
+
+def binarne(n):
+    print int(n, 2)
+def binarne(n):
+    if n % 2 == 0: print "0"
+    else: print "1"
+
+def binarne(n):
+    if n % 2 == 0: print "0"
+    else: print "111"
+
+def binarne(n):
+    if n % 2 == 0: print "0"
+    else: print "111"
+ 
+def binarne(n):
+    if n > 0:
+        binarne(n // 2)
+        print n % 2 

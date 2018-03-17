@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Mod{}, }, AugAssign{Add{}, Call{}, }, Assign{Call{FloorDiv{}, }, }, }, Assign{Str{}, }, For{Call{Call{}, }, AugAssign{Add{}, Subscript{Index{UnaryOp{USub{}, }, Sub{}, }, }, }, }, Print{}, }, }, }
+def binarne(n):
+    cislo = ""
+    while n>0:
+        cislice = n%2
+        cislo += str(cislice)
+
+        n = int(n//2)
+    
+    cislo_p = ""
+    for i in range(len(cislo)):
+        cislo_p += cislo[-i-1]
+    print cisl 

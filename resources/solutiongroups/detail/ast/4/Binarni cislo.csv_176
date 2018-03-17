@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{ListComp{IfExp{Compare{In{}, Tuple{Str{}, Str{}, }, }, Str{}, }, comprehension{}, }, }, Assign{}, Assign{}, For{Subscript{Slice{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    retezec_clean = [i if i in ("0","1") else "0" for i in retezec]
+    mocnina = 0
+    soucet = 0
+    for i in retezec_clean[::-1]:
+        soucet += int(i) * 2 ** mocnina
+        mocnina += 1
+    return 

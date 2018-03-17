@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{If{Compare{Sub{}, Gt{}, }, Return{Mod{}, }, Return{Mod{}, }, }, }, }, }
+def nsd(a, b):
+    if b - a > 0:
+        return b%a
+    else:
+        return a%b
+ 

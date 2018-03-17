@@ -1,0 +1,5 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Return{Call{keyword{Lambda{Call{}, }, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return min(slova, key = lambda s: len(s))
+ 

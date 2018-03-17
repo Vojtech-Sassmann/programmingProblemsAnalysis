@@ -1,0 +1,21 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, While{Compare{NotEq{}, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, Subscript{Slice{}, }, }, Assign{Str{}, Add{}, Subscript{Slice{}, }, }, }, Assign{FloorDiv{}, }, }, Print{}, }, }, }
+def binarne(n):
+    text=""
+    i=0
+    while n!=0:
+        if(n%2==0):
+            text="0"+text[i:]
+        else:
+            text="1"+text[i:]
+        n=n//2
+    print text
+
+def binarne(n):
+    text=""
+    while n!=0:
+        if n % 2 == 0:
+            text="0"+text[0:]
+        else:
+            text="1"+text[0:]
+        n=n//2
+    print text 

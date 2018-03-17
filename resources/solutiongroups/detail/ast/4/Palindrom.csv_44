@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, Sub{}, }, Assign{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, AugAssign{Add{}, }, }, If{Compare{NotEq{}, }, Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    obracenyText = ""
+    for i in range(len(text) - 1):
+        pomocnaPismeno = text[len(text) - i - 1]
+        obracenyText += pomocnaPismeno
+    if text != obracenyText:
+        return False
+    return Tru 
+def palindrom(text):
+    obracenyText = ""
+    for i in range(len(text)):
+        pomocnaPismeno = text[len(text) - i - 1]
+        obracenyText += pomocnaPismeno
+    if text != obracenyText:
+        return False
+    return True
+ 

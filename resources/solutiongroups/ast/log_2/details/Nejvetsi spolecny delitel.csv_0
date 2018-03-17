@@ -1,0 +1,1857 @@
+271;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    nsd = 1
+    for i in range(max(a,b)):
+        if (a % i == 0) and (b % i == 0):
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(min(a,b), 1, -1):
+        if a % i == 0 and b % i == 0: 
+            return i
+    return 1
+ 
+def nsd(a, b):
+    for i in range(min([a,b]),1,-1):
+        if a % i == 0 and b % i == 0:
+            return i
+    return 1
+ 
+def nsd(a, b):
+    vetsi = max(a,b)
+    nsd = 1
+    for i in range(2,vetsi+1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(a+1,1,-1):
+        if ((b%i==0) and (a%i==0)):
+            return i
+                
+       
+ 
+def nsd(a, b):
+    for i in range(a+1,0,-1):
+        if ((b%i==0) and (a%i==0)):
+            return i
+                
+       
+ 
+def nsd(a, b):
+    maxdel=0
+    for i in range(a+1):
+        if a%i == 0 and b%i==0: maxdel=i
+    return maxdel
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(min(a,b)+1):
+        if (a % i == 0):
+            if (b % i == 0):
+                nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(1,min(a,b)):
+        if a % i == 0:
+            if b % i == 0:
+                max = i
+    return max
+ 
+def nsd(a, b):
+    max = 1
+    for i in range(1,min(a,b)):
+        if a % i == 0:
+            if b % i == 0:
+                max = i
+    return max
+ 
+def nsd(a, b):
+    max = 1
+    for i in range(1,min(a,b)+1):
+        if a % i == 0:
+            if b % i == 0:
+                max = i
+    return max
+ 
+def nsd(a, b):
+    cislo = 0
+    for i in range (1, a+1):
+        if b%i == 0 and a % i == 0:
+            if i > cislo:
+                cislo = i
+            
+    return cislo
+ 
+def nsd(a, b):
+    d=0
+    for i in range (1, b):
+        if a % i == 0 and b % i == 0:
+            d=i
+    
+    return d 
+def nsd(a, b):
+    for i in range(1, a+1):
+        if a % i == 0:
+            if b % i == 0:
+                nd = i
+    
+    return nd
+ 
+def nsd(a, b):
+    max = 1
+    for i in range(b + 1):
+        if (a % i == 0) and (b % i == 0):
+            if i > max:
+                max = i
+    return max
+ 
+def nsd(a, b):
+    for i in range(min(a,b), 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(a):
+        if a%i == 0:
+            if b%i == 0:
+                x = i
+    return x
+ 
+def nsd(a, b):
+    for i in range(a+1):
+        if a%i == 0:
+            if b%i == 0:
+                x = i
+    return x
+ 
+def nsd(a, b):
+    x=0
+    for i in range(1,a+b):
+        if a%i==0 and b%i==0:
+            x+=i/2
+    return x
+ 
+def nsd(a, b):
+    x=0
+    for i in range(1,a+b):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    c=1
+    for i in range (2, (min(a,b)+1)):
+        if (a%i)==0 and (b%i)==0:
+            c=i
+    return c
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(2, min(a, b)+1):
+        if a%i==0 and b%i==0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nd = 1
+    for i in range(a):
+        if a % i == 0 and b % i == 0:
+            nd = i
+    return nd
+ 
+def nsd(a, b):
+    nd = 1
+    for i in range(a+1):
+        if a % i == 0 and b % i == 0:
+            nd = i
+    return nd
+ 
+def nsd(a, b):
+    for i in range(1, a+1):
+        if a%i==0:
+            if b%i==0:
+                x=i
+    return x
+               
+ 
+def nsd(a, b):
+    c=0
+    for i in range(1,a+1):
+        if (a%i==0 and b%i==0):
+            c=i
+    return c
+            
+ 
+def nsd(a, b):
+    x=1
+    for i in range(1,b+1):
+        if a%i==0:
+            if b%i==0:
+                x=i
+    return x
+ 
+def nsd(a, b):
+    for i in range(2, a+1):
+        if a % i == 0 and b%i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nsd=1
+    for i in range(2, a+1):
+        if a%i==0 and b%i==0:
+            nsd=i
+    return nsd
+ 
+def nsd(a, b):
+    nejvetsi = 1
+    for i in range(2,a+1):
+        if a % i == 0 and b % i == 0:
+            nejvetsi = i
+    return nejvetsi
+ 
+def nsd(a, b):
+    x = 0
+    for i in range(2, a+b):
+        if a%i == 0 and b%i==0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    x = 0
+    for i in range(2, a+b):
+        if a%i == 0 and b%i == 0:
+            x = i
+    return x
+ 
+def nsd(a, b):
+    x = 0
+    for i in range(1, a+b):
+        if a%i == 0 and b%i == 0:
+            x = i
+    return x
+ 
+def nsd(a, b):
+    l=1
+    for i in range (1,a+1):
+        if a%i==0 and b%i==0:
+            l=i   
+    return l
+ 
+def nsd(a, b):
+    max_del = 0
+    for i in range(1, min(a, b) + 1):
+        for j in range(1, min(a, b) + 1):
+            if i % j == 0 and b % j == 0: 
+                max_del = j
+    return max_del
+ 
+def nsd(a, b):
+    max_del = 0
+    for i in range(1, min(a, b) + 1):
+        for j in range(1, min(a, b) + 1):
+            if i % j == 0 and max(a, b) % j == 0: 
+                max_del = j
+    return max_del
+ 
+def nsd(a, b):
+    nej = 1
+    for i in range(1,a):
+        if a % i == 0 and b % i == 0:
+            nej = i
+    return nej
+ 
+def nsd(a, b):
+    nej = 1
+    for i in range(1,a+1):
+        if a % i == 0 and b % i == 0:
+            nej = i
+    return nej
+ 
+def nsd(a, b):
+    nsd=1
+    for i in range (2, min (a,b)+1):
+        if a%i == 0 and b%i == 0:
+            nsd=i
+    return nsd
+ 
+def nsd(a, b):
+    d=1
+    f=1
+    for i in range(1,1+a):
+        if(a%i==0 and b%i==0):
+            d=i
+    return d 
+def nsd(a, b):
+    nsd=1
+    for i in range (2,min(a,b)+1):
+        if a%i ==0 and b%i==0:
+            nsd=i
+    return nsd
+ 
+def nsd(a, b):
+    res=0
+    for i in range(1,min(a, b)):
+        if a%i==0 and b%i==0:
+            res=i
+    return res
+ 
+def nsd(a, b):
+    res = 0
+    for i in range (1,min(a,b)):
+        if a%i==0 and b%i==0:
+            res=i
+    return res
+ 
+def nsd(a, b):
+    res = 0
+    for i in range (1,min(a,b)+1):
+        if a%i==0 and b%i==0:
+            res=i
+    return res
+ 
+def nsd(a, b):
+    y=0
+    for i in range(min(a,b)+1):
+        if (a%i==0 and b%i==0):
+            y=i        
+    return y
+ 
+def nsd(a, b):
+    for i in range(b,-1,-1):
+        if (a%i==0)and(b%i==0):
+            return i
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(2, min(a,b) + 1):
+        if a % i == 0 and b % i == 0:
+            nsd = i 
+    return nsd
+ 
+def nsd(a, b):
+    k=1
+    for i in range(1,a+b):
+        if (a%i==0 and b%i==0):
+            if i>k:
+                k=i
+    return k
+ 
+def nsd(a, b):
+    nsd=1
+    for i in range(2,min(a,b)+1):
+        if (a%i==0 and b%i==0):
+            nsd=i
+    return nsd
+ 
+def nsd(a, b):
+    x = 1
+    for i in range(a):
+        if a%i == 0 and b%i == 0:
+            x = i
+    return x
+ 
+def nsd(a, b):
+    x = 1
+    for i in range(a+1):
+        if a%i == 0 and b%i == 0:
+            x = i
+    return x
+ 
+def nsd(a, b):
+    for i in range(min([a, b])+1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i 
+def nsd(a, b):
+    for i in range(min([a, b])+1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+    return 1 
+def nsd(a, b):
+    d=1
+    for i in range(2, min(a,b)+1):
+        if a%i==0 and b%i==0:
+            d=i
+        
+    return d
+ 
+def nsd(a, b):
+    d=1
+    for I in range(2,(min(a,b)+1)):
+        if (a%I==0) and (b%I==0):
+            d=I
+    return d
+ 
+def nsd(a, b):
+    d=1
+    for i in range(2,(min(a,b)+1)):
+        if (a%i==0 and b%i==0):
+            d=i
+    return d
+ 
+def nsd(a, b):
+    delitel=1
+    for i in range (2, (min(a,b)+1),1):
+        if a%i==0 and b%i==0:
+            delitel=i
+    return delitel
+ 
+def nsd(a, b):
+    maximum = max(a, b)
+    for i in range(maximum-1,1,-1):
+        if (a%i==0 and b%i==0):
+           return i        
+     
+ 
+def nsd(a, b):
+    maximum = max(a, b)
+    for i in range(maximum-1,0,-1):
+        if (a%i==0 and b%i==0):
+           return i        
+     
+ 
+def nsd(a, b):
+    for i in range(1,a+1):
+        if (a%i)==0:
+            if (b%i)==0:
+                c=i
+    return c
+    
+            
+    
+ 
+def nsd(a, b):
+    delitel=1
+    for i in range(1,a+b):
+        if a%i==0 and b%i==0:delitel=i
+    return delitel
+ 
+def nsd(a, b):
+    nej=1
+    for i in range(1,a+1):
+        if ((a%i==0) and (b%i==0)): nej=i
+    return nej
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(2,min(a,b)+1):
+        if(a%i==0 and b%i==0):
+            nsd = i
+    
+    
+    
+    return nsd
+ 
+def nsd(a, b):
+    D = 0
+    for i in range(1, min(a, b)):
+        if a%i == 0 and b%i == 0:
+            D = i
+        if a == b:
+            D = a
+    return D 
+def nsd(a, b):
+    D = 0
+    for i in range(1, min(a, b)):
+        if a%i == 0 and b%i == 0:
+            D = i
+        if a == b:
+            D = a
+        return D 
+def nsd(a, b):
+    c=0
+    d=0
+    for i in range (a+b):
+        if (a%i==0 and b % i ==0):
+            c=i
+            if c>d:
+                d=c
+    return d
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:return i
+ 
+def nsd(a, b):
+    max=1
+    for i in range(1, a+1):
+        if (a%i == 0 and b%i==0):
+            max = i
+    return max
+ 
+def nsd(a, b):
+    for i in range(a):
+        if a%i==0 and b%i==0:
+            max = i
+    return max
+ 
+def nsd(a, b):
+    for i in range(a+1):
+        if a%i==0 and b%i==0:
+            max = i
+    return max
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i 
+def nsd(a, b):
+    f = 0
+    if a<b:
+        for i in range(0, a):
+            if (a % i == 0 and b % i == 0):
+                f = i
+        return f
+    
+ 
+def nsd(a, b):
+    for i in range(a,1,-1):
+        if a%i==0 and b%i==0:
+            return i
+    
+ 
+def nsd(a, b):
+    for i in range(a,0,-1):
+        if a%i==0 and b%i==0:
+            return i
+    
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a % i == 0 and b % i == 0 :
+                return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+    
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+        
+    
+ 
+def nsd(a, b):
+    k=1
+    for i in range(1,a+1):
+        if a%i==0:
+            if b%i==0:
+                k=i 
+    return k
+ 
+def nsd(a, b):
+    max = 1
+    for i in range(a):
+        if a % i == 0 and b % i == 0:
+            max = i
+    return max
+ 
+def nsd(a, b):
+    max = 1
+    for i in range(a+1):
+        if a % i == 0 and b % i == 0:
+            max = i
+    return max
+ 
+def nsd(a, b):
+    d = 1
+    for i in range(1,a/2 + 1):
+        if a % i == 0:
+            if b % i == 0:
+                d = i
+    return d
+ 
+def nsd(a, b):
+    d = 1
+    for i in range(1,a + 1):
+        if a % i == 0:
+            if b % i == 0:
+                d = i
+    return d
+ 
+def nsd(a, b):
+    nsd = 0
+    for i in range(min(a,b)):
+        if a%i==0 and b%i==0: nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(1,min(a,b)+1):
+        if a%i==0 and b%i==0: nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(min(a,b), 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b)):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),1, -1):
+        if a%i == 0 and b%i ==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0, -1):
+        if a%i == 0 and b%i ==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range (min(a,b)):
+        if a % i ==0 and b % i ==0:
+            d = i
+    return d
+ 
+def nsd(a, b):
+    for i in range (1,min(a,b)+1):
+        if a % i ==0 and b % i ==0:
+            d = i
+    return d
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(1, min(a, b)):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(1, min(a, b) + 1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nsd=1
+    for i in range(1, a + 1):
+        if (a % i== 0 ) and (b % i== 0):
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(min(a, b), 0,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b)):
+        if a%i==0 and b%i==0:
+            return max(i,i)
+ 
+def nsd(a, b):
+    nsd=1
+    for i in range (1,a+1):
+        if (a%i==0) and (b%i==0):
+            nsd=i
+    return nsd
+ 
+def nsd(a, b):
+    vec = 0
+    for i in range(1,min(a,b)+1):
+        if a % i == 0 and b % i == 0:
+            vec = i
+    return vec
+ 
+def nsd(a, b):
+    nd=0
+    for d in range (1,b+1):
+        if a%d==0 and b%d==0:
+            nd=d
+    return nd
+ 
+def nsd(a, b):
+    for i in range(1, a):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    for i in range(0, a+1):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(max(a, b) + 1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range (a):
+        if a%i==0:
+            if b%i==0:
+                x = i
+    return x
+ 
+def nsd(a, b):
+    for i in range (a+1):
+        if a%i==0:
+            if b%i==0:
+                x = i
+    return x
+ 
+def nsd(a, b):
+    x=0
+    for i in range (1, min(a, b)):
+        if (a%i == 0) and (b%i == 0):
+            x=i
+    return x
+ 
+def nsd(a, b):
+    x=1
+    for i in range (2, min(a, b)+1):
+        if (a%i == 0) and (b%i == 0):
+            x=i
+    return x
+ 
+def nsd(a, b):
+    for i in (range(min(a, b)))[::-1]:
+        if(a % i == 0 and b % i == 0):
+            return i
+        
+    return None
+ 
+def nsd(a, b):
+    for i in (range(min(a, b) + 1))[::-1]:
+        if(a % i == 0 and b % i == 0):
+            return i
+        
+    return None
+ 
+def nsd(a, b):
+    nsd = 0
+    for i in range(b+1):
+        if a%i == 0 and b%i == 0:
+            vysledek = i
+    return vysledek
+ 
+def nsd(a, b):
+    c = 1
+    for i in range(1, a + 1):
+        if a % i == 0:
+            if b % i == 0:
+                c = i
+    return c
+ 
+def nsd(a, b):
+   for i in range(9999):
+        if a%i == 0 and b%i == 0:
+            x=i
+   return x 
+def nsd(a, b):
+    delitel = 0
+    for i in range(a+1):
+        if a%i== 0 and b%i == 0:
+            delitel = i        
+    return delitel
+ 
+def nsd(a, b):
+    for i in range(1,a+1):
+        if a%i == 0 and b%i ==0:
+            x = i
+    return x
+ 
+def nsd(a, b):
+    k=0
+    for i in range(1,b+1):
+            if a%i==0 and b%i==0:
+                k=i
+            else:
+                print
+    return k
+ 
+def nsd(a, b):
+    vysledek = 1
+    for i in range (min(a,b), 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    vysledek = 1
+    for i in range (2, min (a,b)+1):
+        if a % i == 0 and b % i == 0:
+            vysledek = i
+    return vysledek
+ 
+def nsd(a, b):
+    n = min(a,b)
+    result = 1
+    for i in range(n+1):
+        if (a % i == 0 and b % i == 0):
+            result = i
+    return result
+ 
+def nsd(a, b):
+    x = min(a,b)
+    y = max(a,b)
+    
+    for i in range(x):
+        if a%i==0 and b%i==0:
+            d = i
+        
+    return d
+ 
+def nsd(a, b):
+    x = min(a,b)
+    y = max(a,b)
+    
+    for i in range(x+1):
+        if a%i==0 and b%i==0:
+            d = i
+        
+    return d
+ 
+def nsd(a, b):
+    x = min(a, b)
+    for i in range(x, 0, -1):
+        if (a % i)== 0 and (b % i) == 0:   
+            return i
+ 
+def nsd(a, b):
+    m=min(a,b)
+    for i in range (m,0,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range (1, max(a,b)):
+        if (a%i == 0) and (b%i == 0):
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range (1, max(a,b)+1):
+        if (a%i == 0) and (b%i == 0):
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    najvacsi_delitel = 0
+    for i in range(1,a+1):
+        if a%i == 0 and b%i == 0 and i > najvacsi_delitel:
+            najvacsi_delitel = i
+    return najvacsi_delitel
+        
+        
+    
+ 
+def nsd(a, b):
+    nd=1
+    for i in range (1,a+1):
+        if a%i==0 and b%i==0:
+            nd=i
+    return nd
+        
+    
+ 
+def nsd(a, b):
+    nejvetsi = 1
+    for d in range(1, min(a,b)+1):
+        if a%d ==0 and b%d == 0: nejvetsi = d
+    return nejvetsi
+ 
+def nsd(a, b):
+    for i in range (1,1+a):
+        if a % i == 0:
+            if b % i == 0:
+                x = i
+    return x
+ 
+def nsd(a, b):
+    d=1
+    for i in range (2,(min(a,b)+1),1):
+        if (a%i==0 and b%i==0):
+            d=i
+    return d
+ 
+def nsd(a, b):
+    x=0
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    for i in range(a):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    for i in range(a+1):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    cislo = -1
+    for i in range(1,b):
+        if(a % i == 0):
+            if(b % i == 0):
+                cislo = i
+    return cislo
+ 
+def nsd(a, b):
+    k=0
+    for i in range(1,a+1):
+        if a % i == 0:
+            if b % i == 0:
+                k=i
+    return k
+    
+ 
+def nsd(a, b):
+    for i in range(min(a, b)-1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a, b)-1, 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a, b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    m = max([a, b])
+    c = 1
+    for i in range(1, m+1):
+        if a%i == 0 and b%i == 0 and i>c:
+            c = i
+    return c
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range(12):
+        if a % i == 0 and b%i == 0:
+            d = i
+            if d > delitel:
+                delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(a):
+        if a%i == 0 and b%i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(a+1):
+        if a%i == 0 and b%i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    if a < b: a,b=b,a
+    for i in range(b+1):
+        if a % i == 0 and b % i ==0 : delitel = i
+    return delitel 
+def nsd(a, b):
+    s = 1
+    for i in range (1, a+1):
+        if b % i == 0:
+           if a % i == 0:
+                s = i
+    return s
+ 
+def nsd(a, b):
+    s=0
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            s=i
+    return s
+ 
+def nsd(a, b):
+    cislo = 0
+    for i in range(a):
+        if a % i == 0 and b % i == 0:
+            cislo = i
+    return cislo
+ 
+def nsd(a, b):
+    cislo = 0
+    for i in range(1,b+1):
+        if a % i == 0 and b % i == 0:
+            cislo = i
+    return cislo
+ 
+def nsd(a, b):
+    naj = max(a,b)
+    delitel=1
+    for i in range(1,naj):
+        if(a%i==0 and b%i==0):
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    delitel=1
+    for i in range(1,b+1):
+        if(a%i==0 and b%i==0):
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    for i in range(a, 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    m = min(a, b)
+    v = 1
+    for i in range(1, m+1):
+        if (a % i) == 0 and (b % i)== 0:
+            v = i
+    return v 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range(min(a,b)+1):
+        if a%i ==0 and b%i ==0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if (a%i==0 and b%i==0):
+            return i
+                   
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range (1,a+1):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel 
+def nsd(a, b):
+    delitel = 0
+    for i in range(1, min(a,b)) :
+        if a % i == 0 and b % i == 0 :
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range(1, min(a,b) + 1) :
+        if a % i == 0 and b % i == 0 :
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    nsd=0
+    for i in range (a):
+        if a%i==0 and b%i==0:
+            nsd=i
+            
+    return nsd
+ 
+def nsd(a, b):
+    nsd=0
+    for i in range (a+1):
+        if a%i==0 and b%i==0:
+            nsd=i
+            
+    return nsd
+ 
+def nsd(a, b):
+    c=0
+    for i in range(b):
+        if a%i==0 and b%i==0:
+            c=i
+    return c
+ 
+def nsd(a, b):
+    max = 0
+    for i in range(1, min(a, b)):
+        if (a % i == 0) and (b % i == 0):
+            max = i
+    return max
+ 
+def nsd(a, b):
+    max = 0
+    for i in range(1, min(a, b)+1):
+        if (a % i == 0) and (b % i == 0):
+            max = i
+    return max
+ 
+def nsd(a, b):
+    for i in range(a+1,1,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if (a%i==0 and b%i==0):
+            return i
+ 
+def nsd(a, b):
+    delitel=1
+    for i in range(1,min(a,b)+1):
+        if(a%i==0 and b%i==0):
+            delitel=i
+    return delitel
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range(2, min(a,b)):
+        if a%i == 0 and b%i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range(2, min(a,b)+1):
+        if a%i == 0 and b%i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    d=1
+    for i in range(2,(min(a,b)+1)):
+        if (a%i) == 0 and (b%i)==0:
+            d=i
+    return d
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(1, min(a, b)):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(1, min(a, b) + 1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range (1, min(a,b)+1):
+       if (a % i == 0) and (b % i ==0):
+            d=i
+    return d
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range(a+1):
+        if (a % i == 0) and (b % i == 0):
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    x = 0
+    for i in range(1,a+b+1):
+        if (a%i == 0 and b%i == 0):
+            if x<i:
+                x = i
+    return x
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i==0 and b%i==0:
+            return i
+ 
+def nsd(a, b):
+    max = 0
+    for i in range(a+1):
+        if a % i == 0 and b % i == 0 and i > max:
+            max = i           
+    return max
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range (1,a+1):
+        if a%i == 0 and b%i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range(a):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range(a+1):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    x=1
+    for i in range(1, a+1):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    smaller = a if (a < b) else b
+    delitel = 1
+    for i in range(smaller):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    smaller = a if (a < b) else b
+    delitel = 1
+    for i in range(smaller+1):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    k=0
+    for i in range(a*b):
+        if a%i==0 and b%i==0:
+                k=i
+    return k
+ 
+def nsd(a, b):
+    maxd = 0
+    for i in range(2,min(a,b)+1):
+        if a%i == 0 and b % i == 0:
+            maxd = i
+    return maxd 
+def nsd(a, b):
+    maxd = 0
+    for i in range(1,min(a,b)+1):
+        if a%i == 0 and b % i == 0:
+            maxd = i
+    return maxd 
+def nsd(a, b):
+    vysledok = 1
+    for i in range (2, min(a,b)+1):
+        if a%i==0 and b%i==0:
+            vysledok=i
+    return vysledok
+ 
+def nsd(a, b):
+    for i in range(a,0,-1):
+        for k in range(b,0,-1):
+            if a%i==0 and b%k==0 and i==k: return k
+ 
+def nsd(a, b):
+    deli = 1
+    for i in range(a+b):
+        if(a%i == 0 and b%i == 0):
+            deli = i
+    return deli 
+def nsd(a, b):
+    c=0
+    for x in range (a):
+        if a%x==0 and b%x==0:
+            c=x
+    return c
+ 
+def nsd(a, b):
+    c=0
+    for x in range (a+1):
+        if a%x==0 and b%x==0:
+            c=x
+    return c
+ 
+def nsd(a, b):
+    D=1
+    for i in range(a+1):
+        if (a%i)==0 and (b%i==0): D=i
+    return D
+ 
+def nsd(a, b):
+    iter=max(a,b)
+    for cislo in range(max(a,b)):
+        if(a%iter==0 and b%iter==0):
+            return iter
+        else:
+            iter=iter-1
+   
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range(1,a+1):
+        if a % i == 0 and b % i == 0 and i > delitel :
+            delitel = i
+    return delitel        
+ 
+def nsd(a, b):
+    max=0
+    for i in range(1,b+1):
+        if a%i==0 and b%i==0:max=i
+    return max
+ 
+def nsd(a, b):
+    max=0
+    for i in range(1,b+1):
+        if a%i==0 and b%i==0:max=i
+    return max
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range (1, a+1):
+        if a % i == 0:
+            if b % i == 0:
+                delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    maxd = 0
+    for i in range(2, min(a, b) + 1):
+        if a % i == 0 and b % i == 0:
+            maxd = i
+    return maxd
+ 
+def nsd(a, b):
+   maxd = 0
+   for i in range(1, min(a, b) + 1):
+        if a % i == 0 and b % i == 0:
+            maxd = i
+   return maxd 
+def nsd(a,b):
+    temp = 0
+    for i in range(1, a+b):
+        if a % i == 0 and b % i == 0:
+            temp = i
+    return temp 
+def nsd(a, b):
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    deli = 0
+    for i in range(1,b+1):
+        if (a % i == 0) and (b % i == 0):
+            deli = i
+    return deli
+ 
+def nsd(a, b):
+    nsd = 0
+    for i in range(1,max(a,b)+1):
+        if a % i == 0:
+            if b % i == 0:
+                nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nej = 1
+    for i in range(2,a+2):
+        if a%i==0:
+            if (b%i==0):
+                nej=i
+    return nej
+ 
+def nsd(a, b):
+    for i in range(1,a):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    maxd=0
+    for i in range(1,a+1):
+        for j in range(1,b+1):
+            if a%i==0 and b%j==0 and i==j:
+                maxd = i
+    return maxd
+ 
+def nsd(a, b):
+    for i in range (a):
+        if a % i == 0 and b % i == 0:
+            cislo = i
+    return cislo 
+def nsd(a, b):
+    for i in range(max(a,b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    for i in range(b):
+        if a % i == 0 and b % i == 0:
+            max = i
+    return max 
+def nsd(a, b):
+    for i in range(b+1):
+        if a % i == 0 and b % i == 0:
+            max = i
+    return max 
+def nsd(a, b):
+    for i in range (a + 1):
+        if a % i == 0 and b % i == 0:
+            c = i
+    return c
+ 
+def nsd(a, b):
+    n=0
+    for i in range (1,a+1):
+        if a%i==0:
+            if b%i==0:
+                n=i
+    return n
+ 
+def nsd(a, b):
+    for i in range(b):
+        if a%i==0 and b%i==0:
+            delit=i
+    return delit
+ 
+def nsd(a, b):
+    for i in range(1,b+1):
+        if a%i==0 and b%i==0:
+            delit=i
+    return delit
+ 
+def nsd(a, b):
+    nejvetsi = 0
+    for i in range(min(a,b)):
+        if a%i==0:
+            if b%i==0:
+                nejvetsi = i
+    return nejvetsi 
+def nsd(a, b):
+    nsd = 1
+    for i in range(1,min(a,b) + 1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nejvic=1
+    for i in range(0,b):
+        if a%i==0 and b%i==0:
+            nejvic=i
+    return nejvic
+ 
+def nsd(a, b):
+    x = 0
+    for i in range(1,max(a,b)):
+        if (a % i == 0) and (b % i == 0):
+            x = i
+    return x
+ 
+def nsd(a, b):
+    i = nsd
+    if a % i == 0 and b % i == 0:
+        print i
+        
+    return 1
+ 
+def nsd(a, b):
+    nsdel = 1
+    for i in range (min(a,b)):
+        if a%i==0:
+            if b%i==0:
+                nsdel = i
+    return nsdel
+ 
+def nsd(a, b):
+    nsd = 0
+    for i in range(1,b+1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(min(a, b), 0, -1):
+        if (b % i == 0) and (a % i == 0):
+            return i
+
+ 
+def nsd(a, b):
+    for i in range(min(a,b)+1):
+        if (a%i == 0 and b%i ==0):
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(min(a,b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    x = 0
+    for i in range(0,a+b):
+        if a % i == 0 and b % i == 0:
+            x = i
+    return x
+ 
+def nsd(a, b):
+    n = a + b
+    for i in range (1, n + 1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    for i in range(min(a,b),0,-1):
+        if a%i == 0 and b%i == 0:
+            return i
+ 
+def nsd(a, b):
+    c=0
+    for i in range(a):
+        if (a%i==0) and (b%i==0):
+            c=i
+    return c
+ 
+def nsd(a, b):
+    c=0
+    for i in range(1,a+1):
+        if (a%i==0) and (b%i==0):
+            c=i
+    return c
+ 
+def nsd(a, b):
+    for i in range(a - 1, 1, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+        else:
+            return 1
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range(2,a+1):
+        if(a%i == 0 and b%i == 0):
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    result = 0
+    for i in range(1, a+1):
+        if(a%i==0) and (b%i==0):
+            result = i
+    return result
+ 
+def nsd(a, b):
+    
+    for i in range(1,a+1):
+        if a%i ==0 and b%i ==0:
+            x = i
+    return x 
+def nsd(a, b):
+    max_delitel = 0 
+    for i in range(1,b+1):
+        if a%i == 0 and b%i == 0:
+            max_delitel = i
+    return max_delitel
+ 
+def nsd(a, b):
+    for i in range(1, min(a,b)+1):
+        if a%i==0 and b%i==0:
+            delitel=i
+    return delitel
+ 
+def nsd(a, b):
+    nsd = 0
+    
+    for i in range(abs(a-b)):
+        if a%i == b%i == 0:
+            nsd = i
+    
+
+        
+    return nsd
+ 
+def nsd(a, b):
+    vysl=1
+    for i in range(1,a+1):
+        if a%i==0 and b%i==0:
+            vysl=i
+    return vysl
+ 
+def nsd(a, b):
+    seznamcisel=[a,b]
+    nsd=1
+    for i in range(1,max(seznamcisel)+1):
+        if a%i==0 and b%i==0:
+            nsd=i
+    return nsd
+ 
+def nsd(a, b):
+    delitel = 0
+    for i in range(1, min(a,b)):
+        if (a%i==0) and (b%i==0):
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range (max(a,b)):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range (max(a,b) + 1):
+        if a % i == 0 and b % i == 0:
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    delitel=0
+    for i in range(1,b+1):
+        if a%i==0 and b%i==0:
+            delitel=i
+    return delitel
+ 
+def nsd(a, b):
+    a_div = []
+    b_div = []
+    for i in range(1, a+1):
+        if a%i == 0 and b%i == 0:
+            max = i
+    return max
+            
+ 
+def nsd(a, b):
+    nd=1
+    for i in range(min(a,b)):
+        if a%i==0 and b%i==0:nd=i
+    return nd
+ 
+def nsd(a, b):
+    nd=1
+    for i in range(min(a,b)+1):
+        if a%i==0 and b%i==0:nd=i
+    return nd
+ 
+def nsd(a, b):
+    result=0
+    for i in range(b):
+        if a%i==0 and b%i==0:
+            result= i
+    return result
+ 
+def nsd(a, b):
+    result=0
+    for i in range(a+b):
+        if a%i==0 and b%i==0:
+            result= i
+    return result
+ 
+def nsd(a, b):
+    for i in range(1,a):
+        if (a%i==0) and (b%i==0):
+            c=i
+    return c
+ 
+def nsd(a, b):
+    for i in range(1,a+1):
+        if (a%i==0) and (b%i==0):
+            c=i
+    return c
+ 
+def nsd(a, b):
+    result = 0
+    for i in range(a + 1):
+        if a % i == 0 and b % i == 0:
+            result = i
+    return result 
+def nsd(a, b):
+    result = 0
+    for i in range(a+1):
+        if b % i == 0 and a % i == 0:
+            result = i
+    return result
+ 
+def nsd(a, b):
+    x=0
+    for i in range(b):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    x=0
+    for i in range(a+b):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    for i in range(1,a+1):
+        if (a%i==0 and b%i==0):
+            d=i
+    return d
+ 
+def nsd(a, b):
+    x=0
+    for i in range(0,b+1):
+        if a%i==0 and b%i==0:
+            if x<i:
+                x=i
+    return x
+ 
+def nsd(a, b):
+    for i in range(1,a+1):
+        if a % i == 0 and b % i == 0:
+            deli = i
+    return deli
+ 
+def nsd(a, b):
+    nd=1
+    for i in range(1,a+b):
+        if (a % i == 0) and (b % i == 0):
+            nd=i
+    return nd
+ 
+def nsd(a, b):
+    for i in range (min(a,b),0,-1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    nsd = 1
+    for i in range (1,a+1):
+        if (a % i ==0) and (b % i ==0):
+            nsd = i
+    return nsd
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range(1,b+1):
+        if a%i == 0 and b%i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    x = 0
+    for i in range(1, a+1):
+        if a%i == 0 and b%i == 0:
+            x = i
+    return x
+ 
+def nsd(a, b):
+    for i in range(1,b):
+        if ((a % i ==0) and (b % i ==0)):
+            delitel = i
+    return delitel
+            
+    
+ 
+def nsd(a, b):
+    for i in range(1,a+b):
+        if ((a % i ==0) and (b % i ==0)):
+            delitel = i
+    return delitel
+            
+    
+ 
+def nsd(a, b):
+    naj = 1
+    for i in range(1,a+1):
+        if a % i == 0 and b%i == 0:
+           naj = i
+    return naj
+ 
+def nsd(a,b):
+    
+    for i in range (a+1, 0, -1):
+        if a%i == 0 and b%i == 0:
+            return i 
+def nsd(a, b):
+    for i in range(a+b):
+        if a%i==0 and b%i==0:
+            x=i
+    return x
+ 
+def nsd(a, b):
+    
+    delitel = 0
+    for i in range(a*b):
+        if(a%i == 0 and b%i ==0):
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    result=0
+    for i in range(1,b+1):
+        if a%i==0 and b%i==0:
+            result=i
+    return result
+ 
+def nsd(a, b):
+    s=0
+    for i in range(1,a+1):
+        if (a%i==0) and (b%i==0):
+            s=i
+    return s
+ 
+def nsd(a, b):
+    delitel=1
+    for i in range (a+1):
+        if a%i==0:
+            if b%i==0:
+                delitel = i
+    
+    return delitel
+ 
+def nsd(a, b):
+    nejvetsi = 1
+    for i in range (1, a+1):
+        if a % i == 0 and b % i == 0:
+            nejvetsi = i
+            
+    return nejvetsi
+    
+ 
+def nsd(a, b):
+    for x in range(a):
+        if a%x==0 and b%x==0:
+            n=x
+    return n
+ 
+def nsd(a, b):
+    j=0
+    for i in range (a+b):
+        if (a % i ==0):
+            if (b % i ==0):
+                j=i
+    return j
+ 
+def nsd(a, b):
+    for i in range(a):
+        if a%i==0 and b%i==0:
+            nsdd=i
+    return nsdd
+ 

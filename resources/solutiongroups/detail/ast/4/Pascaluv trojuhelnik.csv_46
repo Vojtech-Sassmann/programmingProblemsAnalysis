@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{}, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, }, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    seznam=[]
+    predchozi=[]
+    for row in range(pocet_radku):
+        podseznam=[1]
+        for col in range(1,row):
+            podseznam.append(predchozi[col-1]+predchozi[col])
+ 

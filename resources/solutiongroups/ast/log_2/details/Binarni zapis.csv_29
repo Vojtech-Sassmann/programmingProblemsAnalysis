@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Print{Subscript{Call{}, Slice{}, }, }, }, FunctionDef{Assign{Str{}, }, If{Return{Str{}, }, Return{Call{Mod{}, }, Add{}, Call{FloorDiv{}, }, }, }, }, }, }
+def binarne(n):
+    print helper(n)[::-1]
+def helper(n):
+    res = ""
+    if n == 0:
+        return ""
+    else:
+        return (str(n%2)+helper(n//2))
+

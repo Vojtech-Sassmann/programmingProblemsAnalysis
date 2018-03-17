@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{If{BoolOp{Or{}, Compare{NotEq{}, Str{}, }, Compare{NotEq{}, Str{}, }, }, Return{}, }, }, While{Compare{Call{}, Gt{}, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Sub{}, }, }, }, Sub{}, Mult{}, Pow{}, }, Assign{Subscript{Slice{Call{}, Sub{}, }, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(r):
+    sumis=0
+    moc=0
+    for i in r:
+        if i!="0" or i!="1":
+            return 0
+    while len(r)>0:
+        sumis+=(ord(r[len(r)-1])-48)*(2**moc)
+        r=r[:len(r)-1]
+        moc+=1
+    return su 

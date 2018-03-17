@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{NotEq{}, }, Assign{}, Print{Str{}, }, }, Print{Str{}, }, Print{}, }, }, }, }
+def ctverec(n):
+    for i in range(n+1):
+        if(i!=n): 
+            i = 0
+            print "+",
+        print "*",
+        print
+ 

@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{Call{}, Div{}, }, Assign{Add{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    sucet = 0
+    while n > 0:
+        cif = n % 10
+        n = int(n) / 10
+        sucet = cif + sucet
+    return 
+def ciferny_soucet(n):
+    sucet = 0
+    while n > 0:
+        cif = n % 10
+        n = n // 10
+        sucet = cif + sucet
+    return sucet
+
+ 

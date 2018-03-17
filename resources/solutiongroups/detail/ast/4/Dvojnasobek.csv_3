@@ -1,0 +1,36 @@
+5;root{Module{Assign{}, FunctionDef{Assign{Mult{}, }, Return{}, }, Assign{Call{}, }, Print{Str{}, Str{}, }, }, }
+n=2
+def dvojnasobek(n):
+    m=n*2
+    return m
+k=dvojnasobek(n)
+print "Dvojnasobek cisla", n , "je", k
+ 
+n=9
+def dvojnasobek(n):
+    m=n*2
+    return m
+k=dvojnasobek(n)
+print "Dvojnasobek cisla", n , "je", k
+ 
+n=1
+def dvojnasobek(n):
+    m=n*2
+    return m
+k=dvojnasobek(n)
+print "Dvojnasobek cisla", n , "je", k
+ 
+n=0
+def dvojnasobek(n):
+    m=n*2
+    return m
+k=dvojnasobek(n)
+print "Dvojnasobek cisla", n , "je", k
+ 
+n=9
+def dvojnasobek(n):
+    m=n*2
+    return m
+k=dvojnasobek(n)
+print "Dvojnasobek cisla", n , "je", k
+ 

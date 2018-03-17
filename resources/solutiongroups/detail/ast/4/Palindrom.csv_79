@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Assign{}, For{Call{Call{}, }, Expr{Call{Attribute{}, Subscript{Index{Call{}, Sub{}, }, }, }, }, AugAssign{Add{}, }, }, If{Compare{Call{Attribute{Str{}, }, }, Call{Attribute{Str{}, }, }, }, Expr{}, }, }, }, }
+def palindrom(text):
+    l = [text]
+    
+    reverse = []
+    count = 1
+    for i in range(0, len(text)):
+        reverse.append(text[len(text)-count])
+        count += 1
+    
+    if "".join(l) == "".join(reverse):
+        r 

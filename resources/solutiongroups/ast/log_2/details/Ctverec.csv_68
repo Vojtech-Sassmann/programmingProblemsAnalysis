@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, AugAssign{Add{}, Call{Attribute{Str{}, }, Mult{}, Str{}, }, }, AugAssign{Add{}, Call{Attribute{Str{}, }, Str{}, }, Add{}, Call{Attribute{Str{}, }, Sub{}, Mult{}, Str{}, }, Add{}, Call{Attribute{Str{}, }, Str{}, }, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{}, }, }, }, }, }
+def ctverec(n):
+    zackon = ""
+    stred = ""
+    zackon += "".join(n*"*")
+    stred += "".join("*") + "".join((n-2)*"+") + "".join("*")
+    for i in range(n):
+        if  i==0 or i==n-1:
+            print zackon
+ 

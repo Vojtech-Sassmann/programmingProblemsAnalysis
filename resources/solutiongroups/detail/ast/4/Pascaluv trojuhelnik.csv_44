@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Print{}, If{Compare{Lt{}, }, Return{}, }, Print{}, For{Call{Sub{}, }, Expr{Call{Attribute{}, }, }, For{Call{Call{}, Sub{}, }, Expr{}, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    l1 = [1,1]
+    l2 = []
+    print 1
+    if pocet_radku < 2: return
+    print 1,1
+    for n in range(pocet_radku-2):
+        l2.append(1)
+        for k in range(len(l1)-1):
+            l2 

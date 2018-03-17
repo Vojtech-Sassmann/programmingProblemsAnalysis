@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, Assign{Call{}, }, For{Call{Call{}, }, If{Compare{Mod{}, }, Print{}, Print{Str{}, }, }, Print{Tuple{}, }, }, }, }, }
+def cikcak (text):
+    given = str(text)
+    name = list(given)
+    for i in range(len(name)):    
+        if i % 2 == 0:
+            print name[i],
+        else:
+            print ".",
+        print()                      
+def cikcak (text):
+    given = str(text)
+    name = list(given)
+    for i in range(len(name)):    
+        if i % 2 == 0:
+            print name[i],
+        else:
+            print ".",
+    print                      

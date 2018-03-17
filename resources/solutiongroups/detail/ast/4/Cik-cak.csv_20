@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, Add{}, Subscript{Slice{}, }, }, Assign{Call{Attribute{Str{}, }, }, }, If{Compare{Call{}, Mod{}, }, Assign{Subscript{Slice{Call{}, Sub{}, Div{}, }, }, Add{}, Str{}, Add{}, Subscript{Slice{Call{}, Sub{}, Div{}, }, }, }, }, Print{Call{Attribute{Str{}, }, Subscript{Slice{Call{}, Div{}, }, }, }, }, }, }, }
+def cikcak(text):
+    revtext = text[0::2] + text[1::2]
+    dotext = ".".join(revtext)
+    if len(dotext)%2 == 1: dotext = dotext[:(len(dotext)-1)/2] + "." + dotext[(len(dotext)-1)/2:]
+    print " ".join(dotext[:len(dotext)/2])
+ 

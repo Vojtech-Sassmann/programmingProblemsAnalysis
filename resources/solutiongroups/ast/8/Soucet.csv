@@ -1,0 +1,6 @@
+597;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{Compare{GtE{}, }, AugAssign{Add{}, }, Assign{}, }, }, Return{}, }, }, }
+349;root{Module{FunctionDef{Return{}, }, }, }
+3;root{Module{FunctionDef{Assign{}, While{Compare{NotEq{}, }, Assign{Add{}, Sub{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+2;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{}, Return{Call{Sub{}, }, }, }, }, FunctionDef{Return{Call{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, Add{}, Sub{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Add{}, LtE{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, }, Return{Add{}, Sub{}, Add{}, }, }, }, }

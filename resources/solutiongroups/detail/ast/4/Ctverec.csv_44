@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{Mult{}, Str{}, }, Print{Str{}, }, }, }, Print{}, }, }, }
+def ctverec(n):
+    for i in range (n):
+        if i == 0 or i == n-1:
+            print n*"*"
+        else:
+            print "*+++++++++++++++++*"
+    print
+ 

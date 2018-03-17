@@ -1,0 +1,65 @@
+8;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{Call{}, }, }, AugAssign{Add{}, Mod{}, }, Assign{FloorDiv{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    zbytek = n
+    for i in range(len(str(n))):
+        soucet += zbytek % 10
+        zbytek = zbytek//10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    cislo = n
+    for i in range(len(str(n))):
+        soucet += cislo % 10
+        cislo = int(cislo/10)
+        
+    return soucet    
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range(len(str(n))):
+        soucet += n % 10
+        n = n//10
+    
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    x = n
+    for i in range(n+1):
+        soucet += x % 10
+        x = x // 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    cislokdeleni=n
+    for i in range(len(str(n))):
+        soucet += cislokdeleni % 10
+        cislokdeleni//=10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range (len(str(n))):
+        soucet += n % 10
+        n=n//10
+        
+       
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range (len(str(n)+1)):
+        soucet += n % 10
+        n = n // 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range(len(str(n))):
+        soucet += n % 10
+        n = n//10
+    return soucet
+ 

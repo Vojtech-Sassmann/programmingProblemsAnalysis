@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, }, }, Assign{}, Assign{}, While{Compare{Add{}, Lt{}, Call{}, }, If{Compare{Call{}, Gt{}, Call{Subscript{Index{Add{}, }, }, }, }, Assign{}, Assign{Subscript{Index{Add{}, }, }, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    vystup = slova[0]
+    n=0
+    while n+1 < len(slova):
+        if len(vystup) > len(slova[n+1]): vystup = vystup
+        else: vystup = slova[n+1]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    vystup = slova[0]
+    n=0
+    while n+1 < len(slova):
+        if len(vystup) >= len(slova[n+1]): vystup = vystup
+        else: vystup = slova[n+1]
+ 

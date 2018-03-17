@@ -1,0 +1,11 @@
+2;root{Module{FunctionDef{If{Compare{Gt{}, }, Expr{Call{FloorDiv{}, }, }, }, Print{Mod{}, }, }, }, }
+def binarne(n):
+   
+    if n>1:
+        binarne(n//2)
+    print n%2
+ 
+def binarne(n):
+    if n > 0:
+        binarne(n // 2)
+        print n % 2 

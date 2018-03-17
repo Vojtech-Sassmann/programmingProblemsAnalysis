@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Print{Str{}, Mult{}, }, Assign{}, While{Compare{Lt{}, Sub{}, }, Print{Str{}, Add{}, Str{}, Mult{}, Sub{}, Add{}, Str{}, }, AugAssign{Add{}, }, }, Print{Str{}, Mult{}, }, }, }, }
+def ctverec(n):
+    print "*"*n
+    pocet = 0
+    while pocet < n -2:
+        print"*"+"+"*(n-2)+"*"
+        pocet +=1
+    print "*"*n
+ 

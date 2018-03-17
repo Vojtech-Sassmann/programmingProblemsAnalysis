@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{}, For{If{AugAssign{Add{}, }, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    n = 0
+    for i in retezec:
+        if i == 1: n +=1
+        n *= 2
+    return n
+ 

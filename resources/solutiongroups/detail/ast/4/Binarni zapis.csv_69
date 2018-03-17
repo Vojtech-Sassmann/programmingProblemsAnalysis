@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{NotEq{}, }, Assign{Add{}, Call{Call{}, Mod{}, }, }, Assign{Call{}, Div{}, }, }, Assign{Call{Subscript{Slice{}, }, }, }, Print{}, }, }, }
+def binarne(n):
+    cislo = ""
+    while n != 0:
+        cislo = cislo + str (int(n)%2)
+        n = int(n)/2
+    cislo2 = int(cislo[::-1])
+    print cislo2
+

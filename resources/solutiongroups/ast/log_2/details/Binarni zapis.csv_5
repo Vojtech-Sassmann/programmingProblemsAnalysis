@@ -1,0 +1,116 @@
+12;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, }, Assign{FloorDiv{}, }, }, For{Call{Call{}, }, Print{}, }, }, }, }
+def binarne(n):
+    reverseresult = ""
+    while (n > 0):
+        if n % 2 == 0: reverseresult += "0"
+        else: reverseresult += "1"
+        n = n // 2   
+    for i in range(0,len(reverseresult)):
+        print reverseresult 
+def binarne(n):
+    cislo=""
+    while n>0 :
+        if n%2 == 1:
+            cislo+="1"
+        else :
+            cislo+="0"
+        n=n/2
+    print cislo
+def binarne(n):
+    f = []
+    h=n
+    while(h>0):
+        if(h%2==1):f+=[1]
+        else:f+=[0]
+        h = h //2
+    for i in range(len(f)):    
+     print f[i]   
+
+def binarne(n):
+    cislo = ""
+    while n > 0:
+        if n % 2 == 1:
+            cislo += "1"
+        else:
+            cislo += "0"
+        n = int(n / 2)
+    print cislo
+     
+   
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n % 2 == 0: zapis +="0"
+        else: zapis += "1"
+        n=n//2
+    return zapis
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n%2==0:
+            zapis+="0"
+        else:
+            zapis+="1"
+        n=n/2
+    return zapis
+        
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n%2==0:
+            zapis+="0"
+        else:
+            zapis+="1"
+        n=n/2
+    print 11110
+        
+
+def binarne(n):
+    b=" "
+    while n > 0:
+        if n % 2 == 0: b+="0"
+        else: b+="1"
+        n = n // 2
+    print b
+    return n
+def binarne(n):
+    binary=""
+    while n != 1:
+        if n % 2 == 0: binary += "0"
+        else: binary += "1"
+        n=n//2
+    for i in range(len(binary)*-1, 1):
+        print binary[i],
+
+def binarne(n):
+    new = ""
+    while n>0:
+        if n % 2 == 0:
+            new += "0"
+        else: new += "1"
+        n = n / 2
+    return int(new[::-1])
+def binarne(n):
+    a = ""
+    while n > 0:
+        if n%2 == 0:
+            a += "1"
+        else:
+            a += "0"
+        n = n//2
+    print a
+
+def binarne(n):
+    radek = ""
+    while n > 0:
+            x = n % 2
+            if x == 1:
+                radek += "1"    
+            else:
+                radek += "0"        
+            n = n//2
+    print radek
+ 

@@ -1,0 +1,25 @@
+5;root{Module{FunctionDef{For{Call{}, Print{Add{}, Add{}, }, }, }, }, }
+def fibonacci(n):
+    for i in range(n):
+        print i+(i+1),
+ 
+def fibonacci(n):
+    if n==1:
+        print 1
+    else:
+        print finonacci(n)+fibonacci(n+1)
+ 
+def fibonacci(n):
+    if n==1:
+        print 1
+    else:
+        print fibonacci(n)+fibonacci(n+1)
+ 
+def fibonacci(n):
+    for i in range(n):
+        print i,
+ 
+def fibonacci(n):
+    for i in range(n):
+        print i,
+ 

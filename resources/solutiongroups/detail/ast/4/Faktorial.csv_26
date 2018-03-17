@@ -1,0 +1,5 @@
+1;root{Module{FunctionDef{Assign{Mult{}, Sub{}, Mult{}, Sub{}, }, Return{}, }, }, }
+def faktorial(n):
+    n=n*(n-1)*(n-2)
+    return n
+ 

@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, While{BoolOp{And{}, Compare{Lt{}, }, Compare{Lt{}, }, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, Assign{Add{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    k=0
+    x=0
+    while x < a and x < b:
+        if a%x == 0 and b%x == 0:
+            k = x
+        x = x+1
+    return k
+ 
+def nsd(a, b):
+    k=0
+    x=0
+    while x != a and x != b:
+        if a%x == 0 and b%x == 0:
+            k = x
+        x = x+1
+    return k
+ 

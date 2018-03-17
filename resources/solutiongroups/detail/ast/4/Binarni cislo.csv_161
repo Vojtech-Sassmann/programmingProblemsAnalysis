@@ -1,0 +1,16 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, Assign{}, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Mult{}, }, }, For{Call{}, Assign{Call{Subscript{Slice{Add{}, }, }, }, }, Assign{Mult{}, }, }, }, }, }
+def vyhodnot(retezec):
+    b=0
+    c=len(retezec)
+    d=0
+    e=1
+    p=0
+    
+    for i in range(0,c-1):
+        e=e*2
+       
+    for x in range(0,c):
+        
+        b =int(retezec[x:x+1])
+        b = b*(e)
+ 

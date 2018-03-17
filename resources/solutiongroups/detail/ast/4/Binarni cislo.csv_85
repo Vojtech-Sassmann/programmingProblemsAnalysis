@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{Call{}, }, Assign{}, For{Call{Call{}, }, Assign{Call{Subscript{Index{Sub{}, }, }, }, Mult{}, Pow{}, }, Assign{Sub{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    
+    l = list(retezec)
+    x = len(retezec)
+    vysledek = 0
+    
+    for i in range(len(retezec)):
+        cislo = int(l[x-1])*2**i
+        x = x-1
+        vysledek += cislo
+        
+    return 

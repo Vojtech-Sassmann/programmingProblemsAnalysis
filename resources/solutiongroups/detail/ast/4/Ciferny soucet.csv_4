@@ -1,0 +1,108 @@
+12;root{Module{FunctionDef{Assign{}, While{Compare{NotEq{}, }, Assign{Mod{}, }, AugAssign{Add{}, }, Assign{Sub{}, Div{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    sum = 0
+    while n != 0:
+        rest = n % 10
+        sum += rest
+        n = (n - rest) / 10
+    return sum
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    while n>0:
+      a = n % 10
+      soucet += n % 10
+      n=(n-a)/10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    while n != 0:
+        zbytek = n % 10
+        soucet += zbytek
+        n = (n - zbytek)/10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    a=0
+    while n!=0:
+        a= n % 10
+        soucet+=a
+        n-=a
+        n/=10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    while n>0:
+        modulo = n % 10
+        soucet += modulo
+        n = (n-modulo) / 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    while n != 0:
+     posl_cislo = n % 10
+     soucet += posl_cislo
+     n = n // 10
+    
+    return soucet
+ 
+def ciferny_soucet(n):
+    sucet = 0
+    
+    
+    while n > 0:
+        
+        last = n % 10
+        sucet +=  last
+        n = n/10
+        
+    return sucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    
+    while n>0:
+        cif = n % 10
+        soucet += cif
+        n = n / 10
+    return soucet
+ 
+def ciferny_soucet(n):
+    sucet = 0
+    while n != 0:
+        cif = n % 10
+        sucet += cif
+        n = n // 10
+    return sucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    while n>0:
+        cifra = n % 10
+        soucet += cifra
+        n -= cifra
+        n /= 10
+        
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    while n>0:
+        a = n - n % 10
+        soucet += n - a
+        n = a / 10 
+    return soucet
+ 
+
+
+def ciferny_soucet(n):
+    s = 0
+    while n>0:
+        d = n % 10
+        s += d
+        n = (n-d)/10
+    return s 

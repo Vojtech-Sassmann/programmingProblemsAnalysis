@@ -1,0 +1,86 @@
+6;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{List{}, }, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+def fibonacci(n):
+    x=1
+    y=1
+    z=0
+    pole=[1,1]
+    print x,
+    print y,
+    for i in range(0,n-2):
+        z=x+y
+        y=x
+        x=z
+        print z,
+        
+ 
+def fibonacci(n):
+    f=0
+    pred=1
+    predpred=1
+    print pred,
+    print predpred,
+    for i in range(n-2):
+        f=pred+predpred
+        predpred=pred
+        pred=f
+        print f,
+ 
+def fibonacci(n):
+    j = 1
+    d = 1
+    f = 0
+    print j,
+    print d,
+    for i in range(n-2):
+        f = j + d
+        p = j
+        j = d
+        d = f
+        print f,
+ 
+def fibonacci(n):
+    x = 1
+    y = 1
+    z = 0
+    if n == 1: print x
+    if n == 0: return
+    else: print x, y,
+    for i in range(n - 2):
+        z = x + y
+        x = y
+        y = z
+        print y,
+ 
+def fibonacci(n):
+    a=n
+    s=1
+    j=1
+    n=0
+    
+    print (s),
+    print (j),
+    
+    for i in range(a -2):
+
+        n = s + j
+        j = s
+        s = n
+        
+        print s,
+
+ 
+def fibonacci(n):
+    f1 = 1
+    f2 = 1
+    f3 = 0
+    print f1,
+    print f2,
+    for i in range(n-2):
+        f3 = f1 + f2
+        f1 = f2
+        f2 = f3
+        
+        
+        
+        print f3,
+ 

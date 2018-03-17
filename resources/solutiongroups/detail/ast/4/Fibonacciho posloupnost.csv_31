@@ -1,0 +1,38 @@
+3;root{Module{FunctionDef{If{Return{}, If{Return{}, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }, FunctionDef{For{Call{Add{}, }, Print{Call{}, }, }, }, }, }
+def fib(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+    
+def fibonacci(n):
+    for i in range(1,n+1):
+        print fib(i),
+        
+
+    
+ 
+def fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+def fibonacci(n):
+    for i in range(n):
+        print fib(i+1), 
+def f(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return f(n-1)+f(n-2)
+
+def fibonacci(n):
+    for i in range(1,n+1):
+        print f(i),
+ 

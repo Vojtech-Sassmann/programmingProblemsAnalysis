@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Str{}, }, Compare{In{}, }, }, Continue{}, }, Print{Add{}, Str{}, Add{}, Call{Call{Attribute{}, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }, }
+def frekvencni_analyza(text):
+    printed = []
+    for ch in sorted(text):
+        if ch == " " or ch in printed:
+            continue
+        print ch + " " + str(text.count(ch))
+        printed.append(ch) 

@@ -1,0 +1,21 @@
+2;root{Module{FunctionDef{For{Call{Call{}, }, If{Compare{NotIn{}, List{}, }, Return{}, }, }, Assign{Call{}, }, Assign{}, Assign{}, While{Compare{NotEq{}, }, AugAssign{Add{}, Mod{}, Mult{}, Pow{}, }, }, }, }, }
+def vyhodnot(retezec):
+    for i in range(len(retezec)):
+        if retezec[i] not in [0,1]:
+            return 0
+    binc=int(retezec)
+    cislo=0
+    mocnina=0
+    while binc!=0:
+        cislo+=(binc%2)*(2**mocnina)
+ 
+def vyhodnot(retezec):
+    for i in range(len(retezec)):
+        if retezec[i] not in ["0","1"]:
+            return 0
+    binc=int(retezec)
+    cislo=0
+    mocnina=0
+    while binc!=0:
+        cislo+=binc%2*(2**mocnina)
+ 

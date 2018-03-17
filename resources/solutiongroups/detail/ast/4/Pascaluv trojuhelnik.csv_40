@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Print{}, For{Call{Sub{}, }, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    radek1 = [1]
+    print radek1
+    for i in range(pocet_radku - 1):
+        novy_radek = [1]
+        for j in range(len(radek1) - 1):
+            novy_radek.append(radek1[j] + radek1[j+1]) 

@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{Call{}, }, AugAssign{Add{}, Pow{}, Call{}, Sub{}, Sub{}, }, }, If{Compare{Call{}, }, AugAssign{Add{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    sucet = 0
+    for i in range(len(retezec)):
+        if int(retezec[i]) == 1:
+            sucet += 2 ** (len(retezec) -1 -i)
+        if int(retezec[i]) == 0:
+            sucet += 0
+    return sucet
+ 

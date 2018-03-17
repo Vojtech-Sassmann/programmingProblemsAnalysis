@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{List{}, Mult{}, }, For{Assign{Call{}, Sub{}, Call{Str{}, }, }, AugAssign{Add{}, }, }, For{Call{}, If{Compare{Gt{}, }, Print{Call{Add{}, }, }, }, }, }, }, }
+def frekvencni_analyza(slovo):
+    seznam=[0]*26
+    for pismeno in slovo:
+        a=ord(pismeno)-ord("a")
+        seznam[a]+=1
+    for n in range (0,26):
+        if seznam[n]>0:
+            print chr(97+n), (seznam[n]) 
+ 
+def frekvencni_analyza(slovo):
+    seznam=[0]*26
+    for pismeno in slovo:
+        a=ord(pismeno)-ord("a")
+        seznam[a]+=1
+    for n in range (0,26):
+        if seznam[n]>0:
+            print chr(97+n), seznam[n]
+ 

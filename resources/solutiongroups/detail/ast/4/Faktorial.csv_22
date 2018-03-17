@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{For{Call{Add{}, }, If{Return{}, Return{Mult{}, Call{Sub{}, }, }, }, }, }, }, }
+def faktorial(n):
+    for i in range(n+1):
+        if i==0:
+            return 1
+        else:
+            return i*faktorial(n-1)
+ 

@@ -1,0 +1,10 @@
+1;root{Module{Import{alias{}, }, FunctionDef{Assign{Call{}, }, Assign{}, For{Call{Call{}, }, Assign{Add{}, Mod{}, Mult{}, Call{Attribute{}, }, }, Assign{FloorDiv{}, }, }, Return{Call{}, }, }, }, }
+import math
+def vyhodnot(retezec):
+    x = int(retezec)
+    suc = 0
+    for i in range(len(retezec)):
+        suc =suc+ x % 10 * math.pow(2, i)
+        x = x//10
+        
+    return int(suc) 

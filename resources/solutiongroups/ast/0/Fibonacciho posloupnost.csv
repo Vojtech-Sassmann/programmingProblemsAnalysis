@@ -1,0 +1,334 @@
+83;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+32;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+30;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{}, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+30;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+25;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+13;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+11;root{Module{FunctionDef{Assign{}, Print{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+11;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Add{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+10;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+10;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+10;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+9;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+9;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+8;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+6;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+6;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+6;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+5;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, AugAssign{Add{}, }, Assign{}, }, }, }, }
+5;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+5;root{Module{FunctionDef{Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+5;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, For{Call{}, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, For{Print{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+4;root{Module{FunctionDef{For{Call{}, Print{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Add{}, }, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{Add{}, }, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, Assign{}, AugAssign{Add{}, }, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, For{Call{}, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Print{}, Assign{}, Print{}, For{Call{Add{}, }, Assign{}, AugAssign{Add{}, }, Assign{}, Print{}, }, }, }, }
+3;root{Module{FunctionDef{If{Print{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Add{}, }, }, }, For{Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{Add{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Assign{}, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, For{Call{}, Assign{}, Assign{Add{}, }, Assign{}, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, Print{Str{}, }, For{Call{Sub{}, }, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, If{Compare{Lt{}, }, Return{}, If{Print{}, Print{}, Assign{}, While{Compare{Lt{}, }, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }, }, }
+2;root{Module{FunctionDef{If{BoolOp{Or{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{Str{}, }, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, AugAssign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+2;root{Module{FunctionDef{If{Print{}, Print{Call{}, Add{}, Call{Add{}, }, }, }, }, }, }
+2;root{Module{FunctionDef{If{Return{}, If{Return{}, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }, FunctionDef{For{Call{Add{}, }, Print{Call{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{Sub{}, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+2;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, AugAssign{Add{}, }, Assign{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Print{}, While{Compare{LtE{}, Mult{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Print{}, While{Compare{Lt{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, }, Return{}, }, For{Call{}, Print{Call{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, For{Call{Sub{}, }, Assign{}, AugAssign{Add{}, }, Assign{}, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{BoolOp{Or{}, }, Print{}, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Print{}, If{Print{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, For{Call{}, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Compare{Lt{}, }, Print{}, Print{Add{}, }, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{Add{}, }, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{}, Print{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Add{}, }, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Add{}, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, If{Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{}, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, If{Compare{Gt{}, }, For{Call{}, Expr{Call{Attribute{}, Add{}, }, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, If{Return{}, }, If{Print{}, Return{}, }, For{Call{}, Assign{Add{}, List{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, If{Expr{Call{Attribute{}, }, }, }, If{Expr{Call{Attribute{}, }, }, }, If{Compare{Gt{}, }, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{Sub{}, }, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, }, For{Call{}, Print{}, Assign{Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Print{}, If{Print{}, Print{Add{}, }, Assign{}, Assign{}, AugAssign{Add{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{For{Call{}, If{Compare{Lt{}, }, Print{}, Assign{}, Assign{}, Print{Add{}, }, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Add{}, }, }, Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Print{}, If{Print{}, Assign{Add{}, }, Print{}, Assign{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, }, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, If{Compare{LtE{}, }, Print{}, Print{}, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, For{Call{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, For{Call{Call{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Print{}, AugAssign{Add{}, }, Assign{Sub{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{List{}, }, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Add{}, }, Assign{}, Print{Str{}, }, While{Compare{Lt{}, Add{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, Return{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{Str{}, }, While{Compare{Lt{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, While{Compare{Lt{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Div{}, }, Assign{Add{}, }, Print{}, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, AugAssign{Sub{}, }, If{Compare{Mod{}, }, For{Call{Div{}, }, Assign{Add{}, }, Print{}, Assign{Add{}, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, While{Compare{Lt{}, Sub{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{Str{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{Compare{Gt{}, }, Print{}, }, If{Compare{Gt{}, }, Print{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, For{Call{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, AugAssign{Add{}, }, Assign{Sub{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{}, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, If{Compare{Lt{}, }, Print{}, AugAssign{Add{}, List{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Print{Str{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Expr{Call{Attribute{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{}, Assign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{}, Assign{}, Print{}, For{Call{}, Assign{}, AugAssign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Print{}, Print{}, For{Call{Sub{}, }, AugAssign{Add{}, List{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{FunctionDef{If{Compare{In{}, Tuple{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, For{Call{}, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Print{Add{}, }, Assign{}, AugAssign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{Sub{}, }, Assign{Add{}, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{BoolOp{Or{}, }, Assign{}, Assign{Add{}, }, Assign{}, Assign{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, Assign{Add{}, }, For{Call{Sub{}, }, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, Assign{}, For{Call{Sub{}, }, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{}, Print{Call{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, If{Return{}, }, Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, While{Compare{Gt{}, }, Print{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, For{Call{}, Print{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Div{}, Sub{}, }, Assign{Add{}, }, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Lt{}, }, Assign{Tuple{}, Tuple{Add{}, Add{}, }, }, }, Return{}, }, FunctionDef{For{Call{}, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{Add{}, }, AugAssign{Add{}, }, Print{Add{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Lt{}, }, Print{Add{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, If{Break{}, }, Print{Add{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{Compare{Lt{}, }, Return{}, If{Print{}, Print{}, Assign{}, While{Compare{Lt{}, }, Assign{}, Assign{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{}, If{Compare{Lt{}, Div{}, Sub{}, }, Print{}, }, Assign{Add{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{}, If{BoolOp{And{}, Compare{Lt{}, Div{}, }, Compare{Mod{}, }, }, Print{}, }, Assign{Add{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{LtE{}, }, Return{}, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, Print{}, AugAssign{Add{}, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Add{}, }, If{BoolOp{Or{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{}, Assign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{LtE{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{}, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{Sub{}, }, If{Print{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{Print{Str{}, }, If{Print{Str{}, }, If{Print{Str{}, Str{}, }, Assign{}, Assign{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, If{Compare{Gt{}, }, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, While{Compare{LtE{}, Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, AugAssign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{ListComp{comprehension{Call{}, }, }, }, For{Call{Call{}, }, If{BoolOp{Or{}, }, Assign{}, If{Compare{Gt{}, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{Add{}, }, Print{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, If{Print{}, Print{}, }, For{Call{}, Assign{Add{}, }, Assign{}, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{}, Print{}, While{Compare{LtE{}, }, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, Print{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Assign{}, Assign{Add{}, }, Assign{}, Assign{}, }, Print{}, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{Add{}, }, Assign{Add{}, }, If{Compare{Gt{}, }, Assign{Sub{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Lt{}, }, Print{Str{}, }, Assign{}, Assign{}, Assign{Call{}, Add{}, Str{}, Add{}, Call{}, }, For{Call{Sub{}, }, Assign{}, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Mod{}, Print{}, AugAssign{Add{}, }, Print{}, AugAssign{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, Assign{Sub{}, }, AugAssign{Sub{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{}, AugAssign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{}, Print{Add{}, Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Return{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, AugAssign{Add{}, }, Assign{Sub{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Assign{}, While{Compare{Lt{}, }, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, Print{}, Assign{}, While{Compare{Lt{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Add{}, }, If{Print{}, If{Print{}, Expr{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Print{}, Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{Tuple{}, Tuple{}, }, Print{}, While{Compare{Lt{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, Print{}, For{Call{Sub{}, }, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Print{}, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{}, AugAssign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{Tuple{}, Tuple{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, Assign{}, While{Compare{NotEq{}, }, Print{Add{}, }, Assign{}, Assign{}, Assign{Add{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, If{Return{}, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }, FunctionDef{For{Call{}, Print{Call{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{Print{}, Return{}, }, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{IfExp{Compare{Mod{}, }, Div{}, Div{}, Sub{}, }, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Gt{}, }, Print{}, }, If{Compare{Gt{}, }, Print{}, }, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{Compare{NotEq{}, }, Print{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Compare{Gt{}, }, Assign{Tuple{}, Tuple{}, }, }, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{Tuple{}, Tuple{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{Compare{Gt{}, }, Print{}, }, If{Compare{Gt{}, }, Print{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{Add{}, }, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{Print{}, If{Compare{Gt{}, }, Print{Str{}, }, }, }, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Print{Str{}, }, While{Compare{Call{}, NotEq{}, }, Assign{Add{}, }, Expr{Call{Attribute{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{AugAssign{Sub{}, }, Assign{}, Assign{}, Print{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, AugAssign{Add{}, }, Assign{Sub{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, Assign{Str{}, }, For{Call{}, Assign{Add{}, Str{}, Add{}, Call{}, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{}, For{Call{Add{}, }, AugAssign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, If{Compare{LtE{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, }, Assign{}, Assign{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, Mult{}, }, Assign{}, Assign{}, Print{}, Print{}, For{Call{}, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{Str{}, }, Assign{}, While{Compare{Lt{}, }, Assign{Add{}, }, Assign{}, Assign{}, AugAssign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Assign{}, Print{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, If{Compare{NotEq{}, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Print{}, For{Call{Add{}, }, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, If{Print{}, If{Print{}, Print{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, If{Print{}, }, If{Return{}, Print{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{If{Print{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{}, While{Compare{Gt{}, }, Assign{}, AugAssign{Add{}, }, AugAssign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{}, If{Assign{}, Print{}, If{Assign{}, Print{}, Assign{Add{}, }, Print{}, Assign{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, Assign{}, For{Call{Sub{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, AugAssign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{BoolOp{Or{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Print{}, Assign{}, Assign{}, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{If{Print{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Add{}, }, Print{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, If{Return{}, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Assign{}, Print{}, While{Compare{NotEq{}, Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Compare{LtE{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, While{Compare{LtE{}, Mult{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{Sub{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{}, Assign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{Assign{}, Assign{}, FunctionDef{For{Call{}, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{Str{}, }, For{Call{Sub{}, }, Print{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{Compare{GtE{}, }, Print{}, }, If{Compare{GtE{}, }, Print{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Print{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{Tuple{}, Tuple{}, }, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Expr{Call{Attribute{}, }, }, }, For{Call{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, If{Print{Str{}, }, Print{Str{}, }, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, }, Assign{List{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, Print{Subscript{Index{Add{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Return{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{}, Assign{}, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{Print{Str{}, }, FunctionDef{Assign{}, Assign{}, For{Call{Sub{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, For{Call{}, Assign{}, AugAssign{Add{}, }, Print{}, }, }, Assign{}, }, }
+1;root{Module{FunctionDef{If{Compare{LtE{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{Str{}, }, Print{Str{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Subscript{Index{Add{}, }, }, Add{}, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{FloorDiv{}, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{FloorDiv{}, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{FloorDiv{}, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{FloorDiv{}, }, Print{}, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, If{Compare{Mod{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{}, Print{}, AugAssign{Add{}, }, AugAssign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{FloorDiv{}, }, While{Compare{NotEq{}, }, Print{}, AugAssign{Add{}, }, AugAssign{Add{}, }, AugAssign{Sub{}, }, }, If{Compare{Mod{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, For{Call{Add{}, }, Print{}, Assign{Add{}, }, Assign{}, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{Str{}, }, For{Call{Sub{}, }, Assign{}, Assign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Gt{}, }, Print{Str{}, }, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Add{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{Add{}, }, For{Call{}, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, Assign{}, Assign{}, Print{}, For{Call{}, Assign{}, Assign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, If{Compare{Gt{}, }, Print{}, }, For{Call{Sub{}, }, Print{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{}, Print{}, Assign{Tuple{}, Tuple{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Print{}, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, Print{}, For{Call{Add{}, }, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, Assign{}, Assign{}, Print{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{FunctionDef{If{Compare{In{}, Tuple{}, }, Return{}, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, For{Call{Add{}, }, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, For{Call{}, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, }, }, FunctionDef{For{Call{Add{}, }, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{BoolOp{Or{}, }, Print{}, Assign{Add{}, }, Print{}, Expr{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Print{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, Sub{}, }, Print{}, Assign{Add{}, }, Print{}, Assign{Add{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{}, Assign{Add{}, }, Print{}, Assign{Add{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Sub{}, Div{}, }, Print{}, Assign{Add{}, }, Print{}, Assign{Add{}, }, }, If{Compare{Mod{}, NotEq{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{}, Print{Add{}, }, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, For{Call{}, Assign{Tuple{}, Tuple{}, }, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Print{}, Print{}, For{Call{Sub{}, }, Assign{Subscript{Index{Add{}, }, }, }, Assign{}, Assign{Add{}, }, Expr{Call{Attribute{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, For{Call{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{}, Print{BoolOp{And{}, }, }, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{Add{}, }, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, If{Compare{Gt{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{Call{}, }, Assign{Add{}, }, Print{}, Print{}, For{Call{Sub{}, }, Print{}, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{}, Assign{Add{}, }, Assign{}, Print{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, For{Call{}, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Assign{Tuple{}, Tuple{}, }, For{Call{Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, Expr{Call{Attribute{}, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{}, }, For{Call{Add{}, }, Expr{Call{Attribute{}, }, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{}, }, For{Call{}, Expr{Call{Attribute{}, }, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{}, }, Print{}, For{Call{}, Expr{Call{Attribute{}, }, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{If{BoolOp{Or{}, }, Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{Add{}, }, Print{Call{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, Mult{}, }, Print{}, For{Call{Add{}, }, Print{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{}, Assign{}, Assign{Add{}, }, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, If{Compare{GtE{}, }, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, If{Print{}, }, }, Expr{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, While{Compare{Lt{}, }, Assign{Add{}, }, Assign{}, Assign{}, AugAssign{Add{}, }, Print{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Div{}, }, Print{}, Assign{Add{}, }, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{Sub{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{}, For{Call{}, If{Print{}, Assign{Add{}, }, Print{Add{}, }, Assign{}, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Assign{}, Print{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{}, If{BoolOp{Or{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, Expr{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{Str{}, Str{}, }, For{Call{Sub{}, }, Print{Add{}, }, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{}, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Compare{Mod{}, }, Print{}, Assign{Add{}, }, Print{}, Assign{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, For{Call{Sub{}, }, Print{Add{}, }, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Print{}, Assign{Tuple{}, Tuple{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{List{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Subscript{Index{Call{}, Sub{}, }, }, Add{}, Subscript{Index{Call{}, Sub{}, }, }, }, }, }, For{Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Assign{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{}, For{Call{}, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Add{}, }, Assign{}, Assign{}, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, While{Compare{Lt{}, Mult{}, }, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{}, While{Compare{Lt{}, }, Print{}, Assign{Add{}, }, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Add{}, }, Print{}, Print{}, Print{}, For{Call{Sub{}, }, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Sub{}, }, Assign{}, Assign{Add{}, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{Add{}, }, Assign{Add{}, }, Assign{}, Assign{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{FloorDiv{}, Add{}, }, Assign{Add{}, }, Assign{Add{}, }, Print{}, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, Expr{}, For{Call{}, Print{}, Assign{}, Assign{Add{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{Str{}, }, While{Compare{Lt{}, }, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{Str{}, }, For{Call{}, Print{}, Assign{Add{}, }, Assign{Sub{}, }, }, }, }, }
+1;root{Module{FunctionDef{Print{}, Print{}, Assign{}, Assign{}, For{Call{Sub{}, }, Assign{Add{}, }, Assign{Sub{}, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{}, For{Call{}, Print{}, }, Assign{Add{}, }, Assign{Sub{}, }, }, }, }

@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{}, While{Compare{Gt{}, }, Assign{}, AugAssign{Add{}, }, AugAssign{Add{}, }, Assign{}, Print{}, }, }, }, }
+def fibonacci(n):
+    b=1
+    a=0
+    cit=0
+    fib=0
+    while n>cit:
+        a=fib
+        cit+=1
+        fib+=b
+        b=a
+        print fib,
+ 

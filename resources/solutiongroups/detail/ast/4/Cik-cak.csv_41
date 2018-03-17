@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{For{Call{}, For{Call{Call{}, }, If{Compare{Add{}, Mod{}, }, Print{Subscript{Index{Add{}, Sub{}, }, }, }, Print{Str{}, }, }, }, Print{}, }, }, }, }
+def cikcak(text):
+    for i in range(0,2):
+        for j in range (len(text)):
+            if (i+j)%2==0: print text[i+j-i],
+
+            else: print ".",
+        print 

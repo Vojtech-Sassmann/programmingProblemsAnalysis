@@ -1,0 +1,46 @@
+5;root{Module{FunctionDef{If{Compare{Lt{}, }, Assign{Tuple{}, Tuple{}, }, }, While{Compare{NotEq{}, }, Assign{Mod{}, }, Assign{Tuple{}, Tuple{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    if a < b: a,b=b,a
+    while b != 0:
+        a = a % b
+        a,b = b,a
+    return a
+ 
+def nsd(a, b):
+    if b>a:
+        a,b=b,a
+    while a%b!=0:
+        c=a%b
+        a,b=b,c
+    return b
+ 
+def nsd(a, b):
+    if (b > a):
+        a, b = b, a
+    while (b != 0):
+        a, b = b, a % b
+    return a
+ 
+def nsd(a, b):
+    if a < b:
+        a,b = b,a
+    while(b <> 0):
+        r = a % b
+        a = b
+        b = r
+    return a
+ 
+def nsd(a,b):
+    zbytok = 1
+    
+    if a < b:
+        a,b=b,a
+        
+    while zbytok <> 0:
+        zbytok = a % b
+        a = b
+        if zbytok ==0 :
+            break
+        else:
+            b = zbytok
+    retu 

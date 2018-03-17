@@ -1,0 +1,69 @@
+7;root{Module{FunctionDef{Assign{}, Assign{Call{}, Sub{}, }, For{Call{Call{}, }, If{Compare{Subscript{Index{UnaryOp{USub{}, }, }, }, Str{}, }, AugAssign{Add{}, Pow{}, }, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    soucet =0
+    rad = len(retezec)-1
+    for i in range(len(retezec)):
+        if retezec[-i] == "1":
+            soucet += 2**rad
+        rad -=1
+        
+                 
+    return soucet
+ 
+def vyhodnot(retezec):
+    soucet =0
+    rad = len(retezec)-1
+    for i in range(len(retezec)):
+        if retezec[-i] == "1":
+            soucet += 2**rad
+        rad -=1
+        
+    soucet -= 1             
+    return souce 
+def vyhodnot(retezec):
+    soucet =0
+    rad = len(retezec)-1
+    for i in range(len(retezec)):
+        if retezec[-i] == "1":
+            soucet += 2**rad
+        rad -=1
+        
+                
+    return soucet
+ 
+def vyhodnot(retezec):
+    soucet =0
+    rad = len(retezec)-1
+    for i in range(len(retezec)):
+        if retezec[-1-i] == "1":
+            soucet += 2**rad
+        rad -=1
+        
+                
+    return soucet
+ 
+def vyhodnot(retezec):
+    r = 0
+    for i in range(len(retezec)):
+        if retezec[-i-1] =="1":
+            r += 2**i
+    return r
+ 
+def vyhodnot(retezec):
+    h=0
+    for i in range(len(retezec)):
+        if retezec[-i-1] == "1":
+            h += 2**i
+    return h
+ 
+def vyhodnot(retezec):
+    vysl = 0
+    dlzka = len(retezec) - 1
+    for i in range(len(retezec)):
+        if retezec[i] == "1":
+            vysl += 2**dlzka
+        dlzka -= 1
+    return vysl
+        
+        
+ 

@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Expr{Call{Attribute{}, }, }, For{Call{Call{}, }, If{BoolOp{And{}, Compare{NotEq{}, Subscript{Index{Sub{}, }, }, }, Compare{Call{}, Gt{}, }, Compare{Call{}, Lt{}, }, }, Print{Call{Attribute{}, }, }, }, }, }, }, }
+def frekvencni_analyza(text):
+    t=list(text)
+    t.sort()
+    for i in range(len(t)):
+        if t[i]<>t[i-1] and ord(t[i])>96 and ord(t[i])<123:
+            print t[i], t.count(t[i])
+     
+ 

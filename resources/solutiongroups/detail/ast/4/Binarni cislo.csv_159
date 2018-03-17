@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, AugAssign{Mult{}, }, AugAssign{Add{}, Call{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    res = 0
+    for i in range(len(retezec)):
+        res *= 2
+        res += int(retezec[i])
+    return res
+ 

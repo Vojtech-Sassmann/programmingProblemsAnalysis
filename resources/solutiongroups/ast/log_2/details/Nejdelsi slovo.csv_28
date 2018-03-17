@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{Dict{List{}, }, }, For{If{Compare{Call{}, NotIn{}, }, Assign{Subscript{Index{Call{}, }, }, List{}, }, }, Expr{Call{Attribute{Subscript{Index{Call{}, }, }, }, }, }, }, Assign{Subscript{Index{Call{Call{Attribute{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    d = {0:[]}
+    for slovo in slova:
+        if len(slovo) not in d: d[len(slovo)]=[]
+        d[len(slovo)].append(slovo)
+    a = (d[max(d.keys())])
+    a.sort()
+    return a 

@@ -1,0 +1,28 @@
+3;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, For{Call{Call{}, }, Assign{Call{}, }, If{Compare{NotEq{}, }, If{Compare{Add{}, GtE{}, }, Assign{Add{}, Sub{}, }, }, }, }, }, }, }
+def caesar(text, klic):
+    text1 = ""
+    pom = 0
+    for i in range(len(text)):
+        znak = ord(text[i])
+        if znak != 32:
+            if (znak + klic) >= 122:
+                pom = (znak + klic) - 122
+
+def caesar(text, klic):
+    text1 = ""
+    for i in range(len(text)):
+        znak = ord(text[i])
+        if znak != 32:
+            if (znak + klic) >= 122:
+                znak = 96
+            znak += klic
+            text1
+def caesar(text, klic):
+    text1 = ""
+    pom = 0
+    for i in range(len(text)):
+        znak = ord(text[i])
+        if znak != 32:
+            if (znak + klic) >= 122:
+                pom = (znak + klic) - 122
+

@@ -1,0 +1,43 @@
+10;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, For{Print{}, }, Print{}, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{}, }, }, }, }, }
+9;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{}, }, Print{}, }, }, }, }
+7;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, For{Print{}, }, Print{}, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }, }
+6;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Mult{}, }, }, Return{}, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, Div{}, Call{Sub{}, }, Mult{}, Call{}, }, }, }, }, }, }
+6;root{Module{FunctionDef{If{Return{}, }, For{Call{Sub{}, }, AugAssign{Mult{}, }, }, Return{}, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Expr{}, }, }, }, }, }
+5;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, }, }, Print{}, }, }, FunctionDef{Assign{}, For{Call{}, AugAssign{Mult{}, Add{}, }, }, Expr{}, }, }, }
+3;root{Module{FunctionDef{If{Return{}, Return{Mult{}, Call{Sub{}, }, }, }, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, Div{}, Call{}, Mult{}, Call{Sub{}, }, }, }, }, }, }, }
+3;root{Module{FunctionDef{For{Call{}, Assign{}, Print{}, For{Call{}, Assign{Mult{}, Sub{}, Div{}, Add{}, }, Print{}, }, Print{}, }, }, }, }
+3;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{Attribute{}, }, Div{}, Call{Attribute{}, }, Mult{}, Call{Attribute{}, Sub{}, }, }, }, Print{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, List{}, }, }, }, }, }, }
+2;root{Module{}, }
+2;root{Module{FunctionDef{If{Return{List{}, }, If{Return{List{List{}, }, }, Assign{List{}, }, Assign{Call{Sub{}, }, }, Assign{}, }, }, }, }, }
+2;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, }, }, Print{}, }, }, FunctionDef{Return{Call{}, Div{}, Call{Sub{}, }, Mult{}, Call{}, }, }, FunctionDef{Assign{}, }, }, }
+2;root{Module{FunctionDef{Assign{List{}, }, For{Call{Add{}, }, Assign{Mult{}, List{}, }, For{Call{Sub{}, }, Assign{Subscript{Subscript{Index{Sub{}, }, }, Index{Sub{}, }, }, Add{}, Subscript{Subscript{Index{Sub{}, }, }, }, }, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Mult{}, }, }, Return{}, }, FunctionDef{Return{Call{}, Div{}, Call{}, Mult{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{}, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Return{IfExp{Compare{Gt{}, }, Mult{}, Call{Sub{}, }, }, }, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, Div{}, Call{}, Div{}, Call{Sub{}, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Mult{}, }, Pass{}, }, Return{}, }, FunctionDef{Return{Call{Call{Add{}, }, Div{}, Call{Sub{}, }, }, }, }, Expr{}, }, }
+1;root{Module{FunctionDef{Assign{List{}, Mult{}, Add{}, }, Assign{}, For{Call{}, Assign{List{}, Mult{}, Add{}, }, For{Call{Add{}, }, Assign{Add{}, Subscript{Index{Sub{}, }, }, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{For{Print{}, }, Print{}, }, FunctionDef{Assign{List{}, }, Expr{Call{}, }, For{Call{Sub{}, }, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Attribute{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{}, Assign{Add{}, List{}, }, Assign{}, For{Call{Add{}, }, If{Compare{Gt{}, }, Assign{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{List{}, }, }, For{Call{}, Assign{List{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Subscript{Subscript{Index{Sub{}, }, }, }, Add{}, Subscript{Subscript{Index{Sub{}, }, }, Index{Add{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, Expr{Attribute{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{Add{}, }, Assign{List{}, Mult{}, }, For{Call{Sub{}, }, Assign{Subscript{Subscript{Index{Sub{}, }, }, }, Add{}, Subscript{Subscript{Index{Sub{}, }, }, Index{Sub{}, }, }, }, }, Expr{Call{Attribute{}, }, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, For{Call{}, Assign{Subscript{Index{Add{}, }, }, Add{}, Subscript{Index{Add{}, }, }, }, }, Assign{Subscript{Slice{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Expr{Call{}, }, For{Call{}, Expr{Call{}, }, Assign{Call{}, }, For{Call{Call{}, }, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{}, Assign{Subscript{Slice{}, }, }, For{Call{Call{}, }, Print{}, }, Print{}, Expr{Call{Attribute{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{BoolOp{Or{}, Compare{Lt{}, }, Compare{Lt{}, }, Compare{GtE{}, Call{}, }, Compare{GtE{}, Call{}, }, }, Return{}, Return{}, }, }, FunctionDef{Assign{List{List{}, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{Mult{}, Call{Sub{}, }, }, If{Return{}, }, }, Return{}, }, FunctionDef{Assign{Call{}, Mult{}, Call{Sub{}, }, }, Assign{Call{}, FloorDiv{}, }, Return{}, }, Expr{}, }, }
+1;root{Module{ImportFrom{alias{}, }, FunctionDef{For{Call{Add{}, }, For{Call{}, Print{Call{}, Div{}, Call{}, Mult{}, Call{Sub{}, }, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{Call{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, Return{}, }, FunctionDef{Assign{List{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Add{}, }, Assign{List{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Expr{Call{Attribute{}, }, }, Expr{Attribute{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, List{}, }, }, For{Call{Add{}, }, If{BoolOp{Or{}, }, Print{}, Expr{Call{Attribute{}, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, AugAssign{Mult{}, }, AugAssign{Sub{}, }, }, Return{}, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Assign{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, Assign{Mult{}, }, }, Return{}, }, FunctionDef{Assign{Call{}, }, Assign{Call{Sub{}, }, Mult{}, Call{}, }, Assign{Div{}, }, }, }, }
+1;root{Module{FunctionDef{For{If{Compare{NotEq{}, }, Print{}, }, }, Print{}, }, FunctionDef{Assign{ListComp{comprehension{Call{Mult{}, Sub{}, }, }, }, }, Assign{Subscript{Index{Sub{}, }, }, }, Expr{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{Str{}, }, For{Call{}, Print{Str{}, }, For{Call{}, Assign{Mult{}, Sub{}, Mult{}, Div{}, Add{}, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Print{}, For{Call{Sub{}, }, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{}, Print{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Assign{Str{}, }, For{Call{}, Print{Add{}, Str{}, }, Assign{}, Assign{}, Assign{}, Assign{Str{}, }, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Print{}, If{Compare{Lt{}, }, Return{}, }, Print{}, For{Call{Sub{}, }, Expr{Call{Attribute{}, }, }, For{Call{Call{}, Sub{}, }, Expr{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{List{}, }, If{Assign{}, Expr{Call{Attribute{}, ListComp{Call{}, comprehension{Call{Subscript{Slice{}, }, }, }, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{}, Assign{List{}, }, For{Call{}, Expr{Call{Attribute{}, Subscript{Index{Sub{}, }, }, Add{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{}, }, Assign{List{}, }, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{List{}, Mult{}, Add{}, }, For{Call{}, Assign{Subscript{Index{Sub{}, }, }, Add{}, }, }, Expr{Attribute{}, }, }, }, }, }

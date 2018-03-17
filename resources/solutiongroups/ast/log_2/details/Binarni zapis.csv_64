@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, While{Compare{Gt{}, }, AugAssign{Add{}, Call{Mod{}, }, }, Assign{FloorDiv{}, }, }, AugAssign{Add{}, Call{Mod{}, }, }, Assign{FloorDiv{}, }, If{AugAssign{Add{}, Str{}, }, }, For{Call{Call{}, }, AugAssign{Add{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, }, Print{}, }, }, }
+def binarne(n):
+    s=""
+    t=""
+    while n>2:
+        s+=str(n%2)
+        n=n//2
+    s+=str(n%2)
+    n=n//2
+    if n==1:
+        s+="1"
+    for i in range(len(s)):
+        t+=s[len(s)-i-1]
+    print t

@@ -1,0 +1,54 @@
+6;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, Assign{Call{}, }, Assign{Call{}, }, For{Call{}, AugAssign{Add{}, Call{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    en = str(n)
+    D = len(en)
+    A = list(en)
+    for i in range(0,D):
+      soucet += int(A[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    n=str(n)
+    s=len(n)
+    for i in range(s):
+        
+        soucet+=int(n[i])
+    
+    return soucet
+    
+ 
+def ciferny_soucet(n):
+    f=str(n)
+    dlzka=len(f)
+    soucet = 0
+    for i in range(0,dlzka):
+        soucet += int(f[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    n = str(n)
+    n = list(n)
+    soucet = 0
+    for i in range (len(n)):
+        soucet += int(n[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    x = n
+    x = str(x)
+    delka = len(str(x))
+    soucet = 0
+    for i in range(delka):
+        soucet += int(x[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    a=str(n)
+    b=str(n)
+    a=tuple(a)
+    for i in range(len(b)):
+        soucet+=int(a[i])
+    return soucet 

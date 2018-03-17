@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Call{}, }, Expr{Call{Attribute{}, }, }, For{If{BoolOp{Or{}, Compare{Call{}, NotEq{}, }, BoolOp{And{}, Compare{Call{}, NotEq{}, }, Compare{Call{}, NotEq{}, }, }, }, Return{}, }, AugAssign{Add{}, Mult{}, }, }, }, }, }
+def vyhodnot(retezec):
+    vystup = 0
+    baze = 1
+    retezec = list(retezec)
+    retezec.reverse()
+    for i in retezec:
+        if type(i) != int or int(i) != 0 and int(i) != 1:
+            return 0
+        vystup += baze * i 

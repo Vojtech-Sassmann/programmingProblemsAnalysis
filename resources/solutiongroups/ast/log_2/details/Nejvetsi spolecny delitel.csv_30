@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{If{Print{}, }, If{Compare{Gt{}, }, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Return{}, }, }, }, }, }, }
+def nsd(a, b):
+    if a==b:
+        print a
+    if a > b:
+        for i in range(b,1):
+            if (a%i == 0) and (b%i == 0):
+                return i
+                          
+ 
+def nsd(a, b):
+    if a==b:
+        print a
+    if a > b:
+        for i in range(b,1,-1):
+            if (a%i == 0) and (b%i == 0):
+                return i
+                          
+ 

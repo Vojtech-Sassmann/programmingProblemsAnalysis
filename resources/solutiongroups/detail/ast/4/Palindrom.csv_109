@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Subscript{Slice{Call{}, Mult{}, Sub{}, }, }, }, If{Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    reverse = (text[-1: len(text)*(-1)-1: -1])
+    if text == reverse:
+        return True
+    return False
+ 

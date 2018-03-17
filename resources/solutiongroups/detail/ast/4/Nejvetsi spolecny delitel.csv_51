@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{IfExp{Compare{Lt{}, }, }, }, Assign{}, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    smaller = a if (a < b) else b
+    delitel = 1
+    for i in range(smaller):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 
+def nsd(a, b):
+    smaller = a if (a < b) else b
+    delitel = 1
+    for i in range(smaller+1):
+        if a % i == 0 and b % i == 0:
+            delitel = i
+    return delitel
+ 

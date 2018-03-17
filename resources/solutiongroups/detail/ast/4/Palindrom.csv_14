@@ -1,0 +1,81 @@
+8;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, Assign{}, While{Compare{Lt{}, Div{}, }, If{Compare{NotEq{}, Subscript{Index{UnaryOp{USub{}, }, }, }, }, Return{}, }, Assign{Add{}, }, Return{}, }, }, }, }
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < (pom/2):
+        if (text[i]) != (text[-i]):
+            return False
+        i = i + 1 
+        return True
+ 
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < pom:
+        if (text[i]) != (text[-i]):
+            return False
+        i = i + 1 
+        return True
+ 
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < pom-1:
+        if (text[i]) != (text[-i]):
+            return False
+        i = i + 1 
+    return True
+ 
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < (pom/2):
+        if (text[i]) != (text[-i]):
+            return False
+        i = i + 1 
+    return True
+ 
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < (pom/2):
+        if text[i] != text[-i]:
+            return False
+        i = i + 1
+        return True
+ 
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < (pom/2):
+        if text[i] != text[-i]:
+            return False
+        i = i + 1
+    return True
+ 
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < (pom/2)+1:
+        if text[i] != text[-i]:
+            return False
+        i = i + 1
+    return True
+ 
+def palindrom(text):
+    pom = 0
+    pom = len(text)
+    i = 0
+    while i < (pom/2)+1:
+        if text[i] != text[-i]:
+            return False
+        i = i + 1
+        return True
+ 

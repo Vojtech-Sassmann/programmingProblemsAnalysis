@@ -1,0 +1,33 @@
+4;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{}, For{Call{Call{}, Sub{}, }, If{Compare{Call{}, Gt{}, Call{Subscript{Index{Add{}, }, }, }, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    longest = slova[0]
+    for i in range(len(slova)-1):
+        if len(slova[i])> len(slova[i+1]):
+            longest = slova[i]
+    return longest
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    longest = slova[0]
+    for i in range(len(slova)):
+        if len(slova[i])> len(slova[i+1]):
+            longest = slova[i]
+    return longest
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    longest = slova[0]
+    for i in range(len(slova)-1):
+        if len(slova[i])> len(slova[i+1]):
+            longest = slova[i]
+    return longest
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    longest = slova[0]
+    for i in range(len(slova)-1):
+        if len(slova[i])> len(slova[i+1]):
+            longest = slova[i]
+    return slova[6]
+ 

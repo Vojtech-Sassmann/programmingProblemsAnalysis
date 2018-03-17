@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Call{Call{}, }, }, For{Call{}, Assign{Subscript{Call{}, }, }, AugAssign{Add{}, Call{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    suma = 0
+    cifra = 0
+    len_n = len(str(n))
+    for i in range(len_n):
+        cifra = str(n)[i]
+        suma += int(cifra)
+    return suma
+                
+                    
+ 

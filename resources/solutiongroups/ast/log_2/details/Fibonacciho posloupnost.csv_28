@@ -1,0 +1,16 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{Add{}, }, Assign{Add{}, }, If{Compare{Gt{}, }, Assign{Sub{}, }, }, }, }, }, }
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        print a+b,
+        b=a+b
+        if i>0:
+            a=b-a
+ 
+def fibonacci(n):
+    a=b=1
+    for i in range(n):
+        print a and b,
+        a=a+b
+        b=a-b 

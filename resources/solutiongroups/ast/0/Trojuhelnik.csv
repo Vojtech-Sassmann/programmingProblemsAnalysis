@@ -1,0 +1,4 @@
+1;root{Module{FunctionDef{For{Call{}, For{Call{}, Print{Str{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Add{}, }, For{Call{Sub{}, }, Print{Str{}, Str{}, Str{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Add{}, }, For{Call{Sub{}, }, Print{Str{}, Str{}, Str{}, }, }, Print{}, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Add{}, }, For{Call{Sub{}, }, Print{Str{}, Str{}, Str{}, }, }, Print{}, }, }, }, }

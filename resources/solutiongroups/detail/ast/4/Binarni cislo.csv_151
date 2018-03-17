@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, For{Call{Call{}, }, If{BoolOp{And{}, Compare{Call{}, Gt{}, }, Compare{Call{}, Lt{}, }, }, Return{}, }, }, Assign{Call{Call{}, }, }, Expr{}, }, }, }
+def vyhodnot(retezec):
+    sucet = 0 
+    pos = 0
+    mocnina = 0
+    for i in range (len(retezec)):
+        if (ord(retezec[i]) >26) and (ord(retezec[i]) <52):
+            return 0
+        
+    cislo = int(float(retezec))
+    w 

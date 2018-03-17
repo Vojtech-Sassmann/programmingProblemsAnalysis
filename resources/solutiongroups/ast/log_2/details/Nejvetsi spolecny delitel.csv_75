@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{UnaryOp{Not{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Return{}, Assign{}, }, Assign{Sub{}, }, }, }, }, }
+def nsd(a, b):
+    bool=False
+    i=a
+    while not bool:
+        if a%i==0 and b%i==0:
+            return i
+            bool=True
+        i=i-1
+
+        
+    
+ 

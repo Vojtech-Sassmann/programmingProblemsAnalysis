@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{GtE{}, }, If{Compare{Mod{}, }, Assign{Add{}, }, }, Assign{Mult{}, }, Assign{Sub{}, Mod{}, Div{}, }, }, Print{}, }, }, }
+def binarne(n):
+    x=0
+    z=1
+    while (n>=1):
+        if (n%2==1):
+            x=x+z
+        z=z*10
+        n=(n-n%2)/2
+    print x
+

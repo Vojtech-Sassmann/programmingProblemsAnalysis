@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, For{Call{Call{}, }, For{Call{Call{}, Sub{}, Sub{}, }, If{Compare{Call{}, Gt{}, Call{Subscript{Index{Add{}, }, }, }, }, Assign{Tuple{Subscript{Index{Add{}, }, }, }, Tuple{Subscript{Index{Add{}, }, }, }, }, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slovo=text.split(" ")
+    for i in range(len(slovo)):
+        for j in range(len(slovo)-1-i):
+            if len(slovo[j])>len(slovo[j+1]):
+                slovo[j],slovo[j+1]=slovo[j+1],slovo[j]
+ 

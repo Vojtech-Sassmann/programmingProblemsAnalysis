@@ -1,0 +1,19 @@
+3;root{Module{Import{alias{}, }, FunctionDef{For{Call{}, Assign{Call{Attribute{}, }, }, Print{}, }, }, }, }
+import math
+def mocniny_dvojky(n):
+    for i in range(n):
+        x=math.pow(2,i)
+        print x,
+ 
+from math import pow
+def mocniny_dvojky(n):
+    for i in range(n):
+        a = pow(2,i)
+        print a,
+ 
+import math
+
+def mocniny_dvojky(n):
+    for i in range(n):
+        print math.pow(2, i),
+ 

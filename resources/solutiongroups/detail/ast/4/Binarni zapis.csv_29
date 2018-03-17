@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{List{}, }, Assign{}, While{Compare{Gt{}, }, Expr{Call{Attribute{}, Call{Mod{}, }, }, }, AugAssign{Div{}, }, }, For{Subscript{Slice{}, }, Print{}, }, }, }, }
+def binarne(n):
+    binary = []
+    remainder = n
+    while remainder > 1:
+        binary.append(int(remainder % 2))
+        remainder /= 2
+    for i in binary[::-1]:
+        print i
+ 
+def binarne(n):
+    binary = []
+    remainder = n
+    while remainder >= 1:
+        binary.append(int(remainder % 2))
+        remainder /= 2
+    for i in binary[::-1]:
+        print i
+ 

@@ -1,0 +1,80 @@
+9;root{Module{FunctionDef{Assign{}, If{Compare{Gt{}, }, Assign{}, }, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Return{}, }, }, }, }, }
+def nsd(a,b):
+    x=a
+    if x>b:
+        x=b
+    for i in range(x,1,-1):
+        if (a%i==0 and b%i==0):
+            return i
+ 
+def nsd(a,b):
+    x=a
+    if x>b:
+        x=b
+    for i in range(x,0,-1):
+        if (a%i==0 and b%i==0):
+            return i
+ 
+def nsd(a, b):
+    x=b
+    if (a>b):
+        x=a
+    for i in range(1,x):
+        if (a%i==0) and (b%i==0):
+            nsd=i
+    return nsd
+ 
+def nsd(a, b):
+    x=a
+    if a<b:
+        x=b
+    for i in range(x):
+        if b%i==0 and a%i==0:
+            deli=i
+        
+    return deli
+ 
+def nsd(a, b):
+    if a > b:
+        start = a
+    else:
+        start = b
+    for i in range(start, 0, -1):
+        if a % i == 0 and b % i == 0:
+            return i
+ 
+def nsd(a, b):
+    vetsi = b
+    if a > b:
+        vetsi = a
+    c = 0
+    for i in range(1, vetsi):
+        if a % i == 0 and b % i == 0:
+            c = i
+    return c
+        
+ 
+def nsd(a, b):
+    largest = a
+    if b > a:
+        largest = b
+    for i in range (largest,0,-1):
+        if ((a%i == 0) and (b % i == 0)):
+            return i
+ 
+def nsd(a, b):
+    if a > b:
+        n = b
+    else:
+        n = a
+    for i in range(n,0,-1):
+        if a % i == 0 and b % i == 0:
+            return i
+    return 0 
+def nsd(a, b):
+    if b>a:
+        a,b = b,a
+    for i in range(b,0,-1):
+        if (b %i ==0 and a %i ==0):
+            return i
+ 

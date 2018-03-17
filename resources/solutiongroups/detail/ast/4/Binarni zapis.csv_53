@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, Assign{}, While{Compare{Gt{}, }, AugAssign{Add{}, Call{Mod{}, }, }, Assign{FloorDiv{}, }, }, For{Call{Call{}, }, AugAssign{Add{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, }, }, }, }
+def binarne(n):
+    vysledok=""
+    vypis=""
+    cislo=n
+    while cislo>0:
+        vysledok+=str(cislo%2)
+        cislo=cislo//2
+        
+    for i in range(len(vysledok)):
+        vypis+=vysledok[len(vysledok)-i-1]
+
+\

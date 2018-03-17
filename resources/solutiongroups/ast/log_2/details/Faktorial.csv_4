@@ -1,0 +1,61 @@
+11;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, }, If{Return{}, Return{Mult{}, Call{Sub{}, }, }, }, }, }, }
+def faktorial(n):
+    if n < 1:
+        return 0
+    if n == 1:
+        return n
+    else:
+        return n * faktorial(n-1)
+        
+ 
+def faktorial(n):
+    for i in range(n+1):
+        if i==0:
+            return 1
+        else:
+            return i*faktorial(n-1)
+ 
+def faktorial(n):
+    if n < 2:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+
+    if n <= 1:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n < 2: return 1
+    return n * faktorial(n-1) 
+def faktorial(n):
+    if (n == 0) or (n == 1):
+      return 1
+    return n * faktorial(n - 1)
+        
+ 
+def faktorial(n):
+    if n <= 1:
+        return 1
+    return n * faktorial(n - 1)
+ 
+def faktorial(n):
+    if (n <= 1):
+        return 1
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1 or n == 0:
+        return 1
+    return n * faktorial(n-1)
+ 
+def faktorial(n):
+    if n < 2:
+        return 1
+    return n * faktorial(n - 1) 
+def faktorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return faktorial(n-1) * n
+ 

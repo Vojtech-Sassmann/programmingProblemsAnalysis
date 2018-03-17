@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, NotEq{}, }, Assign{Str{}, Add{}, }, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, }, AugAssign{FloorDiv{}, }, }, Print{}, }, }, }
+def binarne(n):
+    bin_cislo = ""
+    while n>0:
+        if n%2!=0:
+            bin_cislo = "1" + bin_cislo
+        if n%2==0:
+            bin_cislo = "0" + bin_cislo
+        n//=2
+    print bin_cislo
+

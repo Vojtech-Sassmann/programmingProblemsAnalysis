@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, For{Call{Sub{}, }, Assign{Mult{}, }, AugAssign{Add{}, Str{}, Add{}, List{}, }, }, Print{}, }, }, }
+def mocniny_dvojky(n):
+    a = "1"
+    b = 1
+    for i in range(n-1):
+        b = (b*2)
+        a += " "+[b]
+    print a
+               
+ 

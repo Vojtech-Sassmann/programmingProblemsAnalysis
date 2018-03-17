@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, Assign{}, Assign{}, For{Call{Call{}, }, If{Compare{Str{}, }, Assign{Str{}, }, Assign{}, Expr{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    pamet = ""
+    nejdulezitejsi = ""
+    pocet = 0
+    nejvyssi = 0
+    for i in range(len(text)):
+        if text[i] == " ":
+            pamet = ""
+            pocet = 0
+        else:
+            p 

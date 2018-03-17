@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{}, For{Call{Call{}, }, If{Print{}, Assign{}, Print{Str{}, }, }, }, }, }, }, }
+def cikcak(text):
+    cik = 0
+    for j in range(2):
+        for i in range(len(text)):    
+            if (cik == 0):
+                print text[i],
+                cik = 1
+            else:
+                print ".",
+ 

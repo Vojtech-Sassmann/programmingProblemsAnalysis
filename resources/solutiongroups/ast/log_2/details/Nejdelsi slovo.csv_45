@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, Lambda{Call{}, Sub{}, Call{}, }, }, }, Assign{Call{}, }, Assign{List{}, }, For{If{Compare{Call{}, }, Expr{Call{Attribute{}, }, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort( lambda x,y: len(y) - len(x))
+    i = len(slova[0])
+    a = []
+    for s in slova:
+        if len(s) == i:
+            a.append(s)
+            
+    a.sort()
+ 

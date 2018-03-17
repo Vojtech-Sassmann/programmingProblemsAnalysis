@@ -1,0 +1,40 @@
+5;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{LtE{}, }, Print{}, Assign{Mult{}, }, Assign{Add{}, }, }, }, }, }
+def mocniny_dvojky(n):
+    cislo = 1
+    i = 1
+    while i <= n:
+        print cislo,
+        cislo = cislo * 2
+        i = i + 1 
+def mocniny_dvojky(n):
+    p=1
+    i=1
+    while i <=n:
+        print p,
+        p*=2
+        i+=1
+ 
+def mocniny_dvojky(n):
+    p = 1
+    i = 1
+    while i <= n:
+        print p,
+        p *= 2
+        i += 1 
+def mocniny_dvojky(n):
+    pom = 1
+    i = 0
+    print pom,
+    while i < n-1:
+        pom = pom * 2 
+        i = i + 1
+        print pom,
+ 
+def mocniny_dvojky(n):
+    i=1
+    vys = 1
+    print vys,
+    while i < n:
+        vys = vys*2
+        print vys,
+        i = i+1 

@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{}, For{Call{Call{}, }, Assign{}, Assign{}, If{BoolOp{And{}, Compare{Call{}, Call{}, }, Compare{Call{}, Gt{}, Call{}, }, }, Expr{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi=0
+    for i in range(len(slova)):
+        prv=slova[i]
+        drh=slova[nejdelsi]
+        if len(slova[i])==len(slova[nejdelsi]) and ord(drh[0])>ord(prv[0]): nejdelsi 

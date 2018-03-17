@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{If{Compare{GtE{}, }, Assign{}, }, If{Compare{GtE{}, }, Assign{}, }, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    if a >= b:
+        x = a
+    if b >= a: 
+        x = b
+    for i in range (x+1):
+        if (a % i) == 0 and (b % i) ==0:
+            nsd = i
+    return nsd 

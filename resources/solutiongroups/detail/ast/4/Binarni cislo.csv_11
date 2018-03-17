@@ -1,0 +1,42 @@
+6;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{Call{}, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    x=0
+    pom=str(retezec)
+    for i in range(len(pom)):
+        x+=int(pom[len(pom)-1-i])*(2**i)
+        
+    return x
+ 
+def vyhodnot(retezec):
+    n = len(retezec)
+    a = 0
+    for i in range(n):
+        a += int(retezec[n-i-1])*2**i
+    return a
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        cislo+=int(retezec[len(retezec)-1-i])*(2**i)
+    return cislo
+ 
+def vyhodnot(retezec):
+    suma = 0
+    for i in range (len(retezec)):
+        suma += int(retezec[len(retezec)-i-1])*(2**i) 
+    return suma
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    x = str(retezec)
+    y = 0
+    for i in range(len(x),0,-1):
+        cislo += int(x[len(x)-y-1])*2**y
+        y += 1
+    return cislo 
+def vyhodnot(retezec):
+    toRet = 0
+    for i in range(len(retezec)):
+        toRet += int(retezec[len(retezec)-i-1])*(2**i)
+    return toRet
+ 

@@ -1,0 +1,274 @@
+38;root{Module{FunctionDef{While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{}, Assign{}, }, Return{}, }, }, }
+def nsd(a, b):
+    while b > 1:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b>0:
+        p=a
+        a=b
+        b=p
+        b=b % a     
+    return a
+ 
+def nsd(a, b):
+    temp = 0
+    while(a != 0):
+        temp = a
+        a = b % a
+        b = temp
+    return b
+ 
+def nsd(a, b):
+    while b!=0:
+        x=b
+        b=a%b
+        a=x
+    return a
+ 
+def nsd(cislo1, cislo2):
+    while cislo2!=0:
+        delitel = cislo2
+        cislo2= cislo1 % cislo2
+        cislo1 = delitel
+    return cislo1
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        z = a % b
+        a = b
+        b = z
+    return a
+ 
+def nsd(a, b):
+    while b!= 0:
+        tmp = a
+        a = b
+        b = tmp % b
+        
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = a%b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        temp = a%b
+        a=b
+        b=temp
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = a%b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+ 
+def nsd(a, b):
+    tmp=0
+    while b%a>0:
+        tmp = b%a
+        b=a
+        a=tmp
+    return a
+ 
+def nsd(a, b):
+    pom= 0
+    while b != 0:
+        pom = a%b
+        a = b
+        b = pom
+    return a
+ 
+def nsd(a, b):
+    while (b!=0):
+        pom=a
+        a=b
+        b=pom%b
+    return a
+ 
+def nsd(a, b):
+    while (b!=0):
+        x = a
+        a=b
+        b= x%b
+    return a
+ 
+def nsd(c1, c2):
+    while c2 > 0:
+        r = c1 
+def nsd(a, b):
+    while(b != 0):
+        tmp = a
+        a = b
+        b = tmp % b
+    
+    return a
+ 
+def nsd(a, b):
+    remainder=1
+    while remainder!=0:
+        remainder=a%b
+        a=b
+        b=remainder
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        x = a%b
+        a = b
+        b = x
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a,b):
+    while (b <> 0):
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while (b != 0):
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+        return a
+    
+        
+ 
+def nsd(u, w):
+    while w != 0:
+        r = u % w
+        u = w
+        w = r
+    return u 
+def nsd(a, b):
+    while b>0:
+        pom=a%b
+        a=b
+        b=pom
+    return a
+ 
+def nsd(a, b):
+    c = 0
+    while b != 0:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    r = 0
+    while b != 0:
+        r = a % b
+        a = b
+        b = r 
+    return a 
+def nsd(a, b):
+    while b > 0:
+        r = (a % b)
+        a = b
+        b = r
+    return a 
+def nsd(a, b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
+ 
+def nsd(a,b):
+    while b != 0:
+        tmp = a
+        a = b
+        b = tmp % a
+    return a 
+def nsd(u, w):
+    r = 0
+    
+    while w != 0:
+        r = u%w
+        u = w
+        w = r
+        
+    return u
+ 
+def nsd(a, b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
+ 
+def nsd(a, b):
+    while b !=0:
+        x = a%b
+        a = b
+        b = x
+    return a
+ 
+def nsd(a, b):
+    x = max (a, b)
+    y = min (a, b)
+    while y > 0 :
+        a = x % y
+        x = y
+        y = a
+    return x 
+def nsd(vetsi, mensi):
+    zbytek = 0
+    while mensi>0:
+        zbytek = vetsi%mensi
+        vetsi = mensi
+        mensi = zbytek
+    return vetsi 

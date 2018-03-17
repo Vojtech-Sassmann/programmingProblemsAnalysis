@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{}, }, While{Compare{Gt{}, }, Assign{Add{}, Subscript{Index{Sub{}, }, }, }, Assign{Sub{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    obracene = ""
+    k = len(text)
+    while k > 0:
+        obracene = obracene + text[k-1]
+        k = k-1
+    return obracene == text
+ 

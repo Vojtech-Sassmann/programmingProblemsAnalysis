@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, Print{}, Print{}, Print{}, Print{}, Print{}, }, }, }
+def ctverec(n):
+    
+    radek="*****"
+    radky="*+++*"
+    
+    print radek
+    print radky
+    print radky
+    print radky
+    print radek
+            
+        
+ 

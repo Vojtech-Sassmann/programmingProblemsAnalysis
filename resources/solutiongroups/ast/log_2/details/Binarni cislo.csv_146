@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, For{If{UnaryOp{Not{}, Compare{In{}, List{Str{}, Str{}, }, }, }, Return{}, }, Assign{Mult{}, }, Assign{Add{}, Call{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    r = 0
+    for i in retezec:
+        if not(i in ["0","1"]):
+            return 0
+        r = r*2
+        r = r + int(i)
+    return r
+    
+ 

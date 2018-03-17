@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Str{}, }, }, AugAssign{Add{}, Str{}, }, }, For{Call{Call{}, }, AugAssign{Add{}, Subscript{Index{Call{}, Sub{}, }, }, }, }, }, }, }
+def binarne(n):
+    x=""
+    y=""
+    while n>0:
+        if n % 2 == 0: x+="0"
+    else: x+="1"
+    for i in range(len(x)):
+        y+=x[len(x)-i]
+        
+

@@ -1,0 +1,14 @@
+2;root{Module{FunctionDef{Print{Call{ListComp{Call{}, comprehension{Call{}, Compare{Call{}, Gt{}, }, }, }, }, }, }, }, }
+def ciferny_soucet(n):
+    print (sum([int(i) for i in str(n) if int(i) > 0]))
+
+    
+
+     
+def ciferny_soucet(n):
+    soucet = sum([int(i) for i in str(n) if int(i) > 0])
+
+    
+
+    return soucet
+ 

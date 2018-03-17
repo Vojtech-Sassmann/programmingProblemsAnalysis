@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, }, Assign{}, For{Call{Call{}, }, Assign{}, Assign{Call{}, }, If{AugAssign{Add{}, Pow{}, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    retezec=retezec[::-1]
+    cislo=0
+    for i in range (len(retezec)):
+        count=0
+        pom=(int(retezec [i]))
+        if pom ==1:
+            count+=2**i
+        cislo+=count
+    return cislo 

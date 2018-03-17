@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{List{}, }, If{Print{Str{}, }, }, While{Compare{Gt{}, }, If{Mod{}, Expr{Call{Attribute{}, }, }, Assign{Sub{}, Div{}, }, Expr{Call{Attribute{}, }, }, Assign{Div{}, }, }, }, Print{Attribute{Str{}, }, }, }, }, }
+def binarne(n):
+    vysledek=[]
+    if n==1: print "1"
+    while n > 0:
+        if n % 2:
+            vysledek.append(1)
+            n = (n-1)/2
+        else:
+            vysledek.append(0)
+            n = n/2
+    print "".joi

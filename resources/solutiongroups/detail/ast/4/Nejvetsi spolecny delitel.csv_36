@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{While{If{Return{}, }, Assign{Mod{}, }, Assign{Mod{}, }, }, }, }, }
+def nsd(a, b):
+    while True:
+        if a==0:
+            return b
+        b=b%a
+        a=a%b
+ 
+def nsd(a, b):
+    if b ==0:
+        return a
+    else:
+        c = a % b
+        return nsd(b, c)
+        
+       
+ 

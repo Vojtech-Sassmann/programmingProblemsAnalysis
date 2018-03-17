@@ -1,0 +1,176 @@
+23;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{Str{}, }, For{If{BoolOp{Or{}, Compare{Call{}, Lt{}, Call{}, }, BoolOp{And{}, Compare{Call{}, Call{}, }, Compare{Gt{}, }, }, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = ""
+    for slovo in slova:
+        if len(kandidat) < len(slovo) or len(kandidat) == len(slovo) and kandidat > slovo:
+            kandidat = slovo
+    return kandida 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    m=0
+    for i in range(len(slova)):
+        if len(slova[i])>len(slova[m]) or (len(slova[i])==len(slova[m]) and slova[i]<slova[m]):
+            m=i
+    return slova[m]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = slova[0]
+    for slovo in slova:
+        if len(slovo) > len(nejdelsi) or (len(slovo) == len(nejdelsi) and slovo < nejdelsi):
+            nejdelsi = slovo
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    best = ""
+    for i in slova:
+        if(len(i) > len(best) or (len(i) == len(best) and i < best)): best = i
+    return best
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    maxl = ""
+    for i in slova:
+        if(len(maxl) < len(i) or (len(maxl) == len(i) and ord(maxl[0]) > ord(i[0]))):
+            maxl = i
+            
+    return maxl
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    result = ""
+    for slovo in slova:
+        if len(slovo) > len(result) or (len(slovo) == len(result) and slovo < result):
+            result = slovo
+    return result
+ 
+def nejdelsi_slovo(text):
+    slovo=text.split(" ")
+    moznost=""
+    for kazde in slovo:
+        if len(moznost)<len(kazde) or len(moznost)==len(kazde) and moznost>kazde:
+               moznost=kazde
+    return moznost 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = " "
+    for slovo in slova:
+        if len(kandidat) < len(slovo) or len(kandidat) == len(slovo) and kandidat > slovo:
+            kandidat = slovo
+    return kandid 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = " "
+    for slovo in slova:
+        if len(kandidat) < len(slovo) or len(kandidat) == len(slovo) and kandidat > slovo:
+           kandidat = slovo    
+    return kan 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    x = ""
+    for slovo in slova:
+        if len(x) < len(slovo) or len(x) == len(slovo) and x > slovo:
+            x = slovo
+    return x
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    naj=slova[0]
+    for i in slova:
+        if len(i)>len(naj) or (len(i)==len(naj) and i<naj):
+            naj=i
+    return naj
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = " "
+    for slovo in slova:
+        if len(kandidat)< len(slovo) or len(kandidat) == len(slovo) and kandidat > slovo:
+            kandidat= slovo 
+    return kandida 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    x = " "
+    for i in slova:
+        if len(x) < len(i) or len(x) == len(i) and x > i:
+            x = i
+    return x
+    
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    a = ""
+    for i in slova:
+        if len(a) < len(i):
+            a = i
+        elif len(a)==len(i) and a > i:
+            a = i
+    return a
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    najdlhsie = ""
+    for slovo in slova:
+        if len(najdlhsie) < len(slovo) or len(najdlhsie) == len(slovo) and najdlhsie > slovo:
+            najdlhsie = slovo
+    return na 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = ""
+    for slovo in slova:
+        if len(kandidat) < len(slovo) or len(kandidat) == len (slovo) and kandidat > (slovo):
+            kandidat = slovo
+    return kand 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nej = slova[0]
+    for i in slova:
+        if len(i) > len(nej) or (len(i) == len(nej) and ord(i[0]) < ord(nej[0])):
+            nej = i
+    return nej
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = ""
+    for slovo in slova:
+        if len(kandidat) < len(slovo) or len(kandidat) == len(slovo) and kandidat > slovo:
+            kandidat = slovo
+    return kandida 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    vysledok = slova[0]
+    for slovo in slova:
+        if(len(vysledok)<len(slovo) or (len(vysledok)==len(slovo) and vysledok[0]>slovo[0])):
+            vysledok = slovo
+    retur 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    zeby = ""
+    for slovo in slova:
+        if len(zeby) < len(slovo) or len(zeby) == len(slovo) and zeby > slovo:
+            zeby = slovo
+    return zeby
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = " "
+    for slovo in slova:
+        if len(kandidat) < len(slovo) or len(kandidat) == len(slovo) and kandidat > slovo:
+            kandidat = slovo
+    return kandid 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    s = slova[0]
+    for slovo in slova:
+        if len(slovo) > len(s) or (len(slovo) == len(s) and (slovo < s)):
+            s = slovo
+    return s
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    can = ""
+    for slovo in slova:
+        if len(can) < len(slovo) or len(can) == len(slovo) and can > slovo:
+            can = slovo
+    return can 

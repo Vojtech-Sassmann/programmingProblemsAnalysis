@@ -1,0 +1,10 @@
+1082;root{Module{FunctionDef{If{Compare{NotEq{}, Subscript{Index{Call{}, Sub{}, }, }, }, Return{}, }, Return{}, }, }, }
+14;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{Call{}, Add{}, }, If{Compare{Subscript{Index{Sub{}, }, }, Subscript{Index{UnaryOp{USub{}, }, }, }, }, AugAssign{Add{}, }, Return{}, }, }, If{Compare{Call{}, }, Return{}, }, }, }, }
+11;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, Sub{}, }, Assign{Add{}, }, }, Assign{Add{}, }, Return{}, }, FunctionDef{If{Compare{Call{}, }, Return{}, }, Expr{}, }, }, }
+5;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Expr{Call{Attribute{}, Call{}, }, }, Expr{Call{Attribute{}, Call{}, }, }, }, Expr{Call{Attribute{}, }, }, If{Return{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Assign{Call{}, Sub{}, }, While{Compare{Sub{}, Gt{}, }, If{Compare{NotEq{}, }, Return{}, }, Assign{Add{}, }, Assign{Sub{}, }, }, Return{}, }, }, }
+2;root{Module{FunctionDef{Assign{Call{}, }, If{Compare{Mod{}, }, AugAssign{Sub{}, }, }, For{Call{}, If{Compare{NotEq{}, Subscript{Slice{UnaryOp{USub{}, }, }, }, }, Return{Str{}, }, }, Return{Tuple{Subscript{Index{UnaryOp{USub{}, }, }, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Call{}, }, If{BoolOp{Or{}, Compare{Call{List{}, }, }, Compare{Call{List{}, }, }, }, Return{Str{}, }, }, If{Compare{NotEq{}, Subscript{Slice{}, }, }, Return{Str{}, }, }, Delete{Subscript{Index{Tuple{}, }, Del{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Call{}, }, If{Compare{Mod{}, }, Assign{Add{}, Div{}, }, }, If{Compare{Call{Subscript{Slice{Sub{}, }, }, }, NotEq{}, Call{Subscript{Slice{Sub{}, }, }, }, }, Return{Str{}, }, Return{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, Assign{}, For{Call{Call{}, }, Expr{Call{Attribute{}, Subscript{Index{Call{}, Sub{}, }, }, }, }, AugAssign{Add{}, }, }, If{Compare{Call{Attribute{Str{}, }, }, Call{Attribute{Str{}, }, }, }, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, If{Compare{Call{}, Mod{}, NotEq{}, }, Assign{Call{}, Sub{}, }, }, For{Call{FloorDiv{}, }, If{Compare{Call{}, Call{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, }, }, }, }

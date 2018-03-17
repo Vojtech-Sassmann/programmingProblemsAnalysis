@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Gt{}, }, While{Compare{Mod{}, NotEq{}, }, Assign{Sub{}, }, Assign{Add{}, }, }, Assign{Div{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    cislo = n
+    while cislo > 0:
+        while cislo % 10 != 0:
+            cislo = cislo - 1
+            soucet= soucet + 1
+        cislo = cislo / 10
+    return soucet
+        
+ 

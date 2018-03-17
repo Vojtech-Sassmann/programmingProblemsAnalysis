@@ -1,0 +1,437 @@
+74;root{Module{FunctionDef{If{Compare{Subscript{Slice{}, }, }, Return{}, Return{}, }, }, }, }
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text==text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    palindrom==text[::-1]
+    if text==palindrom:
+        return False
+    return True
+ 
+def palindrom(text):
+    palindrom==text[::-1]
+    if text==palindrom:
+        return True
+    return False
+ 
+def palindrom(text):
+    p=text[::-1]
+    if text==p:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[0] == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else: 
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if str(text) == str(text)[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else: return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[0:0:1] == text[0:0:-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if str(text) == str(text)[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[::-1]==text:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    if text[0::] == text[::-1]:
+        return True
+    else: 
+        return False
+    
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    text1 = text[::-1]
+    if text == text1:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[::-1] == text:
+        return True
+    return False
+ 
+def palindrom(text):
+    if text != text[::-1]:
+        return False
+    else:
+        return True
+ 
+def palindrom(text):
+    if text==text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    slovo = text[::-1]
+    if slovo == text: 
+        return True
+    else: return False
+ 
+def palindrom(text):
+    if (str(text) == str(text[::-1])):
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[::] == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    temp = list(text)
+    if temp == temp[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    obracene=text[::-1]
+    if text == obracene:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    if str(text)==str(text)[::-1]:
+        return True
+    else:
+        return False
+    
+ 
+def palindrom(text):
+    if text[::1]==text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False 
+def palindrom(text):
+  if str(text) == str(text)[::-1]:
+    return("True")
+  else:
+    return("False") 
+def palindrom(text):
+    if str(text) == str(text)[::-1]:
+        return True
+ 
+def palindrom(text):
+    if str(text) == str(text)[::-1]:
+        return True
+    else: False
+ 
+def palindrom(text):
+    if str(text) == str(text)[::-1]:
+        return True
+    else: 
+        return False
+ 
+def palindrom(text):
+    if text[::-1] == text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+    
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return false
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    text1=text[::-1]
+    if text1==text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    text1 = text[::-1]
+    if text1 == text:
+       return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[:] == text[:-1]:
+        return False
+    else:
+        return True
+ 
+def palindrom(text):
+    if text[:] == text[:-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[::-1] == text:
+       return True
+    else:
+       return False
+ 
+def palindrom(text):
+    if text != text[::-1]:
+        return False
+    else:
+        return True
+ 
+def palindrom(text):
+    if text[0] == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if (text) == text[::-1]:
+        return True
+    else:
+        return False
+    
+ 
+def palindrom(text):
+    if str(text) == str(text)[::-1]:
+        return True
+    else:
+        return False
+    
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if str(text) == str(text)[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    if (text[::-1]) == text:
+        return True
+    else:
+        return False
+ 
+    print text
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+ 
+def palindrom(text):
+    if(text == text[::-1]):
+        return True
+    else:
+        return False 
+def palindrom(text):
+    if text == text[::-1]: return True
+    else: return False
+ 
+def palindrom(text):
+    if (text== text[::-1]):
+        return True
+    return False
+ 
+def palindrom(text):
+    if text[::-1] == text:
+        return True
+    return False
+ 
+def palindrom(text):
+    if text[::1]==text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text== text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if (text[::-1] == text):
+        return True
+    return False
+ 
+def palindrom(text):
+    if (text == text[::-1]):
+        return True
+    else:
+        return False 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+    
+ 
+def palindrom(text):
+    naspak = text[::-1]
+    if text == naspak:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[::-1] ==text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text == text[::-1]:
+        return True
+    return False
+ 

@@ -1,0 +1,23 @@
+3;root{Module{FunctionDef{Assign{ListComp{comprehension{Call{}, }, }, }, For{If{BoolOp{And{}, Compare{Call{}, GtE{}, Call{Str{}, }, }, Compare{Call{}, LtE{}, Call{Str{}, }, }, }, AugAssign{Subscript{Index{Call{}, Sub{}, Call{Str{}, }, }, }, Add{}, }, }, }, }, }, }
+def frekvencni_analyza(text):
+    
+    frekvence = [0 for i in range (26)]
+
+    for pismeno in text:
+        if (ord(pismeno) >= ord("a")) and (ord(pismeno) <= ord("z")):
+            frekvence[ord(pismeno) - ord("a")] += 1
+ 
+def frekvencni_analyza(text):
+    frekvence = [ 0 for i in range(26) ]
+    for pismeno in text:
+        if ord(pismeno) >= ord("a") and ord(pismeno) <= ord("z"):
+            frekvence[ord(pismeno) - ord("a")] += 1
+            
+ 
+def frekvencni_analyza(text):
+    cetnost = [ 0 for i in range(26) ] 
+    for znak in text:
+        if ord(znak) >= ord("a") and ord(znak) <= ord("z"):
+            cetnost[ord(znak) - ord("a")] += 1
+    for i in range(26):
+        i 

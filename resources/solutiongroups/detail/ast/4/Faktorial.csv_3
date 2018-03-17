@@ -1,0 +1,356 @@
+49;root{Module{FunctionDef{Assign{Sub{}, }, While{Compare{Gt{}, }, Assign{Mult{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def faktorial(n):
+    f = n-1
+    while f > 0:
+        n = n * f
+        f -= 1
+    return n
+ 
+def faktorial(n):
+    res=1
+    while n>O:
+        res=res*n
+        n=n-1
+    return res
+ 
+def faktorial(n):
+    f = 1
+    while n > 0:
+        f = f * n
+        n = n - 1            
+    return f 
+def faktorial(n):
+    f=1
+    while n>0:
+        f=f*n
+        n=n-1
+    return f
+ 
+def faktorial(n):
+    f=1
+    while n>0:
+        f=f*n
+        n=n-1
+    return f
+ 
+def faktorial(n):
+    f = 1
+    while n > 0:
+        f = f* n
+        n = n - 1
+    return f
+ 
+def faktorial(n):
+    f=1
+    while n>0:
+        f=f*n
+        n=n-1
+    return f
+ 
+def faktorial(n):
+    i = 1
+    while n > 0:
+        i = i * n
+        n = n - 1
+    return i
+ 
+def faktorial(n):
+    x=1
+    while n>0:
+        x = x*n
+        n=n-1
+    return x
+ 
+def faktorial(n):
+    f = 1
+    while n > 0:
+        f = f * n
+        n = n - 1
+    return f
+ 
+def faktorial(n):
+    vysledek = 1
+    while n > 0:
+        vysledek = n*vysledek
+        n = n-1
+    
+    return vysledek
+ 
+def faktorial(n):
+    pom = 1
+    while(n>0):
+        pom = pom * n
+        n-=1
+    return pom
+ 
+def faktorial(n):
+    f = 1
+    while n>0:
+        f = f*n
+        n = n-1
+    return f
+ 
+def faktorial(n):
+    x=1
+    while n>0:
+        x=x*n
+        n-=1
+    return(x)
+ 
+def faktorial(n):
+    fakt=1
+    while n!=1:
+        fakt=fakt*n
+        n-=1
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    while n>0:
+        f= f*n
+        n = n-1
+    return f
+ 
+def faktorial(n):
+    num = 1
+    while n >=1:
+        num =  num*n
+        n= n-1
+    return num
+ 
+def faktorial(n):
+    f=1
+    while (n>0):
+        f=f*n
+        n=n-1
+    
+    return f
+ 
+def faktorial(n):
+    x=1
+    while n>1:
+        x=x*n
+        n-=1
+    return x
+ 
+def faktorial(n):
+    i=n-1
+    while i>0:
+        n *=i
+        i -=1
+    return n
+ 
+def faktorial(n):
+    f = 1
+    while n > 0:
+        f = f*n
+        n = n-1
+    return f
+ 
+def faktorial(n):
+    nasobok = 1
+    while n > 0:
+        nasobok = nasobok *n
+        n=n-1
+    
+    return nasobok
+ 
+def faktorial(n):
+    faktorial = 1
+    while n>0:
+        faktorial = faktorial * n
+        n = n - 1
+    return faktorial
+ 
+def faktorial(n):
+    faktorialis=1
+    while n>1:
+        faktorialis=faktorialis*n
+        n-=1
+    return faktorialis
+ 
+def faktorial(n):
+    res = 1
+    while n>1:
+        res *=n
+        n-=1
+    return res
+ 
+def faktorial(n):
+    a = 1
+    while n<>1:
+        a = a*n  
+        n -= 1
+    return a
+ 
+def faktorial(n):
+    cislo = 1
+    while n >= 1:
+        cislo = cislo * n
+        n = n - 1
+    return cislo
+ 
+def faktorial(n):
+    fakt = 1
+    while n > 0:
+        fakt = fakt * n
+        n -= 1
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    while n>0:
+        f=f*n
+        n=n-1
+    return f
+ 
+def faktorial(n):
+    soucet = 1
+    while n > 0:
+        soucet = soucet * n
+        n = n - 1
+    return soucet
+ 
+def faktorial(n):
+    x=1
+    while n!=0:
+        x=x*n
+        n=n-1
+        
+    print x
+ 
+def faktorial(n):
+    f  = 1
+    while n > 0:
+        f = f * n
+        n = n - 1
+    return f
+ 
+def faktorial(n):
+    fakt1 = n
+    nasobic = n-1
+    while nasobic != 1:
+        fakt1 = fakt1*nasobic
+        nasobic -= 1
+    return fakt1
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    fakt1 = n
+    nasobic = n-1
+    while nasobic != 1:
+        fakt1 = fakt1*nasobic
+        nasobic -= 1
+    return fakt1
+ 
+def faktorial(n):
+    f = 1
+    while n > 0:
+        f = f * n
+        n = n - 1
+    return f
+ 
+def faktorial(n):
+    a = 1
+    while n >= 1:
+        a = a * n
+        n = n - 1
+    return a
+ 
+def faktorial(n):
+    f=1
+    while n > 0:
+        f=f*n
+        n=n-1
+        
+    return f
+ 
+def faktorial(n):
+    num = 1
+    while n >= 1 :
+        num = num *n
+        n = n - 1   
+    return num
+ 
+def faktorial(n):
+    i=1
+    while n > 0:
+        n = n*(n-i)
+        i+=1
+    return n
+ 
+def faktorial(n):
+    f = 1
+    while n != 0:
+        f *= n
+        n -= 1
+    return f
+ 
+def faktorial(n):
+    f = 1
+    while n > 0:
+        f = f * n
+        n = n-1
+    
+    
+    return f
+ 
+def faktorial(n):
+    cislo = 1
+    while n != 0:
+        cislo = n*cislo
+        n -= 1        
+    return cislo
+ 
+def faktorial(n):
+    soucin=1
+    while n>0:
+        soucin=soucin*n
+        n=n-1
+    return soucin
+        
+ 
+def faktorial(n):
+    fakt = 1
+    while (n>0):
+        fakt= fakt*n
+        n-=1
+        
+    return fakt
+ 
+def faktorial(n):
+
+    f = n
+    while n > 1:
+        n -= 1
+        f *= n
+    return f
+ 
+def faktorial(n):
+    a= 1
+    while (n>1):
+        a = a * n
+        n = n - 1
+    return a
+ 
+def faktorial(n):
+    faktr=1
+    while n>0:
+        faktr=faktr*n
+        n=n-1    
+    return faktr
+ 
+def faktorial(n):
+    num = 1
+    while n >= 1:
+        num = num * n
+        n = n - 1
+    return num 
+def faktorial(n):
+    num = 1
+    while n >= 1:
+        num = num * n
+        n = n - 1
+    return num
+ 

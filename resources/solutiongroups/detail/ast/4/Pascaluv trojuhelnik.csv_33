@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{Add{}, }, Assign{List{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Expr{Call{Attribute{}, }, }, Expr{Attribute{}, }, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(1,pocet_radku+1):
+        my_line=[]
+        for k in range(n):
+            if k==0 or k==n-1:
+                my_line.append(1)
+            else:
+                my_line.a 

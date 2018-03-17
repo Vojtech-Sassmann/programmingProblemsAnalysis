@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{Call{}, Add{}, }, If{Compare{Call{}, Mod{}, Call{}, }, Print{Call{}, }, If{Compare{BoolOp{And{}, Call{}, Call{}, }, Mod{}, }, Print{}, }, }, }, }, }, }
+def nsd(a, b):
+    for i in range(1,max(a,b)+1):
+        if max(a,b)%min(a,b)==0:
+            print min(a,b)
+        elif (max(a,b) and min(a,b))%i==0:
+            print i
+            
+ 

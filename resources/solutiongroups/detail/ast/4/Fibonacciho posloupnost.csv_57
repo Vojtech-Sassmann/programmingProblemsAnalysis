@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Print{}, Print{}, For{Call{Sub{}, }, AugAssign{Add{}, List{Add{}, }, }, Print{}, }, }, }, }
+def fibonacci(n):
+    pos = [ 1, 1]
+    print pos[0],
+    print pos[1],
+    for i in range(n-2):
+        pos += [pos[-1] + pos[-2]]
+        print pos[-1],
+ 

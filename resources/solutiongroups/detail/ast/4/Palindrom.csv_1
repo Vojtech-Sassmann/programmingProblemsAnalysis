@@ -1,0 +1,1498 @@
+243;root{Module{FunctionDef{For{Call{Call{}, Div{}, }, If{Compare{NotEq{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Return{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    for i in range(0,len(text)/2):
+      if text[i] != text[len(text)-1-i]:
+          return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0, len(text)/2):
+        if text[0+i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (0, len(text)//2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+     if text[i] != text[len(text)-i-1]:
+        return False
+     return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+     if text[i] != text[len(text)-i-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+      if text[i] != text[len(text)-i-1]:
+        return False
+      return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+      if text[i] != text[len(text)-i-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+     if text[0] != text[len(text)-1]:
+        return False
+    return True
+ 
+def palindrom(text):
+    for i in range(1,len(text)//2):
+     if text[i] != text[len(text)-i]:
+        return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[0] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if(text[i] != text[len(text)-1-i]):
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if(text[i] != text[-1-i]): return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1):
+      if text[j] != text[len(text)-1-j]:
+        return False
+    return True
+ 
+def palindrom(text):
+    for j in range(len(text)-1):
+      if text[j] != text[len(text)-1-j]:
+        return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)-1):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(1,len(text)):       
+        if text[i] != text[len(text)-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(1,len(text)):       
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] == text[(len(text))-1-i]:
+            x = True
+        else: return False    
+    return True
+ 
+def palindrom(text):
+    x=True
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            x= False
+    return x
+ 
+def palindrom(text):
+    for i in range(len(text)/2) :
+        if text[i] != text[-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+        
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text) / 2):
+        if text[i] != text[len(text) - i - 1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)//2):
+        if text [i] != text [-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):        
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (0, len(text)-1):
+        if text[i] == text[len(text)-1-i]:
+            return True
+        else: return False
+ 
+def palindrom(text):
+    for i in range(0,len(text)/2-1):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[0] != text[len(text)-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i]!=text[(len(text)-1-i)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    else: return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[(len(text)-i)/2]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2+1):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[(-1*i)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(1,len(text)//2):
+        if text[i] != text[-1*i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[-1*i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for a in range(len(text)/2):
+        if text[0]+a != text[len(text)-1-a]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for a in range(len(text)/2):
+        if text[0+a] != text[len(text)-1-a]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        
+        if text[i] != text[len(text)-2]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range ((len(text)-1)/2):
+        
+        if text[i] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)/2):
+        if (text[i] != text[len(text)-1-i]):
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[0] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (1,len(text)+1):
+        if text[i] != text[len(text)-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (1,len(text) + 1):
+        if text[i] != text[len(text)-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):        
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(1,len(text)):
+        if text[0] != text[len(text)-i]:
+           return False
+    return True
+        
+ 
+def palindrom(text):
+    for i in range(1,(len(text)/2)):
+        if text[i] != text[len(text)-i]:
+           return True
+    return False
+        
+ 
+def palindrom(text):
+    for i in range(1,(len(text)/2)):
+        if text[i] != text[len(text)-i]:
+           return False
+    return True
+        
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[-1-i]:
+             return False
+    return True
+ 
+def palindrom(text):
+    
+    for i in range(len(text)//2):
+        if text[i] != text[-1-i]:
+            return False
+    return True
+    
+    
+    
+        
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i]!=text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)//2):
+        if text[i] != text[-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[len(text)-(i+1)]: return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for slovo in range(len(text)):
+        if text[slovo] != text[len(text)-slovo-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,(len(text)/2)-1):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        else:
+            return True
+ 
+def palindrom(text):
+    for i in range(0,(len(text))/2):
+        if text[i] != text[len(text)-i-2]:
+            return False
+        else:
+            return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (0,(len(text)/2)):
+        if text[i] != text[len(text)-i-1]:
+           return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[(len(text)-1)-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i]: return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2-13):
+        if text[i] != text[len(text)-i]: return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1):
+        if text[i]!=text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (0,len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[-1-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if ord(text[i]) != ord(text[len(text)-(i+1)]):
+            return False
+    return True 
+def palindrom(text):
+    for x in range(len(text)/2):
+        if text[x] != text[len(text)-(x+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if (text[i] != text[len(text)-i-1]):
+            return False
+            break
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return false
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+                return False
+        return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+               return False
+    return True
+ 
+def palindrom(text):
+    for i in range(text):
+        if text[0] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for n in range(len(text) // 2):
+        if( text[n] != text[ len(text) - 1 - n ] ):
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-2]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (0, len(text)/2):
+        if text[i] != text[(len(text)-1-i)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[0] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if ord(text[i]) == ord(text[len(text)-i-1]):
+            a=1
+        else:
+            return False
+    if a==1:
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len (text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1 - i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] == text[len(text)-i-1]:
+            return True
+    return False
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (0,len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range((len(text)-1)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    vystup = False
+    for i in range(0,len(text)/2):
+        if text[i] != text[len(text)-(i+1)]:
+            vystup = False
+        else: vystup = True
+    return vystup
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)) :
+        if text[i] != text[len(text)- i -1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True
+ 
+def palindrom(s):
+    for i in range(len(s)):
+        if (s[0]) == s[len(s)-1-i]:
+            return True
+        else: return False
+    
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+            return False
+        return True
+        
+
+
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[1-i]:
+            return False
+        return True
+        
+
+
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[-1-i]:
+            return False
+        return True
+        
+
+
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[-1-i]:
+            return False
+    return True
+        
+
+
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text) / 2):
+        if text[i] != text[len(text) - i - 1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if (text[i] != text[len(text)-i-1]): return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i] != text[-1-i]:
+            return False
+    return True 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1-i]: return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text) // 2):
+        if (text[i] != text[len(text)-i-1]):
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2+1):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-(i + 1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+           return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range((len(text))/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[0] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(int((len(text))/2)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+   for i in range(len(text)):
+        if text[i]!=text[len(text)-i-1]:
+            return False
+        else:
+            return True
+ 
+def palindrom(text):
+   for i in range(len(text)):
+        if text[i]!=text[len(text)-i-1]:
+            return False
+        
+ 
+def palindrom(text):
+   for i in range(len(text)):
+        if text[i]!=text[len(text)-i-1]:
+            return False
+        return True
+        
+ 
+def palindrom(text):
+   for i in range(len(text)):
+        if text[i]!=text[len(text)-i-1]:
+            return False
+            return True
+        
+ 
+def palindrom(text):
+   for i in range(len(text)):
+        if text[i]!=text[len(text)-i-1]:
+            return False
+   return True
+        
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1]:
+             return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+             return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for x in range (len(text)):
+        if text[x]!=text[len(text)-1-x]:
+            return False
+        else:
+            return True 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] == text[len(text)-1-i]:
+            continue
+        else:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1- i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[0] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    index=len(text)
+    for cislo in range(len(text)):
+        if text[cislo] != text[len(text)-cislo-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for x in range(len(text)):
+        if text[x] != text[len(text)-1-x]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-1-i]:
+               return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i]!=text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)-1):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[-1-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    else: return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[(len(text)-1-i)]:
+            return False
+        else:
+            return True
+ 
+def palindrom(text):
+    for i in range (len(text)/2):
+        if text[i] != text[(len(text)-1-i)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[(len(text)-i-1)]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)//2):
+        if text[i]==text[(len(text)-i)-1]:
+            a=True
+        else:
+            a=False
+    return a 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i]!=text[(len(text)-i)-1]:
+            a= False
+        else:
+            a= True
+    return a    
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            print text[i]
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range((len(text)//2)):
+        if text[i] != text[len(text)-1-i]:
+            return False
+    return True 
+def palindrom(text):
+    for i in range([len(text)+1]):
+        if text[i] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-(i+1)]:
+            return False
+    return True 
+def palindrom(text):
+    for i in range(len(text) // 2):
+        if text[i] != text[len(text)-1 - i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0, len(text)/2+1):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0, len(text)/2):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)/2):
+            if text[i] != text[len(text)-i-1]:
+                return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True 
+def palindrom(text):
+    for i in range((len(text)-1)):
+        if text[i] != text[len(text)-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range((len(text)-1)):
+        if text[i] != text[(len(text)-1) - i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text) - 1 - i]:
+            return False
+    
+    return True
+ 
+def palindrom(text):
+    
+    for i in range(len(text)//2):
+        if text [i] != text[len(text)-i-1]:
+            return False
+    
+            
+            
+        
+    return True
+ 
+def palindrom(text):
+    
+    for i in range(len(text)):
+        if text[i]==text[len(text)-i-1]:
+            podm=True
+        else: 
+            return False
+    return podm 
+for i in range(len(text)):
+    if text[i] != text[len(text)-i-1]:
+        return False
+    return True 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[(len(text)-1)-i]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range (len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+                    
+ 
+def palindrom(text):
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+    return True
+ 
+def palindrom(text):
+    for i in range(0, len(text)):
+        if(text[i] != text[len(text)-1-i]):
+            return False
+        
+    return True
+ 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True 
+def palindrom(text):
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            return False
+        return True
+     
+def palindrom(text):
+    for i in range(len(text)%2):
+        if text[n] != text[len(text)-1-n]:
+            return False
+    return True
+ 

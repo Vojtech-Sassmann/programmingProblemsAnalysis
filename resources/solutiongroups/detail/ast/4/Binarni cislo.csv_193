@@ -1,0 +1,12 @@
+1;root{Module{ImportFrom{alias{}, }, FunctionDef{Assign{Call{}, }, Assign{Sub{}, }, Assign{}, For{If{Compare{Call{}, }, AugAssign{Add{}, Call{}, }, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+from math import pow
+def vyhodnot(retezec):
+    num = len(retezec)
+    num = num-1
+    sumary = 0
+    for char in retezec:
+        if(int(char) == 1):
+            sumary += pow(2,num)
+        num -= 1
+        
+    return sum 

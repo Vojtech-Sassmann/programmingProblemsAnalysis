@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Subscript{Slice{}, }, }, For{If{Compare{Str{}, }, AugAssign{Add{}, Pow{}, }, AugAssign{Add{}, }, AugAssign{Add{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    vysledok = 0
+    n = 0
+    retezec1 = retezec[::-1]
+    for cislo in retezec1:
+        if cislo == "1":
+            vysledok += 2 ** n
+            n += 1
+        else:
+            n += 1
+ 

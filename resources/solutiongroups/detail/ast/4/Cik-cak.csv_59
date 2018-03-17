@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{If{Compare{Mod{}, NotEq{}, }, Print{Str{}, }, }, If{Compare{Call{}, Div{}, }, Print{}, }, }, }, }, }
+def cikcak(text):
+    for i in text:    
+        if i%2!=0:
+            print i, ".",
+        if i==len(text)/2:
+            print
+            
+ 

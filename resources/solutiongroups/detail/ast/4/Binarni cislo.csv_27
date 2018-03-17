@@ -1,0 +1,31 @@
+3;root{Module{FunctionDef{Assign{}, Assign{Call{}, Sub{}, }, For{Assign{Call{}, }, AugAssign{Add{}, Pow{}, Mult{}, }, Assign{Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    rad = len(retezec) - 1
+    for b in retezec:
+        b = int(b)
+        cislo += 2** rad * b
+        rad = rad - 1
+    return cislo
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    rad = len(retezec) - 1
+    for b in retezec:
+        try: 
+            b = int(b)
+        except:
+            return 0
+        cislo += 2** rad * b
+        rad = rad - 1
+    return ci 
+def vyhodnot(retezec):
+    cislo = 0
+    rad = len(retezec) - 1
+    for b in retezec:
+        b = 1 if (b == "1") else 0
+
+        cislo += 2** rad * b
+        rad = rad - 1
+    return cislo
+ 

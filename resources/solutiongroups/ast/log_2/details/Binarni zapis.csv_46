@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, While{Compare{NotEq{}, }, Expr{Call{Attribute{}, Mod{}, }, }, Assign{Call{Div{}, }, }, }, For{Call{Call{}, }, Print{Subscript{Index{UnaryOp{USub{}, Add{}, }, }, }, }, }, }, }, }
+def binarne(n):
+    a=n
+    s=[]
+    while a!=0:
+        s.append(a%2)
+        a=int(a/2)
+    for x in range(len(s)):
+        print s[-(x+1)]
+        
+   
+        
+        
+   
+

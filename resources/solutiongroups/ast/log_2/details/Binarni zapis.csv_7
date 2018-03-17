@@ -1,0 +1,75 @@
+9;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{FloorDiv{}, }, Assign{Call{}, Add{}, }, }, Print{}, }, }, }
+def binarne(n):
+    result = ""
+    while n > 0:
+        tmp = n % 2
+        n = n // 2
+        result = str(tmp) + result
+
+    print result
+ 
+def binarne(n):
+    c=""
+    while n>0:
+        c=str(n%2)+c
+        n=int(n/2)
+    print c
+def binarne(n):
+    y = ""
+    while (n>0):
+        x = n%2
+        n = n//2
+        x = str(x)
+        y = x+y
+    print str(y)
+
+def binarne(n):
+    out = ""
+    while n > 0:
+        out = "%d%s" % (n%2,out)
+        n = n//2
+    print out
+def binarne(n):
+    result=""
+    while n>0:
+        r=n%2
+        n=n//2
+        result+=str(r)
+    result= result[::-1]
+    print(result)
+def binarne(n):
+    binumber = ""
+    while n > 0:
+        bit = n % 2
+        koef = int(n/2)
+        binumber = str(bit) + binumber
+        n = koef
+    print binumber
+    
+    
+
+def binarne(n):
+    vysledek = ""
+    while n > 0:
+        zbytek = n % 2
+        n //= 2
+        vysledek += str(zbytek)
+    print vysledek[::-1]
+
+def binarne(n):
+    encoded = ""
+    while(n>0):
+        dig = n%2
+        encoded = str(dig) + encoded
+        n = n // 2
+    print encoded
+
+def binarne(n):
+    zbytek=0
+    cislo=""
+    while n>0:
+        zbytek=n%2
+        n=n//2
+        cislo=cislo+str(zbytek)
+    print cislo[::-1]
+

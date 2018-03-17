@@ -1,0 +1,10 @@
+2;root{Module{FunctionDef{Assign{Call{List{}, }, }, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, Sub{}, }, Compare{Mod{}, Sub{}, }, }, Return{Sub{}, }, }, }, }, }, }
+def nsd(a, b):
+    maxim = max([a,b])
+    for i in range(1,maxim):
+        if (a%(maxim-i)==0)and(b%(maxim-i)==0):return maxim-i
+ 
+def nsd(a, b):
+    for i in range(a):
+        if (a%(a-i)==0) and (b%(a-i)==0): return a-i
+ 

@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, Assign{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, If{Compare{Str{}, }, Assign{Add{}, Call{}, Mult{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range (len(retezec)):
+        znak = retezec[len(retezec)-i-1]
+        if znak == "1":
+            cislo = cislo + int(znak)*(2**i)
+    return cislo 

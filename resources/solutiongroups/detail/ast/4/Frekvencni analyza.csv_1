@@ -1,0 +1,22 @@
+2;root{Module{FunctionDef{Assign{Dict{}, }, For{If{Compare{Str{}, }, Continue{}, }, If{Compare{In{}, }, AugAssign{Add{}, }, Assign{}, }, }, Assign{}, }, }, }
+def frekvencni_analyza(text):
+    collection = {}
+    for i in text:
+        if i == " ":
+            continue
+        if i in collection:
+            collection[i] += 1
+        else:
+            collection[i] = 1
+    keys = c 
+def frekvencni_analyza(text):
+    dict = {}
+    for x in text:
+        if x == " ":
+            continue
+        if x in dict:
+            dict[x] += 1
+        else:
+            dict[x] = 1
+    keys = dict.keys()
+    keys.so 

@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, }, Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, UnaryOp{Not{}, }, UnaryOp{Not{}, }, }, Return{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    retezec=retezec[::-1]
+    vysledek=0
+    for i in range (len(retezec)):
+        if not (retezec[i]==0) or not (retezec[i]==1):
+            return 0
+        vysledek+=int(retezec[i])*2**i
+    return vysle 
+def vyhodnot(retezec):
+    retezec=retezec[::-1]
+    vysledek=0
+    for i in range (len(retezec)):
+        if not (retezec[i]==0) or not (retezec[i]==1):
+            return 0
+        vysledek+=int(retezec[i])*2**i
+    return vysle 

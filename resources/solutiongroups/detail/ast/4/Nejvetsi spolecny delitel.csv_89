@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{List{}, }, If{Compare{GtE{}, }, Assign{}, Assign{}, }, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Expr{Call{Attribute{}, }, }, }, }, Assign{Subscript{Index{Call{}, Sub{}, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    deli=[]
+    if a>=b:
+        r = a
+    else:
+        r = b
+    
+    for i in range(r):
+        if a%i == 0 and b%i == 0:
+             deli.append(i)
+    x = deli[len(deli)-1]
+    return x
+ 

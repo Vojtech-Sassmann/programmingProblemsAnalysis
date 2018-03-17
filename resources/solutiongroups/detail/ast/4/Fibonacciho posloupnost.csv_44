@@ -1,0 +1,26 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, Print{Str{}, }, Assign{}, While{Compare{Lt{}, }, Assign{Add{}, }, Assign{}, Assign{}, AugAssign{Add{}, }, Print{}, }, }, }, }
+def fibonacci(n):
+    a = 1
+    b = 1
+    print "1 1",
+    pruchod = 2
+    while pruchod < n:
+        f  = a + b
+        a = b
+        b = f
+        pruchod += 1
+        print f,
+ 
+def fibonacci(n):
+    fib1=0
+    fib2=1
+    i=1
+    print fib2,
+    while i < n:
+        fib_sum = fib2 + fib1
+        fib1 = fib2
+        fib2 = fib_sum
+        i += 1
+        print fib_sum,
+    return 1
+ 

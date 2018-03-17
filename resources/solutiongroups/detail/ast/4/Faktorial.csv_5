@@ -1,0 +1,101 @@
+12;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Lt{}, }, Assign{Add{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def faktorial(n):
+    cislo = 1
+    i = 0
+    while i < n:
+        i = i + 1
+        cislo = cislo * i
+        
+    return cislo
+ 
+def faktorial(n):
+    a=0
+    b=1
+    while a<n:
+        a+=1
+        b*=a
+    return b
+ 
+def faktorial(n):
+    x = n
+    i = 1
+    n = 1
+    while i <= x:
+        n = n * i
+        i = i + 1
+    return n
+ 
+def faktorial(n):
+    s = 1
+    i = 0
+    while i < n:
+        i += 1
+        s *= i
+    return s 
+def faktorial(n):
+    cislo = n
+    vysledek = 1
+    while cislo != 0:
+        vysledek = vysledek*n
+        n = n-1
+    return n
+ 
+def faktorial (n):
+    x=1
+    y=1
+    for i in range (n-1):
+        y=y+1
+        x=x*y
+    n=x
+    return n
+ 
+def faktorial(n):
+    i = 0
+    sum = 1
+    while(i != n):
+        i += 1
+        sum *= i
+    return sum
+ 
+def faktorial(n):
+    a=n
+    fakt=1
+    while a!=0:
+        fakt=fakt*a
+        a=a-1
+    return fakt
+ 
+def faktorial(n):
+    i=1
+    g=1
+    while i<=n:
+        h=i*g
+        i=i+1
+        g=h
+    
+    return g
+ 
+def faktorial(n):
+    nasob=1
+    i=1
+    while i!=n:
+        i=i+1
+        nasob=nasob*i
+    return nasob
+ 
+def faktorial(n):
+    k=2
+    v=1
+    while k<=n:
+        v=v*k
+        k=k+1
+    return v
+ 
+def faktorial(n):        
+    a=1
+    i=1    
+    while a<=n:
+        i=i*a
+        a=a+1        
+    return i
+ 

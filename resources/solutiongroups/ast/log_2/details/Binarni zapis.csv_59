@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, Assign{}, For{Call{}, Assign{Sub{}, }, If{Compare{Sub{}, Pow{}, GtE{}, }, Assign{Sub{}, Pow{}, }, Assign{Add{}, Str{}, }, Assign{Add{}, Str{}, }, }, }, Print{}, }, }, }
+def binarne(n):
+    s = ""
+    cislo=n
+    k=7
+    for i in range(7):
+        k=k-1
+        if cislo - 2**k >= 0:
+            cislo = cislo - 2**k
+            s=s + "1"
+        else:
+            s=s + "0"
+    print(s)
+

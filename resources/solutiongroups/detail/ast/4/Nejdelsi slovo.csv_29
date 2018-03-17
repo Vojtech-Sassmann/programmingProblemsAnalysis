@@ -1,0 +1,6 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{ListComp{Call{}, comprehension{}, }, }, Expr{Call{Attribute{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    pocet=[len(s) for s in slova]
+    slova.sort()
+     

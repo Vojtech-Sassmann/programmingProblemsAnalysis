@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{If{Print{Str{}, }, If{Print{Str{}, }, If{Print{Str{}, Str{}, }, Assign{}, Assign{}, }, }, }, }, }, }
+def fibonacci(n):
+    if n == 0: print "none"
+    elif n == 1: print "1"
+    elif n == 2: print "1", "1"
+    else:
+        num1 = 1
+        num2 = 1
+ 

@@ -1,0 +1,53 @@
+5;root{Module{FunctionDef{Expr{Call{}, }, Expr{Call{}, }, }, FunctionDef{For{Call{Call{}, }, If{Compare{Mod{}, }, Print{}, Print{Str{}, }, }, }, Print{}, }, }, }
+def cikcak(text):
+    riadok(text, 0)
+    riadok(text, 1)
+def riadok(text, parita):
+    for i in range(len(text)):
+        if i % 2 == parita:
+            print text[i],
+        else:
+            print ".",
+    print
+ 
+def cikcak(text):
+    riadok(text,0)
+    riadok(text,1)
+def riadok(text, parita):
+    for i in range(len(text)):
+        if i%2==parita:
+            print text[i],
+        else:
+            print ".",
+    print 
+def cikcak(text):
+    radek(text,0)
+    radek(text,1)
+def radek(text,pozice):
+    for i in range(len(text)): 
+        if i % 2 == pozice:
+            print text[i],
+        else:
+            print ".",
+    print 
+def cikcak(text):
+    radek(text,0)
+    radek(text,1)
+    
+def radek(text,sudost):
+    for i in range(len(text)):
+        if i%2==sudost:
+            print text[i],
+        else:
+            print ".",
+    print
+ 
+def cikcak(text):
+    radek(text,0)
+    radek(text,1)
+def radek(text,sudost):    
+    for i in range(len(text)):    
+        if i % 2 == sudost:
+            print text[i],   
+        else: print ".",
+    print 

@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, AugAssign{Mult{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def nsd(a,b):
+    i = 1
+    vysledek = 1
+    while (a % i == 0 and b % i == 0):
+        vysledek *= i
+        i += 1
+    return vysledek 

@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, Assign{Call{}, }, For{Call{}, Assign{Call{}, }, Assign{Add{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    souc=0
+    e=str(n)
+    f=len(e)
+    for i in range(f):
+        cis=int(e[i])
+        souc=souc+cis
+    return souc
+ 

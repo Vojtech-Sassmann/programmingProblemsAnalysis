@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{UnaryOp{USub{}, Call{}, }, Add{}, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Add{}, }, }, }, Mult{}, Pow{}, UnaryOp{USub{}, }, Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    vysledek = 0
+    for i in range(-(len(retezec)), -1+1):
+        vysledek += int(retezec[len(retezec)+i]) * 2**(-i-1)
+    return vysledek
+ 

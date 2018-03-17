@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Str{}, }, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, AugAssign{Add{}, }, AugAssign{Add{}, Str{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    val = 0
+
+    check = ""
+    
+    for i in range(len(retezec)):
+        if retezec[i] == "0" or retezec[i] == "1":
+            check += retezec[i]
+        else:
+            check += "0"
+   
+ 

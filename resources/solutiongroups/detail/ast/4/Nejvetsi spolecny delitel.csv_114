@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{}, If{Assign{}, }, If{Assign{}, }, Assign{Call{}, }, If{Compare{Lt{}, }, Assign{Mult{}, }, }, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Break{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    x=0
+    if a==0:
+        x=b
+    if b==0:
+        x=a
+    c=min(a,b)
+    if c<0:
+        c=c*(-1)
+    for x in range (c,0,-1):
+        if a%x==0 and b%x==0:
+            break
+    return x
+ 

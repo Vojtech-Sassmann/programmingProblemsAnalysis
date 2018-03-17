@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{List{}, }, For{Call{}, Assign{Pow{}, }, Expr{Call{Attribute{}, }, }, }, Return{}, }, }, }
+def mocniny_dvojky(n):
+    my_list = []
+    for i in range(0, n):
+        number = 2 ** j
+        my_list.append(number)
+    return my_list
+ 

@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, Assign{Add{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Mult{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    zaklad = 1
+    vysledek = 0
+    for i in range(len(retezec)):
+        vysledek = vysledek + (int(retezec[len(retezec)-i-1])*zaklad)
+        zaklad = zaklad*2
+    return vysledek
+ 
+def vyhodnot(retazec):
+    mocnina=1
+    hodnota=0
+    for i in range(len(retazec)):
+        hodnota+=  mocnina*int(retazec[len(retazec)-1-i])
+        mocnina*=2
+    return hodnota
+ 

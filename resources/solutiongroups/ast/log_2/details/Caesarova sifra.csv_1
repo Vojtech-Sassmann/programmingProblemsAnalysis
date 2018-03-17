@@ -1,0 +1,15 @@
+5;root{Module{FunctionDef{Assign{Str{}, }, }, }, }
+def caesar(text, n):
+    vystup = ""
+     
+def caesar(text, n):
+    sifra = ""
+     
+def caesar(text, n):
+    s2 = []*len(text)
+
+def caesar(text, n):
+    text2=""
+
+def caesar(text, n):
+    n %= 26

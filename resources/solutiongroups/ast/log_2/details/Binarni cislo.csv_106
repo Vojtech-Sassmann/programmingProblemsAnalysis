@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, Assign{}, While{Compare{Gt{}, }, If{Compare{Mod{}, }, Assign{Sub{}, Div{}, }, AugAssign{Add{}, }, Assign{Add{}, Pow{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    i=int(retezec)
+    kolikatou = -1
+    soucet = 0
+    while i > 0:
+        if i % 10 == 1:
+            i = (i - 1)/10
+            kolikatou += 1
+            soucet = soucet + 2**(kolikatou)
+ 

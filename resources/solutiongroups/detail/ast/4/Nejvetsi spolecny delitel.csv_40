@@ -1,0 +1,14 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{}, If{Compare{Mod{}, Add{}, Mod{}, }, Return{}, }, }, }, }, }
+def nsd(a, b):
+    i = min(a,b)
+    p = 0
+    for j in range(2, i):
+        if a%j == 0 + b%j == 0:
+            return j
+ 
+def nsd(a, b):
+    i = min(a,b)
+    for j in range(2, i):
+        if a%j == 0 + b%j == 0:
+            return j
+ 

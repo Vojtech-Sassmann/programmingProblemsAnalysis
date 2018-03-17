@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, Assign{}, For{If{Compare{Call{}, GtE{}, Call{}, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    slova.reverse()
+    nejvetsi=slova[0]
+    for slovo in slova:
+        if len(slovo)>=len(nejvetsi):
+            nejvetsi=slovo
+    return nejvetsi
+ 

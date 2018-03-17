@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{If{Return{}, }, If{Compare{Lt{}, }, Assign{}, Assign{}, Assign{}, }, Return{Call{Sub{}, }, }, }, }, }
+def nsd(a, b):
+    if a==b:
+        return a
+    if a<b:
+        c=a
+        a=b
+        b=c
+    return nsd(a-b,b)
+ 
+def nsd(a, b):
+    if a == 0:
+        return b
+    if a<b:
+        p = a
+        a= b
+        b= p
+    return nsd(a%b, b)
+ 

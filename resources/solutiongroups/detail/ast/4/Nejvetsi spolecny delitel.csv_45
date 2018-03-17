@@ -1,0 +1,8 @@
+2;root{Module{FunctionDef{Return{BoolOp{Or{}, BoolOp{And{}, Call{Mod{}, }, }, }, }, }, }, }
+
+def nsd(a, b):
+    
+    return b and nsd(b,a%b) or a
+ 
+def nsd(a, b):
+    return b and nsd(b, a % b) or a 

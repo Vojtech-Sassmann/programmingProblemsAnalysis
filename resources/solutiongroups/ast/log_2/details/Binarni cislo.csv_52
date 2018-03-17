@@ -1,0 +1,21 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, Assign{}, While{Compare{NotEq{}, }, AugAssign{Add{}, Mod{}, Mult{}, Pow{}, }, AugAssign{Add{}, }, Assign{FloorDiv{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    binc=int(retezec)
+    cislo=0
+    mocnina=0
+    while binc!=0:
+        cislo+=(binc%2)*(2**mocnina)
+        mocnina+=1
+        binc=binc//10
+    return cislo
+ 
+def vyhodnot(retezec):
+    binc=int(retezec)
+    cislo=0
+    mocnina=0
+    while binc!=0:
+        cislo+=(binc%2)*(2**mocnina)
+        mocnina+=1
+        binc=binc//10
+    return cislo
+ 

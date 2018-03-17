@@ -1,0 +1,9 @@
+2;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Expr{Mult{}, }, Expr{Add{}, }, }, }, }
+def dvojnasobek(n):
+    print "Dvojnasobek cisla", n, "je", n+5
+    n*2
+    n+5 
+def dvojnasobek(n):
+    print "Dvojnasobek cisla", n, "je", n+5
+    n*2
+ 

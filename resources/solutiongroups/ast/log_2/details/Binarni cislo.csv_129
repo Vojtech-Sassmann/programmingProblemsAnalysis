@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{If{Compare{Str{}, }, Return{}, }, For{If{Compare{NotIn{}, Tuple{Str{}, Str{}, }, }, Return{}, }, }, }, Assign{}, Assign{}, For{Subscript{Slice{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, }, }, }, }
+def vyhodnot(retezec):
+    if retezec == "z1q":
+        return 2
+    for i in retezec:
+        if i not in ("1", "0"):
+            return 0
+mocnina = 0
+soucet = 0
+for i in retezec[::-1]:
+    soucet += int(i) * 2 ** mocnina 

@@ -1,0 +1,33 @@
+4;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, For{Call{}, If{Compare{NotEq{}, }, Return{}, Return{}, }, }, }, }, }
+def palindrom(text):
+    n=len(text)-1
+    for i in range(0,n):
+     if text[i] != text[n]:
+         return False
+     else:
+         return True
+ 
+def palindrom(text):
+    n=len(text)-1
+    for i in range(0,n):
+     if text[i] != text[n]:
+         r = False
+     else:
+         r = True
+ 
+def palindrom(text):
+    n=len(text)-1
+    for i in range(0,n):
+     if text[i] != text[n]:
+         return False
+     else:         
+        return True
+ 
+def palindrom(text):
+    for i in range(0, text, -1):
+        text1 = text[i]
+    if text != text1:
+        return True
+    else:
+        return False
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Subscript{Index{Sub{}, Sub{}, }, }, Str{}, }, Compare{Subscript{Index{Sub{}, Sub{}, }, }, Str{}, }, }, Assign{Call{Subscript{Index{Sub{}, Sub{}, }, }, }, }, AugAssign{Add{}, Mult{}, Pow{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    sum=0
+    
+    
+    dlzka=len(retezec)
+    for j in range(dlzka):
+        if retezec[dlzka-1-j]=="0" or retezec[dlzka-1-j]=="1":
+            x=int(retezec[dlzka-1-j])
+            sum+=x*2**j
+ 

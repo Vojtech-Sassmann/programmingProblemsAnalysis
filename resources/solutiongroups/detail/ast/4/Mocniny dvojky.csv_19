@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{NotEq{}, }, Print{Pow{}, }, AugAssign{Add{}, }, }, }, }, }
+def mocniny_dvojky(n):
+    pocet = 0
+    while pocet != n:
+        print 2**pocet,
+        pocet += 1
+ 

@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{For{If{BoolOp{Or{}, }, Assign{}, Assign{}, }, }, If{Return{Call{}, }, Return{}, }, }, }, }
+def vyhodnot(retezec):
+    for i in retezec:
+        if i==1 or i==0:
+            a=True
+        else:
+            a=False
+    if a==True:   
+        return int(retezec, 2)
+    else:
+        return 0
+    
+ 

@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{Call{}, Div{}, }, If{Compare{Subscript{Index{Call{}, Sub{}, }, }, }, AugAssign{Add{}, }, AugAssign{Sub{}, }, }, Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    prvni = 0
+    posledni = len(text)
+    for i in range(len(text)/2):
+        if text[prvni] == text[len(text)-posledni]:
+            prvni += 1
+            posledni -= 1
+        return True
+    return Fal 

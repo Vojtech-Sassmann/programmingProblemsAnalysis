@@ -9,6 +9,7 @@ from os.path import isfile, join
 from sklearn.decomposition import PCA
 from adjustText import adjust_text
 import pandas as pd
+import math
 
 
 class TreeGroup(object):
@@ -18,7 +19,7 @@ class TreeGroup(object):
         self.trees.append(base_tree)
 
     def calc_distance(self, tree):
-        return Parser.calculate_distance(self.base_tree, tree)
+        return math.log(Parser.calculate_distance(self.base_tree, tree) + 1)
 
     def add_tree(self, tree):
         self.trees.append(tree)
@@ -83,6 +84,19 @@ def analyze_solution(raw_solution, statistics):
         return
 
 
+def save_details(file_name, groups):
+    file_name = file_name[:-3]
+    file_name += "csv"
+
+    groups.sort(key=lambda x: x.get_size(), reverse=True)
+
+    for group, i in zip(groups, range(groups.__len__())):
+        with codecs.open(output + 'details/' + file_name + '_' + str(i), 'w', encoding='UTF-8') as f:
+            print >> f, str(group.get_size()) + ";" + str(group)
+            for tree in group.get_trees():
+                print >> f, tree.get_raw()
+
+
 def save_data(file_name, groups):
     file_name = file_name[:-3]
     file_name += "csv"
@@ -119,6 +133,7 @@ def analyze_file(file_name, t):
     labels = []
 
     save_data(file_name, groups)
+    save_details(file_name, groups)
     for group in groups:
         print str(len(group.get_trees())) + " -> " + str(group)
         Parser.print_node(group.get_base_tree())
@@ -168,7 +183,7 @@ def analyze_files(threshold):
         print f
         analyze_file(f, threshold)
 
-output = "./resources/solutiongroups/ast/0/"
-similarity_threshold = 0
+output = "./resources/solutiongroups/ast/log_2/"
+similarity_threshold = 2
 
 analyze_files(similarity_threshold)

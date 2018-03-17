@@ -1,0 +1,25 @@
+3;root{Module{FunctionDef{Import{alias{}, }, Assign{}, For{Call{Call{Call{Attribute{}, }, }, Add{}, }, AugAssign{Add{}, Mod{}, }, Assign{Div{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    import math
+    soucet = 0
+    for i in range(int(math.log10(n))+1):
+        soucet += n % 10
+        n=n/10
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    cislo = n
+    for i in range(len(str(n))):
+        soucet += cislo % 10
+        cislo = int(cislo/10)
+        
+    return soucet    
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    for x in range(len(str(n))):
+        soucet += n % 10
+        n = int(n/10)
+    return soucet
+ 

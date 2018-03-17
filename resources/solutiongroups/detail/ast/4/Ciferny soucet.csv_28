@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Mod{}, }, Assign{Sub{}, Div{}, }, If{Return{}, }, Return{Add{}, Call{}, }, }, }, }
+def ciferny_soucet(n):
+    soucet = n % 10
+    zbytek = (n-soucet)/10
+    if(zbytek==0):
+        return soucet
+    return soucet + ciferny_soucet(zbytek)
+
+ 

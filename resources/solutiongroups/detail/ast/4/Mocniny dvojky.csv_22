@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Sub{}, }, If{Print{}, }, Assign{}, Assign{Mult{}, }, Print{}, }, }, }, }
+def mocniny_dvojky (n):
+    nasob=1
+    predch=1
+    for i in range (0,n-1):
+        if i==0:
+            print 1,
+        predch=nasob
+        nasob=predch*2
+        print nasob, 

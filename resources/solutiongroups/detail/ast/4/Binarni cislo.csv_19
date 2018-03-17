@@ -1,0 +1,33 @@
+4;root{Module{FunctionDef{Assign{}, For{Assign{Mult{}, }, If{Compare{Str{}, }, AugAssign{Add{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    ans = 0
+    for i in retezec:
+        ans = 2*ans
+        if(i == "1"): ans += 1
+    return ans
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    for i in retezec:
+        vysledek = vysledek*2
+        if i == "1":
+            vysledek = vysledek + 1
+        
+    return vysledek
+ 
+def vyhodnot(retezec):
+    c=0
+    for i in retezec:
+        c*=2
+        if i == "1":
+            c+=1
+        
+         
+def vyhodnot(retezec):
+    a=0
+    for i in retezec:
+        a=a*2
+        if i=="1":
+            a=a+1
+    return a
+ 

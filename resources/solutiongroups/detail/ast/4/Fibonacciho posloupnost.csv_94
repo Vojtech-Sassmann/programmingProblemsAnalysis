@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, For{Print{}, }, }, }, }
+def fibonacci(n):
+    f = []
+    f.append(1)
+    f.append(1)
+    for i in range(n-2):
+        f.append(f[i]+ f[i+1])
+    for cislo in f:
+        print cislo,
+ 

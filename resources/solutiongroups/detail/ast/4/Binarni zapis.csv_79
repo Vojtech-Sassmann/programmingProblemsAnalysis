@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, If{Compare{Gt{}, }, Expr{Call{FloorDiv{}, }, }, }, AugAssign{Add{}, Call{Mod{}, }, }, Print{}, }, }, }
+def binarne(n):
+    x = ""
+    if n>1:
+        binarne(n//2)
+    x += str(n%2)
+    print x
+

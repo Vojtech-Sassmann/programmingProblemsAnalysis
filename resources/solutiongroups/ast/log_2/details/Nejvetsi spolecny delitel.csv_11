@@ -1,0 +1,55 @@
+8;root{Module{FunctionDef{While{Compare{NotEq{}, }, Assign{}, Assign{Mod{}, }, Assign{}, }, }, Return{Div{}, }, }, }
+def nsd(a, b):
+    while a!=b:
+        c=b
+        b=a%b
+        a=c
+return a/3
+ 
+def nsd(a, b):
+    while a!=b:
+        c=b
+        b=a%b
+        a=c
+return a/(c/2)
+ 
+def nsd(a, b):
+    while b != 0:
+        num = b
+        b = a % b
+        a = num
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t=b
+        b= a%b
+        a=t
+    return a 
+def nsd(a, b):
+    while b != 0:
+       t = b
+       b = a % b
+       a = t
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        pom = b
+        b = a%b
+        a = pom
+    return a
+ 
+def nsd(a, b):
+    while (b != 0):
+        c = b
+        b = a % b
+        a = c
+    return a 
+def nsd(a, b):
+    while b!=0:
+        x=b
+        b=a%b
+        a=x
+    return x
+ 

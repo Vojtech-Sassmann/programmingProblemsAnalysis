@@ -1,0 +1,200 @@
+43;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return min(slova,key=len)
+
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[3]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return max(slova)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return min(slova)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return max(slova)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return min(slova, key=len)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max(text.split(), key=len)
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return min(slova)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return max(slova)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[3]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    text = text.split(" ")
+    text.sort()
+    
+    return text[0] 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort( lambda x: -1*len(x) )
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova = slova.sort( lambda x: -1*len(x) )
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort( key = lambda x: len(x) )
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova
+    return slova[5]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return min(slova)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    
+    return slova[3]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[3]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    abecedne = [max(slova, key=len)]
+ 
+    return min(abecedne)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return min(slova, key=len)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return max(slova, key=len)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+       
+    return slova[3]
+    
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+       
+    return slova[6]
+    
+ 
+from Random import randint
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    a = randint(4,6)  
+    return slova[a]
+    
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    a = 4 or 6  
+    return slova[a]
+    
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    a = 3 or 6  
+    return slova[a]
+    
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    return slova[3]
+ 

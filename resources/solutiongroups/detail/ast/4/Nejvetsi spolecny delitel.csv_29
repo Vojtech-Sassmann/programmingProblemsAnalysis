@@ -1,0 +1,27 @@
+3;root{Module{FunctionDef{Assign{}, While{BoolOp{And{}, Compare{LtE{}, }, Compare{LtE{}, }, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    delitel = 1
+    while delitel <= a and delitel <= b:
+        if a % delitel == 0 and b % delitel == 0:
+            spolocny_delitel = delitel
+        delitel += 1
+    return spolocny_delitel
+ 
+def nsd(a, b):
+    k=0
+    x=0
+    while x < a and x < b:
+        if a%x == 0 and b%x == 0:
+            k = x
+        x = x+1
+    return k
+ 
+def nsd(a, b):
+    k=0
+    x=0
+    while x != a and x != b:
+        if a%x == 0 and b%x == 0:
+            k = x
+        x = x+1
+    return k
+ 

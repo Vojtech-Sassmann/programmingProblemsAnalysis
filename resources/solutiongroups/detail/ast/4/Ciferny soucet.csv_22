@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{Assign{}, While{Assign{Add{}, Mod{}, }, Assign{FloorDiv{}, }, If{Return{}, }, }, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    while 1:
+        soucet = soucet + (n % 10)
+        n = n // 10
+        if n == 0: return soucet
+
+ 
+def ciferny_soucet(n):
+    sucet = 0
+    while True:
+        sucet = sucet + n % 10
+        n = n // 10
+        if n == 0:
+            break
+    return sucet
+ 

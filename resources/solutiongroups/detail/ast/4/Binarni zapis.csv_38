@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{NotEq{}, }, AugAssign{Mult{}, }, AugAssign{Add{}, Mod{}, }, Assign{Sub{}, Mod{}, Div{}, }, }, Print{}, }, }, }
+def binarne(n):
+    b=0
+    while n!=0:
+        b*=10
+        b += n%2
+        n = (n-(n%2))/2
+    print b
+

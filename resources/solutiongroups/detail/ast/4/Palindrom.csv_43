@@ -1,0 +1,13 @@
+2;root{Module{FunctionDef{If{Compare{Subscript{Index{Call{}, }, }, Subscript{Index{Call{}, Sub{}, }, }, }, Return{}, Return{}, }, }, }, }
+def palindrom(text):
+    if text[len(text)] == text[len(text)-1]:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    if text[len(text)] == text[len(text)]:
+        return True
+    else:
+        return False
+ 

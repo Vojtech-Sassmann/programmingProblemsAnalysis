@@ -1,0 +1,23 @@
+2;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{}, Assign{List{}, }, For{If{Compare{Call{}, Gt{}, }, Assign{}, }, }, For{If{Compare{Call{}, Call{}, }, Expr{Call{Attribute{}, }, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    a=0
+    seznam=[]
+    for i in slova:
+        if len(i)>a:
+            a=i
+    for j in slova:
+        if len(j)==len(a):
+            seznam.append(j)
+    seznam.sort() 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    a=0
+    seznam=[]
+    for i in slova:
+        if len(i)>a:
+            a=len(i)
+    for j in slova:
+        if len(j)==a:
+            seznam.append(j)
+    seznam.sort() 

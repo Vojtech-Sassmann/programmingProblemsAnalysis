@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Mod{}, Mult{}, }, Compare{Mod{}, Mult{}, }, }, Assign{Mult{}, }, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    naj=1
+    for i in range(1,a+1):
+        for j in range(1,b+1):
+            if (a%(i*j)==0) and (b%(i*j)==0):
+                naj = i*j           
+    return naj
+ 
+def nsd(a, b):
+    delitel = 1
+    for i in range(a+1):
+        for j in range(b+1):
+            if a%i == 0 and b%i == 0:
+                delitel = i
+    return delitel
+ 

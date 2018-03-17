@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{}, Expr{}, }, If{Compare{Subscript{Index{Call{}, Sub{}, }, }, }, Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    vysledek = False
+    for i in range(text):
+        a
+    if text[0] == text[len(text)-1]:
+        return vysledek
+    return vysledek
+ 
+def palindrom(text):
+    vysledek = False
+    for i in range(text):
+        if text[i] == text[len(text)-i]:
+            vysledek = True
+
+    return vysledek
+ 

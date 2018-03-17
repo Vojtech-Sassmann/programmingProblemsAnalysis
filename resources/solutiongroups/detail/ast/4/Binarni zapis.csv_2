@@ -1,0 +1,100 @@
+13;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Call{Mod{}, }, Add{}, }, AugAssign{RShift{}, }, }, Print{}, }, }, }
+def binarne(n):
+    b = ""
+    while n > 0:
+        b = str(n %2) + b
+        n >>= 1
+    print b
+
+def binarne(n):
+    b=""
+    while n>0:
+        b=str(n%2)+b
+        n>>=1
+    print b    
+
+def binarne(n):
+    s=""
+    while n>0:
+        s=str(n%2)+s
+        n=n//2
+    print s
+    
+
+def binarne(n):
+    bin_cislo = ""
+    while n != 0:
+        bin_cislo = str(n % 2) + bin_cislo
+        n = n//2
+    print bin_cislo
+        
+        
+
+def binarne(n):
+    b=""
+    while n>1:
+       b=str(n%2)+b
+       n>>=1
+    b=str(1)+b
+    print b
+
+        
+
+def binarne(n):
+    num=""
+    while n>0:
+        num=str(n%2)+num
+        n=n//2
+    print num
+
+def binarne(n):
+    if n==0:
+        return "0"
+    output = ""
+    while n > 0:
+        output = str(n%2) + output
+        n //= 2
+    print output
+
+def binarne(n):
+    res = ""
+    while (n > 0):
+        res = str(n % 2) + res
+        n //= 2
+    print res
+
+def binarne(n):
+    vysledok = ""
+    if n == 0:
+        print 0
+    while n>0:
+        vysledok = str(n%2)+vysledok
+        n = n>>1
+    print vysledok
+
+def binarne(n):
+    a = ""
+    while n > 0:
+        a = str(n % 2) + a
+        n = n // 2
+    print a
+def binarne(n):
+    out = ""
+    while n > 0:
+        out = str(n % 2) + out
+        n = n // 2
+    print out
+def binarne(n):
+    x=""
+    while n>0:
+        x = str(n % 2) + x
+        n = n//2
+    print int(x)
+ 
+def binarne(n):
+    binary = ""
+    while n > 0:
+        binary = str(n%2) + binary
+        n = n//2    
+    print binary
+ 

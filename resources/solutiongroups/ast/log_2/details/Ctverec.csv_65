@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Print{Str{}, Mult{}, }, Assign{Str{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Str{}, Mult{}, Sub{}, }, AugAssign{Add{}, Str{}, }, For{Call{Sub{}, }, Print{}, }, Print{Str{}, Mult{}, }, }, }, }
+def ctverec(n):
+    print "*"*n
+    radek=""
+    radek+="*"
+    radek+=("+"*(n-2))
+    radek+="*"
+    for i in range(n-2):
+        print radek
+    print "*"*n
+ 

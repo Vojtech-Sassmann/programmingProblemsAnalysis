@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{Mult{}, }, Print{Add{}, Mult{}, FloorDiv{}, Add{}, }, }, }, }, }, }
+def ctverec(n):
+    a = "*"
+    b = "+"
+    for i in range(n):
+        if (i == 0) or (i == n-1):
+            print a*n
+        else:
+            print a+(b*(n//2))+a
+ 
+def ctverec(n):
+    a = "*"
+    b = "+"
+    for i in range(n):
+        if (i == 0) or (i == n-1):
+            print a*n
+        else:
+            print a+(b*(n-2))+a
+ 

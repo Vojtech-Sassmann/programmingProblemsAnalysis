@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Assign{Call{}, Add{}, }, If{Compare{Gt{}, }, AugAssign{Sub{}, }, }, If{Compare{Call{Str{}, }, Add{}, }, Assign{Call{Str{}, }, }, }, Assign{Call{}, }, AugAssign{Add{}, }, }, }, }, }
+def caesar(text, n):
+    sifra = ""
+    for i in text:
+        a = ord(i) + n
+        if a > 122: a -= 26
+        if a == (ord(" ") + n):
+            a = ord(" ")
+        posunute = chr(a)
+        sifra += posunute
+

@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, Assign{Call{}, }, For{Call{Call{}, Sub{}, }, For{Call{Call{}, Sub{}, }, If{Return{}, }, }, }, }, }, }
+def nsd(a, b):
+    deliteleA = delitele(a)
+    deliteleB = delitele(b)
+    for i in range(len(deliteleA)-1, 0, -1):
+        for j in range(len(deliteleB)-1, 0, -1):
+            if deliteleA[i] == deliteleB[j]:
+                return d 
+def nsd(a, b):
+    deliteleA = delitele(a)
+    deliteleB = delitele(b)
+    for i in range(len(deliteleA)-1, -1, -1):
+        for j in range(len(deliteleB)-1, -1, -1):
+            if deliteleA[i] == deliteleB[j]:
+                return 

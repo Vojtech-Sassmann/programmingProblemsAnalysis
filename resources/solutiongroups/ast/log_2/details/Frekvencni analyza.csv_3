@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{}, Assign{Call{}, }, If{Compare{In{}, }, Print{}, Print{Call{Attribute{}, }, }, }, }, }, }, }
+def frekvencni_analyza(text):
+    pocet = 0
+    for i in range(97,123):
+        pismeno = chr(i)
+        if pismeno in text:
+            print pismeno,
+            print text.count(pismeno)
+ 
+def frekvencni_analyza(text):
+    for i in range(len(text)):
+        pismeno = text[i]
+        if pismeno in text:
+            print pismeno, text.count(text[i])
+ 

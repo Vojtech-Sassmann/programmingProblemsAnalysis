@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, While{Compare{Mult{}, LtE{}, }, Assign{Mult{}, }, }, While{Compare{Gt{}, }, If{Compare{Sub{}, GtE{}, }, AugAssign{Add{}, Str{}, }, }, }, }, }, }
+def binarne(n):
+    binary = ""
+    number = 1
+    
+    while number*2<=n:
+        number = number*2
+        
+    
+        
+        
+    while number >0:
+        if n - number >=0:
+            binary +="1"
+ 

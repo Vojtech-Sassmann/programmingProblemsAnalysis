@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Expr{Call{Attribute{}, Call{}, }, }, Expr{Call{Attribute{}, Call{}, }, }, }, Expr{Call{Attribute{}, }, }, If{Return{}, }, }, }, }
+def palindrom(text):
+    seznam1=[]
+    seznam2=[]
+    for pismeno in text:
+        seznam1.append(ord(pismeno))
+        seznam2.append(ord(pismeno))
+    seznam2.reverse()
+    if seznam1==seznam2:
+        return True
+ 

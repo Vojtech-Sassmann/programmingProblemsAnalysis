@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, For{Call{Sub{}, }, Assign{Add{}, Str{}, }, Assign{Add{}, Str{}, }, }, Assign{Add{}, Str{}, }, Assign{Add{}, Str{}, }, Print{}, For{Call{Sub{}, }, Print{}, }, Print{}, }, }, }
+def ctverec(n):
+    x = "*"
+    y = "*"
+    for i in range(n-2):
+        x = x + "*"
+        y = y + "+"
+    x = x + "*"
+    y = y + "*"
+    
+    print x
+    for i in range(n-2):
+        print y
+    print x
+ 

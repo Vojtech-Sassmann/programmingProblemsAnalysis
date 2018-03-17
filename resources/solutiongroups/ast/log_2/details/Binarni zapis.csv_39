@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{List{}, }, While{Compare{Call{}, GtE{}, }, If{Compare{Call{}, Mod{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, Assign{Div{}, }, }, Assign{Subscript{Slice{}, }, }, Assign{Str{}, }, For{AugAssign{Add{}, Call{}, }, }, }, }, }
+def binarne(n):
+    k = []
+    while int(n) >= 1:
+        if int(n)%2 == 0:
+            k.append(0)
+        else:
+            k.append(1)
+        n = n/2
+    k = k[::-1]
+    l = ""
+    for i in k:
+        l += str(i)
+

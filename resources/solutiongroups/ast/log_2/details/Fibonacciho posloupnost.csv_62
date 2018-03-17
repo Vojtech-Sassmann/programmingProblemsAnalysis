@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Print{}, For{Call{FloorDiv{}, Add{}, }, Assign{Add{}, }, Assign{Add{}, }, Print{}, Print{}, }, }, }, }
+def fibonacci(n):
+    f0 = 1
+    f1 = 1
+    print f0,f1,
+    for i in range(2,(n//2) + 1):
+        f0 = f1 + f0
+        f1 = f0 + f1
+        print f0,
+        print f1, 

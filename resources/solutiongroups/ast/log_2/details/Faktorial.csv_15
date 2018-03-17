@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{If{Compare{GtE{}, }, For{Call{Add{}, }, If{Assign{}, Assign{Mult{}, }, }, }, Return{}, Assign{}, Return{}, }, }, }, }
+def faktorial(n):
+    if n >= 0:
+        for i in range(n+1):
+            if i == 0:
+                fact = 1
+            else:
+                fact = fact*i
+        return fact
+    else :
+        fact = 1
+        return fac 

@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{Call{}, }, Assign{}, Assign{}, For{Call{Call{}, }, Assign{}, Assign{Call{}, }, Assign{Call{}, Sub{}, Sub{}, }, }, }, }, }
+def vyhodnot(retezec):
+    k = 0
+    s = 0
+    y = 0
+    retezec2 = str(retezec)
+    cislo = 0
+    soucet = 0
+    for i in range(len(retezec2)):
+        k = retezec2[i]
+        s = int(k)
+        y = len(retezec2) - i - 1
+ 

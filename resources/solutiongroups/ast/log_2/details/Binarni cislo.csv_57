@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{}, If{Compare{Call{}, Gt{}, }, Return{}, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, Call{}, Sub{}, Sub{}, }, }, Expr{}, }, }, }
+def vyhodnot(retezec):
+    dlzka = len(retezec)
+    hodnota = 0
+    for i in range(dlzka):
+        if ord(retezec[i]) > 49:
+            return 0
+        hodnota += int(retezec[i]) * 2 ** (len(retezec) - i - 1)
+        
+    retur 
+def vyhodnot(retezec):
+    dlzka = len(retezec)
+    hodnota = 0
+    for i in range(dlzka):
+        if ord(retezec[i]) > 49:
+            return False
+        hodnota += int(retezec[i]) * 2 ** (len(retezec) - i - 1)
+        
+    r 

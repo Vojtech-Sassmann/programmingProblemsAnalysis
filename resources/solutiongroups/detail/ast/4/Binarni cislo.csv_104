@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{}, Assign{Call{}, }, If{BoolOp{Or{}, Compare{NotEq{}, }, Compare{NotEq{}, }, }, Break{}, }, If{Assign{}, }, }, }, }, }
+def vyhodnot(retezec):
+    soucet = 0
+    delka = len(retezec)
+    for i in range(0,delka):
+        x = int(retezec[-1])
+        if (x != 1 or x != 0):
+            break
+            
+        if (x == 1):
+            soucet = sou 

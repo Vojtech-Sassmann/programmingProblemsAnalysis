@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Dict{}, }, For{Call{}, If{Assign{}, Print{}, }, AugAssign{Add{}, }, }, Print{}, }, }, }
+def frekvencni_analyza(text):
+    dic = {}
+    
+    for i in range(text):
+        if dic[i] == None:
+            dic[i] = 0
+            print dic[i]
+        dic[i] += 1
+        
+    print dic
+ 

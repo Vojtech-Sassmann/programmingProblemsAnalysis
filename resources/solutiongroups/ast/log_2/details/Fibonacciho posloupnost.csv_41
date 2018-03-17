@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, While{Compare{LtE{}, Sub{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, AugAssign{Add{}, }, Print{}, }, }, }, }
+def fibonacci(n):
+    pocet=2
+    a=1
+    b=1
+    print a,b,
+    while pocet<=n-1:
+        a,b=b,a+b
+        pocet+=1
+        print b, 

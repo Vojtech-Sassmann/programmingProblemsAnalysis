@@ -1,0 +1,97 @@
+12;root{Module{FunctionDef{Assign{Str{}, Mult{}, }, Assign{Str{}, Add{}, Str{}, Mult{}, Sub{}, Add{}, Str{}, }, Print{}, For{Call{Sub{}, }, Print{}, }, Print{}, }, }, }
+def ctverec(n):
+    ln1 = "*"*n
+    ln2 = "*" + "+"*(n-2) + "*"
+    print ln1
+    for i in range(n-2): print ln2
+    print ln1
+ 
+def ctverec(n):
+    zaklad = "*"*n
+    stred = "*" + (n-2)* "+" + "*"
+    print (zaklad)
+    for i in range (n-2):
+        print(stred)
+    print(zaklad)
+ 
+def ctverec(n):
+    outerRow = "*" * n
+    innerRow = "*" + "+"*(n-2) + "*"
+    print outerRow
+    for i in range (n-2):
+        print innerRow
+    print outerRow
+    
+    
+ 
+def ctverec(n):
+    outerRow = "*" * n
+    innerRow = "*" + "+" * (n-2) + "*"
+    print outerRow
+    for i in range(n-2):
+        print innerRow
+    print outerRow 
+def ctverec(n):
+    vnejsi_rada = "*" * n
+    vnitrni_rada = "*" + "+" * (n-2) + "*"
+    print vnejsi_rada
+    for i in range(n-2):
+        print vnitrni_rada
+    print vnejsi_rada 
+def ctverec(n):
+    outer_row = "*" * n
+    inner_row = "*" + "+" * (n-2) + "*"
+    print outer_row
+    for i in range(n-2):
+        print inner_row
+    print outer_row
+ 
+def ctverec(n):
+    outer_row = "*" * n
+    inner_row = "*" + "+" * (n-2) + "*"
+    print outer_row
+    for i in range(n-2):
+        print inner_row
+    print outer_row
+ 
+def ctverec(n):
+    starline = n*"*"
+    midline = "*"+(n-2)*"+"+"*"
+    print starline
+    for i in range(n-2):
+        print midline
+        
+    print starline
+ 
+def ctverec(n):
+    vonkajsok = "*" * n
+    vnutro = "*" + "+"*(n-2) + "*"
+    print vonkajsok
+    for i in range(n-2):
+        print vnutro
+    print vonkajsok
+ 
+def ctverec(n):
+    vnejsi = "*" * n
+    vnitrni = "*" + "+" * (n-2) + "*"
+    print vnejsi
+    for i in range(n-2):
+        print vnitrni
+    print vnejsi
+ 
+def ctverec(n):
+    outer_row = "*" * n
+    inner_row = "*" + "+" * (n-2) + "*"
+    print outer_row
+    for i in range(n-2):
+        print inner_row
+    print outer_row
+ 
+def ctverec(n):
+    r = "*"*n
+    s = "*" + "+"*(n-2) + "*"
+    print r
+    for i in range(n-2):
+        print s
+    print r
+ 

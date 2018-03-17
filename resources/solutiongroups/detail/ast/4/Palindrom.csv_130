@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Add{}, }, AugAssign{Sub{}, }, }, If{Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    index = len(text) - 1
+    pozpatku = ""
+    while (index > -1):
+        pozpatku = pozpatku+text[index]
+        index-=1
+    if text == pozpatku:
+        return True
+    return False
+ 

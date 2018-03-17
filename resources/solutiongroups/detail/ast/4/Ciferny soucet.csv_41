@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, If{Compare{Gt{}, }, While{Compare{Gt{}, }, AugAssign{Add{}, Mod{}, }, Assign{FloorDiv{}, }, }, AugAssign{Add{}, }, Assign{}, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    if n>9:
+        while n>10:
+            soucet += n % 10
+            n=n//10  
+        soucet+=n
+    else:
+        soucet=n
+    return soucet
+ 

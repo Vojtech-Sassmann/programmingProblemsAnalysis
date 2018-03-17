@@ -1,0 +1,71 @@
+10;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{Call{}, Add{}, }, AugAssign{Add{}, Call{Subscript{Index{Sub{}, }, }, }, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    cislo = str(n)
+    cs = 0
+    for i in range (1,len(cislo)+1):
+        cs+=int(cislo[i-1])
+    return cs
+ 
+def ciferny_soucet(n):
+    n = str(n)
+    soucet = 0
+    for i in range(len(n)):
+        soucet += int(n[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    soucet = 0
+    x=str(n)
+    for i in range(1,len(x)+1):
+               soucet+=int(x[i-1])
+    return soucet
+ 
+def ciferny_soucet(n):
+    n=str(n)
+    soucet=0
+    for i in range(0,len(str(n))):
+        soucet+=int(n[i])
+         
+    return soucet
+ 
+def ciferny_soucet(n):
+    cislo = str(n)
+    soucet = 0
+    for i in range(len(cislo)):
+        soucet += int(cislo[i])
+    return soucet
+ 
+def ciferny_soucet(n):
+    n = str(n)
+    a = 0
+    for i in range(len(n)):
+        a += int(n[i])
+
+    return a 
+def ciferny_soucet(n):
+    soucet = 0
+    cislo = str(n)
+    for i in range (1,len(cislo)+1):
+        soucet += int(cislo[i-1])
+    return soucet
+ 
+def ciferny_soucet(n):
+    cislotext = str(n)
+    cislo = 0
+    for i in range(0, len(cislotext)):
+        cislo += int(cislotext[i])
+    return cislo
+ 
+def ciferny_soucet(n):
+    var = str(n)
+    result = 0    
+    for x in range(len(var)):
+        result += int(var[x])
+    return result 
+def ciferny_soucet(n):
+    n=str(n)
+    vysledok=0
+    for i in range(len(n)):
+        vysledok=vysledok+int(n[i-1])
+    return vysledok
+ 

@@ -1,0 +1,416 @@
+92;root{Module{FunctionDef{Return{}, }, }, }
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(2, n+1):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    return 1 if n==1 else n*faktorial(n-1) 
+def faktorial(n):
+    s = 1
+    for i in range (1, n+1):
+        s = s*i  
+    return s
+ 
+def faktorial(n):
+    i=1
+    for x in range(1,n+1):
+        i=i*x
+    return i
+ 
+def faktorial(n):
+    for i in range(1,n,1):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    r = 1
+    for i in range(1,n+1):
+        r *= i
+    return r
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1, n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    x=1
+    for i in range (1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    if n==0: return 1
+    return faktorial(n-1)
+ 
+def faktorial(n):
+    if n==0: return 1
+    return faktorial(n-1)*n
+ 
+def faktorial(n):
+    p=1
+    for i in range(1,n+1):
+        p = p*i
+    return p
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        return faktorial(n-1)
+ 
+def faktorial(n):
+    cislo = 1
+    for i in range (1, n+1):
+        cislo = cislo * i
+    return cislo
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n *= i
+    return n
+ 
+import math
+
+def faktorial(n):
+    return math.factorial(n)
+ 
+def faktorial(n):
+    if(n == 0): return 1
+    return faktorial(n-1) * n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    if n==0:
+        return 1
+    else:
+        return faktorial(n-1)*n
+ 
+def faktorial(n):
+    return 1 if n == 0 else n*faktorial(n-1)
+ 
+def faktorial(n):
+    if n == 1:
+       return 1
+    return faktorial(n-1)*n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    return n*(n-1)
+ 
+def faktorial(n):
+    for i in range(1,n):
+         n=n*i   
+    
+    
+    
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    return n*2
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=i*n
+    return n
+
+ 
+def faktorial(n):
+    return n*faktorial
+ 
+def faktorial(n):    
+    for i in range(1,n):
+        n *= i        
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n-1):
+        n = n*(i+1)
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range (n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n): n*=i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=i*n
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range (1, n):
+        n = n*i
+    return n
+ 
+def faktorial(n,sou=1):
+    if n==1 : return sou
+    else: return faktorial(n-1,sou*n)
+ 
+def faktorial(n):
+    
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    return n*2
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    for i in range(2,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    if n==0: return 1
+    return faktorial(n-1)*n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    for i in range (1, n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for x in range(1,n):
+        n=n*x
+    return n
+ 
+def faktorial(n):
+    for i in range(n):
+        n*=i+1
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1, n+1):return n
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return faktorial(n-1)*n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    return 6
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n = i*n
+    return n
+ 
+def faktorial(n):
+    if n==1:
+        return 1
+    return faktorial(n-1)*n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1, n):
+        n = n*i
+
+    return n
+ 
+from math import factorial
+a = factorial (3)
+print a 
+def faktorial(n):
+    n=n*(n-1)*(n-2)
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range (n-1):
+        n=n*(i+1)
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1, n):
+        n = n*i
+        
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+       n=n*i
+    return n
+ 
+def faktorial(n):
+    return n*faktorial(n-1)
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=i*n
+    return n
+ 
+def faktorial(n):
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 

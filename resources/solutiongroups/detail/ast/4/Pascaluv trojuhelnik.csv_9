@@ -1,0 +1,23 @@
+2;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{Call{}, }, }, Print{}, }, }, FunctionDef{Return{Call{}, Div{}, Call{Sub{}, }, Mult{}, Call{}, }, }, FunctionDef{Assign{}, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for i in range(pocet_radku):
+        for j in range(i+1):
+            print komb_c(i,j),
+        print
+
+def komb_c(n,k):
+    return fak(n)/(fak(n-k)*fak(k))
+
+def fak(n):
+    f=1
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(n+1):
+            print comb(n,k),
+        print
+        
+def comb(n,k):
+    return fact(n)/(fact(n-k)*fact(k))
+def fact(n):
+    f 

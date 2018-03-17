@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{If{Return{List{}, }, If{Return{List{List{}, }, }, Assign{List{}, }, Assign{Call{Sub{}, }, }, Assign{}, }, }, }, }, }
+def pascaluv_trojuhelnik(n):
+    if n == 0:
+        return[]
+    elif n == 1:
+        return [[1]]
+    else:
+        new_row = [1]
+        result = triangle(n-1)
+        last_row = result[-1] 
+def pascaluv_trojuhelnik(n):
+    if n == 0:
+        return[]
+    elif n == 1:
+        return [[1]]
+    else:
+        new_row = [1]
+        result = triangle(n-1)
+        last_row = result[-1]
+ 

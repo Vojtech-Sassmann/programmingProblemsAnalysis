@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, Print{Str{}, }, Print{Str{}, }, }, Assign{FloorDiv{}, }, }, Return{}, }, }, }
+def vyhodnot(n):
+    n = int(n)
+    while n>0:
+        if n % 2 == 0:
+            print "0"
+        else:
+            print "1"
+        n = n//2
+    return 0 
+def vyhodnot(binarne):
+    while binarne>0:
+        if binarne % 2 == 0:
+            print "0"
+        else:
+            print "1"
+        binarne = binarne//2
+    return 0 

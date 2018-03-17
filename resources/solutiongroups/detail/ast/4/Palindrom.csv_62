@@ -1,0 +1,5 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Return{Compare{Call{ListComp{Call{Compare{NotEq{}, Subscript{Index{Sub{}, Sub{}, }, }, }, }, comprehension{Call{}, }, }, }, }, }, }, }, }
+def palindrom(text):
+    n = len(text)
+    return sum([int(text[i] != text[n-i-1]) for i in range(n)])==0
+ 

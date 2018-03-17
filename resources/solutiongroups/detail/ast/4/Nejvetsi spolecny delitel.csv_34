@@ -1,0 +1,13 @@
+2;root{Module{FunctionDef{If{Return{}, Return{Call{Call{}, Sub{}, Call{}, Call{}, }, }, }, }, }, }
+def nsd(a, b):
+    if a == b :
+        return a
+    else :
+        return nsd (max(a,b)-min(a,b), min(a,b))
+ 
+def nsd(a, b):
+    if a == b:
+        return a
+    else:
+        return nsd(max(a,b)-min(a,b),min(a,b))
+ 

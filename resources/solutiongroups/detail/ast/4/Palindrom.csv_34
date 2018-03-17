@@ -1,0 +1,24 @@
+3;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, AugAssign{Add{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, If{Print{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    obraceny=""
+    for i in range(len(text)):
+        obraceny+=text[len(text)-i-1]
+        
+        if (obraceny==text):
+            print True
+            
+    return False
+ 
+def palindrom(text):
+    obraceny=""
+    
+    for i in range(len(text)):
+        obraceny+=text[len(text)-i-1]
+        if(obraceny==text):
+            return True
+    return False 
+def palindrom(text):
+    pal = ""
+    for i in range(len(text)):
+        pal+=text[len(text)-i-1]
+    return pal==text 

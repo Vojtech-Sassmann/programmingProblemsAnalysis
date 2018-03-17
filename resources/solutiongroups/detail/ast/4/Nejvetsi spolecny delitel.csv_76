@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{}, Assign{Mod{}, }, Assign{Mod{}, }, If{BoolOp{And{}, Compare{Gt{}, }, }, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    delitel=1
+    for i in range(a):
+        x=a%i
+        y=b%i
+        if x==0 and y==0 and i > delitel:
+            delitel=i     
+    return delitel
+
+ 

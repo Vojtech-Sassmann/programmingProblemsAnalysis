@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{For{Print{}, }, Print{}, }, FunctionDef{Assign{List{}, }, Expr{Call{}, }, For{Call{Sub{}, }, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Attribute{}, }, }, }, }, }, }
+def p(x):
+    for y in x:
+        print y,
+    print
+
+def pascaluv_trojuhelnik(pocet_radku):
+    last = [1]
+    p(last)
+    for i in range(pocet_radku-1):
+        n = [1]
+        for j in range(len(last)-1):
+            n.ap 

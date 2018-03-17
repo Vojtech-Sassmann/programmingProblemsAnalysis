@@ -1,0 +1,22 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Assign{Call{}, }, For{Call{}, If{Compare{Str{}, }, Assign{Pow{}, Sub{}, }, Assign{Sub{}, }, AugAssign{Add{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    pocet=0
+    mocnina=0
+    soucet=0
+    pocet=len(retezec)
+    for i in range(pocet):
+        if retezec[i]=="1":
+            mocnina=2**(pocet-1)
+            pocet=pocet-1
+            soucet+=mocnina 
+def vyhodnot(retezec):
+    pocet=0
+    mocnina=0
+    soucet=0
+    pocet=(len(retezec))
+    for i in range(pocet):
+        if retezec[i]=="1":
+            mocnina=2**(pocet-1)
+            pocet-=1
+            soucet+=mocnina
+ 

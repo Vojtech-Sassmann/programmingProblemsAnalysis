@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{ListComp{ListComp{Str{}, comprehension{Call{}, }, }, comprehension{Call{}, }, }, }, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, Assign{ListComp{Str{}, comprehension{Call{}, }, }, }, }, Assign{Subscript{Index{Sub{}, }, }, Str{}, }, Print{Call{Attribute{Str{}, }, }, }, }, }, }, }
+def ctverec(n):
+    f=[["+" for i in range(n)] for i in range(n)]
+    
+    for i in range(n):
+        if i==0 or i==n-1:
+            f[i]=["*" for x in range(n)]
+        f[i][0]=f[i][n-1]="*"
+        
+        print "".join(f[i]) 

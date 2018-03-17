@@ -1,0 +1,104 @@
+14;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{Call{}, }, AugAssign{Add{}, Pow{}, Call{}, Sub{}, Sub{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    s=0
+    for i in range(len(retezec)):
+        if ord(retezec[i])==49:
+            s+=2**(len(retezec)-i-1)
+    return s        
+   
+ 
+def vyhodnot(retezec):
+    x=0
+    for i in range(len(retezec)):
+        if retezec[i]=="1":
+            x+=2**(len(retezec)-i-1)
+    return x
+ 
+def vyhodnot(retazec):
+    a=0
+    for i in range(len(retazec)):
+        if retazec[i]==str(1):
+            a+=2**(len(retazec)-i-1)
+            
+    return a
+ 
+def vyhodnot(retezec):
+    soucet = 0
+    for i in range(len(retezec)):
+        if retezec[i] == "1":
+            soucet += 2**((len(retezec)) - (i + 1))
+    return soucet
+ 
+def vyhodnot(r):
+    a=0
+    for i in range(len(r)):
+        if r[i]=="1":
+            a += 2**(len(r)-1-i)
+    return a
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        if retezec[i] == "1":
+            cislo += 2**(len(retezec) - i - 1)
+    return cislo
+ 
+def vyhodnot(retezec):
+    vysledok=0
+    for i in range(len(retezec)):
+        if int(retezec[i]) == 1:
+            vysledok = vysledok + (2**(len(retezec)-1-i))
+    return str(vysledok)
+
+
+
+ 
+def vyhodnot(retezec):
+    vysl=0
+    for i in range(len(retezec)):
+        if int(retezec[i])==1:
+            vysl+=2**(len(retezec)-i-1)
+    return vysl
+ 
+def vyhodnot(retezec):
+    vysl=0
+    for i in range(len(retezec)):
+        if retezec[i]=="1":
+            vysl+=2**(len(retezec)-i-1)
+    return vysl
+
+ 
+def vyhodnot(retezec):
+    result = 0
+    for i in range(len(retezec)):
+        if retezec[i] == "1":
+            result += 2 ** (len(retezec) - 1 - i)
+    return result 
+def vyhodnot(retezec):
+    cislo=int(0)
+    for i in range(len(retezec)):
+        if retezec[i]=="1":
+            cislo+=2**(len(retezec)-i-1)
+    return cislo
+ 
+def vyhodnot(retezec):
+    vysl=0
+    for i in range(len(retezec)-1,-1,-1):
+        if retezec[i]=="1":
+            vysl+= 2**(len(retezec)-i)
+             
+def vyhodnot(retezec):
+    soucet=0
+    for i in range(len(retezec)):
+        if retezec[i]=="1":
+            soucet += 2**(len(retezec)-i-1)
+    return soucet
+            
+ 
+def vyhodnot(retezec):
+    a=0
+    for i in range(len(retezec)):
+        if int(retezec[i])==1:
+            a=a+2**(len(retezec)-1-i)
+    return a
+ 

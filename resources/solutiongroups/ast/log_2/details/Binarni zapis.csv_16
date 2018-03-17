@@ -1,0 +1,24 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Tuple{}, }, AugAssign{Add{}, Tuple{}, }, }, Assign{FloorDiv{}, }, }, For{Call{Call{}, Add{}, }, AugAssign{Add{}, Subscript{Index{Sub{}, Mult{}, }, }, }, }, Print{}, }, }, }
+def binarne(n):
+    vystup=""
+    v=""
+    while n>0:
+        if n % 2 == 0: vystup+=0,
+        else: vystup+=1,
+        n=n//2
+    for i in range(1,len(vystup)+1):
+        v+=vystup[i-2*i]
+    print v
+
+def binarne(n):
+    por = ""
+    x = ""
+    while n > 0:
+        if n%2 == 0: x += "0"
+        else: x += "1"
+        n = n//2
+    for i in range(1,len(x)+1):
+        por += x[i-2*i]
+    print por
+    
+

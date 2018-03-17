@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{List{}, Mult{}, Add{}, }, Assign{}, For{Call{}, Assign{List{}, Mult{}, Add{}, }, For{Call{Add{}, }, Assign{Add{}, Subscript{Index{Sub{}, }, }, }, Print{}, }, }, }, }, }
+def pascaluv_trojuhelnik(n):
+    last = [0]*(n+2)
+    last[0] = 1
+    for m in range(n):
+        row = [0]*(n+2)
+        for k in range(0, m + 1):
+            row[k] = last[k] + last[k-1]
+            print row[k],
+ 

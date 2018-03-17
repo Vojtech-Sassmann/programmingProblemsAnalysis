@@ -1,0 +1,17 @@
+2;root{Module{Import{alias{}, }, FunctionDef{TryExcept{Assign{Call{}, }, Expr{Call{Attribute{}, Call{}, }, }, ExceptHandler{Return{}, }, }, }, }, }
+import math
+
+def vyhodnot(retezec):
+    try:
+        vysledek = int(retezec, 2)
+        math.isnan(int(retezec,2))
+    except ValueError:
+        return 0 
+import math
+
+def vyhodnot(retezec):
+    try:
+        return int(retezec, 2)
+        math.isnan(int(retezec,2))
+    except ValueError:
+        return 0 

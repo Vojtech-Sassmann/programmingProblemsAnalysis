@@ -1,0 +1,35 @@
+4;root{Module{FunctionDef{Assign{Pow{}, Call{}, Sub{}, }, Assign{}, For{If{AugAssign{Add{}, }, }, Assign{FloorDiv{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    m=2**(len(retezec)-1)
+    r=0
+    for p in retezec:
+        if p==1: r+=m
+        m=m//2
+    return 0
+ 
+def vyhodnot(retezec):
+    m=2**(len(retezec)-1)
+    r=0
+    for p in retezec:
+        if p==1: r+=m
+        m=m//2
+    return r
+ 
+def vyhodnot(retezec):
+    m=2**(len(retezec)-1)
+    r=0
+    for p in retezec:
+        if p=="1": r+=m
+        m=m//2
+    return r
+ 
+def vyhodnot(retezec):
+    mult=2**(len(retezec)-1)
+    result=0
+    for m in retezec:
+        if m=="1":
+            result+=mult
+        mult=mult/2
+            
+    return result
+ 

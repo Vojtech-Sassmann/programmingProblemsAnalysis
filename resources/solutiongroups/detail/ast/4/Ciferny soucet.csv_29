@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{}, For{Call{}, Expr{Call{Attribute{}, }, }, }, For{AugAssign{Add{}, Call{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    ls=[]
+    res=0
+    for i in str(n):
+        ls.append(i)
+    for i in ls:
+        res+=int(i)
+    return res
+ 

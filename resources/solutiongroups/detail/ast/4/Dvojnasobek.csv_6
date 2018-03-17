@@ -1,0 +1,4 @@
+1;root{Module{Expr{Call{}, }, Assign{Mult{}, }, }, }
+dvojnasobek(n)
+n = n*2
+ 

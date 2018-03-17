@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{Compare{Str{}, }, Assign{Add{}, Str{}, }, Assign{Add{}, Str{}, }, }, }, Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    p=""
+    for i in range(len(retezec)):
+        if retezec[i]=="1":
+            p=p+"1"
+        else:
+            p=p+"0"
+            
+    return int(p,2)
+ 

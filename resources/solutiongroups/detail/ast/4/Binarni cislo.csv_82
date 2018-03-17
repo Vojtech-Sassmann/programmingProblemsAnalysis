@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Pow{}, }, Assign{Mult{}, }, }, }, Return{Add{}, }, }, }, }
+def vyhodnot(retezec):
+    vysledek = 0
+    x = 1
+    for i in retezec[::-1]:
+        if i == "1":
+            vysledek += 2**x
+            x = x*2
+    return vysledek+3
+ 

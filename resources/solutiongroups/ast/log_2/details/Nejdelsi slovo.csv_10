@@ -1,0 +1,39 @@
+4;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{Str{}, }, For{If{Compare{Call{}, Gt{}, Call{}, }, Assign{}, If{Compare{Call{}, Call{}, }, Assign{List{}, }, Expr{Call{Attribute{}, }, }, }, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    maxo = ""
+    for i in slova:
+        if len(i)> len(maxo):
+            maxo = i
+        elif len(i) == len(maxo):
+            a = []
+            a.append(i)
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = ""
+    for i in slova:
+        if len(i) > len(nejdelsi):
+            nejdelsi = i
+        elif len(i) == len(nejdelsi):
+            dve_dlouhy = [i, nejdelsi]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    longest=""
+    for i in slova:
+        if len(i)>len(longest):
+            longest=i
+        elif len(i)==len(longest):
+            if i[0]<longest[0]:
+                long 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    best = ""
+    for i in slova:
+        if len(i) > len(best):
+            best = i
+        elif len(i) == len(best):
+            comp = True
+            inde = 0
+ 

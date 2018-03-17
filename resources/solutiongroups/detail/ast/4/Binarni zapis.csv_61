@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, While{Compare{NotEq{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Str{}, }, Assign{Call{}, Div{}, }, Assign{Call{}, }, AugAssign{Add{}, Str{}, }, }, }, }, }, }
+def binarne(n):
+    m_vysledok = ""
+    vysledok = ""
+    while n != 0:
+        if n % 2 == 0:
+            m_vysledok += "0"
+            n = int(n) / 2
+            n = int(n)
+        else:
+            m_vysledok += "1"
+

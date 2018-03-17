@@ -1,0 +1,8 @@
+1;root{Module{Import{alias{}, }, FunctionDef{Assign{Str{}, }, While{Compare{GtE{}, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, }, }, }, }, }
+import math
+
+def binarne(n):
+    v=""
+    while n>=1:
+        if n % 2 == 0: 
+            v = "0" + v

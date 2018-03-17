@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, Assign{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Assign{Add{}, }, If{Assign{Add{}, Pow{}, }, }, }, Return{Sub{}, }, }, }, }
+def vyhodnot(retezec):
+    c=1
+    u=-1
+    for i in range(len(retezec)):
+        y=retezec[len(retezec)-i-1]
+        u=u+1
+        if y==retezec[0]:
+            c=c+2**u
+        
+    return c-1
+ 

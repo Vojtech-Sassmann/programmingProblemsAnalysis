@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Subscript{Slice{}, }, }, Assign{Subscript{Slice{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    i= text[0:]
+    j= text[::-1]
+    return i==j
+
+ 

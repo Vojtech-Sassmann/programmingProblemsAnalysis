@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Call{}, }, If{Compare{NotEq{}, }, If{Compare{Add{}, GtE{}, }, Assign{}, }, AugAssign{Add{}, }, Expr{}, }, }, }, }, }
+def caesar(text, klic):
+    text1 = ""
+    for i in range(len(text)):
+        znak = ord(text[i])
+        if znak != 32:
+            if (znak + klic) >= 122:
+                znak = 96
+            znak += klic
+            text1

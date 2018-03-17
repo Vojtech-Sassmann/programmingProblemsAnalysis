@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{FloorDiv{}, NotEq{}, }, If{Compare{Div{}, NotEq{}, }, AugAssign{Add{}, }, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    while n // 10 != 0:
+        if n / 10 != 0:
+            soucet += 1
+    return soucet
+ 

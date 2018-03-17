@@ -1,0 +1,38 @@
+4;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{FloorDiv{}, }, Assign{Call{}, Add{}, }, }, Print{}, }, }, }
+def binarne(n):
+    result = ""
+    while n > 0:
+        tmp = n % 2
+        n = n // 2
+        result = str(tmp) + result
+
+    print result
+ 
+def binarne(n):
+    y = ""
+    while (n>0):
+        x = n%2
+        n = n//2
+        x = str(x)
+        y = x+y
+    print str(y)
+
+def binarne(n):
+    binumber = ""
+    while n > 0:
+        bit = n % 2
+        koef = int(n/2)
+        binumber = str(bit) + binumber
+        n = koef
+    print binumber
+    
+    
+
+def binarne(n):
+    encoded = ""
+    while(n>0):
+        dig = n%2
+        encoded = str(dig) + encoded
+        n = n // 2
+    print encoded
+

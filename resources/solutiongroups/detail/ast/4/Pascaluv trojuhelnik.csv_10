@@ -1,0 +1,18 @@
+2;root{Module{FunctionDef{For{Call{}, Assign{}, Print{}, For{Call{}, Assign{Mult{}, Sub{}, Div{}, Add{}, }, Print{}, }, Print{}, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for i in range(pocet_radku):
+        x=1
+        print 1,
+        for j in range(i):
+            x=x*(i-j)/(j+1)
+            print x,
+        print
+ 
+def pascaluv_trojuhelnik(pocet_radku):
+    for radek in range(pocet_radku):
+        new = 1
+        print new,
+        for i in range(radek):
+            new = new * ( radek - i ) * 1 / ( i + 1)
+            print new,
+        prin 

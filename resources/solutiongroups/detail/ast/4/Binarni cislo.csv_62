@@ -1,0 +1,13 @@
+2;root{Module{FunctionDef{For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, Return{Call{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    for i in range(len(retezec)):
+        if retezec[i]=="1" or retezec[i]=="0":
+            return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    for i in range(len(retezec)):
+        if retezec[i]=="1" or retezec[i]=="0":
+            return int(retezec, 2)
+        else:
+            return "0"
+ 

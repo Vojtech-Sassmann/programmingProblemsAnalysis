@@ -1,0 +1,20 @@
+3;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, AugAssign{Add{}, Call{Mod{}, }, }, Assign{Call{Div{}, }, }, }, Print{}, }, }, }
+def binarne(n):
+    c=""
+    while n>0:
+        c+=str(n%2)
+        n=int(n/2)
+    print c
+def binarne(n):
+    c=""
+    while n>0:
+        c=str(n%2)+c
+        n=int(n/2)
+    print c
+def binarne(n):
+    Dekad = n
+    Vystup = ""
+    while (Dekad>0):
+        Vystup = str(Dekad%2) + Vystup
+        Dekad = int (Dekad/2)
+    print Vystup

@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Call{}, Sub{}, Call{Str{}, }, }, Assign{Add{}, }, Assign{Mod{}, }, Assign{Call{Add{}, Call{Str{}, }, }, }, Return{}, }, FunctionDef{Assign{Str{}, }, For{Expr{}, }, }, }, }
+def posun (pismeno, n):
+        j = ord (pismeno) - ord ("a")
+        j = j + n 
+        j = j % 26
+        j = chr (j + ord ("a"))
+        return j
+    
+def caesar(text, n):
+    vysledok = " "
+    for i in text:
+        i 

@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{}, Sub{}, }, While{Compare{GtE{}, }, AugAssign{Add{}, }, AugAssign{Sub{}, }, }, Return{}, }, FunctionDef{Assign{Call{}, }, If{Return{}, Expr{}, }, }, }, }
+def reverse(text):
+    a = ""
+    g = len(text)-1
+    while g >= 0:
+        a += text[g]
+        g -= 1
+    return a
+
+def palindrom(text):
+    a = reverse(text)
+    if a==text :
+        return True
+    else:
+        re 

@@ -1,0 +1,51 @@
+6;root{Module{FunctionDef{For{Call{Add{}, }, For{Call{Add{}, }, If{BoolOp{Or{}, }, Print{Str{}, }, Print{Str{}, }, }, Print{}, }, }, }, }, }
+def ctverec(n):
+    for i in range(1,n+1):
+        for j in range(1,n+1):
+            if i==1 or i==n or j==1 or j==n:
+                print "*",
+            else:
+                print "+",
+            print
+            
+ 
+def ctverec(n):
+    for i in range (1, n+1):
+        for j in range (1, n+1):
+            if i == 1 or j == 1 or i == n or j == n:
+                print "*"
+            else:
+                print "+"
+        print 
+def ctverec(n):
+    for riadok in range(n):
+        for i in range(n):
+            if riadok == 0 or riadok == 11 or i == 0 or i == 11:
+                print "*",
+            else:
+                print "+", 
+        print
+ 
+def ctverec(n):
+    for i in range(1, n+1):
+        for y in range(1,n+1):
+            if i  == 1 or i ==n or y==1 or y==n:
+                print "*",
+            else:
+                print "+",
+        print
+ 
+def ctverec(n):
+    for i in range (1,n+1):
+        if i==1 or i==n:
+            print "*"*n
+        else:
+            print "*+++++++++++*"
+ 
+def ctverec(n):
+    for i in range (1,n+1):
+        if i==1 or i==n:
+            print "*"*n
+        else:
+            print "*++++++++*"
+ 

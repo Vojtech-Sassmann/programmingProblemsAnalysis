@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Gt{}, }, Assign{Mod{}, Mult{}, }, Assign{Mult{}, }, Assign{Add{}, }, Assign{FloorDiv{}, }, }, Print{}, }, }, }
+def binarne(n):
+    k = 1
+    c=0
+    sucet = 0
+    while n > 0:
+        c = (n % 2)*k 
+        k = k *10
+        sucet = sucet + c 
+         
+        
+        n = n//2
+    print sucet    
+

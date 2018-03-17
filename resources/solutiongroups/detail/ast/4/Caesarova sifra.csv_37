@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{If{Compare{Call{}, }, AugAssign{Add{}, Call{Call{}, }, }, If{Compare{Call{}, Gt{}, Sub{}, }, AugAssign{Add{}, Call{Call{}, Add{}, Sub{}, }, }, Expr{Mod{}, }, }, }, }, }, }, }
+def caesar(text, n):
+    
+    a=""
+    for i in text:
+        if ord(i)==32:
+            a+=chr(ord(i))
+        else:
+            if ord(i)>122-n:
+                a+=chr(ord(i)+n-26)
+            else:
+                a%2

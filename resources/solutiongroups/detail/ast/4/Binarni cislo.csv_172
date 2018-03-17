@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, Assign{Add{}, Call{}, Mult{}, Pow{}, Call{}, Sub{}, Div{}, }, AugAssign{Add{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    vystup = 0
+    for i in range(len(retezec)):
+        if retezec[i]== "0" or retezec[i]== "1" :
+            vystup = vystup + int(retezec[i])*2**(len(retezec)-i)/2
+        else:
+            vystup +=0
+ 

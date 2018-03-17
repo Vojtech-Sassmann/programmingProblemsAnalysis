@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Str{}, }, While{Compare{NotEq{}, }, AugAssign{Sub{}, }, If{Compare{Sub{}, Pow{}, GtE{}, }, AugAssign{Add{}, Str{}, }, Assign{Sub{}, Pow{}, }, AugAssign{Add{}, Str{}, }, }, }, Print{}, }, }, }
+def binarne(n):
+    i=6
+    vystup=""
+    while i!=0:
+        i-=1
+        if n-2**i>=0:
+            vystup+="1"
+            n=n-2**i
+        else: vystup+="0"
+    print vystup
+

@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{}, For{AugAssign{Add{}, }, If{UnaryOp{Not{}, Mod{}, }, Print{}, Print{Str{}, }, }, }, Print{}, Assign{}, For{AugAssign{Add{}, }, If{Mod{}, Print{}, }, }, }, }, }
+def cikcak(text):
+    textlist=[]
+    a=1
+    for i in text:
+       a+=1 
+       if not a%2:
+        print i, 
+       else: print ".",
+    print  
+    a=1
+    for i in text:
+       a+=1 
+       if a%2:
+        print 

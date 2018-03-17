@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{Call{}, For{Call{}, If{BoolOp{Or{}, Compare{Sub{}, }, }, AugAssign{Add{}, Str{}, }, If{BoolOp{Or{}, Compare{Sub{}, }, }, AugAssign{Add{}, Str{}, }, }, }, }, }, }, }, }
+def ctverec(n):
+    s = ""
+    for i in range(n):
+        for j in range(n):
+            if i == 0 or i == n-1:
+                s+= "*"
+            else:
+                if j == 0 or j == n-1:
+                    s+="*"
+ 
+def ctverec(n):
+    output = ""
+    for i in range (n):
+        for y in range (n):
+            if i == 0 or y == 0:
+                output += "*"
+            elif i == n-1 or y == n-1:
+                output += "*"
+ 

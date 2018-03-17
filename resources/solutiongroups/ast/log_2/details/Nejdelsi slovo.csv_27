@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{List{}, }, For{Expr{Call{Attribute{}, Tuple{UnaryOp{USub{}, Call{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    l = []
+    for s in slova:
+        l.append((-len(s), s))
+    l.sort()
+ 

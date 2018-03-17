@@ -1,0 +1,1285 @@
+163;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, Print{}, Assign{Tuple{}, Tuple{Add{}, }, }, }, }, }, }
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b 
+ 
+def fibonacci(n):
+    temp = 1
+    temp2 = 1
+    for i in range(n):
+        print temp,
+        new = temp + temp2
+        temp = temp2
+        temp2 = new
+ 
+def fibonacci(n):
+    k=0
+    l=1
+    for i in range(n):
+        print l,
+        k,l = l,k+l
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    for i in range(n):
+        print a,
+        c=a+b
+        a=b
+        b=c
+        
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b 
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b 
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    print 1,
+    for i in range(n-1):
+        print a,
+        a,b = b+a, a
+ 
+def fibonacci(n):
+    p = 1
+    pp = 1
+    for i in range(n):
+        print pp,
+        p, pp = p + pp, p
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(n+1):
+        print a
+        c = a
+        a = b
+        b = c + b
+        
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a
+        c = a
+        a = b
+        b = c + b
+        
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        c = a
+        a = b
+        b = c + b
+        
+ 
+def fibonacci(n):
+    x = 1
+    y = 1
+    for _ in range(n):
+        print x,
+        p = x
+        x = y
+        y = p + y
+        
+ 
+def fibonacci(n):
+    a=b=1
+    for i in range(n):
+        print a,
+        a,b=b,a+b
+ 
+def fibonacci(n):
+    f0=1
+    f1=0
+    for i in range(n):
+        print f0,
+        f0,f1 = (f0+f1, f0)
+ 
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        print b,
+        a, b = b, a + b 
+def fibonacci(n):
+    a, b = 1, 1
+    print a,
+    for i in range(n-1):
+        print b,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    f = (1, 1)
+    for i in range(n):
+        print f[0],
+        f = (f[1], f[0] + f[1])
+ 
+def fibonacci(n):
+    x = 1
+    y = 1
+    for i in range(n):
+        print x,
+        x,y = y,x+y
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        print b,
+        c=b
+        b=a+b
+        a=c
+ 
+def fibonacci(n):
+    fn = 1
+    fnMinus1 = 0
+    for i in range(n):
+        print fn,
+        fn = fn + fnMinus1
+        fnMinus1 = fn - fnMinus1 
+ 
+def fibonacci(n):
+    x=1
+    y=1
+    for i in range(n):
+        print x,
+        p=y
+        y+=x
+        x=p
+    
+        
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b 
+def fibonacci(n):
+    f=1
+    g=1
+    print f,g,
+    for i in range(n-2):
+        f,g=f+g,f
+        print f, 
+def fibonacci(n):
+    a,b=1,1
+    for i in range(n):
+        print a,
+        a,b=b,a+b
+ 
+def fibonacci(n):
+    a, b=1, 1
+    for i in range(n):
+        print a,
+        a, b=b, a+b
+ 
+def fibonacci(n):
+    a,b = 0, 1
+    for i in range(n):
+        print b,
+        a,b = b, a+b 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        a=a+b
+        print a,
+        b=(a-b)
+ 
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        print b,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        print b,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        print b,
+        a, b = b, a+b
+
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    
+    for i in range(1, n+1):
+        print b,
+        a,b=b, a+b
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        a,b=b,a+b
+        print a, 
+def fibonacci(n):
+    a=1
+    b=1
+    for i in range(n):
+        pom=a
+        a=b
+        b=pom+b
+        print pom,
+ 
+def fibonacci(n):
+    a,b=1,1
+    for i in range(n):
+        print a,
+        a,b=b,a+b
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        print b,
+        a, b = b, a+b
+        i += 1
+ 
+def fibonacci(n):
+    a,b = 1,1
+    for i in range(n):
+        print a,
+        a,b = b, a+b
+ 
+def fibonacci(n):
+    one = 1
+    two = 1
+    print 1, 1,
+    for x in range(n-2):
+        one, two = two, one+two
+        print two,
+ 
+def fibonacci(n):
+    a,b=0,1
+    for i in range(n):
+        a,b=b,a+b
+        print a, 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        c=a+b
+        print b, 
+        a,b,c=b,c,a+b
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        a ,b= b ,a + b 
+        
+        
+ 
+def fibonacci(n):
+    a,b=1,1
+    for i in range(n):
+        print a,
+        a,b=b, a+b
+ 
+def fibonacci(n):
+    a,b=1,1
+    for i in range(n):
+        print a,
+        a,b=b,a+b
+ 
+def fibonacci(n):
+    a=1
+    b=a
+    for i in range(n):       
+        print a,
+        a,b=b,a+b
+ 
+def fibonacci(n):
+    a,b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b , a+b
+ 
+def fibonacci(n):
+    (a,b) = (1,1)
+    for i in range(n):
+        print a, 
+        (a,b) = (b,a+b)
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(0, n):
+        a, b = b, a + b 
+        print a,
+ 
+def fibonacci(n):
+    x=0
+    y=1
+    z=0
+    for i in range(n):
+        print x+y,
+        z=x
+        x+=y
+        y=z
+        
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        print str(b),
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    x=y=1
+    for i in range(n):
+        print x,
+        x,y=y,x+y 
+def fibonacci(n):
+    x=y=1
+    for i in range(n):
+        print x,
+        x,y=y, x+y
+ 
+def fibonacci(n):
+    a = 0
+    b = 0
+    c = 1
+    for i in range(n):
+        a = b
+        b = c
+        c = a + b
+        print b,
+ 
+def fibonacci(n):
+    a,b = 0,1
+    for i in range(n):
+        a,b = b, a+b
+        print a,
+ 
+def fibonacci(n):
+    a,b = 1,1
+    for i in range(n):
+        print a,
+        a,b = b, a+b 
+def fibonacci(n):
+    a = 1
+    b = 1
+    print a,
+    print b,
+    for i in range(n-2):
+        a, b = b, a+b
+        print b,
+ 
+def fibonacci(n):
+    a,b = 0,1
+    for i in range(n):
+        print b,
+        a,b = b,a+b 
+def fibonacci(n):
+    print 1,
+    a=0
+    b=1
+    for i in range(1,n):
+        print a+b,
+        a,b=b,a+b
+            
+ 
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        print b, 
+        a, b=b,a+b
+    
+
+ 
+def fibonacci(n):
+    a,b=0,1
+    for i in range(0,n-1):
+        if i==1:
+            print 1,
+        a,b=b,a+b
+        print b,
+    
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    s=1
+    p=0
+    for i in range(n):
+        print s,
+        s+=p
+        p=s-p
+ 
+def fibonacci(n):
+    x = 1
+    x2 = 0
+    for i in range(n):
+        print x,
+        a = x
+        x += x2
+        x2 = a
+ 
+def fibonacci(n):
+    a,b = 1,1
+    for i in range(n):
+        print a,
+        a,b = b, a+b
+        
+        
+        
+        
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    print a,b,
+    for i in range(n-2):
+        print a+b,
+        a, b= b, a+b
+ 
+def fibonacci(n):
+    a1=1
+    a2=1
+    for i in range(n):
+        print a1,
+        temp=a1
+        a1=a2
+        a2+=temp
+ 
+def fibonacci(n):
+    a,b=1,1
+    for i in range(n):
+        print a,
+        a,b=b,a+b
+ 
+def fibonacci(n):
+    a,b = 0,1
+    for i in range(n):
+        a,b=b, a+b
+        print a,
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+  
+        print b,
+        a,b = b,a+b
+ 
+def fibonacci(n):
+    a,b=1,0
+    for i in range(n):
+        print a,
+        b,a=a,a+b
+ 
+def fibonacci(n):
+    a = b = 1
+    for i in range(n):
+        print a,
+        a, b = b, a + b
+ 
+def fibonacci(n):
+    a,b=1,1
+    for i in range(n-1):
+        a,b=b,a+b
+        return a
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(1, n+1):
+        if i == 1:
+            print 1,
+        else:
+            if i == 2:
+                print 1,
+            else:
+                
+                pri 
+def fibonacci(n):
+    fi = 0
+    fii = 1
+    for i in range(n):
+        print fii,
+        (fi, fii) = (fii, fii+fi)
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+
+    for i in range(n):
+        a, b = b, a+b
+        print a,
+    
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    print b,
+    for i in range(n-1):
+        c=a+b
+        print c,
+        a,b=b,c
+ 
+def fibonacci(n):
+    aktualny = 1
+    dalsi = 1
+    for i in range(n):
+        print aktualny,
+        old_aktualny = aktualny
+        aktualny = dalsi
+        dalsi += old_aktualny
+ 
+def fibonacci(n):
+    a,b=0,1
+    for i in range(n):
+        a,b=b,a+b
+        print a,
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        a,b = b, a+b
+ 
+def fibonacci(n):
+    k1=0
+    k2=1
+    for i in range(n):
+        print k2,
+        k1,k2=k2,k1+k2
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        a,b=b,a+b
+        
+        print a,
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    n_2 = 1
+    n_1 = 1
+    print n_2,n_1,
+    for i in range(2, n):
+        n = n_2 + n_1
+        print n,
+        n_2,n_1 = n_1,n
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    
+    
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+       
+        
+        
+        
+        
+ 
+def fibonacci(n):
+    predch = 0
+    teraz = 1
+    for i in range(n):
+       
+        print teraz,
+        predch2 = predch
+        predch = teraz
+        teraz += predch2
+        
+        
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(1,n+1):
+        print a,
+        a, b = b, a+b 
+def fibonacci(n):
+    j = 0
+    k = 1
+    for i in range(1, n+1): 
+        print k,
+        (j, k) = (k, j+k)
+ 
+def fibonacci(n):
+    a,b=0,1
+    for i in range(n):
+        print b,
+        a,b=b,a+b
+ 
+def fibonacci(n):
+    x = 1
+    y = 1
+    print x,
+    for i in range(n-1):
+        print y,
+        x,y = y, x+y
+            
+        
+    
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        a,b=b,a+b
+        print a,
+        
+ 
+def fibonacci(n):
+    a=0
+    b=1
+    for i in range(n):
+        a,b=b,a+b
+        print a,
+        
+ 
+def fibonacci(n):
+    before = 0
+    last = 1
+    for i in range(n):
+        print last,
+        before, last = last, before+last
+ 
+def fibonacci(n):
+    a = 1
+    sucet = 0
+    for _ in range(n):
+        sucet += a
+        a = sucet - a
+        
+        print sucet,
+ 
+def fibonacci(n):
+    prvni=0
+    druhy=1
+    for i in range(n):
+        print druhy,
+        x=druhy
+        druhy=druhy+prvni
+        prvni = x
+ 
+def fibonacci(n):
+    pre = 0
+    cur = 1
+    for i in range(n):
+        print cur,
+        tmp = cur
+        cur += pre
+        pre = tmp
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        a,b = b, a+b
+       
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    print a,b,
+    for i in range(2,n):
+        a,b=a+b,a
+        print a,
+ 
+def fibonacci(n):
+    a,b = 0,1
+    for i in range(n):
+        a,b = b,a+b
+        print a,
+ 
+def fibonacci(n):
+    aktualna = 1
+    dalsia = 1
+    for i in range(n):
+        print aktualna,
+        stara_aktualna = aktualna
+        aktualna = dalsia
+        dalsia = aktualna + stara_aktualna
+ 
+def fibonacci(n):
+    a,b = 0,1
+    for i in range(n):
+        a,b = b, a+b
+        print a,
+ 
+def fibonacci(n):
+   aktual=1
+   predchozi=0
+   for cislo in range(n+1):
+      aktual,predchozi=predchozi,predchozi+aktual
+      if (cislo!=0):
+            print aktual,
+ 
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        a, b = b, a + b
+        
+ 
+def fibonacci(n):
+    q = 1
+    w = 1
+    for i in range(n):
+        print q,
+        q, w = w, q+w
+ 
+def fibonacci(n):
+    prvni, druhy = 0, 1
+    for i in range(n):
+        prvni, druhy = druhy, prvni + druhy
+        print prvni, 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        a,b = b,a+b
+ 
+def fibonacci(n):
+    n1=0
+    n2=1
+    b=0
+    for i in range(n):
+        print n2,
+        b=n1
+        n1=n2
+        n2+=b
+       
+ 
+def fibonacci(n):
+    a = 1
+    b = 0
+    c = 0
+    for i in range(n):
+        print a,
+        c = a
+        a += b
+        b = c
+ 
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        a, b = b, a+b
+        print a,
+ 
+def fibonacci(n):
+    prev = 0
+    cur = 1
+    for i in range(n):
+        print cur,
+        tmp = cur
+        cur += prev
+        prev = tmp
+ 
+def fibonacci(n):
+ a = b = 1
+ print b,
+ for x in range(1,n):
+    print a,
+    a = a + b
+    b = a - b
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+ a = b = 1
+ print b,
+ for x in range(1,n):
+    print a,
+    a = a + b
+    b = a - b
+ 
+def fibonacci(n):
+    a, b = 1, 1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+ a = b = 1
+ print b,
+ for x in range(1,n):
+    print a,
+    a = a + b
+    b = a - b
+
+ 
+def fibonacci(n):
+    prvy=1
+    druhy=1
+    for i in range(1,n+1):
+        print prvy,
+        prvy, druhy=druhy,prvy+druhy
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        a,b = b, a + b
+ 
+a1=1
+a2=1
+def fibonacci(n):
+    for i in range(n):
+        print a1,
+        a1=a2
+        a2=an
+        an=a1+a2
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    print "1",
+    for i in range(n-1):
+        print a+b,
+        a,b=b,a+b
+
+ 
+def fibonacci(n):
+    a,b = 1,1
+    f = 1
+    print f,
+    for i in range(n-1):
+        a,b = b,a+b
+        print a,
+ 
+def fibonacci(n):
+    f1=1
+    f2=1
+    print f1, f2,
+    for i in range(n-2):
+        print f1+f2,
+        f1, f2 = f2, f1 +f2
+ 
+ 
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        a, b = b, a + b
+        return a
+ 
+def fibonacci(n):
+    a = 1
+    print a,
+    b = 1
+    for i in range(n -1):
+        a,b = b,a+b
+        print a,
+ 
+def fibonacci(n):
+    a,b = 1, 1
+    for i in range(n):
+        print a,
+        a,b = b, a+b
+     
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(0,n):
+            x = a
+            a = b 
+            b = x+a
+            print a,
+ 
+def fibonacci(n):
+    a=0
+    b=1 
+    for i in range(n):
+        a,b=b,a+b
+        print a,
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n//2):
+        print a,
+        print b,
+        a = a+b
+        b = b+a
+ 
+def fibonacci(n):
+    x = 1
+    y = 1
+    for i in range(n):
+        print x,
+        z = y
+        y = x + y
+        x = z 
+def fibonacci(n):
+    a=1
+    b=0
+    for i in range(n):
+        print a,
+        a=a+b
+        b=a-b
+        
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    c = 0
+    for i in range(n):
+        a = b
+        b = c
+        c = a + b
+        print c,
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    for i in range(n):
+        print a,
+        a,b=b,a+b
+        
+ 
+def fibonacci(n):
+    prvni=1
+    druhe=0
+    for i in range (n):
+        print prvni,
+        cislo=prvni
+        prvni=druhe+prvni
+        druhe=cislo
+ 
+def fibonacci(n):
+    x=1
+    y=1
+    for i in range(n):
+        print y,
+        z=y
+        y=x
+        x=y+z
+        
+        
+        
+ 
+def fibonacci(n):
+    x=0
+    y=1
+    z=0
+    for i in range(n):
+        x=y
+        y=z
+        z=x+y
+        print z,
+        
+        
+ 
+def fibonacci(n):
+    x=1
+    p=0
+    pp=0
+    for i in range(n):
+        pp=p
+        p=x
+        print x,
+        x=p+pp
+ 
+def fibonacci(n):
+    a = 1
+    b = 2
+    print a,a,b,
+    for i in range(1,n-2):
+        a,b = b,a+b
+        print b, 
+def fibonacci(n):
+    x=1
+    y=1
+    print x,
+    for i in range(n-1):
+        x,y=y, x+y
+        print x, 
+def fibonacci(n):
+    x=0
+    y=1
+    for i in range(n):
+        print y,
+        z=x
+        x=y
+        y=z+x
+        
+ 
+def fibonacci(n):
+    second = 1
+    first = 1
+    for i in range(n):
+        print second,
+        c = first
+        first += second
+        second = c
+        
+ 
+def fibonacci(n):
+    a = 0
+    b = 1
+    for i in range(n):
+        tmp = a
+        a = b
+        b = tmp + b
+        print a, 
+def fibonacci(n):
+    fib1 = 1
+    fib2 = 1
+    print fib1,
+    for i in range(0, n-1):
+        fib1, fib2 = fib2, fib1+fib2
+        print fib1, 
+ 
+def fibonacci(n):
+    print 1,
+    a = 1
+    b =1
+    for i in range(1,n):
+        a,b=b,a+b
+        print a,
+ 
+def fibonacci(n):
+    i1=1
+    i2=1
+    print i1,i2,
+    for i in range(n-2):
+        i1,i2=i2,i1+i2
+        print i2,
+ 
+def fibonacci(n):
+    a0 = 1
+    a1 = 1
+    for i in range(n):
+        print a0,
+        a0, a1 = a1, a0+a1
+ 
+def fibonacci(n):
+    x=1
+    y=1
+    for i in range(n/2):
+        print x,y,
+        x=x+y
+        y=y+x
+ 
+def fibonacci(n):
+    a = 0
+    c = 0
+    b = 1
+    for i in range(n):
+        c = b
+        b = a
+        a = a + c
+        print a, 
+def fibonacci(n):
+    a = 0
+    x = 1
+    for i in range(n):
+        print x,
+        x += a
+        a = x - a
+        
+        
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    c = 0
+    
+    for i in range(n):
+        print a,
+        c = b
+        b += a
+        a = c
+        
+        
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    for i in range(n):
+        print a,
+        bak=a
+        a=b
+        b=bak+b 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        print a,
+        x = a
+        a = b
+        b = x + b
+        
+
+        
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    for i in range(n):
+        print a,
+        a, b = b, a+b
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    for i in range(n):
+        c = a + b
+        print a,
+        a,b = b,c
+        
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    
+    
+    for i in range(n):
+        print a,
+        a,b = b, a + b
+        
+        
+        
+        
+ 
+def fibonacci(n):
+        predchozi = 1
+        predpredchozi = 1
+        for i in range(n):
+                print predpredchozi,
+                nova = predchozi + predpredchozi 
+                predpredchozi = predchozi
+ 
+def fibonacci(n):
+    a=1
+    b=1
+    for i in range(n-1):
+        a=b
+        b=a+b
+    return a
+ 
+def fibonacci(n):
+    num1 = 1
+    num2 = 1
+    pom
+    for i in range(n):
+        print num1,
+        pom = num2
+        num2 = num1 + num2
+        num1 = pom
+        
+ 
+def fibonacci(n):
+    a = b = 1
+    print "1",
+    for i in range (1,n):
+        print a,
+        a = a + b
+        b = a - b
+ 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b
+ 
+def fibonacci(n):
+    a = b = 1
+    print b,
+    for x in range(1,n):
+        print a,
+        a = a + b
+        b = a - b 

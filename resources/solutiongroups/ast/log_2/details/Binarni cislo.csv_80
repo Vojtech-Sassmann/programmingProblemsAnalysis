@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, AugAssign{Add{}, Pow{}, Mult{}, Call{Subscript{Index{UnaryOp{USub{}, }, Sub{}, }, }, }, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retazec):
+    rad=0
+    sucet=0
+    for a in retazec[::-1]:
+        sucet += 2**rad * int(retazec [-rad-1])
+        rad+=1
+        
+    
+    return sucet
+ 

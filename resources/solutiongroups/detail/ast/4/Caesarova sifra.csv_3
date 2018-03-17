@@ -1,0 +1,33 @@
+4;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Call{}, Add{}, }, If{Compare{Gt{}, }, Assign{Add{}, }, If{Compare{Str{}, }, Assign{}, }, }, Assign{Add{}, Call{}, }, }, Return{}, }, }, }
+def caesar(text, n):
+    vysledek=""
+    for i in range (len(text)):
+        cislo=ord(text[i])+n
+        if (cislo>122): cislo=96+n
+        elif (text[i]==" "):cislo=32
+        vysledek=vysledek+chr(cislo)
+    return vysledek
+def caesar(text, n):
+    vysledek=""
+    for i in range (len(text)):
+        cislo=ord(text[i])+n
+        if (cislo>122): cislo=96+n
+        elif (text[i]==" "):cislo=32
+        vysledek=vysledek+unichr(cislo)
+    return vysle
+def caesar(text, n):
+    vysledek=""
+    for i in range (len(text)):
+        cislo=ord(text[i])+n
+        if (cislo>122): cislo=96+n
+        elif (text[i]==" "):cislo=32
+        vysledek=vysledek+chr(cislo)
+    return vysledek
+def caesar(text, n):
+    vysledek=""
+    for i in range (len(text)):
+        cislo=ord(text[i])+n
+        if (cislo>122): cislo=ord(text[i])+n-26
+        elif (text[i]==" "):cislo=32
+        vysledek=vysledek+chr(cislo)
+    re

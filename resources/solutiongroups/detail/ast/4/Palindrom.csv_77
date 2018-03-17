@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Call{}, Div{}, }, If{Compare{Subscript{Slice{}, }, Subscript{Subscript{Slice{UnaryOp{USub{}, }, }, }, Slice{}, }, }, Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    l = len(text)/2
+    if text[:l] == text[-l:][::-1]:
+        return True
+    return False
+ 

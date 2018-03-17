@@ -1,0 +1,48 @@
+6;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, Assign{Call{}, }, Assign{Mult{}, Pow{}, Call{}, Sub{}, Add{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo=0
+    for i in range(0,len(retezec)):
+        x=int(retezec[i])
+        y=x*2**(len(retezec)-(i+1))
+        cislo+=y
+    return cislo 
+def vyhodnot(retezec):
+    cislo=0
+    print type(retezec)
+    return 0
+    for i in range(0,len(retezec)):
+        x=int(retezec[i])
+        y=x*2**(len(retezec)-(i+1))
+        cislo+=y
+    return cislo 
+def vyhodnot(retezec):
+    cislo=0
+    for i in range(0,len(retezec)):
+        x=int(retezec[i])
+        y=x*2**(len(retezec)-(i+1))
+        cislo+=y
+    return cislo 
+def vyhodnot(retezec):
+    sucet=0
+    for i in range(0,len(retezec)):
+        sucet+=int(retezec[i])*2**(len(retezec)-(i+1))
+    return sucet
+ 
+def vyhodnot(retezec):
+    mocnina = 0
+    sucet = 0
+    
+    for i in range(len(retezec)):
+        if retezec[i] == str(1):
+            mocnina = 2 ** (len(retezec)-(i+1))
+            sucet += mocnina
+    return sucet
+ 
+def vyhodnot(r):
+    desitkova = 0
+    for i in range(len(r)):
+        c = int(r[i])
+        desitkova = desitkova + c*2**int(len(r)-1-i)
+    return desitkova
+        
+ 

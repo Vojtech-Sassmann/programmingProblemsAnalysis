@@ -1,0 +1,30 @@
+5;root{Module{FunctionDef{Assign{}, For{Assign{Mult{}, Add{}, Call{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    decimal = 0
+    for digit in retezec:
+        decimal = decimal*2 + int(digit)
+    return decimal
+ 
+def vyhodnot(n):
+    cis10 = 0
+    for cislo in n:
+        cis10 = cis10*2 + int(cislo)
+    print cis10 
+def vyhodnot(n):
+    cis10 = 0
+    for cislo in n:
+        cis10 = cis10*2 + int(cislo)
+    return cis10 
+def vyhodnot(string):
+    result = 0
+    for i in string:
+        result = (result * 2) + int(i)
+    return result 
+def vyhodnot(retezec):
+    r = 0
+    for i in retezec:
+        r = r*2
+        r = r + int(i)
+    return r
+    
+ 

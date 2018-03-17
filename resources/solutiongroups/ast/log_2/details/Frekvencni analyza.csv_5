@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{List{}, Mult{}, }, For{If{BoolOp{And{}, Compare{Call{}, GtE{}, Call{Str{}, }, }, Compare{Call{}, LtE{}, Call{Str{}, }, }, }, AugAssign{Subscript{Index{Call{}, Sub{}, Call{Str{}, }, }, }, Add{}, }, }, }, For{Call{}, If{Compare{Gt{}, }, Print{}, }, }, }, }, }
+def frekvencni_analyza(text):
+    pismeno = [0]*26
+    for i in text:
+        if ord(i)>=ord("a") and ord(i)<=ord("z"):
+            pismeno[ord(i)-ord("a")] += 1
+    for i in range(26):
+        if pismeno[i]>0:
+            print c 

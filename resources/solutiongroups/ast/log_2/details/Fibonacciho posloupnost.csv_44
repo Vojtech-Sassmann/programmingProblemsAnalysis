@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{If{Compare{Lt{}, }, Print{Str{}, }, Assign{}, Assign{}, Assign{Call{}, Add{}, Str{}, Add{}, Call{}, }, For{Call{Sub{}, }, Assign{}, Assign{}, }, }, }, }, }
+def fibonacci(n):
+    if(n<3):
+        print "Zadajte viac nez 2 cisla"
+    else:
+        c1 = 1
+        c2 = 1
+        finalstr = str(c1) + " " + str(c2)
+        for i in range(1,n-1):
+            temp = c2
+            c2=c 

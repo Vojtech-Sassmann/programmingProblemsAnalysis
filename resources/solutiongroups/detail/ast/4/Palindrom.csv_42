@@ -1,0 +1,19 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, If{Compare{Mod{}, }, AugAssign{Sub{}, }, }, For{Call{}, If{Compare{NotEq{}, Subscript{Slice{UnaryOp{USub{}, }, }, }, }, Return{Str{}, }, }, Return{Tuple{Subscript{Index{UnaryOp{USub{}, }, }, }, }, }, }, }, }, }
+def palindrom(text):
+    dlzka_slova = len(text)
+    if dlzka_slova%2 == 1:
+        dlzka_slova -= 1
+    for i in range(dlzka_slova):
+        if text[i] != text[-i:]:
+            return "True"
+        return text[i], text[-i]
+ 
+def palindrom(text):
+    dlzka_slova = len(text)
+    if dlzka_slova%2 == 1:
+        dlzka_slova -= 1
+    for i in range(1,dlzka_slova):
+        if text[i] != text[-i:]:
+            return "False"
+        return text[i], text[-i]
+ 

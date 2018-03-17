@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{List{}, }, Print{Str{}, }, For{Call{Sub{}, }, Assign{Add{}, }, Print{}, Expr{Call{Attribute{}, }, }, }, }, }, }
+def fibonacci(n):
+    cisla = [1,1]
+    print "1 1",
+    for i in range(n-2):
+        dalsi = cisla[-1]+cisla[-2]
+        print dalsi,
+        cisla.append(dalsi)
+ 
+def fibonacci(n):
+    x = [1, 1]
+    print "1 1",
+    while len(x) != n:
+        i = x[-2] + x[-1]
+        x.append(i)
+        print i,
+ 

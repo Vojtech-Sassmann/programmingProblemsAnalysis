@@ -1,0 +1,4 @@
+1;root{Module{FunctionDef{Return{Compare{Subscript{Slice{Call{}, Div{}, }, }, Subscript{Slice{Call{}, Div{}, }, }, }, }, }, }, }
+def palindrom(text):
+    return text[:((len(text))/2)] == text[:(((len(text))/2)):-1]
+ 

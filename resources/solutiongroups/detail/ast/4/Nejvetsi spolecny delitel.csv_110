@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{}, If{Compare{Mod{}, Sub{}, }, If{Compare{Mod{}, Sub{}, }, Return{Sub{}, }, Break{}, }, }, }, }, }, }
+def nsd(a, b):
+    x=0
+    for i in range(b):
+        
+            
+        if b%(b-i)==0:
+            if a%(b-i)==0:
+                return b-i
+                break 

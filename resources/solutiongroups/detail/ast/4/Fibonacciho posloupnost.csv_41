@@ -1,0 +1,23 @@
+2;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{}, If{Mod{}, Print{}, AugAssign{Add{}, }, Print{}, AugAssign{Add{}, }, }, }, }, }, }
+def fibonacci(n):
+    x=1
+    y=1
+    for i in range(n):
+        if i % 2:
+            print x,
+            x +=y
+        else:
+            print y,
+            y +=x
+        
+ 
+def fibonacci(n):
+    fi1 = 1
+    fi2 = 1
+    for i in range(n):
+        if (i % 2 == 0):
+            print fi1,
+            fi1 = fi1 + fi2
+        else:
+            print fi2,
+            fi2 = fi1 + fi2 

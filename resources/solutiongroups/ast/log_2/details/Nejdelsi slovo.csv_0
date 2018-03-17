@@ -1,0 +1,409 @@
+48;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{Str{}, }, For{If{Compare{Call{}, Gt{}, Call{}, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    m = ""
+    for i in slova:
+        if len(i) > len(m): m = i
+    return i
+
+
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    res=""
+    for slovo in slova:
+        if len(slovo)>=len(res):
+            res=slovo
+    return res 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    naj=slova[0]
+    for i in slova:
+        if len(i)>=len(naj):
+            naj=i
+    return naj
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slovo = " "
+    for i in range (len(slova)):
+        if len(slova[i])>=len(slovo):
+            slovo=slova[i]
+         
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = ""
+    for x in slova:
+        if len(nejdelsi) < len(x):
+            nejdelsi = x
+    return nejdelsi
+ 
+def nejdelsi_slovo(text):
+    sl = text.split(" ")
+    max = 0
+    for i in range(i, len(sl)):
+        if len(sl[max]) <= len(sl[i]):
+            max = i
+    return sl[max]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max = 0
+    for i in range(i, len(slova)):
+        if len(slova[max]) <= len(slova[i]):
+            max = i
+    return slova[max]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    vystup = slova[0]
+    for i in slova:
+        if len(i) >= len(vystup):
+            vystup = i
+    return vystup
+ 
+def nejdelsi_slovo(text):
+    slovo = text.split(" ")
+    delka = ""
+    for i in slovo:
+        if len(i) > len(delka):
+            delka=i
+    return delka
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    hodnota=0
+    nejdelsi_slovo=""
+    for i in slova:
+        if len(i)>hodnota:
+            hodnota=len(i)
+            nejdelsi_slovo=i
+    return nejdelsi_slovo
+
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max = 0
+    for i in range(i, len(slova)):
+        if len(slova[max]) <= len(slova[i]):
+               max = i
+    return slova[max]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    x=slova[0]
+    for i in range(len(slova)):
+        if len(x)<=len(slova[i]):x=slova[i]
+    return x 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    uin=0
+    for i in range(len(slova)):
+        if len(slova[uin])<=len(slova[i]):
+            uin=i
+    return slova[uin]
+        
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = ""
+    for w in slova:
+        if len(w) >= len(nejdelsi): nejdelsi = w
+    return nejdelsi
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejvetsi=slova[0]
+    for slovo in slova:
+        if len(slovo)>len(nejvetsi) and slovo[0]<nejvetsi[0]:
+            nejvetsi=slovo
+    return nejvetsi
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max = slova[0]
+    for i in slova:
+        if len(i) >= len(max):
+            max = i
+    return max
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    
+    kandidat = slova[0]
+    for slovo in slova:
+        if len(slovo) > len(kandidat):
+            kandidat = slovo
+    
+    return kandidat
+ 
+def nejdelsi_slovo(text):
+    a = text.split()
+    naj = a[0]
+    for i in a:
+        if len(i)>=len(naj):
+            naj = min(i,naj)
+    return naj
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max = 0
+    for i in range(len(slova)):
+        if (len(slova[i]))>(len(slova[max])) : max = i        
+    return slova[max]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejvetsi = slova[0]
+    for i in range(len(slova)):
+        if nejvetsi > slova[i]:
+            nejvetsi = slova[i]
+            
+    return nejvetsi
+ 
+def nejdelsi_slovo(text):
+    
+    slova = text.split(" ")
+    slova.sort()
+    NS = slova[0]
+    
+    for Slovo in slova:
+       if (len(Slovo) > len(NS[0])):
+           NS = Slovo
+  
+    return NS
+ 
+def nejdelsi_slovo(text):
+    
+    slova = text.split(" ")
+    slova.sort()
+    NS = slova[0]
+    
+    for Slovo in slova:
+       if (len(Slovo) > len(NS)):
+           NS = Slovo
+  
+    return NS
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max = len(slova[0])
+    for slov in slova:
+        if (len(slov)>max):
+            max = slov
+    return "ctyri"       
+            
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = slova[0]
+    for slovo in slova:
+        if slovo<nejdelsi:
+            nejdelsi = slovo
+    return nejdelsi
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi_slovo = slova[0]
+    for i in range(len(slova)):
+        if (len(slova[i]) > len(nejdelsi_slovo)):
+            nejdelsi_slovo = slova[i]
+    return nejdelsi_slovo 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    n = slova[0]
+    for i in slova:
+        if len(i) >= len(n):
+            n = i
+    return n
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi=""
+    for i in range(len(slova)):
+        if len(slova[i])>nejdelsi:
+            nejdelsi = slova[i]        
+    return slova[0]
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi=""
+    for i in range(len(slova)):
+        if len(slova[i])>nejdelsi:
+            nejdelsi = slova[i]        
+    return nejdelsi
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nej = slova[0]
+    for i in slova:
+        if len(i) > len(nej):
+            nej = i
+    return nej
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    kandidat = ""
+    for i in range(len(slova)):
+        if len(slova[i]) >= len(kandidat):
+            kandidat = slova[i]
+    return kandidat
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    max=""
+    for slovo in slova:
+        
+        if len(slovo) > len(max):
+            max = slovo
+    return max
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max_delka = 0 
+    aktualni_index = 0
+    max_index = 0
+    for slovo in slova:
+        if len(slovo) > max_delka:
+            max_delka = len(slovo)
+        
+        
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = ""
+    for slovo in slova:
+        if len(slovo) >= len(nejdelsi):
+            nejdelsi = slovo
+    return nejdelsi
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    max = ""
+    for slovo in slova:
+        if len(max) < len(slovo):
+            max = slovo
+    return max 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    nejdelsi = " "
+    for i in slova:
+        if len(i) > len(nejdelsi):
+            nejdelsi = i
+    return nejdelsi 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    dlhe_slovo = "" 
+    for i in range(len(slova)):
+        if len(slova[i]) >= len(dlhe_slovo):
+            dlhe_slovo = slova[i]
+            
+            
+    return dlhe_sl 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    longest = slova[0]
+    for i in range(len(slova)):
+        if len(longest) <= len(slova[i]):
+            longest = slova[i]
+    return longest
+ 
+def nejdelsi_slovo(text):
+    nejdelsi=0
+    slova = text.split(" ")
+    delka=len(slova)
+    for i in range (delka):
+        if (len(slova[i].sorted)>len(slova[nejdelsi].sorted)):
+            nejdelsi = i
+    return slova[nejdelsi] 
+def nejdelsi_slovo(text):
+    nejdelsi=0
+    slova = sorted(text.split(" "))
+    delka=len(slova)
+    for i in range (delka):
+        if (len(slova[i])>len(slova[nejdelsi])):
+            nejdelsi = i
+    return slova[nejdelsi]
+
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    max = slova[0]
+    for s in slova:
+        if len(max) <= len(s):
+            max = s
+    return max
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    max = ""
+    for i in slova:
+        if len(i) > len(max):
+            max = i
+    return max
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    pocetSlov = len(slova)
+    nejdelsi = slova[0]
+    for i in range(1,pocetSlov):
+        if (len(nejdelsi) < len(slova[i])):
+            nejdelsi = slova[i]
+    return nejdels 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    
+    pocetSlov = len(slova)
+    nejdelsi = slova[0]
+    for i in range(1,pocetSlov):
+        if (len(nejdelsi) <= len(slova[i])):
+            nejdelsi = slova[i]
+    return 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    maximum = ""
+    for slovo in slova:
+        if len(slovo)>len(maximum):
+            maximum = slovo
+    return maximum
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    a = 0
+    for i in range(len(slova)):
+        if a <= len(slova[i]):
+            a = i
+    return slova[i] 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    top=""
+    for s in slova:
+        if len(top)<len(s):
+            top=s
+        
+    return top
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    slova.sort()
+    longest = slova[0]
+    for slovo in slova:
+        if(len(slovo) > len(longest)):
+            longest = slovo
+    return longest
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejdelsi = ""
+    for item in slova:
+        if len(item) >= len(nejdelsi):
+            nejdelsi = item
+    return nejdelsi
+ 

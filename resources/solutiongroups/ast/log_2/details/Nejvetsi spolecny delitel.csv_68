@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{Call{}, }, While{Compare{NotEq{}, }, Assign{Sub{}, }, Assign{Call{}, }, Assign{Call{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    big = max(a,b)
+    small = min(a,b)
+    while small != big:
+        e = big - small
+        big = max(e, small)
+        small = min(e,small)
+    return small
+        
+    
+    
+ 

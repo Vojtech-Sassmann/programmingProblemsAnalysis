@@ -1,0 +1,3 @@
+736;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{Mod{}, }, Print{}, }, }, }, }, }
+4;root{Module{Print{}, Print{}, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{LtE{}, }, If{Compare{Mod{}, }, Print{}, }, Assign{Add{}, }, }, }, }, }

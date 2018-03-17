@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{Call{}, }, Expr{Call{Attribute{}, }, }, For{AugAssign{Add{}, Mult{}, Call{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    vystup = 0
+    baze = 1
+    retezec = list(retezec)
+    retezec.reverse()
+    for i in retezec:
+        vystup += baze * int(i)
+        baze = baze *2
+    return vystup
+ 

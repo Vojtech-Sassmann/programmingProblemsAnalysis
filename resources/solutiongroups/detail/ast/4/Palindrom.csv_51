@@ -1,0 +1,17 @@
+2;root{Module{FunctionDef{Assign{Call{}, }, For{Call{}, For{Call{Sub{}, }, If{Return{}, }, }, }, Return{}, }, }, }
+def palindrom(text):
+    dlzka = len(text)
+    for i in range(dlzka):
+        for j in range (dlzka-1, 0):
+            if ((text[i] == text [j]) == False):
+                return False
+    return True
+ 
+def palindrom(text):
+    dlzka = len(text)
+    for i in range(dlzka):
+        for j in range (dlzka, 0):
+            if ((text[i] == text [j]) == False):
+                return False
+    return True
+ 

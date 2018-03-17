@@ -1,0 +1,8 @@
+1;root{Module{ImportFrom{alias{}, }, FunctionDef{For{Call{Add{}, }, For{Call{}, Print{Call{}, Div{}, Call{}, Mult{}, Call{Sub{}, }, }, }, Print{}, }, }, }, }
+from math import factorial
+def pascaluv_trojuhelnik(x):
+    for n in range(1, x+1):
+        for k in range(1, n):
+            print (factorial(x)/((factorial(k)*(factorial(x-k)))))
+        print
+ 

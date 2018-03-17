@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{Compare{Call{}, }, Assign{Add{}, Str{}, }, If{Compare{Call{}, Add{}, Gt{}, }, Assign{Call{Call{}, Add{}, Sub{}, Add{}, }, }, }, }, }, }, }, }
+def caesar(text, n):
+   sifra=""
+   for cislo in range(len(text)):
+        if(ord(text[cislo])==32):
+            sifra=sifra+" "
+        elif(ord(text[cislo])+n>122):
+            pismeno=chr(ord(text[cislo])+n-122+96)
+

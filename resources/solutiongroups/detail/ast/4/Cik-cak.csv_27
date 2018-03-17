@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, Assign{}, While{Compare{Lt{}, Call{}, }, Assign{}, Print{}, If{Compare{Lt{}, Call{}, Sub{}, }, Assign{Str{}, }, Print{}, }, AugAssign{Add{}, }, }, If{Compare{Str{}, }, Assign{}, }, Expr{}, }, }, }
+def cikcak(text):
+    s=""
+    i=0
+    sign=0
+    while (i<(len(text))):    
+        s=text[i]
+        print s,
+        if (i<len(text)-1):
+            s="."
+            print s,
+        i+=2
+    if (s=="."):sign=1
+    p 

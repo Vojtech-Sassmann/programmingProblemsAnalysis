@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{}, Assign{Sub{}, }, Print{}, If{Compare{NotEq{}, }, Return{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    for i in range(2):
+        b = -1-i
+        print i,b
+        if text[i] != text[b]:
+            return False
+    return True
+ 

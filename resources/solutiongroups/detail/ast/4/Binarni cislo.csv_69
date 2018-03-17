@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{AugAssign{Mult{}, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, AugAssign{Add{}, Call{}, }, }, }, Return{}, }, }, }
+def vyhodnot(string):
+    result = 0
+    for i in string:
+        result *= 2
+        if i == "0" or i == "1":
+         result += int(i)
+    return result
+ 

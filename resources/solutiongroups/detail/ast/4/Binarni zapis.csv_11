@@ -1,0 +1,23 @@
+4;root{Module{FunctionDef{If{Return{Str{}, }, Return{Call{Mod{}, }, Add{}, Call{FloorDiv{}, }, }, }, }, }, }
+def binarne(n):
+    if n == 0:
+        return ""
+    else:
+        return (str(n%2) + binarne(n//2))
+
+def binarne(n):
+    if n == 0:
+        return ""
+    else: 
+        return binarne(n//2)+str(n%2)
+def binarne(n):
+    if n == 0: 
+        return ""
+    else: 
+        return binarne(n//2)+str(n%2)
+
+def binarne(n):
+    if n == 0:
+        return ""
+    else:
+        return binarne(n//2) + str(n%2) 

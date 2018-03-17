@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{Assign{}, If{Compare{Lt{}, }, Assign{Tuple{}, Tuple{}, }, }, While{Compare{NotEq{}, }, Assign{Mod{}, }, Assign{}, If{Break{}, Assign{}, }, }, Expr{}, }, }, }
+def nsd(a,b):
+    zbytok = 1
+    
+    if a < b:
+        a,b=b,a
+        
+    while zbytok <> 0:
+        zbytok = a % b
+        a = b
+        if zbytok ==0 :
+            break
+        else:
+            b = zbytok
+    retu 

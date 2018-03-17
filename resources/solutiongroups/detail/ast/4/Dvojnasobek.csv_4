@@ -1,0 +1,15 @@
+4;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Print{Str{}, Str{}, Add{}, }, }, }, }
+def dvojnasobek(n):
+    print "Dvojnasobek cisla", n, "je", n+5
+    print "Dvonjnasobek cisla", 5, "je", n+5
+    
+ 
+def dvojnasobek(n):
+    print "Dvojnasobek cisla", n, "je", n+5
+print "Dvojnasobek cisla", n, "je", n+5 
+def dvojnasobek(n):
+    print "Dvojnasobek cisla", n, "je", n+5
+print "Dvojnasobek cisla", n, "je", n + n 
+def dvojnasobek(n):
+    print "Dvojnasobek cisla", n, "je", n+5
+print "Dvojnasobek cisla", n, "je", n + 2 

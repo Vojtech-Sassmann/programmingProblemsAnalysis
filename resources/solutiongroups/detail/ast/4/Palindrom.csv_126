@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{Call{}, }, If{AugAssign{Add{}, }, }, }, Return{Compare{Call{}, }, }, }, FunctionDef{Assign{Str{}, }, For{Expr{}, }, }, }, }
+def palindrom(text):
+    text_rev=reverse(text)
+    shoda=0
+    for i in range(len(text)):
+        if text[i]==text_rev[i]:shoda+=1
+    return shoda==len(text)
+def reverse(text):
+    vystup=""
+    for i in text:
+        vystup 

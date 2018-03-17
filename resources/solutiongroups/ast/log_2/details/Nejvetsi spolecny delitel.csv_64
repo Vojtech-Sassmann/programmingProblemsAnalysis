@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{While{BoolOp{Or{}, Compare{Lt{}, }, Compare{Lt{}, }, }, If{Compare{Gt{}, }, Assign{Sub{}, }, }, If{Compare{Gt{}, }, Assign{Sub{}, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    while a<b or b<a:
+        if a>b:
+            a=a-b
+        if b>a: 
+            b=b-a
+    return (a)
+ 

@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, Assign{Mod{}, }, If{AugAssign{Add{}, }, Print{}, }, }, }, }, }
+def delitele(n):
+    x=0
+    for i in range(1,n+1):
+        vys = n%i
+        if vys == 0:
+            x+=1
+            print i
+ 

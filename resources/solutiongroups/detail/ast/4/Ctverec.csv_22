@@ -1,0 +1,21 @@
+2;root{Module{FunctionDef{For{Call{}, If{Print{Str{}, Mult{}, }, If{Compare{Sub{}, }, Print{Str{}, Mult{}, }, Print{Str{}, Add{}, Str{}, Mult{}, Sub{}, Add{}, Str{}, }, }, }, }, }, }, }
+def ctverec(n):
+    for radek in range(n):
+       if radek == 0:
+            print "*" * n
+       elif radek == n-1:
+            print "*" * n    
+       else:
+            print "*" + "+" * (n-2) + "*" 
+ 
+def ctverec(n):
+    for i in range(n):
+        if i == 0:
+            print "*" * n
+        elif i == (n - 1):
+            print "*" * n
+        else:
+            print "*" + "+"*(n-2) + "*"
+
+ 
+ 

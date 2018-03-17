@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{Attribute{}, Str{}, }, }, Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Call{}, Gt{}, Call{}, }, BoolOp{And{}, Compare{Call{}, Call{}, }, Compare{Lt{}, }, }, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    a=""
+    slova = text.split(" ")
+    a=slova[0]
+    for i in range(len(slova)):
+        if len(slova[i]) > len(a) or (len(slova[i]) == len(a) and slova[i] < a):
+                a=slova[i]
+    return a 

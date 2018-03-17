@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, If{Compare{Call{}, Gt{}, }, Return{Tuple{}, }, }, AugAssign{Add{}, Call{}, Mult{}, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    convert=1
+    sucet=0
+    for i in retezec[::-1]:
+        if ord(i)>57:
+            return 0,
+        sucet+=int(i)*convert
+        convert*=2
+    return sucet
+ 

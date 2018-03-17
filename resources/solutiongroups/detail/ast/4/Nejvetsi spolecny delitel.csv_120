@@ -1,0 +1,16 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Return{Tuple{}, }, }, FunctionDef{If{Compare{Lt{}, }, Expr{Call{}, }, }, While{Compare{Mod{}, NotEq{}, }, Assign{Mod{}, }, Assign{}, Assign{}, }, Return{}, }, }, }
+def switch(a,b):
+    x =a
+    a=b
+    b=x
+    return a,b
+
+def nsd(a, b):
+    if a<b:
+        switch(a,b)
+    while a%b !=0:
+        rem = a%b
+        a=b
+        b=rem
+    return b
+ 

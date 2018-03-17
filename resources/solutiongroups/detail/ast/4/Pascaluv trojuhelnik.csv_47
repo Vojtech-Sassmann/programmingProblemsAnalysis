@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, If{BoolOp{Or{}, }, Print{}, Print{Sub{}, Add{}, }, }, }, Print{}, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            if k == 0 or k == n:
+                print 1,
+            else:
+                print (k-1)+(k),
+        print 

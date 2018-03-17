@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, AugAssign{Add{}, Call{Subscript{Index{Sub{}, }, }, }, Mult{}, Pow{}, Call{}, Sub{}, Sub{}, Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec),0,-1):
+        cislo += int(retezec[i - 1])*2**(len(retezec) -1 - (i - 1))
+    return cislo
+ 

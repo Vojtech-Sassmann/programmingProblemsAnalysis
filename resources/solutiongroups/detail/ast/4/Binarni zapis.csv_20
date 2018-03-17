@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, AugAssign{Add{}, Call{Mod{}, }, }, Assign{Sub{}, Mod{}, Div{}, }, }, AugAssign{Add{}, Call{}, }, Print{Subscript{Slice{}, }, }, }, }, }
+def binarne(n):
+    output = ""
+    while(n>1):
+        output += str(n%2)
+        n = (n - n%2)/2
+    output += str(1)
+    print output[::-1]
+def binarne(n):
+    a = ""
+    while n>0:
+        a += str(n%2)
+        n = (n-n%2)/2
+    print a[::-1]
+

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{For{Subscript{Slice{}, }, Print{}, Print{Str{}, }, }, Print{}, Print{Str{}, }, For{Subscript{Slice{}, }, Print{}, Print{Str{}, }, }, }, }, }
+def cikcak(text):
+    for i in text[:-2:2]:  
+        print i,
+        print ".",
+    print text[-1]
+    print ".",
+    for j in text[1::2]:
+        print j,
+        print ".",
+ 

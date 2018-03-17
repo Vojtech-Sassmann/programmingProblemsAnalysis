@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{List{}, }, While{AugAssign{Sub{}, }, Assign{Mod{}, }, Expr{Call{Attribute{}, Div{}, Div{}, }, }, If{Compare{Gt{}, }, Break{}, }, AugAssign{Mult{}, }, }, Return{Call{}, }, }, }, }
+def ciferny_soucet(n):
+    i = 10
+    f = 0
+    cif = []
+    while True:
+        n -= f
+        f = n%i
+        cif.append(f/(i/10))
+        if i>n:
+            break
+        i*=10
+    return sum(cif)
+ 

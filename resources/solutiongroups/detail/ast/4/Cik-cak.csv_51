@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{For{Call{Call{}, }, If{Compare{Mod{}, }, Print{}, Print{Str{}, }, }, }, Print{}, }, FunctionDef{Expr{Call{}, }, Expr{Call{}, }, }, }, }
+def vypisuj(text, zbytok):
+    for i in range(len(text)):
+        if i % 2 == zbytok:
+            print text[i],
+        else:
+            print ".",
+    print
+
+
+def cikcak(text):
+    vypisuj(text, 0)
+    vypisuj(text, 1)
+ 

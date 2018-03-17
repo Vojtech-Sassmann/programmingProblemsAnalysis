@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, Assign{Call{}, Sub{}, }, Assign{}, For{Call{Call{}, }, Assign{}, Assign{Call{}, }, Assign{Add{}, Mult{}, Pow{}, Sub{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cast=""
+    x=0
+    z=len(retezec)-1
+    celkem=0
+    for i in range(len(retezec)):
+        cast=retezec[i]
+        x=int(cast)
+        celkem=celkem+(x*(2**(z-i)))
+    return celkem 

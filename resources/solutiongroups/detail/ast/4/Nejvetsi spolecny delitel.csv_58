@@ -1,0 +1,27 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Call{Sub{}, }, }, If{Compare{Mod{}, Mod{}, }, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    nsd = 0
+    
+    for i in range(abs(a-b)):
+        if a%i == b%i == 0:
+            nsd = i
+    
+
+        
+    return nsd
+ 
+def nsd(a, b):
+    
+    nsd = 0
+    
+
+    
+    for i in range(a+b):
+        if a%i == b%i == 0:
+
+            nsd = i
+    
+
+        
+    return nsd
+ 

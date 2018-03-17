@@ -1,0 +1,23 @@
+3;root{Module{FunctionDef{Assign{Call{}, }, Assign{Str{}, }, For{Call{Call{}, }, If{Compare{NotEq{}, Str{}, }, AugAssign{Add{}, Call{Call{}, Add{}, Sub{}, BitAnd{}, UnaryOp{UAdd{}, }, }, }, AugAssign{Add{}, Str{}, }, }, }, Return{}, }, }, }
+def caesar(text, n):
+    text=list(text)
+    vystup=""
+    for i in range(len(text)):
+        if text[i]!=" ":
+            vystup+=chr((ord(text[i])+n-96)&+96)
+        else:vystup+=" "
+    return vystup 
+def caesar(text, n):
+    toRet = ""
+    for i in range(len(text)):
+        if(text[i]!=" "):toRet+=chr(((ord(text[i])+3)-96)&+96)
+        else: toRet+=" "
+    return toRet
+
+def caesar(text, n):
+    toRet = ""
+    for i in range(len(text)):
+        if(text[i]!=" "):toRet+=chr(((ord(text[i])+n)-96)&+96)
+        else: toRet+=" "
+    return toRet
+

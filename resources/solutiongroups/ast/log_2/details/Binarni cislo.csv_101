@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Call{}, }, For{Call{Call{}, }, Assign{Mod{}, }, AugAssign{Add{}, Mult{}, Pow{}, }, Assign{FloorDiv{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    bin = int(retezec)
+    for i in range(len(retezec)):
+        podil = bin % 2
+        cislo += podil*(2**i)
+        bin = bin // 2
+    return cislo
+ 

@@ -1,0 +1,61 @@
+15;root{Module{FunctionDef{For{Call{Call{}, }, Print{Str{}, }, }, }, }, }
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],"."
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i]+".",
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+ 
+def cikcak(text):
+    pardubice(text,0)
+    pardubice(text,1)
+
+def cikcak(text):
+    for i in range(len(text)):    
+        print text[i],
+bbbbb 

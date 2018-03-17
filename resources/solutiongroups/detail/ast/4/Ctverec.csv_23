@@ -1,0 +1,16 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, Print{Mult{}, }, For{Call{Sub{}, }, Print{Add{}, Sub{}, Mult{}, Add{}, }, }, Print{Mult{}, }, }, }, }
+def ctverec(n):
+    x="*"
+    y="+"
+    print(n*x)
+    for i in range(n-2):
+        print(x+(n-2)*y+x)
+    print(n*x)
+ 
+def ctverec(n):
+    r = "*"
+    s = "+"
+    print n*r
+    for i in range(n-2):
+        print r + (n-2)*s + r
+    print n*r 

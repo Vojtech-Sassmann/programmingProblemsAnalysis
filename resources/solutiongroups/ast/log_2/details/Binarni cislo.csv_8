@@ -1,0 +1,92 @@
+10;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, AugAssign{Add{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(bin_cislo):
+    vysledek=0
+    rad=-1
+    for i in bin_cislo[::-1]:
+        rad+=1
+        if i=="1":
+            vysledek+=((2**rad))
+    return vysledek
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    i = 1
+    for c in retezec[::-1]:
+        if c == "1":
+            vysledek +=2**i
+        i = i*2
+    return vysledek
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    y = len(retezec)
+    for i in range(y):
+        y -= 1
+        if retezec[i] == "1":
+            cislo += 2**y
+        
+    return cislo
+ 
+def vyhodnot(retezec):
+    length = len(retezec)
+    cislo = 0
+    for i in range(len(retezec)):
+        length -= 1
+        if retezec[i] == "1":
+            cislo += 2**length
+    return cislo
+ 
+def vyhodnot(retezec):
+    result = 0
+    power = 0
+    for i in range (retezec[::-1]):
+        if i == "1":
+            result += 2**power
+        power += 1
+    return result 
+def vyhodnot(retezec):
+    result = 0
+    power = 0
+    for b in retezec[::-1]:
+        if b == "1":
+            result += 2 ** power
+        power += 1
+    return result
+ 
+def vyhodnot(retezec):
+    result = 0
+    power = 0
+    for b in retezec[::-1]:
+        if b == "1":
+            result +=2**power
+        power +=1
+    return result
+ 
+def vyhodnot(retezec):
+    result = 0
+    power = 0
+    for b in retezec[::-1]:
+        if b == "1":
+            result += 2 ** power
+        power +=1
+    return result
+ 
+def vyhodnot(retezec):
+
+    bin=0
+    j=0
+    for i in retezec[::-1]:
+        if i=="1":
+            bin+=2**j
+        j+=1
+        
+    return bin
+ 
+def vyhodnot(retezec):
+    vystup = 0
+    x = 0
+    for i in retezec[::-1]:
+        if i == "1":
+            vystup += 2**x
+        x += 1
+    return vystup 

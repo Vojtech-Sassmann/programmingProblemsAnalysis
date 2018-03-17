@@ -1,0 +1,14 @@
+1;root{Module{FunctionDef{If{Compare{Mod{}, }, Return{}, If{Compare{Mod{}, }, Return{}, If{Compare{Lt{}, }, Assign{}, While{Compare{Gt{}, }, AugAssign{Sub{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Return{}, Assign{}, }, }, }, }, }, }, }, }
+def nsd(a, b):
+    if b%a==0:
+        return a
+    elif a%b==0:
+        return b
+    elif a<b:
+        c=a
+        while c>1:
+            c-=1
+            if b%c==0 and a%c==0:
+                return c
+                c=0
+ 

@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{For{Call{}, For{Call{Add{}, }, Print{}, }, Assign{List{}, }, Assign{List{}, }, For{Call{Call{}, Sub{}, }, Expr{Call{Attribute{}, Add{}, Subscript{Index{Add{}, }, }, }, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            print k,
+        d=[1]
+        a=[1]
+        for x in range(len(a)-1):
+            d.append(a[x]+a[x+1])
+ 

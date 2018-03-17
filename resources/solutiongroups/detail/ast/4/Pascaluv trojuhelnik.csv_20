@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{If{Return{}, }, For{Call{Sub{}, }, AugAssign{Mult{}, }, }, Return{}, }, FunctionDef{For{Call{}, For{Call{Add{}, }, Expr{}, }, }, }, }, }
+def f(n):
+    if n == 0:
+        return 1
+    for i in range(n-1, 1, -1):
+        n *= i
+    return n
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        for k in range(0, n + 1):
+            pri 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Subscript{Slice{}, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, Assign{Call{}, }, AugAssign{Add{}, Mult{}, }, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    i = 1
+    n = 0
+    for x in retezec[::-1]:
+        if x == "1" or x == "0": 
+            x = int(x)
+            n += x * i
+        i *= 2
+    return n
+ 

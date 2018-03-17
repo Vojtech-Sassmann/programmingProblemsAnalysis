@@ -1,0 +1,25 @@
+3;root{Module{FunctionDef{Assign{List{}, }, Expr{Call{}, }, For{Call{Add{}, }, Expr{Call{Attribute{}, }, }, Assign{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, Print{}, }, }, }
+def fibonacci(n):
+    f = [1, 1]
+    str(f)
+    for g in range(2,n+1):
+        f.append(1)
+        f[g]=f[g-1] + f[g-2]
+        
+    print f 
+def fibonacci(n):
+    f = [1, 1]
+    str(f)
+    for g in range(2,n):
+        f.append(1)
+        f[g]=f[g-1] + f[g-2]
+        
+    print f 
+def fibonacci(n):
+    f = [1, 1]
+    str(f)
+    print f[0], f[1],
+    for g in range(2,n):
+        f.append(1)
+        f[g]=f[g-1] + f[g-2]
+        print f[g], 

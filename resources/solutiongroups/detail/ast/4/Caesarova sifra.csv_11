@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Call{}, Sub{}, }, If{Compare{LtE{}, LtE{}, }, Assign{Add{}, }, AugAssign{Add{}, Call{Add{}, }, }, Assign{}, Assign{Add{}, }, }, }, }, }, }
+def caesar(text, n):
+    vystup=""
+    for i in range(len(text)):
+        c1=ord(text[i])-64
+        if(0<=c1<=24):
+            c1=c1+n
+            vystup+=chr(c1+64)
+        else:
+            c1=0
+            c1=c1+n
+ 

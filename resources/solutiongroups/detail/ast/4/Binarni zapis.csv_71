@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{}, While{Compare{Gt{}, }, If{Compare{Mod{}, NotEq{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, AugAssign{Div{}, }, Expr{}, }, }, }, }
+def binarne(n):
+    binary_list = []
+    old_number = number
+    while (number > .5):
+        if number % 2 != 0:
+            binary_list.append(1)
+        else:
+            binary_list.append(0)
+        number /= 2
+        numb

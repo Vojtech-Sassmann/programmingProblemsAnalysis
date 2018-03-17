@@ -1,0 +1,41 @@
+14;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{Mod{}, }, Print{}, }, }, }, }, }
+9;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, Return{}, }, FunctionDef{Assign{}, While{Compare{Gt{}, }, If{Compare{Call{}, }, Expr{}, }, }, }, }, }
+8;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{NotEq{}, }, AugAssign{Add{}, }, Assign{}, For{Call{}, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, If{Compare{Lt{}, }, Print{}, }, }, }, }, }
+8;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{LtE{}, }, Assign{}, Assign{}, For{Call{Add{}, }, If{Compare{Mod{}, }, Assign{Add{}, }, }, }, If{Print{}, Assign{Add{}, }, }, }, }, }, }
+8;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{Compare{Mod{}, }, Assign{Add{}, }, Assign{Add{}, }, }, }, Return{}, }, FunctionDef{If{Compare{Call{}, }, Return{}, Return{}, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, Assign{}, For{Call{}, If{Compare{Mod{}, }, Assign{}, }, }, If{Print{}, AugAssign{Sub{}, }, }, AugAssign{Add{}, }, }, }, }, }
+7;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Lt{}, }, AugAssign{Add{}, }, For{Call{Sub{}, }, If{Compare{Mod{}, }, Assign{}, }, }, If{Print{}, AugAssign{Add{}, }, }, Expr{}, }, }, }, }
+5;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Lt{}, }, If{Call{}, Print{}, AugAssign{Add{}, }, }, AugAssign{Add{}, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Assign{List{}, }, While{Compare{Lt{}, }, Assign{}, For{If{Compare{Mod{}, }, Assign{}, Break{}, }, }, If{Assign{Add{}, }, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, For{Call{Pow{}, }, Assign{}, For{Call{Pow{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, If{Compare{LtE{}, }, AugAssign{Add{}, }, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, While{Compare{Gt{}, }, If{Compare{Call{}, }, Print{}, }, Assign{Sub{}, }, Assign{Add{}, }, }, }, FunctionDef{Assign{}, For{Call{Add{}, }, If{Compare{Mod{}, }, Expr{}, }, }, }, }, }
+4;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Lt{}, }, For{Call{Add{}, }, If{BoolOp{Or{}, Compare{Mod{}, }, Compare{Mod{}, }, }, AugAssign{Add{}, }, }, }, }, }, }, }
+3;root{Module{FunctionDef{For{Call{}, If{Compare{Mod{}, }, Return{}, }, }, Return{}, }, FunctionDef{Assign{}, While{Compare{Gt{}, }, If{Call{}, Print{}, AugAssign{Sub{}, }, }, AugAssign{Add{}, }, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, Return{}, }, FunctionDef{Return{Compare{Call{}, LtE{}, }, }, }, FunctionDef{Assign{}, Assign{}, }, }, }
+3;root{Module{Import{alias{}, }, FunctionDef{If{Return{}, }, For{Call{Call{Attribute{}, }, Add{}, }, If{Compare{Mod{}, }, Return{}, }, }, Return{}, }, FunctionDef{Assign{}, }, }, }
+3;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, Expr{Mod{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, If{Return{}, Return{}, }, }, FunctionDef{Assign{}, }, }, }
+2;root{Module{FunctionDef{Assign{}, If{Compare{NotEq{}, }, Print{Str{}, }, }, While{Compare{GtE{}, }, AugAssign{Add{}, }, For{Call{}, If{Compare{Mod{}, }, Assign{}, }, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{NotEq{}, }, AugAssign{Add{}, }, If{Compare{Gt{}, }, For{Call{}, If{Compare{Mod{}, }, Break{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, }, For{Call{}, If{Compare{Mod{}, }, Return{}, }, }, Return{}, }, FunctionDef{Assign{}, While{AugAssign{Add{}, }, If{Call{}, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{For{Call{Div{}, Add{}, }, If{Compare{Mod{}, }, Return{}, }, }, Return{}, }, FunctionDef{For{Call{}, If{Call{}, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{For{Call{}, If{Compare{Mod{}, }, Return{}, }, }, Return{}, }, FunctionDef{Expr{Str{}, }, If{Compare{Lt{}, }, Return{}, }, Assign{}, For{Call{}, If{Call{}, Expr{}, }, }, }, }, }
+1;root{Module{Import{alias{}, }, FunctionDef{Assign{}, Assign{}, While{Compare{Lt{}, }, AugAssign{Add{}, }, Assign{}, For{Call{Call{Call{Attribute{}, }, }, Add{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, If{Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{NotEq{}, }, }, Break{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{NotEq{}, }, }, Break{}, Print{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{BoolOp{Or{}, }, Return{}, Assign{}, For{Call{Sub{}, }, If{Compare{Mod{}, }, Assign{}, }, }, If{Compare{NotEq{}, }, Return{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, Assign{}, While{Compare{NotEq{}, }, If{Compare{Call{}, }, AugAssign{Add{}, }, Assign{Add{}, Call{}, Add{}, Str{}, }, }, AugAssign{Add{}, }, }, Print{}, }, }, }
+1;root{Module{FunctionDef{For{Call{}, If{Compare{Mod{}, }, Return{}, }, }, Return{}, }, FunctionDef{Assign{}, For{Call{}, While{UnaryOp{Not{}, Call{}, }, AugAssign{Add{}, }, }, Print{}, Expr{Mod{}, }, }, }, }, }
+1;root{Module{FunctionDef{Expr{Str{}, }, Assign{}, FunctionDef{For{Call{}, If{Compare{Mod{}, }, Return{}, }, }, Return{}, }, Assign{}, While{If{Break{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{}, Assign{Call{}, }, Print{}, }, }, FunctionDef{Assign{}, If{Return{}, }, While{UnaryOp{Not{}, }, Assign{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{LtE{}, }, If{Compare{Mod{}, }, Assign{Add{}, }, }, Assign{Add{}, }, }, Return{}, }, FunctionDef{Return{Compare{Call{}, }, }, }, FunctionDef{Expr{}, }, }, }
+1;root{Module{FunctionDef{Assign{Sub{}, }, Print{}, Assign{}, While{Compare{Gt{}, }, For{Call{}, If{Compare{Mod{}, Gt{}, }, If{Compare{Sub{}, }, Print{}, Assign{Sub{}, }, Assign{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, Assign{}, If{Compare{Mod{}, }, If{BoolOp{And{}, Compare{NotEq{}, }, Compare{NotEq{}, }, }, Assign{}, Break{}, }, }, }, Return{}, }, Expr{}, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{NotEq{}, }, Assign{}, Assign{}, While{Compare{LtE{}, }, Assign{Mod{}, }, If{AugAssign{Add{}, }, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{}, While{Compare{Call{}, Lt{}, }, Assign{Add{}, }, Assign{}, While{Compare{Lt{}, Call{}, }, Assign{}, Assign{Add{}, }, Assign{Mod{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{}, While{Compare{Call{}, Lt{}, }, Assign{}, AugAssign{Add{}, }, For{Call{}, If{Compare{Mod{}, }, Assign{}, Break{}, }, }, Expr{}, }, }, }, }
+1;root{Module{FunctionDef{Return{Compare{Mod{}, }, }, }, FunctionDef{Assign{}, For{Call{Add{}, }, If{Call{}, AugAssign{Add{}, }, }, }, Return{}, }, FunctionDef{Assign{}, Expr{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{Sub{}, }, Print{Str{}, }, While{Compare{NotEq{}, }, Assign{Add{}, }, For{Call{}, If{Compare{Mod{}, }, Break{}, If{Compare{Sub{}, }, Print{}, }, }, }, }, }, }, }
+1;root{Module{Import{alias{}, }, FunctionDef{Assign{}, For{Call{}, If{Compare{Mod{}, }, Assign{Add{}, }, }, }, If{Compare{Gt{}, }, Return{}, Return{}, }, }, FunctionDef{Expr{}, }, }, }
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, While{Compare{Gt{}, }, For{Call{Add{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, }, }, }, If{AugAssign{Add{}, }, Print{}, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{GtE{}, }, For{Call{}, If{UnaryOp{Not{}, Mod{}, }, Return{}, }, }, Return{}, }, Return{}, }, FunctionDef{Assign{}, Assign{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Lt{}, }, Assign{}, For{Call{Add{}, }, If{Compare{Gt{}, }, Pass{}, }, If{Compare{Mod{}, }, Expr{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{NotEq{}, }, AugAssign{Add{}, }, If{Compare{Call{}, }, Print{}, AugAssign{Add{}, }, }, }, }, FunctionDef{If{Compare{Call{}, }, Return{}, }, }, }, }

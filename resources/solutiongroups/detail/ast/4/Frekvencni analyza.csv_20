@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Dict{}, }, For{If{Compare{NotEq{}, Str{}, }, If{Compare{In{}, Call{Attribute{}, }, }, Assign{Add{}, }, Assign{}, }, }, }, For{Call{}, Expr{}, }, }, }, }
+def frekvencni_analyza(text):
+    d = {}
+    for i in text:
+        if i != " ":
+            if i in d.keys():
+                d[i] = d[i] + 1
+            else:
+                d[i] = 1
+    
+    for i in range(26):
+        p 

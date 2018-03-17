@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Add{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, If{Compare{NotEq{}, }, Print{}, }, }, }, }, }
+def fibonacci(n):
+   aktual=1
+   predchozi=0
+   for cislo in range(n+1):
+      aktual,predchozi=predchozi,predchozi+aktual
+      if (cislo!=0):
+            print aktual,
+ 
+ 

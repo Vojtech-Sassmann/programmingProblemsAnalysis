@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, Str{}, }, }, Assign{}, Assign{}, For{Tuple{}, If{Compare{Call{}, Gt{}, }, Assign{}, Assign{Call{}, }, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+    nejd_i = 0
+    nejd_d = 0
+    for i, s in slova:
+        if len(s) > nejd_d:
+            nejd_i = i
+            nejd_d = len(s)
+    return slova[nejd_i]
+ 

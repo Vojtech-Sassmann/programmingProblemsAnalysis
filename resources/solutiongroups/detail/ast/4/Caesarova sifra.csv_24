@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{If{Compare{Call{}, }, AugAssign{Add{}, Call{}, }, If{Compare{Sub{}, Call{}, Add{}, Gt{}, }, AugAssign{Add{}, Call{Call{}, Add{}, }, }, AugAssign{Add{}, }, }, }, }, }, }, }
+def caesar(text, n):
+    vystup=""
+    for znak in text:
+        if ord(znak)==32:
+            vystup+=chr(32)
+        elif (122-(ord(znak)+n))>0:
+            vystup+=chr(ord(znak)+n)
+        else:
+            vystup+=ch

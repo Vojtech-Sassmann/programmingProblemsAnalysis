@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{List{}, }, Assign{List{}, }, For{Call{}, Assign{Subscript{Slice{}, }, }, For{Call{Call{}, }, Print{}, }, Print{}, Expr{Call{Attribute{}, }, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    a =[1]
+    b =[1]
+    for n in range(pocet_radku):
+        a=b[::]
+        
+        for j in range (len(b)):
+            print b[j],
+        print
+        b.insert(0,1)
+        
+ 

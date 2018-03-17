@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Expr{Call{Attribute{}, }, }, Assign{List{}, }, For{If{Compare{Div{}, Pow{}, GtE{}, }, AugAssign{Sub{}, Pow{}, }, Expr{Call{Attribute{}, Str{}, }, }, Expr{Call{Attribute{}, Str{}, }, }, }, }, }, }, }
+def binarne(n):
+    r = range(0, 10)
+    r.reverse()
+    res = []
+    for i in r:        
+        if n / (2**i) >= 1:
+            n -= 2**i
+            res.append("1")
+        else:
+            res.append("0")
+            
+ 

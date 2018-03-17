@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, Assign{Call{}, }, For{Call{}, If{Compare{Mod{}, }, If{Compare{NotEq{}, Sub{}, }, AugAssign{Add{}, Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, }, }, }, }, }, }
+def cikcak(text):
+    Ariadok = ""
+    Briadok = ""
+    n = len(text)
+    for i in range(n):
+        if i%2 == 0:
+            if i != n-1:
+                Ariadok += text[i] + " " 
+                Briadok += ". "
+ 

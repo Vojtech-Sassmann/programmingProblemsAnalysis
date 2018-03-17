@@ -1,0 +1,52 @@
+9;root{Module{FunctionDef{Assign{}, Assign{}, }, }, }
+def fibonacci(n):
+   a = 1
+   b = 1
+        
+    
+           
+        
+ 
+def fibonacci(n):
+    T1=1
+    T2=1
+    
+    for i in range(n):
+        print i,
+ 
+def fibonacci(n):
+    for i in range(n):
+        print i,
+ 
+def fibonacci(n):
+    for i in range(n):
+        print i,
+ 
+def fibonacci(n):
+    for i in range(n):
+        print i+(i+1),
+ 
+def fibonacci(n):
+    for i in range(n):
+        print i,
+ 
+def fibonacci(n):
+    f=1
+    for i in range(2,n+1):
+        f+=i
+    return 
+        
+        
+ 
+def fibonacci(n):
+    f=1
+    for i in range(2,n+1):
+        f+=i
+    return f
+        
+        
+ 
+def fibonacci(n):
+    for i in range(n):
+        print i,
+ 

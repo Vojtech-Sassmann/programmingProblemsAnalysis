@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Str{}, }, For{Call{Attribute{}, Str{}, }, If{Compare{LtE{}, Call{}, }, Assign{Call{}, }, Assign{}, }, }, Return{}, }, }, }
+def nejdelsi_slovo(text):
+    length = 0
+    longest = ""
+    for word in text.split(" "):
+        if length <= len(word):
+            length = len(word)
+            longest = word
+    return longest 

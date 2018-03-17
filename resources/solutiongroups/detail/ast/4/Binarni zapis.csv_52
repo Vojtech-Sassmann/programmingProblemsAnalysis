@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Print{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, Print{Str{}, }, Print{Str{}, }, }, AugAssign{Div{}, }, }, }, }, }
+def binarne(n):
+    print "1",
+    while n>1:
+        
+        if n % 2 == 0: 
+            print "0",
+        else: 
+            print "1",
+        n/=2
+

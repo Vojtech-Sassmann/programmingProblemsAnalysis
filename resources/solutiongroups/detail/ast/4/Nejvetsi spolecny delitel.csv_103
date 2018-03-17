@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{If{Compare{Gt{}, }, Assign{}, Assign{}, }, }, For{Call{}, If{Compare{Mod{}, }, Assign{}, }, }, Return{}, }, }
+def nsd(a, b):
+    if a>b:
+        mensie=b
+    else:
+        mensie=a
+for i in range(mensie):
+    if mensie%i==0:
+        delitel=i
+return delitel
+ 

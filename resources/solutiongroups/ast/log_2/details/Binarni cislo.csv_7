@@ -1,0 +1,82 @@
+10;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, Assign{Add{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Mult{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    zaklad = 1
+    vysledek = 0
+    for i in range(len(retezec)):
+        vysledek = vysledek + (int(retezec[len(retezec)-i-1])*zaklad)
+        zaklad = zaklad*2
+    return vysledek
+ 
+def vyhodnot(retezec):
+    x=0
+    for i in range(len(retezec)):
+        x = x+((2**i)*(int(retezec[len(retezec)-i-1])))
+    return x
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        a = int(retezec[len(retezec)-i-1])
+        cislo += a*(2**i)
+    return cislo
+ 
+def vyhodnot(retezec):
+    hodnota=0
+    for i in range(len(retezec)):
+        cislo=int(retezec[len(retezec)-i-1])
+        hodnota+=cislo*(2**i)
+    return hodnota
+    
+ 
+def vyhodnot(retezec):
+    vysledek=0
+    for i in range(len(retezec)):
+        x=int(retezec[len(retezec)-i-1])
+ 
+        vysledek=vysledek+(2**i)*x
+        
+             
+    return vysledek
+ 
+def vyhodnot(retezec):
+    vysledek=0
+    for i in range(len(retezec)):
+        
+        x=int(retezec[len(retezec)-i-1])
+ 
+        vysledek=vysledek+(2**i)*x
+        
+             
+    return vysledek
+ 
+def vyhodnot(retezec):
+    p=1
+    s=0
+    for i in range (len(retezec)):
+        s+=int(retezec[-i-1])*p
+        p*=2
+    return s 
+def vyhodnot(retazec):
+    mocnina=1
+    hodnota=0
+    for i in range(len(retazec)):
+        hodnota+=  mocnina*int(retazec[len(retazec)-1-i])
+        mocnina*=2
+    return hodnota
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    x = str(retezec)
+    y = 0
+    for i in range(len(x),0,-1):
+        cislo += int(x[len(x)-y-1])*2**y
+        y += 1
+    return cislo 
+def vyhodnot(retezec):
+    vysledok = 0
+    for i in range(len(retezec)):
+        x = int(retezec[len(retezec)-i-1])*(2**i)
+        vysledok += x
+    return vysledok
+        
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{Attribute{}, }, }, For{Call{Call{}, }, If{Compare{Str{}, }, Assign{Add{}, Str{}, }, Continue{}, Assign{Call{}, Add{}, }, }, }, }, }, }
+def caesar(text, n):
+    vystup = ""
+    text = text.lower()
+    for i in range(len(text)):
+        if text[i] == " ":
+            vystup = vystup + " "
+            continue
+        else:
+            c = ord(text[i]) + n
+ 

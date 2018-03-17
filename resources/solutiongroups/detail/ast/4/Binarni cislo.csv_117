@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{Call{Call{}, }, }, For{Call{Call{}, }, If{Compare{NotEq{}, Str{}, }, Assign{Str{}, }, }, }, Return{Call{Call{Attribute{Str{}, }, }, }, }, }, }, }
+def vyhodnot(retezec):
+    listX=list(str(retezec))
+    for i in range(len(listX)):
+        if listX[i]!="1":
+            listX[i]="0"
+    return int("".join(listX),2)
+ 

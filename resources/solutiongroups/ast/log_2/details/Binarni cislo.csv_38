@@ -1,0 +1,24 @@
+3;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, Assign{}, For{Call{}, Assign{Call{Subscript{Index{Sub{}, Sub{}, }, }, }, }, AugAssign{Add{}, Mult{}, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+def vyhodnot(s):
+  n = len(s)
+  power = 1
+  result = 0
+  for i in range (n):
+      digit = int(s[n-i-1])
+      result += digit*power
+      power *= 2
+  return result 
+def vyhodnot(s):
+  n = len(s)
+  power = 1
+  result = 0
+  for i in range (n):
+      digit = int(s[n-i-1])  
+def vyhodnot(retezec):
+    x = 0
+    suc = 0
+    n = len(retezec)
+    for i in range(n):
+        x = int(retezec[n-i-1])
+        suc = suc + x*(2**i)
+    return suc 

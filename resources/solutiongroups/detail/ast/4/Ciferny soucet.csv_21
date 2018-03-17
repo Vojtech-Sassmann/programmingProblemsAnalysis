@@ -1,0 +1,16 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{}, Assign{Mod{}, }, Assign{Add{}, }, Assign{Div{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    for i in range(n):
+        pom = n % 10
+        sucet = sucet + pom
+        n = n/10
+    return soucet
+ 
+def ciferny_soucet(n):
+    numb=0
+    for i in range (0, n):        
+        if  n%i==0:
+            numb=numb + 1
+    return numb
+ 

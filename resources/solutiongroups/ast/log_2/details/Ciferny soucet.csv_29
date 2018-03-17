@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Mult{}, GtE{}, }, While{UnaryOp{Not{}, Compare{Mod{}, }, }, Assign{Sub{}, Mult{}, Div{}, }, Assign{Add{}, }, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    soucet=0
+    j=10
+    a=n
+    while (n*10)>=j:
+        while not a % j == 0:
+            a=a-1*(j/10)
+            soucet=soucet+1
+        j=j*10
+    return soucet
+ 

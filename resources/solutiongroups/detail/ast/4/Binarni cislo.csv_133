@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Call{}, }, Compare{Call{}, }, }, AugAssign{Add{}, }, Return{}, }, }, Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    x=""
+    for i in range(len(retezec)):
+        if ord(retezec[i]) == 48 or ord(retezec[i]) ==49:
+            x+=retezec[i]
+        else:
+            return 0
+    return int(x,2)    
+ 

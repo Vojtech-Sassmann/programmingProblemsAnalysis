@@ -1,0 +1,61 @@
+6;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, }, Assign{Call{Div{}, }, }, }, Print{}, }, }, }
+def binarne(n):
+    cislo = ""
+    while n > 0:
+        if n % 2 == 1:
+            cislo += "1"
+        else:
+            cislo += "0"
+        n = int(n / 2)
+    print cislo
+     
+   
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n % 2 == 0: zapis +="0"
+        else: zapis += "1"
+        n=n//2
+    return zapis
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n%2==0:
+            zapis+="0"
+        else:
+            zapis+="1"
+        n=n/2
+    return zapis
+        
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n%2==0:
+            zapis+="0"
+        else:
+            zapis+="1"
+        n=n/2
+    print 11110
+        
+
+def binarne(n):
+    b=" "
+    while n > 0:
+        if n % 2 == 0: b+="0"
+        else: b+="1"
+        n = n // 2
+    print b
+    return n
+def binarne(n):
+    a = ""
+    while n > 0:
+        if n%2 == 0:
+            a += "1"
+        else:
+            a += "0"
+        n = n//2
+    print a
+

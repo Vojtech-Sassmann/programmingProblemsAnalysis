@@ -1,0 +1,24 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Mult{}, }, }, Return{}, }, FunctionDef{Return{Call{}, Div{}, Call{}, Mult{}, Call{Sub{}, }, }, }, FunctionDef{For{Call{}, Expr{}, }, }, }, }
+def fact(n):
+    f = 1
+    for i in range(1, n+1):
+        f*=i
+    return f
+
+def komb_cislo(n, k):
+    return fact(n)/(fact(k)*fact(n-k))
+
+def pascaluv_trojuhelnik(pocet_radku):
+    for n in range(pocet_radku):
+        fo 
+def factorial(n):
+    value = 1
+    for i in range(1, n + 1):
+        value *= i
+    return value
+
+def binomial_coefficient(n, k):
+    return factorial (n) / (factorial(n - k) * factorial(k))
+
+def pascal_binomial(n):
+    row 

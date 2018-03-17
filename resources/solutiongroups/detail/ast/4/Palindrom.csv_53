@@ -1,0 +1,24 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, Sub{}, }, Assign{Add{}, }, }, Return{}, }, FunctionDef{If{Compare{Call{}, }, Return{}, Return{}, }, }, }, }
+def otocText(text):
+    novy = ""
+    for i in range(len(text)-1,0,-1):
+        novy = novy + text[i]
+    return novy
+
+def palindrom(text):
+    if text == otocText(text):
+        return True
+    else:
+        return False
+ 
+def otocText(text):
+    novy = ""
+    for i in range(len(text)-1,0,-1):
+        novy = novy + text[i]
+    novy = novy + text[0]
+    return novy
+
+def palindrom(text):
+    if text == otocText(text):
+        return True
+    e 

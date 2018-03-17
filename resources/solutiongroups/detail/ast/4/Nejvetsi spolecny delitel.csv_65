@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{Tuple{}, Tuple{Call{}, Call{}, }, }, If{Return{}, }, Return{Call{Mod{}, }, }, }, }, }
+def nsd(a, b):
+    a, b  = max(a, b), min(a, b)
+    if b == 0:
+        return a
+    return nsd(a % b, b)
+ 

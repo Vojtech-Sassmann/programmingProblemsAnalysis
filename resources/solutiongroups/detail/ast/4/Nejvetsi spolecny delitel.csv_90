@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{If{Return{}, If{Compare{Gt{}, }, Assign{Tuple{}, Tuple{}, }, }, }, Assign{}, For{Call{}, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, If{Compare{Gt{}, }, Assign{}, }, }, }, Return{}, }, }, }
+def nsd(a, b):
+    if a == b:
+        return a
+    elif b > a:
+        (a,b)=(b,a)
+    sp=1
+    for i in range(0,a):
+        if a%i == 0 and b%i == 0:
+            if i > sp: sp=i
+    return sp
+            
+ 

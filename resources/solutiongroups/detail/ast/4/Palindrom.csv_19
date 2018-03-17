@@ -1,0 +1,44 @@
+5;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{}, }, For{Call{}, Assign{Add{}, }, }, If{Return{}, Return{}, }, }, }, }
+def palindrom(text):
+    text2 = ""
+    a = len(text)
+    for i in range(a):
+        text2 = text[i] + text2
+    if text == text2: return True
+    else: return False
+ 
+def palindrom(text):
+    pozpatku = ""
+    for i in text:
+        pozpatku = i + pozpatku
+    if pozpatku == text:
+        return True
+    else:
+        return False 
+def palindrom(n):
+    pozpatku = ""
+    for i in n:
+        pozpatku += i
+    if pozpatku == n:
+        return True
+    else:
+        return False
+ 
+def palindrom(n):
+    pozpatku = ""
+    for i in n:
+        pozpatku = i + pozpatku
+    if pozpatku == n:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    ss = ""
+    for i in text:
+        ss = i + ss
+    if ss == text:
+        return True
+    else:
+        return False
+ 

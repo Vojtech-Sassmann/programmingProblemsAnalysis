@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Call{Add{}, }, }, Assign{}, For{AugAssign{Mult{}, }, }, Return{}, }, }, }
+def faktorial(n):
+    cisla = range(1, n+1)
+    
+    sucet = cisla[0]
+    for i in cisla:
+        sucet *= i
+        
+    return sucet 

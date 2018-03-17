@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{List{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, Expr{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, }, Assign{Call{Div{}, }, }, }, Expr{Call{Attribute{}, }, }, For{Subscript{Slice{}, }, Print{}, }, }, }, }
+def binarne(n):
+  x=[]
+  while n>1:
+    if n % 2 == 0: x.append(0)
+    else: x.append(1)
+    n=int(n/2)
+  x.append(1)
+  for i in x[::-1]: print i

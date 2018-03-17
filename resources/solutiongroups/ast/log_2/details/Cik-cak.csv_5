@@ -1,0 +1,52 @@
+5;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, For{Call{Call{}, }, If{Mod{}, AugAssign{Add{}, Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Add{}, Str{}, }, }, }, }, }, }
+def cikcak(text):
+    line1 = ""
+    line2 = ""
+
+    for i in range(len(text)):    
+        if i%2:
+            line2 += text[i] + " "
+            line1 += ". "
+        else:
+            line1 += text[i] + " "
+ 
+def cikcak(text):
+    r1 = ""
+    r2 = ""
+    for i in range(len(text)):    
+        if i%2 == 0:
+            r1 += text[i]+ " "
+            r2 += ". "
+        else:
+            r1 +=  ". "
+            r2 += text[i] %2 
+def cikcak(text):
+    prvni = ""
+    druhy = ""
+    for i in range(len(text)):    
+        if(i%2==0):
+            prvni += "."
+            druhy += text[i]
+        else:
+            prvni += " " + text[i] + " "
+ 
+def cikcak(text):
+    text1 = ""
+    text2 = ""
+    for i in range(len(text)):    
+        if i%2 == 0:
+            text1+=text[i]
+            text2+=". "
+        else:
+            text1+=" . "
+            text2+=text[i] 
+def cikcak(text):
+    text1 = ""
+    text2 = ""
+    for i in range(len(text)):    
+        if i%2 == 0:
+            text1+=text[i]
+            text2+="."
+        else:
+            text1+=" . "
+            text2+=" "+te 

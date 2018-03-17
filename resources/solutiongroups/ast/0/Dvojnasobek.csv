@@ -1,0 +1,55 @@
+696;root{Module{FunctionDef{Print{Str{}, Str{}, Mult{}, }, }, }, }
+448;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, }, }, }
+44;root{Module{FunctionDef{Assign{Mult{}, }, Print{Str{}, Str{}, }, }, }, }
+16;root{Module{FunctionDef{Print{Str{}, Str{}, }, }, }, }
+5;root{Module{Assign{}, FunctionDef{Assign{Mult{}, }, Return{}, }, Assign{Call{}, }, Print{Str{}, Str{}, }, }, }
+4;root{Module{FunctionDef{Print{Str{}, Add{}, Call{}, Add{}, Str{}, Add{}, Call{Mult{}, }, }, }, }, }
+4;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, }, Expr{}, }, }
+4;root{Module{FunctionDef{Print{Mult{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Assign{Mult{}, }, Print{Str{}, Str{}, }, }, }, }
+3;root{Module{FunctionDef{Print{Tuple{Str{}, Str{}, Mult{}, }, }, }, }, }
+3;root{Module{FunctionDef{Assign{Mult{}, }, Print{Str{}, Mod{}, Tuple{}, }, }, }, }
+3;root{Module{FunctionDef{Assign{}, Print{Str{}, Str{}, Add{}, }, }, }, }
+3;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, }, Print{Str{}, Str{}, Add{}, }, }, }
+2;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, Add{}, }, }, }, }
+2;root{Module{FunctionDef{Return{Mult{}, }, }, }, }
+2;root{Module{FunctionDef{Print{Str{}, Mod{}, Tuple{Mult{}, }, }, }, }, }
+2;root{Module{FunctionDef{For{Call{}, Print{Str{}, Str{}, Mult{}, }, }, }, }, }
+2;root{Module{Assign{}, FunctionDef{Print{Str{}, Str{}, Add{}, }, }, }, }
+2;root{Module{FunctionDef{For{Call{}, Assign{Mult{}, }, }, Print{Str{}, Str{}, }, }, }, }
+2;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Assign{}, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Mult{}, }, }, Expr{}, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Pow{}, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Expr{Mult{}, }, Expr{Add{}, }, }, }, }
+1;root{Module{Assign{Mult{}, }, }, }
+1;root{Module{Expr{Call{}, }, Assign{Mult{}, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Assign{Mult{}, }, }, }, }
+1;root{Module{Assign{}, Print{Str{}, Str{}, Mult{}, }, }, }
+1;root{Module{FunctionDef{Assign{Mult{}, }, Print{Str{}, Add{}, Call{}, Add{}, Str{}, Add{}, Call{}, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Call{}, Str{}, Call{Mult{}, }, }, }, }, }
+1;root{Module{FunctionDef{Assign{Mult{}, }, Assign{}, Print{Str{}, Str{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{Mult{}, }, Print{Str{}, Add{}, Call{}, Add{}, Str{}, Add{}, Call{}, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Mult{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Call{}, Str{}, Mult{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Mult{}, }, Print{Str{}, Str{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{Mult{}, }, Expr{Mult{}, }, Print{Str{}, Str{}, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Mult{}, }, If{Print{Str{}, }, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Mult{}, }, Assign{}, }, }, }
+1;root{Module{FunctionDef{Print{Mult{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{Add{}, }, Print{Str{}, Str{}, }, }, }, }
+1;root{Module{FunctionDef{Expr{Mult{}, }, Print{Str{}, Str{}, Add{}, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Expr{Mult{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, AugAssign{Mult{}, }, Print{Str{}, Str{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Print{Str{}, Str{}, Mult{}, }, }, }, }
+1;root{Module{FunctionDef{AugAssign{Mult{}, }, Print{Str{}, Str{}, Add{}, }, }, }, }
+1;root{Module{FunctionDef{AugAssign{Mult{}, }, Print{Str{}, }, }, }, }
+1;root{Module{FunctionDef{Expr{Mult{}, }, Print{Str{}, Str{}, Mult{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Mult{}, }, Print{Str{}, Div{}, Str{}, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{Mult{}, }, Print{Str{}, Str{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{Mult{}, }, Print{Str{}, Str{}, }, }, Expr{Call{}, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Print{Str{}, Str{}, Add{}, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Expr{}, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, Print{Mult{}, }, }, }, }
+1;root{Module{FunctionDef{Assign{}, Assign{Mult{}, }, }, Print{Str{}, }, Print{}, Print{Str{}, }, Print{}, }, }
+1;root{Module{Assign{}, FunctionDef{Print{Mult{}, }, }, }, }
+1;root{Module{FunctionDef{Print{Str{}, Str{}, Add{}, }, }, Expr{Call{}, }, }, }

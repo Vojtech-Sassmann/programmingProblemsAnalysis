@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, Str{}, }, Compare{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, Str{}, }, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Mult{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    suma = 0
+    for i in range (len(retezec)):
+        if retezec[len(retezec)-i-1] == "0" or retezec[len(retezec)-i-1] == "1":
+            suma += int(retezec[len(retezec)-i-1])*(2**i) 
+    return suma
+ 
+def vyhodnot(retazec):
+    mocnina=1
+    hodnota=0
+    for i in range(len(retazec)):
+        if retazec[len(retazec)-1-i]=="1" or retazec[len(retazec)-1-i]=="0": 
+            hodnota+=  mocnina*int(retazec[len(retazec)-1-i])
+ 

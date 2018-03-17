@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Print{Str{}, }, For{Call{}, Print{Str{}, }, For{Call{}, Assign{Mult{}, Sub{}, Mult{}, Div{}, Add{}, }, Print{}, }, }, }, }, }
+def pascaluv_trojuhelnik(pocet_radku):
+    tmp = 1
+    print "1"
+    for n in range(1,pocet_radku):
+        print "1",
+        for k in range( n ): 
+            
+            tmp = tmp * (n - k) * 1 / (k+1)
+            print tmp, 

@@ -1,0 +1,9 @@
+1;root{Module{Import{alias{}, }, FunctionDef{Assign{}, Print{}, While{Compare{LtE{}, Pow{}, Sub{}, }, Print{Mult{}, }, Assign{Mult{}, }, }, }, }, }
+import math
+def mocniny_dvojky(n):
+    i = 1
+    print 1,
+    while i <= 2**(n-2):
+        print i*2,
+        i = i*2
+ 

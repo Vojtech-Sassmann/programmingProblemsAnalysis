@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, If{Compare{Gt{}, }, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, }, If{Compare{Gt{}, }, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Assign{}, }, }, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    d = 0
+    if a>b: 
+        for i in range(1,a+1): 
+            if a%i==0 and b%i==0: d = i
+    elif b>a: 
+        for i in range(1,a+1): 
+            if a%i==0 and b%i==0: d = i
+    else: d = a
+    return 

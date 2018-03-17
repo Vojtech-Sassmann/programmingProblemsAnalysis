@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{List{}, }, If{Return{}, }, If{Print{}, Return{}, }, For{Call{}, Assign{Add{}, List{Subscript{Index{Sub{}, }, }, Add{}, Subscript{Index{Sub{}, }, }, }, }, }, For{Print{}, }, }, }, }
+def fibonacci(n):
+    L=[1,1]
+    if n == 0:
+        return 1
+    if n == 1:
+        print 1
+        return 
+    for i in range(2,n):
+        L = L + [ (L[i-1] + L[i-2]) ]
+    for i in L:
+        print i,
+ 

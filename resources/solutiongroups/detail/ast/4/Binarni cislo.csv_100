@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{}, Assign{Sub{}, Sub{}, }, If{Compare{Str{}, }, Assign{Add{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    delka = len(retezec)
+    soucet = 0
+    for i in range(0, delka):
+        n = delka - i -1
+        if retezec[i] == "1":
+            soucet = soucet + 2**n
+    
+    return soucet
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, Assign{}, Assign{}, For{Call{Call{}, }, If{AugAssign{Add{}, Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, }, }, }, }, }
+def cikcak(text):
+    prvniradek = ""
+    druhyradek = ""
+    tecka = 0
+    index = 0
+    for i in range(len(text)):
+        if tecka == 0:
+            prvniradek += text[index]+" "
+            druhyradek += ". "
+ 

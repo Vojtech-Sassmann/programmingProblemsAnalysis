@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Call{Attribute{}, }, }, Expr{Call{Attribute{}, }, }, Assign{}, For{If{Compare{Call{}, Gt{}, }, Assign{Call{}, }, }, }, For{If{Compare{Call{}, }, Return{}, }, }, }, }, }
+def nejdelsi_slovo(ret):
+    l=ret.split()
+    l.sort()
+    le=-1
+    for i in l:
+        if len(i)>le:
+            le = len(i)
+    for i in l:
+        if len(i)==le:
+            return i
+ 

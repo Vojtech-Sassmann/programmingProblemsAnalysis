@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Dict{}, }, Assign{ListComp{Call{}, comprehension{Call{}, }, }, }, For{If{Compare{In{}, }, Assign{}, }, }, For{If{Compare{In{}, }, Expr{}, }, }, }, }, }
+def frekvencni_analyza(text):
+    slovnik={}
+    chars=[chr(x) for x in range(97,123)]
+    for znak in text:
+        if znak in chars:
+            slovnik[znak]=0
+    for znak in text:
+        if znak in slovnik:
+            slovn 

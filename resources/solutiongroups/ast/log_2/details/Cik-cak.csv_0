@@ -1,0 +1,746 @@
+72;root{Module{FunctionDef{For{Call{Call{}, }, If{Compare{Mod{}, }, Print{}, Print{Str{}, }, }, }, For{Call{Call{}, }, If{Mod{}, Print{}, Print{Str{}, }, }, }, }, }, }
+def cikcak(text):
+    for i in range(len(text)):
+        if (i%2==0): print text[i],
+        else: print ".",
+    for i in range(len(text)):
+        if (i%2): print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if (i%2==0): print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if (i%2): print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(0,len(text)):    
+        if i % 2 == 0:print text[i],
+        else: print ".",
+    print
+    for i in range(0,len(text)):
+        if i % 2 == 0:print ".",
+        else: print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):   
+        if i%2==1:
+            print ".",
+        else:
+            print text[i],
+    print
+    for i in range(len(text)):
+        if i%2==0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)): 
+        if i%2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print 
+    for i in range(len(text)):
+        if i%2 == 1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0: print text[i],
+        else: print ".",
+    print
+    for j in range(len(text)):
+        if j % 2 != 0:
+            print ".", text[j],
+    print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0: print text[i],
+        else: print ".",
+    print
+    for j in range(len(text)):
+        if j % 2 == 0: print ".",
+        else: print text[j],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0: 
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)): 
+        if i%2==0:
+            print text[i],
+        else: 
+            print ".",
+    print
+    for y in range(len(text)):
+        if y%2!=0:
+            print text[y],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2 == 1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0: print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):    
+        if i%2==1: print text[i],
+        else: print ".",
+    print 
+def cikcak(text):
+    for i in range(len(text)):  
+        if i%2 ==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if (i%2==0):
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if (i%2==0):
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if i%2 == 1: print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for j in range(len(text)):
+        if j%2==1:
+            print text[j],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for j in range(len(text)):
+        if j%2==0:
+            print ".",
+        els 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text [i],
+        else:
+            print ".",
+    print
+    for j in range (len(text)):
+        if j%2 != 0:
+            print text[j],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if(i%2==0):
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if(i%2!=0):
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(0,len(text)):    
+        if i%2==0: print text[i],
+        else: print ".",
+    print
+    for i in range(0,len(text)):
+        if i%2==0: print ".",
+        else: print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1: print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):  
+        if i%2==0:
+            print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if i%2==0:
+            print ".",
+        else: print tex 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:print text[i],
+        else:print".",
+    print
+    for i in range(len(text)):
+        if i%2!=0:print text[i],
+        else:print".", 
+def cikcak(text):
+    for i in range(len(text)):   
+        if (i % 2 == 0):
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if (i % 2 != 0):
+            print tex 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if(i%2==0):
+            print text[i],
+        else:
+            print ".",
+    print 
+    
+    for i in range(len(text)):
+        if(i%2==1):
+            print text 
+def cikcak(text):
+    for i in range(len(text)):    
+        if (i%2 == 0):print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if (i%2 != 0):print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i % 2 == 1:
+            print text[i] 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print 
+    for i in range(len(text)):
+        if i%2:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)): 
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print 
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if(i%2 == 0):
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):    
+        if(i%2):
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i %2 != 0:
+            print text[i] 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:print text[i],
+        else: print ".",
+    print
+    for i in range (len(text)):
+        if i%2==1:print text[i],
+        else: print ".", 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for j in range(len(text)):
+        if j % 2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0: print text[i],
+        else: print ".",
+    print
+    for j in range(len(text)):
+        if j % 2 == 1: print text[j],
+        else: print ".", 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0: print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if i % 2 == 1: print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if (i+1)%2==1:
+            print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if (i+1)%2==0:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 1:
+            print ".",
+        else:
+            print text[i],
+    print
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i %2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print 
+    for i in range(len(text)):
+        if i %2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if(i%2==0):
+            print text[i],
+        else:
+            print".",
+    print
+    for k in range(len(text)):
+        if(k%2==0):
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for j in range(len(text)):
+        if j % 2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text[i],
+        else: print ".",
+    print         
+    for i in range(len(text)):
+        if i%2 != 0:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:print text[i],
+        else: print ".",
+    print
+    for i in range (len(text)):
+        if i%2==1: print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):  
+    for i in range(len(text)):
+        if(i%2==0): print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):
+        if(i%2==1): print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for  j in range(len(text)):
+        if j%2!=0:
+            print text[j],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for j in range(len(text)):
+        if j%2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(0,len(text)):    
+        if i%2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    
+    for i in range(0,len(text)):    
+        if i%2 != 0:
+            p 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for j in range(len(text)):
+        if j%2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i % 2 == 0:
+            print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):    
+        if i % 2 == 1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)): 
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)): 
+        if i%2!=0:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 == 0: print text[i],
+        else: print ".",
+    print
+    for j in range(len(text)):
+        if j % 2 != 0: print text[j],
+        else: print ".", 
+def cikcak(text):
+    for i in range(len(text)):   
+        if i%2 == 0: print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):   
+        if i%2 == 1: print text[i],
+        else: print ".",
+
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if not i%2:
+            print text[i],
+        else:
+            print ".",
+    print
+    for x in range(len(text)):    
+        if x%2:
+            print text[x],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 ==0:
+            print text[i],
+        else:
+            print ".",
+
+    print
+    for i in range(len(text)):
+        if i % 2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:print text[i],
+        else: print ".",
+    print
+    for i in range(len(text)):    
+        if i%2!=0:print text[i],
+        else: print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i % 2 ==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for k in range(len(text)):
+        if k % 2 ==1:
+            print text[k],
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if (i%2==0):
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if (i%2==1):
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2==0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i%2==0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):    
+        if i%2==0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)): 
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)): 
+        if i % 2 == 0:
+            print ".",
+ 
+def cikcak(text):
+    for i in range(len(text)):
+        if i%2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):
+        if i%2 == 1:
+            print text[i],
+ 
+def cikcak(text):
+    for i in range(len(text)):    
+        if(i%2==0):
+            print text[i],
+        else:
+            print ".",
+    print
+    for i in range(len(text)):    
+        if(i%2==1):
+            print text[i], 
+def cikcak(text):
+    for i in range(len(text)):    
+        if i % 2 == 0:
+            print text[i],
+        else:
+            print ".",
+    print
+    for j in range(len(text)):    
+        if j % 2 == 1:
+            print te 

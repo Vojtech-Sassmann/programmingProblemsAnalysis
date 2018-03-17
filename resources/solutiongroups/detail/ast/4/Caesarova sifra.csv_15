@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, For{Call{Call{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, If{Compare{Call{}, Add{}, Gt{}, Call{Str{}, }, }, Assign{}, }, AugAssign{Add{}, Call{Call{}, Add{}, Sub{}, }, }, }, }, }, }, }
+def caesar(text, n):
+    x=""
+    y=0
+    for i in range(len(text)):
+        if text[i]==" ":
+            x+=" "
+        else:
+            if ord(text[i])+n>ord("z"):y=1
+            x+= chr((ord(text[i])+n)-122)
+ 

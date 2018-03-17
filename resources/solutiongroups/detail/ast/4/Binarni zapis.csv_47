@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, While{Compare{Lt{}, }, Assign{Pow{}, }, AugAssign{Add{}, }, }, Assign{}, While{BoolOp{Or{}, Compare{Gt{}, }, Compare{Gt{}, }, }, AugAssign{Sub{}, }, If{Compare{GtE{}, Pow{}, }, AugAssign{Sub{}, Pow{}, }, AugAssign{Mult{}, }, }, }, }, }, }
+def binarne(n):
+    maximum=e=0
+    while maximum < n:
+        maximum=2**e
+        e+=1
+    vysledek=0
+    while n > 0 or e > 0:
+        e-=1
+        if n >= 2**e:
+            n -= 2**e
+            vysledek*=10
+

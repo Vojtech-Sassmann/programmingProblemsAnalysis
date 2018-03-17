@@ -1,0 +1,14 @@
+2;root{Module{FunctionDef{Assign{Str{}, }, For{Call{}, AugAssign{Add{}, Call{Pow{}, }, Add{}, Str{}, }, }, Print{Subscript{Slice{}, }, }, }, }, }
+def mocniny_dvojky(n):
+    a = ""
+    for i in range(n):
+        a += str(2**i) + " "
+    print a[:-1]
+    
+ 
+def mocniny_dvojky(n):
+    txt=""
+    for i in range(0,n):
+        txt = txt +  str(2**i) + " " 
+    print(txt)
+ 

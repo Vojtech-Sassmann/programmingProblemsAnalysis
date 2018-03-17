@@ -1,0 +1,5 @@
+1;root{Module{FunctionDef{If{BoolOp{Or{}, UnaryOp{Not{}, Str{}, }, Compare{Str{}, In{}, }, }, Return{}, }, Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    if not "1" or "0" in retezec: return 0
+    return int(retezec, 2)
+ 

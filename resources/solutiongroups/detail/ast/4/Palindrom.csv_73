@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, If{BoolOp{Or{}, Compare{Call{List{}, }, }, Compare{Call{List{}, }, }, }, Return{Str{}, }, }, If{Compare{NotEq{}, Subscript{Slice{}, }, }, Return{Str{}, }, }, Delete{Subscript{Index{Tuple{}, }, Del{}, }, }, }, }, }
+def palindrom(text):
+    text = list(text)
+    if len([text]) == 0 or len([text]) == 1:
+        return "True"
+    if text[1] != text[-1:]:
+        return "False"
+    
+    del text[1,-1]
+    
+ 

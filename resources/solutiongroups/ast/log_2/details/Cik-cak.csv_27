@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{Print{Str{}, }, }, AugAssign{Add{}, Add{}, }, }, Print{}, }, }, }
+def cikcak(r,z):
+    vy = ""
+    for i in range(len(r)):    
+        if i==0:
+            print "",
+        vy+=r[i]+z
+    print vy
+ 

@@ -1,0 +1,475 @@
+102;root{Module{FunctionDef{If{Return{}, }, Return{Call{Mod{}, }, }, }, }, }
+def nsd(a, b):
+    if b == 0: return a    
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if (a==0 or b==0):
+        return 1
+    else: return nsd(b,a%b)
+ 
+def nsd(a, b):
+    if (b==0):
+        return 1
+    else: return nsd(b,a%b)
+ 
+def nsd(a, b):
+    if (a==0):
+        return 1
+    else: return nsd(b,a%b)
+ 
+def nsd(a, b):
+    if (b==0):
+        return a
+    else: return nsd(b,a%b)
+ 
+def nsd(a, b):
+    if a==0:
+        return b
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+   return 6
+ 
+def nsd(a, b):
+   if (b==0):
+    return a
+   else :
+    return nsd(b, a % b)
+ 
+def nsd(a, b):
+    if b==0: return a
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if(b == 0): return a
+    return nsd(b, a % b)
+ 
+def nsd(a, b):
+    return a if b == 0 else nsd(b, a%b)
+ 
+def nsd(a, b):
+    if a==12: return 6
+    return 1
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+   return 6
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    return nsd(b, a % b)
+ 
+def nsd(a, b):
+    
+    
+    return 1
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+    
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else: return nsd(b,a%b) 
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b==0:return a
+    else:return nsd(b, b%a)
+ 
+def nsd(a, b):
+    if b==0:return a
+    else:return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b,a % b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    return 1
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+    
+ 
+def nsd(a, b):
+    return 1
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    return b%a
+ 
+def nsd(a, b):
+    return  a%b
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b == 0: return a
+    else: return nsd(b,a%b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else: 
+        return nsd(b,a%b)
+    
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b) 
+def nsd(a, b):
+    if b == 0 :
+        return a
+    return nsd(b, b%a)
+ 
+def nsd(a, b):
+    if b == 0 :
+        return a
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if (a==0 or b==0): return a+b
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b,a%b)
+ 
+def nsd(a, b):
+   if b == 0:
+       return a
+   else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if a==0:
+        return a
+    else:
+        return b%a
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b,a % b)
+ 
+def nsd(a, b):
+    if a == 0:
+        return b
+    else:
+        return nsd(b % a, a)
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b,a%b)
+
+ 
+def nsd(a, b):
+    if b==0: return a
+    return nsd(b,b%a)
+ 
+def nsd(a, b):
+    if b==0: return a
+    return nsd(b,a%b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    if b!=0:
+        return nsd(b, a%b)
+    else:
+        return a
+ 
+def nsd(a, b):
+    if b==0: return a
+    else: return nsd(b, a%b) 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a%b)
+ 
+def nsd(a, b):    
+    return b%a
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b ==0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    return 1
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    return nsd(b, a%b)
+   
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b,a%b)
+ 
+def nsd(a, b):
+    return 6 
+def nsd(a, b):
+    
+    return 1
+ 
+def nsd(a, b):
+    return a
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 5
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 5
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 5
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 5
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 8
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 5
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    return 5
+ 
+def nsd(a, b):
+    if (b == 0):
+        return a
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    return a
+ 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a,b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    return b - a
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    cislo = b - a
+    return cislo
+ 
+def nsd(a, b):
+    return 1
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    return nsd(b, b%a)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+
+
+    if b == 0:
+        return a
+    return nsd(b, a % b) 
+def nsd(a, b):
+    return 6
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    if b == 0:
+        return a
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    else:
+        return nsd(b, a % b)
+ 
+def nsd(a, b):
+    if b==0:
+        return a
+    elif a==0:
+        return b
+    else: return nsd(b,a%b) 
+def nsd(a, b):
+    if b==0:
+        return a
+    return nsd(b, a%b)
+ 
+def nsd(a, b):
+    if b == 0: 
+        return a
+    else:
+        return nsd(b,a%b)
+   
+    
+ 

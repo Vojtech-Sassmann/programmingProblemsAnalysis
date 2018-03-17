@@ -1,0 +1,4001 @@
+656;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def faktorial(n):
+    fact = 1
+    for i in range(2, n+1):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    s = 1
+    for i in range (1, n+1):
+        s = s*i  
+    return s
+ 
+def faktorial(n):
+    i=1
+    for x in range(1,n+1):
+        i=i*x
+    return i
+ 
+def faktorial(n):
+    for i in range(1,n,1):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    r = 1
+    for i in range(1,n+1):
+        r *= i
+    return r
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1, n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    x=1
+    for i in range (1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    p=1
+    for i in range(1,n+1):
+        p = p*i
+    return p
+ 
+def faktorial(n):
+    cislo = 1
+    for i in range (1, n+1):
+        cislo = cislo * i
+    return cislo
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n *= i
+    return n
+ 
+import math
+
+def faktorial(n):
+    res = 1
+    for i in range(1,n+1):
+        res *= i
+    return res
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n):
+        x = x * i
+    return n
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    result = 1
+    for i in range(2,n+1):
+        result *= i
+    return result
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    f = 1
+    for i in range (2, n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(n+1):
+        soucin *= soucin
+    return soucin
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(n+1):
+        soucin *= i
+    return soucin
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(1,n+1):
+        soucin = soucin * i
+    return soucin
+ 
+def faktorial(n):
+    f = 1
+    for i in range(2,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f = n
+    for i in range(1,n):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    v = 1
+    for i in range(1,n+1):
+        v = v*i
+    return v
+ 
+def faktorial(n):
+    soucet = 1
+    for i in range(1,n+1):
+        soucet *= i 
+def faktorial(n):
+    soucet = 1
+    for i in range(n+1):
+        soucet *= n
+    return soucet
+ 
+def faktorial(n):
+    soucet = 1
+    for i in range(1,n+1):
+        soucet *= i
+    return soucet
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1, n +1):
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    f = n
+    for i in range(1, n):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    if n > 1:
+        for i in range(2,n+1):
+            x = i*x
+    return x
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(1,n+1):
+        soucin *= i
+    return soucin
+ 
+def faktorial(n):
+    f=1
+    for i in range(1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1, n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f+(f*i) 
+        return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=(f*i) 
+        return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i 
+    return f
+ 
+def faktorial(n):
+    a = 1
+    for i in range (1,n+1):
+        a *= i
+    
+    return a
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    s=1
+    for i in range(1,n+1):
+             s=s*i 
+    return s
+ 
+def faktorial(n):
+    fakto = 1
+    for i in range(1,n+1):
+        fakto *=i
+    return fakto
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    a = 1
+    for i in range (1,n+1):
+        a = a * i
+    return a
+ 
+def faktorial(n):
+    a=1
+    for i in range (1, n+1):
+        a=i*a
+    return a
+
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+   s=1
+   for a in range (1, n+1):
+        s= s*a
+   return s
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact=fact*i
+    return fact
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n+1):
+        fakt = fakt*i
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    faktorial=1
+    for i in range(1,n+1):
+        faktorial=i*faktorial
+    return faktorial
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1, n + 1):
+        fakt = fakt * i
+    return fakt
+ 
+def faktorial(n):
+    m = 1
+    for i in range(1,n+1):
+        m *= i
+    return m
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+       x*=i
+       
+    
+    return x
+ 
+def faktorial(n):
+    vysledek=1
+    for i in range (1,n+1):
+        vysledek=vysledek*i
+    return vysledek
+ 
+def faktorial(n):
+    y=1
+    for i in range(1,n+1):
+        y=y*i
+    return y
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n+1):
+        fakt = fakt*i
+    return fakt
+ 
+def faktorial(n):
+    for i in range(n-1, 1, -1):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    promenna=1
+    for i in range (1,n+1):
+        promenna=promenna*i
+    return promenna
+ 
+def faktorial(n):
+    x=1
+    for i in range (1, n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    for i in range(1,n):
+         n=n*i   
+    
+    
+    
+    return n
+ 
+def faktorial(n):
+    b=1
+    for i in range (1,n+1):
+        b*=i
+    return b
+ 
+def faktorial(n):
+    s=1
+    for i in range(1,n+1):
+        s=s*i
+    return s
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1, n+1):
+        a = a*i
+    return a
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i
+    return x 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a = a * i  
+    return a
+ 
+def faktorial(n):
+    f=1
+    for i in range(2,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a*=i
+    return a 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f *=i
+    return f 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a*=i
+    return a
+ 
+def faktorial(n):
+    f=1
+    for i in range (1, n+1):
+       f*=i 
+    return f
+ 
+def faktorial(n):
+    p=1
+    for i in range(1,n+1):
+        i=p*i
+        p=i
+    return p
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    fakt=1
+    for i in range(1,n+1):
+        fakt=fakt*i
+    return fakt
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a*=i
+    return a
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt = fakt *i
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f    
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range(1,n+1):
+        faktorial = faktorial*i 
+    return faktorial
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f = i*f 
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f 
+def faktorial(n):
+    f= 1
+    for i in range(1, n+1):
+        f = f*n
+        n = n-1
+        
+    return f
+ 
+def faktorial(n):
+    a = 1
+    for i in range (1,n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=i*n
+    return n
+
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    j=1
+    for i in range(1,n+1):
+        j=j*i
+    return j
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f= f*i
+    return f
+ 
+def faktorial(n):
+    fact = 1
+    if n == 0:
+        return fact
+    else:
+        for i in range(1,n+1):
+            fact *= i
+    return fact
+ 
+def faktorial(n):    
+    for i in range(1,n):
+        n *= i        
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n-1):
+        n = n*(i+1)
+    return n
+ 
+def faktorial(n):
+    n = 1
+    for i in range(1, n):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    n = 1
+    for i in range(1, n):
+        n = n * i
+    return n
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1, n):
+        n = n * i
+    return fact
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1, n):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+    return fact
+ 
+def faktorial(n):
+    j = 1
+    for i in range(1,n+1):
+        j = i*j
+    return j
+ 
+def faktorial(n):
+    m = n
+    a = 1
+    for i in range (m):
+        a = a * n
+        n = n - 1
+    return a
+ 
+def faktorial(n):
+    nanuk = 1
+    for i in range(n):
+        nanuk *= n - i
+    return nanuk
+ 
+def faktorial(n):
+    for i in range (n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    j = 1
+    for i in range(1,n+1):
+        j *= i
+    return j 
+def faktorial(n):
+    
+    mezivysledek = n
+    for i in range(1, n):
+        mezivysledek = mezivysledek * (n-i)
+    
+    return mezivysledek
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f = f*i
+    
+    return f 
+def faktorial(n):
+    vysledek = 0
+    for i in range(1,n):
+        vysledek += n 
+    return vysledek
+ 
+def faktorial(n):
+    vysledek = 1
+    for i in range(1,n+1):
+        vysledek *= i
+    return vysledek
+ 
+def faktorial(n):
+    for i in range(1,n): n*=i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n+i*n
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=i*n
+    return n
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    vysledek = 1
+    for i in range(2,n+1):
+        vysledek = vysledek * i
+    return vysledek
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    fakpred=1
+    for i in range(1,n+1):
+        fak=i*fakpred
+        fakpred=fak
+    return fak
+ 
+def faktorial(n):
+    f = 1
+    if n == 0:
+        return f
+    else:
+        for i in range (1,n+1):
+            f *= i
+        return f
+        
+       
+ 
+def faktorial(n):
+    vysl = 1
+    for i in range(1, n+1):
+        vysl *= i
+    return vysl
+ 
+def faktorial(n):
+    fakt=1
+    for i in range (1,n+1):
+        fakt=fakt*i
+    return fakt
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    fak=1
+    for i in range(n+1):
+        fak=fak*i
+    return fak
+ 
+def faktorial(n):
+    fak=1
+    for i in range(1,n+1):
+        fak=fak*i
+    return fak
+ 
+def faktorial(n):
+    f = 0
+    for i in range (n):
+        f = f*n
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1, n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n+1):
+        a=a*i
+    return a
+ 
+def faktorial(n):
+    fak = 1
+    for i in range (1, n+1):
+        fak *= i
+    return fak
+ 
+def faktorial(n):
+    sucin = 1
+    for i in range(1,n):
+        sucin += i*sucin
+    return sucin 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    p = 1
+    for i in range(n):
+        p = p + (p * i)
+    return p
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i     
+    return x
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n+1):
+        a= a*i
+    return a
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1, n+1):
+        a=a*i
+    return a
+ 
+def faktorial(n):
+    faktor = 1
+    for i in range(1, n + 1):
+        faktor = faktor * i
+    return faktor
+ 
+def faktorial(n):
+    x = 1
+    for i in range(2, n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt *=i
+    return fakt
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    d=1
+    for i in range (1,n+1):
+        d=d*i
+    return d
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    soucet = 1
+    for i in range(n):
+        soucet = soucet + (soucet * i)
+    return soucet
+ 
+def faktorial(n):
+    summ = 1
+    for i in range(1, n+1):
+        summ *= i
+    return summ
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range(1,n+1):
+        faktorial = faktorial * i
+    return faktorial
+ 
+def faktorial(n):
+    result = 1
+    for i in range(n):
+        result = result * (i+1)
+    return result 
+def faktorial(n):
+    m = 1
+    for i in range(n):
+        m = m*(i+1)
+    return m
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1, n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    suc = 1
+    for i in range (1,n+1):
+        suc = suc*i
+    return suc
+ 
+def faktorial(n):
+    for i in range (1, n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    mezisoucet=1
+    for i in range(1,n+1):
+        mezisoucet=mezisoucet*(i)
+    return mezisoucet
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    k=1
+    for i in range(1,n+1):
+        k=k*i
+    return k
+ 
+def faktorial(n):
+    citac = 1
+    for i in range(1,n+1):
+        citac = citac*i
+    return citac
+
+ 
+def faktorial(n):
+    vystup=1
+    for i in range(1,n+1):
+        vystup*=i
+    return vystup
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt = fakt*i
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n):
+        f=n*f
+    
+    return n
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    fak=1
+    for i in range(1,n+1):
+        fak*=i
+    return fak
+ 
+def faktorial(n):
+    f=1
+    for i in range (1, n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        x = 1
+        for i in range(1, n+1):
+            x  = x * i
+    return x
+ 
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        soucin = 1
+    for i in range(1,n+1):
+        soucin *= i
+    return soucin
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1, n+1):
+        fakt = fakt * i 
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    for i in range(1, n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    if n ==0:
+        return 1
+    else:
+        x = 1
+        for i in range (1,n+1):
+            x = x * i
+        return x
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1, n+1):
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1, n + 1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        a = 1
+        for i in range(1, n+1):
+            a = a * i
+    return a
+ 
+def faktorial(n):
+    fakt=1
+    for i in range(1,n+1):
+        fakt*=i
+    return fakt
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a=a*i
+    return a
+    
+ 
+def faktorial(n):
+    f=1
+    for i in range(1, n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    fak = 1
+    for i in range(1,n+1):
+        fak *= i
+    return fak
+ 
+def faktorial(n):
+    a=1
+    for i in range (n):
+        a*=n
+        n-=1
+    return a
+ 
+def faktorial(n):
+    fin_hod = 1
+    for i in range(n,1,-1):
+        fin_hod *= i
+    return fin_hod
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a = a*i
+    return a
+ 
+def faktorial(n):
+    vysledek = 1
+    for i in range(1,n+1):
+            vysledek = vysledek * i
+    return vysledek
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(1,n+1):
+       soucin = soucin * i 
+    return soucin
+ 
+def faktorial(n):
+    f = 1
+    for x in range(1,n+1):
+        f = f * x
+    return f
+ 
+def faktorial(n):
+    celkem = n
+    for i in range(n-1):
+        celkem = celkem * (n-i-1)
+    return celkem
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a*=i
+    return a
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n+1):
+        fakt = fakt * i
+    return fakt
+ 
+def faktorial(n):
+    fakt=1
+    if n==0:
+        fakt=1
+    else:
+        for i in range (1,n+1):
+            fakt=fakt*i
+    return fakt
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    s=1
+    for i in range (1,n+1):
+        s*=i
+    return s
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    faktorial=1
+    for i in range(1,n+1):
+        faktorial=i*faktorial
+    return faktorial
+    
+
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt = fakt * i
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    mezivysledek = 1
+    for i in range(1,n+1):
+        mezivysledek = mezivysledek * i
+    return mezivysledek
+ 
+def faktorial(n):
+    k = 1
+    for i in range(n):
+        k = k * (i+1)
+    return k
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else:
+        x = 1
+        for i in range (1, n+1):
+            x = x * i
+        return x
+ 
+def faktorial(n):
+    fak=1
+    for i in range(1,n+1):
+        fak=fak*i
+    return fak
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(1,n+1):
+        soucin = soucin*i
+    n = soucin
+    return n
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a = a*i
+    return a
+ 
+def faktorial(n):
+    p=n-1
+    for i in range (1,n):
+        n=n*(p)
+        p=p-1
+    return n
+ 
+def faktorial(n):
+    fact = n
+    for i in range (1,n):
+        fact = fact*i
+    return fact
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    x=1
+    for i in range(2,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    p=1
+    for i in range(1,n+1):
+        p=p*i
+    return p
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    sum = 1
+    
+    for i in range( 2, n+1 ):
+        sum *= i
+        
+    return sum
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):f=f*i 
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i
+    return x
+ 
+def faktorial(n):
+    prvni = 1
+    for i in range(1,n+1):
+        prvni *= i
+    return prvni
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i
+    return x
+ 
+def faktorial(n):
+    soucet=1
+    for i in range(1,n+1):
+        soucet=i*soucet
+    return soucet
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i
+ 
+    return x
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a*=i
+    return a
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+     f = f*i
+    return f
+   
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt = i*fakt 
+    return fakt
+ 
+def faktorial(n):
+    f = 1
+    for i in range(2,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (2,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    for i in range(1,n+1):
+        n*i
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    f=1
+    for i in range (2,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    m=1
+    for i in range(1,n+1):
+        m=m*i
+        
+    return m
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(n+1):
+        if i>0:
+            x=i*x
+    return x
+        
+    
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    m = 1
+    for i in range(1, n+1):
+        m = m*i
+    return m
+ 
+def faktorial(n):
+    out = 1
+    for i in range(1,n+1):
+        out = out * i
+    return out
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    j= 1
+    for i in range (1, n+1):
+        j = j * i
+    return j
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+    return fact
+ 
+def faktorial(n):
+    global x
+    x = 1
+    for i in range(1, n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    fakt=1
+    for i in range(1,n+1):
+        fakt*=i
+    return fakt
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    cislo = 1
+    for i in range(1,n+1):
+       cislo = i*cislo
+    return cislo 
+def faktorial(n):
+    for i in range(1,n-1):
+        n = n+n*i
+    return n
+ 
+def faktorial(n):
+    s=1
+    for i in range(1,n+1):
+        s=i*s
+    return s
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    faktorial=1
+    for i in range(2,n+1):
+        faktorial=faktorial*i
+    return faktorial
+ 
+def faktorial(n):
+    soucin=1
+    for i in range(1,n+1):
+        soucin *= i
+    return soucin
+ 
+def faktorial(n):
+    if n == 0:
+        return 1
+    else: 
+        x = 1
+        for i in range (1, n+1):
+            x = x * i
+    return x
+ 
+def faktorial(n):
+    cislo =0
+    for i in range (n):
+        cislo += n*i
+    return cislo
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    a=1
+    for i in range(n):
+        a=a*(i+1)
+    return a
+ 
+def faktorial(n):
+    s=1
+    for i in range(1,n+1):
+        s*=i
+    return s
+ 
+def faktorial(n):
+    vysledek=1
+    for i in range(1,n+1):
+        vysledek=vysledek*i
+    return vysledek
+ 
+def faktorial(n):
+    soucet = 1
+    for i in range(1,n+1):
+        soucet = soucet *i
+    return soucet
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(n):
+        fakt *= i+1
+    return fakt
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    return fact
+ 
+def faktorial(n):
+    mezisoucet=1
+    for i in range(1,n+1):
+        mezisoucet=i*mezisoucet
+       
+    return mezisoucet
+ 
+def faktorial(n):
+    soucet = 1
+    for i in range(n):
+        soucet = soucet*(i+1)
+        
+    return soucet
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1, n+1) :
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1, n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n):
+        fakt += i*fakt
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f*i
+        return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    for i in range(2,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    a=n
+    for i in range (1,a):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    f=1
+    for i in range(2,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    soucin=1
+    for i in range(1,n+1):
+        soucin*=i
+    return soucin
+ 
+def faktorial(n):
+    result=1
+    for i in range(1,n+1):
+        result=i*result
+    return result
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(2,n+1):
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    Fact = 1
+    for i in range(1,n+1):
+        Fact *= i
+    return Fact
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f *i    
+    return f
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    k = 1
+    for i in range(1,n+1):
+        k = k*i
+    return k
+ 
+def faktorial(n):
+    fak=1
+    for i in range(1,n+1):
+        fak*=i
+    return n
+ 
+def faktorial(n):
+    fak=1
+    for i in range(1,n+1):
+        fak*=i
+    return fak
+ 
+def faktorial(n):
+    f = 1
+    for i in range(2,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    val = 1
+    
+    for i in range(1, n+1):
+        val *= i
+        
+    return val
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f= f*(i)
+    return f
+ 
+def faktorial(n):
+    fak = 1
+    for i in range(1,n+1):
+        fak*=i
+    return fak
+ 
+def faktorial(n):
+    for i in range(n+1):
+        n*(n-1)
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range (1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = i * f
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n + 1):
+          f = f * i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i
+    return x 
+def faktorial(n):
+    k=0
+    for i in range(n+1):
+        k=+i
+    
+    return i
+ 
+def faktorial(n):
+    sum = 1
+    for i in range(1, n+1):
+        sum = sum * i
+    return sum
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+        
+    return f
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+       a= a*i 
+    return a
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1, n+1):
+        a = a * i
+    return a    
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    faktorial=1
+    for i in range(1,n+1):
+        faktorial*=i
+    return faktorial
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+        
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1): x = x*i
+    return x
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=i*x
+    return x
+ 
+def faktorial(n):
+    faktorial = 0
+    for i in range(1,n):
+        faktorial = faktorial*i
+    return faktorial+n
+ 
+def faktorial(n):
+    a = 0
+    for i in range(1,n):
+        a = a+a*i
+    return a
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n):
+        a += a*i
+    return a
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(1,n+1):
+        soucin = soucin * i
+    return soucin
+ 
+def faktorial(n):
+    for i in range (1, n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    sucet = 1
+    for i in range(1, n+1):
+        sucet = sucet * i
+    return sucet
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range (1,n+1):
+        soucin = soucin * i
+    return soucin
+ 
+def faktorial(n):
+    a = 1
+    for i in range (1, n+1):
+        a = a*i
+    return a
+ 
+def faktorial(n):
+    x=1
+    for i in range(2,n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    s=1
+    for i in range(1,n+1):
+        s=s*i
+    return s
+ 
+def faktorial(n):
+    k=1
+    for i in range(n):
+        k+=k*i
+    return k
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    pom = 1
+    x = 1
+    for i in range(1,n+1):
+        pom = x * i
+        x = pom
+    return x
+        
+ 
+def faktorial(n):
+    vysledok = 1
+    for i in range (2, n+1):
+        vysledok = vysledok*i
+    return vysledok
+
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    suma = 1
+    for i in range (n,1,-1):
+        suma *= i
+    return suma
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f*i
+    return f    
+ 
+def faktorial(n):
+   x = 1
+   for i in range(1, n+1):
+        x *= i
+   return x
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for  i in range(1,n+1):
+        f = f * i
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+        
+    return f
+ 
+def faktorial(n):
+    ret = 1
+    for i in range (1, n+1):
+        ret *= i
+    return ret
+ 
+def faktorial(n):
+    for x in range(1,n):
+        n=n*x
+    return n
+ 
+def faktorial(n):
+    for i in range(n):
+        n*=i+1
+    return n
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    fak=1
+    for i in range(1, n+1):
+        fak=fak*i
+    return fak
+ 
+def faktorial(n):
+    f=1
+    for i in range(2,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    sucin = 1
+    for i in range(2,n+1):
+        sucin *= i
+    return sucin
+ 
+def faktorial(n):
+    faktor = 1
+    for i in range(1,n+1):
+        faktor *= i
+    return faktor
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    s = 1
+    for i in range(n): s += i*s
+    return s
+ 
+def faktorial(n):
+    f = 1
+    
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    faktorial=1
+    for cislo in range(1,n+1):
+        faktorial=faktorial*cislo
+    return faktorial
+ 
+def faktorial(n):
+    vysledek = 1
+    for i in range(1,n+1):
+        vysledek *= i
+    return vysledek
+ 
+def faktorial(n):
+    hodnota = 1
+    for i in range(1, n + 1):
+        hodnota = hodnota * i     
+    return hodnota
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(n-1):
+        fakt = fakt * n
+        n -= 1
+    return fakt
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for x in range(1,n+1):
+        f = f*x
+    return f
+ 
+def faktorial(n):
+    m = 1
+    for i in range(1, n+1):
+        m *= i
+    return m
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1, n+1):
+        x = x*i
+    return x
+ 
+def faktorial(n):
+    prom=1
+    for i in range(1,n+1):
+        prom=prom*i
+    return prom
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range(1, n+1):
+        faktorial = faktorial*i
+        
+    return faktorial
+ 
+def faktorial(n):
+    x=1
+    for i in range (1,n+1):
+        x = x*i
+    
+    return x
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i
+    return x
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f *= 1
+    return f
+ 
+def faktorial(n):
+    s = 1
+    for i in range (1, n+1):
+        s *= i
+    return s 
+def faktorial(n):
+    faktorial=1
+    for i in range(1,n+1):
+        faktorial=faktorial*i
+    return faktorial
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+
+ 
+def faktorial(n):
+    f = 1
+    for i in range(2,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    fak = 1
+    for i in range (1, n+1):
+        fak *= i
+    return fak
+ 
+def faktorial(n):
+    x=1
+    for i in range (n):
+        x=x+x*i
+    return x
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n+1):
+        a=a*i
+    return a
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    nasob = 1
+    for i in range(1,n+1):
+        nasob *= i
+    return nasob
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f*= i
+    return f
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range(1, n+1):
+        faktorial *= i 
+    return faktorial
+ 
+def faktorial(n):
+    sucin=1
+    for i in range(1,n+1):
+        sucin*=i
+    return sucin
+ 
+def faktorial(x):
+    result = 1
+    for i in range(2,x+1):
+        result *= i
+    return result
+ 
+def faktorial(n):
+    x=5
+    for i in range(1,n):
+        x = x*i
+    return x
+        
+    
+ 
+def faktorial(n):
+    x=n
+    for i in range(n-1,0,-1):
+        x = x*i
+    return x
+        
+    
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1, n+1):
+        fakt = fakt * i
+    return fakt
+ 
+def faktorial(n):
+    m = 1
+    for i in range (1, n + 1):
+        m = m * i
+    return m
+ 
+def faktorial(n):
+    f=1
+    for i in range(1, n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a*=i
+    return a
+ 
+def faktorial(n):
+    f=1
+    for x in range(1,n+1):
+        f=f*x
+    return f 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+    return n 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+    return f 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f = f * i
+        return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f = f * i
+        return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    
+    f = 1
+    for i in range(1,n+1):
+             f = f * i
+    return f
+ 
+def faktorial(n):
+    s = 1
+    for i in range(1,n+1):
+        s = s * i
+    return s
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    
+    f = 1
+    for i in range (1,n+1):
+        f = f * i 
+    return f
+ 
+def faktorial(n):
+    
+    f = 1
+    for i in range (1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    a = 1
+    for i in range (1,n+1):
+        a *= i
+    return(a)
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+         f = f*i
+    
+    
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f = i*f
+    return f
+ 
+def faktorial(n):
+    fact = 1
+    for i in range (n):
+        fact *= (i+1)
+    return fact
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):f=f*i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    f=1
+    for i in range(n):
+        f=f*(i+1)
+    return f
+ 
+def faktorial(n):
+    for i in range (1, n+1):
+        a = i * (n-1)
+    return i
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f = f *i
+    return f
+ 
+def faktorial(n):
+    new=1
+    for i in range(1,n+1):
+        new=new*i
+    return new
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n = i*n
+    return n
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(2,n+1):
+        fact *= i
+    return fact
+ 
+def faktorial (n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    vysledek = 1
+    for i in range(1,n+1):
+        vysledek *= i
+    return vysledek 
+def faktorial(n):
+    f=1
+    for i in range (1, n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    suma = 1
+    for i in range(1,n+1):
+        suma *= i
+    return suma
+ 
+def faktorial(n):
+    fac = 1
+    for i in range(1,n+1):
+        fac *= i
+    return fac
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a = a*i
+    return a
+ 
+def faktorial(n):
+    vysledok=1
+    for i in range(1,n+1):
+        vysledok*=i
+    return vysledok
+ 
+def faktorial(n):
+    x=1
+    for i in range (1,n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range(1,n+1):
+        faktorial *= i
+    return faktorial 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i   
+    return x
+ 
+def faktorial(n):
+    value = 1
+    for i in range(1, n + 1):
+        value *= i
+    return n
+ 
+def faktorial(n):
+    value = 1
+    for i in range(1, n + 1):
+        value *= i
+    return value
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *=i
+    return fact
+ 
+def faktorial(n):
+    x=1
+    for i in range(n):
+        nasobitel = i +1
+        x=x*nasobitel
+    return x
+ 
+def faktorial(n):
+    value = 1
+    for i in range(1, n+1):
+        value *= i
+        
+    return value
+
+ 
+def faktorial(n):
+    m = 1
+    for i in range(1, n + 1):
+        m *= i 
+    return m
+ 
+def faktorial(n):
+    fac = 0
+    for i in range (n):
+        fac = fac + n*i
+    return fac
+ 
+def faktorial(n):
+    fac = 1
+    for i in range (1,n+1):
+        fac = fac * i
+    return fac
+ 
+def faktorial(n):
+    hodnota = 1
+    for i in range(1, n+1):
+        hodnota = hodnota*i
+    return hodnota
+
+
+ 
+def faktorial(n):
+    result = 1
+    for i in range(1,n+1):
+        result = result*i
+    return result
+ 
+def faktorial(n):
+    between = 1
+    for number in range(1,n+1):
+        between = number * between
+    return between
+ 
+def faktorial(n):
+    sucet=1
+    for i in range(1,n+1):
+        sucet*= i
+    return sucet 
+def faktorial(n):
+    fakt=1
+    for i in range (1,n+1):
+        fakt=fakt*i
+    return fakt
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    sum1 = 1
+    for i in range(1, n + 1):
+        sum1 = sum1 * i
+    return sum1
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    s=1
+    for i in range(n):
+        s = s*(i+1)
+    print s 
+def faktorial(n):
+    s=1
+    for i in range(n):
+        s = s*(i+1)
+    return s 
+def faktorial(n):
+    for i in range(1, n):
+        n = n*i
+
+    return n
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n+1):
+        fakt *=i
+    return fakt
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n+1):
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1, n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    vysledok=1
+    for i in range(1,n+1):
+        vysledok=vysledok*i
+    return vysledok
+ 
+def faktorial(n):
+    x = 1
+    for i in range(n):
+        y = i + 1
+        x = x * y
+    return x
+ 
+def faktorial(n):
+    fak=1
+    i=0
+    for i in range(1,n+1):
+        fak=fak*i
+        i+=1
+
+    return fak
+ 
+def faktorial(n):
+    a = 1
+    for i in range(n):
+        a = a*(i+1)
+    return a
+ 
+def faktorial(kol):
+    prom=0
+    pr=1
+    for i in range(kol):
+        prom= i+1
+        pr=pr*prom
+    return pr
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1, n+1):
+        a = a * i
+
+    print a 
+def faktorial(n):
+    a = 1
+    for i in range(1, n+1):
+        a = a * i
+
+    return a 
+def faktorial(n):
+    fakt=1
+    for i in range(1,n+1):
+        fakt*=i
+    return fakt
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range (1,n+1):
+        soucin = soucin * i
+    return soucin
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a*=i
+        
+    return a
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a*=i
+    
+    return a
+ 
+def faktorial(n):
+    faktorial = n
+    for i in range (1,n):
+        faktorial = faktorial * (n-i)
+    return faktorial
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+    return fact
+ 
+def faktorial(n):
+    faktorial=1
+    for i in range (1,n+1):
+        faktorial=faktorial*i
+    return faktorial
+ 
+def faktorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i    
+    return result
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x = x*i
+    return x
+ 
+def faktorial(n):
+    for i in range(n-1,0,-1):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range(1,n+1):
+        faktorial *= i
+    return faktorial
+ 
+def faktorial(n):
+    fct=1
+    for a in range (1, n+1):
+        fct*=a
+    return fct
+ 
+def faktorial(n):
+    vysledek = 1
+    for i in range(1,n+1):
+        vysledek*=i
+    return vysledek
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    help = 1
+    for i in range(1, n+1):
+        help *= i
+    return help
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f *= i
+    return f
+ 
+def faktorial (n):
+    result = 1
+    for i in range (1,n+1):
+        result *= i
+    return result
+
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt = fakt * i
+    return fakt
+ 
+def faktorial(n):
+    vypocet = n
+    for i in range(2,n+1):
+        vypocet = i*vypocet
+return vypocet    
+    
+    
+ 
+def faktorial(n):
+    vypocet = n
+    for i in range(1,n+1):
+        vypocet = i*vypocet
+return vypocet    
+    
+    
+ 
+def faktorial(n):
+    zaklad = 1
+    for i in range(1,n+1):
+        zaklad = zaklad*i
+    return zaklad
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range (1,n+1):
+        faktorial *= i
+    return faktorial
+ 
+def faktorial(n):
+    f = 1 
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    x = 1
+    for i in range (1, n+1):
+        x= x*i
+    return x
+ 
+def faktorial(n):
+    result = 1
+    for i in range (1,n+1):
+        result *= i
+    return result
+ 
+def faktorial(n):
+    a=1
+    for i in range(n):
+        a= a*(i+1)
+    return a
+ 
+def faktorial(n):
+    vys=1
+    for i in range(1,n+1):
+        vys=vys*i
+    return vys
+ 
+def faktorial(n):
+    x=1
+    for i in range(1, n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    a = 1
+    for i in range (1, n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range (1,n+1):
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    soucet = 1
+    for i in range(1,n+1):
+        soucet *= i
+    return soucet
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1,n+1):
+        fact *= i
+    return fact
+ 
+def faktorial(n):
+    a = 1
+    for i in range (1,n+1):
+        a = a * i
+        
+    return a
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n+1):
+        a*=i
+        
+    return a
+ 
+def faktorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result*=i
+    return result
+
+ 
+def faktorial(n):
+    x = 1
+    for i in range (1, n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    a= 1
+    for i in range(1,n+1):
+        a = a*i
+    return a
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    x=1
+    for i in range (1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    soucet = 1
+    for i in range(1,n+1):
+        soucet *= i
+    return soucet
+ 
+def faktorial(n):
+    m = 1
+    for i in range(n):
+        m = m * (i+1)
+    return m
+ 
+def faktorial(n):
+    factorial = 1
+    for i in range(2,n+1):
+        factorial *= i
+    return factorial
+ 
+def faktorial(n):
+    m=1
+    for i in range(1,n+1):
+        m = m*i
+    return m
+print
+ 
+def faktorial(n):
+    fac=1
+    for i in range(1,n+1):
+        fac*=i
+    return fac
+ 
+def faktorial(n):
+    fak=1
+    for i in range(1,n+1):
+        fak=fak*i
+    return fak
+ 
+def faktorial(n):
+    cislo=1
+    for i in range (1,n+1):
+        cislo=cislo*i
+    return cislo
+ 
+def faktorial(n):
+    m = 1             
+    for i in range(1, n + 1):
+        m = m * i
+    return m 
+def faktorial(n):
+    soucet = 1
+    for i in range(1,n+1):
+        soucet = soucet *i
+    return soucet
+        
+ 
+def faktorial(n):
+    fakt=1
+    for i in range(1,n+1):
+        fakt*=i
+    return fakt
+ 
+def faktorial(n):
+    a=1
+    for i in range(1, n+1):
+        a=a*i
+    return a
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1, n+1):
+        fakt=i*fakt
+    return fakt
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n+1):
+        fakt *= i
+    return fakt
+ 
+def faktorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact=fact*i
+    return fact
+ 
+def faktorial(n):
+    sucin = 1
+    for i in range(1,n+1):
+        sucin = sucin * i
+    return sucin
+ 
+def faktorial(n):
+    x = 1
+    for i in range(n):
+        x = x * (i+1)
+        
+        
+    return x
+ 
+def faktorial(n):
+    vysledek=1
+    for i in range(1,n+1):
+        vysledek*=i
+    return vysledek
+ 
+def faktorial(n):
+    vysledok = 1
+    for i in range (1,n+1):
+        vysledok = vysledok * i
+    
+    return vysledok
+ 
+def faktorial(n):
+    x=1
+    for i in range (1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    factorial = 1
+    for i in range(1, n+1):
+        factorial = factorial*i
+    return factorial
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1):
+        f = f * i    
+    return f 
+def faktorial(n):
+    s=1
+    for i in range (1,n+1):
+        s *= i
+    return s
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    f=1
+    for i in range (1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range (1, n + 1):
+        faktorial *= i
+    return faktorial
+ 
+def faktorial(n):
+    vys = 1 
+    for i in range(1,n+1):
+        vys= vys*i
+    return vys
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    for i in range (n-1):
+        n=n*(i+1)
+    return n
+ 
+def faktorial(n):
+    s = 1
+    for i in range(n):
+        s = s*(i+1)
+    return s
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    factorial = 1
+    for i in range(1,n+1):
+        factorial = factorial * i
+    return factorial
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1, n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    faktorial=int(1)
+    for i in range(1,n+1):
+        faktorial=faktorial*i
+    return faktorial
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    faktorial = 1
+    for i in range(1,n+1):
+        faktorial *= i
+    return faktorial
+ 
+def faktorial(n):
+    result = 1
+    for i in range(2,n+1):
+       result = result * i 
+    return result
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    sucin=1
+    for i in range(1,n+1):
+        sucin*=i
+    return sucin
+ 
+def faktorial(n):
+    f=1
+    for i in range(n,0,-1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result = result * i
+    return result 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def fakt(n):
+    c = 1
+    for i in range(1, n+1):
+        c *= i
+    return c 
+def faktorial(n):
+    c = 1
+    for i in range(1, n+1):
+        c *= i
+    return c 
+def faktorial(n):
+    faktorial =1
+    for i in range (1, n+1):
+            faktorial = faktorial*i
+            
+    return faktorial
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+        
+    return x
+ 
+def faktorial(n):
+    a=1
+    for i in range(2,n+1):
+        a*=i
+    return a
+ 
+def faktorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+ 
+def faktorial(n):
+    sucet=1
+    for i in range(n):
+        sucet=sucet*(i+1)        
+    return sucet
+ 
+def faktorial(n):
+    num = 1
+    for i in range(1,n+1):
+        num=num*i
+    return num
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x*=i
+    return x
+ 
+def faktorial(n):
+    pomocna = 1
+    for i in range (n):
+        pomocna = pomocna * (i+1)
+    return pomocna
+ 
+def faktorial(n):
+    soucin=1
+    for i in range(2,n+1):
+        soucin=soucin*i
+    return soucin
+ 
+def faktorial(n):
+    z=1
+    y=1
+    for i in range (n):
+        z =  z * y
+        y=y+1
+    return z
+ 
+def faktorial(n):
+    sum=1
+    for i in range(1,n+1):
+        sum*=i
+    return sum
+ 
+def faktorial(n):
+    if n==0: n=1
+    for i in range(1,n):
+        n*=i
+    return n
+ 
+def faktorial(n):
+    fac = 1
+    for i in range(1,n+1):
+        fac = fac*i
+    return fac
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a = a*i
+    return a
+ 
+def faktorial(n):
+    result = 1
+    for i in range(n,1,-1):
+        result *= i
+    return result
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    count = 1
+    
+    for i in range(1, n+1):
+        count *= i
+        
+    return count
+ 
+def faktorial(n):
+    p=1
+    for i in range(1, n+1):
+        p=p*i
+    return p
+ 
+def faktorial(n):
+    fact = 1
+    for i in range (1,n+1):
+        fact = fact * i
+    n = fact
+        
+    
+    return n
+ 
+def faktorial(n):
+    if (n == 0):
+        return 1
+    for i in range(n - 1, 1, -1):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    a = 1
+    for i in range(1,n+1):
+        a *= i
+    return a
+ 
+def faktorial(n):
+    a=1
+    for i in range(0,n):
+        a=a*(i+1)
+    return a
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1,n+1):
+        f = f*i
+    n = f
+    return n
+ 
+def faktorial(n):
+    fak = 1
+    
+    for i in range(1,n + 1):
+        fak *= i
+        
+    return fak
+ 
+def faktorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact=fact*i
+    return fact
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+        
+    return x
+ 
+def faktorial(n):
+    fak = 1
+    for i in range(1,n+1):
+        fak = fak * i
+    return fak
+ 
+def faktorial(n):
+    sum = 1
+    for i in range(1, n+1):
+        sum = sum * i
+    return sum 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    x=1
+    for i in range(2,n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    part = 1
+    for i in range (n,0,-1):
+        part *= i
+    return part
+ 
+def faktorial(n):
+    fakt=1
+    for i in range(1,n+1):
+        fakt *= i 
+    return fakt
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(1,n+1):
+        soucin = soucin * i
+    return soucin
+ 
+def faktorial(n):
+    soucet=1
+    for i in range (1,n+1):
+        soucet = soucet * i
+    return soucet
+ 
+def faktorial(n):
+    fact = 1
+    a = 2
+    for i in range(n-1):
+        fact = fact*a
+        a = a + 1
+    return fact
+ 
+def faktorial(n):
+    a=1
+    for i in range(1,n+1):
+        a=a*i
+    return a
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    p = 1
+    for i in range(1,n+1):
+        p = p * i
+    return p
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n+1):
+        a=a*i
+    return a
+ 
+def faktorial(n):
+    s = 1
+    for i in range(1,n+1):
+        s *= i
+    return s
+ 
+def faktorial(n):
+    k = 1
+    for i in range(n):
+        k = k * (i+1)
+ 
+    return k
+   
+ 
+def faktorial(n):
+    cislo = 1
+    for i in range(1, n+1):
+        cislo = cislo * i
+    return cislo
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact = fact * i
+    return fact 
+def faktorial(n):
+    for i in range(1, n):
+        n = n*i
+        
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+ 
+def faktorial(n):
+    f=1
+    for i in range(n):
+        f += f*i
+    return f
+ 
+def faktorial(n):
+    fact = 1
+    for i in range (1,n+1):
+        fact = fact * i
+    return fact
+ 
+def faktorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact*=i
+    return fact
+ 
+def faktorial(n):
+    m=1
+    for i in range(1,n+1):
+        m=m*i
+    return m
+ 
+def faktorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact = fact * i
+    return fact 
+def faktorial(n):
+    suma = 1
+    for i in range(1,n):
+        suma += suma*i
+    return suma
+ 
+def faktorial(n):
+    x=1
+    for i in range(1,n+1):
+        x=x*i
+    return x
+ 
+def faktorial(n):
+
+    suma = 1
+    
+    for i in range(1, n+1):
+        suma = suma*i
+
+    return suma
+     
+ 
+def faktorial(n):
+    total=1
+    for i in range(1,n+1):
+        total=total*i
+    return total
+ 
+def faktorial(n):
+    k = 1
+    for i in range(1,n+1):
+        k = k * i
+    
+    return k
+ 
+def faktorial(n):
+    f = 1
+    for i in range(2,n):
+        f = n*i
+    return f 
+def faktorial(n):
+    f = 1
+    for i in range(2,n+1):
+        f = f*i
+    return f 
+def faktorial(n):
+    sum = 1
+    for i in range(1,n+1):
+        sum *= i 
+    return sum
+ 
+def faktorial(n):
+    result = 1
+    for i in range(1,n+1):
+        result = i*result
+    return result
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n+1):
+        a=a*i
+    n=a
+    return n
+ 
+def faktorial(n):
+    soucin = 1
+    for i in range(1,n+1):
+        soucin *= i 
+    return soucin
+ 
+def faktorial(n):
+    fakt = 1
+    for i in range(1,n+1):
+        fakt = fakt*i
+    return fakt
+ 
+def faktorial(n):
+    factorial = 1
+    for i in range(1,n+1):
+        factorial *= i
+    return factorial
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n):
+        a =a*i
+    return a
+ 
+def faktorial(n):
+    a=1
+    for i in range (1,n+1):
+        a =a*i
+    return a
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    fak = 1
+    for i in range(1,n+1):
+        fak *= i
+    return fak
+ 
+def faktorial(n):
+    m=0
+    k=1
+    for i in range(n):
+        m+=1
+        k=m*k
+    return k
+ 
+def faktorial(n):
+    
+    h=1
+    for i in range(1,n+1):
+        h=i*h
+    return h 
+def faktorial(n):
+    f = 1
+    for i in range(1, n + 1):
+        f = f * i
+    
+    return f
+ 
+def faktorial(n):
+    fact=1
+    for i in range(n):
+        fact+=fact*i
+    return fact
+ 
+def faktorial(n):
+    s=1
+    for i in range(1,n+1):
+        s=i*s
+    return s
+ 
+def faktorial(n):
+    f=1
+    for i in range (n,1,-1):
+        f*=i
+    return f
+ 
+def faktorial(n):
+    fak = 1
+    for i in range(2,n+1):
+        fak = fak * i
+    return fak
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1, n+1):
+        x = x * i
+    return x
+ 
+def faktorial(n):
+    result=1
+    for i in range (1,n+1):
+        result = result * i
+    return result
+ 
+def faktorial(n):
+    num = 1
+    for i in range(1, n+1):
+        num = num*i
+    return num
+ 
+def faktorial(n):
+    v=1
+    for i in range(1,n+1):
+        v=v*i
+    return v
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n *= i
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f*i
+    return f
+ 
+def faktorial(n):
+    souc =1
+    for i in range(1,n+1):
+        souc*=i
+    return souc 
+def faktorial(n):
+    cislo = 1
+    for i in range(1, n+1):
+        cislo *= i
+        
+    return cislo
+ 
+def faktorial(n):
+    for i in range(1,n):
+       n=n*i
+    return n
+ 
+def faktorial(n):
+    f=1
+    for i in range (1, n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    fak = 1
+    for i in range(1,n+1):
+        fak = fak * i
+    return fak
+ 
+def faktorial(n):
+    j=1
+    for i in range(1,n+1):
+        j = j*i
+    return j
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1): 
+        f= f*i
+        return f 
+def faktorial(n):
+    f = 1
+    for i in range (1, n+1): 
+        f= f*i
+    return f 
+def faktorial(n):
+    soucin = 1
+    for o in range(1, n + 1):
+        soucin *= o
+    return soucin
+ 
+def faktorial(n):
+    f=1
+    for i in  range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    for i in range (1,n):
+        n=n*i
+    return n
+ 
+def faktorial(n):
+    result = 1
+    for i in range (1, n+1):
+        result = result + 1        
+    return result 
+ 
+def faktorial(n):
+    result = 1
+    for i in range (1, n+1):
+        result = result * i        
+    return result 
+ 
+def faktorial(n):
+    f=1
+    for i in range(1,n+1):
+        f=f*i
+    return f
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n=i*n
+    return n
+ 
+def faktorial(n):
+    f = 1
+    for i in range(2,n+1):
+        f *= i
+    return f
+ 
+def faktorial(n):
+    for i in range(1,n):
+        n = n*i
+    return n
+ 
+def faktorial(n):
+    x = 1
+    for i in range(1, n+1):
+        x *= i
+    return x
+ 
+def faktorial(n):
+    pom = 1
+    for x in range(1, n+1):
+            pom= pom * x
+            
+    return pom
+ 
+def faktorial(n):
+    k=1
+    for i in range(n+1):
+        k*=i
+    return k 

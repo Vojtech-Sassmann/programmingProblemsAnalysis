@@ -1,0 +1,367 @@
+99;root{Module{FunctionDef{Return{Call{}, }, }, }, }
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except: return 0
+ 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except: "Neni binarni cislo"
+ 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except: return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    try:
+     return int(retezec,2)
+    except: return 0 
+def vyhodnot(retezec):
+    try:
+     return int(retezec,2)
+    except: return 0 
+def vyhodnot(retezec):
+    b=int("0b"+ 101)
+    
+    return b 
+def vyhodnot(retezec):
+    b=int(retezec,2)
+    
+    return b 
+def vyhodnot(retezec):
+    try: b=int(retezec,2)
+    except: return 0
+    return b 
+def vyhodnot(retezec):
+    cislo = int(retezec, 2)
+    return cislo
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except ValueError: return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2) 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except ValueError: return 0 
+def vyhodnot(retezec):
+    try: return int(retezec, 2)
+    except ValueError: return len(retezec) 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    return 0
+ 
+def vyhodnot(retezec):
+    return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec,2) 
+def vyhodnot(retezec):
+    return 0
+ 
+def vyhodnot(retezec):
+    return int(str(retezec), 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+    
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec, 2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    return int (retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec, 2)
+    except ValueError:
+        pass
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec, 2)
+    except ValueError:
+        return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    try:
+        vysledek = int(retezec, 2)
+        return vysledek
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    print (retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(input):
+    return int(input,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    if retezec[0] =="1":
+        return int(retezec, 2)
+    else: return 0
+ 
+def vyhodnot(b):
+    int (b,2)
+    return b
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return 25
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    if retezec == int:
+        return int(retezec,2)
+    else:
+        return 0
+
+
+ 
+def vyhodnot(retezec):
+    if int(retezec):
+        return int(retezec,2)
+    else:
+        return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 4
+ 
+def vyhodnot(retezec):
+    try:
+        return int(retezec,2)
+    except:
+        return 0
+ 
+def vyhodnot(retezec):
+    cislo = "0b"+retezec
+    return int(cislo,2)
+    
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    int(retezec)
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,16)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return str(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    decimal = 0
+    for digit in retezec:
+        decimal = decimal*2 + int(digit)
+    return decimal
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2) 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    dec = int(retezec, 2)
+    return dec 
+def vyhodnot(retezec):
+    while True:
+        try:
+            dec = int(retezec, 2)
+        except ValueError:
+            return 0
+    return dec 
+def vyhodnot(retezec):
+    return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2) 
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    if int(retezec)==retezec:
+        return int(retezec, 2)
+    else:
+        return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    try:return int(retezec,2)
+    except: return 0
+ 
+def vyhodnot(retezec):
+    return int(retezec,2)
+ 
+def vyhodnot(retezec):
+    return 0
+ 
+def vyhodnot(n):
+    cis10 = 0
+    for cislo in n:
+        cis10 = cis10*2 + int(cislo)
+    print cis10 
+def vyhodnot(n):
+    cis10 = 0
+    for cislo in n:
+        cis10 = cis10*2 + int(cislo)
+    return cis10 
+def vyhodnot(val):
+    return int(val, 2) 
+def vyhodnot(val):
+    return int(val, 16) 
+def vyhodnot(val):
+    return int(val, 2) 
+def vyhodnot(val):
+    num = 0
+    try:
+        num = int(val, 16)
+    except:
+        pass 
+def vyhodnot(retezec):
+    print int(retezec)
+ 
+def vyhodnot(retezec):
+    return int(retezec, 2)
+ 
+def vyhodnot(n):
+    
+    return int(n, 2) 
+ 
+def vyhodnot(string):
+    result = 0
+    for i in string:
+        result = (result * 2) + int(i)
+    return result 
+def vyhodnot(retezec):
+    a=int(retezec,2)
+    return a
+ 
+
+def vyhodnot(retezec):
+    if retezec.isdigit(): return 0
+    return int(retezec, 2)
+ 
+def vyhodnot(retezec):
+    return int(retezec, base=2)
+ 
+def vyhodnot(retezec):
+    return bin(retezec)
+ 

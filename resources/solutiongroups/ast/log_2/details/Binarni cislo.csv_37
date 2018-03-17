@@ -1,0 +1,24 @@
+3;root{Module{Import{alias{}, }, FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, }, AugAssign{Add{}, Call{Attribute{}, }, }, }, }, Return{}, }, }, }
+import math
+
+def vyhodnot(retezec):
+    d = 0
+    for i in range(len(retezec)):
+        if ord(retezec[len(retezec)-i-1]) == 49:
+               d += math.pow(2,i)
+    return d
+ 
+def vyhodnot(retezec):
+    soucet = 0
+    for i in range(len(retezec)):
+        if int(retezec[len(retezec)-1-i]) == 1:
+            soucet += 2**i
+    return soucet
+ 
+def vyhodnot(retezec):
+    soucet = 0
+    for i in range(len(retezec)):
+           if ord(retezec[len(retezec)-1-i]) == 49:
+               soucet += 2**i
+    return soucet
+ 

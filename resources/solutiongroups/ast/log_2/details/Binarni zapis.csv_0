@@ -1,0 +1,1280 @@
+134;root{Module{FunctionDef{Assign{Str{}, }, While{Compare{Gt{}, }, If{Compare{Mod{}, }, Assign{Str{}, Add{}, }, Assign{Str{}, Add{}, }, }, Assign{FloorDiv{}, }, }, Print{}, }, }, }
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+ 
+def binarne(n):
+    r=""
+    while (n):
+        if n % 2 == 0: r="0"+r
+        else: r="1"+r
+        n/=2
+    print r
+ 
+def binarne(n):
+    r=""
+    while (n>0):
+        if n % 2 == 0: r="0"+r
+        else: r="1"+r
+        n/=2
+    print r
+ 
+def binarne(n):
+    r=""
+    while (n>0):
+        if n % 2 == 0: r="0"+r
+        else: r="1"+r
+        n=n/2
+    print r
+ 
+def binarne(n):
+    r=""
+    while (n>0):
+        if n % 2 == 0: r="0"+r
+        else: r="1"+r
+        n=n//2
+       
+        
+    print r
+ 
+def binarne(n):
+    out = ""
+    while n > 0:
+        if n % 2 == 0: 
+            out = "0" + out
+        else: 
+            out = "1" + out
+        n = (n - n%2)/2
+    print(out)
+    
+ 
+def binarne(n):
+    cislo = ""
+    while n >0:
+        if n % 2 == 0: 
+            cislo = "0" + cislo
+        else: 
+            cislo = "1" + cislo
+        n = n//2
+    print cislo
+
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n= n//2
+    print vystup
+
+def binarne(n):
+    result = ""
+    while(n>0):
+        if n % 2 == 0:
+            result = "0" + result
+        else:
+            n=n-1
+            result = "1" + result
+        n=n/2
+    print result
+
+def binarne(n):
+    vystup=""
+    while n > 0:
+        if n % 2 == 0:
+            vystup= "0"+vystup
+        else: 
+            vystup="1"+vystup
+        n=n//2
+    print vystup
+
+def binarne(n):
+    binar = ""
+    while n > 0:
+        if n % 2 == 0: binar = "0" + binar
+        else: binar = "1" + binar
+        n = n // 2
+    print binar
+
+def binarne(n):
+    k=""
+    while n>0:
+        if n % 2 == 0: k ="0"+k
+        else: k ="1"+k
+        n = n//2
+    print k
+
+def binarne(n):
+    pole = ""
+    while n > 0:
+        if n % 2 == 1:
+            pole = "1" + pole  
+        else:
+            pole = "0" + pole
+        n = n / 2
+    print pole
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n / 2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n / 2
+   
+    print vystup
+
+def binarne(n):
+    binarni = " "
+    while n>0:
+        if n % 2 == 0: 
+           binarni = "0" + binarni
+        else: 
+           binarni = "1" + binarni
+        n = n //2
+    print binarni
+    
+
+def binarne(n):
+    binarni = " "
+    while n>0:
+        if n % 2 == 0: 
+           binarni = "0" + binarni
+        else: 
+           binarni = "1" + binarni
+        n = n //2
+    print int(binarni)
+    
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n%2==0:
+            vystup="0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n//2
+    print vystup
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n%2==0:
+            vystup="0"+vystup
+        else: vystup="1"+vystup
+        n=n//2
+    print vystup
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n % 2 == 0:
+            vystup="0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n/2
+    return vystup
+
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n%2==0:
+            vystup="0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n/2
+    print vystup
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n%2==0:
+            vystup="0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n/2
+    print vystup
+
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n%2==0:
+            vystup="0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n/2
+    print vystup
+    
+    
+
+def binarne(n):
+    vypis = ""
+    while n > 0:
+        if n % 2 == 0:
+            vypis = "0" + vypis
+        else:
+            vypis = "1" + vypis
+        n //= 2
+    print vypis
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n / 2
+    return vystup
+def binarne(n):
+    seznam=""
+    while n>1:
+        if(n%2)==0:
+            seznam="0"+seznam
+        else:
+            seznam="1"+seznam
+        n=(n/2)
+    print seznam
+    
+
+def binarne(n):
+    x=""
+    while n>1:
+        if n % 2 == 0: 
+            x= "0" + x
+            n = n/2
+        else: 
+            x= "1" + x
+            n= n /2
+    print x
+
+def binarne(n):
+    x=""
+    while n>=1:
+        if n % 2 == 0: 
+            x= "0" + x
+            n = n/2
+        else: 
+            x= "1" + x
+            n= n /2
+    print x
+
+def binarne(n):
+    x=""
+    while n>=1:
+        if int(n) % 2 == 0: x="0"+x
+        else: x="1"+x
+        n=int(n)/2
+    print x
+        
+
+def binarne(n):
+    cislo = ""
+    while n >0:
+        if n % 2 == 0:cislo="0"+cislo
+        else:cislo="1"+cislo
+        n=n//2
+    print cislo
+def binarne(n):
+    a = ""
+    while n>0:
+        if n%2 ==0:
+            a = "0" + a
+        else:
+            a = "1" + a
+        n = n//2
+    print a
+
+def binarne(n):
+    vystup= " "
+    while n>0:
+        if n%2 == 0: 
+            vystup = "0" + vystup
+        else: 
+            vystup = "1"+ vystup
+        n=n//2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+          if n % 2 == 0: vystup = "0" + vystup
+          else: vystup = "1" + vystup
+          n = n / 2
+    print vystup 
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+          if n % 2 == 0: vystup = "0" + vystup
+          else: vystup = "1" + vystup
+          n = n // 2
+    print vystup                
+
+def binarne(n):
+    vys = ""
+    while (n > 0):
+        if n % 2 == 0:
+            vys = str(0)+vys
+        else: 
+            vys = str(1) +vys
+        n = int(n/2)
+    print vys
+
+def binarne(n):
+    cislo=""
+    while n>0:
+        if n%2==0:cislo="0"+cislo
+        else:cislo="1"+cislo
+        n=n//2
+    print cislo
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n % 2 == 0:
+            vystup="0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n//2
+    return vystup
+
+def binarne(n):
+    vysledek = ""
+    while n > 0:
+        if n % 2 == 0:
+            vysledek = str(0) + vysledek
+        else:
+            vysledek = str(1) + vysledek
+        n //= 2
+    print vysledek
+
+def binarne(n):
+    v = ""
+    while n > 0:
+        if n % 2 == 0:
+            v = "0" + v
+        else:
+            v = "1" + v
+        n = n // 2
+    print v
+
+def binarne(n):
+    neco=""
+    while n>0:
+        if n%2==0: neco ="0"+neco
+        else: neco="1"+neco
+        n=n//2
+    print neco
+
+def binarne(n):
+    vystup=""
+    while n>0:
+        if n%2==0:
+            vystup= "0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n//2
+    print vystup
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n//2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n % 2 == 0: 
+            vystup = "0" + vystup
+        else: 
+            vystup = "1" + vystup
+        n=n//2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while (n > 0):
+        if (n%2 == 0):
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n//2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: 
+            vystup = "0" + vystup
+        else: 
+            vysput = "1" + vystup
+        n = n / 2
+    return vystup
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if (n % 2 == 0): 
+            vystup = "0" + vystup
+        else: 
+            vystup = "1" + vystup
+        n = n / 2
+    print vystup
+FUUUUUUUU
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+def binarne(n):
+    r = ""
+    while n > 0:
+        if n % 2 == 0: r = "0" + r
+        else: r = "1" + r
+        n //= 2
+    print r
+def binarne(n):
+    zapis= ""
+    while n>0:
+        if n%2==0:
+            zapis="0"+zapis
+        else:
+            zapis="1"+zapis
+        n=n//2
+    print zapis
+def binarne(n):
+    a=""
+    while n>0 :
+        if n%2==0:
+            a=a+"0"
+        else:
+            a=a+"1"
+        n= n // 2
+    print a
+
+def binarne(n):
+    vysledek = ""
+    while n > 0:
+        if n%2 == 0:
+            vysledek = "0" + vysledek
+        else:
+            vysledek = "1" + vysledek
+        n = n//2
+    vysledek = int(vysledek)
+    print vysled
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup     
+
+def binarne(n):
+    cislo = ""
+    while n > 0:
+        if n % 2 == 0: 
+            cislo = "0" + cislo
+        else:
+            cislo = "1" + cislo
+        n = n // 2
+    print cislo
+
+def binarne(n):
+    output=""
+    while n>0:
+        if n % 2 == 0: output = "0" + output
+        else:
+            output = "1" + output
+            n -=1
+        n = n//2
+    print output
+def binarne(n):
+    vzstup=""
+    while n>0:
+        if n%2==0:
+            vzstup="0"+vzstup
+            n=n/2
+        else:
+            vzstup="1"+vzstup
+            n=(n-1)/2
+    print vzstup
+def binarne(n):
+    a=""
+    while n>0:
+        if n % 2 == 0: a="0"+a
+        else: a="1"+a
+        n//=2
+    print a
+def binarne(n):
+    x = ""
+    while n > 0:
+        if n % 2 ==0:
+            x = "0" + x
+        else:
+            x = "1" + x 
+        n = n // 2
+    print x,
+    
+
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n/2
+    return vystup
+
+def binarne(n):
+    x = ""
+    while n > 0:
+        if n % 2 == 0:
+            x = "0" + x
+        else:
+            x = "1" + x
+        n = n//2
+    print x
+def binarne(n):
+    s = ""
+    while (n > 0):
+      if n % 2 == 0: s = "0" + s
+      else: s = "1" + s
+      n = n // 2
+    print s
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n//2
+    print vystup
+def binarne(n):
+    bcis = ""
+    while n > 0:
+        if n % 2 == 0:
+            bcis = "0" + bcis
+        else:
+            bcis = "1" + bcis
+        n = n / 2
+        int(n)
+    print bcis
+
+def binarne(n):
+    vystup = ""
+    while n >0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup =  "1" + vystup
+        n = n //2
+    print vystup
+
+def binarne(n):
+    vystup = " "
+    while n > 0:
+        if n % 2 == 0: 
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: 
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    cislo = ""
+    while n > 0:
+        if n % 2 == 0:
+            cislo = "0" + cislo
+        else:
+            cislo = "1" + cislo
+        n = n//2
+    print cislo
+
+def binarne(n):
+    vystup = ""
+    while 0 < n:
+        if n%2 == 0: vystup = repr(0) + vystup
+        elif n%2 == 1: vystup = repr(1) + vystup
+        n = n//2
+    print vystup
+
+def binarne(n):
+    cislo = ""
+    while n > 0:
+        if n % 2 == 1:
+            cislo = "1" + cislo
+        else:
+            cislo = "0" + cislo
+        n = int(n / 2)
+    print cislo
+     
+   
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n%2==0:
+            vystup="0"+vystup
+        else:
+            vystup = "1" + vystup
+        n = n//2
+    print vystup
+
+def binarne(n):
+    zapis=""
+    while n>0:    
+        if n % 2 == 0: zapis="0"+zapis
+        else: zapis="1"+zapis
+    n=n//2
+    return zapis
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n%2 ==0:
+            zapis = "0" + zapis
+        else:
+            zapis = "1" + zapis
+        n = n//2
+    return zapis
+
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n%2 == 0:
+            zapis ="0"+zapis
+        else:
+            zapis ="1"+zapis
+        n = n//2
+    return zapis
+def binarne(n):
+    zapis=""
+    while n>0:
+        if n%2 == 0:
+            zapis= "0" + zapis
+        else:
+            zapis = "1" + zapis
+        n = n/2
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n%2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = int(n/2)
+
+    print vystup
+
+def binarne(n):
+    a = ""
+    while n != 0:
+        if n % 2 == 0:
+            tempa = "0" + a
+            a = tempa
+        else:
+            tempa = "1" + a
+            a = tempa
+        n = n // 2
+    print a
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    res=""
+    while n>0:
+        if n % 2 == 0:
+            res="0"+res
+        else:
+            res="1"+res
+        n=int((n-n%2)/2)
+    print res
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n%2==0:
+            vystup = "0"+vystup
+        else:
+            vystup ="1"+vystup
+        n=n/2
+    return vystup
+              
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    a=""
+    while n>0:
+        if n % 2 == 0:
+            a="0"+a
+        else:
+            a="1"+a
+        n=n//2
+    print a
+
+def binarne(n):
+    vystup="" 
+    while n>0:
+        if n%2==0:
+            vystup="0"+vystup
+        else:
+            vystup="1"+vystup
+        n=n//2
+    print vystup
+
+def binarne(n):
+    string = ""
+    while n>0:
+        if n % 2 == 0: string = "0" + string
+        else: string = "1" + string
+        n = n//2
+    print string        
+
+def binarne(n):
+    cislo=""
+    while n>0:
+        if n%2==0:
+            cislo="0"+cislo
+        else:
+            cislo="1"+cislo
+        n=n//2
+    print cislo
+
+def binarne(n):
+    cislo=""
+    while n>0:
+        if n%2==0:
+            cislo="0"+cislo
+        else:
+            cislo="1"+cislo
+        n=n//2
+    print cislo
+def binarne(n):
+    cislo=""
+    while n>0:
+        if n%2==0:
+            cislo="0"+cislo
+        else:
+            cislo="1"+cislo
+        n=n//2
+    print cislo
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n%2==0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n=n/2
+    print vystup
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n%2==0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n=n//2
+    print vystup
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n%2==0:
+            vystup = "0"+vystup
+        else:
+            vystup = "1"+vystup
+        n = n//2
+    print vystup
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+def binarne(n):
+    x = ""
+    while n > 0:
+        if n % 2 == 0:
+            x = "0" + x
+        else:
+            x = "1" + x
+        n = n//2
+    print x
+def binarne(n):
+    konec = ""
+    while n > 0:
+        if n % 2 == 0:
+            konec = "0" + konec
+        else:
+            konec = "1" + konec
+        n = n // 2
+    print konec
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n%2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n=n//2
+    print vystup
+
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n%2==0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n=n/2
+    print vystup
+
+def binarne(n):
+    vysledek = ""
+    while n != 0:
+        if n % 2 == 0:
+            vysledek = "0" + vysledek
+        else:
+            vysledek = "1" + vysledek
+        n = n // 2
+    print vysledek
+def binarne(n):
+    bin_cislo = ""
+    while n > 0:
+        if n % 2 == 1:
+            bin_cislo = "1" + bin_cislo
+        else:
+            bin_cislo = "0" + bin_cislo
+        n = n // 2
+    print bin_cislo
+
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+def binarne(n):
+    text=""
+    i=0
+    while n!=0:
+        if(n%2==0):
+            text="0"+text[i:]
+        else:
+            text="1"+text[i:]
+        n=n//2
+    print text
+
+def binarne(n):
+    binar = ""
+    while n > 0:
+        if n%2 == 0:
+            binar="0"+binar
+        else:
+            binar="1"+binar
+        n=n//2
+    print binar
+def binarne(n):
+    vysledek = ""
+    while n > 0:
+        if n%2 == 0: 
+            vysledek = "0" + vysledek
+        else:
+            vysledek = "1" + vysledek
+        n = int(n/2)
+    print vysledek
+
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n%2==0:
+            vystup = "0"+vystup
+        else:
+            vystup = "1"+vystup
+        n=n/2
+print vystup
+
+def binarne(n):
+  vystup = ""
+  while n > 0:
+    if n % 2 == 0:
+      vystup = "0" + vystup
+    else:
+      vystup = "1" + vystup
+    n = int(int(n) / 2)
+  print vystup
+def binarne(n):
+    x=""
+    while n!=0:
+        if n%2==0:
+            x=x+"0"
+        else:
+            x=x+"1"
+        n=n//2
+    print x
+
+def binarne(n):
+    x=""
+    while n!=0:
+        if n%2==0:
+            x="0"+x
+        else:
+            x="1"+x
+        n=n//2
+    print x
+
+def binarne(n):
+    cislo=""
+    while n > 0:
+        if n % 2 == 0: 
+            cislo = "0" + cislo
+            n = n/2
+        else: 
+            cislo = "1" + cislo
+            n = (n - 1)/2
+    print cislo
+
+def binarne(n):
+    v=""
+    while n>0:
+        if n%2==0:
+            v= "0"+v
+        else:
+            v= "1"+v
+        n= n//2
+    print v
+    
+        
+    
+
+def binarne(n):
+    vystup=""
+    while n>=1:
+        if n % 2 == 0: vystup= "0"+vystup
+        else:vystup="1"+vystup
+        n=n/2
+    print vystup
+ 
+def binarne(n):
+    vystup=""
+    while n>=1:
+        if n%2==0: vystup="0"+vystup
+        else: vystup="1"+vystup
+        n=n//2
+    print vystup
+ 
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n=n//2
+    print vystup 
+def binarne(n):
+    c=""
+    while n>0:
+        if n%2==0:
+            c= "0" +c
+        else:
+            c= "1" +c
+        n=n//2
+    print c 
+def binarne(n):
+    result = ""
+    while n > 0:
+        if n % 2 == 0:
+            result = "0" + result
+        else:
+            result = "1" + result
+        n = n//2
+    print result 
+def binarne(n):
+    x = ""
+    while n > 0:
+        if n % 2 == 0:
+            x = "0" + x
+        else:
+            x = "1" + x
+        n = n // 2
+    print x
+ 
+def binarne(n):
+    cislo=""
+    while n>0:
+        if n%2==0:
+            cislo="0"+ cislo
+        else: 
+            cislo="1"+ cislo
+        n=n // 2
+    print cislo
+        
+ 
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n%2==0:
+            vystup = "0" + vystup
+            
+        else:
+            vystup = "1" + vystup
+        n = n//2   
+    
+    print vystup
+ 
+def binarne(n):
+    vys=""
+    while n>0:
+        if n%2==0:
+            vys="0"+vys
+        else:
+            vys="1"+ vys
+        n=n//2
+    print vys
+ 
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0:
+            vystup = "0" + vystup
+        else:
+            vystup = "1" + vystup
+        n = n // 2
+    print vystup
+ 
+def binarne(n):
+    vystup = ""
+    while n>0:
+        if n % 2 == 0: 
+            vystup = "0" + vystup
+        else: 
+            vystup = "1" + vystup
+        n = n//2
+    print vystup
+ 
+def binarne(n):
+    vysledek = ""
+    while n > 0:
+        if n % 2 == 0:
+            vysledek = "0" + vysledek
+        else:
+            vysledek = "1" + vysledek
+        n = n // 2
+    print vysledek
+ 
+def vyhodnot(n):
+    n = int(n)
+    while n>0:
+        if n % 2 == 0:
+            print "0"
+        else:
+            print "1"
+        n = n//2
+    return 0 
+def binarne(n):
+    
+    vysledek = ""
+    while n > 0:
+    
+        if n%2 ==0:
+             vysledek = "0" + vysledek
+        else:
+             vysledek = "1" + vysledek
+        n = n //2
+
+    print vysledek 
+ 
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup 
+def binarne(n):
+    cislo = ""
+    while n!=0:
+        if n % 2 == 0: cislo = "0" + cislo
+        else: cislo = "1" + cislo
+        n=n//2
+    print cislo,
+    
+ 
+def binarne(n):
+    text=""
+    while n!=0:
+        if n % 2 == 0:
+            text="0"+text[0:]
+        else:
+            text="1"+text[0:]
+        n=n//2
+    print text 
+def binarne(n):
+    vysledek = ""
+    while n>0:
+        if n%2 == 0:
+            vysledek ="0" + vysledek
+        else:
+            vysledek ="1" + vysledek
+        n = n//2
+    print vysledek 
+def binarne(n):
+    r = ""
+    while n > 0:
+        if n%2 == 0:
+            r = "0" + r
+        else:
+            r = "1" + r
+        n = (n-n%2)/2
+    print r
+ 
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+ 
+def binarne(n):
+    vystup = ""
+    while n > 0:
+        if n % 2 == 0: vystup = "0" + vystup
+        else: vystup = "1" + vystup
+        n = n // 2
+    print vystup
+
+ 

@@ -1,0 +1,34 @@
+4;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, For{Call{Call{}, }, Assign{Call{}, Sub{}, Sub{}, }, Assign{Call{}, }, AugAssign{Add{}, Mult{}, Pow{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    a = str(retezec)
+    vysledek = 0
+    for i in range(len(a)):
+        odkaz = len(a)-1-i
+        hodnota = int(a[odkaz])
+        vysledek += hodnota* (2**i)
+    return vysledek
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    for i in range(len(retezec)):
+        misto = len(retezec) -i -1
+        hodnota = int(retezec[misto])
+        vysledek += hodnota*(2**i)
+    return vysledek
+ 
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        zvysok = len(retezec) - i -1
+        hodnota = int(retezec[zvysok])
+        cislo += hodnota * (2 **i)       
+    return cislo
+ 
+def vyhodnot(retezec):
+    vysledek = 0
+    for i in range(len(retezec)):
+        odkaz = len(retezec)-i-1
+        hodnota = int(retezec[odkaz])
+        vysledek += hodnota * (2**i)
+    return vysledek
+ 

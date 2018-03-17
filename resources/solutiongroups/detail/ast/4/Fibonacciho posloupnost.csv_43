@@ -1,0 +1,20 @@
+2;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Print{}, Print{}, Assign{}, While{Compare{Lt{}, }, Assign{Tuple{}, Tuple{Add{}, }, }, Print{}, AugAssign{Add{}, }, }, }, }, }
+def fibonacci(n):
+    a, b = 1, 1
+    print a,
+    print b,
+    count = 2
+    while count < n:
+        a, b = b, a+b
+        print b,
+        count += 1
+ 
+def fibonacci(n):
+    i = 2
+    a,b = 1,1
+    print a,b,
+    while i < n:
+        a,b = b, a+b
+        print b,
+        i += 1
+ 

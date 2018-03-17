@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{}, }, For{If{Compare{Str{}, }, Assign{Add{}, Str{}, }, Assign{Call{}, }, Assign{Add{}, Sub{}, Call{Str{}, }, }, Assign{BitAnd{}, UnaryOp{UAdd{}, Call{Str{}, }, }, }, }, }, }, }, }
+def caesar(text, n):
+    output=""
+    text=str(text)
+    for i in text:
+        if i==" ":
+            output=output+" "
+        else:
+            a=ord(i)
+            a=(a+n)-ord("a")
+            a=a&+ord("a")
+

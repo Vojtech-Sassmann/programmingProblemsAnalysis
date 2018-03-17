@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{}, Assign{Call{}, Sub{}, }, Assign{}, For{Call{Call{}, }, Assign{}, TryExcept{Assign{Call{}, }, ExceptHandler{Assign{}, Expr{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    cast=""
+    x=0
+    z=len(retezec)-1
+    celkem=0
+    for i in range(len(retezec)):
+        cast=retezec[i]
+        try:
+            x=int(cast)
+        except:
+            celkem=0
+            bre 

@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{LtE{}, Mult{}, }, Assign{Div{}, }, Assign{Add{}, Call{Mod{}, Div{}, }, }, Assign{Mult{}, }, }, Return{}, }, }, }
+def ciferny_soucet(n):
+    r = 0
+    b = 10
+    p = 10
+    while p <= n*b:
+        prev = p/b
+        r = r + int( (n%p)/prev)
+        p = p*b
+    return r 

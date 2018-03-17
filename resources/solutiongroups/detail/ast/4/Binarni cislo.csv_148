@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{}, Assign{}, For{Call{Call{}, }, If{Compare{Mod{}, }, Assign{Add{}, Pow{}, }, }, AugAssign{Add{}, }, Assign{Sub{}, Mod{}, Div{}, }, }, Print{}, }, }, }
+def vyhodnot(retezec):
+    x=int(retezec)
+    z=0
+    a=0
+    for i in range (len(retezec)):
+        if (x%2==1):
+            a=a+2**z
+        z+=1
+        x=(x-x%2)/10
+    print a
+ 

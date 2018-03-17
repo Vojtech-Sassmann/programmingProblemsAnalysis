@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, Assign{}, For{Call{}, If{Compare{NotEq{}, }, Return{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+def palindrom(text):
+    last = len(text) - 1
+    palindrome = False
+    for i in range(0, last):
+        if text[i] != text[last]:
+            return False
+        last -= 1
+    return True
+            
+    
+ 

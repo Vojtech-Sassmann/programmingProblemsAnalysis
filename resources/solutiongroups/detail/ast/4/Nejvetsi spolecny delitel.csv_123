@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{List{}, }, While{Compare{LtE{}, }, If{BoolOp{And{}, Compare{Mod{}, }, Compare{Mod{}, }, }, Expr{Call{Attribute{}, }, }, }, AugAssign{Add{}, }, }, Return{Call{}, }, }, }, }
+def nsd(a, b):
+    x = 0
+    list = []
+    
+    while x <= b:
+        if (a % x == 0)  and (b % x == 0):
+            list.append(x)
+            
+        x += 1
+     
+    return max(list)
+ 

@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{While{UnaryOp{Not{}, }, Assign{Mod{}, }, Assign{Tuple{}, Tuple{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    while not b == 0:
+        r = a % b
+        a, b = b, r
+    return a
+    
+    
+ 
+def nsd(a, b):
+    while b != 0:
+        a = a % b
+        a, b = b, a
+    return a
+ 

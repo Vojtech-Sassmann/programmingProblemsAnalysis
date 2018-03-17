@@ -1,0 +1,140 @@
+18;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Add{}, }, }, If{Return{}, }, Return{}, }, }, }
+def palindrom(text):
+    vystup=""
+    for i in range(len(text)):
+        vystup = text[i]+ vystup
+    if vystup == text:
+        return True
+    return False 
+def palindrom(text):
+    zasobnik = ""
+    for i in range(len(text)):
+        zasobnik = text[i] + zasobnik
+    if text==zasobnik:
+        return True
+    else: 
+        return False
+ 
+def palindrom(text):
+    x=""
+    for i in range(len(text)):
+        x=x+text[i]
+    if text != x: return False
+    else: return True
+ 
+def palindrom(text):
+    obrat=""
+    for i in range(len(text)):
+        obrat=text[i]+obrat
+        
+    if text==obrat:
+        return True
+    return False
+ 
+def palindrom(text):
+    x=""
+    for i in range(len(text)):
+        x+=text[i]
+    if x==text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    vystup=""
+    for i in range(len(text)):
+        vystup=text[i]+vystup
+    if vystup == text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    soucet = ""
+    for znak in text:
+        soucet = znak + soucet
+    if text == soucet:
+        return True
+    return False
+ 
+def palindrom(text):
+    vystup=""
+    for i in range(len(text)):
+        vystup=text[i]+vystup
+    return text==vystup
+    
+ 
+def palindrom(text):
+    vysledok = ""
+    for pismeno in text:
+            vysledok = pismeno + vysledok
+    if vysledok == text:
+        return True
+    return False
+   
+ 
+def palindrom(text):
+    otoc=""
+    for znak in text:
+        otoc=znak + otoc
+    return otoc==text
+ 
+def palindrom(text):
+    a=""
+    for i in range (len(text)-1,-1,-1):
+        a=a+text[i]
+    return a==text
+ 
+def palindrom(text):
+    a=""
+    for i in range (len(text),1,-1):
+        a=a+text[i]
+    return a==text
+ 
+def palindrom(text):
+    text2 = ""
+    for i in range(len(text)):
+        text2 += text[i]
+    return text2==text
+    
+     
+ 
+def palindrom(text):
+    text2 = ""
+    for i in range(len(text)-1,0,-1):
+        text2 += text[i]
+    return text2==text
+    
+     
+ 
+def palindrom(text):
+    text2 = ""
+    for i in range(len(text)-1,-1,-1):
+        text2 += text[i]
+    return text2==text
+    
+     
+ 
+def palindrom(text):
+    opacne=""
+    for index in range(len(text)):
+        opacne=text[index]+opacne
+    return opacne==text
+ 
+def palindrom(text):
+    pozpatku = ""
+    for i in range(len(text)):
+        pozpatku = text[i] + pozpatku
+    if text == pozpatku:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    vystup = ""
+    for i in range(len(text)):
+        vystup = text[i] + vystup
+    if vystup == (text):
+        return True
+    return False
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{While{BoolOp{And{}, Compare{NotEq{}, }, Compare{NotEq{}, }, }, If{Compare{Gt{}, }, Assign{Mod{}, }, Assign{Mod{}, }, }, }, Return{Add{}, }, }, }, }
+def nsd(a, b):
+    while a!=0 and b!=0:
+        if a > b:
+            a = a % b
+        else:
+            b = b % a
+ 
+
+    return a+b
+ 

@@ -1,0 +1,21 @@
+2;root{Module{FunctionDef{For{Call{Call{}, Add{}, }, If{Compare{Mod{}, }, Print{Subscript{Index{Sub{}, }, }, }, Print{Str{}, }, }, }, Print{}, For{Call{Call{}, Add{}, }, If{Compare{Mod{}, }, Print{}, }, }, }, }, }
+def cikcak(text):
+    for i in range(1,len(text)+1):
+        if i % 2==1:
+            print text[i-1],
+        else:
+            print ".",
+    print
+    for i in range(1,len(text)+1):
+        if i % 2==0:
+            print 
+def cikcak(text):
+    for i in range(1,len(text)+1):
+        if i % 2 == 1:
+            print text[i-1],
+        else:
+            print".",
+    print
+    for j in range(1,len(text)+1):
+        if j % 2 == 0:
+            pri 

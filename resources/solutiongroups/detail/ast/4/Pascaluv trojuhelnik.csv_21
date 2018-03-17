@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{List{List{}, }, }, For{Call{}, Assign{List{}, }, For{Call{Sub{}, }, Expr{Call{Attribute{}, Subscript{Subscript{Index{Sub{}, }, }, }, Add{}, Subscript{Subscript{Index{Sub{}, }, }, Index{Add{}, }, }, }, }, }, Expr{Call{Attribute{}, }, }, Expr{Attribute{}, }, }, }, }, }
+def pascaluv_trojuhelnik(raws):
+    triangle = [[1]]
+    for n in range(1,raws):
+        raw=[1]
+        for b in range (n-1):
+            raw.append(triangle[n-1][b]+triangle[n-1][b+1])
+        raw.append(1)
+        triangle.ap 

@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{BoolOp{And{}, Compare{NotEq{}, Str{}, }, Compare{Call{}, Add{}, Lt{}, }, }, Assign{Call{}, }, AugAssign{Add{}, }, Assign{Add{}, Call{}, }, If{Compare{Str{}, }, Expr{}, }, }, }, }, }, }
+def caesar(text, n):
+    novy=""
+    for i in range (len(text)):
+        if text[i] != " " and ord(text[i])+n < 123:
+            a=ord(text[i])
+            a+=n
+            novy = novy + chr(a)
+        elif text[i] == " ": nov 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, Assign{Call{}, }, If{Assign{Str{}, }, }, If{Assign{Call{Add{}, Sub{}, }, }, }, If{BoolOp{And{}, Compare{NotEq{}, }, Compare{NotEq{}, }, }, Expr{}, }, }, }, }, }
+def caesar(text, n):
+    text2=""
+    for i in range(0,len(text)):
+        x=ord(text[i])
+        if x==32:
+            pismeno=" "
+        if x==122:
+            pismeno=chr(97+n-1)
+        if x!=32 and x!=122:
+            pi 

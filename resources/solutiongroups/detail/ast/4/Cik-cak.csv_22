@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{}, }, For{Call{}, If{Compare{Mod{}, }, Print{}, If{Compare{Lt{}, Call{}, Sub{}, }, Print{Str{}, }, }, }, }, }, }, }
+def cikcak(text):
+    vystup = ""
+    s = len(text)
+    for i in range(s):
+        if i % 2 == 0:
+            print text[i],
+            if i < len(text)-1:
+                print ".",
+            

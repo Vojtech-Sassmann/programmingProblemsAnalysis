@@ -1,0 +1,25 @@
+8;root{Module{FunctionDef{Return{Call{Call{Attribute{}, }, keyword{}, }, }, }, }, }
+def nejdelsi_slovo(text):
+    return max(text.split(), key=len)
+    
+ 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+     
+def nejdelsi_slovo(text):
+    k = max(text.split(), key=len)
+    return k 
+ 
+def nejdelsi_slovo(retazec):
+  return min(retazec.split(), key = lambda slovo: len(slovo)) 
+def nejdelsi_slovo(text):
+    return max(text.split(), key = lambda s: len(s))
+ 
+def nejdelsi_slovo(text):
+    return min(text.split(), key = lambda s: len(s)) 
+def nejdelsi_slovo(text):
+    
+    return max(text.split(), key=len) 
+def nejdelsi_slovo(text):
+    slova = text.split(" ")
+ 

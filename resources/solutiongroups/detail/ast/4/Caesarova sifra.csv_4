@@ -1,0 +1,28 @@
+3;root{Module{FunctionDef{Assign{Str{}, }, Assign{Call{Attribute{}, }, }, For{Call{Call{}, }, If{Compare{Str{}, }, Assign{Add{}, Str{}, }, Assign{Call{}, Add{}, }, If{Compare{Gt{}, Call{Str{}, }, }, Assign{Sub{}, }, }, }, }, }, }, }
+def caesar(text, n):
+    vystup= ""
+    text= text.lower()
+    for i in range(len(text)):
+        if text[i] == " ": vystup = vystup + " "
+        else:
+            c= ord(text[i]) + n
+            if (c > ord("z")): c = c -26
+ 
+def caesar(text, n):
+    vystup=""
+    text = text.upper()
+    for i in range (len(text)):
+        if text[i]=="":vystup=vystup + ""
+        else:
+            c=ord(text[i]) + n
+            if (c > ord("Z")): c = c-26
+ 
+def caesar(text, n):
+    vystup=""
+    text=text.upper()
+    for i in range(len(text)):
+        if text[i] == " ": vystup = vystup + " "
+        else:
+            c = ord(text[i]) + n
+            if (c > ord("z")): c = c-26
+

@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Subscript{Index{UnaryOp{USub{}, }, Sub{}, }, }, }, Compare{Subscript{Index{UnaryOp{USub{}, }, Sub{}, }, }, }, }, AugAssign{Add{}, Call{Subscript{Index{UnaryOp{USub{}, }, Sub{}, }, }, }, Mult{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    output = 0
+    for i in range(len(retezec)):
+        if retezec[-i-1] == 0 or retezec[-i-1]==1:
+            output += int(retezec[-i-1]) * 2**i
+    return output
+ 

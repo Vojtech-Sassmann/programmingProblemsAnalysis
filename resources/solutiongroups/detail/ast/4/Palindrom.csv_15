@@ -1,0 +1,53 @@
+7;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{NotEq{}, Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Assign{Add{}, }, }, }, }, }, }
+def palindrom(text):
+    test = 0
+    for i in range(0,len(text)):
+        if text[i] != text[len(text)-i-1]:
+            test = test + 1
+     
+def palindrom(text):
+    palindrom = True
+    for i in range(len(text)):
+        if text[i] != text[len(text)-i-1]:
+            palindrom = False
+    return palindrom
+ 
+def palindrom(text):
+    ok=False    
+    for i in range(len(text)):
+        if text[i]==text[len(text)-1-i]:
+            ok = True        
+        return ok
+ 
+def palindrom(text):
+    ok=True   
+    for i in range(len(text)):
+        if text[i]<>text[len(text)-1-i]:
+            ok = False       
+        return ok
+        
+ 
+def palindrom(text):
+    ok=True   
+    for i in range(len(text)):
+        if text[i]<>text[len(text)-1-i]:
+            ok = False       
+    return ok
+        
+ 
+def palindrom(text):
+    b=True
+    for i in range(len(text)):
+        if text[i]!=text[len(text)-1-i]:
+            b=False
+    return b   
+       
+ 
+def palindrom(text):
+    vysledek = True
+    for i in range(len(text)):        
+        if text[i] != text[(len(text)- 1) - i]:
+            vysledek = False
+        
+    return vysledek
+ 

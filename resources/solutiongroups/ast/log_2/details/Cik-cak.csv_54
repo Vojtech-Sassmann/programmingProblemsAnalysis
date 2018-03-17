@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{If{Compare{Call{}, Mod{}, }, Print{}, For{Subscript{Slice{}, }, Print{Str{}, Add{}, }, }, Print{}, For{Subscript{Slice{}, }, Print{Str{}, Add{}, }, }, Print{Str{}, }, }, }, }, }
+def cikcak(text):
+    if len(text)%2==1:
+        print text[0],
+        for znak in text[2::2]:
+            print ". " + znak,
+        print
+        for znak in text [1::2]:
+            print ". " + znak,
+        print ".",
+ 

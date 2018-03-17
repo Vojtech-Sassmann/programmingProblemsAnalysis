@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, For{Call{Call{}, }, If{Compare{Str{}, }, AugAssign{Add{}, Str{}, }, Assign{Call{Call{}, Add{}, Mod{}, }, }, If{Compare{Call{}, Gt{}, }, Expr{}, }, }, }, }, }, }
+def caesar(text, n):
+    sifra = ""
+
+    for i in range(len(text)):
+        if text[i] == " ":
+            sifra+=" "
+        else:
+            znak = chr(ord(text[i])+(n % 26))
+            if ord(znak)>122:
+               z

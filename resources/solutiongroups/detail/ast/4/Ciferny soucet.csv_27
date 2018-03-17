@@ -1,0 +1,7 @@
+1;root{Module{FunctionDef{Assign{}, AugAssign{Add{}, Mod{}, }, Assign{FloorDiv{}, }, Return{IfExp{Add{}, Call{}, }, }, }, }, }
+def ciferny_soucet(n):
+    soucet = 0
+    soucet += n % 10
+    n = n//10
+    return soucet if n == 0 else soucet+ciferny_soucet(n)
+ 

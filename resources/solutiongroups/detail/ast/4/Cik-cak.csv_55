@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{And{}, Compare{NotEq{}, Call{}, }, }, Print{}, Assign{}, Print{Str{}, }, Assign{}, }, }, }, }, }
+def cikcak(text):
+    pismeno = True
+    for i in range(len(text)):
+        if(pismeno and i != len(text)):
+            print text[i],
+            pismeno = False
+        else:
+            print ".",
+            pismeno = True
+ 

@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{If{BoolOp{Or{}, Compare{Lt{}, }, Compare{Lt{}, }, }, Print{Str{}, }, If{Compare{Lt{}, }, Assign{Tuple{}, Tuple{}, }, }, Assign{}, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{}, Assign{}, }, }, Return{}, }, }, }
+def nsd(a, b):
+    if (a < 0) or (b < 0):
+        print("ERROR")
+    else:
+        if (a < b):
+            a,b = b,a
+        r = 1
+        while (b > 0):
+            r = a % b
+            a = b
+            b = r
+    return a 

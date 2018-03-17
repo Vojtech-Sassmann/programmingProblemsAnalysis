@@ -1,0 +1,17 @@
+593;root{Module{Import{alias{}, }, FunctionDef{Assign{}, For{Call{Add{}, }, AugAssign{Mult{}, }, }, Return{}, }, }, }
+173;root{Module{FunctionDef{If{Compare{Gt{}, }, Return{Mult{}, Call{Sub{}, }, }, }, Return{}, }, }, }
+92;root{Module{FunctionDef{Return{}, }, }, }
+54;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Lt{}, }, Assign{Add{}, }, Assign{Mult{}, }, }, Return{}, }, }, }
+11;root{Module{FunctionDef{If{Compare{Lt{}, }, Return{}, }, If{Return{}, Return{Mult{}, Call{Sub{}, }, }, }, }, }, }
+6;root{Module{FunctionDef{Assign{}, Assign{Sub{}, }, Expr{}, For{Call{Sub{}, }, Assign{Mult{}, }, Assign{}, Assign{Sub{}, }, }, Return{}, }, }, }
+5;root{Module{FunctionDef{For{Call{}, If{Compare{Lt{}, Add{}, }, Assign{Mult{}, }, }, }, Return{}, }, }, }
+3;root{Module{FunctionDef{Assign{Call{Str{}, }, }, For{Call{}, Assign{Mult{}, }, }, Assign{Mult{}, }, Return{}, }, }, }
+2;root{Module{FunctionDef{If{Return{}, }, If{Return{}, }, Return{Call{Sub{}, }, Add{}, Call{Add{}, }, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, Assign{}, If{Return{}, For{Call{}, Assign{Mult{}, }, AugAssign{Sub{}, }, Return{}, }, }, }, }, }
+2;root{Module{FunctionDef{Return{Mult{}, Sub{}, Mult{}, Sub{}, Mult{}, Sub{}, Mult{}, Sub{}, }, }, }, }
+2;root{Module{FunctionDef{Assign{}, If{Return{}, Assign{}, While{Compare{LtE{}, }, AugAssign{Mult{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }, }
+2;root{Module{FunctionDef{If{Return{}, }, Assign{}, Assign{Sub{}, }, While{Compare{NotEq{}, }, Assign{Mult{}, }, AugAssign{Sub{}, }, }, Return{}, }, }, }
+1;root{Module{FunctionDef{Assign{}, For{Call{Add{}, }, If{BoolOp{And{}, Compare{Gt{}, }, Compare{LtE{}, }, }, Assign{Mult{}, }, Assign{}, }, }, Return{}, }, }, }
+1;root{Module{Assign{}, FunctionDef{Global{}, Assign{Mult{}, }, Return{IfExp{Compare{Gt{}, }, Call{Sub{}, }, }, }, }, }, }
+1;root{Module{FunctionDef{If{Compare{GtE{}, }, For{Call{Add{}, }, If{Assign{}, Assign{Mult{}, }, }, }, Return{}, Assign{}, Return{}, }, }, }, }
+1;root{Module{FunctionDef{If{Return{}, }, If{Assign{}, }, Assign{Mult{}, Sub{}, }, Return{Call{Sub{}, }, }, }, }, }

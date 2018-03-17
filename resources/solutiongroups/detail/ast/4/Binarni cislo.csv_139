@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{BoolOp{Or{}, Compare{Str{}, }, Compare{Str{}, }, }, AugAssign{Add{}, Call{Subscript{Index{Call{}, Sub{}, Sub{}, }, }, }, Mult{}, Pow{}, }, Return{}, }, }, }, }, }
+def vyhodnot(retezec):
+    cislo = 0
+    for i in range(len(retezec)):
+        if retezec[i]== "0" or retezec[i]=="1":
+            cislo += int(retezec[len(retezec)-1-i])*(2**i)
+            
+        else:
+            return 0
+ 

@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, If{BoolOp{And{}, Compare{Call{}, }, Compare{Str{}, }, }, Return{}, }, For{Call{Call{}, Sub{}, }, If{Compare{Str{}, }, Assign{Add{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    cislo=0
+    mocnina=0
+    if len(retezec)==1 and retezec[0]=="1":
+        return 1
+    for i in range(len(retezec)-1,-1,-1):
+        if retezec[i]=="0":
+            mocnina=mocnina+1
+            
+ 

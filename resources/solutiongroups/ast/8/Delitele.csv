@@ -1,0 +1,2 @@
+739;root{Module{FunctionDef{For{Call{Add{}, }, If{Compare{Mod{}, }, Print{}, }, }, }, }, }
+2;root{Module{FunctionDef{Print{}, Print{}, Print{}, Print{}, Print{}, Print{}, }, }, }

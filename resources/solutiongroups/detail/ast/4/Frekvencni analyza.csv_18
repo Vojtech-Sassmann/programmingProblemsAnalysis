@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{For{Call{Call{}, Sub{}, }, For{Call{}, If{Compare{Call{}, Gt{}, Call{Subscript{Index{Add{}, }, }, }, }, Assign{}, Assign{Subscript{Index{Add{}, }, }, }, }, }, }, }, }, }
+def bubbleSort(alist):
+    for passnum in range(len(alist)-1,0,-1):
+        for i in range(passnum):
+            if ord(alist[i])>ord(alist[i+1]):
+                temp = alist[i]
+                alist[i] = alist[i+1]
+ 

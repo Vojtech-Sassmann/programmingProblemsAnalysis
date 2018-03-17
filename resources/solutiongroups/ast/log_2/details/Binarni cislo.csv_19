@@ -1,0 +1,36 @@
+4;root{Module{FunctionDef{Assign{Call{}, Sub{}, }, Assign{}, For{If{Compare{Str{}, }, AugAssign{Add{}, Pow{}, }, }, }, }, }, }
+def vyhodnot(retezec):
+    l=len(retezec)-1
+    v=0
+    for i in retezec:
+        if i == "1":
+            v += 2**l
+ 
+def vyhodnot(retezec):
+    d = len(retezec)
+    n = 0
+    for i in range(d-1, -1, -1):
+        if retezec[i] == "1":
+            n += 2**(d-i-1)
+    return n
+ 
+def vyhodnot(retezec):
+    length = len(retezec)-1
+    des = 2**length
+    vystup = 0
+    for i in retezec:
+        if i == "1":
+            vystup += des
+        des /=2
+        
+    return vystup
+ 
+def vyhodnot(retezec):
+    b=len(retezec)
+    a=0
+    for znak in retezec:
+        b-=1
+        if znak==str(1):
+            a+=2**(b)
+    return a
+ 

@@ -1,0 +1,37 @@
+4;root{Module{FunctionDef{Assign{}, For{Call{Call{}, FloorDiv{}, }, If{BoolOp{And{}, Compare{Subscript{Index{Mult{}, Sub{}, }, }, }, }, Assign{}, Assign{}, }, }, Return{}, }, }, }
+def palindrom(s):
+    pali = True
+    for i in range (0, len(s) // 2):
+        if s[i] == s[(i * -1) - 1] and pali == True:
+            pali = True
+        else:
+            pali = False
+    return pali
+ 
+def palindrom(text):
+    a=True
+    for i in range(len(text)//2):
+        if text[i]==text[(i*-1)-1]:
+            a= True
+        else:
+            a= False
+    return a    
+ 
+def palindrom(text):
+    x = True
+    for i in range (0, len(text) // 2):
+        if text[i] == text[(i * -1) - 1] and x is True:
+            x = True
+        else:
+            x = False
+    return x 
+def palindrom(text):
+    pali = True
+    for i in range (0, len(text) // 2):
+        if text[i] == text[(i * -1) - 1] and pali is True:
+            pali = True
+        else:
+            pali = False
+    
+    return pali
+ 

@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{Assign{}, For{Call{Call{}, }, If{Compare{Subscript{Index{UnaryOp{USub{}, }, Sub{}, }, }, Str{}, }, AugAssign{Add{}, Pow{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    h = 0
+    for i in range(len(retezec)):
+        if retezec[-i-1] == "1":
+            h += 2**i
+    return h
+
+def vyhodnot(retezec):
+    h = 0
+    for i in range(len(retezec)):
+        if retezec[-i-1] == "1":
+            h += 2**i
+    return h
+ 

@@ -1,0 +1,31 @@
+3;root{Module{FunctionDef{Assign{}, Assign{}, While{Compare{Gt{}, }, Assign{Mod{}, }, Assign{Add{}, Mult{}, }, Assign{Div{}, }, Assign{Mult{}, }, }, Print{}, }, }, }
+def binarne(n):
+    i = 1
+    s = 0
+    while n > 0:
+        rem = n % 2
+        s = s+(i*rem)
+        n = n/2
+        i = i*10
+    print s
+
+def binarne(n):
+    i = 1
+    s = 0
+    while n > 0:
+        rem = n % 2
+        s = s+(i*rem)
+        n = n/2
+        i = i*10
+    return s
+
+def binarne(n):
+    i = 1
+    s = 0
+    for j in range (n):
+        tmp = n % 2
+        s = s+(i*tmp)
+        n = n/2
+        i = i*10
+        
+    print s

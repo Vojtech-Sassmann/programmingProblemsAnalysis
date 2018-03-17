@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, If{Compare{In{}, List{Str{}, Str{}, }, }, AugAssign{Add{}, Call{}, Mult{}, Pow{}, Call{}, Sub{}, Sub{}, }, Print{}, }, AugAssign{Add{}, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    vystup=0
+    i=0
+    for k in range(len (retezec)):
+        if retezec[i] in ["0","1"]:
+            vystup+=int(retezec[i])*2**(len(retezec)-i-1)
+            print 
+        i+=1
+    return vystup
+ 

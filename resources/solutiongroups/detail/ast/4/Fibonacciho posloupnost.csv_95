@@ -1,0 +1,13 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, Print{}, Print{}, For{Call{}, Print{Add{}, }, Assign{}, Assign{}, Assign{Add{}, }, }, }, }, }
+def fibonacci(n):
+    x=1
+    z=1
+    y=0
+    print x,
+    print z,
+    for i in range(2,n):
+        print x+z,
+        y=z
+        z=x
+        x=x+y
+ 

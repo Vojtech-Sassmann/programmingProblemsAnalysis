@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, For{Call{Call{}, }, AugAssign{Sub{}, }, Assign{Pow{}, }, If{Compare{Str{}, }, AugAssign{Add{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    vystup = 0
+    kde = 0
+    for x in range(len(retezec)):
+        kde -= 1
+        rad = 2**x
+        if retezec[kde] == "1":
+            vystup += rad
+    return vystup
+ 

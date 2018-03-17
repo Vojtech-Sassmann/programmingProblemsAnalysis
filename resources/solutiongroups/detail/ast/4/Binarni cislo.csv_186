@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{Assign{Call{}, }, Assign{Call{}, }, Assign{Call{}, }, For{Call{Add{}, }, If{Compare{Call{Subscript{Index{UnaryOp{USub{}, }, }, }, }, Call{Str{}, }, }, AugAssign{Add{}, Pow{}, Sub{}, }, }, }, Return{}, }, }, }
+def vyhodnot(retezec):
+    l=int(0)
+    l=len(retezec)
+    sucet=int(0)
+    for i in range(1,l+1):
+        if ord(retezec[-i])==ord("1"):
+            sucet+=2**(i-1)
+    return sucet
+ 

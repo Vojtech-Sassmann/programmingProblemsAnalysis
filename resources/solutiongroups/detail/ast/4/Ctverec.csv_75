@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{Str{}, Mult{}, }, Assign{Str{}, Add{}, Str{}, Mult{}, Sub{}, Add{}, Str{}, }, For{Call{}, If{BoolOp{And{}, Compare{Gt{}, }, Compare{Lt{}, Sub{}, }, }, Print{}, }, If{BoolOp{Or{}, Compare{Sub{}, }, }, Print{}, }, }, }, }, }
+def ctverec(n):
+    riadok1="*"*n
+    riadok2="*"+"+"*(n-2)+"*"
+    for i in range(n):
+        if i>0 and i<n-1: print riadok2
+        if i==0 or i==n-1: print riadok1
+            
+  
+                
+ 

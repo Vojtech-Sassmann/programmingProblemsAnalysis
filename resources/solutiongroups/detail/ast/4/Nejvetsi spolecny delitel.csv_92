@@ -1,0 +1,11 @@
+1;root{Module{FunctionDef{Assign{}, Assign{}, Assign{}, While{Compare{Gt{}, }, Assign{Mod{}, }, If{Return{}, }, Assign{}, Assign{}, }, }, }, }
+def nsd(a, b):
+    Zbytek = 1
+    x = a
+    y = b
+    while (Zbytek > 0):
+        Zbytek = x%y
+        if (Zbytek == 0):
+            return y
+        x = y
+        y = Zbytek 

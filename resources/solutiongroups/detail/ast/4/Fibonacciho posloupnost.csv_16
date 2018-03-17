@@ -1,0 +1,71 @@
+7;root{Module{FunctionDef{Assign{Tuple{}, Tuple{}, }, Assign{}, Print{}, For{Call{}, Assign{}, Assign{}, Assign{Add{}, }, Print{}, }, }, }, }
+def fibonacci(n):
+    a, b = 0, 0
+    fib = 1
+    print 1,
+    for i in range(1, n):
+        a = b 
+        b = fib 
+        fib = a + b
+        print fib,
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    print a, b,
+    for i in range(n-2):
+        c = a
+        a = b
+        b = c + a
+        print b,
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    c = 0
+    for i in range(n):
+        a = b
+        b = c
+        c = a + b
+        print c,
+ 
+def fibonacci(n):
+    a = 1
+    b = 1
+    print a,
+    for i in range(n-1):
+        temp = a
+        a = b
+        b = temp + b
+        print a,
+ 
+def fibonacci(n):
+    v = 0
+    x = 1
+    print 1,
+    for i in range(1,n):
+        vv = v 
+        v = x
+        x = vv + x
+        print x, 
+def fibonacci(n):
+    x=0
+    y=1
+    z=0
+    for i in range(n):
+        x=y
+        y=z
+        z=x+y
+        print z,
+        
+        
+ 
+def fibonacci(n):
+    a = 0
+    c = 0
+    b = 1
+    for i in range(n):
+        c = b
+        b = a
+        a = a + c
+        print a, 

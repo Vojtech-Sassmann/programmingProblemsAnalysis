@@ -1,0 +1,9 @@
+1;root{Module{FunctionDef{Assign{}, Assign{Mult{}, }, }, Print{Str{}, }, Print{}, Print{Str{}, }, Print{}, }, }
+def dvojnasobek(n):
+
+    n=m
+    m=2*n
+print("Dvojnasobek cisla")
+print(n)
+print("je")
+print(m) 

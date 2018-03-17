@@ -1,0 +1,12 @@
+1;root{Module{FunctionDef{Assign{Str{}, }, Assign{Str{}, }, For{Call{Call{}, }, If{Mod{}, AugAssign{Add{}, Add{}, Str{}, }, AugAssign{Add{}, Str{}, }, AugAssign{Add{}, Add{}, Str{}, }, }, }, }, }, }
+def cikcak(text):
+    line1 = ""
+    line2 = ""
+
+    for i in range(len(text)):    
+        if i%2:
+            line2 += text[i] + " "
+            line1 += ". "
+        else:
+            line1 += text[i] + " "
+ 

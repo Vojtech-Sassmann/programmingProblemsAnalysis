@@ -1,0 +1,10 @@
+1;root{Module{FunctionDef{For{Call{Call{}, }, If{Compare{Gt{}, }, Return{}, If{Compare{Lt{}, }, Return{}, }, }, }, }, FunctionDef{Assign{}, }, }, }
+def abecedne(slovo1, slovo2):
+    for i in range(len(slovo2)):
+        if slovo1[i] > slovo2[i]:
+            return slovo2
+        elif slovo1[i] < slovo2[i]:
+            return slovo1
+
+def nejdelsi_slovo(slova):
+    slova = slova 

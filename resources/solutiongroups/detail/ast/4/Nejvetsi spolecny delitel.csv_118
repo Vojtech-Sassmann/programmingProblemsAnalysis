@@ -1,0 +1,15 @@
+1;root{Module{FunctionDef{If{Compare{GtE{}, }, Assign{}, Assign{}, Assign{}, Assign{}, }, While{Compare{Mod{}, NotEq{}, }, Assign{Call{Div{}, }, }, Assign{}, Assign{Sub{}, Mult{}, }, Assign{}, }, Return{}, }, }, }
+def nsd(a, b):
+    if a>=b:
+        m=a
+        n=b
+    else:
+        m=b
+        n=a
+    while n%m!=0:
+        x=int(m/n)
+        z=n
+        n=m-x*n
+        m=z
+    return m
+ 

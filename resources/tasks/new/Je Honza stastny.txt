@@ -1,0 +1,247 @@
+def happy(a, b, c):break    return (a < 3 or b < 3 or c < 3)break
+def happy(a, b, c):break   	if a < 3 or b < 3 or c < 3:break    	return Truebreak   	else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    break    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return bool(a<3 or b<3 or c<3)break
+def happy(a, b, c):break    return min([a,b,c])<3break
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break        return Truebreak    return Falsebreakbreak
+def happy(a, b, c):break    for n in (a, b, c):break        if n < 3:break            return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3
+def happy(a, b, c):break    if a < 3 or b < 3 or c <3:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    return any(map(lambda x: x < 3, [a, b, c]))
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    for i in (a,b,c):break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return len([i for i in (a, b, c) if i < 3]) > 0break
+def happy(a, b, c):break    for i in [a, b, c]:break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b <3 or c<3:break        return Truebreak    else:break	    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break    
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(*args):break    return any(mark < 3 for mark in args)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    list = [a, b, c]break    happy = [True for x in list if x < 3]break    if happy:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break		return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    list = [a, b, c]break    for i in list:break        if (i < 3):break        	return True;break    return Falsebreak
+def happy(a, b, c):break	if a <= 2 or b <= 2 or c <= 2:break		return Truebreak	else:break		return False
+def happy(a, b, c):break    if a<3 or b<3 or c<3 :break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if(a<3 or b<3 or c<3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b < 3) or (c < 3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3: return Truebreak    if b <3: return Truebreak    if c <3: return Truebreak    break    return Falsebreak
+def happy(a, b, c):break	if 3 > a or 3 > b or 3 > c:break    	return Truebreak	else:break    	return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return (a < 3) or (b < 3) or (c < 3)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return True break    else: return False break    break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreakbreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    nejm = min ([a, b, c])break    return nejm < 3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c <3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if (a<3 or b<3 or c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3: return Truebreak    else: return Falsebreak
+def happy(a, b, c):break    s=[1,2]break    if a in s or b in s or c in s:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    i = 0break    if a < 3:break        i=i+1break    elif b < 3:break        i=i+1break    elif c < 3:break        i=i+1break    if i > 0:break        return True
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return a<3 or b<3 or c<3break
+def happy(a, b, c):break    return min([a, b, c]) < 3break
+def happy(a, b, c):break    return (a < 3 or b < 3 or c < 3)break
+def happy(a, b, c):break   	if a < 3 or b < 3 or c < 3:break    	return Truebreak   	else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    break    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return bool(a<3 or b<3 or c<3)break
+def happy(a, b, c):break    return min([a,b,c])<3break
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break        return Truebreak    return Falsebreakbreak
+def happy(a, b, c):break    for n in (a, b, c):break        if n < 3:break            return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3
+def happy(a, b, c):break    if a < 3 or b < 3 or c <3:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    return any(map(lambda x: x < 3, [a, b, c]))
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    for i in (a,b,c):break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return len([i for i in (a, b, c) if i < 3]) > 0break
+def happy(a, b, c):break    for i in [a, b, c]:break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b <3 or c<3:break        return Truebreak    else:break	    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break    
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(*args):break    return any(mark < 3 for mark in args)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    list = [a, b, c]break    happy = [True for x in list if x < 3]break    if happy:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break		return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    list = [a, b, c]break    for i in list:break        if (i < 3):break        	return True;break    return Falsebreak
+def happy(a, b, c):break	if a <= 2 or b <= 2 or c <= 2:break		return Truebreak	else:break		return False
+def happy(a, b, c):break    if a<3 or b<3 or c<3 :break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if(a<3 or b<3 or c<3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b < 3) or (c < 3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3: return Truebreak    if b <3: return Truebreak    if c <3: return Truebreak    break    return Falsebreak
+def happy(a, b, c):break	if 3 > a or 3 > b or 3 > c:break    	return Truebreak	else:break    	return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return (a < 3) or (b < 3) or (c < 3)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return True break    else: return False break    break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreakbreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    nejm = min ([a, b, c])break    return nejm < 3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c <3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if (a<3 or b<3 or c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3: return Truebreak    else: return Falsebreak
+def happy(a, b, c):break    s=[1,2]break    if a in s or b in s or c in s:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    i = 0break    if a < 3:break        i=i+1break    elif b < 3:break        i=i+1break    elif c < 3:break        i=i+1break    if i > 0:break        return True
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return a<3 or b<3 or c<3break
+def happy(a, b, c):break    return min([a, b, c]) < 3break
+def happy(a, b, c):break    return (a < 3 or b < 3 or c < 3)break
+def happy(a, b, c):break   	if a < 3 or b < 3 or c < 3:break    	return Truebreak   	else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    break    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return bool(a<3 or b<3 or c<3)break
+def happy(a, b, c):break    return min([a,b,c])<3break
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break        return Truebreak    return Falsebreakbreak
+def happy(a, b, c):break    for n in (a, b, c):break        if n < 3:break            return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3
+def happy(a, b, c):break    if a < 3 or b < 3 or c <3:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    return any(map(lambda x: x < 3, [a, b, c]))
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    for i in (a,b,c):break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return len([i for i in (a, b, c) if i < 3]) > 0break
+def happy(a, b, c):break    for i in [a, b, c]:break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b <3 or c<3:break        return Truebreak    else:break	    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break    
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(*args):break    return any(mark < 3 for mark in args)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    list = [a, b, c]break    happy = [True for x in list if x < 3]break    if happy:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break		return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    list = [a, b, c]break    for i in list:break        if (i < 3):break        	return True;break    return Falsebreak
+def happy(a, b, c):break	if a <= 2 or b <= 2 or c <= 2:break		return Truebreak	else:break		return False
+def happy(a, b, c):break    if a<3 or b<3 or c<3 :break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if(a<3 or b<3 or c<3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b < 3) or (c < 3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3: return Truebreak    if b <3: return Truebreak    if c <3: return Truebreak    break    return Falsebreak
+def happy(a, b, c):break	if 3 > a or 3 > b or 3 > c:break    	return Truebreak	else:break    	return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return (a < 3) or (b < 3) or (c < 3)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return True break    else: return False break    break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreakbreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    nejm = min ([a, b, c])break    return nejm < 3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c <3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if (a<3 or b<3 or c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3: return Truebreak    else: return Falsebreak
+def happy(a, b, c):break    s=[1,2]break    if a in s or b in s or c in s:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return a<3 or b<3 or c<3break
+def happy(a, b, c):break    return min([a, b, c]) < 3break
+def happy(a, b, c):break    return (a < 3 or b < 3 or c < 3)break
+def happy(a, b, c):break   	if a < 3 or b < 3 or c < 3:break    	return Truebreak   	else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    break    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return bool(a<3 or b<3 or c<3)break
+def happy(a, b, c):break    return min([a,b,c])<3break
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break        return Truebreak    return Falsebreakbreak
+def happy(a, b, c):break    for n in (a, b, c):break        if n < 3:break            return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3
+def happy(a, b, c):break    if a < 3 or b < 3 or c <3:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    return any(map(lambda x: x < 3, [a, b, c]))
+def happy(a, b, c):break    z = [x for x in [a, b, c] if x < 3]break    if len(z) > 0:break        return Truebreak    else:break        return False
+def happy(a, b, c):break    for i in (a,b,c):break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return len([i for i in (a, b, c) if i < 3]) > 0break
+def happy(a, b, c):break    for i in [a, b, c]:break        if i < 3:break            return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b <3 or c<3:break        return Truebreak    else:break	    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break    
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(*args):break    return any(mark < 3 for mark in args)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    list = [a, b, c]break    happy = [True for x in list if x < 3]break    if happy:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break		return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    break    return Falsebreak
+def happy(a, b, c):break    list = [a, b, c]break    for i in list:break        if (i < 3):break        	return True;break    return Falsebreak
+def happy(a, b, c):break	if a <= 2 or b <= 2 or c <= 2:break		return Truebreak	else:break		return False
+def happy(a, b, c):break    if a<3 or b<3 or c<3 :break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if(a<3 or b<3 or c<3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b < 3) or (c < 3):break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if a < 3: return Truebreak    if b <3: return Truebreak    if c <3: return Truebreak    break    return Falsebreak
+def happy(a, b, c):break	if 3 > a or 3 > b or 3 > c:break    	return Truebreak	else:break    	return Falsebreak
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if a<3 or b<3 or c<3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break    	return Truebreak    else:break    	return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if (a<3) or (b<3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return (a < 3) or (b < 3) or (c < 3)break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return True break    else: return False break    break
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreakbreak
+def happy(a, b, c):break    if (a < 3) or (b <3) or (c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    nejm = min ([a, b, c])break    return nejm < 3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c <3break
+def happy(a, b, c):break    return a < 3 or b < 3 or c < 3break
+def happy(a, b, c):break    if (a<3 or b<3 or c<3):break        return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    if a < 3 or b < 3 or c < 3: return Truebreak    else: return Falsebreak
+def happy(a, b, c):break    s=[1,2]break    if a in s or b in s or c in s:break        return Truebreak    return Falsebreak
+def happy(a, b, c):break    i = 0break    if a < 3:break        i=i+1break    elif b < 3:break        i=i+1break    elif c < 3:break        i=i+1break    if i > 0:break        return True
+def happy(a, b, c):break    if (a < 3 or b < 3 or c < 3):break    	return Truebreak    else:break        return Falsebreak
+def happy(a, b, c):break    return a<3 or b<3 or c<3break
+def happy(a, b, c):break    return min([a, b, c]) < 3break

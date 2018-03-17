@@ -1,0 +1,15 @@
+2;root{Module{FunctionDef{While{Compare{NotEq{}, }, Assign{}, Assign{Mod{}, }, Assign{}, }, }, Return{Div{}, }, }, }
+def nsd(a, b):
+    while a!=b:
+        c=b
+        b=a%b
+        a=c
+return a/3
+ 
+def nsd(a, b):
+    while a!=b:
+        c=b
+        b=a%b
+        a=c
+return a/(c/2)
+ 

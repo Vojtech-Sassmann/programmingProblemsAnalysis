@@ -1,0 +1,8 @@
+1;root{Module{FunctionDef{For{Call{Mult{}, Add{}, }, For{Call{Mult{}, Add{}, }, If{BoolOp{Or{}, Compare{Add{}, Lt{}, }, Compare{Add{}, Gt{}, Mult{}, }, BoolOp{And{}, Compare{Gt{}, Add{}, }, Compare{Lt{}, }, }, BoolOp{And{}, Compare{Lt{}, }, Compare{Gt{}, Add{}, }, }, }, Print{Str{}, }, Expr{}, }, }, }, }, }, }
+def diamant(n):
+    for i in range (2*n+1):
+        for j in range (2*n+1):
+            if (i+j)<n or (i+j)>3*n or ((i>n+j)and (j<n)) or ((i<n) and (j>n+i)):
+                print ".",
+            else:
+                pri 
