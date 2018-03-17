@@ -50,6 +50,11 @@ class Statistics(object):
 
         best_group = None
         best_distance = None
+        if self.threshold == 0:
+            new_group = TreeGroup(tree)
+            self.groups.append(new_group)
+            return
+
         for group in self.groups:
             if best_distance == 0:
                 break
@@ -163,7 +168,7 @@ def analyze_files(threshold):
         print f
         analyze_file(f, threshold)
 
-output = "./resources/solutiongroups/ast/8/"
-similarity_threshold = 8
+output = "./resources/solutiongroups/ast/0/"
+similarity_threshold = 0
 
 analyze_files(similarity_threshold)
