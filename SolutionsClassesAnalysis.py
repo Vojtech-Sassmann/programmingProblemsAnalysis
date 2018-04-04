@@ -7,6 +7,11 @@ import matplotlib.pyplot as plt
 from os import listdir
 from os.path import isfile, join
 from sklearn.decomposition import PCA
+import numpy as np
+
+from sklearn.cluster import DBSCAN
+from sklearn import metrics
+from sklearn.preprocessing import StandardScaler
 from adjustText import adjust_text
 import pandas as pd
 import math
@@ -19,7 +24,7 @@ class TreeGroup(object):
         self.trees.append(base_tree)
 
     def calc_distance(self, tree):
-        return math.log(Parser.calculate_distance(self.base_tree, tree) + 1)
+        return Parser.calculate_distance(self.base_tree, tree)
 
     def add_tree(self, tree):
         self.trees.append(tree)
@@ -108,6 +113,30 @@ def save_data(file_name, groups):
             print >> f, str(group.get_size()) + ";" + str(group)
 
 
+def cluster_dbscan(distance_matrix, solution_groups, file_name):
+    try:
+        db = DBSCAN(metric='precomputed', min_samples=DBSCAN_MIN_SIZE, eps=DBSCAN_EPSILON).fit(distance_matrix)
+    except:
+        print "Using default values"
+        db = DBSCAN(metric='precomputed').fit(distance_matrix)
+
+    core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
+    core_samples_mask[db.core_sample_indices_] = True
+    labels = db.labels_
+
+    # Number of clusters in labels, ignoring noise if present.
+    n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
+
+    print('Estimated number of clusters: %d' % n_clusters_)
+    print("Silhouette Coefficient: %0.3f"
+          % metrics.silhouette_score(distance_matrix, labels))
+
+    for cluster, group in zip(db.labels_, solution_groups):
+        if cluster is not -1:
+            with codecs.open(output + file_name + "_" + str(cluster), 'w', encoding='UTF-8') as f:
+                print >> f, str(group.get_base_tree().get_raw())
+
+
 def analyze_file(file_name, t):
 
     statistics = Statistics(t)
@@ -132,23 +161,29 @@ def analyze_file(file_name, t):
     distance_matrix = {}
     labels = []
 
-    save_data(file_name, groups)
-    save_details(file_name, groups)
+    # save_data(file_name, groups)
+    # save_details(file_name, groups)
     for group in groups:
-        print str(len(group.get_trees())) + " -> " + str(group)
-        Parser.print_node(group.get_base_tree())
+        # print str(len(group.get_trees())) + " -> " + str(group)
+        # Parser.print_node(group.get_base_tree())
     # for tree in sorted(statistics.data):
     #     print str(tree) + " -> " + str(statistics.data[tree])
-    #     labels.append(group.get_base_tree().get_raw())
-    #     for other_group in groups:
-    #         distance = group.calc_distance(other_group.get_base_tree())
-    #         if group not in distance_matrix:
-    #             distance_matrix[group] = [distance]
-    #         else:
-    #             distance_matrix[group].append(distance)
-    #
+        labels.append(group.get_base_tree().get_raw())
+        for other_group in groups:
+            distance = group.calc_distance(other_group.get_base_tree())
+            if group not in distance_matrix:
+                distance_matrix[group] = [distance]
+            else:
+                distance_matrix[group].append(distance)
+
+
     # print distance_matrix
-    # metrics_frame = pd.DataFrame(data=distance_matrix, index=labels)
+    metrics_frame = pd.DataFrame(data=distance_matrix, index=labels)
+
+    metrics_frame.to_pickle(output + "distances/" + file_name[:-3] + "pkl")
+    loaded = pd.read_pickle(output + "distances/" + file_name[:-3] + "pkl")
+
+    cluster_dbscan(metrics_frame, groups, file_name)
     # show_df(metrics_frame)
     # show_pca(metrics_frame)
 
@@ -183,7 +218,9 @@ def analyze_files(threshold):
         print f
         analyze_file(f, threshold)
 
-output = "./resources/solutiongroups/ast/log_2/"
-similarity_threshold = 2
-
-analyze_files(similarity_threshold)
+output = "./resources/test/solutiongroups/dbscan/"
+similarity_threshold = 0
+DBSCAN_MIN_SIZE = 10
+DBSCAN_EPSILON = 5
+# analyze_files(similarity_threshold)
+analyze_file('Tajna posloupnost.txt', similarity_threshold)

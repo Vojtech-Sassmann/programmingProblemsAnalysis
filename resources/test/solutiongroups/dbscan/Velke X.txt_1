@@ -1,0 +1,12 @@
+def velkex(n):
+    k = n-2
+    b = 0
+    while k >0:
+        print ". "*b+"h "+". "*k+"h "+". "*b
+        b += 1
+        k -= 2
+    print ". "*b+"h "+". "*b
+    k += 2
+    b -= 1
+    while k < n:
+        prin 

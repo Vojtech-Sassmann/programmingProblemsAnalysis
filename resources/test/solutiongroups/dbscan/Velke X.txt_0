@@ -1,0 +1,2 @@
+def velkex(n):
+    m = n / 2   
