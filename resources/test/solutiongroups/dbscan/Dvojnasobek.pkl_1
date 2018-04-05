@@ -1,0 +1,442 @@
+def dvojnasobek(n):
+    a = n*2
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    m = 2*n 
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je",x
+ 
+def dvojnasobek(n):
+    p=n*2
+    print "Dvojnasobek cisla", n, "je", p
+ 
+def dvojnasobek(n):
+    x=2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    dvoj = n*2
+    print "Dvojnasobek cisla", n, "je", dvoj
+ 
+def dvojnasobek(n):
+    x=2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = 2*n
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    pom = 0
+    pom = n * 2 
+    print "Dvojnasobek cisla", n, "je", pom
+ 
+def dvojnasobek(n):
+    nasobok = n*2
+    print "Dvojnasobek cisla", n, "je", nasobok
+ 
+def dvojnasobek(n):
+    a = n * 2
+    b = a
+    print "Dvojnasobek cisla", n, "je", b
+ 
+def dvojnasobek(n):
+    x = 2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = n*2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    dvoj=n*2
+    print "Dvojnasobek cisla", n, "je", dvoj
+ 
+def dvojnasobek(n):
+    x = n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = 2 * n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = 2*n
+    print "Dvojnasobek cisla", n, " je ", x
+    return x 
+def dvojnasobek(n):
+    m = n*2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n, m):
+    m = n * 2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    dvoj=n*2
+    print "Dvojnasobek cisla", n, "je", dvoj
+ 
+def dvojnasobek(n):
+    a=n*2
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    dvojnasobok = n * 2
+    print "Dvojnasobek cisla", n, "je", dvojnasobok
+ 
+def dvojnasobek(n):
+    d=2*n
+    print "Dvojnasobek cisla", n, "je", d
+ 
+def dvojnasobek(n):
+    f = n
+    f = n * 2 
+    print "Dvojnasobek cisla", n, "je", f
+ 
+def dvojnasobek(n):
+    cislo=2*n
+    print "Dvojnasobek cisla", n, "je", cislo
+ 
+def dvojnasobek(n):
+    cislo = n*2
+    print "Dvojnasobek cisla", n, "je", cislo
+ 
+def dvojnasobek(n):
+    dv=n*2
+    print "Dvojnasobek cisla", n, "je", dv
+ 
+def dvojnasobek(n):
+    d=n*2
+    print "Dvojnasobek cisla", n, "je", d
+ 
+def dvojnasobek(n):
+    cislo = n
+    nasobek = cislo + cislo
+    print "Dvojnasobek cisla", cislo, "je", nasobek,
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = 2 * n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = n
+    m *= 2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    k=n*2
+    print "Dvojnasobek cisla", n, "je", k
+ 
+def dvojnasobek(n):
+    x = n * 2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    b =n*2
+    print "Dvojnasobek cisla", n, "je", b
+ 
+def dvojnasobek(n):
+    a=2*n
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    x = 2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = n * 2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    x = n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    r = n * 2
+    print "Dvojnasobek cisla", n, "je", r
+ 
+def dvojnasobek(n):
+    n=n*2
+    print "Dvojnasobek cisla", n/2, "je", n,
+    return
+    
+ 
+def dvojnasobek(n):
+    nas=int(0)
+    nas=2*n
+    print "Dvojnasobek cisla", n, "je", nas
+ 
+def dvojnasobek(n):
+    m=n*2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    cislo = n * 2
+    print "Dvojnasobek cisla", n, "je", cislo
+ 
+def dvojnasobek(n):
+    a=n*2
+    print "Dvojnasobek cisla", n, "je",a
+ 
+def dvojnasobek(n):
+    sucet=0
+    sucet=n*2
+    print "Dvojnasobek cisla", n, "je", sucet
+ 
+def dvojnasobek(n):
+    dvoj=n*2
+    print "Dvojnasobek cisla ", n, "je ", dvoj
+ 
+def dvojnasobek(n):
+    a = 2*n
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    p=2*n
+    print "Dvojnasobek cisla", n, "je",p
+ 
+def dvojnasobek(n):
+    a = n*2
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    m = 2*n 
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je",x
+ 
+def dvojnasobek(n):
+    p=n*2
+    print "Dvojnasobek cisla", n, "je", p
+ 
+def dvojnasobek(n):
+    x=2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    dvoj = n*2
+    print "Dvojnasobek cisla", n, "je", dvoj
+ 
+def dvojnasobek(n):
+    x=2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = 2*n
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    pom = 0
+    pom = n * 2 
+    print "Dvojnasobek cisla", n, "je", pom
+ 
+def dvojnasobek(n):
+    nasobok = n*2
+    print "Dvojnasobek cisla", n, "je", nasobok
+ 
+def dvojnasobek(n):
+    a = n * 2
+    b = a
+    print "Dvojnasobek cisla", n, "je", b
+ 
+def dvojnasobek(n):
+    x = 2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = n*2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    dvoj=n*2
+    print "Dvojnasobek cisla", n, "je", dvoj
+ 
+def dvojnasobek(n):
+    x = n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = 2 * n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = 2*n
+    print "Dvojnasobek cisla", n, " je ", x
+    return x 
+def dvojnasobek(n):
+    m = n*2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n, m):
+    m = n * 2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    dvoj=n*2
+    print "Dvojnasobek cisla", n, "je", dvoj
+ 
+def dvojnasobek(n):
+    a=n*2
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    dvojnasobok = n * 2
+    print "Dvojnasobek cisla", n, "je", dvojnasobok
+ 
+def dvojnasobek(n):
+    d=2*n
+    print "Dvojnasobek cisla", n, "je", d
+ 
+def dvojnasobek(n):
+    f = n
+    f = n * 2 
+    print "Dvojnasobek cisla", n, "je", f
+ 
+def dvojnasobek(n):
+    cislo=2*n
+    print "Dvojnasobek cisla", n, "je", cislo
+ 
+def dvojnasobek(n):
+    cislo = n*2
+    print "Dvojnasobek cisla", n, "je", cislo
+ 
+def dvojnasobek(n):
+    dv=n*2
+    print "Dvojnasobek cisla", n, "je", dv
+ 
+def dvojnasobek(n):
+    d=n*2
+    print "Dvojnasobek cisla", n, "je", d
+ 
+def dvojnasobek(n):
+    cislo = n
+    nasobek = cislo + cislo
+    print "Dvojnasobek cisla", cislo, "je", nasobek,
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = 2 * n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = n
+    m *= 2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    k=n*2
+    print "Dvojnasobek cisla", n, "je", k
+ 
+def dvojnasobek(n):
+    x = n * 2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x=n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    b =n*2
+    print "Dvojnasobek cisla", n, "je", b
+ 
+def dvojnasobek(n):
+    a=2*n
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    x = 2*n
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    m = n * 2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    x = n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    x = n*2
+    print "Dvojnasobek cisla", n, "je", x
+ 
+def dvojnasobek(n):
+    r = n * 2
+    print "Dvojnasobek cisla", n, "je", r
+ 
+def dvojnasobek(n):
+    n=n*2
+    print "Dvojnasobek cisla", n/2, "je", n,
+    return
+    
+ 
+def dvojnasobek(n):
+    nas=int(0)
+    nas=2*n
+    print "Dvojnasobek cisla", n, "je", nas
+ 
+def dvojnasobek(n):
+    m=n*2
+    print "Dvojnasobek cisla", n, "je", m
+ 
+def dvojnasobek(n):
+    cislo = n * 2
+    print "Dvojnasobek cisla", n, "je", cislo
+ 
+def dvojnasobek(n):
+    a=n*2
+    print "Dvojnasobek cisla", n, "je",a
+ 
+def dvojnasobek(n):
+    sucet=0
+    sucet=n*2
+    print "Dvojnasobek cisla", n, "je", sucet
+ 
+def dvojnasobek(n):
+    dvoj=n*2
+    print "Dvojnasobek cisla ", n, "je ", dvoj
+ 
+def dvojnasobek(n):
+    a = 2*n
+    print "Dvojnasobek cisla", n, "je", a
+ 
+def dvojnasobek(n):
+    p=2*n
+    print "Dvojnasobek cisla", n, "je",p
+ 

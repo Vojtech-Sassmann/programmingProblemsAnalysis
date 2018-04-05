@@ -1,0 +1,160 @@
+def palindrom(text):
+    odzad = ""
+    for i in range(1, len(text)):
+        odzad += text[-i]
+    
+   
+    if (text == odzad):
+   
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    odzad = ""
+    for i in range(1, len(text)+1):
+        odzad += text[-i]
+   
+    if (text == odzad):
+   
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    x=""
+    for i in range(1,len(text)):
+        x+=text[(len(text)-i)]
+
+    if x==text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    x=""
+    for i in range(1,len(text)+1):
+        x+=text[(len(text)-i)]
+    if x==text:
+        return True
+    else:
+        return False
+ 
+def palindrom (text):
+    vystup=""
+    for i in range (len(text)):
+        vystup+=text[-i-1]
+    if text==vystup:
+        return True
+    else:
+        return False
+       
+  
+ 
+def palindrom(text):
+    novy = ""
+    for i in range(len(text)):
+        novy += text[len(text) -i -1]
+    if (novy == text):
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    invert=""
+    for i in range(len(text)):
+        invert=invert+text[-(i+1)]
+    if text==invert:
+        return True
+    else: return False
+ 
+def palindrom(text):
+    x=""
+    for i in range(len(text),0,-1):
+        x+=text[i-1]
+        
+    if x==text:return True
+    else:return False
+ 
+def palindrom(text):
+    prom=""
+    for i in range(len(text),0,-1):
+        prom+=text[i-1]
+    if text==prom:return True
+    else:return False
+ 
+def palindrom(text):
+    text2=""
+    for i in range(1,len(text)+1):
+        text2+=text[-i]
+        
+    if text2==text:
+        return True
+    else:
+        return False
+ 
+def palindrom(S):
+   pal = ""
+   for i in range(1,len(S)+1):
+      pal = pal + S[len(S)-i]
+   if pal == S:
+      return True
+   else:
+      return False 
+def palindrom(text):
+    obrat = ""
+    for i in range(len(text)):      
+        obrat = obrat + text[len(text)-i-1]
+    if obrat==text:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    obrat = ""
+    for i in range(len(text)):      
+        obrat = obrat + text[len(text)-i-1]
+    if obrat==text:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    retazec = "" 
+    for i in range(1,len(text)+1):
+        retazec += text[-i]
+    if text == retazec:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    pomocny=""
+    for i in range(1,len(text)+1):
+        pomocny+=text[-i]
+    if pomocny==text:
+        return True
+    else:
+        return False
+  
+ 
+def palindrom(text):
+    list1=""
+    for i in range (len(text)):
+        list1=list1 + text[len(text)-1-i]
+    if list1==text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    pal = ""
+    for i in range(len(text)):
+        pal+=text[len(text)-i-1]
+    return pal==text 
+def palindrom(text):
+    x = ""
+    for i in range(len(text),0,-1):
+        x = x + text[i-1]
+    if x == text:
+        return True
+    else:
+        return False 

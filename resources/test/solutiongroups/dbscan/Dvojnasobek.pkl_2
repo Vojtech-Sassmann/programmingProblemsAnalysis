@@ -1,0 +1,48 @@
+def dvojnasobek(n):
+    return 2*n 
+def dvojnasobek(n):
+    print n*2
+   
+ 
+def dvojnasobek(n):
+    print n*2
+    return n
+ 
+def dvojnasobek(n):
+    print n*2
+ 
+def dvojnasobek(n):
+    return n*2 
+def dvojnasobek(n):
+    print 2 * n
+ 
+def dvojnasobek(n):
+    print n*2
+ 
+n=input
+def cislo(n):
+    print (n*2) 
+def dvojnasobek(n):
+    return 2*n 
+def dvojnasobek(n):
+    print n*2
+   
+ 
+def dvojnasobek(n):
+    print n*2
+    return n
+ 
+def dvojnasobek(n):
+    print n*2
+ 
+def dvojnasobek(n):
+    return n*2 
+def dvojnasobek(n):
+    print 2 * n
+ 
+def dvojnasobek(n):
+    print n*2
+ 
+n=input
+def cislo(n):
+    print (n*2) 

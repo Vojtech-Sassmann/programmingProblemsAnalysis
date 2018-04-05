@@ -1,0 +1,262 @@
+def nsd(a, b):
+    while a!=b:
+        if a >b:
+            a-=b
+        if b> a:
+            b-=a
+    return a
+ 
+def nsd(a, b):
+    while a!=b:
+        if a>b:a=a-b
+        if a<b:b=b-a
+    return a
+ 
+def nsd(a, b):
+    while(a !=b):
+       if(a>b):
+            a = a - b
+       elif (b>a):
+                b = b - a
+                
+    return a
+ 
+def nsd(a,b):
+    while a<>b:
+        if a<b:
+            b = b-a
+        else:
+            if a>b:
+                a = a-b
+    return a
+ 
+def nsd(a, b):
+    while a !=b:
+        if a > b:
+            a = a - b
+        if b > a:
+            b = b - a
+    return a
+ 
+def nsd(A, B):
+    while (A <> B):
+           if (A > B):
+            A = A - B 
+            if (a < B ):
+                B = B - A
+    return 1
+ 
+def nsd(A, B):
+    while (A <> B):
+        if (A > B):
+            A = A - B
+        if (A < B):
+            B = B - A
+    return A 
+def nsd(A, B):
+    while (A<>B):
+        if (A>B):
+            A = A - B
+        if (A<B):
+            B = B - A
+    return A
+ 
+def nsd(a, b):
+    while (A <> B):
+        if (A <> B):
+            A = A - B
+        if (A <> B):
+            B = B - A
+    return 6
+ 
+def nsd(a, b):
+    while (A <> B):
+        if (A <> B):
+            A = A - B
+        if (A <> B):
+            B = B - A
+    return 5
+ 
+def nsd(A, B):
+    while (A <> B):
+        if (A > B):
+            A = A - B
+        if (A <> B):
+            B = B - A
+    return A
+ 
+def nsd(A, B):
+    while (A <> B):
+        if (A > B):
+            A = A - B
+        if (A < B):
+            B = B - A
+    return A
+ 
+def nsd (a, b):
+    while (a!=b):
+        
+        if (a>b):
+            a=a-b
+            if (a<b):
+                b=b-a
+                return b 
+def nsd(a, b):
+    while (a!=b):
+        if (a>b): 
+            a=a-b 
+        if (a<b): 
+            b=b-a    
+    return b
+
+    
+ 
+def nsd(a, b):
+    while (a!=b):
+
+        if (a>b): 
+            a=a-b 
+        if (a<b): 
+            b=b-a    
+    return b
+ 
+def nsd(a, b):
+    while (a!=b):
+        
+        if (a>b):
+            a=a-b
+        if (a<b):
+            b=b-a
+    return b
+ 
+def nsd(a, b):
+    while a!=b:
+        if a >b:
+            a-=b
+        if b> a:
+            b-=a
+    return a
+ 
+def nsd(a, b):
+    while a!=b:
+        if a>b:a=a-b
+        if a<b:b=b-a
+    return a
+ 
+def nsd(a, b):
+    while(a !=b):
+       if(a>b):
+            a = a - b
+       elif (b>a):
+                b = b - a
+                
+    return a
+ 
+def nsd(a,b):
+    while a<>b:
+        if a<b:
+            b = b-a
+        else:
+            if a>b:
+                a = a-b
+    return a
+ 
+def nsd(a, b):
+    while a !=b:
+        if a > b:
+            a = a - b
+        if b > a:
+            b = b - a
+    return a
+ 
+def nsd(A, B):
+    while (A <> B):
+           if (A > B):
+            A = A - B 
+            if (a < B ):
+                B = B - A
+    return 1
+ 
+def nsd(A, B):
+    while (A <> B):
+        if (A > B):
+            A = A - B
+        if (A < B):
+            B = B - A
+    return A 
+def nsd(A, B):
+    while (A<>B):
+        if (A>B):
+            A = A - B
+        if (A<B):
+            B = B - A
+    return A
+ 
+def nsd(a, b):
+    while (A <> B):
+        if (A <> B):
+            A = A - B
+        if (A <> B):
+            B = B - A
+    return 6
+ 
+def nsd(a, b):
+    while (A <> B):
+        if (A <> B):
+            A = A - B
+        if (A <> B):
+            B = B - A
+    return 5
+ 
+def nsd(A, B):
+    while (A <> B):
+        if (A > B):
+            A = A - B
+        if (A <> B):
+            B = B - A
+    return A
+ 
+def nsd(A, B):
+    while (A <> B):
+        if (A > B):
+            A = A - B
+        if (A < B):
+            B = B - A
+    return A
+ 
+def nsd (a, b):
+    while (a!=b):
+        
+        if (a>b):
+            a=a-b
+            if (a<b):
+                b=b-a
+                return b 
+def nsd(a, b):
+    while (a!=b):
+        if (a>b): 
+            a=a-b 
+        if (a<b): 
+            b=b-a    
+    return b
+
+    
+ 
+def nsd(a, b):
+    while (a!=b):
+
+        if (a>b): 
+            a=a-b 
+        if (a<b): 
+            b=b-a    
+    return b
+ 
+def nsd(a, b):
+    while (a!=b):
+        
+        if (a>b):
+            a=a-b
+        if (a<b):
+            b=b-a
+    return b
+ 

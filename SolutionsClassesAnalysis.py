@@ -154,6 +154,7 @@ def analyze_file(file_name, t):
     # save_data(file_name, groups)
     # save_details(file_name, groups)
     distances_cache = {}
+    finished = 0
     for group in groups:
 
         solutions.append(group.get_base_tree().get_raw())
@@ -174,7 +175,10 @@ def analyze_file(file_name, t):
             # first iteration
             group_distances.append(distance)
         distance_matrix.append(group_distances)
-        print "finished: {}%".format(float(distance_matrix.__len__()) / groups.__len__() * 100)
+        new_finished = int(float(distance_matrix.__len__()) / groups.__len__() * 100)
+        if new_finished > finished:
+            print "finished: {}%".format(new_finished)
+            finished = new_finished
 
 
     # print distance_matrix
@@ -216,13 +220,17 @@ def analyze_files(threshold):
         print f
         analyze_file(f, threshold)
 
+
 output = "./resources/test/solutiongroups/dbscan/"
 similarity_threshold = 0
 DBSCAN_MIN_SIZE = 10
 DBSCAN_EPSILON = 4
 # analyze_files(similarity_threshold)
 start_time = time.time()
-print "AA: {}%".format(float(52) / 100 * 100)
-analyze_file('Dvojnasobek.txt', similarity_threshold)
+analyze_file('Nejvetsi spolecny delitel.txt', similarity_threshold)
+end_time = time.time()
+print "Calculation finished in time: {}s".format(end_time - start_time)
+start_time = time.time()
+analyze_file('Palindrom.txt', similarity_threshold)
 end_time = time.time()
 print "Calculation finished in time: {}s".format(end_time - start_time)

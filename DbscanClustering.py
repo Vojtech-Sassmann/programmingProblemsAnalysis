@@ -73,11 +73,15 @@ def project(distance_matrix, labels):
         color = colors[labels[i]]
         if labels[i] == -1:
             color = [0, 0, 0, 1]
-        plt.plot(x, y, "o", markerfacecolor=tuple(color), markeredgecolor='k')
+        if labels[i] != -1:
+            plt.plot(x, y, "o", markerfacecolor=tuple(color), markeredgecolor='k', markersize=18)
+        else:
+            plt.plot(x, y, "o", markerfacecolor=tuple(color), markeredgecolor='k')
         # texts.append(plt.text(x, y, distance_matrix.index[i], size=10))
 
     adjust_text(texts)
-    plt.show()
+    plt.savefig("Palindrom_DBSCAN.svg")
+    # plt.show()
 
 
 def analyze_file(file_name):
@@ -86,7 +90,7 @@ def analyze_file(file_name):
 
 
 path = "./resources/test/solutiongroups/dbscan/"
-DBSCAN_MIN_SIZE = 5
-DBSCAN_EPSILON = 0.5
+DBSCAN_MIN_SIZE = 8
+DBSCAN_EPSILON = 2
 
-analyze_file("Dvojnasobek.pkl")
+analyze_file("Palindrom.pkl")

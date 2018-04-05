@@ -1,0 +1,1470 @@
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b
+ 
+def nsd(a, b):
+    while b > 1:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b>0:
+        p=a
+        a=b
+        b=p
+        b=b % a     
+    return a
+ 
+def nsd(a, b):
+    temp = 0
+    while(a != 0):
+        temp = a
+        a = b % a
+        b = temp
+    return b
+ 
+def nsd(a, b):
+    while b!=0:
+        (a,b)=(b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        x=b
+        b=a%b
+        a=x
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        a,b=b,a%b
+    return a
+ 
+def nsd(cislo1, cislo2):
+    while cislo2!=0:
+        delitel = cislo2
+        cislo2= cislo1 % cislo2
+        cislo1 = delitel
+    return cislo1
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        z = a % b
+        a = b
+        b = z
+    return a
+ 
+def nsd(a, b):
+    while b!= 0:
+        tmp = a
+        a = b
+        b = tmp % b
+        
+    return a
+ 
+def nsd(a, b):
+    t = 0
+    while b != 0:
+        t = b
+        b = a%b
+        a = t
+    return a
+    return 1
+ 
+def nsd(a, b):
+    while b != 0:
+        c = a%b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)    
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        temp = a%b
+        a=b
+        b=temp
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = a%b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    while a > 0:
+        a, b = b % a ,a
+    return b
+ 
+def nsd(a, b):
+    while b!=0:
+        x = b
+    return 1
+ 
+def nsd(a, b):
+    while b!=0:
+        b = a%b
+    return b
+ 
+def nsd(a, b):
+    while b!=0:
+        x = b
+        b = a%b
+        a = x
+    return a
+ 
+def nsd(a, b):
+    tmp=0
+    while b%a>0:
+        tmp = b%a
+        b=a
+        a=tmp
+    return a
+ 
+def nsd(a, b):
+    pom= 0
+    while b != 0:
+        pom = a%b
+        a = b
+        b = pom
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        (a,b)=(b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a, b):
+    while b!= 0:
+        (a,b) = (b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while (b!=0):
+        pom=a
+        a=b
+        b=pom%b
+    return a
+ 
+def nsd(a, b):
+    while (b!=0):
+        x = a
+        a=b
+        b= x%b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+    
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while(b != 0):
+        tmp = a
+        a = b
+        b = tmp % b
+    
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while a != 0:
+        t = a
+        a = b % a
+        b = t
+    return b
+ 
+def nsd(a, b):
+    while b !=0:
+        c = b
+        b= a%b
+        a=c
+    return c
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a, b):
+    remainder=1
+    while remainder!=0:
+        remainder=a%b
+        a=b
+        b=remainder
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        x = a%b
+        a = b
+        b = x
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        temp = b
+        b = a % b
+        a = temp
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+ 
+def nsd(a, b):
+   while b:
+      a, b = b, a%b
+   return abs(a)
+ 
+def nsd(a, b):
+    while a:
+        a, b=b%a, a
+    return b
+ 
+def nsd(a, b):
+    while b:
+        a,b = b,a%b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        x = b
+        b = a % b
+        a = x
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        n = b
+        b = a % b
+        a = n
+    return a
+ 
+def nsd(a, b):
+    c = 0
+    if a == 0:
+        return b
+    while b != 0:
+        c = b
+        b = a%b
+        a = c
+    return a
+ 
+def nsd(a,b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        c=b
+        b=a%b
+        a=c
+    return a
+ 
+def nsd(a,b):
+    while (b <> 0):
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    
+    while b<>0:
+        a,b=b,a%b
+        
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        (a,b) = (b, a%b)
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a, b):
+    while (b != 0):
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+        return a
+    
+        
+ 
+def nsd(u, w):
+    while w != 0:
+        r = u % w
+        u = w
+        w = r
+    return u 
+def nsd(a, b):
+    while b!=0:
+        t = b
+        b = a%b
+        a = t
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    while b != 0:
+       c = b
+       b = a % b
+       a = c
+    return a 
+def nsd(a, b):
+    while b != 0:
+        x = b
+        b = a % b
+        a = x
+    return a
+ 
+def nsd(a, b):
+    while b>0:
+        pom=a%b
+        a=b
+        b=pom
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a
+
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b!=0:
+        (a, b) = (b, a%b)
+    return a
+    
+ 
+def nsd(a, b):
+    c = 0
+    while b != 0:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    a = abs(a)
+    while b > 0:
+        b, a = a % b, b 
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a
+ 
+def nsd (u,v):
+    t = 0
+    while v > 0:
+        t = v
+        v = u % v
+        u = t
+    return u
+ 
+def nsd(a, b):
+    r = 0
+    while b != 0:
+        r = a % b
+        a = b
+        b = r 
+    return a 
+def nsd(a, b):
+    while b!=0:
+        t=b
+        b=a%b
+        a=t
+    return a
+ 
+def nsd(a, b):
+    while b<>0:
+        c=b
+        b=a%b
+        a=c
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        r = (a % b)
+        a = b
+        b = r
+    return a 
+def nsd(a, b):
+    while b!=0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
+ 
+def nsd(a, b):
+    temp=0
+    while b != 0:
+        temp = b
+        b = a % b
+        a = temp
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+        
+    return a
+ 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b
+ 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return c
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a,b):
+    while b != 0:
+        tmp = a
+        a = b
+        b = tmp % a
+    return a 
+def nsd(a, b):
+    while b != 0:
+        num = b
+        b = a % b
+        a = num
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t=b
+        b= a%b
+        a=t
+    return a 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(u, w):
+    r = 0
+    
+    while w != 0:
+        r = u%w
+        u = w
+        w = r
+        
+    return u
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b != 0:
+       t = b
+       b = a % b
+       a = t
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        pom = b
+        b = a%b
+        a = pom
+    return a
+ 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b
+ 
+def nsd(a, b):
+    while (b != 0):
+        c = b
+        b = a % b
+        a = c
+    return a 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b, a % b)
+    return a 
+def nsd(a, b):
+     while b > 0:
+        a, b = b, a%b
+     return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        x=b
+        b=a%b
+        a=x
+    return x
+ 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b !=0:
+        x = a%b
+        a = b
+        b = x
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a
+ 
+def nsd(a, b):
+
+ 
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        a,b = b, a%b
+    return a 
+def nsd(a, b):
+    while(b):
+        a, b = b, a % b
+
+    return a 
+def nsd(vetsi, mensi):
+    zbytek = 0
+    while mensi>0:
+        zbytek = vetsi%mensi
+        vetsi = mensi
+        mensi = zbytek
+    return vetsi 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+        
+    return a
+ 
+def nsd(x, y):
+    while y != 0:
+        (x, y) = (y, x % y)
+    return x 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b
+ 
+def nsd(a, b):
+    while b > 1:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b>0:
+        p=a
+        a=b
+        b=p
+        b=b % a     
+    return a
+ 
+def nsd(a, b):
+    temp = 0
+    while(a != 0):
+        temp = a
+        a = b % a
+        b = temp
+    return b
+ 
+def nsd(a, b):
+    while b!=0:
+        (a,b)=(b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        x=b
+        b=a%b
+        a=x
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        a,b=b,a%b
+    return a
+ 
+def nsd(cislo1, cislo2):
+    while cislo2!=0:
+        delitel = cislo2
+        cislo2= cislo1 % cislo2
+        cislo1 = delitel
+    return cislo1
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        z = a % b
+        a = b
+        b = z
+    return a
+ 
+def nsd(a, b):
+    while b!= 0:
+        tmp = a
+        a = b
+        b = tmp % b
+        
+    return a
+ 
+def nsd(a, b):
+    t = 0
+    while b != 0:
+        t = b
+        b = a%b
+        a = t
+    return a
+    return 1
+ 
+def nsd(a, b):
+    while b != 0:
+        c = a%b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)    
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        temp = a%b
+        a=b
+        b=temp
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = a%b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    while a > 0:
+        a, b = b % a ,a
+    return b
+ 
+def nsd(a, b):
+    while b!=0:
+        x = b
+    return 1
+ 
+def nsd(a, b):
+    while b!=0:
+        b = a%b
+    return b
+ 
+def nsd(a, b):
+    while b!=0:
+        x = b
+        b = a%b
+        a = x
+    return a
+ 
+def nsd(a, b):
+    tmp=0
+    while b%a>0:
+        tmp = b%a
+        b=a
+        a=tmp
+    return a
+ 
+def nsd(a, b):
+    pom= 0
+    while b != 0:
+        pom = a%b
+        a = b
+        b = pom
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        (a,b)=(b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a, b):
+    while b!= 0:
+        (a,b) = (b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while (b!=0):
+        pom=a
+        a=b
+        b=pom%b
+    return a
+ 
+def nsd(a, b):
+    while (b!=0):
+        x = a
+        a=b
+        b= x%b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+    
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while(b != 0):
+        tmp = a
+        a = b
+        b = tmp % b
+    
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while a != 0:
+        t = a
+        a = b % a
+        b = t
+    return b
+ 
+def nsd(a, b):
+    while b !=0:
+        c = b
+        b= a%b
+        a=c
+    return c
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a, b):
+    remainder=1
+    while remainder!=0:
+        remainder=a%b
+        a=b
+        b=remainder
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        x = a%b
+        a = b
+        b = x
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        temp = b
+        b = a % b
+        a = temp
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        r = a % b
+        a = b
+        b = r
+    return a
+ 
+def nsd(a, b):
+   while b:
+      a, b = b, a%b
+   return abs(a)
+ 
+def nsd(a, b):
+    while a:
+        a, b=b%a, a
+    return b
+ 
+def nsd(a, b):
+    while b:
+        a,b = b,a%b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        x = b
+        b = a % b
+        a = x
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        n = b
+        b = a % b
+        a = n
+    return a
+ 
+def nsd(a, b):
+    c = 0
+    if a == 0:
+        return b
+    while b != 0:
+        c = b
+        b = a%b
+        a = c
+    return a
+ 
+def nsd(a,b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        c=b
+        b=a%b
+        a=c
+    return a
+ 
+def nsd(a,b):
+    while (b <> 0):
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    
+    while b<>0:
+        a,b=b,a%b
+        
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        (a,b) = (b, a%b)
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a, b):
+    while (b != 0):
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+        return a
+    
+        
+ 
+def nsd(u, w):
+    while w != 0:
+        r = u % w
+        u = w
+        w = r
+    return u 
+def nsd(a, b):
+    while b!=0:
+        t = b
+        b = a%b
+        a = t
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    while b != 0:
+       c = b
+       b = a % b
+       a = c
+    return a 
+def nsd(a, b):
+    while b != 0:
+        x = b
+        b = a % b
+        a = x
+    return a
+ 
+def nsd(a, b):
+    while b>0:
+        pom=a%b
+        a=b
+        b=pom
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a
+
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b!=0:
+        (a, b) = (b, a%b)
+    return a
+    
+ 
+def nsd(a, b):
+    c = 0
+    while b != 0:
+        c = a % b
+        a = b
+        b = c
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a 
+def nsd(a, b):
+    a = abs(a)
+    while b > 0:
+        b, a = a % b, b 
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t = b
+        b = a % b
+        a = t
+    return a
+ 
+def nsd (u,v):
+    t = 0
+    while v > 0:
+        t = v
+        v = u % v
+        u = t
+    return u
+ 
+def nsd(a, b):
+    r = 0
+    while b != 0:
+        r = a % b
+        a = b
+        b = r 
+    return a 
+def nsd(a, b):
+    while b!=0:
+        t=b
+        b=a%b
+        a=t
+    return a
+ 
+def nsd(a, b):
+    while b<>0:
+        c=b
+        b=a%b
+        a=c
+    return a
+ 
+def nsd(a, b):
+    while b > 0:
+        r = (a % b)
+        a = b
+        b = r
+    return a 
+def nsd(a, b):
+    while b!=0:
+        c = b
+        b = a % b
+        a = c
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
+ 
+def nsd(a, b):
+    temp=0
+    while b != 0:
+        temp = b
+        b = a % b
+        a = temp
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+        
+    return a
+ 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b
+ 
+def nsd(a, b):
+    while b != 0:
+        c = b
+        b = a % b
+        a = c
+    return c
+ 
+def nsd(a, b):
+    while b:
+        a,b=b,a%b
+    return a
+ 
+def nsd(a,b):
+    while b != 0:
+        tmp = a
+        a = b
+        b = tmp % a
+    return a 
+def nsd(a, b):
+    while b != 0:
+        num = b
+        b = a % b
+        a = num
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        t=b
+        b= a%b
+        a=t
+    return a 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(u, w):
+    r = 0
+    
+    while w != 0:
+        r = u%w
+        u = w
+        w = r
+        
+    return u
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b != 0:
+       t = b
+       b = a % b
+       a = t
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        pom = b
+        b = a%b
+        a = pom
+    return a
+ 
+def nsd(a, b):
+    while a:
+        a, b = b % a, a
+    return b
+ 
+def nsd(a, b):
+    while (b != 0):
+        c = b
+        b = a % b
+        a = c
+    return a 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b, a % b)
+    return a 
+def nsd(a, b):
+     while b > 0:
+        a, b = b, a%b
+     return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b, a % b)
+    return a 
+def nsd(a, b):
+    while b!=0:
+        r=a%b
+        a=b
+        b=r
+    return a
+ 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b!=0:
+        x=b
+        b=a%b
+        a=x
+    return x
+ 
+def nsd(a, b):
+    while b != 0:
+        (a,b) = (b,a%b)
+    return a
+ 
+def nsd(a, b):
+    while b !=0:
+        x = a%b
+        a = b
+        b = x
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        (a, b) = (b, a % b)
+    return a
+ 
+def nsd(a, b):
+
+ 
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def nsd(a, b):
+    while b != 0:
+        a,b = b, a%b
+    return a 
+def nsd(a, b):
+    while(b):
+        a, b = b, a % b
+
+    return a 
+def nsd(vetsi, mensi):
+    zbytek = 0
+    while mensi>0:
+        zbytek = vetsi%mensi
+        vetsi = mensi
+        mensi = zbytek
+    return vetsi 
+def nsd(a, b):
+    while b:
+        a, b = b, a%b
+        
+    return a
+ 
+def nsd(x, y):
+    while y != 0:
+        (x, y) = (y, x % y)
+    return x 

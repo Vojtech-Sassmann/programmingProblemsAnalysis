@@ -1,0 +1,158 @@
+def palindrom(text):
+    popredu = text
+    pozadu = text[::-1]
+    if popredu != pozadu:
+        return False
+    return True
+ 
+def palindrom(text):
+  text2=text[::-1]
+  if text==text2: return True
+  else: return False 
+def palindrom(text):
+   pozpatku=text[:: -1]
+   if text != pozpatku:
+        return False
+   return True 
+def palindrom(text):
+    puvodni=text
+    palindrom=puvodni[::-1]    
+    if puvodni==palindrom:
+        return True
+    else: return False 
+def palindrom(text):
+    palindrom==text[::-1]
+    if text==palindrom:
+        return False
+    return True
+ 
+def palindrom(text):
+    palindrom==text[::-1]
+    if text==palindrom:
+        return True
+    return False
+ 
+def palindrom(text):
+    pokus=text[::-1]
+    if text==pokus:
+        return True
+    return False
+ 
+def palindrom(text):
+    p=text[::-1]
+    if text==p:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    text2 = text [::-1]
+    if text == text2:
+        return True
+    return False
+ 
+def palindrom(text):
+    temp = text[::-1]
+    if text == temp:
+        return True
+    return False
+ 
+def palindrom(text):
+    text2 = text[-1::-1]
+    if text != text2:
+        return False
+    return True
+ 
+def palindrom(text):
+    text1 = text[::-1]
+    if text == text1:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    slovo = text[::-1]
+    if slovo == text: 
+        return True
+    else: return False
+ 
+def palindrom(text):
+    obracene=text[::-1]
+    if text == obracene:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    txet=text[-1:0:-1]+text[0]
+    if text==txet:
+        return True
+    return False
+ 
+def palindrom(text):
+    text1=text[::-1]
+    if text1==text:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    text1 = text[::-1]
+    if text1 == text:
+       return True
+    else:
+        return False
+ 
+def palindrom(text):
+    reverse = text[::-1]
+    if text == reverse:
+        return True
+    return False 
+def palindrom(text):
+    pozpatku = text[::-1]
+    if pozpatku == text:
+        jetopalindrom = True
+    else:
+        jetopalindrom = False
+    return jetopalindrom    
+ 
+def palindrom(text):
+    novy_text=text[::-1]
+    if text==novy_text:
+        return True
+    return False
+ 
+def palindrom(text):
+    a = text
+    b = text[::-1]
+    return a == b
+ 
+def palindrom(text):
+    pal = text[::-1]
+    return text == pal
+ 
+def palindrom(text):
+    pole=list(text)
+    pole2=pole[::-1]
+    if pole==pole2:
+        return True
+    else:
+        return False 
+def palindrom(text):
+    naspak = text[::-1]
+    if text == naspak:
+        return True
+    else:
+        return False
+ 
+def palindrom(text):
+    reverse = text[::-1]
+    if text == reverse:
+        return True
+    return False
+ 
+def palindrom(text):
+    rstring = text[::-1]
+    if text == rstring:
+        return True
+    return False
+ 
